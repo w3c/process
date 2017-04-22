@@ -4,4 +4,4 @@ This repository is for the editor's draft of the [World Wide Web Consortium Proc
 
 The Process document is updated most years by the W3C.
 
-The editor's draft is now available at https://w3c.github.io/w3process/process.html
+The editor's draft is now available at https://w3c.github.io/w3process/
