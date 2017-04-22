@@ -1,4 +1,7 @@
-# W3C Process Document
+# W3C Process Document repository
 
- World Wide Web Consortium Process Document
- https://www.w3.org/Consortium/Process/
+This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/)
+
+The Process document is updated most years by the W3C.
+
+The editor's draft is now available at https://w3c.github.io/w3process/process.html
