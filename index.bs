@@ -3922,7 +3922,7 @@ Start of a Review Period</h4>
 	Each Member organization <em class="rfc2119">may</em> send one review,
 	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
 
-	The Team <em class="rfc2119">must</em> provide two channels for Advisory Committee review comments:
+	The Team <em class="rfc2119">must</em> provide three channels for Advisory Committee review comments:
 
 	<ol>
 		<li>
@@ -3930,13 +3930,16 @@ Start of a Review Period</h4>
 
 		<li>
 			an archived [=Member-only=] channel.
+
+		<li>
+			an archived public channel.
 	</ol>
 
 	The [=Call for Review=] <em class="rfc2119">must</em> specify
 	which channel is the default for review comments on that Call.
 
 	Reviewers <em class="rfc2119">may</em> send information
-	to either or both channels.
+	to any or all channels.
 	They <em class="rfc2119">may</em> also share their reviews
 	with other Members on the <a href="#ACCommunication">Advisory Committee discussion list</a>.
 
