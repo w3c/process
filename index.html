@@ -273,7 +273,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
               </ul>
             </li>
             <li><a href="#Note">6.8 Publishing a Working Group or Interest Group Note</a></li>
-            <li><a href="#rec-rescind">6.9 Obsoleting or Rescinding a W3C Recommendation</a></li>
+            <li><a href="#rec-rescind">6.9 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a></li>
             <li><a href="#further-reading">6.10 Further reading</a></li>
           </ul>
         </li>
@@ -407,9 +407,8 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         Member participation agreements remain <a href="#Team-only">Team-only</a> and that no Member receives
         preferential treatment within W3C.</p>
 
-      <p id="IndividualParticipation">W3C does not have a class of membership tailored to, or priced for individuals.
-        However, an individual <em class="rfc2119">may</em> join W3C as an Affiliate Member. In this case the same
-        restrictions pertaining to <a href="#MemberRelated">related Members</a> apply when the individual also
+      <p id="IndividualParticipation">While W3C does not have a class of membership tailored to individuals, individuals <em class="rfc2119">may</em> join W3C. 
+        Restrictions pertaining to <a href="#MemberRelated">related Members</a> apply when the individual also
         <a href="#member-rep">represents</a> another W3C Member.</p>
 
       <h4 id="MemberBenefits">2.1.1 Rights of Members</h4>
@@ -792,16 +791,19 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="AB-TAG-vacated">2.5.3 Advisory Board and Technical Architecture Group Vacated Seats</h4>
 
-      <p>An Advisory Board or TAG participant's seat is vacated when either of the following occurs:</p>
+      <p>An Advisory Board or TAG participant's seat is vacated when:</p>
       <ul>
         <li>the participant <a href="#resignation">resigns</a>, or</li>
-        <li>the Chair asks the participant to <a href="#resignation">resign</a>.</li>
+        <li>an Advisory Board or TAG participant changes affiliations meaning the
+          <a href="#AB-TAG-constraints">Advisory Board and TAG participation constraints</a>
+          are no longer met, or</li>
+        <li>the Director dismisses the participant for failing to meet the 
+          <a href="#ParticipationCriteria">criteria for participation in section 3.1</a>, or</li>
+        <li>their term ends.</li>
       </ul>
-
-      <p>When an Advisory Board or TAG participant changes affiliations, as long as
-        <a href="#AB-TAG-constraints">Advisory Board and TAG participation constraints</a> are respected, the individual
-        <em class="rfc2119">may</em> continue to participate until the next regularly scheduled election for that group.
-        Otherwise, the seat is vacated.</p>
+        
+      <p>If a participant change affiliation, but the <a href="#AB-TAG-constraints">particiaption constraints</a> are met,
+        that participant's seat becomes vacant at the the next regularly scheduled election for that group.</p>
 
       <p>Vacated seats are filled according to this schedule:</p>
 
@@ -810,8 +812,12 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
           but no later than the next regularly scheduled election.</li>
         <li>When an elected seat on either the AB or TAG is vacated, the seat is filled at the next regularly scheduled election
           for the group unless the group Chair requests that W3C hold an election before then (for instance,
-          due to the group's workload). The group Chair <em class="rfc2119">should not</em> request an exceptional election
-          if the next regularly scheduled election is fewer than three months away.</li>
+          due to the group's workload). <ul>
+          <li>The group Chair <em class="rfc2119">should not</em> request an exceptional election
+            if the next regularly scheduled election is fewer than three months away.</li>
+          <li>The group Chair <em class="rfc2119">may</em> request an exceptional election,
+            and the election may begin, as soon as a current member gives notice of a resignation, 
+            including a resignation effective as of a given date in the future.</li></ul></li>
       </ul>
 
       <h2 id="Policies">3 General Policies for W3C Groups</h2>
@@ -826,17 +832,22 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>There are three qualities an individual is expected to demonstrate in order to participate in W3C:</p>
       <ol>
-        <li>Technical competence in one's role</li>
-        <li>The ability to act fairly</li>
-        <li>Social competence in one's role</li>
+        <li>Technical competence in one's role;</li>
+        <li>The ability to act fairly;</li>
+        <li>Social competence in one's role.</li>
       </ol>
       <p>Advisory Committee representatives who nominate individuals from their organization for participation in W3C activities
         are responsible for assessing and attesting to the qualities of those nominees.</p>
-      <p>See also the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>
+      <p>Participants in W3C activity <em class="rfc2119">must</em> abide by the terms and spirit of
+       the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>
        [<a href="#ref-cepc">PUB38</a>] and the participation requirements described in
-        <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a> of the
-        <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].</p>
+       <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a> of the
+       <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
+       [<a href="#ref-patentpolicy">PUB33</a>].</p>
+      <p>The Director <em class="rfc2119">may</em> suspend or remove a participant from any W3C Group 
+       (including the AB and TAG) or activity for failure to meet these requirements.</p>
 
+          
       <h4 id="coi">3.1.1 Conflict of Interest Policy</h4>
 
       <p>Individuals participating materially in W3C work <em class="rfc2119">must</em> disclose significant relationships when
@@ -1401,11 +1412,16 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <p>The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a> of every new or
           substantively modified Working Group or Interest Group charter. The Director is <em class="rfc2119">not required</em>
           to solicit Advisory Committee review prior to a charter extension or for minor changes. The review period
-          <em class="rfc2119">must</em> be at least four weeks.</p>
+          <em class="rfc2119">must</em> be at least 28 days.</p>
 
         <p>The Director's Call for Review of a substantively modified charter <em class="rfc2119">must</em> highlight
           important changes (e.g., regarding deliverables or resource allocation) and include rationale for the changes.</p>
-
+          
+        <p>In an Advisory Committee review of a charter that continues work on a Working Draft (WD) published under any other Charter,
+         any Advisory Committee Member <em class="rfc2119">may</em> request an "extended review". If this occurs, the Director
+         <em class="rfc2119">must not</em> issue a Call for Participation for the proposed group until at least 60 days
+         after announcing the Call for Review.</p>
+          
         <h4>5.2.4 <dfn id="cfp">Call for Participation in a Working Group or Interest Group</dfn></h4>
 
         <p>After Advisory Committee review of a Working Group or Interest Group charter, the Director
@@ -1785,12 +1801,13 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
           of its Recommendations as standards for the Web. The W3C Royalty-Free IPR licenses granted under the
           <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>]
           apply to W3C Recommendations.</dd>
-        <dt id="RecsObs">Obsolete Recommendation</dt>
-         <dd>An Obsolete Recommendation is a specification that W3C does not believe has sufficient market relevance to continue
-         recommending that the community implement it, but does not consider that there are fundamental problems that require the
-         Recommendation be Rescinded. It is possible for an Obsolete Recommendation to receive sufficient market uptake that W3C
-         decides to restore it to Recommendation status. An Obsolete Recommendation has the same status as a W3C Recommendation
-         with regards to W3C Royalty-Free IPR licenses granted under the Patent Policy.</dd>
+        <dt id="RecsObs">Obsolete or Superseded Recommendation</dt>
+         <dd>"An Obsolete Recommendation is a specification that the W3C believes no longer has enough market relevance to continue recommending it for implementation,
+but which does not have fundamental problems that would require it to be Rescinded. It is possible for an Obsolete specification to regain enough market
+relevance that the W3C decides to restore it to Recommendation status.
+<br>
+A Superseded Recommendation is a specification that has been replaced by a newer version that the W3C recommends for new adoption. An Obsolete or Superseded
+specification has the same status as a W3C Recommendation with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.</dd>
         <dt id="RescindedRec">Rescinded Recommendation</dt>
         <dd>A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses, and believes is unlikely to ever
            be restored to Recommendation Status. See also clause 10 of the licensing
@@ -1808,10 +1825,6 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         their contents endorsed in any way by W3C.</p>
 
       <h3 id="requirements-and-definitions">6.2 General requirements and definitions</h3>
-
-      <p>Please note that <dfn>publishing</dfn> as used in this document refers to producing a version which is listed as a
-        W3C Technical Report on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a>
-        [<a href="#ref-doc-list">PUB11</a>].</p>
 
       <h4 id="general-requirements">6.2.1 General requirements for Technical Reports</h4>
 
@@ -1908,7 +1921,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         comments and the Working Group's responses, is generally a good practice which would often be considered
         positive evidence of wide review. Working Groups <em class="rfc2119">should</em> announce to other W3C Working Groups
         as well as the general public, especially those affected by this specification, a proposal to enter
-        <a href="#last-call">Candidate Recommendation</a> (for example in approximately four weeks). By contrast a
+        <a href="#last-call">Candidate Recommendation</a> (for example in approximately 28 days). By contrast a
         generic statement in a document requesting review at any time is likely not to be considered as sufficient evidence
         that the group has solicited wide review. </p>
 
@@ -2030,7 +2043,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <li><em class="rfc2119">must</em> document how adequate <a href="#implementation-experience"> implementation experience</a>
           will be demonstrated,</li>
         <li><em class="rfc2119">must</em> specify the deadline for comments, which <em class="rfc2119">must</em> be
-          <strong>at least</strong> four weeks after publication, and <em class="rfc2119">should</em> be longer for
+          <strong>at least</strong> 28 days after publication, and <em class="rfc2119">should</em> be longer for
           complex documents,</li>
         <li><em class="rfc2119">must</em> show that the specification has received <a href="#wide-review">wide review</a>, and</li>
         <li><em class="rfc2119">may</em> identify features in the document as "at risk". These features
@@ -2062,11 +2075,10 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="revised-cr">6.4.1 Revising a Candidate Recommendation</h4>
 
-      <p>If there are any <a href="#substantive-change">substantive changes</a> made to a Candidate Recommendation other than to
-        remove features explicitly identified as "at risk", the Working Group <em class="rfc2119">must</em> obtain the Director's
-        approval to publish a revision of a Candidate Recommendation. This is because substantive changes will generally require a
-        new Exclusion Opportunity per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a> of the
-        <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].
+      <p>If changes are made to a Candidate Recommendation, the Working Group <em class="rfc2119">must</em> obtain the Director's
+        approval to publish a revision of a Candidate Recommendation. <a href="#substantive-change">Substantive changes</a> 
+        can require a new Exclusion Opportunity per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
+        of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].
         Note that approval is <em>expected</em> to be fairly simple compared to getting approval for a transition from
         Working Draft to Candidate Recommendation.</p>
 
@@ -2075,7 +2087,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <li><em class="rfc2119">must</em> show that the revised specification meets all Working Group requirements, or explain
           why the requirements have changed or been deferred,</li>
         <li><em class="rfc2119">must</em> specify the deadline for further comments, which <em class="rfc2119">must</em> be
-          <strong>at least</strong> four weeks after publication, and <em class="rfc2119">should</em> be longer for
+          <strong>at least</strong> 28 days after publication, and <em class="rfc2119">should</em> be longer for
           complex documents,</li>
         <li><em class="rfc2119">must</em> document the changes since the previous Candidate Recommendation, </li>
         <li><em class="rfc2119">must</em> show that the proposed changes have received <a href="#wide-review">wide review</a>,
@@ -2153,10 +2165,11 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
             Committee</a>, other W3C groups and to the public.</li>
       </ul>
       <p>Possible next steps:</p>
-      <p>A W3C Recommendation normally retains its status indefinitely. However it</p>
+      <p>A W3C Recommendation normally retains its status indefinitely. However it <em class="rfc2119">may</em></p>
       <ul>
-        <li><em class="rfc2119">may</em> be republished as an <a href="#rec-modify">(Edited or Amended) Recommendation</a>, or</li>
-        <li><em class="rfc2119">may</em> be <a href="#rec-rescind">rescinded</a>.</li>
+        <li>republished as an <a href="#rec-modify">Edited or Amended Recommendation</a>, or</li>
+        <li>declared <a href="#rec-rescind">superseded or obsolete</a> or</li>
+        <li><a href="#rec-rescind">rescinded</a>.</li>
       </ul>
 
       <h3 id="rec-modify">6.7 Modifying a W3C Recommendation</h3>
@@ -2423,16 +2436,19 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <p>The <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>]
         does not specify any licensing requirements or commitments for Working Group Notes.</p>
 
-      <h3 id="rec-rescind">6.9 Obsoleting or Rescinding a W3C Recommendation</h3>
+      <h3 id="rec-rescind">6.9 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 
       <p>It is possible that W3C decides that implementing a particular Recommendation is no longer recommended.
-        There are two designations for such specifications, chosen depending on how strongly W3C wishes to advise against
+        There are three designations for such specifications, chosen depending on how strongly W3C wishes to advise against
         using the specification.</p>
 
       <p>W3C <em class="rfc2119">may</em> obsolete a Recommendation, for example if the W3C Community decides that
         the Recommendation no longer represents best practices, or is not adopted and is not apparently likely to be adopted.
         An Obsolete Recommendation <em class="rfc2119">may</em> be restored to normal Recommendation,
         for example because despite marking it Obsolete the specification is later more broadly adopted.</p>
+
+        <p>W3C <em class="rfc2119">may</em> declare a Recommendation Superceded if a newer version exists which the W3C recommends for new adoption. The process for declaring a Recommendation
+Superceded is the same as for declaring it Obsolete, below; only the name and explanation change.</p>
 
       <p>W3C <em class="rfc2119">may</em> rescind a Recommendation if W3C believes there is no reasonable prospect
         of it being restored for example due to burdensome patent claims that affect implementers and cannot be resolved; see the
@@ -2441,7 +2457,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10) and
         <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.</p>
 
-      <p>W3C only rescinds or obsoletes entire Recommendations. To rescind or obsolete some part of a Recommendation,
+      <p>W3C only rescinds, supersedes,  or obsoletes entire Recommendations. To rescind, supersede,  or obsolete some part of a Recommendation,
         W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.</p>
 
       <p class="note">For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
@@ -2472,7 +2488,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <li>publish a rationale for the proposal</li>
         <li>identify known dependencies and solicit review from all dependent Working Groups</li>
         <li>solicit public review</li>
-        <li>specify the deadline for review comments, which <em class="rfc2119">must</em> be at least four weeks after
+        <li>specify the deadline for review comments, which <em class="rfc2119">must</em> be at least 28 days after
           the Director's announcement</li>
       </ul>
 
@@ -2643,11 +2659,24 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <p>All liaisons <em class="rfc2119">must</em> be coordinated by the Team due to requirements for public communication;
         patent, copyright, and other IPR policies; confidentiality agreements; and mutual membership agreements.</p>
 
-      <p>The W3C Director <em class="rfc2119">may</em> negotiate and sign a <dfn id="mou">Memorandum of Understanding
-        (<abbr>MoU</abbr>)</dfn> with another organization. Before signing the MoU, the Team <em class="rfc2119">must</em> inform
+      <p>The W3C Director <em class="rfc2119">may</em> negotiate a Memorandum of Understanding
+         with another organization. For the purposes of the W3C Process a
+        <dfn id="mou">Memorandum of Understanding (<abbr>MoU</abbr>)</dfn> is a formal agreement
+         or similar contractual framework between W3C and another party or parties,
+         other than agreements between the hosts or between hosts and W3C members for the purposes of membership and
+         agreements related to the ordinary provision of services for the purposes of running W3C,
+         that specifies rights and obligations of each party toward the others. 
+         These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
+         an agreed share of technical responsibilities with due coordination, and/or considerations for
+         confidentiality and specific IPR. The agreement may be called something other than a 
+         "Memorandum of Understanding", and something called a "Memorandum of Understanding" may not be an
+         MoU for the purposes of the Process.</p>
+        
+        <p>Before signing the MoU, the Team <em class="rfc2119">must</em> inform
         the Advisory Committee of the intent to sign and make the MoU available for Advisory Committee review; Advisory Committee
         representatives <em class="rfc2119">may</em> initiate an <a href="#ACAppeal">Advisory Committee Appeal</a> of the decision
-        to sign the MoU. Once approved, a Memorandum of Understanding <em class="rfc2119">should</em> be made public.</p>
+        to sign the MoU. Unless an appeal overturns the proposal to sign an MoU, the Director may sign the MoU on behalf of W3C.
+        A signed Memorandum of Understanding <em class="rfc2119">should</em> be made public.</p>
 
       <p>Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> and the
         guidelines W3C follows when creating a liaison [<a href="#ref-liaison-list">PUB28</a>] is available on the Web.</p>
@@ -2862,7 +2891,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <li>After comments have been <a href="#formal-address">formally addressed</a> and the document possibly modified, the Team
           seeks endorsement from the Members by initiating an <a href="#ACReview">Advisory Committee review</a> of a
           Proposed Process Document.
-          The review period <em class="rfc2119">must</em> last at least <span class="time-interval">four weeks</span>.</li>
+          The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>.</li>
         <li><a href="#ACReviewAfter">After the Advisory Committee review</a>, if there is consensus, the Team enacts the new
           process officially by announcing the <a href="#def-w3c-decision">W3C decision</a> to the Advisory Committee.
           Advisory Committee representatives <em class="rfc2119">may</em> initiate an
@@ -2928,7 +2957,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <dt id="ref-fellows">[PUB32]</dt>
          <dd><cite><a href="https://www.w3.org/Consortium/Recruitment/Fellows">W3C Fellows Program</a></cite></dd>
         <dt id="ref-patentpolicy">[PUB33]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Patent-Policy-20040205/">5 Feb 2004 version of the W3C Patent Policy</a></cite>. The
+         <dd><cite><a href="https://www.w3.org/Consortium/Patent-Policy-20170801/">1 August 2017 version of the W3C Patent Policy</a></cite>. The
           <a href="https://www.w3.org/Consortium/Patent-Policy/">latest version of the W3C Patent Policy</a> is available at
           https://www.w3.org/Consortium/Patent-Policy/.</dd>
         <dt id="in-place-tr-mod">[PUB35]</dt>
@@ -2987,16 +3016,47 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         who as interested individuals and/or with the affiliation(s) listed,
         have contributed to this proposal for a revised Process: </p>
       <p>
+        Dan Appelquist (Samsung),
+        David Baron (Mozilla),
+        Art Barstow,
+        Hadley Beeman,
+        Tim Berners-Lee (W3C),
+        Andrew Betts (Fastly),
+        Carine Bournez (W3C),
+        Wayne Carr (Intel),
         Michael Champion (Microsoft),
         Paul Cotton (Microsoft),
+        Tantek Çelik (Mozilla),
+        Daniel Dardailler (W3C),
+        Terence Eden (Her Majesty's Government),
         Virginia Fournier (Apple),
         Daniel Glazman (Disruptive Innovations),
-        Sadro Hawke (W3C),
+        Ivan Herman (W3C),
+        Sandro Hawke (W3C),
+        Gregg Kellogg,
+        Jay Kishigami 岸上順一 (NTT),
+        Philippe Le Hégaret (W3C),
+        Travis Leithead (Microsoft),
+        Peter Linss,
+        Coralie Mercier (W3C),
+        Sangwhan Moon (Odd Concepts),
         Mark Nottingham,
+        Steven Pemberton (CWI),
+        Liam Quin (W3C),
+        Delfí Ramírez, 
         Florian Rivoal (VivlioStyle),
+        Natasha Rooney (GSMA),
+        Alex Russell (Google),
+        Rob Sanderson (J Paul Getty Trust),
         Wendy Seltzer (W3C),
-        David Singer (Apple), and
-        Léonie Watson (The Paciello Group).</p>
+        David Singer (Apple),
+        Mitch Stoltz (EFF),
+        Ralph Swick (W3C),
+        Léonie Watson (The Paciello Group),
+        Chris Wilson (Google),
+        Fuqiao Xue (W3C),
+        Judy Zhu 朱红儒 (Alibaba),
+    and Steve Zilles.</p>
 
       <p>The editor is sorry for forgetting any names,
         and grateful to those who have listened patiently to conversations about this document
@@ -3077,8 +3137,27 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <p>This document is based on the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>.
         <a href="https://github.com/w3/w3process/">Detailed logs of all changes</a> are available.</p>
 
-      <p>No substantive changes have yet been made,
-        compared to the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>.</p>
+      <p>Changes made since the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>:</p>
+      
+      <dl>
+       <dt><a href="#AB-TAG-vacated">Section 2.5.3</a></dt>
+        <dd>AB and TAG seats are vacated if the Director removes a participant, instead of
+         if the chair asks them to resign</dd>
+        <dd>Clarify that a special election can begin if a candidate resigns as of some future date,
+         rather than waiting for that resignation to take effect.</dd>
+       <dt><a href="#ParticipationCriteria">Section 3.1</a></dt>
+        <dd>Participants in W3C activity are required to abide by the terms and spirit of the 
+        <a href="https://www.w3.org/Consortium/cepc/" title="Code of Ethics and Professional Conduct">CEPC</a></dd>
+        <dd>The Director can suspend or remove a participant from any Group or activity for failure to meet
+        participation criteria.</dd>
+        <dt><a href="#CharterReview">Section 5.2.3</a></dt>
+         <dd>Members can require a 60-day minimum between Call for Review of a Charter that continues work on an existing WD
+         and the Call for Participation for the group.</dd>
+        <dt><a href="#revised-cr">Section 6.4.1</a></dt>
+        <dd>All changes to Candidate Recommendations need approval.</dd>
+        <dt><a href="#Liaisons">Section 9</a></dt>
+        <dd>Definition of MoU and conditions for approval.</dd>
+      </dl>
 
     </main>
   </body>
