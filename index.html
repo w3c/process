@@ -612,7 +612,9 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <h4 id="ABParticipation">2.3.1 Advisory Board Participation</h4>
 
       <p>The Advisory Board consists of nine elected participants and a Chair. The Team appoints the Chair of the
-        <a href="#AB">Advisory Board</a>, who is generally the CEO.</p>
+        <a href="#AB">Advisory Board</a>, who is generally the CEO.
+        The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Staff Contact</a> for the AB,
+       as described in <a href="#ReqsAllGroups">Section 5.1</a></p>
 
       <p>The remaining nine Advisory Board participants are elected by the W3C Advisory Committee following the
         <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.</p>
@@ -668,19 +670,27 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="tag-participation">2.4.1 Technical Architecture Group Participation</h4>
 
-      <p>The TAG consists of eight elected or appointed participants and a Chair. The Team appoints the Chair of the TAG,
-        who is generally the <a href="#def-Director">Director</a>.</p>
+      <p>The TAG consists of:</p>
+      
+      <ul>
+      <li>Tim Berners-Lee, who is a life member;</li>
+      <li>The <a href="#def-Director">Director</a>, sitting <i>ex officio</i>;</li>
+      <li>Three participants appointed by the Director;</li>
+      <li>Six participants elected by the Advisory Committee following the
+        <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.</li>
+      </ul>
+      
+      <p>The Team appoints the Chair of the TAG, who <em class="rfc2119">must</em> be one of the participants.
+      The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Staff Contact</a> for the TAG,
+       as described in <a href="#ReqsAllGroups">Section 5.1</a></p>
 
-      <p>Three TAG participants are appointed by the Director. Appointees are <em class="rfc2119">not required</em> to be
-        on the W3C Team. The Director <em class="rfc2119">may</em> appoint <a href="#fellows">W3C Fellows</a> to the TAG.</p>
-
-      <p>The remaining five TAG participants are elected by the W3C Advisory Committee following the
-        <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.</p>
-
-      <p>With the exception of the Chair, the terms of all TAG participants are for <span class="time-interval">two years</span>.
-        Terms are staggered so that each year, either two or three elected terms, and either one or two appointed terms expire.
+      <p>The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
+        Terms are staggered so that each year three elected terms, and either one or two appointed terms expire.
         If an individual is appointed or elected to fill an incomplete term, that individual's term ends at the normal
         expiration date of that term. Regular TAG terms begin on 1 February and end on 31 January.</p>
+        
+      <p>The Director <em class="rfc2119">may</em> announce the appointed participants after the results for
+       the Advisory Committee election of participants have been announced.</p> 
 
       <h3 id="AB-TAG-participation">2.5 Advisory Board and Technical Architecture Group Participation</h3>
 
@@ -699,6 +709,9 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>],
         and the claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.</p>
 
+      <p>Participation in the TAG or AB other than as Chair or Staff Contact is in a personal capacity,
+       and a participant's seat <em class="rfc2119">must not</em> be delegated to any other person.</p>
+      
       <h4 id="AB-TAG-constraints">2.5.1 Advisory Board and Technical Architecture Group Participation Constraints</h4>
 
       <p>Given the few seats available on the Advisory Board and the TAG, and in order to ensure that the diversity of
@@ -719,7 +732,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         seat to be vacant. When more than one individual is involved, the
         <a href="#random">verifiable random selection procedure</a> described below will be used to choose one person for
         continued participation.</p>
-
+        
       <h4 id="AB-TAG-elections">2.5.2 Advisory Board and Technical Architecture Group Elections</h4>
 
       <p>The Advisory Board and a portion of the Technical Architecture Group are elected by the Advisory Committee, using a
@@ -1222,7 +1235,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
           <a href="https://www.w3.org/Guide/">Art of Consensus</a> [<a href="#ref-guide">PUB37</a>].</p>
         <p>Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact">Team Contact</dfn>, who acts as the interface
           between the Chair, group participants, and the rest of the Team. The
-          <a href="/Guide/staff-contact">role of the Team Contact</a> is described in the Member guide. The Chair and the
+          <a href="https://www.w3.org/Guide/staff-contact">role of the Team Contact</a> is described in the Member guide. The Chair and the
           Team Contact of a group <em class="rfc2119">should not</em> be the same individual.</p>
         <p>Each group <em class="rfc2119">must</em> have an archived mailing list for formal group communication (e.g., for
           meeting announcements and minutes, documentation of decisions, and <a href="#FormalObjection">Formal Objections</a>
@@ -3127,6 +3140,15 @@ Superceded is the same as for declaring it Obsolete, below; only the name and ex
       <p>Changes made since the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>:</p>
       
       <dl>
+       <dt><a href="#ABParticipation">Section 2.3.1</a></dt>
+        <dd>The AB has a staff contact</dd>
+       <dt><a href="#tag-participation">Section 2.4.1</a></dt>
+        <dd>Tim Berners-Lee is a Life Member of the TAG.</dd>
+        <dd>The TAG chair <em class="rfc2119">must</em> be one of the participants</dd>
+        <dd>The TAG has Six AC-elected members instead of 5</dd>
+        <dd>The TAG has a staff contact</dd>
+       <dt><a href="#AB-TAG-participation">Section 2.</a></dt>
+        <dd>Seats on the AB or TAG cannot be delegated to a proxy</dd>
        <dt><a href="#AB-TAG-vacated">Section 2.5.3</a></dt>
         <dd>AB and TAG seats are vacated if the Director removes a participant, instead of
          if the chair asks them to resign</dd>
@@ -3141,7 +3163,7 @@ Superceded is the same as for declaring it Obsolete, below; only the name and ex
          <dd>Members can require a 60-day minimum between Call for Review of a Charter that continues work on an existing WD
          and the Call for Participation for the group.</dd>
         <dt><a href="#revised-cr">Section 6.4.1</a></dt>
-        <dd>All changes to Candidate Recommendations need approval.</dd>
+        <dd>All changes to Candidate Recommendations need Director's approval.</dd>
         <dt><a href="#Liaisons">Section 9</a></dt>
         <dd>Definition of MoU and conditions for approval.</dd>
       </dl>
