@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="W3C Process, Consortium, Team, Recommendation, Advisory Committee,
-Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request">
+    <meta name="keywords" content="W3C Process, Team, Recommendation, Advisory Committee,
+Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request">
     <link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/base.css">
     <title>World Wide Web Consortium Process Document</title>
     <style type="text/css">
@@ -273,7 +273,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
               </ul>
             </li>
             <li><a href="#Note">6.8 Publishing a Working Group or Interest Group Note</a></li>
-            <li><a href="#rec-rescind">6.9 Obsoleting or Rescinding a W3C Recommendation</a></li>
+            <li><a href="#rec-rescind">6.9 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a></li>
             <li><a href="#further-reading">6.10 Further reading</a></li>
           </ul>
         </li>
@@ -407,9 +407,8 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
         Member participation agreements remain <a href="#Team-only">Team-only</a> and that no Member receives
         preferential treatment within W3C.</p>
 
-      <p id="IndividualParticipation">W3C does not have a class of membership tailored to, or priced for individuals.
-        However, an individual <em class="rfc2119">may</em> join W3C as an Affiliate Member. In this case the same
-        restrictions pertaining to <a href="#MemberRelated">related Members</a> apply when the individual also
+      <p id="IndividualParticipation">While W3C does not have a class of membership tailored to individuals, individuals <em class="rfc2119">may</em> join W3C. 
+        Restrictions pertaining to <a href="#MemberRelated">related Members</a> apply when the individual also
         <a href="#member-rep">represents</a> another W3C Member.</p>
 
       <h4 id="MemberBenefits">2.1.1 Rights of Members</h4>
@@ -813,8 +812,12 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
           but no later than the next regularly scheduled election.</li>
         <li>When an elected seat on either the AB or TAG is vacated, the seat is filled at the next regularly scheduled election
           for the group unless the group Chair requests that W3C hold an election before then (for instance,
-          due to the group's workload). The group Chair <em class="rfc2119">should not</em> request an exceptional election
-          if the next regularly scheduled election is fewer than three months away.</li>
+          due to the group's workload). <ul>
+          <li>The group Chair <em class="rfc2119">should not</em> request an exceptional election
+            if the next regularly scheduled election is fewer than three months away.</li>
+          <li>The group Chair <em class="rfc2119">may</em> request an exceptional election,
+            and the election may begin, as soon as a current member gives notice of a resignation, 
+            including a resignation effective as of a given date in the future.</li></ul></li>
       </ul>
 
       <h2 id="Policies">3 General Policies for W3C Groups</h2>
@@ -1792,12 +1795,13 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
           of its Recommendations as standards for the Web. The W3C Royalty-Free IPR licenses granted under the
           <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>]
           apply to W3C Recommendations.</dd>
-        <dt id="RecsObs">Obsolete Recommendation</dt>
-         <dd>An Obsolete Recommendation is a specification that W3C does not believe has sufficient market relevance to continue
-         recommending that the community implement it, but does not consider that there are fundamental problems that require the
-         Recommendation be Rescinded. It is possible for an Obsolete Recommendation to receive sufficient market uptake that W3C
-         decides to restore it to Recommendation status. An Obsolete Recommendation has the same status as a W3C Recommendation
-         with regards to W3C Royalty-Free IPR licenses granted under the Patent Policy.</dd>
+        <dt id="RecsObs">Obsolete or Superseded Recommendation</dt>
+         <dd>"An Obsolete Recommendation is a specification that the W3C believes no longer has enough market relevance to continue recommending it for implementation,
+but which does not have fundamental problems that would require it to be Rescinded. It is possible for an Obsolete specification to regain enough market
+relevance that the W3C decides to restore it to Recommendation status.
+<br>
+A Superseded Recommendation is a specification that has been replaced by a newer version that the W3C recommends for new adoption. An Obsolete or Superseded
+specification has the same status as a W3C Recommendation with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.</dd>
         <dt id="RescindedRec">Rescinded Recommendation</dt>
         <dd>A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses, and believes is unlikely to ever
            be restored to Recommendation Status. See also clause 10 of the licensing
@@ -2015,7 +2019,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
       <p>Possible next steps for any Working Draft:</p>
       <ul>
         <li>Revised <a href="#revised-wd">Public Working Draft</a></li>
-        <li><a href="#last-call">Candidate recommendation</a>.</li>
+        <li><a href="#last-call">Candidate recommendation</a></li>
         <li><a href="#Note">Working Group Note</a></li>
       </ul>
       <h4 id="tr-end">6.3.3 Stopping Work on a specification</h4>
@@ -2155,7 +2159,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
       <p>A W3C Recommendation normally retains its status indefinitely. However it</p>
       <ul>
         <li><em class="rfc2119">may</em> be republished as an <a href="#rec-modify">(Edited) Recommendation</a>, or</li>
-        <li><em class="rfc2119">may</em> be <a href="#rec-rescind">rescinded</a>.</li>
+        <li><em class="rfc2119">may</em> be <a href="#rec-rescind">rescinded or declared obsolete</a>.</li>
       </ul>
 
       <h3 id="rec-modify">6.7 Modifying a W3C Recommendation</h3>
@@ -2419,16 +2423,19 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
       <p>The <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>]
         does not specify any licensing requirements or commitments for Working Group Notes.</p>
 
-      <h3 id="rec-rescind">6.9 Obsoleting or Rescinding a W3C Recommendation</h3>
+      <h3 id="rec-rescind">6.9 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 
       <p>It is possible that W3C decides that implementing a particular Recommendation is no longer recommended.
-        There are two designations for such specifications, chosen depending on how strongly W3C wishes to advise against
+        There are three designations for such specifications, chosen depending on how strongly W3C wishes to advise against
         using the specification.</p>
 
       <p>W3C <em class="rfc2119">may</em> obsolete a Recommendation, for example if the W3C Community decides that
         the Recommendation no longer represents best practices, or is not adopted and is not apparently likely to be adopted.
         An Obsolete Recommendation <em class="rfc2119">may</em> be restored to normal Recommendation,
         for example because despite marking it Obsolete the specification is later more broadly adopted.</p>
+
+        <p>W3C <em class="rfc2119">may</em> declare a Recommendation Superceded if a newer version exists which the W3C recommends for new adoption. The process for declaring a Recommendation
+Superceded is the same as for declaring it Obsolete, below; only the name and explanation change.</p>
 
       <p>W3C <em class="rfc2119">may</em> rescind a Recommendation if W3C believes there is no reasonable prospect
         of it being restored for example due to burdensome patent claims that affect implementers and cannot be resolved; see the
@@ -2437,7 +2444,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
         <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10) and
         <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.</p>
 
-      <p>W3C only rescinds or obsoletes entire Recommendations. To rescind or obsolete some part of a Recommendation,
+      <p>W3C only rescinds, supersedes,  or obsoletes entire Recommendations. To rescind, supersede,  or obsolete some part of a Recommendation,
         W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.</p>
 
       <p class="note">For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
@@ -2724,7 +2731,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
 
       <p>After acknowledgment, the Submitter(s) <em class="rfc2119">must not</em>, <strong>under any circumstances</strong>, imply
         W3C investment in the Member Submission until, and unless, the material has been adopted as a deliverable of a W3C Working
-        Group</p>
+        Group.</p>
 
       <h4 id="SubmissionScope">10.1.1 Scope of Member Submissions</h4>
 
@@ -2983,6 +2990,7 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
         who as interested individuals and/or with the affiliation(s) listed,
         have contributed to this proposal for a revised Process: </p>
       <p>
+        David Baron (Mozilla),
         Michael Champion (Microsoft),
         Paul Cotton (Microsoft),
         Virginia Fournier (Apple),
@@ -3073,17 +3081,20 @@ Advisory Board, Working Group, Coordination Group, Interest Group, W3C Activity,
       <p>This document is based on the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>.
         <a href="https://github.com/w3/w3process/">Detailed logs of all changes</a> are available.</p>
 
-      <p>No substantive changes have yet been made,
-        compared to the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>.</p>
-        
-        <dt>Section <a href="#AB-TAG-vacated">2.5.3</a></dt>
+      <p>Changes made since the <a href="http://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>:</p>
+      
+      <dl>
+       <dt><a href="#AB-TAG-vacated">Section 2.5.3</a></dt>
         <dd>AB and TAG seats are vacated if the Director removes a participant, instead of
          if the chair asks them to resign</dd>
+        <dd>Clarify that a special election can begin if a candidate resigns as of some future date,
+         rather than waiting for that resignation to take effect.</dd>
         <dt>Section <a href="#ParticipationCriteria">3.1</a></dt>
         <dd>Participants in W3C activity are required to abide by the terms and spirit of the 
         <a href="https://www.w3.org/Consortium/cepc/" title="Code of Ethics and Professional Conduct">CEPC</a></dd>
         <dd>The Director can suspend or remove a participant from any Group or activity for failure to meet
         participation criteria.</dd>
+</dl>
 
     </main>
   </body>
