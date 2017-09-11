@@ -1090,38 +1090,31 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h3 id="Votes">3.4 Votes</h3>
 
-      <p>A group <em class="rfc2119">should</em> only conduct a vote to resolve a <em>substantive issue</em> after the Chair has
+      <p>A group <em class="rfc2119">should not</em> conduct a vote to resolve a <em>substantive issue</em> unless the Chair has
         determined that all available means of <a href="#Consensus">reaching consensus</a> through technical discussion and
         compromise have failed, and that a vote is necessary to break a deadlock. In this case the Chair
-        <em class="rfc2119">must</em> record (e.g., in the minutes of the meeting or in an archived email message):</p>
+        <em class="rfc2119">must</em>:</p>
+        
       <ul>
-        <li>an explanation of the issue being voted on;</li>
-        <li>the decision to conduct a vote (e.g., a simple majority vote) to resolve the issue;</li>
-        <li>the outcome of the vote;</li>
-        <li>any Formal Objections.</li>
-      </ul>
+        <li>notify the group that a vote will be held at least 7 days before voting ends,
+        describing the proposal to be voted on and the mechanism to vote,</li>
+        <li>enable asynchronous votes (e.g. through email) during a period of not less than 48 hours, and</li> 
+        <li>record the outcome of the vote, and any Formal Objections.</li>
+      </ul>  
       <p>In order to vote to resolve a substantive issue, an individual <em class="rfc2119">must</em> be a group
-        <a href="#participant">participant</a>. Each organization represented in the group <em class="rfc2119">must</em> have
-        at most one vote, even when the organization is represented by several participants in the group (including
-        Invited Experts). For the purposes of voting:</p>
-      <ul>
-        <li>A Member or group of <a href="#MemberRelated">related Members</a> is considered a single organization.</li>
-        <li>The <a href="#Team">Team</a> is considered an organization.</li>
-      </ul>
-      <p>Unless the charter states otherwise, <a href="#invited-expert-wg">Invited Experts</a> <em class="rfc2119">may</em> vote.</p>
-      <p>If a participant is unable to attend a vote, that individual <em class="rfc2119">may</em> authorize anyone at the meeting
-        to act as a <dfn id="proxy">proxy</dfn>. The absent participant <em class="rfc2119">must</em> inform the Chair in writing
-        who is acting as proxy, with written instructions on the use of the proxy. For a Working Group or Interest Group, see the
-        related requirements regarding an individual who attends a meeting as a <a href="#mtg-substitute">substitute</a>
-        for a participant.</p>
+        <a href="#participant">participant</a>.</p>
+        
+      <p>By default there is no quorum requirement for votes, all participants in a group have one vote,
+        and votes cast in favour outnumbering votes cast against is means a proposal becomes a group decision by vote.</p>
+        
 
-      <p>A group <em class="rfc2119">may</em> vote for other purposes than to resolve a substantive issue. For instance, the
-       Chair often conducts a "straw poll" vote as a means of determining whether there is consensus about a potential decision.</p>
-      <p>A group <em class="rfc2119">may</em> also vote to make a process decision. For example, it is appropriate to decide by
-        simple majority whether to hold a meeting in San Francisco or San Jose (there's not much difference geographically).
-        When simple majority votes are used to decide minor issues, the minority are <em class="rfc2119">not required</em> to
-        state the reasons for their dissent, and the group is <em class="rfc2119">not required</em> to record individual votes.</p>
-      <p>A group charter <em class="rfc2119">should</em> include formal voting procedures (e.g., quorum or threshold requirements)
+      <p>A group <em class="rfc2119">may</em> vote, acording to any procedures they choose,
+       for purposes other than to resolve a substantive issue.
+       A Chair <em class="rfc2119">may</em> conduct a "straw poll" vote to test consensus on a potential decision
+       or to make a practical decision. For example, it is appropriate to decide by vote
+       whether to hold a meeting in San Francisco or San Jose (there's not much difference geographically).</p>
+ 
+      <p>A group charter <em class="rfc2119">may</em> include further information on voting procedures (e.g., quorum or threshold requirements)
         for making decisions about substantive issues.</p>
 
       <p>Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.</p>
@@ -1515,6 +1508,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
             <span class="time-interval">eight weeks</span> after the date of the proposal.</li>
           <li>Communication mechanisms to be employed within the group, between the group and the rest of W3C, and with the
             general public;</li>
+          <li>Any voting procedures or requirements other than those specified in <a href="#Votes">Section 3.4</a>;</li>  
           <li>An estimate of the expected time commitment from participants;</li>
           <li>The expected time commitment and level of involvement by the Team (e.g., to track developments, write and edit
             technical reports, develop code, or organize pilot experiments).</li>
@@ -1567,9 +1561,6 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
           participation, including specifying that the <dfn id="ig-mail-only">only requirement for participation (by anyone) in
           the Interest Group is subscription to the Interest Group mailing list</dfn>. This type of Interest Group
           <em class="rfc2119">may</em> have <a href="#public-participant-ig">public participants</a>.</p>
-
-        <p>A charter <em class="rfc2119">may</em> include additional voting procedures, but those procedures
-          <em class="rfc2119">must not</em> conflict with the <a href="#Votes">voting requirements</a> of the Process Document.</p>
 
         <p>A charter <em class="rfc2119">may</em> include provisions other than those required by this document. The charter
           <em class="rfc2119">should</em> highlight whether additional provisions impose constraints beyond those of the W3C
@@ -3200,9 +3191,22 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
         <a href="https://www.w3.org/Consortium/cepc/" title="Code of Ethics and Professional Conduct">CEPC</a></dd>
         <dd>The Director can suspend or remove a participant from any Group or activity for failure to meet
         participation criteria.</dd>
+       <dt><a href="#Votes">Section 3.4</a></dt>
+        <dd>Votes on substantive issues must have at least 7 days notice and allow asynchronous participation
+         over a minimum 48 hours</dd>
+         <dd>Added default provisions:
+           <ul>
+             <li>Each participant has one vote, rather than one per member organisation or group of related members</li>
+             <li>There is no quorum for votes</li>
+             <li>More votes in favour than against results in a proposal becoming a decision</li>
+           </ul></dd>
+         <dd>Charters <em class="rfc2119">may</em> rather than <em class="rfc2119">should</em> describe additional voting procedures</dd>
         <dt><a href="#CharterReview">Section 5.2.3</a></dt>
          <dd>Members can require a 60-day minimum between Call for Review of a Charter that continues work on an existing WD
          and the Call for Participation for the group.</dd>
+        <dt><a href="#WGCharter">Section 5.2.6</a></a></dt>
+         <dd>Charters <em class="rfc2119">must</em> include documentation of any voting procedures additional to those defined 
+         in <a href="#Votes">Section 3.4 Voting</a>.</dd>
         <dt><a href="#revised-cr">Section 6.4.1</a></dt>
         <dd>All changes to Candidate Recommendations need Director's approval.</dd>
         <dt><a href="#Liaisons">Section 9</a></dt>
