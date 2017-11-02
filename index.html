@@ -26,7 +26,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
   <body>
     <div class="head"><a href="https://www.w3.org/"><img alt="W3C" src="https://www.w3.org/Icons/w3c_home" height="48" width="72"></a>
       <h1>W3C Process Document Editor's Draft</h1>
-      <h2 class="notoc">21 September 2017 Editor's Draft</h2>
+      <h2 class="notoc">2 November 2017 Editor's Draft</h2>
       <dl>
         <dt>Latest Editor's version:</dt>
          <dd><a href="https://w3c.github.io/w3process/index.html">https://w3c.github.io/w3process/index.html</a></dd>
@@ -635,7 +635,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>The Advisory Board consists of nine elected participants and a Chair. The Team appoints the Chair of the
         <a href="#AB">Advisory Board</a>, who is generally the CEO.
-        The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Staff Contact</a> for the AB,
+        The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a> for the AB,
        as described in <a href="#ReqsAllGroups">Section 5.1</a>.</p>
 
       <p>The remaining nine Advisory Board participants are elected by the W3C Advisory Committee following the
@@ -703,7 +703,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       </ul>
       
       <p>The Team appoints the Chair of the TAG, who <em class="rfc2119">must</em> be one of the participants.
-      The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Staff Contact</a> for the TAG,
+      The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a> for the TAG,
        as described in <a href="#ReqsAllGroups">Section 5.1</a>.</p>
 
       <p>The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
@@ -731,7 +731,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>],
         and the claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.</p>
 
-      <p>Participation in the TAG or AB other than as Chair or Staff Contact is in a personal capacity,
+      <p>Participation in the TAG or AB other than as Chair or Team Contact is in a personal capacity,
        and a participant's seat <em class="rfc2119">must not</em> be delegated to any other person.</p>
       
       <h4 id="AB-TAG-constraints">2.5.1 Advisory Board and Technical Architecture Group Participation Constraints</h4>
@@ -1088,31 +1088,38 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h3 id="Votes">3.4 Votes</h3>
 
-      <p>A group <em class="rfc2119">should not</em> conduct a vote to resolve a <em>substantive issue</em> unless the Chair has
+      <p>A group <em class="rfc2119">should</em> only conduct a vote to resolve a <em>substantive issue</em> after the Chair has
         determined that all available means of <a href="#Consensus">reaching consensus</a> through technical discussion and
         compromise have failed, and that a vote is necessary to break a deadlock. In this case the Chair
-        <em class="rfc2119">must</em>:</p>
-        
+        <em class="rfc2119">must</em> record (e.g., in the minutes of the meeting or in an archived email message):</p>
       <ul>
-        <li>notify the group that a vote will be held at least 7 days before voting ends,
-        describing the proposal to be voted on and the mechanism to vote,</li>
-        <li>enable asynchronous votes (e.g. through email) during a period of not less than 48 hours, and</li> 
-        <li>record the outcome of the vote, and any Formal Objections.</li>
-      </ul>  
+        <li>an explanation of the issue being voted on;</li>
+        <li>the decision to conduct a vote (e.g., a simple majority vote) to resolve the issue;</li>
+        <li>the outcome of the vote;</li>
+        <li>any Formal Objections.</li>
+      </ul>
       <p>In order to vote to resolve a substantive issue, an individual <em class="rfc2119">must</em> be a group
-        <a href="#participant">participant</a>.</p>
-        
-      <p>By default there is no quorum requirement for votes, all participants in a group have one vote,
-        and votes cast in favour outnumbering votes cast against is means a proposal becomes a group decision by vote.</p>
-        
+        <a href="#participant">participant</a>. Each organization represented in the group <em class="rfc2119">must</em> have
+        at most one vote, even when the organization is represented by several participants in the group (including
+        Invited Experts). For the purposes of voting:</p>
+      <ul>
+        <li>A Member or group of <a href="#MemberRelated">related Members</a> is considered a single organization.</li>
+        <li>The <a href="#Team">Team</a> is considered an organization.</li>
+      </ul>
+      <p>Unless the charter states otherwise, <a href="#invited-expert-wg">Invited Experts</a> <em class="rfc2119">may</em> vote.</p>
+      <p>If a participant is unable to attend a vote, that individual <em class="rfc2119">may</em> authorize anyone at the meeting
+        to act as a <dfn id="proxy">proxy</dfn>. The absent participant <em class="rfc2119">must</em> inform the Chair in writing
+        who is acting as proxy, with written instructions on the use of the proxy. For a Working Group or Interest Group, see the
+        related requirements regarding an individual who attends a meeting as a <a href="#mtg-substitute">substitute</a>
+        for a participant.</p>
 
-      <p>A group <em class="rfc2119">may</em> vote, acording to any procedures they choose,
-       for purposes other than to resolve a substantive issue.
-       A Chair <em class="rfc2119">may</em> conduct a "straw poll" vote to test consensus on a potential decision
-       or to make a practical decision. For example, it is appropriate to decide by vote
-       whether to hold a meeting in San Francisco or San Jose (there's not much difference geographically).</p>
- 
-      <p>A group charter <em class="rfc2119">may</em> include further information on voting procedures (e.g., quorum or threshold requirements)
+      <p>A group <em class="rfc2119">may</em> vote for other purposes than to resolve a substantive issue. For instance, the
+       Chair often conducts a "straw poll" vote as a means of determining whether there is consensus about a potential decision.</p>
+      <p>A group <em class="rfc2119">may</em> also vote to make a process decision. For example, it is appropriate to decide by
+        simple majority whether to hold a meeting in San Francisco or San Jose (there's not much difference geographically).
+        When simple majority votes are used to decide minor issues, the minority are <em class="rfc2119">not required</em> to
+        state the reasons for their dissent, and the group is <em class="rfc2119">not required</em> to record individual votes.</p>
+      <p>A group charter <em class="rfc2119">should</em> include formal voting procedures (e.g., quorum or threshold requirements)
         for making decisions about substantive issues.</p>
 
       <p>Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.</p>
@@ -1522,34 +1529,36 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
          and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a> of the
          <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].</p>
 
-        <p>For every Recommendation Track deliverable that continues work on a Working Draft (WD) published under any other
-          Charter (including a predecessor group of the same name), for which there is an existing Reference Draft or
-          Candidate Recommendation, the description of that deliverable in the proposed charter of the adopting Working Group
+        <p>For every Recommendation Track deliverable that continues work on a <a href="#RecsWD">Working Draft</a> (WD) 
+          published under any other Charter (including a predecessor group of the same name), for which there is 
+          an existing <a href="reference-draft">Reference Draft</a> or <a href="last-call">Candidate Recommendation</a>, 
+          the description of that deliverable in the proposed charter of the adopting Working Group
           <em class="rfc2119">must</em> provide the following information:</p>
 
         <ul>
-          <li>The title, stable URL, and publication date of the <dfn>Adopted Working Draft</dfn> which will serve as the basis
-            for work on the deliverable</li>
+          <li>The title, stable URL, and publication date of the Working Draft or other Recommendation-track document that
+           will serve as the basis for work on the deliverable (labeled <dfn id ="adopted-draft">"Adopted Draft"</dfn>);</li>
           <li>The title, stable URL, and publication date of the most recent Reference Draft or
-            <a href="#last-call">Candidate Recommendation</a> which triggered an Exclusion Opportunity per the Patent Process</li>
-          <li>The stable URL of the Working Group charter under which the most recent Reference Draft or Candidate Recommendation
-            was published.</li>
+            <a href="#last-call">Candidate Recommendation</a> that triggered an Exclusion Opportunity per the 
+            Patent Process (labeled <dfn id="exclusion-draft">"Exclusion Draft"</dfn>); and</li>
+          <li>The stable URL of the Working Group charter under which the Exclusion Draft
+            was published (labeled the <dfn id="other-charter">“Other Charter”</dfn>).</li>
         </ul>
 
-        <p>These data <em class=rfc2119>must</em> be identified in the charter with the labels "Adopted Working Draft",
-          "most recent Reference Draft", "most recent Candidate Recommendation", and "Other Charter", respectively.</p>
+        <p>All of the above data <em class=rfc2119>must</em> be identified in the adopting Working Group’s charter using
+         the labels indicated.</p>
 
-        <p>The <dfn>Reference Draft</dfn> is the latest Working Draft published within 90 days of the
+        <p>The <dfn id="reference-draft">Reference Draft</dfn> is the latest Working Draft published within 90 days of the
           <a href="#first-wd">First Public Working Draft</a> or if no Working Draft has been published within
           90 days of the First Public Working Draft it is that First Public Working Draft. It is the specific draft against which
           exclusions are made, as per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-with">section 4.1</a>
           of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
           [<a href="#ref-patentpolicy">PUB33</a>].</p>
 
-        <p>The Adopted Working Draft and the most recent Reference Draft or <a href="#last-call">Candidate Recommendation</a>
+        <p>The <a href="#adopted-draft">Adopted Draft</a> and the <a href="#exclusion-draft">Exclusion Draft</a>
           <em class="rfc2119">must</em> each be adopted in their entirety and without any modification. The proposed charter
-          <em class="rfc2119">must</em> state that the most recent Reference Draft or Candidate Recommendation
-          is deemed to be the Reference Draft or Candidate Recommendation of the Adopted Working Draft, and the date when the
+          <em class="rfc2119">must</em> state that <a href="#exclusion-draft">Exclusion Draft</a>
+          is deemed to be the Reference Draft or Candidate Recommendation of the Adopted Draft, and the date when the
           Exclusion Opportunity that arose on publishing the First Public Working Draft or Candidate Recommendation
           began and ended. As per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-join">section 4.3</a> of
           the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
@@ -1830,12 +1839,12 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
           apply to W3C Recommendations. As technology evolves, a W3C Recommendation may become:
            <dl>
              <dt>An Edited Recommendation</dt>
-              <dd>A Working Group may make editorial or other minor corrections to a Recommendation, and produce a new
-              version which W3C publishes as a revised edition of the Recommendation.</dd>
+              <dd>A Working Group may make <a href="#editorial-change">editorial</a> or other minor changes to a Recommendation, and produce a new
+              version which W3C publishes as a <a href="#revised-rec">revised edition</a> of the Recommendation.</dd>
              <dt>An Amended Recommendation</dt>
               <dd>An <dfn id="rec-amended">Amended Recommendation</dfn> is a Recommendation that is amended to include <a href="#correction-classes">substantive 
               changes that do not add new features</a>, and is produced by the W3C at a time when the Recommendation does not fit 
-              within the charter of any active Working Group.</dd>
+              within the charter of any active Working Group. The W3C team guides it through the process.</dd>
             <dt id="RecsObs">Obsolete or Superseded Recommendation</dt>
               <dd>An Obsolete Recommendation is a specification that the W3C has determined lacks sufficient market relevance
                to continue recommending it for implementation, but which does not have fundamental problems
@@ -2073,7 +2082,8 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>To publish a Candidate Recommendation, in addition to meeting the
         <a href="#transition-reqs">general requirements for advancement</a> a Working Group,
-        or in the case of a document intended to become an <a href="#rec-amended">Amended Recommendation</a>, the W3C:</p>
+        or in the case of a candidate <a href="#rec-amended">Amended Recommendation</a> 
+        (a document intended to become an <a href="#rec-amended">Amended Recommendation</a>), the W3C:</p>
       <ul>
         <li><em class="rfc2119">must</em> show that the specification has met all Working Group requirements, or explain why the
           requirements have changed or been deferred,</li>
@@ -2096,7 +2106,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         Publishing a Candidate Recommendation triggers a Call for Exclusions, per
         <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a> of the
         <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>], except if the
-        document is intended to become an <a href="#rec-amended">Amended Recommendation</a> or contains only editorial changes.</p>
+        document is a candidate <a href="#rec-amended">Amended Recommendation</a> or contains only editorial changes.</p>
       <p>Possible next steps:</p>
       <ul>
         <li>Return to <a href="#revised-wd">Working Draft</a></li>
@@ -2109,7 +2119,8 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="revised-cr">6.4.1 Revising a Candidate Recommendation</h4>
 
-      <p>If changes are made to a Candidate Recommendation, the Working Group <em class="rfc2119">must</em> obtain the Director's
+      <p>If there are any <a href="#substantive-change">substantive changes</a> made to a Candidate Recommendation other than to
+        remove features explicitly identified as "at risk", the Working Group <em class="rfc2119">must</em> obtain the Director's
         approval to publish a revision of a Candidate Recommendation. <a href="#substantive-change">Substantive changes</a> 
         can require a new Exclusion Opportunity per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
         of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].
@@ -2429,11 +2440,11 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         add new features, or where there were votes against publishing the corrections directly as a
         <a href="#rec-pr">Recommendation</a>, a Working Group <em class="rfc2119">may</em> request publication of a
         <a href="#last-call">Candidate Recommendation</a>, or if no Working Group is chartered to maintain a Recommendation
-        W3C <em class="rfc2119">may</em> publish a <a href="#last-call">Candidate Recommendation</a>,
+        W3C <em class="rfc2119">may</em> publish a <a href="#last-call">candidate Amended Recommendation</a>,
 	without passing through earlier maturity levels.</p>
 
       <p>If the publication was requested by a Working Group, the resulting Recommendation is called an
-        <dfn id="rec-edited">Edited Recommendation</dfn>. If the publication was requested by the W3C in the absence of a Working Group, 
+        <dfn id="rec-edited">Edited Recommendation</dfn>. If the publication was requested by the W3C team in the absence of a Working Group, 
         the resulting Recommendation is called an <a href="#rec-amended">Amended Recommendation</a>.</p>
 
         <p>When requesting the publication of an Edited or Amended Recommendation as described in this section, in addition to meeting the
@@ -2666,7 +2677,8 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
       <p>The Advisory Committee votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>, and in
         the event of an <a href="#def-w3c-decision">Advisory Committee Appeal</a> achieving the required support to trigger an
         appeal vote.. Whenever the Advisory Committee votes, each Member or group of <a href="#MemberRelated">related Members</a>
-        has one vote.</p>
+        has one vote. In the case of <a href="#AB-TAG-elections">Advisory Board and TAG elections</a>, "one vote" means
+        "one vote per available seat".</p>
 
       <h2 id="GAEvents">8 Workshops and Symposia</h2>
 
@@ -2706,7 +2718,7 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
          with another organization. For the purposes of the W3C Process a
         <dfn id="mou">Memorandum of Understanding (<abbr>MoU</abbr>)</dfn> is a formal agreement
          or similar contractual framework between W3C and another party or parties,
-         other than agreements between the hosts or between hosts and W3C members for the purposes of membership and
+         other than agreements between the Hosts or between Hosts and W3C members for the purposes of membership and
          agreements related to the ordinary provision of services for the purposes of running W3C,
          that specifies rights and obligations of each party toward the others. 
          These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
@@ -3184,16 +3196,14 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
       
       <dl>
        <dt><a href="#ABParticipation">Section 2.3.1</a></dt>
-        <dd>The AB has a staff contact</dd>
+        <dd>The AB has a team contact</dd>
        <dt><a href="#tag-participation">Section 2.4.1</a></dt>
         <dd>Tim Berners-Lee is a Life Member of the TAG.</dd>
         <dd>The TAG chair <em class="rfc2119">must</em> be one of the participants</dd>
         <dd>The TAG has Six AC-elected members instead of 5</dd>
-        <dd>The TAG has a staff contact</dd>
+        <dd>The TAG has a team contact</dd>
        <dt><a href="#AB-TAG-participation">Section 2.5</a></dt>
         <dd>Seats on the AB or TAG cannot be delegated to a proxy</dd>
-       <dt><a href="#AB-TAG-elections">Section 2.5.2</a></dt>
-        <dd>STV voting means there is one ranked vote per candidate. Removed statement there is one vote per available seat.</dd>
        <dt><a href="#AB-TAG-vacated">Section 2.5.3</a></dt>
         <dd>AB and TAG seats are vacated if the Director removes a participant, instead of
          if the chair asks them to resign</dd>
@@ -3204,17 +3214,7 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
         <a href="https://www.w3.org/Consortium/cepc/" title="Code of Ethics and Professional Conduct">CEPC</a></dd>
         <dd>The Director can suspend or remove a participant from any Group or activity for failure to meet
         participation criteria.</dd>
-       <dt><a href="#Votes">Section 3.4</a></dt>
-        <dd>Votes on substantive issues must have at least 7 days notice and allow asynchronous participation
-         over a minimum 48 hours</dd>
-         <dd>Added default provisions:
-           <ul>
-             <li>Each participant has one vote, rather than one per member organisation or group of related members</li>
-             <li>There is no quorum for votes</li>
-             <li>More votes in favour than against results in a proposal becoming a decision</li>
-           </ul></dd>
-         <dd>Charters <em class="rfc2119">may</em> rather than <em class="rfc2119">should</em> describe additional voting procedures</dd>
-        <dt><a href="#CharterReview">Section 5.2.3</a></dt>
+       <dt><a href="#CharterReview">Section 5.2.3</a></dt>
          <dd>Members can require a 60-day minimum between Call for Review of a Charter that continues work on an existing WD
          and the Call for Participation for the group.</dd>
         <dt><a href="#WGCharter">Section 5.2.6</a></a></dt>
