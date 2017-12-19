@@ -2487,39 +2487,35 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>It is possible that W3C decides that implementing a particular Recommendation is no longer recommended.
         There are three designations for such specifications, chosen depending on the advice W3C wishes to give about
-        further use of the specification.</p>
+        further use of the specification:</p>
+	    
+            <dl>
+	      <dt><a href="RecsSup">Superseded Recommendation</a></dt>
+	        <dd>Used when W3C prefers to recommend a newer specification.</dd>
+	      <dt><a href="RecsObs">Obsolete Recommendation</a></dt>
+	        <dd>Used when W3C no longer recommends implementation of the technology described in a specification, 
+		      e.g. because it appears unlikely to gain sufficient market acceptance to support interoperability.</dd>
+	      <dt><a href="RescindedRec">Rescinded Recommendation</a></dt>
+	        <dd>Used when W3C no longer recommends use of a specification because it has a major problem,
+		      e.g. apparently unresolvable issues related to IPR or security.</dd>
+	    </dl>
 
-      <p>W3C <em class="rfc2119">may</em> obsolete a Recommendation, for example if the W3C Community decides that
-        the Recommendation no longer represents best practices, or is not adopted and is not apparently likely to be adopted.
-        An Obsolete Recommendation <em class="rfc2119">may</em> be restored to normal Recommendation,
-        for example because despite marking it Obsolete the specification is later more broadly adopted.</p>
-
-        <p>W3C <em class="rfc2119">may</em> declare a Recommendation Superseded if a newer version exists which the W3C recommends for new adoption. The process for declaring a Recommendation
-Superseded is the same as for declaring it Obsolete, below; only the name and explanation change.</p>
-
-      <p>W3C <em class="rfc2119">may</em> rescind a Recommendation if W3C believes there is no reasonable prospect
-        of it being restored for example due to burdensome patent claims that affect implementers and cannot be resolved; see the
-        <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
-        [<a href="#ref-patentpolicy">PUB33</a>] and in particular
-        <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10) and
-        <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.</p>
-
-      <p>W3C only rescinds, supersedes,  or obsoletes entire Recommendations. To rescind, supersede,  or obsolete some part of a Recommendation,
+      <p class="note">W3C only rescinds, supersedes,  or obsoletes entire Recommendations. To rescind, supersede, or obsolete some part of a Recommendation,
         W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.</p>
 
       <p class="note">For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
-       [<a href="#ref-patentpolicy">PUB33</a>] an Obsolete Recommendation has the status of an active Recommendation,
+       [<a href="#ref-patentpolicy">PUB33</a>] an Obsolete or Superseded Recommendation has the status of an active Recommendation,
        although it is not recommended for future implementation; a Rescinded Recommendation ceases to be in effect
        and no new licenses are granted under the Patent Policy.</p>
 
-      <p>The Director <em class="rfc2119">may</em> recommend obsoleting, rescinding, or restoring a Recommendation. The Director
-        <em class="rfc2119">must</em> begin an <a href="#ACReview">Advisory Committee review</a> of a
-        proposal to obsolete, rescind, or restore a Recommendation when requested to do so by any of the following:</p>
+      <p>To declare a Recommendation superseded, obsolete, or rescinded, W3C <em class="rfc2119">must</em>
+	begin an <a href="#ACReview">Advisory Committee review</a> within 28 days of receiving @@HOW/WHERE a proposal from any of the following:</p>
 
       <ul>
+        <li>The Director</li>
         <li>The Working Group who produced, or is chartered to maintain, the Recommendation.</li>
-        <li>The TAG, if there is no such Working Group</li>
-        <li>Any individual who made a request to the relevant Working Group as described above, or the TAG if such a group
+        <li>The TAG, if there is no Working Group chartered to maintain the Recommendation,</li>
+        <li>Any individual who made a request to the relevant Working Group, or the TAG if such a group
           does not exist, to obsolete, rescind, or restore a Recommendation, where the request was not answered
           within 90 days</li>
         <li>5% of the members of the Advisory Committee</li>
