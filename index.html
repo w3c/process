@@ -1658,136 +1658,136 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <li>Possibly, Publication as an <a href="#rec-edited">Edited or Amended Recommendation</a></li>
       </ol>
 
-      <p>
-
+<div role="region" aria-label="Basic W3C Recommendation Track">
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 160" width="100%">
-  <title>Flowchart: The basic W3C Recommendation Track</title>
-  <g id="basicProcess" role="list">
-
-    <g id="Rectrac-FPWD" role="listitem" aria-labelledby="Rectrac-fpwd-label Rectrac-fpwd-text">
-      <title id="Rectrac-fpwd-label">First Public Working Draft - Exclusion Opportunity</title>
-      <a xlink:href="#Rectrac-nodeWD">
-        <rect fill="white" y="122" width="57" height="45"/>
-        <text font-size="8"><tspan y="132" x="0">First WD</tspan>
-          <tspan x="0" y="152">WG Decision</tspan>
-          <tspan x="0" y="162">Director's approval</tspan></text>
-        <path d="M0,140h53" fill="none" stroke="#000"></path>
-        <polygon points="47,136 57,140 47,144"></polygon></a>
+  <title>Basic W3C Recommendation Track</title>
+  <g role="list"><!-- basic maturity states -->
+    <g role="listitem"><!-- FPWD -->
+      <a xlink:href="#wd-1">
+	<rect role="img" fill="white" y="122" width="57" height="45">
+          <title>First Public Working Draft (FPWD) - Exclusion opportunity</title>
+        </rect>
+        <text font-size="8"><tspan aria-hidden="true" y="132" x="0">First WD</tspan>
+            <tspan x="0" y="152">WG Decision</tspan>
+            <tspan x="0" y="162">Director's approval</tspan></text>
+        <path d="M0,140h53" fill="none" stroke="#000"></path><polygon points="47,136 57,140 47,144"></polygon>
+      </a>
     </g>
 
-    <g id="Rectrac-nodeWD" role="list" aria-labelledby="Rectrac-nodewd-label">
-      <title id="Rectrac-nodewd-label">Working Draft</title>
-      <a xlink:href="#RecsWD" aria-labelledby="Rectrac-nodewd-label">
-        <ellipse ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff"></ellipse>
-        <text font-size="14" y="144" x="97" text-anchor="middle">WD</text></a>
+    <g role="listitem"><!-- WD -->
+      <a xlink:href="#cr-1">
+        <ellipse role="img" id="wd-1" ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff">
+          <title>Working Draft (WD)</title>
+        </ellipse>
+        <text aria-hidden="true" font-size="14" y="144" x="97" text-anchor="middle">WD</text>
+      </a>
 
-<!-- g[role=listitem] with a link inside it -->
+      <g role="list">
+        <g role="listitem"><!-- republish -->
+          <a xlink:href="#wd-1">
+            <g role="img"><title>Publish a new Working Draft</title></g>
+            <text font-size="8"><tspan x="30" y="92">WG Decision: review needed, or</tspan>
+                <tspan x="40" y="100">No change for 6 months</tspan></text>
+            <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
+            <polygon points="120,114 116,124 114,113"></polygon>
+          </a>
+        </g>
 
-      <g id="Rectrac-repeatWD" role="listitem">
-        <a xlink:href="#Rectrac-nodeWD" aria-labelledby="Rectrac-repeatwd-label Rectrac-repeatwd-text">
-        <title id="Rectrac-repeatwd-label">Publish a New Working Draft</title>
-        <text id="Rectrac-repeatwd-text" font-size="8">
-          <tspan x="30" y="92">WG Decision: review needed, or</tspan>
-          <tspan x="40" y="100">No change for 6 months</tspan></text>
-        <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114"
-          fill="none" stroke="black" stroke-dasharray="6 1"></path>
-        <polygon points="120,114 116,124 114,113"></polygon> </a> </g>
-
-      <g id="Rectrac-toCR" role="listitem" fill="#060">
-        <a xlink:href="#Rectrac-nodeCR" aria-labelledby="Rectrac-tocr-label Rectrac-tocr-text">
-        <title id="Rectrac-tocr-label">Advance to Candidate Recommendation</title>
-        <text role="none" id="Rectrac-tocr-text" x="138" y="134" font-size="8">Director's approval</text>
-          <path stroke="#060" d="M135,140h81"></path>
-          <polygon points="211,136 221,140 211,144"></polygon></a> </g>
+        <g role="listitem" fill="#060"><!-- move forward: to CR -->
+          <a xlink:href="#cr-1">
+            <g role="img"><title>Advance to Candidate Recommendation</title></g>
+            <text x="138" y="134" font-size="8">Director's approval</text>
+            <path stroke="#060" d="M135,140h81"></path>
+            <polygon points="211,136 221,140 211,144"></polygon>
+          </a>
+        </g>
+      </g>
     </g>
 
-    <g id="Rectrac-nodeCR" role="list" aria-labelledby="Rectrac-nodecr-label">
-      <title id="Rectrac-nodecr-label">Candidate Recommendation - Patent Policy Exclusion Opportunity</title>
-      <a xlink:href="#RecsCR">
-        <ellipse ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff"></ellipse>
-        <text font-size="14" y="144" x="260" text-anchor="middle">CR</text></a>
+    <g role="listitem"><!-- CR -->
+      <a xlink:href="#pr-1">
+        <ellipse role="img" id="cr-1" ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff">
+        <title>Candidate Recommendation (CR) - Patent Policy exclusion opportunity</title></ellipse>
+        <text aria-hidden="true" font-size="14" y="144" x="260" text-anchor="middle">CR</text>
+      </a>
+      <g role="list">
+        <g role="listitem"><!-- republish -->
+          <a xlink:href="#cr-1">
+            <g role="img"><title>Publish revised Candidate Recommendation</title></g>
+            <text font-size="8"><tspan x="225" y="84">Working Group Decision,</tspan>
+                <tspan x="240" y="96">Directors approval</tspan></text>
+            <path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
+            <path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
+            <polygon points="282,114 277,124 275,113"></polygon>
+          </a>
+        </g>
 
-<!-- a instead of g -->
+        <g role="listitem"><!-- move forward: PR -->
+          <a xlink:href="#pr-1">
+            <g role="img"><title>Advance to Proposed Recommendation</title></g>
+            <text x="300" y="134" font-size="8">Director's approval</text>
+            <path d="M298,140h77" stroke="#060"></path><polygon points="374,136 384,140 374,144"></polygon>
+          </a>
+        </g>
 
-      <a xlink:href="#Rectrac-nodeCR" id="Rectrac-repeatCR"
-        aria-labelledby="Rectrac-repeatcr-label Rectrac-repeatcr-text" fill="#060">
-        <title id="Rectrac-repeatcr-label">Publish a revised CR</title>
-        <text role="none" font-size="8" id="Rectrac-repeatcr-text">
-          <tspan x="225" y="84">Working Group Decision,</tspan>
-          <tspan x="240" y="96">Directors approval</tspan></text>
-        <path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114"
-          stroke-dasharray="5 11" fill="none"></path>
-        <path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114"
-          stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
-        <polygon points="282,114 277,124 275,113"></polygon> </a>
-
-      <a xlink:href="#Rectrac-nodePR" id="Rectrac-ToPR"
-        aria-labelledby="Rectrac-topr-label Rectrac-topr-text" fill="#060">
-        <title id="Rectrac-topr-label">Advance to Proposed Recommendation</title>
-        <text role="none" id="Rectrac-topr-text" x="300" y="134" font-size="8">Director's approval</text>
-        <path d="M298,140h77" stroke="#060"></path>
-        <polygon points="374,136 384,140 374,144"></polygon> </a>
-
-      <a xlink:href="#Rectrac-nodeWD" id="Rectrac-backToWD"
-        aria-labelledby="Rectrac-backtowd-label Rectrac-backtowd-text" fill="#600">
-        <title id="Rectrac-backtowd-label">Return to Working Draft</title>
-        <text role="none" id="Rectrac-backtowd-text" font-size="8">
-          <tspan x="142" y="160">WG or Director decision</tspan>
-          <tspan x="144" y="170">e.g. for further review</tspan></text>
-        <path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
-        <polygon points="140,145 133,147 140,149"></polygon> </a>
+        <g role="listitem"><!-- go back: WD -->
+          <a xlink:href="#wd-1">
+            <g role="img"><title>Return to Working Draft</title></g>
+            <text font-size="8"><tspan x="142" y="160">WG or Director decision</tspan>
+		<tspan x="144" y="170">e.g. for further review</tspan></text>
+            <path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path><polygon points="140,145 133,147 140,149"></polygon>
+          </a>
+        </g>
+      </g>
     </g>
 
-    <g id="Rectrac-nodePR" role="list" aria-labelledby="Rectrac-nodepr-label">
-      <title id="Rectrac-nodepr-label">Proposed Recommendation - Advisory Committee Review</title>
-      <a xlink:href="#RecsPR">
-        <ellipse ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff"></ellipse>
-        <text font-size="14" font-family="Times,serif" y="144" x="413" text-anchor="middle">PR</text></a>
+    <g role="listitem"><!-- PR -->
+      <a xlink:href="#rec-1">
+        <ellipse role="img" id="pr-1" ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff">
+          <title>Proposed Recommendation (PR) - Advisory Committee review</title></ellipse>
+        <text aria-hidden="true" font-size="14" font-family="Times,serif" y="144" x="413" text-anchor="middle">PR</text>
+      </a>
 
-<!-- use a[role=listitem] instead of g -->
+      <g role="list">
+        <g role="listitem"><!-- republish -->
+          <a xlink:href="#rec-1">
+            <g role="img"><title>Advance to Recommendation</title></g>
+            <text x="300" y="138" font-size="8"><tspan x="445" y="124">Advisory Committee Review</tspan>
+                <tspan x="445" y="134">Director's Decision</tspan></text>
+            <path d="M441,140h100" stroke="#060"></path><polygon points="534,136 544,140 534,144"></polygon>
+          </a>
+        </g>
 
-      <a xlink:href="#Rectrac-nodeRec" id="Rectrac-ToRec" role="listitem"
-        aria-labelledby="Rectrac-torec-label Rectrac-torec-text" fill="#060">
-        <title id="Rectrac-torec-label">Advance to Recommendation</title>
-        <text role="none" id="Rectrac-torec-text" x="300" y="138" font-size="8">
-          <tspan x="445" y="124">Advisory Committee Review</tspan>
-          <tspan x="445" y="134">Director's Decision</tspan></text>
+        <g role="listitem"><!-- go back: CR -->
+          <a xlink:href="#cr-1">
+            <g role="img"><title>Return to Candidate Recommendation</title></g>
+            <text font-size="8"><tspan x="306" y="160">AC Review, </tspan>
+		<tspan x="302" y="170">Director Decision</tspan>
+		<tspan x="304" y="180">e.g. for minor changes</tspan></text>
+	    <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path><polygon points="301,145 296,147 301,149"></polygon>
+          </a>
+        </g>
 
-        <path d="M441,140h100" stroke="#060"></path>
-        <polygon points="534,136 544,140 534,144"></polygon> </a>
-
-      <a xlink:href="#Rectrac-nodeCR" id="Rectrac-BackToCR" role="listitem"
-        aria-labelledby="Rectrac-backtocr-label Rectrac-backtocr-text" fill="#600">
-        <title id="Rectrac-backtocr-label">Return to Working Draft</title>
-        <text id="Rectrac-backtocr-text" font-size="8">
-          <tspan x="306" y="160">AC Review, </tspan>
-          <tspan x="302" y="170">Director Decision</tspan>
-          <tspan x="304" y="180">e.g. for minor changes</tspan></text>
-        <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
-        <polygon points="301,145 296,147 301,149"></polygon> </a>
-
-      <a xlink:href="#Rectrac-nodeWD" id="Rectrac-PRBackToWD" role="listitem"
-        aria-labelledby="Rectrac-prbacktowd-label Rectrac-prbacktowd-text" fill="#c00">
-        <title id="Rectrac-prbacktowd-label">Return to Working Draft</title>
-        <text role="none" id="Rectrac-prbacktowd-text" font-size="9">
-          <tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan></text>
-        <path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
-        <polygon points="95,164 97,159 99,164"></polygon> </a>
+        <g role="listitem"><!-- go back: WD -->
+          <a xlink:href="#wd-1">
+            <g role="img"><title>Return to Working Draft</title></g>
+	    <text font-size="9"><tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan></text>
+            <path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path><polygon points="95,164 97,159 99,164"></polygon>
+	  </a>
+        </g>
+      </g>
     </g>
 
-    <g id="Rectrac-nodeRec" stroke="black" aria-labelledby="Rectrac-noderec-label" role="list">
-      <title id="Rectrac-noderec-label">W3C Recommendation</title>
-      <a xlink:href="#RecsW3C" aria-labelledby="Rectrac-noderec-label">
-        <ellipse ry="18" rx="28" cy="140" cx="573" fill="#fff" stroke-width="2"></ellipse>
-        <text font-size="16" y="144" x="573"
-          text-anchor="middle" stroke-width=".3">REC</text></a>
-
+    <g role="listitem"><!-- Rec -->
+      <ellipse role="img" id="rec-1" ry="18" rx="28" cy="140" cx="573" stroke="black" fill="#fff" stroke-width="2">
+        <title>Recommendation (Rec)</title></ellipse>
+        <text aria-hidden="true" font-size="16" y="144" x="573" text-anchor="middle" stroke-width=".3">REC</text>
+    </g>
 
   </g>
- </g>
 
 </svg>
-      </p>
+</div>
 
       <p>W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.</p>
 
