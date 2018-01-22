@@ -17,12 +17,19 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
 /*for the SVG - navigation highlighting */
 
-     :focus path, :focus polygon, :focus ellipse { stroke-width: 4}
-     g g:hover path, g g:hover polygon, g g:hover ellipse { stroke-width: 4}
-     :focus text, g g:hover text { stroke: black; stroke-width: .5}
+     :focus path, :focus polygon, :focus ellipse { stroke-width: 4px}
+     g g:hover path, g g:hover polygon, g g:hover ellipse { stroke-width: 4px}
+     :focus text, g g:hover text { stroke: black; stroke-width: .5px}
      
      @media print {
      a[data-ref]:after { content: " [" attr(data-ref) "]"}
+     }
+
+     .table-borders {
+       border-collapse: collapse;
+     }
+     .table-borders td, .table-borders th {
+       border: 1px solid black; padding: 0.5ex;
      }
 
 </style> <!--[if lt IE 9]><script src='undefined://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
@@ -951,7 +958,6 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>The following table lists requirements for organizing a meeting:</p>
 
-      <table border="1">
         <tbody>
           <tr>
             <th><br>
@@ -2289,7 +2295,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <h3 id="rec-modify">6.7 Modifying a W3C Recommendation</h3>
 
       <p>This section details the management of errors in, and the process for making changes to a Recommendation. Please see also
-        the <a href="https://www.w3.org/2003/01/republishing/"ref="PUB35" data->Requirements for modification of W3C Technical Reports</a>.</p>
+        the <a href="https://www.w3.org/2003/01/republishing/" data-ref="PUB35">Requirements for modification of W3C Technical Reports</a>.</p>
       <div role="region" aria-label="Revising a W3C Recommendation">
 
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 250" width="100%">
@@ -3357,7 +3363,7 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
         Giri Mandyam (Qualcomm),
         Larry Masinter (Adobe Systems), Nigel Megitt (BBC),
         Coralie Mercier (W3C),
-	Jim MIller (W3C),
+	Jim Miller (W3C),
         Olle Olsson (SICS),
         Mark Nottingham,
         Qiuling Pan (Huawei),
