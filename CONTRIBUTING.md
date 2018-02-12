@@ -17,7 +17,7 @@ The W3C run a [Process Community Group](https://www.w3.org/community/w3process/)
 For changes that affect the way that the W3C operates but do not change policy please do the following:
 
 * [Raise an issue](/w3c/w3process/issues) on this repo
-* Make sure the [Process Community Group](https://www.w3.org/community/w3process/) adds the issue to it's agenda. This will allow you to explain why you think this is an improvement to the operation of the W3C (it's probably not helpful to provide a Pull Request until you have consensus on the approach).
+* Make sure the [Process Community Group](https://www.w3.org/community/w3process/) adds the issue to its agenda. This will allow you to explain why you think this is an improvement to the operation of the W3C (it's probably not helpful to provide a Pull Request until you have consensus on the approach).
 
 The best way to ensure your issue gets added to the [Process Community Group](https://www.w3.org/community/w3process/) agenda is to add yourself to the group, please visit [the group homepage](https://www.w3.org/community/w3process/) and select the button "Join or Leave this Group".
 
