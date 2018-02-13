@@ -37,7 +37,7 @@ Getting something in front of both the [Advisory Board](https://www.w3.org/2002/
 Gaining consensus from the [Advisory Board](https://www.w3.org/2002/ab/) or [Advisory Committee](https://www.w3.org/participate/meetings) will take some time. After consensus has been reached you may either raise a `pull request` which include the changes agreed by these committees or wait for the Editor to make the required changes. See more details about `pull requests` below.
 
 ## Edit and Pull Request Instructions
-This is a very simple repository. To make an edit to the document simply edit the [index.html](/w3c/w3process/blob/gh-pages/index.html) file and send a pull request when your changes are done. If you have the rights to edit this repo your edits will need to be made on a new branch. If you do not have the rights to edit this repo please `fork` the repo, make your edits, then send a `pull request`.
+This is a very simple repository. To make an edit to the document simply edit the [index.html](index.html) file and send a pull request when your changes are done. If you have the rights to edit this repo your edits will need to be made on a new branch. If you do not have the rights to edit this repo please `fork` the repo, make your edits, then send a `pull request`.
 
 Pull Requests should result in a correct-looking document (formats and lays out correctly).
 
