@@ -43,6 +43,3 @@ Pull Requests should result in a correct-looking document (formats and lays out 
 
 ## Notes
 Please feel free to suggest how this document can improve by [raising an issue](/../../issues) on this repo.
-
-
-
