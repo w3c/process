@@ -1,5 +1,5 @@
 # Contributing to the W3C Process Document
-Thank-you for offering to contribute to the [W3C Process Document](https://www.w3.org/2017/Process-20170301/). Here we provide some details on how you can contribute. 
+Thank-you for offering to contribute to the [W3C Process Document](https://www.w3.org/Consortium/Process/). Here we provide some details on how you can contribute. 
 
 Changes to the process document tend to fall into a few classes, and how the W3C handles these varies. Simple editorial changes may require little review, but more substantial changes will require a more substantial review and discussions by the W3C community. Please read the material below, and get involved as explained. 
 
