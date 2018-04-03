@@ -2709,6 +2709,85 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
        [<a href="#ref-patentpolicy">PUB33</a>] an Obsolete or Superseded Recommendation has the status of an active Recommendation,
        although it is not recommended for future implementation; a Rescinded Recommendation ceases to be in effect
        and no new licenses are granted under the Patent Policy.</p>
+       
+      <div role="region" aria-label="Retiring a W3C Recommendation">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 135" width="100%">
+          <title>Supersede, Obsolete or Rescind a W3C Recommendation</title>
+          <g role="list">
+              
+            <g role="listitem"><!-- Rec -->
+              <ellipse role="img" id="rec-1" ry="20" rx="30" cy="50" cx="40" stroke="black" fill="#fff" stroke-width="2">
+                <title>Recommendation (Rec)</title></ellipse>
+                <text aria-hidden="true" font-size="18" y="55" x="40" text-anchor="middle" stroke-width=".3">REC</text>
+          
+              <g role="list">
+            
+                <g role="listitem"><!-- Rescind -->
+                  <title>A major problem and an AC review can lead to a Recommendation being Rescinded.
+                    There are no new IPR licences issued under the W3C Patent Policy,
+                    and reinstating the Recommendation requires going through the full Rec-track process again.</title>
+                  <path d="M40,29v-5s0,-5 5,-5h150" stroke="black" fill="none" stroke-width="2" stroke-dasharray="3 1"/>
+                  <text x="105" text-anchor="middle" y="16" font-size="8">Major problem, AC review</text>
+                  <polygon points="195,16 195,22 199,19"/>
+                  <rect role="img" id="rescinded" y="4" x="200" height="36" width="80" stroke="black" fill="#fff" stroke-width="2"/>
+                  <title>Rescinded Recommendation - no new IPR licenses</title>
+                  <text aria-hidden="true" font-size="16" y="19" x="240" text-anchor="middle" stroke-width=".3">Rescinded</text>
+                  <path d="M198,42l84,-40" stroke="red" stroke-width="2"/>
+                  <text aria-hidden="true" font-size="8" y="28" x="240" text-anchor="middle" stroke-width=".3">No new IPR licenses</text>
+                  <text aria-hidden="true" font-size="8" y="37" x="240" text-anchor="middle" stroke-width=".3">No reinstatement path</text>
+                </g>
+            
+                <g role="listitem"><!-- Obsolete -->
+                  <g role="img">
+                  <path d="M69,45h93c10,0 20,30 30,30h10" stroke="black" fill="none" stroke-dasharray="4 4"/>
+                    <title>With little uptake, following AC review a specification may become an Obsolete Recommendation</title>
+                    <path d="M69,45h93c10,0 20,30 30,30h10" stroke="red" fill="none" stroke-dasharray="2 6" stroke-dashoffset="3"/>
+                    <polygon points="204,75 200,72 200,78"/>
+                    <text aria-hidden="true" x="115" y="42" text-anchor="middle" font-size="8">Minimal usage, AC review</text>
+                    <rect id="obsolete" rx="8" y="66" height="26" x="205" width="75" stroke="black" fill="#fff" stroke-width="2"
+                      stroke-dasharray="3 3"/>
+                    <title>Obsolete Recommendation</title>
+                    <rect rx="8" y="66" height="26" x="205" width="75" stroke="red" fill="none" stroke-width="2" stroke-dasharray="3 3"
+                        stroke-dashoffset="3"/>
+                    <text aria-hidden="true" font-size="16" y="84" x="242" text-anchor="middle" stroke-width=".3">Obsolete</text>
+                  </g>
+                  <g role="list">
+                    <g role="listitem">
+                      <g role="img">
+                        <path d="M204,82h-149s-5,0 -5,-5v-5" stroke="black" fill="none" stroke-dasharray="2 3"/>
+                        <title>If there is new uptake, with AC review an Obsolete Recommendation may return to normal Recommendation status</title>
+                        <polygon points="50,70 47,74 53,74"/>
+                        <text aria-hidden="true" x="115" y="79" text-anchor="middle" font-size="8">New uptake, AC review</text>
+                      </g>
+                    </g>
+                  </g>  
+                </g>
+            
+                <g role="listitem"><!-- Superseded -->
+                  <g role="img">
+                    <path d="M40,71v29s0,5 5,5h153" stroke="black" fill="none"/>
+                    <polygon points="199,105 195,102 195,108"/>
+                    <text x="115" y="102" text-anchor="middle" font-size="8">Replaced by a new version, AC review</text>
+                    <rect role="img" id="obsolete" rx="3" y="100" x="200" height="30" width="80" stroke="#600" fill="#fff" stroke-width="2">
+                    <title>Superseded Recommendation</title></rect>
+                    <text aria-hidden="true" font-size="16" y="119" x="240" text-anchor="middle" stroke-width=".3">Superseded</text>
+                  </g>
+                  <g role="list">
+                    <g role="listitem"><!-- Whoops! Not superseded! -->
+                      <g role="img">
+                        <title>A Superseded Recommendation can become a normal Recommendation with AC review</title>
+                        <path d="M199,125h-164s-5,0 -5,-5v-52" stroke-dasharray="1 4" fill="none" stroke="black"/>
+                        <polygon points="30,70 27,74 33,74"/>
+                        <text aria-hidden="true" x="115" y="122" text-anchor="middle" font-size="8">Oops! The Web still needs this, AC review</text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>  
+        </svg>
+      </div>
 
       <p>The Director <em class="rfc2119">may</em> recommend obsoleting, rescinding, or restoring a Recommendation. The Director
         <em class="rfc2119">must</em> begin an <a href="#ACReview">Advisory Committee review</a> of a
