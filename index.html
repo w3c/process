@@ -285,7 +285,11 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
                   </ul>
                 </li>
                 <li><a href="#implementation-experience">6.2.4 Implementation Experience</a> </li>
-                <li><a href="#correction-classes">6.2.5 Classes of Changes</a></li>
+                <li><a href="#correction-classes">6.2.5 Classes of Changes</a>
+                  <ul class="toc">
+                    <li><a href="#spec-change-classes">6.2.5.1 Classes of Changes for Specifications</a>
+                    <li><a href="#charter-change-classes">6.2.5.2 Classes of Changes for Charters</a>
+                  </ul></li>
                 <li><a href="#contributor-license">6.2.6 Contributor License Grants</a></li>
               </ul>
             </li>
@@ -1466,8 +1470,8 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
         <p>The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a> of every new or
           substantively modified Working Group or Interest Group charter. The Director is <em class="rfc2119">not required</em>
-          to solicit Advisory Committee review prior to a charter extension or for minor changes. The review period
-          <em class="rfc2119">must</em> be at least 28 days.</p>
+          to solicit Advisory Committee review prior to a charter extension or for <a href="#editorial-change">editorial changes</a>.
+          The review period <em class="rfc2119">must</em> be at least 28 days.</p>
 
         <p>The Director's Call for Review of a substantively modified charter <em class="rfc2119">must</em> highlight
           important changes (e.g., regarding deliverables or resource allocation) and include rationale for the changes.</p>
@@ -1845,7 +1849,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
                             <text font-size="8"><tspan x="306" y="160">AC Review, </tspan>
                                 <tspan x="302" y="170">Director Decision</tspan>
-                                <tspan x="304" y="180">e.g. for minor changes</tspan>
+                                <tspan x="304" y="180">e.g. for editorial changes</tspan>
                             </text>
 
                             <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
@@ -2089,9 +2093,13 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="correction-classes">6.2.5 Classes of Changes</h4>
 
-      <p>This document distinguishes the following 4 classes of changes to a specification. The first two classes of change are
+      <p>This document distinguishes the following 4 classes of changes to a specification,
+        as well as 4 corresponding classes of changes to charters.
+	In both cases, the first two classes of change are
         considered <dfn id="editorial-change">editorial changes</dfn>, the latter two
         <dfn id="substantive-change">substantive changes</dfn>.</p>
+
+      <h5 id="spec-change-classes">6.2.5.1 Classes of Changes for Specifications</h5>
       <dl>
         <dt>1. No changes to text content</dt>
         <dd>These changes include fixing broken links, style sheets or invalid markup.</dd>
@@ -2118,9 +2126,36 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
         <dd>Changes that add a new functionality, element, etc.</dd>
       </dl>
 
+      <h5 id="charter-change-classes">6.2.5.2 Classes of Changes for Charters</h5>
+      <dl>
+        <dt>1. No changes to text content</dt>
+        <dd>These changes include fixing broken links, style sheets or invalid markup.</dd>
+        <dt>2. Corrections that do not affect the work of the group</dt>
+        <dd>Changes that reasonable participants would not interpret as changing the scope or the work mode of the group being chartered.
+           Changes which resolve ambiguities in the charter are considered to change
+          (by clarification) the requirements and do not fall into this class.</dd>
+        <dd>Examples of changes in this class include clarifying informative use cases or other non-normative text, fixing typos or grammatical errors
+          where the change does not change the expectations of the group being chartered.
+          If there is any doubt or dissent as to whether the scope or work mode of the group
+          are changed, such changes do not fall into this class.</dd>
+        <dt>3. Changes in Work Mode</dt>
+        <dd>Any changes that affect how the group conduct its work.
+          This includes changes in how the group should communicate,
+          the level of confidentiality
+          whether (and how often) the group should meet,
+          which other internal or external groups it should maintain liaisons with,
+          mechanisms for making decisions and votes,
+          etc.
+        </dd>
+        <dt>4. Changes in Scope or Deliverables</dt>
+        <dd>Changes that expand, restrict, or in anyway change the scope of the group or its success criteria,
+          as well as those that add, remove, or redefine deliverables, or the expected timeline for such deliverables.
+        </dd>
+      </dl>
+
       <h4 id="contributor-license">6.2.6 Contributor License Grants</h4>
 
-      <p>When a contributor who is not a Working Group participant offers a change in class 3 or 4 (as described in <a href="#correction-classes">6.2.5</a>)
+      <p>When a contributor who is not a Working Group participant offers a change to a specification in class 3 or 4 (as described in <a href="#correction-classes">6.2.5</a>)
       the Team <em class=rfc2119>must</em> request from the contributor a recorded royalty-free patent commitment; for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
 	Such commitment <em class=rfc2119>should</em> cover, at a minimum, all the contributor’s Essential Claims both in the contribution, and
          that become Essential Claims as a result of incorporating the contribution into the draft
@@ -2495,7 +2530,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
                             <text font-size="8"><tspan x="306" y="160">AC Review, </tspan>
                                 <tspan x="302" y="170">Director Decision</tspan>
-                                <tspan x="304" y="180">e.g. for minor changes</tspan>
+                                <tspan x="304" y="180">e.g. for editorial changes</tspan>
                             </text>
 
                             <path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
@@ -2632,7 +2667,7 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <p>Tracking errors is an important part of a Working Group's ongoing care of a Recommendation; for this reason,
         the scope of a Working Group charter generally allows time for work after publication of a Recommendation.
         In this Process Document, the term "erratum" (plural "errata") refers to any error that can be resolved by one or more
-        changes in classes 1-3 of section <a href="#correction-classes">6.2.5 Classes of Changes</a>.</p>
+        changes in classes 1-3 of section <a href="#spec-change-classes">6.2.5.1 Classes of Changes for Specifications</a>.</p>
 
       <p>Working Groups <em class="rfc2119">must</em> keep a record as errors are reported by readers and implementers.
         Such error reports <em class="rfc2119">should</em> be processed no less frequently than quarterly. Readers of the
@@ -2921,7 +2956,7 @@ Superseded is the same as for declaring it Obsolete, below; only the name and ex
         is generally one of the following:</p>
 
       <ol>
-        <li>The proposal is approved, possibly with minor changes integrated.</li>
+        <li>The proposal is approved, possibly with <a href="#editorial-change">editorial changes</a> integrated.</li>
         <li>The proposal is approved, possibly with <a href="#substantive-change">substantive changes</a> integrated. In this case
           the Director's announcement <em class="rfc2119">must</em> include rationale for the decision to advance the document
           despite the proposal for a substantive change.</li>
