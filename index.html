@@ -646,13 +646,13 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <h4 id="ABParticipation">2.3.1 Advisory Board Participation</h4>
 
-      <p>The Advisory Board consists of eleven elected participants
+      <p>The Advisory Board consists of nine to eleven elected participants
         and a Chair.
         The Team appoints the Chair of the <a href="#AB">Advisory Board</a>, who is generally the CEO.
         The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a> for the AB,
         as described in <a href="#ReqsAllGroups">Section 5.1</a>.</p>
 
-      <p>The remaining eleven Advisory Board participants are elected by the W3C Advisory Committee following the
+      <p>The remaining nine to eleven Advisory Board participants are elected by the W3C Advisory Committee following the
         <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.</p>
 
       <p>With the exception of the Chair, the terms of all Advisory Board participants are for
@@ -778,12 +778,22 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
 
       <p>The Advisory Board and a portion of the Technical Architecture Group are elected by the Advisory Committee, using a
         Single Transferable Vote system. An election begins when the Team sends a Call for Nominations to the Advisory Committee.
-        Any Call for Nominations specifies the number of available seats, the deadline for nominations, details about the
+        Any Call for Nominations specifies the minimum and maximum number of available seats, the deadline for nominations, details about the
         specific vote tabulation system selected by the Team for the election, and operational information such as how to
         nominate a candidate. The Team
         <em class="rfc2119">may</em> modify the  tabulation system after the Call for Nominations but
         <em class="rfc2119">must</em> stabilize it no later than the Call for Votes. The Director <em class="rfc2119">should</em>
         announce appointments no later than the start of a nomination period as part of the Call for Nominations.</p>
+
+      <p>In the case of regularly scheduled elections of the TAG, the minimum and maximum number of avaiable seats are the same:
+        the 3 seats of the terms expiring that year,
+        plus any seat that is currently vacant from the prior year.
+
+      <p>In the case of regularly scheduled elections of the AB, the minimum and maximum number of avaiable seats differ:
+        The maximum number is the 5 or 6 seats of the terms expiring that year,
+        plus any seat that is currently vacant from the prior year;
+        the minimum number is such that when added to the occupied seats from the prior year,
+        the minimum size of the AB (9) is reached.
 
       <p>Each Member (or group of <a href="#MemberRelated">related Members</a>) <em class="rfc2119">may</em> nominate one
         individual. A nomination <em class="rfc2119">must</em> be made with the consent of the nominee. In order for
@@ -811,12 +821,16 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
       <p>If, after the deadline for nominations, the number of nominees is:</p>
 
       <ul>
-        <li>Equal to the number of available seats, those nominees are thereby elected. This situation constitutes a tie for the
-          purposes of assigning <a href="#short-term">short terms</a>.</li>
-        <li>Less than the number of available seats, Calls for Nominations are issued until a sufficient number of people
+        <li>Greater than or equal to the minimum number of available seats
+          and less than or equal to the maximum number of available seats,
+          those nominees are thereby elected.
+          This situation constitutes a tie for the purpose of assigning <a href="#short-term">short terms</a>.
+          Furthermore, if the number is less than the maximum number of available seats,
+          the longest terms are filled first.</li>
+        <li>Less than the minimum number of available seats, Calls for Nominations are issued until a sufficient number of people
           have been nominated. Those already nominated do not need to be renominated after a renewed call.</li>
-        <li>Greater than the number of available seats, the Team issues a Call for Votes that includes the names of
-          all candidates, the number of available seats, the deadline for votes, details about the vote tabulation system
+        <li>Greater than the maximum number of available seats, the Team issues a Call for Votes that includes the names of
+          all candidates, the (maxiumum) number of available seats, the deadline for votes, details about the vote tabulation system
           selected by the Team for the election, and operational information.</li>
       </ul>
 
@@ -879,7 +893,16 @@ Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working D
             if the next regularly scheduled election is fewer than three months away.</li>
           <li>The group Chair <em class="rfc2119">may</em> request an election,
             and the election may begin, as soon as a current member gives notice of a resignation, 
-            including a resignation effective as of a given date in the future.</li></ul></li>
+            including a resignation effective as of a given date in the future.</li></ul>
+          When such an election is held,
+          the minimum number of available seat is such that
+          when added to the number of continuing participants,
+          the minimum total number of elected seats is met
+          (6 for the TAG, 9 for the AB);
+          and the maximum number corresponds to all unoccupied seats.
+          Except for the number of available seats and the length of the terms,
+          the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
+	</li>
       </ul>
 
       <h2 id="Policies">3 General Policies for W3C Groups</h2>
@@ -3514,8 +3537,11 @@ Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February
 			in <a href="#Intro">Section 1 (Introduction)</a>.
 
 		<li>
-			Increase the size of the Advisory Board from 9 to 11 elected members
-			in <a href="#ABParticipation">Section 2.3.1 (Advisory Board Participation)</a>.
+			Change the size of the Advisory Board from a fixed 9 to a range of 9 to 11 elected members
+			in <a href="#ABParticipation">Section 2.3.1 (Advisory Board Participation)</a>,
+			and adjust the election mechanics accordingly
+			in <a href="#AB-TAG-elections">Section 2.5.2 (Advisory Board and Technical Architecture Group Elections)</a>
+			and <a href="#AB-TAG-vacated">Section 2.5.3 (Advisory Board and Technical Architecture Group Vacated Seats)</a>.
 
 		<li>
 			Clarify that AB and TAG members act in their personal capacity
