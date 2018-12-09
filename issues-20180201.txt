@@ -1,0 +1,524 @@
+Draft:    https://www.w3.org/2018/Process-20180201/
+Title:    W3C Process Document
+Date:     2018-02-01
+Status:   Version
+ED:       https://w3c.github.io/w3process/
+
+No Disposition of Comments was produced for versions of the Process Prior to this one.
+Issues in Github (and other trackers) closed prior to the 2018-02-01 will not be documented individually,
+except that issues closed before that date
+but still during the period during which the 2018 Process was being finalized are included
+(i.e. from mid December 2017).
+
+----
+Issue 1.
+Summary:  Contraints on participation to the AB and TAG are confusingly phrased.
+From:     Fuqiao Xue
+Comment:  https://github.com/w3c/w3process/pull/229
+Response: https://github.com/w3c/w3process/pull/229#issuecomment-439770518
+Response: https://github.com/w3c/w3process/pull/231
+Open
+----
+Issue 2.
+Summary:  Introduce voting for "No Other Candidate" in the Process and describe effects.
+From:     Michael Champion
+Comment:  https://github.com/w3c/w3process/issues/47
+Closed:   Rejected (no consensus)
+Verified: https://github.com/w3c/w3process/issues/47#issuecomment-442693572
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 3.
+Summary:  Clarify meaning of require specs to be "REC ready" in order to enter CR.
+From:     Nigel Meggit
+Comment:  https://github.com/w3c/w3process/issues/172
+Comment:  https://github.com/w3c/w3process/pull/181
+Response: https://github.com/w3c/w3process/pull/214
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/214#issuecomment-439231629
+----
+Issue 4.
+Summary:  What are the requirements to update a CR?
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/172#issuecomment-413196028
+Comment:  https://github.com/w3c/w3process/issues/207
+Response: https://github.com/w3c/w3process/pull/215
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/215#issuecomment-439232516
+----
+Issue 5.
+Summary:  Should the AB and maybe TAG have lower/upper bounds for membership?
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/204
+Comment:  https://github.com/w3c/w3process/pull/216
+Response: https://github.com/w3c/w3process/pull/224
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/224#issuecomment-439231292
+----
+Issue 6.
+Summary:  Document Common Standards Issues.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/201
+Response: https://github.com/w3c/w3process/issues/201#issuecomment-442688505
+Closed:   OutOfScope
+Resolved: AB Resolution at 2018 Tokyo F2F
+Verified: Issue submitter present when taking the resolution
+----
+Issue 7.
+Summary:  Policy on use of W3C's github repo.
+From:     Karen Coyle
+Comment:  https://github.com/w3c/w3process/issues/194
+Response: https://github.com/w3c/w3process/issues/194#issuecomment-442688266
+Closed:   OutOfScope
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 8.
+Summary:  Policy on use of W3C's github repo.
+From:     Karen Coyle
+Comment:  https://github.com/w3c/w3process/issues/194
+Response: https://github.com/w3c/w3process/issues/194#issuecomment-442688266
+Closed:   OutOfScope
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 9.
+Summary:  Address/recognize funding barriers to elected bodies?
+From:     Brian Kardell
+Comment:  https://github.com/w3c/w3process/issues/189
+Response: https://github.com/w3c/w3process/issues/189#issuecomment-442688245
+Closed:   OutOfScope
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 10.
+Summary:  AB and TAG nominations should be announced as they occur and not wait until close of noms.
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/193
+Closed:   Rejected (no consensus)
+Resolved: AB Resolution at 2018 Tokyo F2F
+Verified: Issue submitter present when taking the resolution
+----
+Issue 11.
+Summary:  Should we have term limits for the AB (and possibly TAG)?
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/issues/165
+Closed:   Rejected (no consensus)
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 12.
+Summary:  Should we use a NomCom?
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/31
+Closed:   Duplicate
+Resolved: AB Resolution at 2018 Tokyo F2F
+Verified: Issue submitter present when taking the resolution
+----
+Issue 13.
+Summary:  "Implementation experience" description should clearly identify likelihood of broad acceptance?
+From:     Erik Anderson
+Comment:  https://github.com/w3c/w3process/issues/32
+Closed:   Rejected
+Resolved: AB Resolution at 2018 Tokyo F2F
+----
+Issue 14.
+Summary:  Correct unclear phrasing that seems to limit W3C staff participation.
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/issues/208
+Response: https://github.com/w3c/w3process/pull/220
+Comment:  https://github.com/w3c/w3process/issues/208#issuecomment-438494615
+Response: https://github.com/w3c/w3process/pull/227
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/227#issuecomment-439230846
+----
+Issue 15.
+Summary:  Clarify that written notifications must be recorded.
+From:     Léonie Watson
+Comment:  https://github.com/w3c/w3process/issues/83
+Response: https://github.com/w3c/w3process/pull/184
+Response: https://github.com/w3c/w3process/pull/188
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/83#issuecomment-421185430
+----
+Issue 16.
+Summary:  W3C should be more transparent.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/116
+Response: https://github.com/w3c/w3process/issues/116#issuecomment-425364651
+Closed:   Invalid
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+----
+Issue 17.
+Summary:  Document relationship between W3C and CG/BGs.
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/17
+Comment:  https://github.com/w3c/w3process/issues/180
+Response: https://github.com/w3c/w3process/pull/221
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+----
+Issue 18.
+Summary:  Should participants in Working Groups be allowed to represent more than one organisation?
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/9
+Comment:  https://github.com/w3c/w3process/pull/54
+Response: https://github.com/w3c/w3process/pull/219
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+----
+Issue 19.
+Summary:  Text about member submissions seems to deny CGs as a way to start work.
+From:     Jeff Jaffe
+Comment:  https://github.com/w3c/w3process/issues/169
+Response: https://github.com/w3c/w3process/pull/212
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+----
+Issue 20.
+Summary:  Make sure "First Public Working Draft" is defined.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/155
+Response: https://github.com/w3c/w3process/pull/211
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+----
+Issue 21.
+Summary:  Introduce Hard Requirements for Security, Privacy, Internationalisation and Accessibility Considerations.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/117
+Response: https://github.com/w3c/w3process/issues/117#issuecomment-425362762
+Closed:   Rejected
+Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
+Verified: Issue submitter is co-editor and member of the AB, did not push back
+----
+Issue 22.
+Summary:  *Imediately* vacate AB seats when participation constrains are no longer met.
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/175
+Comment:  Resolved:://github.com/w3c/w3process/pull/186 
+Closed:   Rejected
+Resolved: https://www.w3.org/2018/08/15-w3process-minutes.html
+Verified: https://github.com/w3c/w3process/pull/186#issuecomment-420506209
+----
+Issue 23.
+Summary:  Define "transition request".
+From:     Samuel Weiler
+Comment:  https://github.com/w3c/w3process/issues/160
+Response: https://github.com/w3c/w3process/pull/195
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/195#pullrequestreview-155154661
+----
+Issue 24.
+Summary:  Clarify dual affiliation for non-members at the TAG/AB.
+From:     Yves Lafon
+Comment:  https://github.com/w3c/w3process/issues/163
+Response: https://github.com/w3c/w3process/pull/185
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/06/13-w3process-minutes.html
+----
+Issue 25.
+Summary:  Increase membership of the AB.
+From:     Chris Wilson
+Comment:  https://github.com/w3c/w3process/issues/190
+Response: https://github.com/w3c/w3process/pull/202
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/09/12-w3process-minutes.html
+----
+Issue 26.
+Summary:  The term "Affiliation" is used in several places but not strictly defined.
+From:     Chris Wilson
+Comment:  https://github.com/w3c/w3process/issues/176
+Response: https://github.com/w3c/w3process/pull/203
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/09/12-w3process-minutes.html
+----
+Issue 27.
+Summary:  Clarify the handling contributions from guests, non-w3c members, and non-WG members.
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/67
+Response: https://github.com/w3c/w3process/pull/196
+Response: https://github.com/w3c/w3process/pull/200
+Response: https://github.com/w3c/w3process/pull/222
+Closed:   Accepted
+Resolved: https://www.w3.org/2018/09/12-w3process-minutes.html
+----
+Issue 28.
+Summary:  Review TAG Election / Appointment Process, Role of the Director.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/118
+Closed:   OutOfScope
+Resolved: https://github.com/w3c/w3process/issues/118#issuecomment-365680504
+Verified: https://github.com/w3c/w3process/issues/118#issuecomment-365680643
+----
+Issue 29.
+Summary:  Improve Errata management in W3C.
+From:     Jeff Jaffe
+Comment:  https://www.w3.org/community/w3process/track/issues/141
+Comment:  https://github.com/w3c/w3process/issues/5
+Closed:   Invalid (too broad)
+----
+Issue 30.
+Summary:  What are the rights and obligations of non-member participants in the creation of a member submission?
+From:     Charles McCathie Nevile
+Comment:  https://www.w3.org/community/w3process/track/issues/139
+Comment:  https://github.com/w3c/w3process/issues/19
+Response: https://github.com/w3c/w3process/issues/19#issuecomment-356677702
+Closed:   Accepted
+----
+Issue 31.
+Summary:  Chairs are asking for clarification for Wide Review.
+From:     Jeff Jaffe
+Comment:  https://www.w3.org/community/w3process/track/issues/144
+Comment:  https://github.com/w3c/w3process/issues/7
+Response: https://github.com/w3c/w3process/issues/7#issuecomment-356673617
+Closed:   OutOfScope
+----
+Issue 32.
+Summary:  href for Candidate Rec link is broken fragment.
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/171
+Response: https://github.com/w3c/w3process/pull/187
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/187#pullrequestreview-154758502
+----
+Issue 33.
+Summary:  Enforce Process Working Group and Interest Group charter extension.
+From:     Virginia Fournier
+Comment:  https://github.com/w3c/w3process/issues/177
+Response: https://github.com/w3c/w3process/issues/177#issuecomment-420434103
+Closed:   OutOfScope
+----
+Issue 34.
+Summary:  Remove duplication of Text.
+From:     Léonie Watson
+Comment:  https://github.com/w3c/w3process/issues/86
+Comment:  https://github.com/w3c/w3process/pull/197
+Response: https://github.com/w3c/w3process/issues/86#issuecomment-413172927
+Closed:   Retracted (in favor of https://github.com/w3c/w3process/issues/198)
+---
+Issue 35.
+Summary:  Define "independent".
+From:     Nigel Meggit
+Comment:  https://github.com/w3c/w3process/issues/167
+Response: https://github.com/w3c/w3process/issues/167#issuecomment-380498842
+Response: https://github.com/w3c/w3process/issues/167#issuecomment-380511138
+Closed:   Rejected
+----
+Issue 36.
+Summary:  Should TAG appointees be automatically nominated for the next TAG election when their term expires?
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/166
+Response: https://github.com/w3c/w3process/issues/166#issuecomment-380511537
+Closed:   Retracted
+----
+Issue 37.
+Summary:  The team/director should be removed from being in-loop on spec. obsoletion.
+From:     David Signer
+Comment:  https://github.com/w3c/w3process/issues/174
+Response: https://github.com/w3c/w3process/issues/174#issuecomment-380503764
+Closed:   Retracted
+----
+Issue 38.
+Summary:  Proposed text change for TAG, AB vacated seat.
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/179
+Response: https://github.com/w3c/w3process/issues/179#issuecomment-378280008
+Closed:   Retracted
+----
+Issue 39.
+Summary:  Claim the the Process can be updated as a REC is meaningless.
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/146
+Response: https://github.com/w3c/w3process/pull/147
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/147#issuecomment-371950509
+----
+Issue 40.
+Summary:  Fix leftover phrasing about CR/PR AC review.
+From:     Philippe Le Hegaret
+Comment:  https://github.com/w3c/w3process/issues/34#issuecomment-371202943
+Response: https://github.com/w3c/w3process/pull/170
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 41.
+Summary:  Allow reduction in charter scope without AC Review.
+From:     Carine Bournez
+Comment:  https://github.com/w3c/w3process/issues/142
+Response: https://github.com/w3c/w3process/issues/142#issuecomment-367402614<Paste>
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/142#event-1485191962
+----
+Issue 42.
+Summary:  Require a super Majority for Appeal.
+From:     Christopher Allen
+Comment:  https://github.com/w3c/w3process/issues/131
+Response: https://github.com/w3c/w3process/issues/131#issuecomment-367400103
+Closed:   Rejected
+----
+Issue 43.
+Summary:  Is there a rationale for relying on GitHub?
+From:     Reto Gmür
+Comment:  https://github.com/w3c/w3process/issues/132
+Response: https://github.com/w3c/w3process/issues/132#issuecomment-353405492
+Closed:   OutOfScope
+----
+Issue 44.
+Summary:  Do we audit which members actually have an AC Rep?
+From:     Terence Eden
+Comment:  https://github.com/w3c/w3process/issues/107
+Response: https://github.com/w3c/w3process/issues/107#issuecomment-332900963
+Closed:   OutOfScope
+----
+Issue 45.
+Summary:  Clarify the requirements be for specifications produced by more than one WG.
+From:     Charles McCathie Nevile
+Comment:  https://www.w3.org/community/w3process/track/issues/93
+Comment:  https://github.com/w3c/w3process/issues/2
+Response: https://github.com/w3c/w3process/issues/2#issuecomment-323383639
+Closed:   Rejected
+Verified: Issue submitted was co-editor and member of the AB, did not push back.
+----
+Issue 46.
+Summary:  Process CG should have a CONTRIBUTING.md file.
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/156
+Response: https://github.com/w3c/w3process/pull/162
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/162#issuecomment-365390113
+----
+Issue 47.
+Summary:  Fix typo
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/161
+Response: https://github.com/w3c/w3process/pull/162
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/162#issuecomment-365390113
+----
+Issue 48.
+Summary:  When are tests required?
+From:     Nigel Meggit
+Comment:  https://github.com/w3c/w3process/issues/129
+Response: https://github.com/w3c/w3process/issues/129#issuecomment-358285243
+Closed:   Deferred
+----
+Issue 49.
+Summary:  What happens if one wishes to update, delete, or replace a member submission?
+From:     David Cramer
+Comment:  https://github.com/w3c/w3process/issues/154
+Response: https://github.com/w3c/w3process/issues/154#issuecomment-354342898
+Response: https://github.com/w3c/w3process/issues/154#issuecomment-355441019
+Closed:   OutOfScope
+----
+Issue 50.
+Summary:  Redefine what "Consensus" means.
+From:     Joakim Hedlund
+Comment:  https://github.com/w3c/w3process/pull/101
+Response: https://github.com/w3c/w3process/pull/101#issuecomment-331278884
+Closed:   Rejected
+Verified: https://github.com/w3c/w3process/pull/101#issuecomment-365686583
+----
+Issue 51.
+Summary:  Revert accidental substantive change made during editorial commit.
+From:     Elika Etemad
+Comment:  https://lists.w3.org/Archives/Public/public-w3process/2018Nov/0014.html
+Response: https://github.com/w3c/w3process/pull/228
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/228#issuecomment-439231058
+----
+Issue 52.
+Summary:  Fix typo
+From:     Chris Wilson
+Comment:  https://github.com/w3c/w3process/pull/226
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/226#issuecomment-437087491
+----
+Issue 53.
+Summary:  Editorial clarification
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/pull/210
+Response: https://github.com/w3c/w3process/pull/210#issuecomment-425347032
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 54.
+Summary:  Editorial clarification.
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/pull/210
+Response: https://github.com/w3c/w3process/pull/210#issuecomment-425347032
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 55.
+Summary:  Grammar Fix.
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/pull/209
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 56.
+Summary:  Update Metadata.
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/206
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/206#pullrequestreview-155176088
+----
+Issue 57.
+Summary:  Markup fixes.
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/205
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/205#pullrequestreview-155164935
+----
+Issue 58.
+Summary:  Editorial improvements to obsolete/superceded
+From:     Andreas Tai
+Comment:  https://github.com/w3c/w3process/issues/138
+Response: https://github.com/w3c/w3process/pull/199
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 59.
+Summary:  Clarify the 'personal capacity' aspect of AB/TAG participation.
+From:     Kevin P. Fleming
+Comment:  https://github.com/w3c/w3process/pull/191
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 60.
+Summary:  Update link
+From:     Fuqiao Xue
+Comment:  https://github.com/w3c/w3process/pull/164
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/164#issuecomment-365696625
+----
+Issue 61.
+Summary:  Add diagram to 6.9
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/pull/152
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 62.
+Summary:  Markup fixes
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/pull/153
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/153#pullrequestreview-91714395
+----
+Issue 63.
+Summary:  Markup and Editorial Fixes
+From:     Philippe Le Hegaret
+Comment:  https://github.com/w3c/w3process/pull/159
+Closed:   Accepted
+Resolved: Editor determined consensus
+----
+Issue 64.
+Summary:  Clarify withdrawing a Rec.
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/pull/145
+Closed:   Rejected
+Verified: Issue submitter is co-editor and member of the AB, did not push back
+----
+Issue 65.
+Summary:  Update maturity states description
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/pull/144
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/144#issuecomment-371951311
