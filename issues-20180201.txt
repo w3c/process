@@ -344,6 +344,7 @@ Comment:  https://github.com/w3c/w3process/issues/142
 Response: https://github.com/w3c/w3process/issues/142#issuecomment-367402614<Paste>
 Closed:   Rejected
 Resolved: https://github.com/w3c/w3process/issues/142#event-1485191962
+Verified: https://github.com/w3c/w3process/issues/142#issuecomment-445521296
 ----
 Issue 42.
 Summary:  Require a super Majority for Appeal.
