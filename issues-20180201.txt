@@ -292,7 +292,7 @@ Comment:  https://github.com/w3c/w3process/issues/86
 Comment:  https://github.com/w3c/w3process/pull/197
 Response: https://github.com/w3c/w3process/issues/86#issuecomment-413172927
 Closed:   Retracted (in favor of https://github.com/w3c/w3process/issues/198)
----
+----
 Issue 35.
 Summary:  Define "independent".
 From:     Nigel Meggit
@@ -300,6 +300,7 @@ Comment:  https://github.com/w3c/w3process/issues/167
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-380498842
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-380511138
 Closed:   Rejected
+Verified: https://github.com/w3c/w3process/issues/167#issuecomment-445755075
 ----
 Issue 36.
 Summary:  Should TAG appointees be automatically nominated for the next TAG election when their term expires?
