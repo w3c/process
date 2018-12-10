@@ -146,7 +146,8 @@ Resolved: https://www.w3.org/2018/10/03-w3process-minutes.html
 ----
 Issue 17.
 Summary:  Document relationship between W3C and CG/BGs.
-From:     David Singer
+From:     Charles McCathie Nevile
+Comment:  https://www.w3.org/community/w3process/track/issues/130
 Comment:  https://github.com/w3c/w3process/issues/17
 Comment:  https://github.com/w3c/w3process/issues/180
 Response: https://github.com/w3c/w3process/pull/221
@@ -191,7 +192,7 @@ Issue 22.
 Summary:  *Imediately* vacate AB seats when participation constrains are no longer met.
 From:     David Singer
 Comment:  https://github.com/w3c/w3process/issues/175
-Comment:  Resolved:://github.com/w3c/w3process/pull/186 
+Resolved  https://github.com/w3c/w3process/pull/186 
 Closed:   Rejected
 Resolved: https://www.w3.org/2018/08/15-w3process-minutes.html
 Verified: https://github.com/w3c/w3process/pull/186#issuecomment-420506209
@@ -368,13 +369,12 @@ Response: https://github.com/w3c/w3process/issues/107#issuecomment-332900963
 Closed:   OutOfScope
 ----
 Issue 45.
-Summary:  Clarify the requirements be for specifications produced by more than one WG.
-From:     Charles McCathie Nevile
+Summary:  Do we need clearer the requirements be for specifications produced by more than one WG.
+From:     Liam Quin
 Comment:  https://www.w3.org/community/w3process/track/issues/93
 Comment:  https://github.com/w3c/w3process/issues/2
 Response: https://github.com/w3c/w3process/issues/2#issuecomment-323383639
-Closed:   Rejected
-Verified: Issue submitted was co-editor and member of the AB, did not push back.
+Closed:   Accepted (Nothing to do)
 ----
 Issue 46.
 Summary:  Process CG should have a CONTRIBUTING.md file.
