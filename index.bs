@@ -44,7 +44,7 @@ Abstract:
 	This document does not describe the internal workings of the Team.
 
 	For more information about the W3C mission and the history of W3C,
-	please refer to <a href="https://www.w3.org/Consortium/" data-ref="PUB15">About W3C</a>.
+	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
 	This document is based on the <a href="https://www.w3.org/2017/Process-20170301/">1 February 2018 Process</a>,
 	which is the currently operative W3C Process.
@@ -98,8 +98,8 @@ Relation of Process Document to Patent Policy</h2>
 
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
-	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement" data-ref="PUB6">Membership Agreement</a>.
-	The Patent Policy <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>
+	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
+	The Patent Policy <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	is incorporated by normative reference as a part of the Process Document,
 	and is thus equally binding.
 
@@ -119,10 +119,11 @@ Conformance and specialized terms</h2>
 	<em class="rfc2119">should not</em>,
 	<em class="rfc2119">required</em>,
 	and <em class="rfc2119">may</em>
-	are used in accordance with <a href="https://www.ietf.org/rfc/rfc2119.txt" data-ref="RFC2119">RFC 2119</a>.
+	are used in accordance with <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a>.
 	The term <dfn id="not-required" noexport><em class="rfc2119">not required</em></dfn>
 	is equivalent to the term <em class="rfc2119">may</em>
-	as defined in <a href="#ref-RFC2119" data-ref="RFC2119">RFC2119</a>.
+	as defined in RFC2119
+	[[!RFC2119]].
 
 	Some terms have been capitalized in this document (and in other W3C materials)
 	to indicate that they are entities with special relevance to the W3C Process.
@@ -216,7 +217,7 @@ Introduction</h2>
 	</ol>
 
 	The W3C also operates Community and Business Groups,
-	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a>.
+	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
 
 <h2 id="Organization">
 Members, Advisory Committee, Team, Advisory Board, Technical Architecture Group</h2>
@@ -237,7 +238,7 @@ Members</h3>
 			is composed of one <dfn export lt="Advisory Committee representative| AC representative">representative</dfn>
 			from each Member organization
 			(refer to the [=Member-only=] list
-			of <a href="https://www.w3.org/Member/ACList" data-ref="MEM1">current Advisory Committee representatives</a>.)
+			of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 			The Advisory Committee:
 
 			<ul>
@@ -267,9 +268,9 @@ Members</h3>
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
-	as described in “<a href="https://www.w3.org/Consortium/join" data-ref="PUB5">How to Join W3C</a>”;
-	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List" data-ref="PUB8">current W3C Members</a>).
-	Organizations subscribe according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement" data-ref="PUB6">Membership Agreement</a>.
+	as described in “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]];
+	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List">current W3C Members</a> [[MEMBER-LIST]]).
+	Organizations subscribe according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
 	The <a href="#Team">Team</a> <em class="rfc2119">must</em> ensure
 	that Member participation agreements remain <a href="#Team-only">Team-only</a>
 	and that no Member receives preferential treatment within W3C.
@@ -297,7 +298,7 @@ Rights of Members</h4>
 		<li>
 			Use of the W3C Member logo on promotional material and to publicize the Member's participation in W3C.
 			For more information, please refer to the Member logo usage policy
-			described in the <a href="https://www.w3.org/Member/Intro" data-ref="MEM4">New Member Orientation</a>.
+			described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 	</ul>
 
 	Furthermore, subject to further restrictions included in the Member Agreement,
@@ -319,8 +320,8 @@ Rights of Members</h4>
 	When serious and/or repeated violations do occur,
 	and repeated attempts to address these violations have not resolved the situation,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action.
-	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement.
-	Refer to the <a href="https://www.w3.org/2002/09/discipline" data-ref="MEM14">Guidelines for Disciplinary Action</a>.
+	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
+	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
 
 <h4 id="RelatedAndConsortiumMembers">
 Member Consortia and Related Members</h4>
@@ -392,15 +393,15 @@ Related Members</h5>
 	single organization.
 
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
-	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro" data-ref="MEM4">New Member Orientation</a>.
+	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
 <h4 id="AC">
 Advisory Committee (AC)</h4>
 
 	When an organization joins W3C
-	(see “<a href="https://www.w3.org/Consortium/join" data-ref="PUB5">How to Join W3C</a>”),
+	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
 	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
-	The <a href="https://www.w3.org/Member/Intro" data-ref="MEM4">New Member Orientation</a>
+	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
 	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
 	explains how to name a new [=Advisory Committee representative=],
@@ -408,9 +409,9 @@ Advisory Committee (AC)</h4>
 	[=Advisory Committee representatives=] <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a>
 	by disclosing information according to the mechanisms described in the New Member Orientation.
 	See also the additional roles of [=Advisory Committee representatives=]
-	described in the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	described in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 
-	Additional information for Members is available at the <a href="https://www.w3.org/Member/" data-ref="MEM6">Member Web site</a>.
+	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
 
 <h5 id="ACCommunication">
 Advisory Committee Mailing Lists</h5>
@@ -486,7 +487,7 @@ Advisory Committee Meetings</h5>
 	The Team <em class="rfc2119">must</em> announce the region of each Advisory Committee meeting
 	at least <span class="time-interval">one year</span> in advance.
 
-	More information about <a href="https://www.w3.org/Member/Meeting/" data-ref="MEM5">Advisory Committee meetings</a>
+	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
 	is available at the Member Web site.
 
 <h3 id="Team">
@@ -499,7 +500,7 @@ The W3C Team</h3>
 	unpaid interns,
 	and W3C Fellows.
 	<dfn id="fellows">W3C Fellows</dfn> are Member employees working as part of the Team;
-	see the <a href="https://www.w3.org/Consortium/Recruitment/Fellows" data-ref="PUB32">W3C Fellows Program</a>.
+	see the <a href="https://www.w3.org/Consortium/Recruitment/Fellows">W3C Fellows Program</a> [[FELLOWS]].
 	The Team provides technical leadership about Web technologies,
 	organizes and manages W3C activities to reach goals
 	within practical constraints (such as resources available),
@@ -551,7 +552,7 @@ Team Submissions</h4>
 
 	Team Submissions are <strong>not</strong> part of the <a href="#Reports">technical report development process</a>.
 
-	The list of <a href="https://www.w3.org/TeamSubmission/" data-ref="PUB16">published Team Submissions</a>
+	The list of <a href="https://www.w3.org/TeamSubmission/">published Team Submissions</a> [[TEAM-SUBMISSION]]
 	is available at the W3C Web site.
 
 <h3 id="AB">
@@ -590,7 +591,7 @@ Advisory Board (AB)</h3>
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
 	mailing list information, and summaries of Advisory Board meetings)
-	are available at the <a href="https://www.w3.org/2002/ab/" data-ref="PUB30">Advisory Board home page</a>.
+	are available at the <a href="https://www.w3.org/2002/ab/">Advisory Board home page</a> [[AB-HP]].
 
 <h4 id="ABParticipation">
 Advisory Board Participation</h4>
@@ -644,7 +645,7 @@ Technical Architecture Group (TAG)</h3>
 	the W3C Advisory Committee,
 	Advisory Board,
 	and Team.
-	Please refer to the <a href="https://www.w3.org/2004/10/27-tag-charter.html" data-ref="PUB25">TAG charter</a>
+	Please refer to the <a href="https://www.w3.org/2004/10/27-tag-charter.html">TAG charter</a> [[TAG-CHARTER]]
 	for more information about the background and scope of the TAG,
 	and the expected qualifications of TAG participants.
 
@@ -673,12 +674,12 @@ Technical Architecture Group (TAG)</h3>
 	each TAG participant
 	(whether appointed, elected, or the Chair)
 	has one vote;
-	see also the section on <a href="https://www.w3.org/2004/10/27-tag-charter.html#Voting" data-ref="PUB25">voting in the TAG charter</a>
+	see also the section on <a href="https://www.w3.org/2004/10/27-tag-charter.html#Voting">voting in the TAG charter</a> [[TAG-CHARTER]]
 	and the general section on <a href="#Votes">votes</a> in this Process Document.
 
 	Details about the [=TAG=]
 	(e.g., the list of TAG participants, mailing list information, and summaries of TAG meetings)
-	are available at the <a href="https://www.w3.org/2001/tag/" data-ref="PUB26">TAG home page</a>.
+	are available at the <a href="https://www.w3.org/2001/tag/">TAG home page</a> [[TAG-HP]].
 
 <h4 id="tag-participation">
 Technical Architecture Group Participation</h4>
@@ -703,7 +704,7 @@ Technical Architecture Group Participation</h4>
 
 	The [=Team=] appoints the Chair of the TAG,
 	who <em class="rfc2119">must</em> be one of the participants.
-	The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a> for the TAG,
+	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
@@ -746,7 +747,7 @@ Advisory Board and Technical Architecture Group Participation</h3>
 	(as described in the section on the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>).
 	See also the licensing obligations on TAG participants
 	in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>,
+	of the W3C Patent Policy [[PATENT-POLICY]],
 	and the claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.
 
 	Participation in the TAG or AB is afforded to the specific individuals elected or appointed to those positions,
@@ -888,7 +889,7 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	the <a href="#random">verifiable random selection procedure</a> described below
 	will be used to assign the short term.
 
-	Refer to <a href="https://www.w3.org/2002/10/election-howto" data-ref="MEM15">How to Organize an Advisory Board or TAG election</a>
+	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
 
 <h5 id="random">
@@ -898,7 +899,7 @@ Verifiable Random Selection Procedure</h5>
 	(e.g., in an [=AB=] or [=TAG=] election,
 	to “draw straws” in case of a tie
 	or to fill a short term),
-	W3C uses the random and verifiable procedure defined in <a href="https://www.ietf.org/rfc/rfc3797.txt" data-ref="RFC3797">RFC 3797</a>.
+	W3C uses the random and verifiable procedure defined in <a href="https://www.ietf.org/rfc/rfc3797.txt">RFC 3797</a> [[!RFC3797]].
 	The procedure orders an input list of names
 	(listed in alphabetical order by family name unless otherwise specified)
 	into a “result order”.
@@ -1014,10 +1015,10 @@ Individual Participation Criteria</h3>
 	are responsible for assessing and attesting to the qualities of those nominees.
 
 	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
-	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/" data-ref="PUB38">W3C Code of Ethics and Professional Conduct</a>
+	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
 	and the participation requirements described in
 	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 	The [=Director=] <em class="rfc2119">may</em> suspend or remove for cause
 	a participant in any group (including the [=AB=] and [=TAG=]),
@@ -1065,7 +1066,7 @@ Conflict of Interest Policy</h4>
 
 	Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the [=Team=].
 
-	[=Team=] members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy" data-ref="PUB23">W3C Team conflict of interest policy</a>.
+	[=Team=] members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy">W3C Team conflict of interest policy</a> [[!CONFLICT-POLICY]].
 
 <h4 id="member-rep">
 Individuals Representing a Member Organization</h4>
@@ -1437,7 +1438,7 @@ Resignation from a Group</h3>
 	or the Invited Expert
 	will be deemed to have resigned from the relevant group.
 	The team <em class="rfc2119">must</em> record the notification.
-	See section 4.2. of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>
+	See <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-resign">section 4.2.</a> of the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
@@ -1456,17 +1457,17 @@ Dissemination Policies</h2>
 			<a href="#Reports">W3C technical reports</a> whose publication has been approved by the Director.
 			Per the Membership Agreement,
 			W3C technical reports (and software) are available free of charge to the general public;
-			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents" data-ref="PUB18">W3C Document License</a>).
+			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
 
 		<li>
-			A <a href="https://www.w3.org/Consortium/mission" data-ref="PUB15">mission statement</a>
+			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
 			that explains the purpose and mission of W3C,
 			the key benefits for Members,
 			and the organizational structure of W3C.
 
 		<li>
 			Legal documents,
-			including the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement" data-ref="PUB6">Membership Agreement</a>
+			including the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]]
 			and documentation of any legal commitments W3C has with other entities.
 
 		<li>
@@ -1480,7 +1481,7 @@ Dissemination Policies</h2>
 	[=Workshops=],
 	and review deadlines,
 	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal" data-ref="PUB36">calendar</a>
+	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]. 
 	of official W3C events.
 	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
@@ -1540,7 +1541,7 @@ Confidentiality Levels</h3>
 	to ensure that Member-only news announcements
 	are distributed for internal use only within their organization.
 	Information about Member mailing lists is available
-	in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a>.
+	in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
 <h4 id="confidentiality-change">
 Changing Confidentiality Level</h4>
@@ -1599,7 +1600,7 @@ Working Groups and Interest Groups</h2>
 			test suites,
 			and reviews of the deliverables of other groups).
 			There are additional participation requirements
-			described in the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+			described in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
 
 		<dt>
 			<a href="#GroupsIG">Interest Groups</a>.
@@ -1628,14 +1629,14 @@ Requirements for All Working and Interest Groups</h3>
 	or an <a href="#invited-expert-wg">Invited Expert</a>
 	(invited by the Director).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
-	The <a href="https://www.w3.org/Guide/chair-roles">role of the Chair</a> is described
-	in the <a href="https://www.w3.org/Guide/" data-ref="PUB37">Art of Consensus</a>.
+	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
+	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
 
 	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Team Contact</dfn>,
 	who acts as the interface between the [=Chair=],
 	group participants,
 	and the rest of the Team.
-	The <a href="https://www.w3.org/Guide/staff-contact">role of the Team Contact</a> is described in the Member guide.
+	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] is described in the Member guide [[GUIDE]].
 	The [=Chair=] and the [=Team Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
 
 	Each group <em class="rfc2119">must</em> have an archived mailing list
@@ -1645,7 +1646,7 @@ Requirements for All Working and Interest Groups</h3>
 	and [=Formal Objections=] to decisions).
 	It is the responsibility of the [=Chair=] and [=Team Contact=]
 	to ensure that new participants are subscribed to all relevant mailing lists.
-	Refer to the list of <a href="https://www.w3.org/Member/Mail/" data-ref="MEM2">group mailing lists</a>.
+	Refer to the list of <a href="https://www.w3.org/Member/Mail/">group mailing lists</a> [[GROUP-MAIL]].
 
 	<p>A [=Chair=] <em class="rfc2119">may</em> form task forces
 	(composed of group participants)
@@ -1693,7 +1694,7 @@ Working Group and Interest Group Participation Requirements</h4>
 	at any time during the group's existence.
 	See also relevant requirements in
 	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-join">section 4.3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[PATENT-POLICY]].
 
 	On an exceptional basis,
 	a Working or Interest Group participant <em class="rfc2119">may</em> designate
@@ -1722,7 +1723,7 @@ Working Group and Interest Group Participation Requirements</h4>
 
 	See also the licensing obligations on Working Group participants
 	in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>,
+	of the W3C Patent Policy [[!PATENT-POLICY]],
 	and the patent claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.
 
 <h5 id="member-rep-wg">
@@ -1745,7 +1746,7 @@ Member Representative in a Working Group</h5>
 	with all of the following <span id=member-rep-info>information</span>,
 	in addition to any other information required by the <a href="#cfp">Call for Participation</a>
 	and charter
-	(including the participation requirements of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>):
+	(including the participation requirements of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]]):
 
 	<ol>
 		<li>
@@ -1834,14 +1835,14 @@ Invited Expert in a Working Group</h5>
 
 		<li>
 			agree to the terms of the
-			<a href="https://www.w3.org/Consortium/Legal/collaborators-agreement" data-ref="PUB17">invited expert and collaborators agreement</a>,
+			<a href="https://www.w3.org/Consortium/Legal/collaborators-agreement">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
 
 		<li>
 			accept the participation terms set forth in the charter,
 			including the participation requirements of
 			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a> (see especially 3.4) and
 			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a> (see especially 6.10)
-			of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>,
+			of the W3C Patent Policy [[!PATENT-POLICY]], 
 			indicating a specific charter date or version,
 
 		<li>
@@ -2042,7 +2043,7 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			Any dependencies of this group on other groups within or outside of W3C.
 			Such dependencies include interactions with
-			<a href="https://www.w3.org/Guide/Charter.html#horizontal-review">W3C Horizontal Groups</a>;
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]];
 
 		<li>
 			The <a href="#confidentiality-levels">level of confidentiality</a>
@@ -2083,12 +2084,13 @@ Working Group and Interest Group Charters</h4>
 			considerations affecting the success of the Group?
 			In particular, is there any reason to believe
 			that it will be difficult to meet the Royalty-Free licensing goals
-			of section 2 of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>?
+			of <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Licensing">section 2</a>
+			of the W3C Patent Policy [[PATENT-POLICY]]?
 	</ul>
 
 	See also the charter requirements of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
 	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]]. 
 
 	For every Recommendation Track deliverable
 	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
@@ -2131,7 +2133,7 @@ Working Group and Interest Group Charters</h4>
 	it is that [=First Public Working Draft=].
 	It is the specific draft against which exclusions are made,
 	as per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-with">section 4.1</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 	The [=Adopted Draft=] and the [=Exclusion Draft=]
 	<em class="rfc2119">must</em> each be adopted in their entirety and without any modification.
@@ -2142,7 +2144,7 @@ Working Group and Interest Group Charters</h4>
 	that arose on publishing the [=First Public Working Draft=]
 	or [=Candidate Recommendation=] began and ended.
 	As per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-join">section 4.3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>,
+	of the W3C Patent Policy [[!PATENT-POLICY]],
 	this potentially means that exclusions can only be made immediately on joining a Working Group.
 
 	<p id="ig-charter-participation">An Interest Group charter
@@ -2184,7 +2186,7 @@ Working Group and Interest Group Closure</h4>
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
 
 	Closing a Working Group has implications
-	with respect to the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	with respect to the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
 
 <h2 id="Reports">
 W3C Technical Report Development Process</h2>
@@ -2215,14 +2217,14 @@ W3C Technical Report Development Process</h2>
 
 	See also the licensing goals for [=W3C Recommendations=] in
 	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[PATENT-POLICY]].
 
 <h3 id="rec-advance">
 W3C Technical Reports</h3>
 
 	Please note that <dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
 	refers to producing a version which is listed as a W3C <dfn export>Technical Report</dfn>
-	on its <a href="https://www.w3.org/TR/" data-ref="PUB11">Technical Reports page https://www.w3.org/TR</a>.
+	on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> [[TR]].
 
 	This chapter describes the formal requirements
 	for [=publishing=] and maintaining a [=W3C Recommendation=] or [=Note=].
@@ -2495,7 +2497,7 @@ Maturity Levels</h4>
 					gather <a href="#implementation-experience">implementation experience</a>
 				<li>
 					Provide an exclusion opportunity
-					per the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+					per the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 					<span class=note>Note: A Candidate Recommendation under this process
 					corresponds to the [=Last Call Working Draft=] discussed in the Patent Policy.</span>
 			</ul>
@@ -2537,7 +2539,7 @@ Maturity Levels</h4>
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
 			The W3C Royalty-Free IPR licenses
-			granted under the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>
+			granted under the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]]
 			apply to [=W3C Recommendations=].
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
@@ -2559,7 +2561,7 @@ Maturity Levels</h4>
 				at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
 				Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
 				there are implications regarding the scope of Royalty-Free IPR licenses
-				granted under the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [<a href="#ref-patentpolicy">PUB33</a>].
+				granted under the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 
 			<dt>
 				A <dfn export id="RecsSup">Superseded Recommendation</dfn>
@@ -2589,7 +2591,7 @@ Maturity Levels</h4>
 			and believes is unlikely to ever be restored to [=Recommendation=] status.
 			See also clause 10 of the licensing requirements for W3C Recommendations
 			in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a>
-			of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+			of the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
 			<dfn export id="WGNote" lt="W3C Note | WG Note | Working Group Note | IG Note | Interest Group Note | Note">Working Group Note, Interest Group Note</dfn> (<abbr>NOTE</abbr>)
@@ -2628,7 +2630,7 @@ General requirements for Technical Reports</h4>
 
 	Every document published as part of the technical report development process
 	<em class="rfc2119 old">must</em> be a public document.
-	The <a href="https://www.w3.org/TR/" data-ref="PUB11">index of W3C technical reports</a> is available at the W3C Web site.
+	The <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]] is available at the W3C Web site.
 	W3C strives to make archival documents indefinitely available
 	at their original address in their original form.
 
@@ -2673,7 +2675,7 @@ General requirements for Technical Reports</h4>
 	in the Group responsible for the document(s) they are editing.
 
 	The Team is <em class="rfc2119">not required</em> to publish a [=Technical Report=]
-	that does not conform to the Team's <a href="https://www.w3.org/pubrules/" data-ref="PUB31">Publication Rules</a>
+	that does not conform to the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]]
 	(e.g., for <span id="DocumentName">naming</span>,
 	status information,
 	style,
@@ -2685,7 +2687,7 @@ General requirements for Technical Reports</h4>
 
 	The primary language for W3C [=Technical Reports=] is English.
 	W3C encourages the translation of its [=Technical Reports=].
-	<a href="https://www.w3.org/Consortium/Translation/" data-ref="PUB18">Information about translations of W3C technical reports</a>
+	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
 	is available at the W3C Web site.
 
 <h4 id="transition-reqs">
@@ -2777,9 +2779,9 @@ Wide Review</h5>
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
-	especially <a href="https://www.w3.org/Guide/Charter.html#horizontal-review">W3C Horizontal Groups</a>
+	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
 	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html" data-ref="PUB29">liaisons</a>,
+	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
@@ -2928,7 +2930,7 @@ Contributor License Grants</h4>
 <h3 id="working-draft">
 Working Draft</h3>
 
-	A Working Draft is published on the <a href="https://www.w3.org/TR/" data-ref="PUB11">W3C's Technical Reports page</a> for review,
+	A Working Draft is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]for review,
 	and for simple historical reference.
 	For all Working Drafts a Working Group:
 
@@ -2958,7 +2960,7 @@ First Public Working Draft</h4>
 
 	Publishing the [=First Public Working Draft=] triggers a Call for Exclusions,
 	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h4 id="revised-wd">
 Revising Working Drafts</h4>
@@ -3069,10 +3071,10 @@ Candidate Recommendation</h3>
 	and to the public.
 
 	A [=Candidate Recommendation=] corresponds to a <dfn export>Last Call Working Draft</dfn>
-	as used in the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	as used in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
 	Publishing a [=Candidate Recommendation=] triggers a Call for Exclusions,
 	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>,
+	of the W3C Patent Policy,
 	except if the document is a candidate [=Amended Recommendation=]
 	or contains only editorial changes.
 
@@ -3097,7 +3099,7 @@ Revising a Candidate Recommendation</h4>
 	the [=Director=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
 	[=Substantive changes=] can require a new Exclusion Opportunity
 	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 	Note: approval is <em>expected</em> to be fairly simple
 	compared to getting approval for a transition from [=Working Draft=] to [=Candidate Recommendation=].
@@ -3145,7 +3147,7 @@ Proposed Recommendation</h3>
 			and <em class="rfc2119">should</em> be at least 10 days
 			after the end of the last Exclusion Opportunity
 			per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
-			of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+			of the W3C Patent Policy [[!PATENT-POLICY]].
 	</ul>
 
 	A Working Group,
@@ -3278,7 +3280,7 @@ Modifying a W3C Recommendation</h3>
 
 	This section details the management of errors in,
 	and the process for making changes to a [=Recommendation=].
-	Please see also the <a href="https://www.w3.org/2003/01/republishing/" data-ref="PUB35">Requirements for modification of W3C Technical Reports</a>.
+	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
 
 	<div role="region" aria-label="Revising a W3C Recommendation">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 250" width="100%">
@@ -3657,7 +3659,7 @@ Publishing a Working Group or Interest Group Note</h3>
 			at the maturity level the specification had before publication as a [=Note=]
 	</ul>
 
-	Note: The <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>
+	Note: The <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]]
 	does not specify any licensing requirements or commitments for Working Group Notes.
 
 <h3 id="rec-rescind">
@@ -3682,7 +3684,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	W3C <em class="rfc2119">may</em> rescind a Recommendation
 	if W3C believes there is no reasonable prospect of it being restored
 	for example due to burdensome patent claims that affect implementers and cannot be resolved;
-	see the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>
+	see the W3C Patent Policy [[!PATENT-POLICY]]
 	and in particular <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10)
 	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.
 
@@ -3693,7 +3695,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 
 
 	Note: For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
-	[<a href="#ref-patentpolicy">PUB33</a>]
+	[[PATENT-POLICY]]
 	an [=Obsolete Recommendation|Obsolete=] or [=Superseded Recommendation=] has the status of an active [=Recommendation=],
 	although it is not recommended for future implementation;
 	a [=Rescinded Recommendation=] ceases to be in effect
@@ -3860,7 +3862,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
 	The Status of this Document section <em class="rfc2119">should</em> link
-	to the explanation of <a href="https://www.w3.org/2016/11/obsoleting-rescinding/" data-ref="PUB39">Obsoleting and Rescinding W3C Specifications</a> as appropriate.
+	to the explanation of <a href="https://www.w3.org/2016/11/obsoleting-rescinding/">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
 
 	Once W3C has published a Rescinded Recommendation,
 	future W3C technical reports <em class="rfc2119">must not</em> include normative references
@@ -3872,11 +3874,11 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 <h3 id="further-reading">
 Further reading</h3>
 
-	Refer to <a href="https://www.w3.org/Guide/transitions">"How to Organize a Recommendation Track Transition"</a>
-	in the <a href="https://www.w3.org/Guide/">Member guide</a>
+	Refer to <a href="https://www.w3.org/Guide/transitions">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
+	in the <a href="https://www.w3.org/Guide/">Member guide</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
-	and <a href="https://www.w3.org/2002/05/rec-tips" data-ref="PUB27">tips on getting to Recommendation faster</a>.
+	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
 
 <h2 id="ReviewAppeal">
 Advisory Committee Reviews, Appeals, and Votes</h2>
@@ -4143,7 +4145,7 @@ Liaisons</h2>
 	the [=Director=] may sign the [=MoU=] on behalf of W3C.
 	A signed [=Memorandum of Understanding=] <em class="rfc2119">should</em> be made public.
 
-	Information about <a href="https://www.w3.org/2001/11/StdLiaison" data-ref="PUB28">W3C liaisons with other organizations</a>
+	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
 	and the guidelines W3C follows when creating a liaison is available on the Web.
 
 <h2 id="Submission">
@@ -4209,7 +4211,7 @@ Member Submission Process</h2>
 			<li>
 				Documents in a [=Member Submission=] are developed outside
 				of the W3C <a href="#Reports">technical report development process</a>
-				(and therefore are not included in the <a href="https://www.w3.org/TR/">index of W3C technical reports</a>).
+				(and therefore are not included in the <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]]).
 
 			<li>
 				The Submission process is <strong>not</strong> a means
@@ -4234,7 +4236,7 @@ Member Submission Process</h2>
 	A Member Submission published by W3C
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of the W3C.
 
-	The list of <a href="https://www.w3.org/Submission/" data-ref="PUB10">acknowledged Member Submissions</a>
+	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
 	is available at the W3C Web site.
 
 <h3 id="SubmissionRights">
@@ -4250,7 +4252,7 @@ Submitter Rights and Obligations</h3>
 
 	At any time prior to acknowledgment,
 	any [=Submitter=] <em class="rfc2119">may</em> withdraw support for a Submission request
-	(described in "<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>").
+	(described in "<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>" [[SUBMISSION-REQ]]).
 	A Submission request is “withdrawn” when no Submitter(s) support it.
 	The Team <em class="rfc2119">must not</em> make statements
 	about withdrawn Submission requests.
@@ -4295,7 +4297,7 @@ Scope of Member Submissions</h4>
 	to build consensus around concrete proposals for new work.
 
 	Members <em class="rfc2119">should not</em> submit materials
-	covering topics well outside the scope of <a href="https://www.w3.org/Consortium/mission" data-ref="PUB15">W3C's mission</a>.
+	covering topics well outside the scope of <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
 
 <h4 id="SubmissionReqs">
 Information Required in a Submission Request</h4>
@@ -4304,13 +4306,13 @@ Information Required in a Submission Request</h4>
 	and any other authors of the submitted material
 	<em class="rfc2119">must</em> agree that,
 	if the request is acknowledged,
-	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents" data-ref="PUB18">W3C Document License</a>
+	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]]
 	and will include a reference to it.
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
 	The request <em class="rfc2119">must</em> satisfy the Member Submission licensing commitments
 	of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-submissions">section 3.3</a>
-	of the <a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">W3C Patent Policy</a>.
+	of the W3C Patent Policy [!!PATENT-POLICY]].
 
 	The [=Submitter=](s) <em class="rfc2119">must</em> include the following information:
 
@@ -4330,11 +4332,11 @@ Information Required in a Submission Request</h4>
 			If the Submission request is acknowledged,
 			these documents will be published by W3C
 			and therefore <em class="rfc2119">must</em> satisfy the Communication Team's
-			<a href="https://www.w3.org/pubrules/" data-ref="PUB31">Publication Rules</a>.
+			<a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 			[=Submitters=] <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
 			but when published by W3C,
 			these documents <em class="rfc2119">must</em> be subject to the provisions
-			of the <a href="https://www.w3.org/Consortium/Legal/copyright-documents" data-ref="PUB18">W3C Document License</a>.
+			of the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]].
 	</ul>
 
 	The request <em class="rfc2119">must</em> also answer the following questions.
@@ -4364,7 +4366,7 @@ Information Required in a Submission Request</h4>
 	</ul>
 
 	For other administrative requirements related to Submission requests,
-	see "<a href="https://www.w3.org/2000/09/submission" data-ref="MEM8">How to send a Submission request</a>".
+	see “<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>” [[MEMBER-SUB]].
 
 <h3 id="TeamSubmissionRights">
 Team Rights and Obligations</h3>
@@ -4372,7 +4374,7 @@ Team Rights and Obligations</h3>
 	Although they are not technical reports,
 	the documents in a [=Member Submission=]
 	<em class="rfc2119">must</em> fulfil the requirements established by the [=Team=],
-	including the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a>.
+	including the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 
 	The [=Team=] sends a <dfn id="validation-notice">validation notice</dfn> to the [=Submitter=](s)
 	once the Team has reviewed a Submission request
@@ -4428,13 +4430,15 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 
 		<li>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
-			<a href="https://www.w3.org/Consortium/Patent-Policy" data-ref="PUB33">Patent Policy</a>,
-			<a href="https://www.w3.org/Consortium/Legal/copyright-documents" data-ref="PUB18">Document License</a>, or other IPR policies.
+			Patent Policy [[!PATENT-POLICY]]
+			and in particular <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-submissions">Section 3.3</a>,
+			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
+			or other IPR policies.
 
 		<li>
 			The ideas expressed in the request are poor,
 			might harm the Web,
-			or run counter to <a href="https://www.w3.org/Consortium/mission">W3C's mission</a>.
+			or run counter to <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
 
 		<li>
 			The ideas expressed in the request lie well outside the scope of W3C's mission.
@@ -4488,119 +4492,6 @@ Process Evolution</h2>
 	</ol>
 
 	Reviews of the Process Document are not public reviews.
-
-<h2 id="references">
-References</h2>
-
-<h3 id="public-refs">
-Public Resources</h3>
-
-	The following public information is available at the <a href="https://www.w3.org/">W3C Web site</a>.
-
-      <dl>
-        <dt id="ref-join-w3c">\[PUB5]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/join">How to Join W3C</a></cite></dd>
-        <dt id="ref-member-agreement">\[PUB6]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a></cite></dd>
-        <dt id="ref-current-mem">\[PUB8]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Member/List">The list of current W3C Members</a></cite></dd>
-        <dt id="ref-activity-list">\[PUB9]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/activities">The list of W3C Activities</a></cite></dd>
-        <dt id="ref-submission-list">\[PUB10]</dt>
-         <dd><cite><a href="https://www.w3.org/Submission/">The list of acknowledged Member Submissions</a></cite></dd>
-        <dt id="ref-doc-list">\[PUB11]</dt>
-         <dd><cite><a href="https://www.w3.org/TR/">The W3C technical reports index</a></cite></dd>
-        <dt id="ref-submission-overview">\[PUB13]</dt>
-         <dd><cite><a href="https://www.w3.org/Submission/1996/Template/">Submission request overview</a></cite></dd>
-        <dt id="ref-people">\[PUB14]</dt>
-         <dd><cite><a href="https://www.w3.org/People/">The W3C Team</a></cite></dd>
-        <dt id="ref-mission">\[PUB15]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/">About the World Wide Web Consortium</a></cite></dd>
-        <dt id="ref-team-submission-list">\[PUB16]</dt>
-         <dd><cite><a href="https://www.w3.org/TeamSubmission/">The list of published Team Submissions</a></cite></dd>
-        <dt id="ref-invited-expert">\[PUB17]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Legal/collaborators-agreement">Invited expert and collaborators agreement</a></cite></dd>
-        <dt id="ref-doc-license">\[PUB18]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a></cite></dd>
-        <dt id="ref-software-license">\[PUB19]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Legal/copyright-software">W3C Software Notice and License</a></cite></dd>
-        <dt id="ref-translations">\[PUB20]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Translation/">Translations of W3C technical reports</a></cite></dd>
-        <dt id="ref-pub-mailing-lists">\[PUB21]</dt>
-         <dd><cite><a href="https://www.w3.org/Mail/">Public W3C mailing lists</a></cite></dd>
-        <dt id="ref-coi">\[PUB23]</dt>
-         <dd><cite><a href="https://www.w3.org/2000/09/06-conflictpolicy">Conflict of Interest Policy for W3C Team Members Engaged in Outside Professional Activities</a></cite></dd>
-        <dt id="ref-tag-charter">\[PUB25]</dt>
-         <dd><cite><a href="https://www.w3.org/2004/10/27-tag-charter.html">Technical Architecture Group (TAG) Charter</a></cite></dd>
-        <dt id="ref-tag-home">\[PUB26]</dt>
-         <dd><cite><a href="https://www.w3.org/2001/tag/">The TAG home page</a></cite></dd>
-        <dt id="ref-rec-tips">\[PUB27]</dt>
-         <dd><cite><a href="https://www.w3.org/2002/05/rec-tips">Tips for Getting to Recommendation Faster</a></cite></dd>
-        <dt id="ref-liaison-list">\[PUB28]</dt>
-         <dd><cite><a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a></cite></dd>
-        <dt id="ref-ab-home">\[PUB30]</dt>
-         <dd><cite><a href="https://www.w3.org/2002/ab/">The Advisory Board home page</a></cite></dd>
-        <dt id="ref-pubrules">\[PUB31]</dt>
-         <dd><cite><a href="https://www.w3.org/pubrules/">Publication Rules</a></cite></dd>
-        <dt id="ref-fellows">\[PUB32]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Recruitment/Fellows">W3C Fellows Program</a></cite></dd>
-        <dt id="ref-patentpolicy">\[PUB33]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/Patent-Policy-20170801/">1 August 2017 version of the W3C Patent Policy</a></cite>. The
-          <a href="https://www.w3.org/Consortium/Patent-Policy/">latest version of the W3C Patent Policy</a> is available at
-          https://www.w3.org/Consortium/Patent-Policy/.</dd>
-        <dt id="in-place-tr-mod">\[PUB35]</dt>
-         <dd><cite><a href="https://www.w3.org/2003/01/republishing/">In-place modification of W3C Technical Reports</a></cite></dd>
-        <dt id="ref-calendar">\[PUB36]</dt>
-         <dd>The <cite><a href="https://www.w3.org/participate/eventscal">calendar of all scheduled official W3C events</a></cite> replaced the <a href="https://www.w3.org/Member/Eventscal">former member-confidential version</a> [<a href="#oldref-mem-calendar">MEM3</a>].</dd>
-        <dt id="ref-guide">\[PUB37]</dt>
-         <dd><cite><a href="https://www.w3.org/Guide/">The Art of Consensus</a></cite>, a guidebook for W3C Working Group Chairs and other collaborators</dd>
-        <dt id="ref-cepc">\[PUB38]</dt>
-         <dd><cite><a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a></cite></dd>
-        <dt id="ref-obs-resc">\[PUB39]</dt>
-         <dd><cite><a href="https://www.w3.org/2016/11/obsoleting-rescinding/">Obsoleting and Rescinding W3C Specifications</a></cite></dd>
-        <dt id="ref-bg-cg">\[PUB40]</dt>
-         <dd><cite><a href="https://www.w3.org/community/about/agreements/">Community and Business Group Process</a></cite></dd>
-
-      </dl>
-
-<h3 id="member-refs">
-Member-only Resources</h3>
-
-	The following [=Member-only=] information is available at the <a href="https://www.w3.org/">W3C Web site</a>.
-
-      <dl>
-        <dt id="ref-current-ac">\[MEM1]</dt>
-         <dd><cite><a href="https://www.w3.org/Member/ACList">Current Advisory Committee representatives</a></cite></dd>
-        <dt id="ref-mailing-lists">\[MEM2]</dt>
-         <dd><cite><a href="https://www.w3.org/Member/Groups">Group mailing lists</a></cite></dd>
-        <dt id="oldref-mem-calendar">\[MEM3]</dt>
-         <dd>The Member-only <cite><a href="https://www.w3.org/Member/Eventscal">calendar of all scheduled official W3C events</a></cite>
-         is no longer maintained. The information is now maintained in the <a href="#ref-calendar" data-ref="PUB36">public calendar</a></dd>
-        <dt id="ref-new-member">\[MEM4]</dt>
-         <dd>There is a <cite><a href="https://www.w3.org/Member/faq.html">Member intro and FAQ</a></cite> as well as the <cite><a href="https://www.w3.org/Member/Intro">Process, Patent Policy, Finances Guide</a></cite> previously known as the "New Member Orientation", which includes an introduction to W3C processes from a practical standpoint, including relevant email addresses.</dd>
-        <dt id="ref-ac-meetings">\[MEM5]</dt>
-         <dd><cite><a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a></cite></dd>
-        <dt id="ref-member-web">\[MEM6]</dt>
-         <dd><cite><a href="https://www.w3.org/Member/">Member Web site</a></cite></dd>
-        <dt id="ref-member-sub">\[MEM8]</dt>
-         <dd><cite><a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a></cite></dd>
-        <dt>\[MEM9]</dt>
-         <dd><cite><a href="https://www.w3.org/Guide/" data-ref="PUB37">The Art of Consensus</a></cite>, a guidebook for W3C Working Group Chairs and other collaborators, is now a Public resource</dd>
-        <dt id="ref-discipline-gl">\[MEM14]</dt>
-         <dd><cite><a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a></cite></dd>
-        <dt id="ref-election-howto">\[MEM15]</dt>
-         <dd><cite><a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a></cite></dd>
-      </dl>
-
-<h3 id="other-refs">
-Other References</h3>
-
-      <dl>
-        <dt id="ref-RFC2119">\[RFC2119]</dt>
-         <dd><cite><a href="https://www.ietf.org/rfc/rfc2119.txt">"Key words for use in RFCs to Indicate Requirement Levels"</a></cite>, S. Bradner, March 1997.</dd>
-        <dt id="ref-RFC3797">\[RFC3797]</dt>
-         <dd><cite><a href="https://www.ietf.org/rfc/rfc3797.txt">"Publicly Verifiable Nomcom Random Selection"</a></cite>, D. Eastlake 3rd, June 2004.</dd>
-      </dl>
 
 <h2 id="acks" class=non-normative>
 Acknowledgments</h2>
@@ -4916,3 +4807,199 @@ and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Proc
 		<dd>
 			Definition of MoU and conditions for approval.
 	</dl>
+
+<pre class=biblio>
+{
+	"JOIN": {
+		"href": "https://www.w3.org/Consortium/join",
+		"title": "How to Join W3C",
+		"publisher": "W3C"
+		},
+	"MEMBER-AGREEMENT": {
+		"href": "https://www.w3.org/Consortium/Agreement/Member-Agreement",
+		"title": "W3C Membership Agreement",
+		"publisher": "W3C"
+	},
+	"MEMBER-LIST": {
+		"href": "https://www.w3.org/Consortium/Member/List",
+		"title": "The list of current W3C Members",
+		"publisher": "W3C"
+	},
+	"SUBMISSION-LIST": {
+		"href": "https://www.w3.org/Submission/",
+		"title": "The list of acknowledged Member Submissions",
+		"publisher": "W3C"
+	},
+	"SUBMISSION-REQ": {
+		"href": "https://www.w3.org/2000/09/submission",
+		"title": "Make or Withdraw a Member Submission Request (Member-only access)",
+		"publisher": "W3C"
+	},
+	"TR": {
+		"href": "https://www.w3.org/TR/",
+		"title": "The W3C technical reports index",
+		"publisher": "W3C"
+	},
+	"MISSION": {
+		"href": "https://www.w3.org/Consortium/mission",
+		"title": "The W3C Mission statement",
+		"publisher": "W3C"
+	},
+	"TEAM-SUBMISSION": {
+		"href": "https://www.w3.org/TeamSubmission/",
+		"title": "The list of published Team Submissions",
+		"publisher": "W3C"
+	},
+	"COLLABORATORS-AGREEMENT": {
+		"href": "https://www.w3.org/Consortium/Legal/collaborators-agreement",
+		"title": "Invited expert and collaborators agreement",
+		"publisher": "W3C"
+	},
+	"DOC-LICENSE": {
+		"href": "https://www.w3.org/Consortium/Legal/copyright-documents",
+		"title": "W3C Document License",
+		"publisher": "W3C"
+	},
+	"TRANSLATION": {
+		"href": "https://www.w3.org/Consortium/Translation/",
+		"title": "Translations of W3C technical reports",
+		"publisher": "W3C"
+	},
+	"CONFLICT-POLICY": {
+		"href": "https://www.w3.org/2000/09/06-conflictpolicy",
+		"title": "Conflict of Interest Policy for W3C Team Members Engaged in Outside Professional Activities",
+		"publisher": "W3C"
+	},
+	"TAG-CHARTER": {
+		"href": "https://www.w3.org/2004/10/27-tag-charter.html",
+		"title": "Technical Architecture Group (TAG) Charter",
+		"publisher": "W3C"
+	},
+	"TAG-HP": {
+		"href": "https://www.w3.org/2001/tag/",
+		"title": "The TAG home page",
+		"publisher": "W3C"
+	},
+	"REC-TIPS": {
+		"href": "https://www.w3.org/2002/05/rec-tips",
+		"title": "Tips for Getting to Recommendation Faster",
+		"publisher": "W3C"
+	},
+	"LIAISON": {
+		"href": "https://www.w3.org/2001/11/StdLiaison",
+		"title": "W3C liaisons with other organizations",
+		"publisher": "W3C"
+	},
+	"AB-HP": {
+		"href": "https://www.w3.org/2002/ab/",
+		"title": "The Advisory Board home page",
+		"publisher": "W3C"
+	},
+	"PUBRULES": {
+		"href": "https://www.w3.org/pubrules/",
+		"title": "Publication Rules",
+		"publisher": "W3C"
+	},
+	"FELLOWS": {
+		"href": "https://www.w3.org/Consortium/Recruitment/Fellows",
+		"title": "W3C Fellows Program",
+		"publisher": "W3C"
+	},
+	"PATENT-POLICY": {
+		"href": "https://www.w3.org/Consortium/Patent-Policy/",
+		"title": "The W3C Patent Policy",
+		"publisher": "W3C"
+	},
+	"REPUBLISHING": {
+		"href": "https://www.w3.org/2003/01/republishing/",
+		"title": "In-place modification of W3C Technical Reports",
+		"publisher": "W3C"
+	},
+	"CALENDAR": {
+		"href": "https://www.w3.org/participate/eventscal",
+		"title": "Calendar of all scheduled official W3C events",
+		"publisher": "W3C"
+	},
+	"GUIDE": {
+		"href": "https://www.w3.org/Guide/",
+		"title": "The Art of Consensus",
+		"publisher": "W3C"
+	},
+	"CEPC": {
+		"href": "https://www.w3.org/Consortium/cepc/",
+		"title": "W3C Code of Ethics and Professional Conduct",
+		"publisher": "W3C"
+	},
+	"OBS-RESC": {
+		"href": "https://www.w3.org/2016/11/obsoleting-rescinding/",
+		"title": "Obsoleting and Rescinding W3C Specifications",
+		"publisher": "W3C"
+	},
+	"BG-CG": {
+		"href": "https://www.w3.org/community/about/agreements/",
+		"title": "Community and Business Group Process",
+		"publisher": "W3C"
+	},
+	"CURRENT-AC": {
+		"href": "https://www.w3.org/Member/ACList",
+		"title": "Current Advisory Committee representatives (Member-only access)",
+		"publisher": "W3C"
+	},
+	"GROUP-MAIL": {
+		"href": "https://www.w3.org/Member/Groups",
+		"title": "Group mailing lists (Member-only access)",
+		"publisher": "W3C"
+	},
+	"INTRO": {
+		"href": "https://www.w3.org/Member/Intro",
+		"title": "Process, Patent Policy, Finances, Specs management, Strategic vision (Member-only access)",
+		"publisher": "W3C"
+	},
+	"AC-MEETING": {
+		"href": "https://www.w3.org/Member/Meeting/",
+		"title": "Advisory Committee meetings (Member-only access)",
+		"publisher": "W3C"
+	},
+	"MEMBER-HP": {
+		"href": "https://www.w3.org/Member/",
+		"title": "Member Web site (Member-only access)",
+		"publisher": "W3C"
+	},
+	"MEMBER-SUB": {
+		"href": "https://www.w3.org/2000/09/submission",
+		"title": "How to send a Submission request",
+		"publisher": "W3C"
+	},
+	"DISCIPLINARY-GL": {
+		"href": "https://www.w3.org/2002/09/discipline",
+		"title": "Guidelines for Disciplinary Action",
+		"publisher": "W3C"
+	},
+	"ELECTION-HOWTO": {
+		"href": "https://www.w3.org/2002/10/election-howto",
+		"title": "How to Organize an Advisory Board or TAG election",
+		"publisher": "W3C",
+		"id": "MEM15"
+	},
+	"TEAM-CONTACT": {
+		"href": "https://www.w3.org/Guide/teamcontact/role.html",
+		"title": "Role of the Team Contact",
+		"publisher": "W3C"
+	},
+	"CHAIR": {
+		"href": "https://www.w3.org/Guide/chair/role.html",
+		"title": "W3C Working/Interest Group Chair",
+		"publisher": "W3C"
+	},
+	"CHARTER": {
+		"href": "https://www.w3.org/Guide/process/charter.html",
+		"title": "How to Create a Working Group or Interest Group",
+		"publisher": "W3C"
+	},
+	"TRANSITION": {
+		"href": "https://www.w3.org/Guide/transitions",
+		"title": "Organize a Technical Report Transition",
+		"publisher": "W3C"
+	}
+}
+</pre>
