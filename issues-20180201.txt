@@ -299,7 +299,8 @@ From:     Nigel Meggit
 Comment:  https://github.com/w3c/w3process/issues/167
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-380498842
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-380511138
-Closed:   Rejected
+Closed:   Deferred
+Resolved: https://github.com/w3c/w3process/issues/167#issuecomment-447038484
 Verified: https://github.com/w3c/w3process/issues/167#issuecomment-445755075
 ----
 Issue 36.
