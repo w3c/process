@@ -17,7 +17,8 @@ From:     Fuqiao Xue
 Comment:  https://github.com/w3c/w3process/pull/229
 Response: https://github.com/w3c/w3process/pull/229#issuecomment-439770518
 Response: https://github.com/w3c/w3process/pull/231
-Open
+Closed:   Accepted
+Resolved: https://lists.w3.org/Archives/Public/public-w3process/2018Dec/0013.html
 ----
 Issue 2.
 Summary:  Introduce voting for "No Other Candidate" in the Process and describe effects.
