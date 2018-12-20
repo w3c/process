@@ -526,3 +526,11 @@ From:     Charles McCathie Nevile
 Comment:  https://github.com/w3c/w3process/pull/144
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/144#issuecomment-371951311
+----
+Issue 66.
+Summary:  RFC2777 is obsolete, update to RFC3797
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/233
+Response: https://github.com/w3c/w3process/pull/234
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/234#issuecomment-449017548
