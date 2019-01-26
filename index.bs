@@ -247,7 +247,7 @@ Members</h3>
 					reviews plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>;
 
 				<li>
-					reviews formal proposals from the W3C Director:
+					reviews formal proposals from the W3C:
 					<a href="#CharterReview">Charter Proposals</a>,
 					<a href="#RecsPR">Proposed Recommendations</a>,
 					and <a href="#GAProcess">Proposed Process Documents</a>.
@@ -1249,7 +1249,7 @@ Recording and Reporting Formal Objections</h4>
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
 	[=Formal Objections=] that do not provide substantive arguments
-	or rationale are unlikely to receive serious consideration by the Director.
+	or rationale are unlikely to receive serious consideration.
 
 	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
 	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
@@ -1437,7 +1437,7 @@ Dissemination Policies</h2>
 
 	<ul>
 		<li>
-			<a href="#Reports">W3C technical reports</a> whose publication has been approved by the Director.
+			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
 			Per the Membership Agreement,
 			W3C technical reports (and software) are available free of charge to the general public;
 			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
@@ -1609,7 +1609,7 @@ Requirements for All Working and Interest Groups</h3>
 	The Director appoints (and re-appoints) Chairs for all groups.
 	The Chair is a <a href="#member-rep">Member representative</a>,
 	a <a href="#Team">Team representative</a>,
-	or an <a href="#invited-expert-wg">Invited Expert</a>
+	or an <a href="#invited-expert-wg">Invited Expert</a>,
 	(invited by the Director).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
 	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
@@ -1893,7 +1893,7 @@ Team Representative in a Working Group</h5>
 	</ul>
 
 	The Team participates in a Working Group
-	from the moment the Director announces the creation of the group
+	from the moment the creation of the group is announced
 	until the group closes.
 
 <h5 id="team-rep-ig">
@@ -1926,7 +1926,7 @@ Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 	prior to a charter extension or for minor changes.
 	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
 
-	The Director's Call for Review of a substantively modified charter
+	The Call for Review of a substantively modified charter
 	<em class="rfc2119">must</em> highlight important changes
 	(e.g., regarding deliverables or resource allocation)
 	and include rationale for the changes.
@@ -1948,7 +1948,7 @@ Call for Participation in a Working Group or Interest Group</h4>
 	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
 	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
 	Charters <em class="rfc2119">may</em> be amended based on review comments
-	before the Director issues a Call for Participation.
+	before the Call for Participation.
 
 	For a new group, this announcement officially creates the group.
 	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
@@ -1962,7 +1962,7 @@ Call for Participation in a Working Group or Interest Group</h4>
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>
-	against a Director's decision to create
+	against a decision to create
 	or substantially modify
 	a Working Group or Interest Group charter.
 
@@ -3824,7 +3824,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 		<li>
 			specify the deadline for review comments,
 			which <em class="rfc2119">must</em> be at least 28 days
-			after the [=Director=]'s announcement
+			after the announcement
 	</ul>
 
 	and <em class="rfc2119">should</em>
