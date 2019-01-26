@@ -171,7 +171,7 @@ Introduction</h2>
 		<li>
 			When there is enough interest in a topic
 			(e.g., after a successful Workshop and/or discussion on an <a href="#ACCommunication">Advisory Committee mailing list</a>),
-			the Director announces the development of a proposal
+			the [=Team=] announces the development of a proposal
 			for one or more new <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>,
 			depending on the breadth of the topic of interest.
 			W3C Members <a href="#CharterReview">review</a> the proposed charters.
@@ -783,7 +783,7 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=Director=] <em class="rfc2119">should</em> announce appointments
+	The [=Team=] <em class="rfc2119">should</em> announce appointments
 	no later than the start of a nomination period as part of the Call for Nominations.
 
 	In the case of regularly scheduled elections of the [=TAG=],
@@ -2601,7 +2601,7 @@ The W3C Recommendation Track</h3>
 	requiring a [=Working Group=] to conduct further work,
 	and <em class="rfc2119">may</em> require
 	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
-	The Director <em class="rfc2119">must</em> inform the <a href="#AC">Advisory Committee</a>
+	The [=Team=] <em class="rfc2119">must</em> inform the <a href="#AC">Advisory Committee</a>
 	and [=Working Group=] [=Chairs=] when a [=Working Group=]'s request
 	for a specification to advance in maturity level is declined
 	and the specification is returned to a [=Working Group=] for further work.
@@ -2989,7 +2989,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	Note: [=Update request=] approval is expected to be fairly simple
 	compared to getting approval for a [=transition request=].
 
-	The [=Director=] <em class="rfc2119">must</em> announce the publication
+	The [=Team=] <em class="rfc2119">must</em> announce the publication
 	of the revised specification
 	to other W3C groups and the Public.
 
@@ -3081,7 +3081,7 @@ Publishing a First Public Working Draft</h4>
 	To publish the [=First Public Working Draft=] of a document,
 	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">requirements for advancement</a>.
 
-	The [=Director=] <em class="rfc2119">must</em> announce
+	The [=Team=] <em class="rfc2119">must</em> announce
 	the publication of a [=First Public Working Draft=]
 	to other W3C groups and to the public.
 
@@ -3175,7 +3175,7 @@ Transitioning to Candidate Recommendation</h4>
 	The first Candidate Recommendation publication
 	after approval of a [=Transition Request=]
 	is always a [=Candidate Recommendation Snapshot=].
-	The [=Director=] <em class="rfc2119">must</em> announce
+	The [=Team=] <em class="rfc2119">must</em> announce
 	the publication of the [=Candidate Recommendation Snapshot=]
 	to other W3C groups
 	and to the public.
@@ -3220,7 +3220,7 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 			without a requirement to publish a new [=Candidate Recommendation=].
 	</ul>
 
-	The [=Director=] <em class="rfc2119">must</em> announce
+	The [=Team=] <em class="rfc2119">must</em> announce
 	the publication of a revised [=Candidate Recommendation Snapshot=]
 	to other W3C groups
 	and to the public.
@@ -3428,7 +3428,7 @@ Transitioning to W3C Recommendation</h4>
 			of the [=W3C decision=]
 
 		<li>
-			The [=Director=] <em class="rfc2119">must</em> announce the publication of a [=W3C Recommendation=]
+			The [=Team=] <em class="rfc2119">must</em> announce the publication of a [=W3C Recommendation=]
 			to <a href="#AC">Advisory Committee</a>,
 			other W3C groups
 			and to the public.
@@ -3707,7 +3707,7 @@ Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
 			5% of the members of the Advisory Committee
 	</ul>
 
-	<p id="proposed-rescinded-rec">The [=Director=] <em class="rfc2119">must</em> then
+	<p id="proposed-rescinded-rec">The [=Team=] <em class="rfc2119">must</em> then
 	submit the request to the <a href="#AC">Advisory Committee</a> for review.
 	For any [=Advisory Committee review=] of a proposal to
 	rescind,
@@ -4372,7 +4372,7 @@ Team Rights and Obligations</h3>
 <h3 id="SubmissionYes">
 Acknowledgment of a Submission Request</h3>
 
-	The [=Director=] <a href="#SubmissionYes">acknowledges</a> a Submission request
+	The [=Team=] <a href="#SubmissionYes">acknowledges</a> a Submission request
 	by sending an announcement to the [=Advisory Committee=].
 	Though the announcement <em class="rfc2119">may</em> be made at any time,
 	the [=Submitter=](s) can expect an announcement between <span class="time-interval">four to six weeks</span>
