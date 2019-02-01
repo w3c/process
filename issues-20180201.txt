@@ -534,3 +534,11 @@ Comment:  https://github.com/w3c/w3process/issues/233
 Response: https://github.com/w3c/w3process/pull/234
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/234#issuecomment-449017548
+----
+Issue 67.
+Summary:  Spelling fixes and one typo fix
+From:     David Baron
+Comment:  https://github.com/w3c/w3process/pull/237
+Response: https://github.com/w3c/w3process/pull/237#issuecomment-459576230
+Closed:   Accepted
+Resolved: Editorial https://github.com/w3c/w3process/pull/237#issuecomment-459642272
