@@ -542,3 +542,32 @@ Comment:  https://github.com/w3c/w3process/pull/237
 Response: https://github.com/w3c/w3process/pull/237#issuecomment-459576230
 Closed:   Accepted
 Resolved: Editorial https://github.com/w3c/w3process/pull/237#issuecomment-459642272
+----
+Issue 68.
+Summary:  Clarification of Introduction
+From:     Rachel Comerford
+Comment:  https://github.com/w3c/w3process/issues/232
+Response: https://github.com/w3c/w3process/issues/232#issuecomment-445088494
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/232#issuecomment-447664296
+----
+Issue 69.
+Summary:  TAG Appointment via a NomCom
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/230
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-459664413
+Closed:   Deferred
+----
+Issue 70.
+Summary:  Misleading characterisation about WDs in 6.2.1
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/235
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-459664413
+Closed:   Deferred
+----
+Issue 71.
+Summary:  Does the process assume all WDs are on the Rec. Track?
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/236
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-459665646
+Closed:   Deferred
