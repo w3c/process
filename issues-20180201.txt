@@ -571,3 +571,10 @@ From:     Nigel Megitt
 Comment:  https://github.com/w3c/w3process/issues/236
 Response: https://github.com/w3c/w3process/issues/236#issuecomment-459665646
 Closed:   Deferred
+----
+Issue 72.
+Summary:  Clarification on vacant seats and elections
+From:     David Baron
+Comment:  https://github.com/w3c/w3process/issues/238
+Response: https://github.com/w3c/w3process/issues/238#issuecomment-460024169
+Closed:   Deferred
