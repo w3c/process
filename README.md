@@ -1,6 +1,6 @@
 # W3C Process Document repository
 
-[![Build Status](https://travis-ci.org/frivoal/w3process.svg?branch=master)](https://travis-ci.org/frivoal/w3process)
+[![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=master)](https://travis-ci.org/w3c/w3process)
 
 This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
 
