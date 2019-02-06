@@ -578,3 +578,4 @@ From:     David Baron
 Comment:  https://github.com/w3c/w3process/issues/238
 Response: https://github.com/w3c/w3process/issues/238#issuecomment-460024169
 Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/238#issuecomment-460036573
