@@ -198,3 +198,51 @@ From:     Charles McCathie Nevile
 Comment:  https://www.w3.org/community/w3process/track/issues/168
 Comment:  https://github.com/w3c/w3process/issues/10
 Open
+----
+Issue 28.
+Summary:  The word “dissent” is used more broadly than appropriate given its specific definition
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/239
+Open
+----
+Issue 29.
+Summary:  Grammar fix
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/240
+Open
+----
+Issue 30.
+Summary:  Applicability of the Pantent Policy on Tag members
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/241
+Open
+----
+Issue 31.
+Summary:  Resignation of AB and TAG members is illdefined
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/242
+Open
+----
+Issue 32.
+Summary:  Clarify terminology: minor changes vs editorial changes
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/243
+Open
+----
+Issue 33.
+Summary:  Undefined term: member-visible
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/244
+Open
+----
+Issue 34.
+Summary:  Incorrect use of the specialized term "publish"
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/245
+Open
+----
+Issue 35.
+Summary:  Does the “Team Submission“ mechanism still serve a purpose?
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/246
+Open
