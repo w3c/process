@@ -258,3 +258,9 @@ Summary:  Drop redundant word (Editorial)
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/248
 Open
+----
+Issue 38.
+Summary:  Define "Working Group Decision"
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/249
+Open
