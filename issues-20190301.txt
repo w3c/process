@@ -246,3 +246,9 @@ Summary:  Does the “Team Submission“ mechanism still serve a purpose?
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/246
 Open
+----
+Issue 36.
+Summary:  Remove extraneous phrasing (Editorial)
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/247
+Open
