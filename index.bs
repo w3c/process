@@ -1562,7 +1562,7 @@ Changing Confidentiality Level</h4>
 	This document clearly indicates which information <em class="rfc2119">must</em> be available to Members or the public,
 	even though that information was initially communicated on [=Team-only=] or [=Member-only=] channels.
 	Only the [=Team=] and parties authorized by the Team
-	can change the level of confidentiality of this information.
+	may change the level of confidentiality of this information.
 	When doing so:
 
 	<ol>
