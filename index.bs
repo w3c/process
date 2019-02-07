@@ -2955,7 +2955,7 @@ First Public Working Draft</h4>
 	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">general requirements for advancement</a>.
 
 	The [=Director=] <em class="rfc2119">must</em> announce
-	the publication of a [=First Public Working Draft=] publication
+	the publication of a [=First Public Working Draft=]
 	to other W3C groups and to the public.
 
 	Publishing the [=First Public Working Draft=] triggers a Call for Exclusions,
