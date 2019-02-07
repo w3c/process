@@ -2222,7 +2222,7 @@ W3C Technical Report Development Process</h2>
 <h3 id="rec-advance">
 W3C Technical Reports</h3>
 
-	Please note that <dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
+	<dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
 	refers to producing a version which is listed as a W3C <dfn export>Technical Report</dfn>
 	on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> [[TR]].
 
