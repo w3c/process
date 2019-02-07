@@ -1,0 +1,200 @@
+Draft:    https://www.w3.org/2018/Process-20190301/
+Title:    W3C Process Document
+Date:     2019-03-01
+Status:   Version
+ED:       https://w3c.github.io/w3process/
+
+----
+Issue 1.
+Summary:  Define "independent".
+From:     Nigel Meggit
+Comment:  https://github.com/w3c/w3process/issues/167
+Response: https://github.com/w3c/w3process/issues/167#issuecomment-367498122
+Response: https://github.com/w3c/w3process/issues/167#issuecomment-372415200
+Response: https://github.com/w3c/w3process/issues/167#issuecomment-380498842
+Open
+----
+Issue 2.
+Summary:  Clarification of Introduction
+From:     Rachel Comerford
+Comment:  https://github.com/w3c/w3process/issues/232
+Response: https://github.com/w3c/w3process/issues/232#issuecomment-445088494
+Open
+----
+Issue 3.
+Summary:  TAG Appointment via a NomCom
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/230
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-442692389
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-442721522
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-443498734
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-443529197
+Response: https://github.com/w3c/w3process/issues/230#issuecomment-443814364
+Open
+----
+Issue 4.
+Summary:  Misleading characterisation about WDs in 6.2.1
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/235
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-449206538
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-449347229
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-451580525
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-451613228
+Response:  https://github.com/w3c/w3process/issues/235#issuecomment-451910585
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-461233194
+Open
+----
+Issue 5.
+Summary:  Does the process assume all WDs are on the Rec. Track?
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/236
+Open
+----
+Issue 6.
+Summary:  Clarification on vacant seats and elections
+From:     David Baron
+Comment:  https://github.com/w3c/w3process/issues/238
+Open
+----
+Issue 7.
+Summary:  Allow AB to choose its own chair
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/223
+Comment:  https://github.com/w3c/w3process/pull/225
+Open
+----
+Issue 8.
+Summary:  Add an index of Terms and Acronyms
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/198
+Response: https://github.com/w3c/w3process/issues/198#issuecomment-461235578
+Closed:   Accepted
+----
+Issue 9.
+Summary:  Clarify how Superseded state interacts with other maintenance processes
+From:     David Baron
+Comment:  https://github.com/w3c/w3process/issues/183
+Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386461173
+Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386465352
+Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386472282
+Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386865827
+Response: https://github.com/w3c/w3process/pull/213
+Open
+----
+Issue 10.
+Summary:  Define charter review process to require addressing comments
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/182
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-385958175
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-386750897
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-387124626
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-388929432
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-389719860
+Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-390356337
+Open
+----
+Issue 11.
+Summary:  Review the role of the Director in the process document
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/173
+Open
+----
+Issue 12.
+Summary:  We need a process for handling registries, APIs and other enumerations
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/168
+Open
+----
+Issue 13.
+Summary:  Should the process include something about Testing?
+From:     Natasha Rooney
+Comment:  https://github.com/w3c/w3process/issues/157
+Open
+----
+Issue 14.
+Summary:  provide clearer/common wording for transitions to Obsolete/Superseded status
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/issues/141
+Open
+----
+Issue 15.
+Summary:  Concerns about Amended Recommendations
+From:     Andreas Tai
+Comment:  https://github.com/w3c/w3process/issues/137
+Open
+----
+Issue 16.
+Summary:  Enumerate the requirements for wide review
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/130
+Open
+----
+Issue 17.
+Summary:  Process should say how W3T can update NOTES
+From:     Ralph Swick
+Comment:  https://github.com/w3c/w3process/issues/120
+Open
+----
+Issue 18.
+Summary:  We need to consider equal-preference voting
+From:     David Signer
+Comment:  https://github.com/w3c/w3process/issues/115
+Open
+----
+Issue 19.
+Summary:  Should the process allow REC->WD transition directly?
+From:     David Baron
+Comment:  https://github.com/w3c/w3process/issues/103
+Open
+----
+Issue 20.
+Summary:  Update Graphics
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/91
+Open
+----
+Issue 21.
+Summary:  Process supporting "Living Standards"?
+From:     https://github.com/joanmarie
+Comment:  https://github.com/w3c/w3process/issues/79
+Open
+----
+Issue 22.
+Summary:  Should there be good standing / supermajority criteria in authoritative ballots?
+From:     Michael Champion
+Comment:  https://github.com/w3c/w3process/issues/76
+Open
+---
+Issue 23.
+Summary:  Allow AC Reviews to be made public
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/63
+Comment:  https://github.com/w3c/w3process/issues/38
+Comment:  https://github.com/w3c/w3process/issues/39
+Open
+----
+Issue 24.
+Summary:  Clarify the voting Process
+From:     Jeff Jaffe
+Comment:  https://github.com/w3c/w3process/issues/60
+Open
+----
+Issue 25.
+Summary:  Substantive changes undefined for Charter and Process reviews
+From:     Daniel Glazman
+Comment:  https://www.w3.org/community/w3process/track/issues/176
+Comment:  https://github.com/w3c/w3process/issues/28
+Open
+----
+Issue 26.
+Summary:  Sections 3.4 and 6.2.6 have different statements about Voting rules in a Charter
+From:     Steve Zilles
+Comment:  https://github.com/w3c/w3process/issues/24
+Open
+----
+Issue 27.
+Summary:  Are W3C Hosts members of W3C
+From:     Charles McCathie Nevile
+Comment:  https://www.w3.org/community/w3process/track/issues/168
+Comment:  https://github.com/w3c/w3process/issues/10
+Open

@@ -579,3 +579,9 @@ Comment:  https://github.com/w3c/w3process/issues/238
 Response: https://github.com/w3c/w3process/issues/238#issuecomment-460024169
 Closed:   Deferred
 Verified: https://github.com/w3c/w3process/issues/238#issuecomment-460036573
+----
+Issue 73.
+Summary:  Allow AB to choose its own chair
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/223
+Closed:   Deferred
