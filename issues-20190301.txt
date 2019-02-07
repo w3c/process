@@ -252,3 +252,9 @@ Summary:  Remove extraneous phrasing (Editorial)
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/247
 Open
+----
+Issue 37.
+Summary:  Drop redundant word (Editorial)
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/248
+Open
