@@ -264,3 +264,15 @@ Summary:  Define "Working Group Decision"
 From:     Charles McCathie Nevile
 Comment:  https://github.com/w3c/w3process/issues/249
 Open
+----
+Issue 39.
+Summary:  Remove unneeded sentence fragment (editorial)
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/250
+Open
+----
+Issue 40.
+Summary:  First meeting of a WG allowed too soon
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/251
+Open
