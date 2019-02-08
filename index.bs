@@ -3022,8 +3022,8 @@ Stopping Work on a Specification</h4>
 	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
 	on the Recommendation track as [=Working Group Notes=].
 	If a [=Working group=] decides,
-	or the [=Director=] requires,
-	the [=Working Group=] to discontinue work on a technical report before completion,
+	or the [=Director=] requires the [=Working Group=],
+	to discontinue work on a technical report before completion,
 	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
 	as a [=Working Group Note=].
 
