@@ -277,3 +277,9 @@ Summary:  First meeting of a WG allowed too soon
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/251
 Open
+----
+Issue 41.
+Summary:  Fix misplaced punctuation
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/252
+Open
