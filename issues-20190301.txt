@@ -209,7 +209,10 @@ Issue 29.
 Summary:  Grammar fix
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/240
-Open
+Comment:  https://github.com/w3c/w3process/pull/240#pullrequestreview-200978577
+Response: https://github.com/w3c/w3process/pull/240#issuecomment-461396167
+Closed:   Accepted
+Resolved: https://www.w3.org/2019/02/13-w3process-minutes.html
 ----
 Issue 30.
 Summary:  Applicability of the Pantent Policy on Tag members
@@ -251,7 +254,8 @@ Issue 36.
 Summary:  Remove extraneous phrasing (Editorial)
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/247
-Open
+Closed:   Accepted
+Resolved: https://www.w3.org/2019/02/13-w3process-minutes.html
 ----
 Issue 37.
 Summary:  Drop redundant word (Editorial)
