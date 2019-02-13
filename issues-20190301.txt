@@ -288,3 +288,9 @@ From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/252
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 42.
+Summary:  Update Editor and Former Editors' affiliation
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/253
+Open
