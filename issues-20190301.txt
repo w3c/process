@@ -282,4 +282,5 @@ Issue 41.
 Summary:  Fix misplaced punctuation
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/252
-Open
+Closed:   Accepted
+Resolved: Editorial
