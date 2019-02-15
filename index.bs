@@ -30,7 +30,7 @@ ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
-Editor: Natasha Rooney
+Editor: Natasha Rooney, Invited Expert
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/

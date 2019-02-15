@@ -293,4 +293,8 @@ Issue 42.
 Summary:  Update Editor and Former Editors' affiliation
 From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/253
-Open
+Comment:  https://github.com/w3c/w3process/issues/253#issuecomment-463399703
+Comment:  https://github.com/w3c/w3process/issues/253#issuecomment-463640019
+Comment:  https://github.com/w3c/w3process/issues/253#issuecomment-463949262
+Closed:   Accepted
+Resolved: Editorial
