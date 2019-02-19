@@ -28,6 +28,7 @@ Title: W3C Process Document
 Status: w3c/ED
 ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
+Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
 Editor: Natasha Rooney, Invited Expert
@@ -46,7 +47,7 @@ Abstract:
 	For more information about the W3C mission and the history of W3C,
 	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
-	This document is based on the <a href="https://www.w3.org/2017/Process-20170301/">1 February 2018 Process</a>,
+	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 	which is the currently operative W3C Process.
 </pre>
 
@@ -4644,12 +4645,33 @@ Changes</h2>
 
 	<em>This section is non-normative.</em>
 
+<h3 id=changes-2019 class=no-num>
+Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>:</h3>
+
+
+	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
+	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
+	as well as
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">Detailed log of all changes since then</a>
+	are available.
+	The following is a summary:
+
+	<ul>
+		<li>
+			Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
+			improving the ease of maintenance,
+			and gaining better cross linking capabilities as well as an [[#index]] in the process.
+			Note that while this makes no change to the text of the process,
+			it is a large change of the source code,
+			and source level diffs are unlikely to be of help to compare the before and after state.
+	</ul>
+
 <h3 id=changes-2018 class=no-num>
 Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</h3>
 
 
 	<p>This document is based on the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>.
-	A <a href="https://github.com/w3c/w3process/compare/process-20180201...gh-pages">Detailed log of all changes since then</a> is available.
+	A <a href="https://github.com/w3c/w3process/compare/process-20180201...process-2019">Detailed log of all changes since then</a> is available.
 	The following is a summary:
 
 	<ul>
