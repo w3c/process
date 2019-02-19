@@ -184,6 +184,8 @@ Summary:  Substantive changes undefined for Charter and Process reviews
 From:     Daniel Glazman
 Comment:  https://www.w3.org/community/w3process/track/issues/176
 Comment:  https://github.com/w3c/w3process/issues/28
+Comment:  https://github.com/w3c/w3process/pull/217
+Comment:  https://github.com/w3c/w3process/pull/218
 Open
 ----
 Issue 26.
