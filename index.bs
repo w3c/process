@@ -1390,7 +1390,7 @@ Votes</h3>
 	whether to hold a meeting in San Francisco or San Jose
 	(there's not much difference geographically).
 	When simple majority votes are used to decide minor issues,
-	the minority are <em class="rfc2119">not required</em> to state the reasons for their dissent,
+	voters are <em class="rfc2119">not required</em> to state the reasons for votes,
 	and the group is <em class="rfc2119">not required</em> to record individual votes.
 
 	A group charter <em class="rfc2119">should</em> include formal voting procedures
@@ -2880,7 +2880,7 @@ Classes of Changes</h4>
 			clarifying informative use cases or other non-normative text,
 			fixing typos or grammatical errors
 			where the change does not change implementation requirements.
-			If there is any doubt or dissent
+			If there is any doubt or disagreement
 			as to whether requirements are changed,
 			such changes do not fall into this class.
 
