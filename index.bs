@@ -4156,11 +4156,11 @@ Member Submission Process</h2>
 	or other ideas
 	for consideration by the [=Team=].
 	After review,
-	the [=Team=] <em class="rfc2119">may</em> publish the material at the W3C Web site.
+	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C Web site.
 	The formal process affords Members a record of their contribution
 	and gives them a mechanism for disclosing the details of the transaction with the Team
 	(including IPR claims).
-	The [=Team=] also publishes review comments on the Submitted materials for W3C Members,
+	The [=Team=] also makes review comments on the Submitted materials available for W3C Members,
 	the public,
 	and the media.
 
@@ -4193,7 +4193,7 @@ Member Submission Process</h2>
 			<ul>
 				<li>
 					If <a href="#SubmissionYes">acknowledged</a>,
-					the Team <em class="rfc2119">must</em> publish the [=Member Submission=]
+					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
 					at the public W3C Web site,
 					in addition to Team comments about the [=Member Submission=].
 
@@ -4226,14 +4226,14 @@ Member Submission Process</h2>
 		</ul>
 	</div>
 
-	Publication of a Member Submission by W3C
+	Making a Member Submission available at the W3C website
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
 	The acknowledgment of a Submission request
 	does not imply that any action will be taken by W3C.
 	It merely records publicly
 	that the Submission request has been made by the Submitter.
-	A Member Submission published by W3C
+	A Member Submission made available by W3C
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of the W3C.
 
 	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
@@ -4266,7 +4266,7 @@ Submitter Rights and Obligations</h3>
 	The [=Submitter=](s) <em class="rfc2119">must not</em> imply
 	in public or Member communication
 	that W3C is working (with the [=Submitter=](s)) on the material in the [=Member Submission=].
-	The [=Submitter=](s) <em class="rfc2119">may</em> publish the documents in the Member Submission
+	The [=Submitter=](s) <em class="rfc2119">may</em> release the documents in the Member Submission to the public
 	prior to acknowledgment
 	(without reference to the Submission request).
 
@@ -4330,11 +4330,11 @@ Information Required in a Submission Request</h4>
 			a position paper,
 			etc.)
 			If the Submission request is acknowledged,
-			these documents will be published by W3C
+			these documents will be made available by W3C
 			and therefore <em class="rfc2119">must</em> satisfy the Communication Team's
 			<a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 			[=Submitters=] <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
-			but when published by W3C,
+			but when made available by W3C,
 			these documents <em class="rfc2119">must</em> be subject to the provisions
 			of the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]].
 	</ul>
@@ -4404,14 +4404,14 @@ Acknowledgment of a Submission Request</h3>
 
 	<ul>
 		<li>
-			Publish the [=Member Submission=].
+			Make the [=Member Submission=] available at the W3C website.
 
 		<li>
-			Publish Team comments about the Submission request.
+			Make the Team comments about the Submission request available at the W3C website.
 	</ul>
 
 	If the [=Submitter=](s) wishes to modify
-	a document published as the result of acknowledgment,
+	a document made available as the result of acknowledgment,
 	the Submitter(s) <em class="rfc2119">must</em> start the Submission process from the beginning,
 	even just to correct [=editorial changes=].
 
