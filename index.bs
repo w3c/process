@@ -4667,6 +4667,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Phrasing clarifications and removal of unnecessary text
 			in <a href="#AB-TAG-constraints"></a> and
 			<a href="#ACReviewAfter"></a>.
+		<li>
+			Avoid using the specialized term “[=publish=]” to mean anything other than
+			putting documents on TR.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

@@ -244,7 +244,9 @@ Issue 34.
 Summary:  Incorrect use of the specialized term "publish"
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/245
-Open
+Response: https://github.com/w3c/w3process/pull/257
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/245#issuecomment-472436157
 ----
 Issue 35.
 Summary:  Does the “Team Submission“ mechanism still serve a purpose?
