@@ -776,10 +776,9 @@ Advisory Board and Technical Architecture Group Participation Constraints</h4>
 			one participant <em class="rfc2119">must</em> cease [=AB=] participation
 			until the situation has been resolved.
 			If after <span class="time-interval">30 days</span> the situation has not been resolved,
-			the Chair will declare one participant's seat to be vacant.
-			When more than one individual is involved,
-			the <a href="#random">verifiable random selection procedure</a> described
-			below will be used to choose one person for continued participation.
+			the Chair will apply
+			the <a href="#random">verifiable random selection procedure</a> described below
+			to choose one person for continued participation and declare the other seat(s) vacant.
 		<li>
 			An individual <em class="rfc2119">must not</em> participate on both the TAG and the AB.
 	</ul>
@@ -4664,6 +4663,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Note that while this makes no change to the text of the process,
 			it is a large change of the source code,
 			and source level diffs are unlikely to be of help to compare the before and after state.
+		<li>
+			Phrasing clarifications and removal of redundant text
+			in <a href="#AB-TAG-constraints"></a>.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
