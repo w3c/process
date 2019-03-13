@@ -205,7 +205,11 @@ Issue 28.
 Summary:  The word “dissent” is used more broadly than appropriate given its specific definition
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/239
-Open
+Comment:  https://github.com/w3c/w3process/issues/239#issuecomment-461338765
+Comment:  https://github.com/w3c/w3process/issues/239#issuecomment-461428887
+Response: https://github.com/w3c/w3process/pull/256
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/239#issuecomment-472435499
 ----
 Issue 29.
 Summary:  Grammar fix
