@@ -3982,7 +3982,7 @@ After the Review Period</h4>
 	have sufficient time to consider comments
 	gathered during the review.
 	The [=Advisory Committee=] <em class="rfc2119">should not</em> expect an announcement
-	sooner than <span class="time-interval">two weeks</span> after the end of a [=Proposed Recommendation=] review period.
+	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
 	If, after <span class="time-interval">three weeks</span>, the Director has not announced the outcome,
 	the [=Director=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
 
@@ -4664,8 +4664,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			it is a large change of the source code,
 			and source level diffs are unlikely to be of help to compare the before and after state.
 		<li>
-			Phrasing clarifications and removal of redundant text
-			in <a href="#AB-TAG-constraints"></a>.
+			Phrasing clarifications and removal of unnecessary text
+			in <a href="#AB-TAG-constraints"></a> and
+			<a href="#ACReviewAfter"></a>.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

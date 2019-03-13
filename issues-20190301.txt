@@ -302,3 +302,10 @@ Comment:  https://github.com/w3c/w3process/issues/253#issuecomment-463640019
 Comment:  https://github.com/w3c/w3process/issues/253#issuecomment-463949262
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 43.
+Summary:  Remove overly specific mention of PR in generic sentence about AC reviews
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/259
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/259#issuecomment-472438787
