@@ -675,11 +675,7 @@ Technical Architecture Group Participation</h4>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			The [=Director=],
-			sitting <i>ex officio</i>;
-
-		<li>
-			Three participants appointed by the [=Director=];
+			Three participants <span class=issue>These used to be appointed by the director. What now?</span>;
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
@@ -691,21 +687,18 @@ Technical Architecture Group Participation</h4>
 	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
-	The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
+	The terms of TAG participants are for <span class="time-interval">two years</span>.
 	Terms are staggered so that each year three elected terms,
 	and either one or two appointed terms expire.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
 
-	The [=Director=] <em class="rfc2119">may</em> announce the appointed participants
-	after the results for the Advisory Committee election of participants have been announced.
-
 <h3 id="AB-TAG-participation">
 Advisory Board and Technical Architecture Group Participation</h3>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
-	they are elected by the Membership and appointed by the Director
+	they are elected by the Membership and appointed
 	with the expectation that they will use their best judgment
 	to find the best solutions for the Web,
 	not just for any particular network,
@@ -778,8 +771,6 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=Team=] <em class="rfc2119">should</em> announce appointments
-	no later than the start of a nomination period as part of the Call for Nominations.
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of avaiable seats are the same:
@@ -935,7 +926,7 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			the Director <em class="rfc2119">may</em> re-appoint someone immediately,
+			someone <em class="rfc2119">may</em> be re-appointed immediately,
 			but no later than the next regularly scheduled election.
 
 		<li>
