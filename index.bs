@@ -343,7 +343,7 @@ Membership Consortia</h5>
 	A joint-stock corporation or similar entity is not a [=Member Consortium=]
 	merely because it has shareholders or stockholders.
 	If it is not clear whether a prospective Member qualifies as a [=Member Consortium=],
-	the Director may reasonably make the determination.
+	the [=CEO=] may reasonably make the determination.
 	For a [=Member Consortium=], the rights and privileges of W3C Membership
 	described in the W3C Process Document extend to the [=Member Consortium=]'s paid staff
 	and Advisory Committee representative.
@@ -1025,7 +1025,7 @@ Conflict of Interest Policy</h4>
 	the individual's assignment to the role <em class="rfc2119">must</em> be evaluated.
 	The role <em class="rfc2119">may</em> be reassigned according to the appropriate process.
 	For instance,
-	the [=Director=] <em class="rfc2119">may</em> appoint a new group [=Chair=]
+	the [=Team=] <em class="rfc2119">may</em> appoint a new group [=Chair=]
 	when the current Chair changes affiliations
 	(e.g., if there is a risk of conflict of interest,
 	or if there is risk that the Chair's new employer will be over-represented within a W3C activity).
@@ -1606,11 +1606,11 @@ Requirements for All Working and Interest Groups</h3>
 
 	Each group <em class="rfc2119">must</em> have a <dfn id="GeneralChairs" export>Chair</dfn> (or co-Chairs)
 	to coordinate the group's tasks.
-	The Director appoints (and re-appoints) Chairs for all groups.
+	The [=Team=] appoints (and re-appoints) Chairs for all groups.
 	The Chair is a <a href="#member-rep">Member representative</a>,
 	a <a href="#Team">Team representative</a>,
 	or an <a href="#invited-expert-wg">Invited Expert</a>,
-	(invited by the Director).
+	(invited by the [=Team=]).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
 	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
@@ -1806,7 +1806,7 @@ Invited Expert in a Working Group</h5>
 	the [=Chair=] <em class="rfc2119">must</em> inform the Team Contact
 	and provide rationale for the choice.
 	When the [=Chair=] and the [=Team Contact=] disagree about a designation,
-	the <a href="#def-Director">Director</a> determines
+	the [=CEO=] determines
 	whether the individual will be invited to participate in the Working Group.
 
 	To <dfn id="inv-expert-info">participate in a [=Working Group=] as an Invited Expert</dfn>,
