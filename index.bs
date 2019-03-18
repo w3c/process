@@ -165,7 +165,7 @@ Introduction</h2>
 			depending on the breadth of the topic of interest.
 			W3C Members <a href="#CharterReview">review</a> the proposed charters.
 			When there is support within W3C for investing resources in the topic of interest,
-			the Director approves the group(s) and they begin their work.
+			the Team approves the group(s) and they begin their work.
 
 		<li>
 			There are three types of Working Group participants:
@@ -1920,9 +1920,9 @@ Working Group and Interest Group Charter Development</h4>
 <h4 id="CharterReview">
 Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 
-	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
+	The [=Team=] <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
 	of every new or substantively modified Working Group or Interest Group charter.
-	The Director is <em class="rfc2119">not required</em> to solicit Advisory Committee review
+	The [=Team=] is <em class="rfc2119">not required</em> to solicit Advisory Committee review
 	prior to a charter extension or for minor changes.
 	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
 
@@ -1937,7 +1937,7 @@ Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 	Such a request must be submitted with a Member's comments
 	in response to the Call for Review.
 	Upon receipt of any such request,
-	the Director <em class="rfc2119">must</em> ensure
+	the [=Team=] <em class="rfc2119">must</em> ensure
 	that the Call for Participation for the Working Group
 	occurs at least 60 days
 	after the Call for Review of the charter.
@@ -1946,7 +1946,7 @@ Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 Call for Participation in a Working Group or Interest Group</h4>
 
 	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
-	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
+	the [=Team=] <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
 	Charters <em class="rfc2119">may</em> be amended based on review comments
 	before the Director issues a Call for Participation.
 
@@ -1971,7 +1971,7 @@ Working Group and Interest Group Charter Extension</h4>
 
 	To extend a Working Group or Interest Group charter
 	with no other substantive modifications,
-	the Director announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
+	the [=Team=] announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
 	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
 	a reference to the <a href="#WGCharter">charter</a>,
@@ -1985,7 +1985,7 @@ Working Group and Interest Group Charter Extension</h4>
 	and <a href="#invited-expert-wg">Invited Experts</a>.
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
-	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a Director's decision
+	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a [=Team Decision=]
 	regarding the extension of a Working Group or Interest Group charter.
 
 <h4 id="WGCharter">
@@ -2150,7 +2150,7 @@ Working Group and Interest Group Charters</h4>
 Working Group and Interest Group Closure</h4>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
-	The [=Director=] <em class="rfc2119">may</em> decide to close a group
+	The [=Team=] <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:
 
 	<ul>
@@ -2163,7 +2163,7 @@ Working Group and Interest Group Closure</h4>
 			The group produces chartered deliverables ahead of schedule.
 	</ul>
 
-	The [=Director=] closes a [=Working Group=] or [=Interest Group=]
+	The [=Team=] closes a [=Working Group=] or [=Interest Group=]
 	by announcement to the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
@@ -3005,11 +3005,11 @@ Stopping Work on a Specification</h4>
 	Work <em class="rfc2119 new">should</em> cease
 	if W3C or a [=Working Group=] determines
 	that it cannot productively carry the work any further.
-	If the [=Director=] <a href="#GeneralTermination">closes a Working Group</a>
+	If the [=Team=] <a href="#GeneralTermination">closes a Working Group</a>
 	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
 	on the Recommendation track as [=Working Group Notes=].
 	If a [=Working group=] decides,
-	or the [=Director=] requires the [=Working Group=],
+	or the [=Team=] requires the [=Working Group=],
 	to discontinue work on a technical report before completion,
 	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
 	as a [=Working Group Note=].
