@@ -4174,7 +4174,7 @@ Member Submission Process</h2>
 			The Team and [=Submitter=](s) communicate to ensure that the [=Member Submission=] is complete.
 
 		<li>
-			After [=Team=] review, the [=Director=] <em class="rfc2119">must</em> either
+			After review, the [=Team=] <em class="rfc2119">must</em> either
 			acknowledge or reject the Submission request.
 
 			<ul>
@@ -4333,7 +4333,7 @@ Information Required in a Submission Request</h4>
 			What proprietary technology is required to implement the areas addressed by the request,
 			and what terms are associated with its use?
 			Again, many answers are possible,
-			but the specific answer will affect the Team's decision.
+			but the specific answer will affect the [=Team's Decision=].
 
 		<li>
 			What resources, if any,
@@ -4367,7 +4367,7 @@ Team Rights and Obligations</h3>
 	once the Team has reviewed a Submission request
 	and judged it complete and correct.
 
-	Prior to a decision to <a href="#SubmissionYes">acknowledge</a>
+	Prior to a <a lt="Team Decision">decision</a> to <a href="#SubmissionYes">acknowledge</a>
 	or <a href="#SubmissionNo">reject</a> the request,
 	the request is [=Team-only=],
 	and the [=Team=] <em class="rfc2119">must</em> hold it in the strictest confidentiality.
@@ -4405,7 +4405,7 @@ Acknowledgment of a Submission Request</h3>
 <h3 id="SubmissionNo">
 Rejection of a Submission Request, and Submission Appeals</h3>
 
-	The [=Director=] <em class="rfc2119">may</em> reject a Submission request
+	The [=Team=] <em class="rfc2119">may</em> reject a Submission request
 	for a variety of reasons,
 	including any of the following:
 
@@ -4442,7 +4442,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 
 	  The [=Advisory Committee representative=](s) of the [=Submitters=](s)
 	  <em class="rfc2119">may</em> initiate a Submission Appeal
-	  of the Team's Decision to the [=TAG=]
+	  of the [=Team's Decision=] to the [=TAG=]
 	  if the reasons are related to Web architecture,
 	  or to the [=Advisory Board=]
 	  if the request is rejected for other reasons.
