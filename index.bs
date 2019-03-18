@@ -2224,7 +2224,7 @@ W3C Technical Reports</h3>
 	to demonstrate that the specification works in practice.
 	The next phase is a [=Proposed Recommendation=],
 	to finalize the review of W3C Members.
-	If the Director determines that W3C Member review
+	If the [=Team=] determines that W3C Member review
 	supports a specification becoming a standard,
 	W3C publishes it as a [=Recommendation=].
 
@@ -2275,7 +2275,7 @@ Recommendations and Notes</h4>
 						<text font-size="8">
 							<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
 							<tspan x="0" y="152">WG decision</tspan>
-							<tspan x="0" y="162">Director's approval</tspan>
+							<tspan x="0" y="162">Team's approval</tspan>
 						</text>
 						<path d="M0,140h53" fill="none" stroke="#000"></path>
 						<polygon points="47,136 57,140 47,144"></polygon>
@@ -2310,7 +2310,7 @@ Recommendations and Notes</h4>
 								<g role="img">
 									<title>Advance to Candidate Recommendation</title>
 								</g>
-								<text x="138" y="134" font-size="8">Director's approval</text>
+								<text x="138" y="134" font-size="8">Team's approval</text>
 								<path stroke="#060" d="M135,140h81"></path>
 								<polygon points="211,136 221,140 211,144"></polygon>
 							</a>
@@ -2334,7 +2334,7 @@ Recommendations and Notes</h4>
 								</g>
 								<text font-size="8">
 									<tspan x="225" y="84">Working Group Decision,</tspan>
-									<tspan x="240" y="96">Directors approval</tspan>
+									<tspan x="240" y="96">Team approval</tspan>
 								</text>
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
 								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
@@ -2347,7 +2347,7 @@ Recommendations and Notes</h4>
 							<g role="img">
 							<title>Advance to Proposed Recommendation</title>
 							</g>
-							<text x="300" y="134" font-size="8">Director's approval</text>
+							<text x="300" y="134" font-size="8">Team's approval</text>
 							<path d="M298,140h77" stroke="#060"></path>
 							<polygon points="374,136 384,140 374,144"></polygon>
 						</a>
@@ -2359,7 +2359,7 @@ Recommendations and Notes</h4>
 								<title>Return to Working Draft</title>
 								</g>
 								<text font-size="8">
-									<tspan x="142" y="160">WG or Director decision</tspan>
+									<tspan x="142" y="160">WG or Team decision</tspan>
 									<tspan x="144" y="170">e.g. for further review</tspan>
 								</text>
 								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
@@ -2385,7 +2385,7 @@ Recommendations and Notes</h4>
 								</g>
 								<text x="300" y="138" font-size="8">
 									<tspan x="445" y="124">Advisory Committee Review</tspan>
-									<tspan x="445" y="134">Director's Decision</tspan>
+									<tspan x="445" y="134">Team's Decision</tspan>
 								</text>
 								<path d="M441,140h100" stroke="#060"></path>
 								<polygon points="534,136 544,140 534,144"></polygon>
@@ -2399,7 +2399,7 @@ Recommendations and Notes</h4>
 								</g>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
-									<tspan x="302" y="170">Director Decision</tspan>
+									<tspan x="302" y="170">Team Decision</tspan>
 									<tspan x="304" y="180">e.g. for minor changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
@@ -2413,7 +2413,7 @@ Recommendations and Notes</h4>
 									<title>Return to Working Draft</title>
 								</g>
 								<text font-size="9">
-									<tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan>
+									<tspan x="90" y="202">Advisory Committee review and Team's Decision, e.g. for further work and review</tspan>
 								</text>
 								<path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
@@ -2434,7 +2434,7 @@ Recommendations and Notes</h4>
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
-	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
+	The Team <em class="rfc2119">may</em> decline a request to advance in maturity level,
 	requiring a [=Working Group=] to conduct further work,
 	and <em class="rfc2119">may</em> require
 	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
@@ -2506,7 +2506,7 @@ Maturity Levels</h4>
 			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
 		<dd>
 			A Proposed Recommendation is a document
-			that has been accepted by the W3C Director
+			that has been accepted by the [=Team=]
 			as of sufficient quality to become a [=W3C Recommendation=].
 			This phase triggers formal review by the [=Advisory Committee=],
 			who <em class="rfc2119">may</em> recommend
@@ -2522,7 +2522,7 @@ Maturity Levels</h4>
 			or set of guidelines
 			or requirements that,
 			after extensive [=consensus=]-building,
-			has received the endorsement of W3C Members and the Director.
+			has received the endorsement of W3C Members and the Team.
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
 			The W3C Royalty-Free IPR licenses
@@ -2690,7 +2690,7 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval.
+			<em class="rfc2119">must </em> obtain [=Team=] approval.
 
 		<li>
 			<em class="rfc2119 ">must</em> provide public documentation
@@ -2724,12 +2724,12 @@ Advancement on the Recommendation Track</h4>
 	For later stages,
 	especially transition to [=Candidate Recommendation|Candidate=] or [=Proposed Recommendation=],
 	there is usually a formal review meeting
-	to ensure the requirements have been met before [=Director=]'s approval is given.
+	to ensure the requirements have been met before the [=Team=]'s approval is given.
 
 	[=Transition Requests=] to [=First Public Working Draft=]
 	or [=Candidate Recommendation=]
 	will not normally be approved
-	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a [=Director=]'s decision
+	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a [=Team's Decision=]
 	on an [=Advisory Committee Review=].</p>
 
 <h4 id="doc-reviews">
@@ -2762,7 +2762,7 @@ Wide Review</h5>
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
+	the [=Team=] will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -2805,7 +2805,7 @@ Implementation Experience</h4>
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
 	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
-	the [=Director=] will consider (though not be limited to):
+	the [=Team=] will consider (though not be limited to):
 
 	<ul>
 		<li>
@@ -3083,7 +3083,7 @@ Revising a Candidate Recommendation</h4>
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
 	other than to remove features explicitly identified as [=at risk=],
 	the [=Working Group=] <em class="rfc2119">must</em> obtain
-	the [=Director=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
+	the [=Team=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
 	[=Substantive changes=] can require a new Exclusion Opportunity
 	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
 	of the W3C Patent Policy [[!PATENT-POLICY]].
@@ -3143,7 +3143,7 @@ Proposed Recommendation</h3>
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by the [=Director=],
+			except where an exception is approved by the [=Team=],
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
@@ -3164,7 +3164,7 @@ Proposed Recommendation</h3>
 			without republishing the specification as a [=Candidate Recommendation=].
 	</ul>
 
-	The Director:
+	The Team:
 
 	<ul>
 		<li>
@@ -3177,7 +3177,9 @@ Proposed Recommendation</h3>
 			<em class="rfc2119">may</em> approve a [=Proposed Recommendation=]
 			with minimal <a href="#implementation-experience">implementation experience</a>
 			where there is a compelling reason to do so.
-			In such a case, the [=Director=] <em class="rfc2119">should</em> explain the reasons for that decision.
+			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that <a lt="Team Decision">decision</a>,
+			and that information <em class="rfc2119">must</em> be included in the [=Call for Review=]
+			proposing advancement to [=W3C Recommendation=].
 	</ul>
 
 	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
@@ -3226,7 +3228,7 @@ W3C Recommendation</h3>
 
 		<li>
 			If there was any [=dissent=] in Advisory Committee reviews,
-			the [=Director=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+			the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> [=formally address=] the comment
 			at least 14 days before publication as a [=W3C Recommendation=].
@@ -3283,7 +3285,7 @@ Modifying a W3C Recommendation</h3>
 						<text font-size="8">
 							<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
 							<tspan x="0" y="152">WG decision</tspan>
-							<tspan x="0" y="162">Director's approval</tspan>
+							<tspan x="0" y="162">Team's approval</tspan>
 						</text>
 						<path d="M0,140h53" fill="none" stroke="#000"></path>
 						<polygon points="47,136 57,140 47,144"></polygon>
@@ -3318,7 +3320,7 @@ Modifying a W3C Recommendation</h3>
 								<g role="img">
 									<title>Advance to Candidate Recommendation</title>
 								</g>
-								<text x="138" y="134" font-size="8">Director's approval</text>
+								<text x="138" y="134" font-size="8">Team's approval</text>
 								<path stroke="#060" d="M135,140h81"></path>
 								<polygon points="211,136 221,140 211,144"></polygon>
 							</a>
@@ -3342,7 +3344,7 @@ Modifying a W3C Recommendation</h3>
 								</g>
 								<text font-size="8">
 									<tspan x="225" y="84">Working Group Decision,</tspan>
-									<tspan x="240" y="96">Directors approval</tspan>
+									<tspan x="240" y="96">Team approval</tspan>
 								</text>
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
 								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
@@ -3355,7 +3357,7 @@ Modifying a W3C Recommendation</h3>
 								<g role="img">
 									<title>Advance to Proposed Recommendation</title>
 								</g>
-								<text x="300" y="134" font-size="8">Director's approval</text>
+								<text x="300" y="134" font-size="8">Team's approval</text>
 								<path d="M298,140h77" stroke="#060"></path>
 								<polygon points="374,136 384,140 374,144"></polygon>
 							</a>
@@ -3367,7 +3369,7 @@ Modifying a W3C Recommendation</h3>
 									<title>Return to Working Draft</title>
 								</g>
 								<text font-size="8">
-									<tspan x="142" y="160">WG or Director decision</tspan>
+									<tspan x="142" y="160">WG or Team decision</tspan>
 									<tspan x="144" y="170">e.g. for further review</tspan>
 								</text>
 								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
@@ -3393,7 +3395,7 @@ Modifying a W3C Recommendation</h3>
 								</g>
 								<text x="300" y="138" font-size="8">
 									<tspan x="445" y="124">Advisory Committee Review</tspan>
-									<tspan x="445" y="134">Director's Decision</tspan>
+									<tspan x="445" y="134">Team's Decision</tspan>
 								</text>
 								<path d="M441,140h100" stroke="#060"></path>
 								<polygon points="534,136 544,140 534,144"></polygon>
@@ -3407,7 +3409,7 @@ Modifying a W3C Recommendation</h3>
 								</g>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
-									<tspan x="302" y="170">Director Decision</tspan>
+									<tspan x="302" y="170">Team Decision</tspan>
 									<tspan x="304" y="180">e.g. for minor changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
@@ -3421,7 +3423,7 @@ Modifying a W3C Recommendation</h3>
 									<title>Return to Working Draft</title>
 								</g>
 								<text font-size="9">
-									<tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan>
+									<tspan x="90" y="202">Advisory Committee review and Team's Decision, e.g. for further work and review</tspan>
 								</text>
 								<path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
@@ -3458,7 +3460,7 @@ Modifying a W3C Recommendation</h3>
 								</g>
 								<text aria-hidden="true" x="510" y="207" font-size="10" stroke="none">No</text>
 								<text text-anchor="end" font-size="10" stroke="none">
-									<tspan x="507" y="170">Director's</tspan>
+									<tspan x="507" y="170">Team's</tspan>
 									<tspan x="504" y="180">approval</tspan>
 								</text>
 								<path fill="none" d="M520,213h-16c0,-35 11,-54 44,-60"></path>
@@ -3489,7 +3491,7 @@ Modifying a W3C Recommendation</h3>
 										<path d="M260,185v-20"></path>
 										<text aria-hidden="true" x="280" y="245" stroke="none" font-size="10">No</text>
 										<text text-anchor="end" font-size="10" stroke="none">
-											<tspan x="254" y="225">Director's</tspan>
+											<tspan x="254" y="225">Team's</tspan>
 											<tspan x="254" y="235">approval</tspan>
 										</text>
 										<polygon points="260,160 262,165 258,165" stroke="black"></polygon>
@@ -3766,7 +3768,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	rescinding,
 	or restoring
 	a [=Recommendation=] can be initiated
-	either by a request from the [=Director=]
+	either by a request from the [=Team=]
 	or via a request from any of the following:
 
 	<ul>
@@ -3793,7 +3795,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	obsolete,
 	rescind,
 	or restore
-	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
+	a [=Recommendation=] the [=Team=] <em class="rfc2119">must</em>:
 
 	<ul>
 		<li>
@@ -3835,7 +3837,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	</ul>
 
 	If there was any [=dissent=] in the [=Advisory Committee review=],
-	the [=Director=] <em class="rfc2119">must</em> publish
+	the [=Team=] <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C
 	<strong>and the public</strong>,
 	and <em class="rfc2119">must</em> [=formally address=] the dissent
@@ -3843,7 +3845,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	before publication as an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=].
 
 	The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the [=Director=]'s decision.
+	of the [=Team's decision=].
 
 	W3C <em class="rfc2119">must</em> publish an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=]
 	with up to date status.
