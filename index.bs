@@ -1237,12 +1237,12 @@ Recording and Reporting Formal Objections</h4>
 	In the W3C process,
 	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
 	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
-	is one that the reviewer requests that the [=Team=] consider
+	is one that the reviewer requests that the W3C consider
 	as part of evaluating the related decision
 	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
 
-	Note: In this document, the term “Formal Objection” is used to emphasize this process implication:
-	Formal Objections receive [=Team=] consideration.
+	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
+	Formal Objections receive formal consideration and a formal response.
 	The word “objection” used alone has ordinary English connotations.
 
 	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
@@ -1253,6 +1253,135 @@ Recording and Reporting Formal Objections</h4>
 
 	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
 	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
+
+	Issue: The remainder of this section is a work in Progress,
+	and should not be considered to reflect any kind of consensus.
+	Discussion is encouraged.
+
+	The CEO forms an <dfn>Advisory Group</dfn>,
+	selected from the [=W3C team=],
+	[=TAG=],
+	[=AB=],
+	and [=Chairs=],
+	who consider the [=Formal objection=],
+	research the question,
+	interview parties,
+	and so on,
+	to arrive at a proposed disposition.
+	If the [=Advisory Group=] can resolve the issue
+	to the satisfaction of the individual that filed the [=Formal Objection=],
+	the individual withdraws the objection and the disposition process terminates.
+	Otherwise the proposed disposition is referred to the [=Objection Decision Committee=] for this objection.
+	as a result of discussing it with the Advisory Group is an acceptable outcome.
+
+	Issue: Should there be a limit to how long the Advisory Group can take
+	before reporting to the [=Objection Decision Committee=]?
+	Allowing sufficient time for mediation and research is important,
+	but it should not be possible for the Advisory Group to play the clock
+	or delay indefinitely.
+
+	If the [=Objection Decision Committee=] endorse the decision by consensus,
+	or by a vote of 67% of the members or more,
+	the decision is confirmed and issued;
+	otherwise,
+	the committee must refer the matter back to the advisory group for further consideration,
+	detailing what further consideration is needed.
+
+	Note: This implies that in the event that
+	it would prove impossible to get more 67% or more to agree on any position,
+	[=Formal Objections=] that attempt to overturn a decision that has already been taken would fail to do so,
+	while those that are made as part of an [=AC Review=] would block the approval of the proposal under review.
+
+	Issue: Should we also have some mechanism allowing for breaking deadlocks?
+	For instance, if no decision has been taken within X months,
+	the CEO may escalate by invoking a process similar to an AC Appeal,
+	where the matter is put to a majority vote of the AC.
+	Hopefully this is never invoked,
+	but having that mechanism may help put enough pressure
+	on the Advisory Group and on the Objection Decision Committee to reach a conclusion
+	that it may help avoid deadlocks without being invoked.
+
+	The <dfn>Objection Decision Committee</dfn> consists of the following,
+	with the exception of any who recuse themselves:
+	* the [=CEO=]
+	* the members of the [=Advisory Board=]
+	* the members of the [=Technical Architecture Group=]
+
+	A recusal is required for any of these
+	directly involved in the matter of the [=Formal Objection=]
+	(e.g. that they are a chair, and it is their decision that is in question);
+	other members may recuse themselves if they feel their could be a reasonable perception that they are directly involved.
+	<span class=issue>Does this imply that people should recuse themselves if they are the one who raised the Objection? If so, we should make that explicit</span>
+	If the [=CEO=] recuses themself,
+	they may nominate another member of the W3C management to serve in their place.
+	The remaining members serve as the voting members of the [=Objection Decision committee=].
+	When the initial proposed decision is presented to the committee,
+	the members may
+	(a) endorse the proposed decision
+	(b) reject the proposed decision
+	(c) recuse themselves,
+	or (d) request that the committee discuss the matter.
+	Such discussion may involve of a subset of the committee;
+	however, for procedural matters there must be at least one AB member,
+	and for architectural/technical matters, there must be at least one TAG member,
+	in the discussion.
+
+	Issue: Some issues may be hard to characterise as either procedural or technical.
+	For instance, it could be political, legal…
+	We should therefore call for at least one TAG member in case of architectural/technical matters,
+	and at least one AB member for other matters, without trying to characterise "other".
+	This is already the approach taken in the section about Submission Appeals.
+
+	Issue: Should the AB members recuse themselves when the issue is purely technical,
+	and the TAG when it is not technical at all?
+	Should we have separate committees deal with technical FOs vs other FOs?
+
+	Issue: If the FO includes claim that the process has been violated,
+	(a) should the TAG be allowed to opine on these facts,
+	and (b) if the [=Objection Decision Committee=] finds that the claims are true,
+	should it be required to agree with the objector
+	instruct the Team / the Chair / the WG / offending party to uphold the Process,
+	or is it an option to reject the FO nonetheless?
+
+	Note: Even if fewer members meet and discuss,
+	the entire [=Objection Decision Committee=] must ratify the proposed decision.
+
+	Note: The 67% threshold applies to the members who do not recuse themselves.
+
+	Issue: What if all TAG members or all AB members recuse themselves?
+
+	Issue: The above text doesn't require the Ojection Decision Committee
+	to write why they have adopted a particular decision,
+	but we should probably require that they do,
+	to help the decision be understood,
+	and limit the risk of appeals.
+
+	Issue: We should make it explicit whether the deliberations
+	of [=Objection Decision Committee=] are recorded,
+	and whether they are public, member-only, team-only…
+
+	Issue: The two stage process, starting with the [=Advisory Group=],
+	is intended to let the [=Team=]
+	(helped by relevant people)
+	do its usual role of researching and mediating Formal Objections,
+	and to limit the workload that Formal Objection handling would put onto the AB and TAG.
+	However, as phrased above, it means that the [=Objection Decision Committee=] can only
+	reject or adopt decisions as framed by the [=Advisory Group=],
+	even if some other decision would get a majority or a consensus.
+	This turns the Objection Decision Committee into a rubber stamping body,
+	devoid of actual deliberation power, which is not desirable.
+	To fix this, I propose: (1) allowing the Advisory Group to propose not necessarily just one,
+	but several possible dispositions if they find several plausible resolutions,
+	and (2) allowing the [=Objection Decision Committee=] to draft their own resolutions,
+	either from scratch or amending one of the possible resolutions proposed by the Advisory Group.
+
+	Issue: In the case of a non unanimous decision,
+	those who disagreed should be allowed to write
+	a purely informative dissenting opinion / minority report
+	(or several, if they cannot agree on why they disagree).
+
+	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
+	of the [=Objection Decision Committee=]'s decision.
 
 <h4 id="formal-address">
 Formally Addressing an Issue</h4>
@@ -3987,6 +4116,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
+	for decisions of [=Objection Decision Committees=], and
 	for certain [=Team decisions=] that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
 	which describe the requirements for the [=Team's Decision=]
