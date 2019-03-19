@@ -4646,15 +4646,24 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Note that while this makes no change to the text of the process,
 			it is a large change of the source code,
 			and source level diffs are unlikely to be of help to compare the before and after state.
+
 		<li>
 			Phrasing clarifications and removal of unnecessary text
 			in <a href="#AB-TAG-constraints"></a> and
 			<a href="#ACReviewAfter"></a>.
+
 		<li>
 			Avoid using the specialized term “[=publish=]” to mean anything other than
 			putting documents on TR.
+
 		<li>
 			Avoid using the specialized term “[=dissent=]” in situations that do not involve Formal Objections.
+
+		<li>
+			Retire the “Team Submissions” (<em>not</em> “Member Submissions”) mechanism,
+			as it is unused,
+			does not provide the Team with abilities it doesn't already have,
+			nor provides meaningful governance of the Team's communications.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

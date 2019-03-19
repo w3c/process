@@ -256,7 +256,13 @@ Issue 35.
 Summary:  Does the “Team Submission“ mechanism still serve a purpose?
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/246
-Open
+Comment:  https://github.com/w3c/w3process/issues/246#issuecomment-461428127
+Comment:  https://github.com/w3c/w3process/issues/246#issuecomment-464979340
+Comment:  https://github.com/w3c/w3process/issues/246#issuecomment-465001121
+Comment:  https://github.com/w3c/w3process/issues/246#issuecomment-472009020
+Response: https://github.com/w3c/w3process/pull/255
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/255#issuecomment-473982997
 ----
 Issue 36.
 Summary:  Remove extraneous phrasing (Editorial)
