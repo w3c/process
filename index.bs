@@ -1390,16 +1390,15 @@ Appeal of a Chair's Decision</h3>
 	(e.g., to a decision made as the result of a <a href="#Votes">vote</a>).
 
 	When group participants believe that their concerns are not being duly considered by the group,
-	they <em class="rfc2119">may</em> ask the [=Team=]
-	(for representatives of a Member organization, via their Advisory Committee representative)
-	to confirm or deny the decision.
+	they <em class="rfc2119">may</em> ask that the decision be confirmed or denied
+	(for representatives of a Member organization, via their Advisory Committee representative).
 	This is a <dfn id="wg-decision-appeal" noexport>Group Decision Appeal</dfn>.
 	The participants <em class="rfc2119">should</em> also make their requests known
 	to the <a href="#TeamContact">Team Contact</a>.
-	The Team Contact <em class="rfc2119">must</em> inform the [=Team=]
+	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
 	when a group participant has raised concerns about due process.
 
-	Any requests to the [=Team=] to confirm a decision
+	Any such requests to confirm a decision
 	<em class="rfc2119">must</em> include a summary of
 	the issue (whether technical or procedural),
 	decision,
@@ -1407,6 +1406,8 @@ Appeal of a Chair's Decision</h3>
 	All counter-arguments,
 	rationales,
 	and decisions <em class="rfc2119">must</em> be recorded.
+
+	The procedure for handling [=Group Decision Appeals=] is the same as for [=Formal Objections=].
 
 	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
 
