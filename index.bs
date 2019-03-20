@@ -1323,10 +1323,6 @@ Recording and Reporting Formal Objections</h4>
 	(b) reject the proposed decision
 	(c) recuse themselves,
 	or (d) request that the committee discuss the matter.
-	Such discussion may involve of a subset of the committee;
-	however, for procedural matters there must be at least one AB member,
-	and for architectural/technical matters, there must be at least one TAG member,
-	in the discussion.
 
 	Issue: Some issues may be hard to characterise as either procedural or technical.
 	For instance, it could be political, legal…
