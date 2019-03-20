@@ -1294,6 +1294,8 @@ Recording and Reporting Formal Objections</h4>
 	[=Formal Objections=] that attempt to overturn a decision that has already been taken would fail to do so,
 	while those that are made as part of an [=AC Review=] would block the approval of the proposal under review.
 
+	Issue: Is this supermajority criteria the right one?
+
 	Issue: Should we also have some mechanism allowing for breaking deadlocks?
 	For instance, if no decision has been taken within X months,
 	the CEO may escalate by invoking a process similar to an AC Appeal,
