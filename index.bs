@@ -675,7 +675,12 @@ Technical Architecture Group Participation</h4>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			Three participants <span class=issue>These used to be appointed by the director. What now?</span>;
+			Three participants…
+
+			Issue: These used to be appointed by the director. What now?
+			Could be added to the elected ranks,
+			or could be nominated by the rest of the TAG,
+			to try and ensure better balance/diversity.
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
@@ -686,6 +691,10 @@ Technical Architecture Group Participation</h4>
 	who <em class="rfc2119">must</em> be one of the participants.
 	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
+
+	Issue: Or should the TAG appoint it's own Chair(s)?
+
+	Issue: Should we allow the Chair(s) to be someone who is not otherwise a TAG member?
 
 	The terms of TAG participants are for <span class="time-interval">two years</span>.
 	Terms are staggered so that each year three elected terms,
