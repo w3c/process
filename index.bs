@@ -1615,6 +1615,16 @@ Requirements for All Working and Interest Groups</h3>
 	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
 
+	Issue: When team appointments of Chairs are done as part of a new Charter,
+	AC Reps can Formally Object as part of the Charter review.
+	In case of a Charter Extension, which may at the same time change the Chair,
+	AC Reps can initiate an Advisory Committee Appeal.
+	That seems enough to provide an opportunity for oversight,
+	but there's currently no way to Object to a change of Chair at other times.
+	Maybe we should allow Formal Objections to Chair changes,
+	or some other process,
+	such as ratification by the AB.
+
 	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Team Contact</dfn>,
 	who acts as the interface between the [=Chair=],
 	group participants,
