@@ -1309,9 +1309,9 @@ Recording and Reporting Formal Objections</h4>
 
 	A recusal is required for any of these
 	directly involved in the matter of the [=Formal Objection=]
-	(e.g. that they are a chair, and it is their decision that is in question);
+	(e.g. that they are a chair, and it is their decision that is in question,
+	or they are the individual who registered the [=Formal Objection=]);
 	other members may recuse themselves if they feel their could be a reasonable perception that they are directly involved.
-	<span class=issue>Does this imply that people should recuse themselves if they are the one who raised the Objection? If so, we should make that explicit</span>
 	If the [=CEO=] recuses themself,
 	they may nominate another member of the W3C management to serve in their place.
 	The remaining members serve as the voting members of the [=Objection Decision committee=].
