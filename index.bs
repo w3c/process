@@ -1259,7 +1259,9 @@ Recording and Reporting Formal Objections</h4>
 	Discussion is encouraged.
 
 	The CEO forms an <dfn>Advisory Group</dfn>,
-	selected from the [=W3C team=],
+	selected as they wish,
+	but typically from
+	The [=W3C Team=],
 	[=TAG=],
 	[=AB=],
 	and [=Chairs=],
