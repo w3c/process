@@ -2168,6 +2168,9 @@ Working Group and Interest Group Closure</h4>
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
 
+	Issue: Should it be the CEO rather than the Team
+	that should be empowered to close Groups?
+
 	Closing a Working Group has implications
 	with respect to the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
 
