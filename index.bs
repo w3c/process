@@ -1326,12 +1326,6 @@ Recording and Reporting Formal Objections</h4>
 	(c) recuse themselves,
 	or (d) request that the committee discuss the matter.
 
-	Issue: Some issues may be hard to characterise as either procedural or technical.
-	For instance, it could be political, legal…
-	We should therefore call for at least one TAG member in case of architectural/technical matters,
-	and at least one AB member for other matters, without trying to characterise "other".
-	This is already the approach taken in the section about Submission Appeals.
-
 	Issue: Should the AB members recuse themselves when the issue is purely technical,
 	and the TAG when it is not technical at all?
 	Should we have separate committees deal with technical FOs vs other FOs?
