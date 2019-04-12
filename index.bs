@@ -1464,7 +1464,7 @@ Dissemination Policies</h2>
 	[=Workshops=],
 	and review deadlines,
 	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]. 
+	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]].
 	of official W3C events.
 	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
@@ -1825,7 +1825,7 @@ Invited Expert in a Working Group</h5>
 			including the participation requirements of
 			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a> (see especially 3.4) and
 			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a> (see especially 6.10)
-			of the W3C Patent Policy [[!PATENT-POLICY]], 
+			of the W3C Patent Policy [[!PATENT-POLICY]],
 			indicating a specific charter date or version,
 
 		<li>
@@ -2009,10 +2009,25 @@ Working Group and Interest Group Charters</h4>
 			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software);
 
 		<li>
+			For each technical report, a designation whether it may be developed on the Recommendation track,
+			Evergreen track or both.
+
+		<li>
 			Expected milestone dates where available.
 
 			Note: A charter is <em class="rfc2119">not required</em>
 			to include schedules for review of other group's deliverables;
+
+		<li>
+			For each technical report being developed on the Evergreen track other than [=Registries=],
+			an expected date when the document will also be reviewed on the W3C Recommendation track.
+
+			Note: This date <em class="rfc2119">may</em> be later than the end date of the charter period of the Working Group;
+
+		<li>
+			For each technical report being developed on the Evergreen track, the workmode to achieve
+			<a href="#procedural-consensus">procedural consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
+			<em class="rfc2119">may</em> delegate it to the Working Group.
 
 		<li>
 			The process for the group to approve the release of deliverables
@@ -2073,12 +2088,15 @@ Working Group and Interest Group Charters</h4>
 
 	See also the charter requirements of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
 	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the W3C Patent Policy [[!PATENT-POLICY]]. 
+	of the W3C Patent Policy [[!PATENT-POLICY]], as well as the <a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
 
-	For every Recommendation Track deliverable
+  For each technical report being developed on the Evergreen track, the description of that deliverable in the
+	proposed charter must provide the URL of the W3C GitHub repository for that document.
+
+	For every Recommendation or Evergreen Track deliverable
 	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
 	published under any other Charter (including a predecessor group of the same name),
-	for which there is an existing <a href="#reference-draft">Reference Draft</a>
+	for which there is an existing <a href="#reference-draft">Reference Draft</a>, <a href="#evergreen-rec">Evergreen Recommendation</a>,
 	or <a href="#candidate-rec">Candidate Recommendation</a>,
 	the description of that deliverable in the proposed charter of the adopting Working Group
 	<em class="rfc2119">must</em> provide the following information:
@@ -2087,17 +2105,19 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			The title,
 			stable URL,
-			and publication date of the [=Working Draft=]
+			and publication date of the [=Working Draft=], [=Evergreen Recommendation=],
 			or other Recommendation-track document
 			that will serve as the basis for work on the deliverable
 			(labeled “<dfn export id="adopted-draft">Adopted Draft</dfn>”);
+
 		<li>
 			The title,
 			stable URL,
-			and publication date of the most recent Reference Draft
+			and publication date of the most recent Reference Draft, <a href="#evergreen-rec-snapshot">Evergreen Recommendation Snapshot</a>,
 			or <a href="#candidate-rec">Candidate Recommendation</a>
 			that triggered an Exclusion Opportunity per the Patent Process
-			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”); and
+			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”) or the
+			<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>; and
 
 		<li>
 			The stable URL of the Working Group charter
@@ -2200,7 +2220,8 @@ W3C Technical Report Development Process</h2>
 
 	See also the licensing goals for [=W3C Recommendations=] in
 	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
-	of the W3C Patent Policy [[PATENT-POLICY]].
+	of the W3C Patent Policy [[PATENT-POLICY]]. See the licensing goals for [=W3C Evergreen Recommendation=] in the
+	<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
 
 <h3 id="rec-advance">
 W3C Technical Reports</h3>
@@ -2210,12 +2231,12 @@ W3C Technical Reports</h3>
 	on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> [[TR]].
 
 	This chapter describes the formal requirements
-	for [=publishing=] and maintaining a [=W3C Recommendation=] or [=Note=].
+	for [=publishing=] and maintaining a [=W3C Recommendation=], [=W3C Evergreen Recommendation=], or [=Note=].
 
 	Typically a series of [=Working Drafts=] are [=published=],
 	each of which refines a document under development
 	to complete the scope of work envisioned by a [=Working Group=]'s [=charter=].
-	For a technical specification,
+	For a technical specification on the W3C Recommendation track,
 	once review suggests the Working Group has met their requirements satisfactorily for a new standard,
 	there is a [=Candidate Recommendation=] phase.
 	This allows the entire W3C membership to provide feedback
@@ -2227,6 +2248,10 @@ W3C Technical Reports</h3>
 	If the Director determines that W3C Member review
 	supports a specification becoming a standard,
 	W3C publishes it as a [=Recommendation=].
+
+	For a technical specification on the Evergreen track, once review suggests the Working Group has consensus
+	and met their requirements satisfactory for a new standard, including a level of substantial review, the
+	draft can become an Evergreen Recommendation.
 
 	Groups can also publish documents as [=W3C Notes=],
 	typically either to document information
@@ -2248,9 +2273,11 @@ W3C Technical Reports</h3>
 	so long as they do not conflict with the requirements in this chapter.
 
 <h4 id="recs-and-notes">
-Recommendations and Notes</h4>
+Recommendations, Evergreen Recommendations, and Notes</h4>
 
-	W3C follows these steps when advancing a technical report to Recommendation.
+  A document may be initiated or developed on either the Recommendation track or Evergreen track based on the Working Group charter.
+
+	W3C follows these steps when advancing a technical report to W3C Recommendation.
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
@@ -2432,8 +2459,6 @@ Recommendations and Notes</h4>
 		</svg>
 	</div>
 
-	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
-
 	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
 	requiring a [=Working Group=] to conduct further work,
 	and <em class="rfc2119">may</em> require
@@ -2442,6 +2467,43 @@ Recommendations and Notes</h4>
 	and [=Working Group=] [=Chairs=] when a [=Working Group=]'s request
 	for a specification to advance in maturity level is declined
 	and the specification is returned to a [=Working Group=] for further work.
+
+	W3C follows these steps when advancing a technical report to Evergreen Recommendation.
+
+  <ol>
+		<li>
+			Publication of zero or more [=Preliminary Drafts=]
+		<li>
+	    Publication of an [=Evergreen Recommendation=]
+	</ol>
+
+  Evergreen Recommendations represent an experimental means of ensuring that standardization keeps
+	up with the <a href="https://www.w3.org/2001/tag/doc/evergreen-web/">Evergreen Web</a>.  This is
+	consistent with what is often called Living Standards, but
+	maintains a role for W3C's traditional values of review (e.g. horizontal view), and have an
+	interaction with W3C's Recommendation track to ensure that W3C's processes such as AC review
+	and Director approval are ultimately addressed.
+
+  W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
+
+<h4 id="transition-er-rec">
+Transitions between the Evergreen track and W3C Recommendation track</h4>
+
+  A document previously on the Recommendation track may switch to the Evergreen track if permitted by its
+	charter; typically this happens after [=Recommendation=] status, for maintenance.
+
+  If permitted by its charter, a document on the Evergreen track may enter the Recommendation track by
+	satisfying the requirements for a [=Working Draft=] or [=Candidate Recommendation=], and entering as such.
+	Generally, when a Working Group wants to take a document to the Recommendation track they would first take an
+	[=Evergreen Recommendation Snapshot=] to cement patent commitments to date.
+
+  Transition to the Recommendation track does not necessarily mean that specification development as an
+	[=Evergreen Recommendation=] stops because the work is entirely completed.  However moving a snapshot to
+	[=Recommendation=] provides validation for the
+	work (e.g. complete cross-functional and AC review). There could still be an [=Evergreen Recommendation=]
+	version that is further developed.
+
+A document on the Recommendation track may enter the Evergreen path by satisfying the requirements for a WG Working Draft or Evergreen Recommendation and entering as such, provided that is supported by its charter.
 
 <h4 id="maturity-levels">
 Maturity Levels</h4>
@@ -2584,6 +2646,65 @@ Maturity Levels</h4>
 			to provide a stable reference for a useful document
 			that is not intended to be a formal standard,
 			or to document work that was abandoned without producing a [=Recommendation=].
+
+		<dt>
+			<dfn export id="ERspredraft">Preliminary Draft</dfn>
+		<dd>
+      An Preliminary Draft is a document that W3C has published for review by the community,
+			including W3C Members, the public, and other technical organizations. All Preliminary
+			Drafts are meant to advance to Evergreen Recommendation. Any Preliminary Draft not, or no
+			longer, intended to advance to Evergreen Recommendation should be published as a [=Working Group Note=].
+			Preliminary Drafts do not necessarily represent a consensus of the Working Group.
+
+		<dt>
+      <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
+    <dd>
+		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
+			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
+			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
+			Royalty-Free IPR licenses granted under the <a href="https://www.w3.org/Consortium/TODO">Evergreen
+			track Contribution Commitment patent policy</a> apply
+			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
+
+			<ul>
+				<li>
+          Signal to the wider community that there is a consensus of the community that developers can implement the specification
+
+				<li>
+          Signal to the wider community that there is implementation experience with those features that are designated as
+					having implementation experience
+
+				<li>
+          Signal that there has been a measure of horizontal review
+
+				<li>
+          Signal that there is value in more complete horizontal review
+      </ul>
+
+			<dl>
+			  <dt>
+          <dfn export id="ERSers" lt="Evergreen Recommendation Snapshot | ERS">Evergreen Recommendation Snapshot</dfn> (<abbr>ERS</abbr>)
+				<dd>
+          An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the <a href="https://www.w3.org/Consortium/TODO">Evergreen
+					track Specification Commitment patent policy</a>.
+        <dt>
+          <dfn export id="ERSreg">Registry</dfn>
+        <dd>
+          A Registry document contains an index of labels or constants used for extensibility points found in W3C technical reports.
+					It is an Evergreen Recommendation but not all requirements apply. W3C publishes a Registry to:
+
+					<ul>
+						<li>
+              to prevent accidental collision of labels
+            <li>
+						  to document what labels mean
+            <li>
+						  to provide mapping information
+            <li>
+						  to provide an list of alternatives, and the links to where those alternatives are specified
+					</ul>
+			</dl>
+
 	</dl>
 
 	Only sufficiently technically mature work should be advanced.
@@ -2674,20 +2795,11 @@ General requirements for Technical Reports</h4>
 	is available at the W3C Web site.
 
 <h4 id="transition-reqs">
-Advancement on the Recommendation Track</h4>
+Advancement for Technical Reports</h4>
 
-	For <em>all</em> requests to advance a specification
-	to a new maturity level other than [=Note=]
-	(called <dfn id=trans-req export>Transition Requests</dfn>),
-	the Working Group:
+	All Technical Reports other than [=Note=] have the following properties:
 
 	<ul>
-		<li>
-			<em class="rfc2119">must</em> record the group's decision to request advancement.
-
-		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval.
-
 		<li>
 			<em class="rfc2119 ">must</em> provide public documentation
 			of all <a href="#substantive-change">substantive changes</a> to the technical report
@@ -2704,14 +2816,30 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">should</em> provide public documentation of changes that are [=editorial changes|not substantive=].
 
 		<li>
-			<em class="rfc2119">should</em> report which, if any, of the [=Working Group=]'s requirements
-			for this document have changed since the previous step.
-
-		<li>
 			<em class="rfc2119">should</em> report any changes in dependencies with other groups.
 
 		<li>
 			<em class="rfc2119">should</em> provide information about implementations known to the [=Working Group=].
+	</ul>
+
+<h5 id="transition-reqs-rec-track">
+Advancement on the Recommendation Track</h5>
+
+	For <em>all</em> requests to advance a specification
+	to a new maturity level other than [=Note=]
+	(called <dfn id=trans-req export>Transition Requests</dfn>),
+	the Working Group:
+
+	<ul>
+		<li>
+			<em class="rfc2119">must</em> record the group's decision to request advancement.
+
+		<li>
+			<em class="rfc2119">must </em> obtain [=Director=] approval.
+
+		<li>
+			<em class="rfc2119">should</em> report which, if any, of the [=Working Group=]'s requirements
+			for this document have changed since the previous step.
 	</ul>
 
 	For a [=First Public Working Draft=] there is no “previous maturity level”,
@@ -2757,6 +2885,10 @@ Wide Review</h5>
 	A second objective is to encourage groups to request reviews
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
+
+<h6 id="wide-review-rec-track">
+Wide Review for the Recommendation Track</h6>
+
 	Before approving transitions,
 	the [=Director=] will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
@@ -2790,6 +2922,16 @@ Wide Review</h5>
 	is not necessarily the same as wide review,
 	since they might only represent comment
 	from a small segment of the relevant stakeholder community.
+
+<h6 id="wide-review-er-track">
+Wide Review for the Evergreen Track</h6>
+
+  Operating on the Evergreen track necessitates pragmatic compromises between full wide review and the
+	exigencies of an Evergreen web.  It is generally expected that [=Evergreen Recommendations=] have reached
+	out to achieve wide review.  But it is also recognized that reviewers cannot always operate on that time
+	scale.  So a measure of wide review is expected throughout the Evergreen track, and W3C confers status to
+	those documents.  Yet it is still expected that those documents will ultimately move to the Recommendation
+	track to achieve a more complete wide review, horizontal review, AC review, and Director approval.
 
 <h4 id="implementation-experience">
 Implementation Experience</h4>
@@ -3587,6 +3729,132 @@ Revising a Recommendation</h4>
 	To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
+
+<h3 id="preliminary-draft">
+Preliminary Draft</h3>
+
+	A [=Preliminary Draft=] is [=published=] on the W3C's Technical Reports page for review, and for simple historical reference.
+	For all Preliminary Drafts a Working Group:
+
+  <ul>
+		<li>
+		  <em class="rfc2119">should</em> document outstanding issues, and parts of the document on which the Working Group does not have consensus, and
+    <li>
+			<em class="rfc2119">may</em> request publication of an Preliminary Draft even if its content is considered unstable and does not meet all Working Group requirements.
+  </ul>
+
+  A Working Group should publish an Preliminary Draft to the W3C Technical Reports page when there have been
+	significant changes to the previous published document that would benefit from review beyond the Working Group.
+
+  If 6 months elapse without significant changes to a specification a Working Group should publish a revised Preliminary
+	Draft, whose status section should indicate reasons for the lack of change.
+
+  To publish a revision of an Preliminary draft, a Working Group:
+
+  <ul>
+		<li>
+		  <em class="rfc2119">must</em> provide public documentation of substantive changes to the technical report since the previous Preliminary Draft,
+    <li>
+			<em class="rfc2119">should</em> provide public documentation of significant editorial changes to the technical report since the previous publication,
+		<li>
+	    <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document have changed since the previous step,
+    <li>
+			<em class="rfc2119">should</em> report any changes in dependencies with other groups,
+	</ul>
+
+  Possible next steps for any Preliminary Draft:
+
+  <ul>
+		<li>
+		  A revised <a href="#preliminary-draft">Preliminary Draft</a>
+    <li>
+		  <a href="#evergreen-rec">Evergreen Recommendation</a>
+	  <li>
+		  <a href="#Note">Working Group Note</a>
+  </ul>
+
+<h3 id="evergreen-rec">
+Evergreen Recommendation</h3>
+
+	To [=publish=] an Evergreen Recommendation, in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	a Working Group:
+
+	<ul>
+    <li>
+		  <em class="rfc2119">must</em> document the consensus of the Working Group,
+
+      Note: Similar to in the W3C Recommendation track, the Chair has a responsibility to ensure the Group operates under consensus. In
+			the Evergreen Recommendation track, it will likely be less likely to issue calls for consensus or assess consensus as a result
+			of a poll of participants; however, the Chair has an important oversight role to ensure that the group's discussions proceed
+			according to the <span id="procedural-consensus">procedural approach chartered for the group</a>, are in accordance with [[CEPC]], and has the responsibility to be
+			an impartial facilitator to decision-making when necessary. Finally, of course, the Chair is the arbiter to whom participants
+			appeal when they disagree with the way that the editors are documenting the evolving consensus of the group. The chair can
+			facilitate discussion between the participant and editor, issue informative calls for consensus, or engage in other
+			discussions to see whether consensus can be reached or whether the editor can adjust their position. Ultimately, the Chair
+			has the authority to overrule the Editor and remove them if necessary.
+
+    <li>
+		  <em class="rfc2119">must</em> provide, except for [=Registries=], feature-by-feature tagging to illustrate the level of review and
+			implementation applied to the feature:
+
+			<ul>
+			  <li>
+				  <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
+        <li>
+				  <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
+					(giving some indication that the feature has received sufficient review).
+        <li>
+				  <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
+					snapshot and is therefore covered by the <a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+        <li>
+				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
+			</ul>
+		<li>
+      <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document
+			have changed since the last publication.
+
+  In rare occurrences, an individual <em class="rfc2119">may</em> register a Formal Objection to a decision. The Group:
+
+  <ul>
+	  <li>
+		  <em class="rfc2119">must</em> document unresolved formal objections in the document header and should document
+			them in relevant parts of the spec,
+    <li>
+		  <em class="rfc2119">must</em> ensure Director review of all pending formal objections before 24 months have elapsed,
+
+      Note: Appealing to the Director is a last resort and should be avoided. Other inputs, like a review from the TAG,
+			should be seeked before involving the Director.
+
+    <li>
+		  <em class="rfc2119">must</em> reflect resolved formal objections in the spec, in particular adjusting the document
+			if the objection was substained.
+
+  Possible next steps for any Evergreen Recommendation:
+
+  <ul>
+    <li>
+		  A revised <a href="#evergreen-rec">Evergreen Recommendation</a>
+		<li>
+		  Return to <a href="#preliminary-draft">Preliminary Draft</a>
+	  <li>
+		  <a href="#Note">Working Group Note</a>
+  </ul>
+
+<h3 id="evergreen-rec-snapshot">
+Evergreen Recommendation Snapshot</h3>
+
+  All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
+	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
+	<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+
+  To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
+	Recommendation</a> a Working Group:
+
+  <ul>
+	  <li>
+		  must record the group's decision to request advancement.
+  </ul>
+
 
 <h3 id="Note">
 Publishing a Working Group or Interest Group Note</h3>
