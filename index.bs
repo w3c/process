@@ -515,6 +515,14 @@ The W3C Team</h3>
 	as being <dfn lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the CEO's authority,
 	even when they are carried out by other members of the [=Team=].
 
+	Note: This does not imply that the CEO is expected to make all decisions personally,
+	and that the Team merely executes.
+	It is generally expected
+	that the CEO will take the Team's input into consideration when making decisions personally,
+	and that they will delegate various responsibilities to individuals or groups within the Team,
+	as well as define the mechanisms by which this delegation is managed.
+	Nevertheless, the CEO has the ultimate authority within the Team.
+
 	Team administrative information such as Team salaries,
 	detailed budgeting,
 	and other business decisions
