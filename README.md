@@ -31,23 +31,23 @@ follow these steps:
 
 1. **On the master branch** edit deploy.sh to add the name of your topic branch to the `TOPIC_BRANCHES` array. Example:
 
-    ````bash
-    TOPIC_BRANCHES=("topic1" "topic2" "topic3")
-    ```
+   ````bash
+   TOPIC_BRANCHES=("topic1" "topic2" "topic3")
+   ```
 
 2. (Optional Step) Edit the README.md file to add a "Build Status" line for your topic branch.
    See the existing "Build Status" for the master branch as a model.
 3. Commit the change(s) above, and push to github.com/w3c/w3process (not your personal fork). Example:
 
-    ````bash
-    git add deploy.sh README.md
-    git commit -m "Register topic branch for topic3"
-    git push upstream master
-    ```
+   ````bash
+   git add deploy.sh README.md
+   git commit -m "Register topic branch for topic3"
+   git push upstream master
+   ```
 
 4. Create a new branch from the master branch (after the previous commit), using the same name as the one you used in the `TOPIC_BRANCHES` array, and push it to github.com/w3process (not your personal fork). Example:
 
-    ````bash
-    git checkout -b topic3
-    git push upstream topic3
-    ```
+   ````bash
+   git checkout -b topic3
+   git push upstream topic3
+   ```
