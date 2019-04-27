@@ -1,8 +1,8 @@
 # W3C Process Document repository
 
-[master](https://github.com/frivoal/w3process/tree/master) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=master)](https://travis-ci.org/w3c/w3process)
+[master](https://github.com/w3c/w3process/tree/master) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=master)](https://travis-ci.org/w3c/w3process)
 
-[evergreen](https://github.com/frivoal/w3process/tree/evegreen) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=evergreen)](https://travis-ci.org/w3c/w3process)
+[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=evergreen)](https://travis-ci.org/w3c/w3process)
 
 This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
 
