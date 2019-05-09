@@ -1921,10 +1921,18 @@ Working Group and Interest Group Charter Development</h4>
 Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 
 	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter.
-	The Director is <em class="rfc2119">not required</em> to solicit Advisory Committee review
-	prior to a charter extension or for minor changes.
+	of every new or substantively modified Working Group or Interest Group charter,
+	except for a charter extension,
+	or for substantive changes to a charter that do not affect the way the group functions in any significant way.
 	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
+	The following are examples of substantive changes that would not require an AC Review:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+	Such changes must nonetheless be announced
+	to the [=Advisory Committee=]
+	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Intrest Group</a>,
+	and a rationale must be provided.
 
 	The Director's Call for Review of a substantively modified charter
 	<em class="rfc2119">must</em> highlight important changes
