@@ -4269,7 +4269,7 @@ Appeal by Advisory Committee Representatives</h3>
 	to the [=Advisory Committee=]
 	and provide a mechanism for [=Advisory Committee representatives=]
 	to respond with a statement of positive support for this appeal.
-	The archive of these statements <em class="rfc2119">must</em> be Member-visible.
+	The archive of these statements <em class="rfc2119">must</em> be [=member-only=].
 	If, within <span class="time-interval">one week</span> of the Team's announcement,
 	5% or more of the [=Advisory Committee=] support the appeal request,
 	the Team <em class="rfc2119">must</em> organize an appeal vote
@@ -4932,6 +4932,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			as it is unused,
 			does not provide the Team with abilities it doesn't already have,
 			nor provides meaningful governance of the Team's communications.
+
+		<li>
+			Clarify that appeal statements are meant to be member-only.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
