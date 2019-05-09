@@ -2408,7 +2408,7 @@ Recommendations and Notes</h4>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Director Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -3412,7 +3412,7 @@ Modifying a W3C Recommendation</h3>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Director Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
