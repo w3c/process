@@ -2538,7 +2538,7 @@ Maturity Levels</h4>
 				<dt>
 					An <dfn export>Edited Recommendation</dfn>
 				<dd>
-					A [=Working Group=] may make <a href="#editorial-change">editorial</a> or other minor changes
+					A [=Working Group=] may make <a href="#editorial-change">editorial</a>
 					to a [=Recommendation=],
 					and produce a new version
 					which W3C [=publishes=] as a <a href="#revised-rec">revised edition</a>
