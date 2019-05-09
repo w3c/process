@@ -3943,7 +3943,7 @@ After the Review Period</h4>
 	<ol>
 		<li>
 			The proposal is approved,
-			possibly with minor changes integrated.
+			possibly with [=editorial changes=] integrated.
 
 		<li>
 			The proposal is approved,
