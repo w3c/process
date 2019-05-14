@@ -1375,7 +1375,7 @@ Votes</h3>
 	voters are <em class="rfc2119">not required</em> to state the reasons for votes,
 	and the group is <em class="rfc2119">not required</em> to record individual votes.
 
-	A group charter <em class="rfc2119">should</em> include formal voting procedures
+	A group charter <em class="rfc2119">may</em> include formal voting procedures
 	(e.g., quorum or threshold requirements)
 	for making decisions about substantive issues.
 
@@ -4942,6 +4942,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Clarify that Working Drafts have some, even if limited, standing.
+
+		<li>
+			Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
