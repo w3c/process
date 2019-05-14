@@ -2521,9 +2521,13 @@ Maturity Levels</h4>
 			Any [=Working Draft=] not, or no longer,
 			intended to advance to [=Recommendation=]
 			<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=].
-			Working Drafts do not necessarily represent a [=consensus=] of the [=Working Group=],
+			[=Working Drafts=] do not necessarily represent a [=consensus=] of the [=Working Group=] with respect to their content,
 			and do not imply any endorsement by W3C
 			or its members beyond agreement to work on a general area of technology.
+			Nevertheless the [=Working Group=] decided to adopt the [=Working Draft=]
+			as the basis for their work at the time of adoption.
+			A [=Working Draft=] is suitable for gathering [=wide review=]
+			prior to advancing to the next stage of maturity.
 
 		<dt>
 			<dfn id="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
@@ -4935,6 +4939,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Clarify that appeal statements are meant to be member-only.
+
+		<li>
+			Clarify that Working Drafts have some, even if limited, standing.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
