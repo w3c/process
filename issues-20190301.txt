@@ -40,9 +40,10 @@ Response: https://github.com/w3c/w3process/issues/235#issuecomment-449206538
 Response: https://github.com/w3c/w3process/issues/235#issuecomment-449347229
 Response: https://github.com/w3c/w3process/issues/235#issuecomment-451580525
 Response: https://github.com/w3c/w3process/issues/235#issuecomment-451613228
-Response:  https://github.com/w3c/w3process/issues/235#issuecomment-451910585
+Response: https://github.com/w3c/w3process/issues/235#issuecomment-451910585
 Response: https://github.com/w3c/w3process/issues/235#issuecomment-461233194
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/235#issuecomment-490509529
 ----
 Issue 5.
 Summary:  Does the process assume all WDs are on the Rec. Track?
