@@ -193,7 +193,10 @@ Issue 26.
 Summary:  Sections 3.4 and 6.2.6 have different statements about Voting rules in a Charter
 From:     Steve Zilles
 Comment:  https://github.com/w3c/w3process/issues/24
-Open
+Comment:  https://github.com/w3c/w3process/issues/24#issuecomment-422468295
+Response: https://github.com/w3c/w3process/issues/24#issuecomment-422474665
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/24#issuecomment-490507215
 ----
 Issue 27.
 Summary:  Are W3C Hosts members of W3C
