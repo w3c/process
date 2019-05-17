@@ -554,14 +554,18 @@ Advisory Board (AB)</h3>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	The Advisory Board hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected
-	for reasons unrelated to Web architecture;
-	see also the <a href="#TAG">TAG</a>.
+	Together with the members of the [=TAG=] and [=CEO=],
+	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
+	[=Chair Decision Appeals=],
+	[=Group Decision Appeals=],
+	and [=Formal Objections=].
 
 	The [=Advisory Board=] is <strong>not</strong> a board of directors
 	and has no decision-making authority within W3C;
 	its role is strictly advisory.
+
+	Note: While the [=AB=] as such does not have decision-making authority,
+	its members do when seating as part of the [=Objection Decision Committee=].
 
 	The [=Team=] <em class="rfc2119">must</em> make available a mailing list,
 	confidential to the Advisory Board and Team,
@@ -616,9 +620,11 @@ Technical Architecture Group (TAG)</h3>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	The [=TAG=] hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected for reasons related to Web architecture;
-	see also the <a href="#AB">Advisory Board</a>.
+	Together with members of the [=AB=] and [=CEO=],
+	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
+	[=Chair Decision Appeals=],
+	[=Group Decision Appeals=],
+	and [=Formal Objections=].
 
 	The [=TAG=]'s scope is limited to technical issues about Web architecture.
 	The TAG <em class="rfc2119">should not</em> consider
