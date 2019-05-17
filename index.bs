@@ -1240,6 +1240,12 @@ Managing Dissent</h4>
 <h4 id="WGArchiveMinorityViews">
 Recording and Reporting Formal Objections</h4>
 
+	Issue: this section is invoked not just for Formal Objections,
+	but also for Group Decision Appeals,
+	Chair Decision Appeals,
+	and Member Submission Appeals.
+	Some editorial rephrasing is probably needed to make it clear how it applies in all cases.
+
 	In the W3C process,
 	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
 	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
@@ -4548,15 +4554,9 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 	  the Team <em class="rfc2119">must not</em> make statements about why a Submission request was rejected.
 
 	  The [=Advisory Committee representative=](s) of the [=Submitters=](s)
-	  <em class="rfc2119">may</em> initiate a Submission Appeal
-	  of the [=Team's Decision=] to the [=TAG=]
-	  if the reasons are related to Web architecture,
-	  or to the [=Advisory Board=]
-	  if the request is rejected for other reasons.
-	  In this case the [=Team=] <em class="rfc2119">should</em> make available
-	  its rationale for the rejection to the appropriate body.
-	  The [=Team=] will establish a process for such appeals
-	  that ensures the appropriate <a href="#confidentiality-levels">level of confidentiality</a>.
+	  <em class="rfc2119">may</em> initiate a Submission Appeal.
+
+	  The procedure for handling Submission Appeals is the same as for [=Formal Objections=].
 
 <h2 id="GAProcess">
 Process Evolution</h2>
