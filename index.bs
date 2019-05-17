@@ -1260,10 +1260,6 @@ Recording and Reporting Formal Objections</h4>
 	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
 	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
 
-	Issue: The remainder of this section is a work in Progress,
-	and should not be considered to reflect any kind of consensus.
-	Discussion is encouraged.
-
 	The CEO forms an <dfn>Advisory Group</dfn>,
 	selected as they wish,
 	but typically from
@@ -1275,45 +1271,20 @@ Recording and Reporting Formal Objections</h4>
 	research the question,
 	interview parties,
 	and so on,
-	to arrive at a proposed disposition.
+	to make sure the problem and the various viewpoints are well understood,
+	and to the extent possible,
+	to arrive at a recommended disposition.
 	If the [=Advisory Group=] can resolve the issue
 	to the satisfaction of the individual that filed the [=Formal Objection=],
 	the individual withdraws the objection and the disposition process terminates.
-	Otherwise the proposed disposition is referred to the [=Objection Decision Committee=] for this objection.
-	as a result of discussing it with the Advisory Group is an acceptable outcome.
-
-	Issue: Should there be a limit to how long the Advisory Group can take
-	before reporting to the [=Objection Decision Committee=]?
-	Allowing sufficient time for mediation and research is important,
-	but it should not be possible for the Advisory Group to play the clock
-	or delay indefinitely.
-
-	If the [=Objection Decision Committee=] endorse the decision by consensus,
-	or by a vote of 67% of the members or more,
-	the decision is confirmed and issued;
-	otherwise,
-	the committee must refer the matter back to the advisory group for further consideration,
-	detailing what further consideration is needed.
-
-	Note: This implies that in the event that
-	it would prove impossible to get more 67% or more to agree on any position,
-	[=Formal Objections=] that attempt to overturn a decision that has already been taken would fail to do so,
-	while those that are made as part of an [=AC Review=] would block the approval of the proposal under review.
-
-	Issue: Is this supermajority criteria the right one?
-
-	Issue: Should we also have some mechanism allowing for breaking deadlocks?
-	For instance, if no decision has been taken within X months,
-	the CEO may escalate by invoking a process similar to an AC Appeal,
-	where the matter is put to a majority vote of the AC.
-	Hopefully this is never invoked,
-	but having that mechanism may help put enough pressure
-	on the Advisory Group and on the Objection Decision Committee to reach a conclusion
-	that it may help avoid deadlocks without being invoked.
+	Otherwise,
+	within at most 45 days of the [=Formal Objection=] being registered,
+	the [=Advisory Group=] must present its conclusions (or lack thereof)
+	to the [=Objection Decision Committee=].
 
 	The <dfn>Objection Decision Committee</dfn> consists of the following,
 	with the exception of any who recuse themselves:
-	* the [=CEO=]
+	* the [=CEO=], who serves as the <dfn>Chair of the Objection Decision Committee</dfn>
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
 
@@ -1324,61 +1295,67 @@ Recording and Reporting Formal Objections</h4>
 	other members may recuse themselves if they feel their could be a reasonable perception that they are directly involved.
 	If the [=CEO=] recuses themself,
 	they may nominate another member of the W3C management to serve in their place.
-	The remaining members serve as the voting members of the [=Objection Decision committee=].
-	When the initial proposed decision is presented to the committee,
-	the members may
-	(a) endorse the proposed decision
-	(b) reject the proposed decision
-	(c) recuse themselves,
-	or (d) request that the committee discuss the matter.
 
-	Issue: Should the AB members recuse themselves when the issue is purely technical,
-	and the TAG when it is not technical at all?
-	Should we have separate committees deal with technical FOs vs other FOs?
+	Issue: If the CEO needs to recuse themself,
+	they are probably not the best person to pick the alternate chair.
+	As an alternative, in case of CEO recusal,
+	the [=Objection Decision Committee=] could pick its own chair
+	by instant-runoff voting.
 
-	Issue: If the FO includes claim that the process has been violated,
-	(a) should the TAG be allowed to opine on these facts,
-	and (b) if the [=Objection Decision Committee=] finds that the claims are true,
-	should it be required to agree with the objector
-	instruct the Team / the Chair / the WG / offending party to uphold the Process,
-	or is it an option to reject the FO nonetheless?
+	Issue: Fuzzy criteria for recusal are problematic:
+	individual with only tangential involvement in the matter,
+	or even with no real involvement at all in the matter,
+	could be pressured into recursing themselves.
+	Conversely, over-assertive individuals may fail to recuse themselves even when it would be appropriate.
+	We may instead want to make a strict and non ambiguous criteria.
+	It is also unclear how useful it is to require recusal from the person raising the objection,
+	since that can easily be circumvented by asking someone else to file the objection on one's behalf.
+	For example, recusal could be required of (and only of):
+	* A Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to
+	* The CEO for objections against their own decisions and those of the Team
 
-	Note: Even if fewer members meet and discuss,
-	the entire [=Objection Decision Committee=] must ratify the proposed decision.
+	Having reviewed the information gathered by the [=Advisory Group=] and its recommendation,
+	and after sufficient sufficient deliberation,
+	the [=Objection Decision Committee=] decides whether to
+	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
 
-	Note: The 67% threshold applies to the members who do not recuse themselves.
+	Issue: Should the Objection Decision Committee
+	be able to do more than just sustain of overrule?
+	For instance, when it sustains an objection,
+	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
+	could it decide what to change the charter to and publish it?
 
-	Issue: What if all TAG members or all AB members recuse themselves?
+	Decision of the [=Objection Decision Committee=] should be unanimous.
+	If despite careful deliberation
+	the [=Objection Decision Committee=] is unable to reach consensus,
+	the [=Chair of the Objection Decision Committee=] may instead resort to voting.
+	In that case,
+	the decision is made by simple majority,
+	with the [=Chair of the Objection Decision Committee=] breaking ties.
 
-	Issue: The above text doesn't require the Ojection Decision Committee
-	to write why they have adopted a particular decision,
-	but we should probably require that they do,
-	to help the decision be understood,
-	and limit the risk of appeals.
+	Issue: The ability of the chair to call a vote
+	may act as a disincentive to participants to try and reach consensus.
+	However, removing it would mean that failing to reach any decision
+	would be a possibility.
 
-	Issue: We should make it explicit whether the deliberations
-	of [=Objection Decision Committee=] are recorded,
-	and whether they are public, member-only, team-only…
+	The deliberations of the [=Objection Decision Committee=] are confidential to the [=Objection Decision Committee=].
+	Decisions of the [=Objection Decision Committee=] <em class=rfc2119>must</em> be made publicly available;
+	a rationale supporting the decision <em class=2119>must</em> be provided as well.
+	In the case of non-unanimous decisions,
+	members of the [=Objection Decision Committee=] who disagree with the decision
+	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
+	explaining the reason for their disagreement.
+	[=Minority Opinions=] <em class=rfc2119>must</em> be included in the announcement of the decision.
 
-	Issue: The two stage process, starting with the [=Advisory Group=],
-	is intended to let the [=Team=]
-	(helped by relevant people)
-	do its usual role of researching and mediating Formal Objections,
-	and to limit the workload that Formal Objection handling would put onto the AB and TAG.
-	However, as phrased above, it means that the [=Objection Decision Committee=] can only
-	reject or adopt decisions as framed by the [=Advisory Group=],
-	even if some other decision would get a majority or a consensus.
-	This turns the Objection Decision Committee into a rubber stamping body,
-	devoid of actual deliberation power, which is not desirable.
-	To fix this, I propose: (1) allowing the Advisory Group to propose not necessarily just one,
-	but several possible dispositions if they find several plausible resolutions,
-	and (2) allowing the [=Objection Decision Committee=] to draft their own resolutions,
-	either from scratch or amending one of the possible resolutions proposed by the Advisory Group.
-
-	Issue: In the case of a non unanimous decision,
-	those who disagreed should be allowed to write
-	a purely informative dissenting opinion / minority report
-	(or several, if they cannot agree on why they disagree).
+	Individuals registering [=Formal Objections=] often support their reasoning
+	with several arguments.
+	In the rationale explaining its decision,
+	the [=Objection Decision Committee=] must address each point.
+	The [=Objection Decision Committee=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
+	even if it agrees with some of the supportive arguments.
+	However, if the [=Formal Objection=] includes a claim that the Process has not been respected
+	and the [=Objection Decision Committee=] finds that claim to be true,
+	then it <em class=2119>must not</em> decide to [=overrule=] the [=Formal Objection=].
 
 	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
 	of the [=Objection Decision Committee=]'s decision.
