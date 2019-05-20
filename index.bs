@@ -322,7 +322,6 @@ Rights of Members</h4>
 	and repeated attempts to address these violations have not resolved the situation,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action.
 	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
-	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
 
 <h4 id="RelatedAndConsortiumMembers">
 Member Consortia and Related Members</h4>
@@ -4998,11 +4997,6 @@ and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Proc
 	"MEMBER-SUB": {
 		"href": "https://www.w3.org/2000/09/submission",
 		"title": "How to send a Submission request",
-		"publisher": "W3C"
-	},
-	"DISCIPLINARY-GL": {
-		"href": "https://www.w3.org/2002/09/discipline",
-		"title": "Guidelines for Disciplinary Action",
 		"publisher": "W3C"
 	},
 	"ELECTION-HOWTO": {
