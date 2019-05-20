@@ -327,7 +327,7 @@ Rights of Members</h4>
 	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
 	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
 
-	Issue: What about questions of disciplinary actions linked to the CEO themself,
+	Issue(w3c/w3process#275): What about questions of disciplinary actions linked to the CEO themself,
 	or to Elected Positions (AB, TAG)?
 	Maybe the CEO should recuse themself for these,
 	and they should be adjudicated by the BoD once we have one.
