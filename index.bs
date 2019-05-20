@@ -2371,7 +2371,7 @@ Working Group and Interest Group Charters</h4>
 Working Group and Interest Group Closure</h4>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
-	The [=Team=] <em class="rfc2119">may</em> decide to close a group
+	The [=CEO=] <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:
 
 	<ul>
@@ -2384,13 +2384,10 @@ Working Group and Interest Group Closure</h4>
 			The group produces chartered deliverables ahead of schedule.
 	</ul>
 
-	The [=Team=] closes a [=Working Group=] or [=Interest Group=]
+	The [=CEO=] closes a [=Working Group=] or [=Interest Group=]
 	by announcement to the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
-
-	Issue: Should it be the CEO rather than the Team
-	that should be empowered to close Groups?
 
 	Closing a Working Group has implications
 	with respect to the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
