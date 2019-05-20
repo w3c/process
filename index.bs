@@ -1296,13 +1296,13 @@ Recording and Reporting Formal Objections</h4>
 	If the [=CEO=] recuses themself,
 	they may nominate another member of the W3C management to serve in their place.
 
-	Issue: If the CEO needs to recuse themself,
+	Issue(w3c/w3process#277): If the CEO needs to recuse themself,
 	they are probably not the best person to pick the alternate chair.
 	As an alternative, in case of CEO recusal,
 	the [=Objection Decision Committee=] could pick its own chair
 	by instant-runoff voting.
 
-	Issue: Fuzzy criteria for recusal are problematic:
+	Issue(w3c/w3process#278): Fuzzy criteria for recusal are problematic:
 	individual with only tangential involvement in the matter,
 	or even with no real involvement at all in the matter,
 	could be pressured into recursing themselves.
@@ -1311,15 +1311,15 @@ Recording and Reporting Formal Objections</h4>
 	It is also unclear how useful it is to require recusal from the person raising the objection,
 	since that can easily be circumvented by asking someone else to file the objection on one's behalf.
 	For example, recusal could be required of (and only of):
-	* A Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to
-	* The CEO for objections against their own decisions and those of the Team
+	a Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to,
+	and the CEO for objections against their own decisions and those of the Team.
 
 	Having reviewed the information gathered by the [=Advisory Group=] and its recommendation,
 	and after sufficient sufficient deliberation,
 	the [=Objection Decision Committee=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
 
-	Issue: Should the Objection Decision Committee
+	Issue(w3c/w3process#279): Should the Objection Decision Committee
 	be able to do more than just sustain of overrule?
 	For instance, when it sustains an objection,
 	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
@@ -1333,7 +1333,7 @@ Recording and Reporting Formal Objections</h4>
 	the decision is made by simple majority,
 	with the [=Chair of the Objection Decision Committee=] breaking ties.
 
-	Issue: The ability of the chair to call a vote
+	Issue(w3c/w3process#280): The ability of the chair to call a vote
 	may act as a disincentive to participants to try and reach consensus.
 	However, removing it would mean that failing to reach any decision
 	would be a possibility.
