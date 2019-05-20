@@ -49,6 +49,9 @@ Abstract:
 Status Text:
 	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 	which is the currently operative W3C Process.
+	<div class=advisement>This is a fork of Process,
+	made to explore the possibility of a W3C without a Director.
+	</div>
 </pre>
 
 <style>
