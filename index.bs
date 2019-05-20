@@ -554,14 +554,18 @@ Advisory Board (AB)</h3>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	The Advisory Board hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected
-	for reasons unrelated to Web architecture;
-	see also the <a href="#TAG">TAG</a>.
+	Together with the members of the [=TAG=] and [=CEO=],
+	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
+	[=Chair Decision Appeals=],
+	[=Group Decision Appeals=],
+	and [=Formal Objections=].
 
 	The [=Advisory Board=] is <strong>not</strong> a board of directors
 	and has no decision-making authority within W3C;
 	its role is strictly advisory.
+
+	Note: While the [=AB=] as such does not have decision-making authority,
+	its members do when seating as part of the [=Objection Decision Committee=].
 
 	The [=Team=] <em class="rfc2119">must</em> make available a mailing list,
 	confidential to the Advisory Board and Team,
@@ -616,9 +620,11 @@ Technical Architecture Group (TAG)</h3>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	The [=TAG=] hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected for reasons related to Web architecture;
-	see also the <a href="#AB">Advisory Board</a>.
+	Together with members of the [=AB=] and [=CEO=],
+	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
+	[=Chair Decision Appeals=],
+	[=Group Decision Appeals=],
+	and [=Formal Objections=].
 
 	The [=TAG=]'s scope is limited to technical issues about Web architecture.
 	The TAG <em class="rfc2119">should not</em> consider
@@ -1237,12 +1243,12 @@ Recording and Reporting Formal Objections</h4>
 	In the W3C process,
 	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
 	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
-	is one that the reviewer requests that the Director consider
+	is one that the reviewer requests that the W3C consider
 	as part of evaluating the related decision
 	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
 
-	Note: In this document, the term “Formal Objection” is used to emphasize this process implication:
-	Formal Objections receive Director consideration.
+	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
+	Formal Objections receive formal consideration and a formal response.
 	The word “objection” used alone has ordinary English connotations.
 
 	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
@@ -1253,6 +1259,106 @@ Recording and Reporting Formal Objections</h4>
 
 	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
 	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
+
+	The CEO forms an <dfn>Advisory Group</dfn>,
+	selected as they wish,
+	but typically from
+	The [=W3C Team=],
+	[=TAG=],
+	[=AB=],
+	and [=Chairs=],
+	who consider the [=Formal objection=],
+	research the question,
+	interview parties,
+	and so on,
+	to make sure the problem and the various viewpoints are well understood,
+	and to the extent possible,
+	to arrive at a recommended disposition.
+	If the [=Advisory Group=] can resolve the issue
+	to the satisfaction of the individual that filed the [=Formal Objection=],
+	the individual withdraws the objection and the disposition process terminates.
+	Otherwise,
+	within at most 45 days of the [=Formal Objection=] being registered,
+	the [=Advisory Group=] must present its conclusions (or lack thereof)
+	to the [=Objection Decision Committee=].
+
+	The <dfn>Objection Decision Committee</dfn> consists of the following,
+	with the exception of any who recuse themselves:
+	* the [=CEO=], who serves as the <dfn>Chair of the Objection Decision Committee</dfn>
+	* the members of the [=Advisory Board=]
+	* the members of the [=Technical Architecture Group=]
+
+	A recusal is required for any of these
+	directly involved in the matter of the [=Formal Objection=]
+	(e.g. that they are a chair, and it is their decision that is in question,
+	or they are the individual who registered the [=Formal Objection=]);
+	other members may recuse themselves if they feel their could be a reasonable perception that they are directly involved.
+	If the [=CEO=] recuses themself,
+	they may nominate another member of the W3C management to serve in their place.
+
+	Issue: If the CEO needs to recuse themself,
+	they are probably not the best person to pick the alternate chair.
+	As an alternative, in case of CEO recusal,
+	the [=Objection Decision Committee=] could pick its own chair
+	by instant-runoff voting.
+
+	Issue: Fuzzy criteria for recusal are problematic:
+	individual with only tangential involvement in the matter,
+	or even with no real involvement at all in the matter,
+	could be pressured into recursing themselves.
+	Conversely, over-assertive individuals may fail to recuse themselves even when it would be appropriate.
+	We may instead want to make a strict and non ambiguous criteria.
+	It is also unclear how useful it is to require recusal from the person raising the objection,
+	since that can easily be circumvented by asking someone else to file the objection on one's behalf.
+	For example, recusal could be required of (and only of):
+	* A Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to
+	* The CEO for objections against their own decisions and those of the Team
+
+	Having reviewed the information gathered by the [=Advisory Group=] and its recommendation,
+	and after sufficient sufficient deliberation,
+	the [=Objection Decision Committee=] decides whether to
+	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
+
+	Issue: Should the Objection Decision Committee
+	be able to do more than just sustain of overrule?
+	For instance, when it sustains an objection,
+	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
+	could it decide what to change the charter to and publish it?
+
+	Decision of the [=Objection Decision Committee=] should be unanimous.
+	If despite careful deliberation
+	the [=Objection Decision Committee=] is unable to reach consensus,
+	the [=Chair of the Objection Decision Committee=] may instead resort to voting.
+	In that case,
+	the decision is made by simple majority,
+	with the [=Chair of the Objection Decision Committee=] breaking ties.
+
+	Issue: The ability of the chair to call a vote
+	may act as a disincentive to participants to try and reach consensus.
+	However, removing it would mean that failing to reach any decision
+	would be a possibility.
+
+	The deliberations of the [=Objection Decision Committee=] are confidential to the [=Objection Decision Committee=].
+	Decisions of the [=Objection Decision Committee=] <em class=rfc2119>must</em> be made publicly available;
+	a rationale supporting the decision <em class=2119>must</em> be provided as well.
+	In the case of non-unanimous decisions,
+	members of the [=Objection Decision Committee=] who disagree with the decision
+	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
+	explaining the reason for their disagreement.
+	[=Minority Opinions=] <em class=rfc2119>must</em> be included in the announcement of the decision.
+
+	Individuals registering [=Formal Objections=] often support their reasoning
+	with several arguments.
+	In the rationale explaining its decision,
+	the [=Objection Decision Committee=] must address each point.
+	The [=Objection Decision Committee=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
+	even if it agrees with some of the supportive arguments.
+	However, if the [=Formal Objection=] includes a claim that the Process has not been respected
+	and the [=Objection Decision Committee=] finds that claim to be true,
+	then it <em class=2119>must not</em> decide to [=overrule=] the [=Formal Objection=].
+
+	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
+	of the [=Objection Decision Committee=]'s decision.
 
 <h4 id="formal-address">
 Formally Addressing an Issue</h4>
@@ -1390,16 +1496,15 @@ Appeal of a Chair's Decision</h3>
 	(e.g., to a decision made as the result of a <a href="#Votes">vote</a>).
 
 	When group participants believe that their concerns are not being duly considered by the group,
-	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
-	(for representatives of a Member organization, via their Advisory Committee representative)
-	to confirm or deny the decision.
-	This is a <dfn id="wg-decision-appeal">Group Decision Appeal</dfn>.
+	they <em class="rfc2119">may</em> ask that the decision be confirmed or denied
+	(for representatives of a Member organization, via their Advisory Committee representative).
+	This is a <dfn id="wg-decision-appeal" noexport>Group Decision Appeal</dfn>.
 	The participants <em class="rfc2119">should</em> also make their requests known
 	to the <a href="#TeamContact">Team Contact</a>.
-	The Team Contact <em class="rfc2119">must</em> inform the Director
+	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
 	when a group participant has raised concerns about due process.
 
-	Any requests to the Director to confirm a decision
+	Any such requests to confirm a decision
 	<em class="rfc2119">must</em> include a summary of
 	the issue (whether technical or procedural),
 	decision,
@@ -1407,6 +1512,8 @@ Appeal of a Chair's Decision</h3>
 	All counter-arguments,
 	rationales,
 	and decisions <em class="rfc2119">must</em> be recorded.
+
+	The procedure for handling [=Group Decision Appeals=] is the same as for [=Formal Objections=].
 
 	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
 
@@ -3870,13 +3977,12 @@ Further reading</h3>
 <h2 id="ReviewAppeal">
 Advisory Committee Reviews, Appeals, and Votes</h2>
 
-	This section describes how the [=Advisory Committee=] reviews proposals from the [=Director=]
+	This section describes how the [=Advisory Committee=] reviews proposals from the [=Team=]
 	and how [=Advisory Committee representatives=] initiate an [=Advisory Committee Appeal=]
 	of a [=W3C decision=]
-	or [=Director=]'s decision.
+	or [=Team Decision=].
 	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
-	where the [=Director=]
-	(or the Director's delegate)
+	where the [=Team=]
 	has exercised the role of assessing consensus after an [=Advisory Committee review=].
 
 <h3 id="ACReview">
@@ -3935,11 +4041,11 @@ Start of a Review Period</h4>
 After the Review Period</h4>
 
 	After the review period,
-	the [=Director=] <em class="rfc2119">must</em> announce
+	the [=Team=] <em class="rfc2119">must</em> announce
 	to the [=Advisory Committee=]
 	the level of support for the proposal
 	([=consensus=] or [=dissent=]).
-	The [=Director=] <em class="rfc2119">must</em> also indicate
+	The [=Team=] <em class="rfc2119">must</em> also indicate
 	whether there were any [=Formal Objections=],
 	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
 	This [=W3C decision=] is generally one of the following:
@@ -3952,7 +4058,7 @@ After the Review Period</h4>
 		<li>
 			The proposal is approved,
 			possibly with [=substantive changes=] integrated.
-			In this case the Director's announcement <em class="rfc2119">must</em> include rationale
+			In this case the announcement <em class="rfc2119">must</em> include rationale
 			for the decision to advance the document despite the proposal for a substantive change.
 
 		<li>The proposal is returned for additional work,
@@ -3970,8 +4076,8 @@ After the Review Period</h4>
 	gathered during the review.
 	The [=Advisory Committee=] <em class="rfc2119">should not</em> expect an announcement
 	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
-	If, after <span class="time-interval">three weeks</span>, the Director has not announced the outcome,
-	the [=Director=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
+	If, after <span class="time-interval">three weeks</span>, the [=Team=] has not announced the outcome,
+	the [=Team=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
 
 <h3 id="ACAppeal">
 Appeal by Advisory Committee Representatives</h3>
@@ -3987,9 +4093,10 @@ Appeal by Advisory Committee Representatives</h3>
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
-	for certain [=Director=]'s decisions that do not involve an [=Advisory Committee review=].
+	for decisions of [=Objection Decision Committees=], and
+	for certain [=Team decisions=] that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
-	which describe the requirements for the [=Director=]'s decision
+	which describe the requirements for the [=Team's Decision=]
 	and include
 	additional (non-reviewed) maturity levels of Recommendation Track documents,
 	group [=charter extensions=] and closures,
@@ -3999,7 +4106,7 @@ Appeal by Advisory Committee Representatives</h3>
 	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
 
 	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=].
-	The request should say “I appeal this Director's Decision”
+	The request should say “I appeal this Decision”
 	and identify the decision.
 	Within one week the [=Team=] <em class="rfc2119">must</em> announce the appeal process
 	to the [=Advisory Committee=]
@@ -4010,8 +4117,8 @@ Appeal by Advisory Committee Representatives</h3>
 	5% or more of the [=Advisory Committee=] support the appeal request,
 	the Team <em class="rfc2119">must</em> organize an appeal vote
 	asking the [=Advisory Committee=]
-	“Do you approve of the Director's Decision?”
-	together with links to the [=Director=]'s decision and the appeal support.
+	“Do you approve of the Decision?”
+	together with links to the decision and the appeal support.
 
 	The ballot <em class="rfc2119">must</em> allows for three possible responses:
 	“Approve”,
