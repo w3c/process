@@ -1338,7 +1338,7 @@ Managing Dissent</h4>
 <h4 id="WGArchiveMinorityViews">
 Recording and Reporting Formal Objections</h4>
 
-	Issue: this section is invoked not just for Formal Objections,
+	Issue(w3c/w3process#276): this section is invoked not just for Formal Objections,
 	but also for Group Decision Appeals,
 	Chair Decision Appeals,
 	and Member Submission Appeals.
