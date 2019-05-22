@@ -729,10 +729,6 @@ Advisory Board and Technical Architecture Group Participation</h3>
 	Invited Expert status,
 	or Team representation
 	(as described in the section on the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>).
-	See also the licensing obligations on TAG participants
-	in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the W3C Patent Policy [[PATENT-POLICY]],
-	and the claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.
 
 	Participation in the TAG or AB is afforded to the specific individuals elected or appointed to those positions,
 	and a participant's seat <em class="rfc2119">must not</em> be delegated to any other person.
