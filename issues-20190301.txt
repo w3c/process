@@ -228,7 +228,13 @@ Issue 30.
 Summary:  Applicability of the Pantent Policy on Tag members
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/241
-Open
+Comment:  https://github.com/w3c/w3process/issues/241#issuecomment-461640451
+Comment:  https://github.com/w3c/w3process/issues/241#issuecomment-462754733
+Comment:  https://github.com/w3c/w3process/issues/241#issuecomment-468832300
+Comment:  https://github.com/w3c/w3process/issues/241#issuecomment-494177264
+Response: https://github.com/w3c/w3process/pull/282
+Closed:   Accepted
+Resolved: https://www.w3.org/2019/05/22-w3process-minutes.html
 ----
 Issue 31.
 Summary:  Resignation of AB and TAG members is illdefined
