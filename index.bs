@@ -736,10 +736,6 @@ Advisory Board and Technical Architecture Group Participation</h3>
 	Invited Expert status,
 	or Team representation
 	(as described in the section on the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>).
-	See also the licensing obligations on TAG participants
-	in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the W3C Patent Policy [[PATENT-POLICY]],
-	and the claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.
 
 	Participation in the TAG or AB is afforded to the specific individuals elected or appointed to those positions,
 	and a participant's seat <em class="rfc2119">must not</em> be delegated to any other person.
@@ -4894,6 +4890,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures.
+
+		<li>
+			Delete references to non existing parts of the Patent policy, previously invoked in the TAG participation section.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
