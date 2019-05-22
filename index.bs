@@ -1924,8 +1924,8 @@ Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 	of every new or substantively modified Working Group or Interest Group charter,
 	except for a charter extension,
 	or for substantive changes to a charter that do not affect the way the group functions in any significant way.
-	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
-	The following are examples of substantive changes that would not require an AC Review:
+	The review period <em class="rfc2119">must</em> be at least 28 days.
+	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
 	the addition of an in-scope deliverable,
 	a change of [=Team Contact=],
 	or a change of [=Chair=].
