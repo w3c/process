@@ -4941,6 +4941,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures.
+
+		<li>
+			Delete references to non existing parts of the Patent policy, previously invoked in the TAG participation section.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
