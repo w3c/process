@@ -62,7 +62,8 @@ Summary:  Allow AB to choose its own chair
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/223
 Comment:  https://github.com/w3c/w3process/pull/225
-Open
+Closed:   Deferred
+Resolved: https://github.com/w3c/w3process/issues/223#issuecomment-490326127
 ----
 Issue 8.
 Summary:  Add an index of Terms and Acronyms
