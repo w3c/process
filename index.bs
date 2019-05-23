@@ -906,7 +906,7 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 
 	<ul>
 		<li>
-			the participant <a href="#resignation">resigns</a>, or
+			the participant resigns, or
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
