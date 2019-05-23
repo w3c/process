@@ -241,7 +241,10 @@ Issue 31.
 Summary:  Resignation of AB and TAG members is illdefined
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/242
-Open
+Comment:  https://github.com/w3c/w3process/issues/242#issuecomment-493619703
+Response: https://github.com/w3c/w3process/pull/283
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/242#issuecomment-494939326
 ----
 Issue 32.
 Summary:  Clarify terminology: minor changes vs editorial changes
