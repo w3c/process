@@ -19,7 +19,8 @@ Summary:  Clarification of Introduction
 From:     Rachel Comerford
 Comment:  https://github.com/w3c/w3process/issues/232
 Response: https://github.com/w3c/w3process/issues/232#issuecomment-445088494
-Open
+Closed:   Retracted
+Verified: https://github.com/w3c/w3process/issues/232#event-2359816536
 ----
 Issue 3.
 Summary:  TAG Appointment via a NomCom
