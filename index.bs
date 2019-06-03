@@ -2084,7 +2084,7 @@ Working Group and Interest Group Charters</h4>
 
 	See also the charter requirements of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
 	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
-	of the W3C Patent Policy [[!PATENT-POLICY]], as well as the <a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+	of the W3C Patent Policy [[!PATENT-POLICY]], as well as the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html">Evergreen Patent Policy</a>.
 
   For each technical report being developed on the Evergreen track, the description of that deliverable in the
 	proposed charter must provide the URL of the W3C GitHub repository for that document.
@@ -2113,7 +2113,7 @@ Working Group and Interest Group Charters</h4>
 			or <a href="#candidate-rec">Candidate Recommendation</a>
 			that triggered an Exclusion Opportunity per the Patent Process
 			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”) or the
-			<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>; and
+			<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html">Evergreen Patent Policy</a>; and
 
 		<li>
 			The stable URL of the Working Group charter
@@ -2217,7 +2217,7 @@ W3C Technical Report Development Process</h2>
 	See also the licensing goals for [=W3C Recommendations=] in
 	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
 	of the W3C Patent Policy [[PATENT-POLICY]]. See the licensing goals for [=W3C Evergreen Recommendation=] in the
-	<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html">Evergreen Patent Policy</a>.
 
 <h3 id="rec-advance">
 W3C Technical Reports</h3>
@@ -2659,11 +2659,14 @@ Maturity Levels</h4>
 		<dt>
       <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
     <dd>
+		  Note: shall we call this Evergreen Specification?
+
 		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
 			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
 			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
-			Royalty-Free IPR licenses granted under the <a href="https://www.w3.org/Consortium/TODO">Evergreen
-			track Contribution Commitment patent policy</a> apply
+			Royalty-Free IPR licenses granted under the
+			<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations">Evergreen
+      Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
 
 			<ul>
@@ -2685,8 +2688,12 @@ Maturity Levels</h4>
 			  <dt>
           <dfn export id="ERSers" lt="Evergreen Recommendation Snapshot | ERS">Evergreen Recommendation Snapshot</dfn> (<abbr>ERS</abbr>)
 				<dd>
-          An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the <a href="https://www.w3.org/Consortium/TODO">Evergreen
-					track Specification Commitment patent policy</a>.
+          An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the
+					<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+          Review Draft Licensing Obligations</a>.
+
+          Note: shall we call this Evergreen Review Draft?
+
         <dt>
           <dfn export id="ERSreg">Registry</dfn>
         <dd>
@@ -3805,7 +3812,9 @@ Evergreen Recommendation</h3>
 					(giving some indication that the feature has received sufficient review).
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
-					snapshot and is therefore covered by the <a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+					snapshot and is therefore covered by the
+					<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+          Review Draft Licensing Obligations</a>.
         <li>
 				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
 			</ul>
@@ -3845,7 +3854,8 @@ Evergreen Recommendation Snapshot</h3>
 
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
 	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
-	<a href="https://www.w3.org/Consortium/TODO">Evergreen track patent policy</a>.
+  <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+  Review Draft Licensing Obligations</a>.
 
   To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
 	Recommendation</a> a Working Group:
