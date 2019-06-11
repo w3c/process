@@ -1392,7 +1392,7 @@ Recording and Reporting Formal Objections</h4>
 	directly involved in the matter of the [=Formal Objection=]
 	(e.g. that they are a chair, and it is their decision that is in question,
 	or they are the individual who registered the [=Formal Objection=]);
-	other members may recuse themselves if they feel their could be a reasonable perception that they are directly involved.
+	other members may recuse themselves if they feel there could be a reasonable perception that they are directly involved.
 	If the [=CEO=] recuses themself,
 	they may nominate another member of the W3C management to serve in their place.
 
