@@ -903,8 +903,8 @@ Verifiable Random Selection Procedure</h5>
 Technical Architecture Group Appointments</h4>
 
 	The <dfn>TAG Nominating Committee</dfn> is responsible for appointing
-	3 of the 9 participants to the [=Technical Architecture Group=].
-	This mechanism complements the election used for the 6 other participants.
+	3 of the participants to the [=Technical Architecture Group=].
+	This mechanism complements the election used for other participants.
 	The [=TAG Nominating Committee=] <em class=rfc2119>should</em> use its appointments to support
 	a diverse and well balanced [=TAG=].
 
