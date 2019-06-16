@@ -675,7 +675,7 @@ Technical Architecture Group Participation</h4>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			Three participants appointed by the [=TAG Nominating Committee=];
+			Three participants appointed by the [=TAG Appointment Committee=];
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
@@ -772,7 +772,7 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=TAG Nominating Committee=] <em class="rfc2119">must</em> announce appointments
+	The [=TAG Appointment Committee=] <em class="rfc2119">must</em> announce appointments
 	after the results of the election are known,
 	and before the start of the term,
 	as described in [[#TAG-appointments]].
@@ -902,82 +902,92 @@ Verifiable Random Selection Procedure</h5>
 <h4 id="TAG-appointments">
 Technical Architecture Group Appointments</h4>
 
-	The <dfn>TAG Nominating Committee</dfn> is responsible for appointing
+	The <dfn>TAG Appointment Committee</dfn> is responsible for appointing
 	3 of the participants to the [=Technical Architecture Group=].
-	This mechanism complements the election used for other participants.
-	The [=TAG Nominating Committee=] <em class=rfc2119>should</em> use its appointments to support
+	This mechanism complements the election process.
+	The [=TAG Appointment Committee=] <em class=rfc2119>should</em> use its appointments to support
 	a diverse and well-balanced [=TAG=].
 
 	For regularly scheduled elections,
-	the [=TAG Nominating Committee=] is formed as soon as possible after the Call for Nominations for the relevant TAG election has closed,
+	the [=TAG Appointment Committee=] is formed as soon as possible after the Call for Nominations for the relevant TAG election has closed,
 	and no later than the end of the voting period.
 	When formed to fill vacated seats out of a regularly scheduled election,
-	the [=TAG Nominating Committee=] is formed as soon as possible after the seat is vacated,
+	the [=TAG Appointment Committee=] is formed as soon as possible after the seat is vacated,
 	unless a regular Call for Nominations is scheduled within 2 months.
 
-	The [=TAG Nominating Committee=] is composed of:
-	* 1 member of the [=Team=], chosen by the CEO
-	* 2 participants of the current TAG,
-		<a href="#random">randomly selected</a> from those who are not running for election
-	* 4 [=Chairs=] of [=Working Groups=],
-		<a href="#random">randomly selected</a> from individuals who are or have been [=Chair=] of a [=Working Group=]
-		for at least 6 of the preceeding 12 months,
-		excluding individuals running in the election,
-		already selected (see above),
-		or having the same affiliation as someone already selected.
-	* 2 [=Advisory Committee Representatives=],
-		<a href="#random">randomly selected</a> from those who have attended
-		at least 2 of the last 3 <a href="#ACMeetings">Advisory Committee Meetings</a>,
-		excluding individuals running in the election,
-		already selected (see above),
-		or having the same affiliation as someone already selected.
+	The [=TAG Appointment Committee=] is composed of the following seats,
+	selected in order:
+	<ol>
+		<li>
+			1 member of the [=Team=], chosen by the CEO
+		<li>
+			2 participants of the current TAG,
+			<a href="#random">randomly selected</a> from those who are not running for election
+		<li>
+			4 [=Chairs=] of [=Working Groups=],
+			<a href="#random">randomly selected</a> from individuals who are or have been [=Chair=] of a [=Working Group=]
+			for at least 6 of the preceeding 12 months,
+			excluding individuals running in the election,
+			already selected (see above),
+			or having the same affiliation as someone already selected.
+		<li>
+			2 [=Advisory Committee Representatives=],
+			<a href="#random">randomly selected</a> from those who have attended
+			at least 2 of the last 3 <a href="#ACMeetings">Advisory Committee Meetings</a>,
+			excluding individuals running in the election,
+			already selected (see above),
+			or having the same affiliation as someone already selected.
+	</ol>
 
-	Individuals selected to serve on the [=TAG Nominating Committee=]
+	Individuals selected to serve on the [=TAG Appointment Committee=]
 	<em class=rfc2119>may</em> decline,
-	in which case the <a href=#random>random selection procedure</a>
-	is repeated until vacant seats are filled, or the pool of eligible electors is exhausted.
+	in which case the <a href=#random>random selection procedure</a> for that seat
+	is repeated until it is filled
+	or the pool of eligible electors is exhausted.
 	If willing participants cannot be found to fill the designated number of seats in each category,
-	a [=TAG Nominating Committee=] is formed despite vacant seats.
+	a [=TAG Appointment Committee=] is formed despite vacant seats.
 
-	The chair of the [=TAG Nominating Committee=] is chosen by [=consensus=] among the participants.
+	The chair of the [=TAG Appointment Committee=] is chosen by [=consensus=] among the participants.
 	If no consensus can be reached within one week of the committee being formed,
 	the chair is instead <a href=#random>randomly selected</a>
 	from the participants willing to serve in that role.
 
-	The [=Team=] must make available to the [=Advisory Committee Representatives=] a means to propose
-	one or more individuals to the [=TAG Nominating Committee=] as candidates for consideration
-	as possible appointees.
-	Nomination proposals <em class=rfc2119>should</em> include relevant information
-	in support of the candidate.
-	Participants in the [=TAG Nominating Committee=] <em class=rfc2119>may</em> also propose one or more candidates.
-	These propositions are confidential to the [=TAG Nominating Committee=].
+	Participants in the [=TAG Appointment Committee=]
+	<em class=rfc2119>should</em> recruit and nominate
+	candidates for appointment to the TAG.
+	The [=Team=] <em class=rfc2119>must</em> make available to
+	the W3C community at large
+	a means to nominate additional candidates for consideration.
+	Nominations <em class=rfc2119>should</em> include
+	relevant information in support of the candidate.
+	These nominations are confidential to the [=TAG Appointment Committee=].
 
-	The constrains for appointment to the [=TAG=] are the same
-	as for participating as an elected participant
+	The constrains for appointment to the [=TAG=] are
+	the same as for elected participants
 	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]),
-	except that participants of the [=TAG Nominating Committee=]
+	except that participants of the [=TAG Appointment Committee=]
 	are not eligible.
 
-	The [=TAG Nominating Committee=] selects the number of individuals necessary to fill the number of vacant seats,
+	The [=TAG Appointment Committee=] appoints the number of individuals necessary to fill the number of vacant seats,
 	by [=consensus=],
-	among the eligible proposed candidates.
+	among the eligible nominees.
 
 	For regularly scheduled elections,
-	the [=TAG Nominating Committee=] must announce its conclusions
+	the [=TAG Appointment Committee=] must announce its conclusions
 	after the results of the election are known,
 	but no later than the start of the Term.
 	When formed to fill vacated seats outside of a regularly scheduled election,
 	it must announce its conclusions
-	no later than the before the Call for Nominations of the next scheduled election.
+	no later than the Call for Nominations of the next scheduled election.
 	If consensus cannot be reached before this deadline,
 	the Chair <em class=rfc2119>should</em> call for a vote.
 	The voting method is at the Chair's discretion,
 	but <em class=rfc2119>must</em> ensure that
-	all participants in the [=TAG Nominating Committee=] are given an equal say,
-	and that all eligible candidates are considered.
+	all participants in the [=TAG Appointment Committee=] are given an equal say,
+	and that all eligible nominees are considered.
 
 	To ensure that seats on the TAG do not stay vacant,
-	if the [=TAG Nominating Committee=] fails to decide on the required number of appointees
+	if the [=TAG Appointment Committee=] fails to decide on the required number of appointees
 	before the deadline,
 	the [=Team=] appoints the missing number.
 
@@ -1014,10 +1024,7 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			if the Call for Nominations of the next scheduled election is at least two months away,
-			a [=TAG Nominating Committee=] is formed to appoint a replacement.
-			Otherwise the seat is re-appointed by
-			a [=TAG Nominating Committee=] formed at the next regularly scheduled election.
+			the [=TAG Appointment Committee=] appoints a replacement.
 
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
