@@ -956,9 +956,10 @@ Technical Architecture Group Appointments</h4>
 
 	The [=Team=] must make available to the [=Advisory Committee Representatives=] a means to propose
 	one or more individuals to the [=TAG Nominating Committee=] as candidates for consideration
-	as possible appointees of the [=TAG=],
-	and should include relevant information in support of the person they are putting forward.
-	Participants in the [=TAG Nominating Committee=] may also propose one or more candidates.
+	as possible appointees of the [=TAG=].
+	When doing so, [=Advisory Committee Representatives=] <em class=rfc2119>should</em> include relevant information
+	in support of the person they are putting forward.
+	Participants in the [=TAG Nominating Committee=] <em class=rfc2119>may</em> also propose one or more candidates.
 	These propositions are confidential to the [=TAG Nominating Committee=].
 
 	The constrains for appointment to the [=TAG=] are the same as those detailed in [[#AB-TAG-constraints]],
