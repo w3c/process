@@ -1353,9 +1353,6 @@ Recording and Reporting Formal Objections</h4>
 	the [=W3C Council=] must address each point.
 	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
-	However, if the [=Formal Objection=] includes a claim that the Process has not been respected
-	and the [=W3C Council=] finds that claim to be true,
-	then it <em class=2119>must not</em> decide to [=overrule=] the [=Formal Objection=].
 
 	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
 	of the [=W3C Council=]'s decision.
