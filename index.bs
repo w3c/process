@@ -1339,8 +1339,9 @@ Recording and Reporting Formal Objections</h4>
 	would be a possibility.
 
 	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
-	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> be made publicly available;
-	a rationale supporting the decision <em class=2119>must</em> be provided as well.
+	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> have the same level of confidentiality
+	as the object of the [=Formal Objection=].
+	A rationale supporting the decision <em class=2119>must</em> be provided as well.
 	In the case of non-unanimous decisions,
 	members of the [=W3C Council=] who disagree with the decision
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
