@@ -565,7 +565,7 @@ Advisory Board (AB)</h3>
 	its role is strictly advisory.
 
 	Note: While the [=AB=] as such does not have decision-making authority,
-	its members do when seating as part of the [=Objection Decision Committee=].
+	its members do when seating as part of the [=W3C Council=].
 
 	The [=Team=] <em class="rfc2119">must</em> make available a mailing list,
 	confidential to the Advisory Board and Team,
@@ -1280,11 +1280,11 @@ Recording and Reporting Formal Objections</h4>
 	Otherwise,
 	within at most 45 days of the [=Formal Objection=] being registered,
 	the [=Advisory Group=] must present its conclusions (or lack thereof)
-	to the [=Objection Decision Committee=].
+	to the [=W3C Council=].
 
-	The <dfn>Objection Decision Committee</dfn> consists of the following,
+	The <dfn>W3C Council</dfn> consists of the following,
 	with the exception of any who recuse themselves:
-	* the [=CEO=], who serves as the <dfn>Chair of the Objection Decision Committee</dfn>
+	* the [=CEO=], who serves as the <dfn>Chair of the W3C Council</dfn>
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
 
@@ -1299,7 +1299,7 @@ Recording and Reporting Formal Objections</h4>
 	Issue(w3c/w3process#277): If the CEO needs to recuse themself,
 	they are probably not the best person to pick the alternate chair.
 	As an alternative, in case of CEO recusal,
-	the [=Objection Decision Committee=] could pick its own chair
+	the [=W3C Council=] could pick its own chair
 	by instant-runoff voting.
 
 	Issue(w3c/w3process#278): Fuzzy criteria for recusal are problematic:
@@ -1316,33 +1316,33 @@ Recording and Reporting Formal Objections</h4>
 
 	Having reviewed the information gathered by the [=Advisory Group=] and its recommendation,
 	and after sufficient sufficient deliberation,
-	the [=Objection Decision Committee=] decides whether to
+	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
 
-	Issue(w3c/w3process#279): Should the Objection Decision Committee
+	Issue(w3c/w3process#279): Should the W3C Council
 	be able to do more than just sustain of overrule?
 	For instance, when it sustains an objection,
 	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
 	could it decide what to change the charter to and publish it?
 
-	Decision of the [=Objection Decision Committee=] should be unanimous.
+	Decision of the [=W3C Council=] should be unanimous.
 	If despite careful deliberation
-	the [=Objection Decision Committee=] is unable to reach consensus,
-	the [=Chair of the Objection Decision Committee=] may instead resort to voting.
+	the [=W3C Council=] is unable to reach consensus,
+	the [=Chair of the W3C Council=] may instead resort to voting.
 	In that case,
 	the decision is made by simple majority,
-	with the [=Chair of the Objection Decision Committee=] breaking ties.
+	with the [=Chair of the W3C Council=] breaking ties.
 
 	Issue(w3c/w3process#280): The ability of the chair to call a vote
 	may act as a disincentive to participants to try and reach consensus.
 	However, removing it would mean that failing to reach any decision
 	would be a possibility.
 
-	The deliberations of the [=Objection Decision Committee=] are confidential to the [=Objection Decision Committee=].
-	Decisions of the [=Objection Decision Committee=] <em class=rfc2119>must</em> be made publicly available;
+	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
+	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> be made publicly available;
 	a rationale supporting the decision <em class=2119>must</em> be provided as well.
 	In the case of non-unanimous decisions,
-	members of the [=Objection Decision Committee=] who disagree with the decision
+	members of the [=W3C Council=] who disagree with the decision
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
 	explaining the reason for their disagreement.
 	[=Minority Opinions=] <em class=rfc2119>must</em> be included in the announcement of the decision.
@@ -1350,15 +1350,15 @@ Recording and Reporting Formal Objections</h4>
 	Individuals registering [=Formal Objections=] often support their reasoning
 	with several arguments.
 	In the rationale explaining its decision,
-	the [=Objection Decision Committee=] must address each point.
-	The [=Objection Decision Committee=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
+	the [=W3C Council=] must address each point.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
 	However, if the [=Formal Objection=] includes a claim that the Process has not been respected
-	and the [=Objection Decision Committee=] finds that claim to be true,
+	and the [=W3C Council=] finds that claim to be true,
 	then it <em class=2119>must not</em> decide to [=overrule=] the [=Formal Objection=].
 
 	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
-	of the [=Objection Decision Committee=]'s decision.
+	of the [=W3C Council=]'s decision.
 
 <h4 id="formal-address">
 Formally Addressing an Issue</h4>
@@ -4093,7 +4093,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
-	for decisions of [=Objection Decision Committees=], and
+	for decisions of the [=W3C Council=], and
 	for certain [=Team decisions=] that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
 	which describe the requirements for the [=Team's Decision=]
