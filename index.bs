@@ -561,7 +561,7 @@ Advisory Board (AB)</h3>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	Together with the members of the [=TAG=] and [=CEO=],
+	Together with the [=CEO=} and the members of the [=TAG=],
 	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
 	[=Chair Decision Appeals=],
 	[=Group Decision Appeals=],
@@ -627,7 +627,7 @@ Technical Architecture Group (TAG)</h3>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	Together with members of the [=AB=] and [=CEO=],
+	Together with the [=CEO=] and members of the [=AB=],
 	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
 	[=Chair Decision Appeals=],
 	[=Group Decision Appeals=],
