@@ -2150,7 +2150,7 @@ Working Group and Interest Group Charters</h4>
 Working Group and Interest Group Closure</h4>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
-	The [=CEO=] <em class="rfc2119">may</em> decide to close a group
+	The [=Team=] <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:
 
 	<ul>
@@ -2163,7 +2163,7 @@ Working Group and Interest Group Closure</h4>
 			The group produces chartered deliverables ahead of schedule.
 	</ul>
 
-	The [=CEO=] closes a [=Working Group=] or [=Interest Group=]
+	The [=Team=] closes a [=Working Group=] or [=Interest Group=]
 	by announcement to the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
