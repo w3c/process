@@ -1962,7 +1962,7 @@ Call for Participation in a Working Group or Interest Group</h4>
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>
-	against a decision to create
+	against the decision to create
 	or substantially modify
 	a Working Group or Interest Group charter.
 
