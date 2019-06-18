@@ -1160,7 +1160,7 @@ Consensus</h3>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through email.
 
-	Note: CEO, and COO have the role of
+	Note: The CEO and COO have the role of
 	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
