@@ -4009,7 +4009,7 @@ Appeal by Advisory Committee Representatives</h3>
 	“Do you approve of the Director's Decision?”
 	together with links to the [=Director=]'s decision and the appeal support.
 
-	The ballot <em class="rfc2119">must</em> allows for three possible responses:
+	The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
 	“Reject”,
 	and “Abstain”,
