@@ -3117,6 +3117,68 @@ Revising a Candidate Recommendation</h4>
 	of a revised [=Candidate Recommendation=]
 	to other W3C groups and the Public.
 
+<h5 id="streamlined-cr-update">
+Streamlined Publication Approval for CR Updates</h5
+
+	In order to streamline the publication process in non-controversial cases,
+	approval is automatically granted without formal review
+	when the following criteria are fulfilled:
+
+	<ul>
+		<li>
+			There is a [=Working Group=] decision to publish.
+
+		<li>
+			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
+
+		<li>
+			the [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Candidate Recommendation=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that the specification has received [=wide review=].
+
+		<li>
+			For each of the
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
+			if the Horizontal Review Group has made available a set criteria
+			under which their review is not necessary,
+			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
+			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
+			that review from has been solicited and received.
+
+		<li>
+			No [=Formal Objection=] has been registered against the document.
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em>
+			have [=formally addressed=]:
+			* all issues raised against the document that resulted in changes since the previous publication
+			* all issues raised against changes since the previous publication
+			* all issues raised against the document that were closed since the previous publication with no change to the document
+
+			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
+			of the person who raised it:
+			their proposal has been accepted,
+			or a compromise has been found,
+			or they accepted the Working Group's rationale for rejecting it.
+
+	</ul>
+
+	The [=Working Group=] must provide written evidence for these claims,
+	and the [=Team=] must make these answers publicly and permanently available.
+
+	After publication,
+	if an AC Representative
+	or Team member
+	doubts that the evidence presented supports the claims,
+	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
+	If that review finds that the requirements were not fulfilled,
+	the Team <em class=rfc2119>may</em> revert the publication
+	by updating in place the status section to indicate that it has been reverted,
+	and by republishing the previous [=Candidate Recommendation=].
+
+
 <h3 id="rec-pr">
 Proposed Recommendation</h3>
 
