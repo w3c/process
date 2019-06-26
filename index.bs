@@ -3652,7 +3652,9 @@ Revising a Recommendation: Substantive Changes</h4>
 
 	The <a>Call for Review of Proposed Corrections</a>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
-	and is considered a “Last Call Working Draft” of the proposed changes
+	and the combination of the existing [=Recommendation=]
+	with the [=proposed corrections=] included in the [=Call for Review of Proposed Corrections=]
+	is considered a “Last Call Working Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	The announcement <em class="rfc2119">must</em>:
 	<ul>
@@ -3691,6 +3693,80 @@ Revising a Recommendation: Substantive Changes</h4>
 	If the publication was requested by the [=W3C team=] in the absence of a [=Working Group=],
 	the resulting [=Recommendation=] will be called an [=Amended Recommendation=].
 	(See <a href="#correction-classes">class 3 changes</a>.)
+
+<h5 id="streamline-rec-class-3">
+Streamlined Publication Approval for Recommendations with Substantive Changes</h5>
+
+	In order to streamline the publication process in non-controversial cases,
+	approval is automatically granted without formal review
+	when the following criteria are fulfilled:
+
+	<ul>
+		<li>
+			There is a [=Working Group=] decision to publish.
+
+		<li>
+			Changes to the document are limited to
+			[=proposed corrections=] which were included in a [=Call for Review of Proposed Corrections=],
+			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
+
+		<li>
+			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
+
+		<li>
+			The [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Recommendation=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
+			as evidenced by passing tests of a test suite
+			providing extensive coverage of the changes.
+
+			Note: this is more intentionally more strict
+			than the general criteria for [=adequate implementation experience=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that the changes have received [=wide review=].
+
+		<li>
+			For each of the
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
+			if the Horizontal Review Group has made available a set criteria
+			under which their review is not necessary,
+			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
+			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
+			that review from has been solicited and received.
+
+		<li>
+			No [=Formal Objection=] has been registered against the document.
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em>
+			have [=formally addressed=]:
+			* all issues raised against the document that resulted in changes since the previous publication
+			* all issues raised against changes since the previous publication
+			* all issues raised against the document that were closed since the previous publication with no change to the document
+
+			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
+			of the person who raised it:
+			their proposal has been accepted,
+			or a compromise has been found,
+			or they accepted the Working Group's rationale for rejecting it.
+	</ul>
+
+	The [=Working Group=] must provide written evidence for these claims,
+	and the [=Team=] must make these answers publicly and permanently available.
+
+	After publication,
+	if an AC Representative
+	or Team member
+	doubts that the evidence presented supports the claims,
+	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
+	If that review finds that the requirements were not fulfilled,
+	the Team <em class=rfc2119>may</em> revert the publication
+	by updating in place the status section to indicate that it has been reverted,
+	and by republishing the previous [=Recommendation=].
 
 <h4 id="revised-rec-features">
 Revising a Recommendation: New Features</h4>
