@@ -3542,10 +3542,7 @@ Errata Management</h4>
 	by the process for Revising a Recommendation described in the next section.
 
 <h4 id="revised-rec">
-Revising a Recommendation</h4>
-
-<h5 id="revised-rec-markup">
-Revising a Recommendation: Markup Changes</h5>
+Revising a Recommendation: Markup Changes</h4>
 
 	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=],
 	or if there is no [=Working Group=] chartered to maintain a [=Recommendation=]
@@ -3553,8 +3550,8 @@ Revising a Recommendation: Markup Changes</h5>
 	to make corrections that do not result
 	in any changes to the text of the specification.
 
-<h5 id="revised-rec-editorial">
-Revising a Recommendation: Editorial Changes</h5>
+<h4 id="revised-rec-editorial">
+Revising a Recommendation: Editorial Changes</h4>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the proposed changes.
 	A [=Working Group=],
@@ -3564,8 +3561,8 @@ Revising a Recommendation: Editorial Changes</h5>
 	to make this class of change without passing through earlier maturity levels.
 	Such publications are called [=Edited Recommendations=].
 
-<h5 id="revised-rec-substantive">
-Revising a Recommendation: Substantive Changes</h5>
+<h4 id="revised-rec-substantive">
+Revising a Recommendation: Substantive Changes</h4>
 
 	To make corrections to a Recommendation that produce [=substantive changes=]
 	but do not add new features,
@@ -3593,8 +3590,8 @@ Revising a Recommendation: Substantive Changes</h5>
 			<em class="rfc2119">should</em> address all recorded errata.
 	</ul>
 
-<h5 id="revised-rec-features">
-Revising a Recommendation: New Features</h5>
+<h4 id="revised-rec-features">
+Revising a Recommendation: New Features</h4>
 
 	To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
