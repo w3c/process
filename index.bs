@@ -2005,6 +2005,14 @@ Working Group and Interest Group Charters</h4>
 			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software);
 
 		<li>
+			For each technical report,
+			a designation whether it may may be revised using the [=proposed additions=] process
+			once it has reached the [=Recommendation=] maturity or not.
+			If this information is left out
+			(for example, if the charter predates the introduction of the [=proposed additions=] process),
+			then using [=proposed additions=] is not allowed.
+
+		<li>
 			Expected milestone dates where available.
 
 			Note: A charter is <em class="rfc2119">not required</em>
@@ -3771,10 +3779,151 @@ Streamlined Publication Approval for Recommendations with Substantive Changes</h
 <h4 id="revised-rec-features">
 Revising a Recommendation: New Features</h4>
 
+	If allowed by the charter,
+	new features can be added to a [=Recommendation=]
+	by writing a <dfn>proposed addition</dfn>.
+	[=Proposed Additions=] are similar to [=errata=],
+	except that they introduce new features
+	rather than correct errors.
+	Like errata,
+	when annotated inline,
+	[=proposed additions=]--
+	must be marked as such,
+	are treated as <a href="#correction-classes">class 2 changes</a>,
+	and are published according to [[#revised-rec-editorial]].
+
+	A [=proposed addition=] is made normative,
+	and is folded into the main text of the [=Recommendation=],
+	when it has satisfied all the same criteria
+	as the rest of the [=Recommendation=],
+	including review by the community to ensure
+	the technical and editorial soundness of the proposed correction.
+	To do this, the [=Working Group=] requests
+	a <dfn>Call for Review of Proposed Additions</dfn>.
+
+	The <a>Call for Review of Proposed Additions</a>
+	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
+	and the combination of the existing [=Recommendation=]
+	with the [=proposed additions=] included in the [=Call for Review of Proposed Additions=]
+	is considered a “Last Call Working Draft” of the proposed changes
+	for the purposes of the Patent Policy [[PATENT-POLICY]].
+	The announcement <em class="rfc2119">must</em>:
+	<ul>
+		<li>Identify the proposed additions under review.
+		<li>Specify the deadline for review comments,
+			which must not be any sooner than 60 days from the Call for Review.
+		<li>Solicit review and, if it does not already have it, implementation experience.
+	</ul>
+
+	At the end of the <a>Call for Review of Proposed Additions</a>,
+	the [=Working Group=] must [=formally address=]
+	all comments on the changes under review.
+	For each such change, it may either
+	amend it in response to review feedback and issue another <a>Call for Review of Proposed Additions</a> on the revised change,
+	or, if it can show <a>adequate implementation experience</a>
+	and the fulfillment of all other criteria of Recommendation text,
+	incorporate it into the main text
+	and <a lt="transition request">request</a> <a href="#rec-publication">publication as a Recommendation</a>.
+
+	A [=Working Group=] <em class="rfc2119">may</em> batch
+	multiple proposed additions into a single <a>Call for Review of Proposed Additions</a>.
+
+	A <a>Call for Review of Proposed Additions</a> <em class=rfc2119>may</em> be combined with
+	a <a>Call for Review of Proposed Corrections</a>.
+	It is then called
+	a <dfn noexport>Call for Review of Proposed Corrections and Additions</dfn>,
+	and fullfils the requirements of both.
+
+	Note: Working Groups maintaining Recommendations
+	that require frequent additions
+	are encouraged to issue Calls for Review of Proposed Additions
+	in batches on a regular cadence,
+	such as once every six months,
+	to facilitate review.
+
+	Alternatively,
 	To make changes which introduce a new feature or features,
-	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
+	W3C <em class="rfc2119">may</em>--
+	and when [=proposed additions=] are not allowed by the charter, <em class=rfc2119>must</em>--
+	follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
+
 	(See <a href="#correction-classes">class 4 changes</a>.)
+
+<h5 id="streamline-rec-class-4">
+Streamlined Publication Approval for Recommendations with New Features</h5>
+
+	In order to streamline the publication process in non-controversial cases,
+	approval is automatically granted without formal review
+	when the following criteria are fulfilled:
+
+	<ul>
+		<li>
+			There is a [=Working Group=] decision to publish.
+
+		<li>
+			Changes to the document are limited to
+			[=proposed corrections=] which were included in a [=Call for Review of Proposed Corrections=],
+			[=proposed additions=] which were included in a [=Call for Review of Proposed Additions=],
+			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
+
+		<li>
+			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
+
+		<li>
+			The [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Recommendation=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
+			as evidenced by passing tests of a test suite
+			providing extensive coverage of the changes.
+
+			Note: this is more intentionally more strict
+			than the general criteria for [=adequate implementation experience=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that the changes have received [=wide review=].
+
+		<li>
+			For each of the
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
+			if the Horizontal Review Group has made available a set criteria
+			under which their review is not necessary,
+			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
+			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
+			that review from has been solicited and received.
+
+		<li>
+			No [=Formal Objection=] has been registered against the document.
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em>
+			have [=formally addressed=]:
+			* all issues raised against the document that resulted in changes since the previous publication
+			* all issues raised against changes since the previous publication
+			* all issues raised against the document that were closed since the previous publication with no change to the document
+
+			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
+			of the person who raised it:
+			their proposal has been accepted,
+			or a compromise has been found,
+			or they accepted the Working Group's rationale for rejecting it.
+	</ul>
+
+	The [=Working Group=] must provide written evidence for these claims,
+	and the [=Team=] must make these answers publicly and permanently available.
+
+	After publication,
+	if an AC Representative
+	or Team member
+	doubts that the evidence presented supports the claims,
+	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
+	If that review finds that the requirements were not fulfilled,
+	the Team <em class=rfc2119>may</em> revert the publication
+	by updating in place the status section to indicate that it has been reverted,
+	and by republishing the previous [=Recommendation=].
 
 <h3 id="Note">
 Publishing a Working Group or Interest Group Note</h3>
