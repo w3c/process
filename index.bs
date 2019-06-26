@@ -3624,7 +3624,7 @@ Revising a Recommendation: Editorial Changes</h5>
 	Such publications are called [=Edited Recommendations=].
 
 <h5 id="revised-rec-registry">
-Revising a Recommendation: Regsitry Changes</h5>
+Revising a Recommendation: Registry Changes</h5>
 
 	[=Registry changes=]
 	have no review or approval requirements
