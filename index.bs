@@ -4688,6 +4688,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Remove a spurious link that made it look like AC-Reps were involved when participants in the TAG or AB resign.
+
+		<li>
+			Add some sub-section headings to improve readability and cross-section linking
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

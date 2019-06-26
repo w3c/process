@@ -337,3 +337,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/259
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/259#issuecomment-472438787
+----
+Issue 44.
+Summary:  Add sub-section headings to revising a REC
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/294
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/294#pullrequestreview-254696601
