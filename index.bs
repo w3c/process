@@ -2835,9 +2835,10 @@ Implementation Experience</h4>
 <h4 id="correction-classes">
 Classes of Changes</h4>
 
-	This document distinguishes the following 4 classes of changes to a specification.
-	The first two classes of change are considered <dfn id="editorial-change">editorial changes</dfn>,
-	the latter two <dfn id="substantive-change">substantive changes</dfn>.
+	This document distinguishes the following 5 classes of changes to a specification.
+	The first two classes of change are considered <dfn lt="editorial change">editorial changes</dfn>,
+	the next two <dfn lt="substantive change">substantive changes</dfn>,
+	and the last one <dfn lt="registry change">registry changes</dfn>.
 
 	<dl>
 		<dt>
@@ -2892,6 +2893,11 @@ Classes of Changes</h4>
 			4. New features
 		<dd>
 			Changes that add a new functionality, element, etc.
+		<dt>
+			5. Changes to the contents of a [=Registry=]
+		<dd>
+			Changes that add, remove, or alter [=entries=] in a [=Registry=].
+
 	</dl>
 
 <h4 id="contributor-license">
@@ -2909,6 +2915,55 @@ Contributor License Grants</h4>
 	and that become Essential Claims as a result of incorporating the contribution into the draft
 	that existed at the time of the contribution,
 	on the terms specified in section 5 (W3C Royalty-Free (RF) Licensing Requirements) of the W3C Patent Policy.
+
+<h3 id="registries">
+Registries</h3>
+
+	A <dfn>registry</dfn> is an updatable collection
+	of logically independent, consistently-structured <dfn lt="entry | entries | registry entry | registry entries">entries</dfn>:
+	conceptually a table with independent rows,
+	and rules for the values in the columns
+	(e.g. that values in a column be drawn from a defined set).
+	A technical report <em class="rfc2119">may</em> contain
+	one or more such [=registries=],
+	either alone or in addition to other normative content.
+	For a such a table of [=entries=]
+	(which need not be formatted as a table)
+	to be considered a [=registry=] for the purposes of this Process,
+	the document including table must:
+
+	<ul>
+		<li>
+			Clearly label it as a [=registry=], including a link to this section of the Process.
+
+		<li>
+			Define the fields of the registry and their consraints.
+
+		<li>
+			Define the scope and purpose of the registry.
+
+		<li>
+			Define the method and critera by which changes are proposed, approved, and incorporated.
+			(For example, a registry could require
+			that [=entries=] can be added but not changed,
+			or that they must be approved by a member of a particular Working Group.)
+	</ul>
+
+	The above definitions--
+	that define what the registry is and how it is maintained--
+	are called the <dfn>rules of the registry</dfn>.
+
+	The contents of a [=registry=] are not subject to
+	the licensing commitments of the W3C Patent Policy,
+	and changes to them are handled similarly to [=editorial changes=],
+	see e.g. <a href="#revised-rec-registry">Revising a Recommendation: Registry Changes</a>.
+	However, the [=rules of the registry=]
+	are subject to the same requirements as
+	the normative content of
+	any other technical report on the Recommendation Track.
+
+	The [=Team=] <em class="rfc2119">must</em> make available
+	a means for interested parties to be notified of any updates to a [=registry=].
 
 <h3 id="working-draft">
 Working Draft</h3>
@@ -3077,7 +3132,8 @@ Candidate Recommendation</h3>
 Revising a Candidate Recommendation</h4>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
-	other than to remove features explicitly identified as [=at risk=],
+	other than [=registry changes=]
+	or the removal of features explicitly identified as [=at risk=],
 	the [=Working Group=] <em class="rfc2119">must</em> obtain
 	the [=Director=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
 	[=Substantive changes=] can require a new Exclusion Opportunity
@@ -3140,6 +3196,9 @@ Proposed Recommendation</h3>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
 			except where an exception is approved by the [=Director=],
+			and for [=registry entries=]:
+			unless the [=rules of the registry=] specifically require it,
+			implementation of each [=registry entry=] is not necessarily expected,
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
@@ -3563,6 +3622,23 @@ Revising a Recommendation: Editorial Changes</h5>
 	or W3C <em class="rfc2119">may</em> publish a [=Recommendation=]
 	to make this class of change without passing through earlier maturity levels.
 	Such publications are called [=Edited Recommendations=].
+
+<h5 id="revised-rec-registry">
+Revising a Recommendation: Regsitry Changes</h5>
+
+	[=Registry changes=]
+	have no review or approval requirements
+	other than those imposed by the [=rules of the registry=] itself.
+	A [=Working Group=]
+	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
+	or W3C <em class="rfc2119">may</em> publish a [=Recommendation=]
+	to make this class of change without passing through earlier maturity levels.
+	Such publications are called [=Recommendations=].
+	(See <a href="#correction-classes">class 5 changes</a>.)
+
+	Publication of a [=Recommendation=] updated with only [=registry changes=]
+	since the previous publication
+	<em class="rfc2119">may</em> be automated.
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
