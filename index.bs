@@ -2575,7 +2575,7 @@ Maturity Levels</h4>
 
 				Note: When a Technical Report which had previously been published as a [=Recommendation=]
 				is again published as a [=Recommendation=]
-				(after the following the necessary steps to <a href="#revised-rec">revise</a> it),
+				(after following the necessary steps to <a href="#revised-rec">revise</a> it),
 				it is implied that the previously published [=Recommendation=] has been superseded by the newer one:
 				it is the same document, updated.
 				Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
