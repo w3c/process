@@ -780,12 +780,12 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of avaiable seats are the same:
 	the 3 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year.
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.
 
 	In the case of regularly scheduled elections of the [=AB=],
 	the minimum and maximum number of avaiable seats differ:
 	The maximum number is the 5 or 6 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year;
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats;
 	the minimum number is such that when added to the occupied seats from the prior year,
 	the minimum size of the AB (9) is reached.
 
@@ -5019,6 +5019,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Add some sub-section headings to improve readability and cross-section linking
+
+		<li>
+			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
