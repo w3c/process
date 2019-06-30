@@ -789,12 +789,12 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of avaiable seats are the same:
 	the 3 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year.
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.
 
 	In the case of regularly scheduled elections of the [=AB=],
 	the minimum and maximum number of avaiable seats differ:
 	The maximum number is the 5 or 6 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year;
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats;
 	the minimum number is such that when added to the occupied seats from the prior year,
 	the minimum size of the AB (9) is reached.
 
@@ -3751,13 +3751,16 @@ Errata Management</h4>
 	by the process for Revising a Recommendation described in the next section.
 
 <h4 id="revised-rec">
-Revising a Recommendation</h4>
+Revising a Recommendation: Markup Changes</h4>
 
 	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=],
 	or if there is no [=Working Group=] chartered to maintain a [=Recommendation=]
 	W3C <em class="rfc2119">may</em> republish the [=Recommendation=],
 	to make corrections that do not result
 	in any changes to the text of the specification.
+
+<h4 id="revised-rec-editorial">
+Revising a Recommendation: Editorial Changes</h4>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the proposed changes.
 	A [=Working Group=],
@@ -3766,6 +3769,9 @@ Revising a Recommendation</h4>
 	or W3C <em class="rfc2119">may</em> publish a [=Recommendation=]
 	to make this class of change without passing through earlier maturity levels.
 	Such publications are called [=Edited Recommendations=].
+
+<h4 id="revised-rec-substantive">
+Revising a Recommendation: Substantive Changes</h4>
 
 	To make corrections to a Recommendation that produce [=substantive changes=]
 	but do not add new features,
@@ -3792,6 +3798,9 @@ Revising a Recommendation</h4>
 		<li>
 			<em class="rfc2119">should</em> address all recorded errata.
 	</ul>
+
+<h4 id="revised-rec-features">
+Revising a Recommendation: New Features</h4>
 
 	To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
@@ -4218,7 +4227,7 @@ Appeal by Advisory Committee Representatives</h3>
 	“Do you approve of the Decision?”
 	together with links to the decision and the appeal support.
 
-	The ballot <em class="rfc2119">must</em> allows for three possible responses:
+	The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
 	“Reject”,
 	and “Abstain”,
@@ -4882,6 +4891,12 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Remove a spurious link that made it look like AC-Reps were involved when participants in the TAG or AB resign.
+
+		<li>
+			Add some sub-section headings to improve readability and cross-section linking
+
+		<li>
+			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

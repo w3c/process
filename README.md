@@ -1,10 +1,14 @@
 # W3C Process Document repository
 
-[master](https://github.com/w3c/w3process/tree/master) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=master)](https://travis-ci.org/w3c/w3process)
+[master](https://github.com/w3c/w3process/tree/master) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process)
 
-[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=evergreen)](https://travis-ci.org/w3c/w3process)
+[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=evergreen)](https://travis-ci.com/w3c/w3process)
 
-[director-free](https://github.com/w3c/w3process/tree/director-free) branch: [![Build Status](https://travis-ci.org/w3c/w3process.svg?branch=director-free)](https://travis-ci.org/w3c/w3process)
+[everblue](https://github.com/w3c/w3process/tree/everblue) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=everblue)](https://travis-ci.com/w3c/w3process)
+
+[director-free](https://github.com/w3c/w3process/tree/director-free) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=director-free)](https://travis-ci.com/w3c/w3process)
+
+[registries](https://github.com/w3c/w3process/tree/registries) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries)](https://travis-ci.com/w3c/w3process)
 
 This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
 
