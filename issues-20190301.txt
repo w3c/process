@@ -56,7 +56,14 @@ Issue 6.
 Summary:  Clarification on vacant seats and elections
 From:     David Baron
 Comment:  https://github.com/w3c/w3process/issues/238
-Open
+Comment:  https://github.com/w3c/w3process/issues/238#issuecomment-485549398
+Comment:  https://github.com/w3c/w3process/issues/238#issuecomment-494497999
+Comment:  https://github.com/w3c/w3process/issues/238#issuecomment-494593856
+Comment:  https://github.com/w3c/w3process/issues/238#issuecomment-494701431
+Comment:  https://github.com/w3c/w3process/issues/238#issuecomment-494706103
+Response: https://github.com/w3c/w3process/issues/286
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/238#issuecomment-506748061
 ----
 Issue 7.
 Summary:  Allow AB to choose its own chair

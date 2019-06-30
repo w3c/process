@@ -4691,6 +4691,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Add some sub-section headings to improve readability and cross-section linking
+
+		<li>
+			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
