@@ -6,9 +6,9 @@
   <link href="https://www.w3.org/StyleSheets/TR/2016/base.css" rel="stylesheet" type="text/css">
   <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
-  <meta content="Bikeshed version 872cce6d3026423d677f3bd5837f1a1a46299a04" name="generator">
+  <meta content="Bikeshed version 71c22daa054b015c8313f61a987e93734c4ae794" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="f6707d2232227b5dfa1933f41eadce7037bf89c4" name="document-revision">
+  <meta content="8be33af3ece708ab21d0cf98cefab7a178cac712" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -238,7 +238,7 @@ pre .property::before, pre .property::after {
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-06-18">18 June 2019</time> </span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-06-30">30 June 2019</time> </span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -284,7 +284,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 18 June 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
+	This is the 30 June 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 
 which is the currently operative W3C Process.</p>
@@ -478,7 +478,10 @@ made to explore the possibility of a W3C without a Director. </div>
        <a href="#rec-modify"><span class="secno">6.7</span> <span class="content"> Modifying a W3C Recommendation</span></a>
        <ol class="toc">
         <li><a href="#errata"><span class="secno">6.7.1</span> <span class="content"> Errata Management</span></a>
-        <li><a href="#revised-rec"><span class="secno">6.7.2</span> <span class="content"> Revising a Recommendation</span></a>
+        <li><a href="#revised-rec"><span class="secno">6.7.2</span> <span class="content"> Revising a Recommendation: Markup Changes</span></a>
+        <li><a href="#revised-rec-editorial"><span class="secno">6.7.3</span> <span class="content"> Revising a Recommendation: Editorial Changes</span></a>
+        <li><a href="#revised-rec-substantive"><span class="secno">6.7.4</span> <span class="content"> Revising a Recommendation: Substantive Changes</span></a>
+        <li><a href="#revised-rec-features"><span class="secno">6.7.5</span> <span class="content"> Revising a Recommendation: New Features</span></a>
        </ol>
       <li><a href="#Note"><span class="secno">6.8</span> <span class="content"> Publishing a Working Group or Interest Group Note</span></a>
       <li><a href="#rec-rescind"><span class="secno">6.9</span> <span class="content"> Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</span></a>
@@ -975,11 +978,11 @@ made to explore the possibility of a W3C without a Director. </div>
    <p>In the case of regularly scheduled elections of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①④">TAG</a>,
 	the minimum and maximum number of avaiable seats are the same:
 	the 3 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year.</p>
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.</p>
    <p>In the case of regularly scheduled elections of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①③">AB</a>,
 	the minimum and maximum number of avaiable seats differ:
 	The maximum number is the 5 or 6 seats of the terms expiring that year,
-	plus any seat that is currently vacant from the prior year;
+	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats;
 	the minimum number is such that when added to the occupied seats from the prior year,
 	the minimum size of the AB (9) is reached.</p>
    <p>Each Member (or group of <a data-link-type="dfn" href="#related-member" id="ref-for-related-member①">related Members</a>) <em class="rfc2119">may</em> nominate one individual.
@@ -3033,15 +3036,17 @@ made to explore the possibility of a W3C without a Director. </div>
    <p>An <a data-link-type="dfn" href="#erratum" id="ref-for-erratum">erratum</a> is resolved by an informative,
 	“proposed” correction generated by the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤②">Working Group</a>.
 	A correction becomes part of the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⓪">Recommendation</a> by the process for Revising a Recommendation described in the next section.</p>
-   <h4 class="heading settled" data-level="6.7.2" id="revised-rec"><span class="secno">6.7.2. </span><span class="content"> Revising a Recommendation</span><a class="self-link" href="#revised-rec"></a></h4>
+   <h4 class="heading settled" data-level="6.7.2" id="revised-rec"><span class="secno">6.7.2. </span><span class="content"> Revising a Recommendation: Markup Changes</span><a class="self-link" href="#revised-rec"></a></h4>
    <p>A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤③">Working group</a> <em class="rfc2119">may</em> request republication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④①">Recommendation</a>,
 	or if there is no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤④">Working Group</a> chartered to maintain a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④②">Recommendation</a> W3C <em class="rfc2119">may</em> republish the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④③">Recommendation</a>,
 	to make corrections that do not result
 	in any changes to the text of the specification.</p>
+   <h4 class="heading settled" data-level="6.7.3" id="revised-rec-editorial"><span class="secno">6.7.3. </span><span class="content"> Revising a Recommendation: Editorial Changes</span><a class="self-link" href="#revised-rec-editorial"></a></h4>
    <p><a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change②">Editorial changes</a> to a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④④">Recommendation</a> require no technical review of the proposed changes.
 	A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑤">Working Group</a>,
 	provided there are no votes against the resolution to publish <em class="rfc2119">may</em> request publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑤">Recommendation</a> or W3C <em class="rfc2119">may</em> publish a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑥">Recommendation</a> to make this class of change without passing through earlier maturity levels.
 	Such publications are called <a data-link-type="dfn" href="#edited-recommendation" id="ref-for-edited-recommendation③">Edited Recommendations</a>.</p>
+   <h4 class="heading settled" data-level="6.7.4" id="revised-rec-substantive"><span class="secno">6.7.4. </span><span class="content"> Revising a Recommendation: Substantive Changes</span><a class="self-link" href="#revised-rec-substantive"></a></h4>
    <p>To make corrections to a Recommendation that produce <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑧">substantive changes</a> but do not add new features,
 	or where there were votes against publishing the corrections directly as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑦">Recommendation</a>,
 	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑥">Working Group</a> <em class="rfc2119">may</em> request <a href="#candidate-rec">publication of a Candidate Recommendation</a>,
@@ -3058,6 +3063,7 @@ made to explore the possibility of a W3C without a Director. </div>
     <li> <em class="rfc2119">must</em> show that the changes to the document have received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review④">wide review</a>, and 
     <li> <em class="rfc2119">should</em> address all recorded errata. 
    </ul>
+   <h4 class="heading settled" data-level="6.7.5" id="revised-rec-features"><span class="secno">6.7.5. </span><span class="content"> Revising a Recommendation: New Features</span><a class="self-link" href="#revised-rec-features"></a></h4>
    <p>To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a> beginning with a new <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd①⓪">First Public Working Draft</a>.</p>
    <h3 class="heading settled" data-level="6.8" id="Note"><span class="secno">6.8. </span><span class="content"> Publishing a Working Group or Interest Group Note</span><a class="self-link" href="#Note"></a></h3>
@@ -3350,7 +3356,7 @@ made to explore the possibility of a W3C without a Director. </div>
 	the Team <em class="rfc2119">must</em> organize an appeal vote
 	asking the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑨">Advisory Committee</a> “Do you approve of the Decision?”
 	together with links to the decision and the appeal support.</p>
-   <p>The ballot <em class="rfc2119">must</em> allows for three possible responses:
+   <p>The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
 	“Reject”,
 	and “Abstain”,
@@ -3826,6 +3832,8 @@ made to explore the possibility of a W3C without a Director. </div>
     <li> Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures. 
     <li> Delete references to non existing parts of the Patent policy, previously invoked in the TAG participation section. 
     <li> Remove a spurious link that made it look like AC-Reps were involved when participants in the TAG or AB resign. 
+    <li> Add some sub-section headings to improve readability and cross-section linking 
+    <li> Clarify the rule on vacant seats in <a href="#AB-TAG-elections">§ 2.5.2 Advisory Board and Technical Architecture Group Elections</a> 
    </ul>
    <h3 class="no-num heading settled" id="changes-2018"><span class="content"> Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</span><a class="self-link" href="#changes-2018"></a></h3>
    <p>This document is based on the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>.
@@ -3895,7 +3903,7 @@ made to explore the possibility of a W3C without a Director. </div>
     <dt> <a href="#WGCharter">§ 5.2.6 Working Group and Interest Group Charters</a> 
     <dd> Charters <em class="rfc2119">must</em> include documentation of any voting procedures
 			additional to those defined in <a href="#Votes">§ 3.4 Votes</a>. 
-    <dt> <a href="#revised-rec">§ 6.7.2 Revising a Recommendation</a> 
+    <dt> <a href="#revised-rec">§ 6.7.2 Revising a Recommendation: Markup Changes</a> 
     <dd> W3C can produce an <a href="#rec-amended" id="ref-for-rec-amended⑨">Amended Recommendation</a> to update a Recommendation,
 			without adding new features,
 			similar to the way a Working Group produces an Edited Recommendation. 
@@ -4337,8 +4345,8 @@ Revising a Candidate Recommendation</a> <a href="#ref-for-team⑤⑨">(2)</a>
 Proposed Recommendation</a> <a href="#ref-for-team⑥①">(2)</a>
     <li><a href="#ref-for-team⑥②">6.6. 
 W3C Recommendation</a> <a href="#ref-for-team⑥③">(2)</a>
-    <li><a href="#ref-for-team⑥④">6.7.2. 
-Revising a Recommendation</a>
+    <li><a href="#ref-for-team⑥④">6.7.4. 
+Revising a Recommendation: Substantive Changes</a>
     <li><a href="#ref-for-team⑥⑤">6.9. 
 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-team⑥⑥">(2)</a> <a href="#ref-for-team⑥⑦">(3)</a> <a href="#ref-for-team⑥⑧">(4)</a>
     <li><a href="#ref-for-team⑥⑨">7. 
@@ -4817,7 +4825,11 @@ Proposed Recommendation</a>
     <li><a href="#ref-for-GroupsWG④⑧">6.7.1. 
 Errata Management</a> <a href="#ref-for-GroupsWG④⑨">(2)</a> <a href="#ref-for-GroupsWG⑤⓪">(3)</a> <a href="#ref-for-GroupsWG⑤①">(4)</a> <a href="#ref-for-GroupsWG⑤②">(5)</a>
     <li><a href="#ref-for-GroupsWG⑤③">6.7.2. 
-Revising a Recommendation</a> <a href="#ref-for-GroupsWG⑤④">(2)</a> <a href="#ref-for-GroupsWG⑤⑤">(3)</a> <a href="#ref-for-GroupsWG⑤⑥">(4)</a> <a href="#ref-for-GroupsWG⑤⑦">(5)</a> <a href="#ref-for-GroupsWG⑤⑧">(6)</a> <a href="#ref-for-GroupsWG⑤⑨">(7)</a>
+Revising a Recommendation: Markup Changes</a> <a href="#ref-for-GroupsWG⑤④">(2)</a>
+    <li><a href="#ref-for-GroupsWG⑤⑤">6.7.3. 
+Revising a Recommendation: Editorial Changes</a>
+    <li><a href="#ref-for-GroupsWG⑤⑥">6.7.4. 
+Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-GroupsWG⑤⑦">(2)</a> <a href="#ref-for-GroupsWG⑤⑧">(3)</a> <a href="#ref-for-GroupsWG⑤⑨">(4)</a>
     <li><a href="#ref-for-GroupsWG⑥⓪">6.8. 
 Publishing a Working Group or Interest Group Note</a> <a href="#ref-for-GroupsWG⑥①">(2)</a> <a href="#ref-for-GroupsWG⑥②">(3)</a>
     <li><a href="#ref-for-GroupsWG⑥③">6.9. 
@@ -5061,7 +5073,11 @@ Modifying a W3C Recommendation</a>
     <li><a href="#ref-for-RecsW3C③⑤">6.7.1. 
 Errata Management</a> <a href="#ref-for-RecsW3C③⑥">(2)</a> <a href="#ref-for-RecsW3C③⑦">(3)</a> <a href="#ref-for-RecsW3C③⑧">(4)</a> <a href="#ref-for-RecsW3C③⑨">(5)</a> <a href="#ref-for-RecsW3C④⓪">(6)</a>
     <li><a href="#ref-for-RecsW3C④①">6.7.2. 
-Revising a Recommendation</a> <a href="#ref-for-RecsW3C④②">(2)</a> <a href="#ref-for-RecsW3C④③">(3)</a> <a href="#ref-for-RecsW3C④④">(4)</a> <a href="#ref-for-RecsW3C④⑤">(5)</a> <a href="#ref-for-RecsW3C④⑥">(6)</a> <a href="#ref-for-RecsW3C④⑦">(7)</a> <a href="#ref-for-RecsW3C④⑧">(8)</a> <a href="#ref-for-RecsW3C④⑨">(9)</a> <a href="#ref-for-RecsW3C⑤⓪">(10)</a>
+Revising a Recommendation: Markup Changes</a> <a href="#ref-for-RecsW3C④②">(2)</a> <a href="#ref-for-RecsW3C④③">(3)</a>
+    <li><a href="#ref-for-RecsW3C④④">6.7.3. 
+Revising a Recommendation: Editorial Changes</a> <a href="#ref-for-RecsW3C④⑤">(2)</a> <a href="#ref-for-RecsW3C④⑥">(3)</a>
+    <li><a href="#ref-for-RecsW3C④⑦">6.7.4. 
+Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-RecsW3C④⑧">(2)</a> <a href="#ref-for-RecsW3C④⑨">(3)</a> <a href="#ref-for-RecsW3C⑤⓪">(4)</a>
     <li><a href="#ref-for-RecsW3C⑤①">6.9. 
 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-RecsW3C⑤②">(2)</a> <a href="#ref-for-RecsW3C⑤③">(3)</a> <a href="#ref-for-RecsW3C⑤④">(4)</a> <a href="#ref-for-RecsW3C⑤⑤">(5)</a> <a href="#ref-for-RecsW3C⑤⑥">(6)</a> <a href="#ref-for-RecsW3C⑤⑦">(7)</a> <a href="#ref-for-RecsW3C⑤⑧">(8)</a> <a href="#ref-for-RecsW3C⑤⑨">(9)</a> <a href="#ref-for-RecsW3C⑥⓪">(10)</a> <a href="#ref-for-RecsW3C⑥①">(11)</a> <a href="#ref-for-RecsW3C⑥②">(12)</a>
     <li><a href="#ref-for-RecsW3C⑥③">10. 
@@ -5077,8 +5093,10 @@ Recommendations and Notes</a>
 Proposed Recommendation</a>
     <li><a href="#ref-for-edited-recommendation②">6.6. 
 W3C Recommendation</a>
-    <li><a href="#ref-for-edited-recommendation③">6.7.2. 
-Revising a Recommendation</a> <a href="#ref-for-edited-recommendation④">(2)</a> <a href="#ref-for-edited-recommendation⑤">(3)</a>
+    <li><a href="#ref-for-edited-recommendation③">6.7.3. 
+Revising a Recommendation: Editorial Changes</a>
+    <li><a href="#ref-for-edited-recommendation④">6.7.4. 
+Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-edited-recommendation⑤">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="rec-amended">
@@ -5092,8 +5110,8 @@ Candidate Recommendation</a> <a href="#ref-for-rec-amended②">(2)</a> <a href="
 Proposed Recommendation</a> <a href="#ref-for-rec-amended⑤">(2)</a>
     <li><a href="#ref-for-rec-amended⑥">6.6. 
 W3C Recommendation</a>
-    <li><a href="#ref-for-rec-amended⑦">6.7.2. 
-Revising a Recommendation</a> <a href="#ref-for-rec-amended⑧">(2)</a>
+    <li><a href="#ref-for-rec-amended⑦">6.7.4. 
+Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-rec-amended⑧">(2)</a>
     <li><a href="#ref-for-rec-amended"> Changes between the 1 March 2017 Process
 and the 1 February 2018 Process:</a>
    </ul>
@@ -5167,8 +5185,8 @@ Candidate Recommendation</a>
 Revising a Candidate Recommendation</a>
     <li><a href="#ref-for-dfn-wide-review③">6.5. 
 Proposed Recommendation</a>
-    <li><a href="#ref-for-dfn-wide-review④">6.7.2. 
-Revising a Recommendation</a>
+    <li><a href="#ref-for-dfn-wide-review④">6.7.4. 
+Revising a Recommendation: Substantive Changes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="adequate-implementation">
@@ -5189,8 +5207,8 @@ Maturity Levels</a>
 Advancement on the Recommendation Track</a>
     <li><a href="#ref-for-editorial-change①">6.3.2. 
 Revising Working Drafts</a>
-    <li><a href="#ref-for-editorial-change②">6.7.2. 
-Revising a Recommendation</a>
+    <li><a href="#ref-for-editorial-change②">6.7.3. 
+Revising a Recommendation: Editorial Changes</a>
     <li><a href="#ref-for-editorial-change③">10.3. 
 Acknowledgment of a Submission Request</a>
    </ul>
@@ -5212,8 +5230,8 @@ Revising a Candidate Recommendation</a> <a href="#ref-for-substantive-change④"
 Proposed Recommendation</a> <a href="#ref-for-substantive-change⑥">(2)</a>
     <li><a href="#ref-for-substantive-change⑦">6.6. 
 W3C Recommendation</a>
-    <li><a href="#ref-for-substantive-change⑧">6.7.2. 
-Revising a Recommendation</a>
+    <li><a href="#ref-for-substantive-change⑧">6.7.4. 
+Revising a Recommendation: Substantive Changes</a>
     <li><a href="#ref-for-substantive-change⑨">7.1.2. 
 After the Review Period</a>
    </ul>
@@ -5229,8 +5247,8 @@ Recommendations and Notes</a>
 Advancement on the Recommendation Track</a> <a href="#ref-for-fpwd⑥">(2)</a>
     <li><a href="#ref-for-fpwd⑦">6.3.1. 
 First Public Working Draft</a> <a href="#ref-for-fpwd⑧">(2)</a> <a href="#ref-for-fpwd⑨">(3)</a>
-    <li><a href="#ref-for-fpwd①⓪">6.7.2. 
-Revising a Recommendation</a>
+    <li><a href="#ref-for-fpwd①⓪">6.7.5. 
+Revising a Recommendation: New Features</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="at-risk">
