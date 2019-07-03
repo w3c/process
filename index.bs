@@ -3183,6 +3183,11 @@ Streamlined Publication Approval for CR Updates</h5
 	approval is automatically granted without formal review
 	when the following criteria are fulfilled:
 
+	Note: The criteria are intentionally stricter than those applied
+	during normal [=Transition Requests=].
+	This is in order to minimize ambiguities and the need for expert judgement,
+	and to make self-evaluation practical.
+
 	<ul>
 		<li>
 			There is a [=Working Group=] decision to publish.
@@ -3222,6 +3227,7 @@ Streamlined Publication Approval for CR Updates</h5
 			or a compromise has been found,
 			or they accepted the Working Group's rationale for rejecting it.
 
+			Note: this is stricter than the general Transition Request criteria.
 	</ul>
 
 	The [=Working Group=] must provide written evidence for these claims,
@@ -3766,6 +3772,11 @@ Streamlined Publication Approval for Recommendations with Substantive Changes</h
 	approval is automatically granted without formal review
 	when the following criteria are fulfilled:
 
+	Note: The criteria are intentionally stricter than those applied
+	during normal [=Transition Requests=].
+	This is in order to minimize ambiguities and the need for expert judgement,
+	and to make self-evaluation practical.
+
 	<ul>
 		<li>
 			There is a [=Working Group=] decision to publish.
@@ -3787,8 +3798,7 @@ Streamlined Publication Approval for Recommendations with Substantive Changes</h
 			as evidenced by passing tests of a test suite
 			providing extensive coverage of the changes.
 
-			Note: this is more intentionally more strict
-			than the general criteria for [=adequate implementation experience=].
+			Note: this is stricter than the general criteria for [=adequate implementation experience=].
 
 		<li>
 			The [=Working Group=] <em class=rfc2119>must</em> show
@@ -3818,6 +3828,8 @@ Streamlined Publication Approval for Recommendations with Substantive Changes</h
 			their proposal has been accepted,
 			or a compromise has been found,
 			or they accepted the Working Group's rationale for rejecting it.
+
+			Note: this is stricter than the general Transition Request criteria.
 	</ul>
 
 	The [=Working Group=] must provide written evidence for these claims,
@@ -3912,6 +3924,11 @@ Streamlined Publication Approval for Recommendations with New Features</h5>
 	approval is automatically granted without formal review
 	when the following criteria are fulfilled:
 
+	Note: The criteria are intentionally stricter than those applied
+	during normal [=Transition Requests=].
+	This is in order to minimize ambiguities and the need for expert judgement,
+	and to make self-evaluation practical.
+
 	<ul>
 		<li>
 			There is a [=Working Group=] decision to publish.
@@ -3934,8 +3951,7 @@ Streamlined Publication Approval for Recommendations with New Features</h5>
 			as evidenced by passing tests of a test suite
 			providing extensive coverage of the changes.
 
-			Note: this is more intentionally more strict
-			than the general criteria for [=adequate implementation experience=].
+			Note: this is stricter than the general criteria for [=adequate implementation experience=].
 
 		<li>
 			The [=Working Group=] <em class=rfc2119>must</em> show
@@ -3965,6 +3981,8 @@ Streamlined Publication Approval for Recommendations with New Features</h5>
 			their proposal has been accepted,
 			or a compromise has been found,
 			or they accepted the Working Group's rationale for rejecting it.
+
+			Note: this is stricter than the general Transition Request criteria.
 	</ul>
 
 	The [=Working Group=] must provide written evidence for these claims,
