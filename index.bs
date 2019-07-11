@@ -4704,6 +4704,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
+
+		<li>
+			Eliminate the use of the undefined “minor changes” term
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
