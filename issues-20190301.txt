@@ -258,7 +258,9 @@ Issue 32.
 Summary:  Clarify terminology: minor changes vs editorial changes
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/243
-Open
+Response: https://github.com/w3c/w3process/pull/269
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/269#pullrequestreview-260554355
 ----
 Issue 33.
 Summary:  Undefined term: member-visible
