@@ -1382,7 +1382,7 @@ Votes</h3>
 	Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.
 
 <h3 id="WGAppeals">
-Appeal of a Chair's Decision or of a Group Decision</h3>
+Appeal of [=Chair Decisions=] and [=Group Decisions=]</h3>
 
 	Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision
