@@ -1241,6 +1241,19 @@ Recording and Reporting Formal Objections</h4>
 	Formal Objections receive Director consideration.
 	The word “objection” used alone has ordinary English connotations.
 
+	[=Formal Objections=] <em class=rfc2119>may</em> be registered against any
+	[=Chair Decision=],
+	[=Group decision=],
+	[=W3C Decision=],
+	or decision of the [=Director=], [=CEO=], or [=Team=]
+	within the scope of this Process,
+	except those for which an alternative specific means of appeal
+	(such as [=Advisory Committee Appeal=] or <a href="#SubmissionNo">Submission Appeal</a>)
+	is indicated.
+	However, individuals <em rfc=2119>should</em> first seek to resolve their issues
+	through dialogue,
+	and attempt to find <a lt=consensus>consensual</a> solutions.
+
 	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
