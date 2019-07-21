@@ -3729,12 +3729,12 @@ Revising a Recommendation: Substantive Changes</h4>
 	including review by the community to ensure
 	the technical and editorial soundness of the proposed correction.
 	To do this, the [=Working Group=] requests
-	a <dfn>Call for Review of Proposed Corrections</dfn>.
+	a <dfn>Last Call for Review of Proposed Corrections</dfn>.
 
-	The <a>Call for Review of Proposed Corrections</a>
+	The <a>Last Call for Review of Proposed Corrections</a>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
 	and the combination of the existing [=Recommendation=]
-	with the [=proposed corrections=] included in the [=Call for Review of Proposed Corrections=]
+	with the [=proposed corrections=] included in the [=Last Call for Review of Proposed Corrections=]
 	is considered a “Last Call Working Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	The announcement <em class="rfc2119">must</em>:
@@ -3745,18 +3745,18 @@ Revising a Recommendation: Substantive Changes</h4>
 		<li>Solicit review and, if it does not already have it, implementation experience.
 	</ul>
 
-	At the end of the <a>Call for Review of Proposed Corrections</a>,
+	At the end of the <a>Last Call for Review of Proposed Corrections</a>,
 	the [=Working Group=] must [=formally address=]
 	all comments on the changes under review.
 	For each such change, it may either
-	amend it in response to review feedback and issue another <a>Call for Review of Proposed Corrections</a> on the revised change,
+	amend it in response to review feedback and issue another <a>Last Call for Review of Proposed Corrections</a> on the revised change,
 	or, if it can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	incorporate it into the main text
 	and <a lt="transition request">request</a> <a href="#rec-publication">publication as a Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
-	multiple proposed corrections into a single <a>Call for Review of Proposed Corrections</a>.
+	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
 
 	Note: Working Groups maintaining large or complex Recommendations
 	that still require frequent correction
@@ -3793,7 +3793,7 @@ Streamlined Publication Approval for Recommendations with Substantive Changes</h
 
 		<li>
 			Changes to the document are limited to
-			[=proposed corrections=] which were included in a [=Call for Review of Proposed Corrections=],
+			[=proposed corrections=] which were included in a [=Last Call for Review of Proposed Corrections=],
 			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
 
 		<li>
@@ -3885,12 +3885,12 @@ Revising a Recommendation: New Features</h4>
 	including review by the community to ensure
 	the technical and editorial soundness of the proposed correction.
 	To do this, the [=Working Group=] requests
-	a <dfn>Call for Review of Proposed Additions</dfn>.
+	a <dfn>Last Call for Review of Proposed Additions</dfn>.
 
-	The <a>Call for Review of Proposed Additions</a>
+	The <a>Last Call for Review of Proposed Additions</a>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
 	and the combination of the existing [=Living Recommendation=]
-	with the [=proposed additions=] included in the [=Call for Review of Proposed Additions=]
+	with the [=proposed additions=] included in the [=Last Call for Review of Proposed Additions=]
 	is considered a “Last Call Working Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	The announcement <em class="rfc2119">must</em>:
@@ -3901,23 +3901,23 @@ Revising a Recommendation: New Features</h4>
 		<li>Solicit review and, if it does not already have it, implementation experience.
 	</ul>
 
-	At the end of the <a>Call for Review of Proposed Additions</a>,
+	At the end of the <a>Last Call for Review of Proposed Additions</a>,
 	the [=Working Group=] must [=formally address=]
 	all comments on the changes under review.
 	For each such change, it may either
-	amend it in response to review feedback and issue another <a>Call for Review of Proposed Additions</a> on the revised change,
+	amend it in response to review feedback and issue another <a>Last Call for Review of Proposed Additions</a> on the revised change,
 	or, if it can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	incorporate it into the main text
 	and <a lt="transition request">request</a> <a href="#rec-publication">publication as a (Living) Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
-	multiple proposed additions into a single <a>Call for Review of Proposed Additions</a>.
+	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
 
-	A <a>Call for Review of Proposed Additions</a> <em class=rfc2119>may</em> be combined with
-	a <a>Call for Review of Proposed Corrections</a>.
+	A <a>Last Call for Review of Proposed Additions</a> <em class=rfc2119>may</em> be combined with
+	a <a>Last Call for Review of Proposed Corrections</a>.
 	It is then called
-	a <dfn noexport>Call for Review of Proposed Corrections and Additions</dfn>,
+	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
 	and fullfils the requirements of both.
 
 	Note: Working Groups maintaining Recommendations
@@ -3945,8 +3945,8 @@ Streamlined Publication Approval for Recommendations with New Features</h5>
 
 		<li>
 			Changes to the document are limited to
-			[=proposed corrections=] which were included in a [=Call for Review of Proposed Corrections=],
-			[=proposed additions=] which were included in a [=Call for Review of Proposed Additions=],
+			[=proposed corrections=] which were included in a [=Last Call for Review of Proposed Corrections=],
+			[=proposed additions=] which were included in a [=Last Call for Review of Proposed Additions=],
 			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
 
 		<li>
