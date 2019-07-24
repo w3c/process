@@ -1397,7 +1397,7 @@ Appeal of [=Chair Decisions=] and [=Group Decisions=]</h3>
 	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
 	on the basis of having assessed the [=consensus=] of the group
 	or following a vote (see [[#Votes]])
-	are called <dfn export>Group Decision</dfn>.
+	are called <dfn export>Group Decisions</dfn>.
 
 	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
 	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
