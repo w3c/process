@@ -1378,18 +1378,29 @@ Votes</h3>
 	Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.
 
 <h3 id="WGAppeals">
-Appeal of a Chair's Decision</h3>
+Appeal of [=Chair Decisions=] and [=Group Decisions=]</h3>
 
 	Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision
 	<em class="rfc2119">should</em> register with the Chair any [=Formal Objections=]
 	(e.g., to a decision made as the result of a <a href="#Votes">vote</a>).
 
-	When group participants believe that their concerns are not being duly considered by the group,
+	As detailed in other parts of this document,
+	the [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
+	to make certain decisions based on their own judgement.
+	Such decisions are called <dfn export>Chair Decisions</dfn>.
+	In contrast,
+	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
+	on the basis of having assessed the [=consensus=] of the group
+	or following a vote (see [[#Votes]])
+	are called <dfn export>Group Decisions</dfn>.
+
+	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
 	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
 	(for representatives of a Member organization, via their Advisory Committee representative)
 	to confirm or deny the decision.
-	This is a <dfn id="wg-decision-appeal">Group Decision Appeal</dfn>.
+	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
+	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
 	The participants <em class="rfc2119">should</em> also make their requests known
 	to the <a href="#TeamContact">Team Contact</a>.
 	The Team Contact <em class="rfc2119">must</em> inform the Director
