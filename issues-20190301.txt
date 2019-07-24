@@ -50,7 +50,9 @@ Issue 5.
 Summary:  Does the process assume all WDs are on the Rec. Track?
 From:     Nigel Megitt
 Comment:  https://github.com/w3c/w3process/issues/236
-Open
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-494898411
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/236#issuecomment-514654606
 ----
 Issue 6.
 Summary:  Clarification on vacant seats and elections
@@ -107,7 +109,9 @@ Issue 11.
 Summary:  Review the role of the Director in the process document
 From:     David Singer
 Comment:  https://github.com/w3c/w3process/issues/173
-Open
+Closed:   Duplicate
+Resolved: https://github.com/w3c/w3process/issues/173#issuecomment-514367457
+Verified: https://github.com/w3c/w3process/issues/173#issuecomment-514367457
 ----
 Issue 12.
 Summary:  We need a process for handling registries, APIs and other enumerations
@@ -161,7 +165,8 @@ Issue 20.
 Summary:  Update Graphics
 From:     Charles McCathie Nevile
 Comment:  https://github.com/w3c/w3process/issues/91
-Open
+Closed:   Retracted
+Verified: https://github.com/w3c/w3process/issues/91#issuecomment-442686352
 ----
 Issue 21.
 Summary:  Process supporting "Living Standards"?
@@ -174,7 +179,7 @@ Summary:  Should there be good standing / supermajority criteria in authoritativ
 From:     Michael Champion
 Comment:  https://github.com/w3c/w3process/issues/76
 Open
----
+----
 Issue 23.
 Summary:  Allow AC Reviews to be made public
 From:     Coralie Mercier
@@ -308,7 +313,9 @@ Issue 38.
 Summary:  Define "Working Group Decision"
 From:     Charles McCathie Nevile
 Comment:  https://github.com/w3c/w3process/issues/249
-Open
+Response: https://github.com/w3c/w3process/pull/270
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/270#issuecomment-514653370
 ----
 Issue 39.
 Summary:  Remove unneeded sentence fragment (editorial)
