@@ -4718,6 +4718,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Eliminate the use of the undefined “minor changes” term
+
+		<li>
+			Define and differentiate between Group Decisions and Chair Decisions.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
