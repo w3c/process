@@ -3797,8 +3797,6 @@ Evergreen Recommendation</h3>
 			implementation applied to the feature:
 
 			<ul>
-			  <li>
-				  <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
 					(giving some indication that the feature has received sufficient review).
@@ -3808,6 +3806,8 @@ Evergreen Recommendation</h3>
 					Review Draft Licensing Obligations</a>.
         <li>
 				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
+			  <li>
+				  <em class="rfc2119">should</em> provide a designation indicating the level of implementation experience
 			</ul>
 		<li>
       <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document
@@ -3846,7 +3846,8 @@ Evergreen Recommendation Snapshot</h3>
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
 	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
 	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
-	Review Draft Licensing Obligations</a>.
+	Review Draft Licensing Obligations</a>. For this purpose, features without sufficient review (less than 180 days) or adequate implementation experience
+	are considered to be informative.
 
   To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
 	Recommendation</a> a Working Group:
@@ -3854,6 +3855,8 @@ Evergreen Recommendation Snapshot</h3>
   <ul>
 	  <li>
 		  must record the group's decision to request advancement.
+    <li>
+	    <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
   </ul>
 
 
