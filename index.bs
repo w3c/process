@@ -2026,7 +2026,7 @@ Working Group and Interest Group Charters</h4>
 
 		<li>
 			For each technical report being developed on the Evergreen track, the workmode to achieve
-			<a href="#procedural-consensus">procedural consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
+			<a href="#consensus">consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
 			<em class="rfc2119">may</em> delegate it to the Working Group.
 
 		<li>
@@ -3791,16 +3791,6 @@ Evergreen Recommendation</h3>
 	<ul>
     <li>
 		  <em class="rfc2119">must</em> document the consensus of the Working Group,
-
-      Note: Similar to in the W3C Recommendation track, the Chair has a responsibility to ensure the Group operates under consensus. In
-			the Evergreen Recommendation track, it will likely be less likely to issue calls for consensus or assess consensus as a result
-			of a poll of participants; however, the Chair has an important oversight role to ensure that the group's discussions proceed
-			according to the <span id="procedural-consensus">procedural approach chartered for the group</a>, are in accordance with [[CEPC]], and has the responsibility to be
-			an impartial facilitator to decision-making when necessary. Finally, of course, the Chair is the arbiter to whom participants
-			appeal when they disagree with the way that the editors are documenting the evolving consensus of the group. The chair can
-			facilitate discussion between the participant and editor, issue informative calls for consensus, or engage in other
-			discussions to see whether consensus can be reached or whether the editor can adjust their position. Ultimately, the Chair
-			has the authority to overrule the Editor and remove them if necessary.
 
     <li>
 		  <em class="rfc2119">must</em> provide, except for [=Registries=], feature-by-feature tagging to illustrate the level of review and
