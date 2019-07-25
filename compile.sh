@@ -19,14 +19,16 @@ done
 # The out directory should contain everything needed to produce the
 # HTML version of the spec.  Copy things there if the directory exists.
 
-if [ -d out ]; then
+OUT=${1:-out}
+
+if [ -d $OUT ]; then
     if [ -d snapshots ]; then
-        cp -r snapshots out
+        cp -r snapshots $OUT
     fi
     for i in issues-*.html; do
         if [ -f $i ]; then
-            cp -r $i out
+            cp -r $i $OUT
         fi
     done
-    cp index.html out
+    cp index.html $OUT
 fi
