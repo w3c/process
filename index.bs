@@ -3748,6 +3748,8 @@ Revising a Recommendation: Substantive Changes</h4>
 	with the [=proposed corrections=] included in the [=Last Call for Review of Proposed Corrections=]
 	is considered a “Last Call Working Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
+	The review initiated by the [=Last Call for Review of Proposed Additions=]
+	is an [=Advisory Committee Review=].
 	The announcement <em class="rfc2119">must</em>:
 	<ul>
 		<li>Identify the proposed corrections under review.
@@ -3757,14 +3759,20 @@ Revising a Recommendation: Substantive Changes</h4>
 	</ul>
 
 	At the end of the <a>Last Call for Review of Proposed Corrections</a>,
-	the [=Working Group=] must [=formally address=]
-	all comments on the changes under review.
-	For each such change, it may either
-	amend it in response to review feedback and issue another <a>Last Call for Review of Proposed Corrections</a> on the revised change,
-	or, if it can show <a>adequate implementation experience</a>
+	the [=W3C Decision=] may either be
+	to reject the [=Proposed Correction=],
+	or to clear the [=Proposed Correction=] for advancement as is,
+	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
+	comments made on the changes under review.
+	If the [=Working Group=] needs to amend a [=Proposed Correction=]
+	in response to review feedback
+	it must issue another <a>Last Call for Review of Proposed Correction</a> on the revised change
+	before it can be incorporated into the main text.
+	Once all comments have been [=formally addressed=],
+	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
-	incorporate it into the main text
-	and <a lt="transition request">request</a> <a href="#rec-publication">publication as a Recommendation</a>.
+	it may incorporate the [=Proposed Correction=] into the main text
+	by <a lt="transition request">requesting</a> <a href="#rec-publication">publication as a Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
@@ -3905,6 +3913,8 @@ Revising a Recommendation: New Features</h4>
 	with the [=proposed additions=] included in the [=Last Call for Review of Proposed Additions=]
 	is considered a “Last Call Working Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
+	The review initiated by the [=Last Call for Review of Proposed Additions=]
+	is an [=Advisory Committee Review=].
 	The announcement <em class="rfc2119">must</em>:
 	<ul>
 		<li>Identify the proposed additions under review.
@@ -3914,14 +3924,20 @@ Revising a Recommendation: New Features</h4>
 	</ul>
 
 	At the end of the <a>Last Call for Review of Proposed Additions</a>,
-	the [=Working Group=] must [=formally address=]
-	all comments on the changes under review.
-	For each such change, it may either
-	amend it in response to review feedback and issue another <a>Last Call for Review of Proposed Additions</a> on the revised change,
-	or, if it can show <a>adequate implementation experience</a>
+	the [=W3C Decision=] may either be
+	to reject the [=Proposed Addition=],
+	or to clear the [=Proposed Addition=] for advancement as is,
+	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
+	comments made on the changes under review.
+	If the [=Working Group=] needs to amend a [=Proposed Addition=]
+	in response to review feedback
+	it must issue another <a>Last Call for Review of Proposed Additions</a> on the revised change
+	before it can be incorporated into the main text.
+	Once all comments have been [=formally addressed=],
+	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
-	incorporate it into the main text
-	and <a lt="transition request">request</a> <a href="#rec-publication">publication as a (Living) Recommendation</a>.
+	it may incorporate the [=Proposed Addition=] into the main text
+	by <a lt="transition request">requesting</a> <a href="#rec-publication">publication as a Living Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
