@@ -3733,13 +3733,13 @@ Revising a Recommendation: Editorial Changes</h4>
 <h4 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h4>
 
-	A [=proposed correction=] is made normative,
-	and is folded into the main text of the [=Recommendation=],
-	when it has satisfied all the same criteria
+	A [=proposed correction=] can be made normative
+	and be folded into the main text of the [=Recommendation=],
+	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
 	the technical and editorial soundness of the proposed correction.
-	To do this, the [=Working Group=] requests
+	To validate this, the [=Working Group=] must request
 	a <dfn>Last Call for Review of Proposed Corrections</dfn>.
 
 	The <a>Last Call for Review of Proposed Corrections</a>
@@ -3878,24 +3878,25 @@ Revising a Recommendation: New Features</h4>
 
 	However,
 	new features can also be added to a [=Living Recommendation=]
-	by writing a <dfn>proposed addition</dfn>.
-	[=Proposed Additions=] are similar to [=errata=],
+	using [=proposed additions=].
+	<dfn>Proposed Additions</dfn> are similar to [=errata=],
 	except that they introduce new features
 	rather than correct errors.
 	Like errata,
-	when annotated inline,
-	[=proposed additions=]--
-	must be marked as such,
-	are treated as <a href="#correction-classes">class 2 changes</a>,
+	[=proposed additions=] are initially non-normative,
+	and when annotated inline,
+	they must be marked as such.
+	Their inclusion in the [=Living Recommendation=]
+	is treated as <a href="#correction-classes">class 2 changes</a>,
 	and are published according to [[#revised-rec-editorial]].
 
-	A [=proposed addition=] is made normative,
-	and is folded into the main text of the [=Living Recommendation=],
-	when it has satisfied all the same criteria
+	A [=proposed addition=] can be made normative
+	and be folded into the main text of the [=Living Recommendation=],
+	once it has satisfied all the same criteria
 	as the rest of the [=Living Recommendation=],
 	including review by the community to ensure
 	the technical and editorial soundness of the proposed correction.
-	To do this, the [=Working Group=] requests
+	To validate this, the [=Working Group=] must request
 	a <dfn>Last Call for Review of Proposed Additions</dfn>.
 
 	The <a>Last Call for Review of Proposed Additions</a>
