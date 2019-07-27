@@ -1921,10 +1921,20 @@ Working Group and Interest Group Charter Development</h4>
 Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 
 	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter.
-	The Director is <em class="rfc2119">not required</em> to solicit Advisory Committee review
-	prior to a charter extension or for minor changes.
-	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
+	of every new or substantively modified Working Group or Interest Group charter,
+	except for either:
+	* a charter extension
+	* substantive changes to a charter that do not affect the way the group functions in any significant way.
+
+	The review period <em class="rfc2119">must</em> be at least 28 days.
+	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+	Such changes must nonetheless be announced
+	to the [=Advisory Committee=]
+	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Intrest Group</a>,
+	and a rationale must be provided.
 
 	The Director's Call for Review of a substantively modified charter
 	<em class="rfc2119">must</em> highlight important changes
@@ -2400,7 +2410,7 @@ Recommendations and Notes</h4>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Team Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -2534,7 +2544,7 @@ Maturity Levels</h4>
 				<dt>
 					An <dfn export>Edited Recommendation</dfn>
 				<dd>
-					A [=Working Group=] may make <a href="#editorial-change">editorial</a> or other minor changes
+					A [=Working Group=] may make <a href="#editorial-change">editorial</a>
 					to a [=Recommendation=],
 					and produce a new version
 					which W3C [=publishes=] as a <a href="#revised-rec">revised edition</a>
@@ -3410,7 +3420,7 @@ Modifying a W3C Recommendation</h3>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Team Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -3949,7 +3959,7 @@ After the Review Period</h4>
 	<ol>
 		<li>
 			The proposal is approved,
-			possibly with minor changes integrated.
+			possibly with [=editorial changes=] integrated.
 
 		<li>
 			The proposal is approved,
