@@ -50,6 +50,14 @@ Status Text:
 	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 	which is the currently operative W3C Process.
 </pre>
+<pre class=biblio>
+{
+	"PATENT-POLICY": {
+		"href": "https://frivoal.github.io/w3c-ipr/w3c-ipr-policy.html",
+		"title": "W3C IPR Policy"
+	}
+}
+</pre>
 
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
@@ -100,7 +108,7 @@ Relation of Process Document to Patent Policy</h2>
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
 	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
-	The Patent Policy <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]]
+	The W3C Patent Policy</a> [[!PATENT-POLICY]]
 	is incorporated by normative reference as a part of the Process Document,
 	and is thus equally binding.
 
@@ -410,7 +418,7 @@ Advisory Committee (AC)</h4>
 	[=Advisory Committee representatives=] <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a>
 	by disclosing information according to the mechanisms described in the New Member Orientation.
 	See also the additional roles of [=Advisory Committee representatives=]
-	described in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
+	described in the W3C Patent Policy [[PATENT-POLICY]].
 
 	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
 
@@ -996,7 +1004,7 @@ Individual Participation Criteria</h3>
 	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
 	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
 	and the participation requirements described in
-	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a>
+	[[PATENT-POLICY#patent-disclosures|section 5.6]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 	The [=Director=] <em class="rfc2119">may</em> suspend or remove for cause
@@ -1428,7 +1436,7 @@ Resignation from a Group</h3>
 	or the Invited Expert
 	will be deemed to have resigned from the relevant group.
 	The team <em class="rfc2119">must</em> record the notification.
-	See <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-resign">section 4.2.</a> of the W3C Patent Policy [[PATENT-POLICY]]
+	See [[PATENT-POLICY#leaving|section 2.10.2]] of the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
@@ -1590,7 +1598,7 @@ Working Groups and Interest Groups</h2>
 			test suites,
 			and reviews of the deliverables of other groups).
 			There are additional participation requirements
-			described in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
+			described in the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
 			<a href="#GroupsIG">Interest Groups</a>.
@@ -1683,7 +1691,7 @@ Working Group and Interest Group Participation Requirements</h4>
 	a Working or Interest Group participant
 	at any time during the group's existence.
 	See also relevant requirements in
-	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-join">section 4.3</a>
+	[[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
 	of the W3C Patent Policy [[PATENT-POLICY]].
 
 	On an exceptional basis,
@@ -1712,9 +1720,9 @@ Working Group and Interest Group Participation Requirements</h4>
 	(a core group of highly dedicated participants).
 
 	See also the licensing obligations on Working Group participants
-	in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
+	in [[PATENT-POLICY#patent-licensing-obligations-in-general|section 5.1]]
 	of the W3C Patent Policy [[!PATENT-POLICY]],
-	and the patent claim exclusion process of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Exclusion">section 4</a>.
+	and the patent claim exclusion process of [[PATENT-POLICY#patent-exclusions|section 5.5]].
 
 <h5 id="member-rep-wg">
 Member Representative in a Working Group</h5>
@@ -1736,7 +1744,7 @@ Member Representative in a Working Group</h5>
 	with all of the following <span id=member-rep-info>information</span>,
 	in addition to any other information required by the <a href="#cfp">Call for Participation</a>
 	and charter
-	(including the participation requirements of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]]):
+	(including the participation requirements of the W3C Patent Policy [[!PATENT-POLICY]]):
 
 	<ol>
 		<li>
@@ -1830,9 +1838,9 @@ Invited Expert in a Working Group</h5>
 		<li>
 			accept the participation terms set forth in the charter,
 			including the participation requirements of
-			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a> (see especially 3.4) and
-			<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Disclosure">section 6</a> (see especially 6.10)
-			of the W3C Patent Policy [[!PATENT-POLICY]], 
+			the W3C Patent Policy [[!PATENT-POLICY]],
+			especially [[PATENT-POLICY#sec-invited|section 2.10.1]]
+			and [[PATENT-POLICY#patent-disclosures|section 5.6]],
 			indicating a specific charter date or version,
 
 		<li>
@@ -2100,19 +2108,17 @@ Working Group and Interest Group Charters</h4>
 			considerations affecting the success of the Group?
 			In particular, is there any reason to believe
 			that it will be difficult to meet the Royalty-Free licensing goals
-			of <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Licensing">section 2</a>
+			of [[PATENT-POLICY#goals|section 1.2]]
 			of the W3C Patent Policy [[PATENT-POLICY]]?
 	</ul>
 
-	See also the charter requirements of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
-	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Obligations">section 3</a>
+	See also the charter requirements of [[PATENT-POLICY#goals|section 1.2]]
 	of the W3C Patent Policy [[!PATENT-POLICY]]. 
 
 	For every Recommendation Track deliverable
 	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
 	published under any other Charter (including a predecessor group of the same name),
-	for which there is an existing <a href="#reference-draft">Reference Draft</a>
-	or <a href="#candidate-rec">Candidate Recommendation</a>,
+	for which there is an existing [=Patent Review Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
 	<em class="rfc2119">must</em> provide the following information:
 
@@ -2124,12 +2130,14 @@ Working Group and Interest Group Charters</h4>
 			or other Recommendation-track document
 			that will serve as the basis for work on the deliverable
 			(labeled “<dfn export id="adopted-draft">Adopted Draft</dfn>”);
+
 		<li>
 			The title,
 			stable URL,
-			and publication date of the most recent Reference Draft
-			or <a href="#candidate-rec">Candidate Recommendation</a>
-			that triggered an Exclusion Opportunity per the Patent Process
+			and publication date of the most recent [=Patent Review Draft=]
+			that triggered an Exclusion Opportunity
+			as per [[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
+			of the W3C Patent Policy [[!PATENT-POLICY]].
 			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”); and
 
 		<li>
@@ -2141,25 +2149,13 @@ Working Group and Interest Group Charters</h4>
 	All of the above data <em class=rfc2119>must</em> be identified
 	in the adopting Working Group's charter using the labels indicated.
 
-	The <dfn export id="reference-draft">Reference Draft</dfn>
-	is the latest [=Working Draft=] published within 90 days
-	of the [=First Public Working Draft=]
-	or if no [=Working Draft=] has been published
-	within 90 days of the [=First Public Working Draft=],
-	it is that [=First Public Working Draft=].
-	It is the specific draft against which exclusions are made,
-	as per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-with">section 4.1</a>
-	of the W3C Patent Policy [[!PATENT-POLICY]].
-
 	The [=Adopted Draft=] and the [=Exclusion Draft=]
 	<em class="rfc2119">must</em> each be adopted in their entirety and without any modification.
 	The proposed charter <em class="rfc2119">must</em> state
-	that [=Exclusion Draft=] is deemed to be the [=Reference Draft=]
-	or [=Candidate Recommendation=] of the [=Adopted Draft=],
-	and the date when the Exclusion Opportunity
-	that arose on publishing the [=First Public Working Draft=]
-	or [=Candidate Recommendation=] began and ended.
-	As per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-join">section 4.3</a>
+	the dates on which the Exclusion Opportunity
+	that arose on publishing the [=Exclusion Draft=]
+	began and ended.
+	As per [[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
 	of the W3C Patent Policy [[!PATENT-POLICY]],
 	this potentially means that exclusions can only be made immediately on joining a Working Group.
 
@@ -2202,7 +2198,7 @@ Working Group and Interest Group Closure</h4>
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
 
 	Closing a Working Group has implications
-	with respect to the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
+	with respect to the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h2 id="Reports">
 W3C Technical Report Development Process</h2>
@@ -2232,7 +2228,7 @@ W3C Technical Report Development Process</h2>
 	</ul>
 
 	See also the licensing goals for [=W3C Recommendations=] in
-	<a href="https://www.w3.org/Consortium/Patent-Policy#sec-Licensing">section 2</a>
+	[[PATENT-POLICY#goals|section 1.2]]
 	of the W3C Patent Policy [[PATENT-POLICY]].
 
 <h3 id="rec-advance">
@@ -2519,7 +2515,7 @@ Maturity Levels</h4>
 					Provide an exclusion opportunity
 					per the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 					<span class=note>Note: A Candidate Recommendation under this process
-					corresponds to the [=Last Call Working Draft=] discussed in the Patent Policy.</span>
+					is a [=Patent Review Draft=] discussed in the Patent Policy.</span>
 			</ul>
 
 			Note: Advancing to [=Candidate Recommendation=] indicates
@@ -2565,9 +2561,6 @@ Maturity Levels</h4>
 			has received the endorsement of W3C Members and the Director.
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
-			The W3C Royalty-Free IPR licenses
-			granted under the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]]
-			apply to [=W3C Recommendations=].
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
 			<dl>
@@ -2588,7 +2581,7 @@ Maturity Levels</h4>
 				at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
 				Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
 				there are implications regarding the scope of Royalty-Free IPR licenses
-				granted under the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
+				granted under the W3C Patent Policy [[PATENT-POLICY]].
 
 			<dt>
 				A <dfn export id="RecsSup">Superseded Recommendation</dfn>
@@ -2652,8 +2645,7 @@ Maturity Levels</h4>
 		<dd>
 			A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
 			and believes is unlikely to ever be restored to [=Recommendation=] status.
-			See also clause 10 of the licensing requirements for W3C Recommendations
-			in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a>
+			See also [[PATENT-POLICY#283|section 2.8.3]]
 			of the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
@@ -2985,10 +2977,8 @@ Contributor License Grants</h4>
 	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
 	Such commitment <em class=rfc2119>should</em> cover,
 	at a minimum,
-	all the contributor's Essential Claims both in the contribution,
-	and that become Essential Claims as a result of incorporating the contribution into the draft
-	that existed at the time of the contribution,
-	on the terms specified in section 5 (W3C Royalty-Free (RF) Licensing Requirements) of the W3C Patent Policy.
+	the Essential Contribution Claims as defined by [[PATENT-POLICY#essential-contribution-claims|section 2.2.1]] of the W3C Patent Policy
+	on the terms specified in [[PATENT-POLICY#patent-licensing-obligation|section 2.6]] and [[PATENT-POLICY#license-term|2.8]] of the W3C Patent Policy.
 
 <h3 id="working-draft">
 Working Draft</h3>
@@ -3021,8 +3011,11 @@ First Public Working Draft</h4>
 	the publication of a [=First Public Working Draft=]
 	to other W3C groups and to the public.
 
-	Publishing the [=First Public Working Draft=] triggers a Call for Exclusions,
-	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
+	The [=First Public Working Draft=]
+	is a First Patent Review Draft
+	as defined in [[PATENT-POLICY#review-draft-publication|section 5.4]] of the W3C Patent Policy
+	and its publication triggers a Call for Exclusions,
+	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h4 id="revised-wd">
@@ -3133,13 +3126,11 @@ Candidate Recommendation</h3>
 	to other W3C groups
 	and to the public.
 
-	A [=Candidate Recommendation=] corresponds to a <dfn export>Last Call Working Draft</dfn>
-	as used in the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[!PATENT-POLICY]].
-	Publishing a [=Candidate Recommendation=] triggers a Call for Exclusions,
-	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
-	of the W3C Patent Policy,
-	except if the document is a candidate [=Amended Recommendation=]
-	or contains only editorial changes.
+	A [=Candidate Recommendation=] corresponds to a [=Patent Review Draft=]
+	as used in the W3C Patent Policy [[!PATENT-POLICY]].
+	Publishing a <dfn>Patent Review Draft</dfn> triggers a Call for Exclusions,
+	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
+	of the W3C Patent Policy.
 
 	Possible next steps:
 
@@ -3161,7 +3152,7 @@ Revising a Candidate Recommendation</h4>
 	the [=Working Group=] <em class="rfc2119">must</em> obtain
 	the [=Director=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
 	[=Substantive changes=] can require a new Exclusion Opportunity
-	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
+	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 	Note: approval is <em>expected</em> to be fairly simple
@@ -3284,7 +3275,7 @@ Proposed Recommendation</h3>
 			after the publication of the [=Proposed Recommendation=]
 			and <em class="rfc2119">should</em> be at least 10 days
 			after the end of the last Exclusion Opportunity
-			per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
+			per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 			of the W3C Patent Policy [[!PATENT-POLICY]].
 	</ul>
 
@@ -3753,7 +3744,7 @@ Revising a Recommendation: Substantive Changes</h4>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
 	and the combination of the existing [=Recommendation=]
 	with the [=proposed corrections=] included in the [=Last Call for Review of Proposed Corrections=]
-	is considered a “Last Call Working Draft” of the proposed changes
+	is considered a “Patent Review Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	The review initiated by the [=Last Call for Review of Proposed Additions=]
 	is an [=Advisory Committee Review=].
@@ -3915,7 +3906,7 @@ Revising a Recommendation: New Features</h4>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
 	and the combination of the existing [=Extensible Recommendation=]
 	with the [=proposed additions=] included in the [=Last Call for Review of Proposed Additions=]
-	is considered a “Last Call Working Draft” of the proposed changes
+	is considered a “Patent Review Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	The review initiated by the [=Last Call for Review of Proposed Additions=]
 	is an [=Advisory Committee Review=].
@@ -4091,7 +4082,7 @@ Publishing a Working Group or Interest Group Note</h3>
 			at the maturity level the specification had before publication as a [=Note=]
 	</ul>
 
-	Note: The <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]]
+	Note: The W3C Patent Policy [[PATENT-POLICY]]
 	does not specify any licensing requirements or commitments for Working Group Notes.
 
 <h3 id="rec-rescind">
@@ -4117,8 +4108,8 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	if W3C believes there is no reasonable prospect of it being restored
 	for example due to burdensome patent claims that affect implementers and cannot be resolved;
 	see the W3C Patent Policy [[!PATENT-POLICY]]
-	and in particular <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10)
-	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.
+	and in particular [[PATENT-POLICY#283|section 2.8.3]]
+	and [[PATENT-POLICY#sec-PAG-conclude|section 5.5.5.4]].
 
 	W3C only rescinds, supersedes, or obsoletes entire Recommendations.
 	A [=Recommendation=] can be both superseded and obsolete.
@@ -4126,7 +4117,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.
 
 
-	Note: For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a>
+	Note: For the purposes of the W3C Patent Policy
 	[[PATENT-POLICY]]
 	an [=Obsolete Recommendation|Obsolete=] or [=Superseded Recommendation=] has the status of an active [=Recommendation=],
 	although it is not recommended for future implementation;
@@ -4746,7 +4737,7 @@ Information Required in a Submission Request</h4>
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
 	The request <em class="rfc2119">must</em> satisfy the Member Submission licensing commitments
-	of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-submissions">section 3.3</a>
+	of [[PATENT-POLICY#sec-submissions|section 5.7]]
 	of the W3C Patent Policy [!!PATENT-POLICY]].
 
 	The [=Submitter=](s) <em class="rfc2119">must</em> include the following information:
@@ -4866,7 +4857,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 		<li>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
 			Patent Policy [[!PATENT-POLICY]]
-			and in particular <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-submissions">Section 3.3</a>,
+			and in particular [[PATENT-POLICY#sec-submissions|section 5.7]]
 			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
 			or other IPR policies.
 
