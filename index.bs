@@ -2118,8 +2118,7 @@ Working Group and Interest Group Charters</h4>
 	For every Recommendation Track deliverable
 	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
 	published under any other Charter (including a predecessor group of the same name),
-	for which there is an existing <a href="#reference-draft">Reference Draft</a>
-	or <a href="#candidate-rec">Candidate Recommendation</a>,
+	for which there is an existing [=Patent Review Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
 	<em class="rfc2119">must</em> provide the following information:
 
@@ -2134,8 +2133,7 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			The title,
 			stable URL,
-			and publication date of the most recent Reference Draft
-			or <a href="#candidate-rec">Candidate Recommendation</a>
+			and publication date of the most recent [=Patent Review Draft=]
 			that triggered an Exclusion Opportunity per the Patent Process
 			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”); and
 
@@ -2147,30 +2145,8 @@ Working Group and Interest Group Charters</h4>
 
 	All of the above data <em class=rfc2119>must</em> be identified
 	in the adopting Working Group's charter using the labels indicated.
-
-	The <dfn export id="reference-draft">Reference Draft</dfn>
-	is the latest [=Working Draft=] published within 90 days
-	of the [=First Public Working Draft=]
-	or if no [=Working Draft=] has been published
-	within 90 days of the [=First Public Working Draft=],
-	it is that [=First Public Working Draft=].
-	It is the specific draft against which exclusions are made,
-	as per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-exclusion-with">section 4.1</a>
-	of the W3C Patent Policy [[!PATENT-POLICY]].
-
-	issue: FPWD clauses are still missing in the new PP
-
 	The [=Adopted Draft=] and the [=Exclusion Draft=]
 	<em class="rfc2119">must</em> each be adopted in their entirety and without any modification.
-	The proposed charter <em class="rfc2119">must</em> state
-	that [=Exclusion Draft=] is deemed to be the [=Reference Draft=]
-	or [=Candidate Recommendation=] of the [=Adopted Draft=],
-	and the date when the Exclusion Opportunity
-	that arose on publishing the [=First Public Working Draft=]
-	or [=Candidate Recommendation=] began and ended.
-	As per [[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
-	of the W3C Patent Policy [[!PATENT-POLICY]],
-	this potentially means that exclusions can only be made immediately on joining a Working Group.
 
 	<p id="ig-charter-participation">An Interest Group charter
 	<em class="rfc2119">may</em> include provisions regarding participation,
@@ -3024,11 +3000,12 @@ First Public Working Draft</h4>
 	the publication of a [=First Public Working Draft=]
 	to other W3C groups and to the public.
 
-	Publishing the [=First Public Working Draft=] triggers a Call for Exclusions,
+	The [=First Public Working Draft=]
+	is a First Patent Review Draft
+	as defined in [[PATENT-POLICY#|review-draft-publication|section 5.4]] of the W3C Patent Policy
+	and its publication triggers a Call for Exclusions,
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
-
-	issue: new PP news FPWD provisions
 
 <h4 id="revised-wd">
 Revising Working Drafts</h4>
