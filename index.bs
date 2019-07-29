@@ -4727,10 +4727,8 @@ Information Required in a Submission Request</h4>
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
 	The request <em class="rfc2119">must</em> satisfy the Member Submission licensing commitments
-	of <a href="https://www.w3.org/Consortium/Patent-Policy#sec-submissions">section 3.3</a>
+	of [[PATENT-POLICY#sec-submissions|section 5.7]]
 	of the W3C Patent Policy [!!PATENT-POLICY]].
-
-	Issue: restore submission provisions into the new PP
 
 	The [=Submitter=](s) <em class="rfc2119">must</em> include the following information:
 
@@ -4849,11 +4847,9 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 		<li>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
 			Patent Policy [[!PATENT-POLICY]]
-			and in particular <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-submissions">Section 3.3</a>,
+			and in particular [[PATENT-POLICY#sec-submissions|section 5.7]]
 			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
 			or other IPR policies.
-
-			Issue: restore submission provisions into the new PP
 
 		<li>
 			The ideas expressed in the request are poor,
