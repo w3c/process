@@ -2677,7 +2677,7 @@ Maturity Levels</h4>
 			longer, intended to advance to Evergreen Recommendation should be published as a [=Working Group Note=].
 			Preliminary Drafts do not necessarily represent a consensus of the Working Group.
 
-			Note: shall we call this Preliminary Evergreen Specification?
+			Issue: shall we call this Preliminary Evergreen Specification?
 
 		<dt>
       <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
