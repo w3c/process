@@ -3880,9 +3880,6 @@ Evergreen Recommendation Snapshot</h3>
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
 	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
 	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
-	Review Draft Licensing Obligations</a>. The group may consider publishing sooner if significant features with adequate implementation experience
-	have been added to a revised Evergreen Recommendation. Features without sufficient review (less than 180 days) or adequate implementation experience
-	are considered to be informative and not included as part of the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
 	Review Draft Licensing Obligations</a>.
 
   To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
@@ -3891,8 +3888,6 @@ Evergreen Recommendation Snapshot</h3>
   <ul>
 	  <li>
 		  must record the group's decision to request advancement.
-    <li>
-	    <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
   </ul>
 
 
