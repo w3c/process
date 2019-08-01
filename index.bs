@@ -3965,13 +3965,6 @@ Revising a Recommendation: New Features</h4>
 	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
 	and fullfils the requirements of both.
 
-	Note: Working Groups maintaining Recommendations
-	that require frequent additions
-	are encouraged to issue Calls for Review of Proposed Additions
-	in batches on a regular cadence,
-	such as once every six months,
-	to facilitate review.
-
 <h5 id="streamline-rec-class-4">
 Streamlined Publication Approval for Recommendations with New Features</h5>
 
