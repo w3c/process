@@ -3896,6 +3896,8 @@ Evergreen Recommendation Snapshot</h3>
   <ul>
 	  <li>
 		  must record the group's decision to request advancement.
+		<li>
+			<em class="rfc2119">must</em> document the changes since the previous [=Evergreen Recommendation Snapshot=],
   </ul>
 
 
