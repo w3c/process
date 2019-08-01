@@ -2692,7 +2692,7 @@ Maturity Levels</h4>
       Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
 
-			Note: shall we call this Evergreen Specification?
+			Issue: shall we call this Evergreen Specification?
 
 
 			<ul>
