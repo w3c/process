@@ -3197,6 +3197,13 @@ Revising a Candidate Recommendation</h4>
 	of a revised [=Candidate Recommendation=]
 	to other W3C groups and the Public.
 
+	To provide timely updates and patent protection,
+	a <a>Candidate Recommendation</a>
+	<em class=rfc2119>should</em> be published
+	within 24 months of the Working Group accepting
+	any proposal for a substantive change
+	(and preferably sooner).
+
 <h5 id="streamlined-cr-update">
 Streamlined Publication Approval for CR Updates</h5
 
@@ -3776,13 +3783,10 @@ Revising a Recommendation: Substantive Changes</h4>
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
-
-	Note: Working Groups maintaining large or complex Recommendations
-	that still require frequent correction
-	are encouraged to issue Calls for Review of Proposed Corrections
-	in batches on a regular cadence,
-	such as once every six months,
-	to facilitate review.
+	To facilitate review,
+	a <a>Last Call for Review of Proposed Corrections</a> on a given specification
+	<em class=rfc2119>should not</em> be issued more frequently
+	than approximately once every six months.
 
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
@@ -3941,19 +3945,16 @@ Revising a Recommendation: New Features</h4>
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
+	To facilitate review,
+	a <a>Last Call for Review of Proposed Additions</a> on a given specification
+	<em class=rfc2119>should not</em> be issued more frequently
+	than approximately once every six months.
 
 	A <a>Last Call for Review of Proposed Additions</a> <em class=rfc2119>may</em> be combined with
 	a <a>Last Call for Review of Proposed Corrections</a>.
 	It is then called
 	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
 	and fullfils the requirements of both.
-
-	Note: Working Groups maintaining Recommendations
-	that require frequent additions
-	are encouraged to issue Calls for Review of Proposed Additions
-	in batches on a regular cadence,
-	such as once every six months,
-	to facilitate review.
 
 <h5 id="streamline-rec-class-4">
 Streamlined Publication Approval for Recommendations with New Features</h5>
