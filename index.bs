@@ -2685,8 +2685,8 @@ Maturity Levels</h4>
 		  Note: shall we call this Evergreen Specification?
 
 		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
-			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
-			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
+			and their dependencies. W3C recommends a feature listed in its Evergreen Recommendations if
+			it has been in the document for at least 180 days and has been marked as having adequate implementation experience. The W3C
 			Royalty-Free IPR licenses granted under the
 			<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations">Evergreen
       Contribution Licensing Obligations</a> apply
@@ -3841,11 +3841,18 @@ Evergreen Recommendation</h3>
         <li>
 				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
 			  <li>
-				  <em class="rfc2119">should</em> provide a designation indicating the level of implementation experience
+				  <em class="rfc2119">should</em> provide a designation indicating the level of adequate implementation experience.
 			</ul>
 		<li>
       <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document
 			have changed since the last publication.
+
+ W3C recommends a feature listed in its Evergreen Recommendations if it has been in the document for at least 180 days
+ and has been marked as having adequate implementation experience. By default, the level of implementation experience is
+ considered <dfn id="Events" export	lt="default adequate implementation experience">adequate</dfn> if at least 2
+ distinct products by 2 different	implementers, as evidenced by passing tests of a test suite providing extensive
+ coverage of the changes. The Group	charter MAY provide an alternative set of criteria to indicate the adequacy of
+ implementation experience.
 
   In rare occurrences, an individual <em class="rfc2119">may</em> register a Formal Objection to a decision. The Group:
 
