@@ -2043,7 +2043,7 @@ Working Group and Interest Group Charters</h4>
 
 		<li>
 			For each technical report being developed on the Evergreen track, the workmode to achieve
-			<a href="#procedural-consensus">procedural consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
+			<a href="#consensus">consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
 			<em class="rfc2119">may</em> delegate it to the Working Group.
 
 		<li>
@@ -2677,18 +2677,21 @@ Maturity Levels</h4>
 			longer, intended to advance to Evergreen Recommendation should be published as a [=Working Group Note=].
 			Preliminary Drafts do not necessarily represent a consensus of the Working Group.
 
+			Issue: shall we call this Preliminary Evergreen Specification?
+
 		<dt>
       <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
     <dd>
-		  Note: shall we call this Evergreen Specification?
 
 		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
-			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
-			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
+			and their dependencies. W3C recommends a feature listed in its Evergreen Recommendations if
+			it has been in the document for at least 180 days and has been marked as having adequate implementation experience. The W3C
 			Royalty-Free IPR licenses granted under the
 			<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations">Evergreen
       Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
+
+			Issue: we need to realign the various denomination between ER/ERS and the new Patent Policy.
 
 			<ul>
 				<li>
@@ -2712,8 +2715,6 @@ Maturity Levels</h4>
           An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the
 					<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
           Review Draft Licensing Obligations</a>.
-
-          Note: shall we call this Evergreen Review Draft?
 
         <dt>
           <dfn export id="ERSreg">Registry</dfn>
@@ -3820,26 +3821,19 @@ Evergreen Recommendation</h3>
     <li>
 		  <em class="rfc2119">must</em> document the consensus of the Working Group,
 
-      Note: Similar to in the W3C Recommendation track, the Chair has a responsibility to ensure the Group operates under consensus. In
-			the Evergreen Recommendation track, it will likely be less likely to issue calls for consensus or assess consensus as a result
-			of a poll of participants; however, the Chair has an important oversight role to ensure that the group's discussions proceed
-			according to the <span id="procedural-consensus">procedural approach chartered for the group</a>, are in accordance with [[CEPC]], and has the responsibility to be
-			an impartial facilitator to decision-making when necessary. Finally, of course, the Chair is the arbiter to whom participants
-			appeal when they disagree with the way that the editors are documenting the evolving consensus of the group. The chair can
-			facilitate discussion between the participant and editor, issue informative calls for consensus, or engage in other
-			discussions to see whether consensus can be reached or whether the editor can adjust their position. Ultimately, the Chair
-			has the authority to overrule the Editor and remove them if necessary.
+			Issue: we need to revise the definition of consensus to clarify that the Working Group is free to make decisions as
+			they see fit, e.g. the editor can make decision on behalf of the Group and the Chair is there to overrule the Editor and remove them if necessary.
 
     <li>
 		  <em class="rfc2119">must</em> provide, except for [=Registries=], feature-by-feature tagging to illustrate the level of review and
 			implementation applied to the feature:
 
 			<ul>
-			  <li>
-				  <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
-					(giving some indication that the feature has received sufficient review).
+					(giving some indication that the feature has received sufficient review). [=Substantive changes=] to a feature
+					triggers a new 180 days period and the Group <em class="rfc2119">must</em> re-evaluate the associated tagging designation
+					for adequate implementation experience.
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
 					snapshot and is therefore covered by the
@@ -3847,10 +3841,20 @@ Evergreen Recommendation</h3>
           Review Draft Licensing Obligations</a>.
         <li>
 				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
+			  <li>
+				  <em class="rfc2119">should</em> provide a designation indicating the level of adequate implementation experience.
+					A feature is not considered to be recommended until a feature has adequate implementation experience and this tagging designation has been updated.
 			</ul>
 		<li>
       <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document
 			have changed since the last publication.
+
+ W3C recommends a feature listed in its Evergreen Recommendations if it has been in the document for at least 180 days
+ and has been marked as having adequate implementation experience. By default, the level of implementation experience is
+ considered <dfn id="Events" export	lt="default adequate implementation experience">adequate</dfn> if at least 2
+ distinct products by 2 different	implementers, as evidenced by passing tests of a test suite providing extensive
+ coverage of the changes. The Group	charter MAY provide an alternative set of criteria to indicate the adequacy of
+ implementation experience.
 
   In rare occurrences, an individual <em class="rfc2119">may</em> register a Formal Objection to a decision. The Group:
 
@@ -3884,8 +3888,8 @@ Evergreen Recommendation Snapshot</h3>
 
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
 	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
-  <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
-  Review Draft Licensing Obligations</a>.
+	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+	Review Draft Licensing Obligations</a>.
 
   To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
 	Recommendation</a> a Working Group:
@@ -3893,6 +3897,8 @@ Evergreen Recommendation Snapshot</h3>
   <ul>
 	  <li>
 		  must record the group's decision to request advancement.
+		<li>
+			<em class="rfc2119">must</em> document the changes since the previous [=Evergreen Recommendation Snapshot=],
   </ul>
 
 
