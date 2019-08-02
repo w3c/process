@@ -3821,6 +3821,9 @@ Evergreen Recommendation</h3>
     <li>
 		  <em class="rfc2119">must</em> document the consensus of the Working Group,
 
+			Issue: we need to revise the definition of consensus to clarify that the Working Group is free to make decisions as
+			they see fit, e.g. the editor can make decision on behalf of the Group and the Chair is there to overrule the Editor and remove them if necessary.
+
     <li>
 		  <em class="rfc2119">must</em> provide, except for [=Registries=], feature-by-feature tagging to illustrate the level of review and
 			implementation applied to the feature:
