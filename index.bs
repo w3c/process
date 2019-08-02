@@ -2682,7 +2682,6 @@ Maturity Levels</h4>
 		<dt>
       <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
     <dd>
-		  Note: shall we call this Evergreen Specification?
 
 		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
 			and their dependencies. W3C recommends a feature listed in its Evergreen Recommendations if
@@ -2692,8 +2691,7 @@ Maturity Levels</h4>
       Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
 
-			Issue: shall we call this Evergreen Specification?
-
+			Issue: we need to realign the various denomination between ER/ERS and the new Patent Policy.
 
 			<ul>
 				<li>
@@ -2717,8 +2715,6 @@ Maturity Levels</h4>
           An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the
 					<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
           Review Draft Licensing Obligations</a>.
-
-          Note: shall we call this Evergreen Review Draft?
 
         <dt>
           <dfn export id="ERSreg">Registry</dfn>
