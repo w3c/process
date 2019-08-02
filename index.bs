@@ -3121,7 +3121,8 @@ Revising a Candidate Recommendation</h4>
 			and <em class="rfc2119">should</em> be longer for complex documents,
 
 		<li>
-			<em class="rfc2119">must</em> document the changes since the previous [=Candidate Recommendation=],
+			<em class="rfc2119">must</em> document the [=substantive changes=] since the previous [=Candidate Recommendation=]
+			(if [=editorial changes=] have been made, this <em class=rfc2119>should</em> be indicated, but details are not required),
 
 		<li>
 			<em class="rfc2119">must</em> show that the proposed changes have received [=wide review=],
