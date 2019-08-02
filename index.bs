@@ -3832,7 +3832,8 @@ Evergreen Recommendation</h3>
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
 					(giving some indication that the feature has received sufficient review). [=Substantive changes=] to a feature
-					triggers a new 180 days period.
+					triggers a new 180 days period and the Group <em class="rfc2119">must</em> re-evaluate the associated tagging designation
+					for adequate implementation experience.
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
 					snapshot and is therefore covered by the
