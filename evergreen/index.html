@@ -6,9 +6,9 @@
   <link href="https://www.w3.org/StyleSheets/TR/2016/base.css" rel="stylesheet" type="text/css">
   <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
-  <meta content="Bikeshed version b9c59eccbcc25454195a0043aa99cbc393f9772d" name="generator">
+  <meta content="Bikeshed version 5a2c04fbf9f3418b378c5d733b60fe6fc575091b" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="f9472029c2b4164dfc1d57ee3a03b28fc2649ccd" name="document-revision">
+  <meta content="0f33b475c40a4a69588c43e5c7334ee1804bb289" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -238,7 +238,7 @@ pre .property::before, pre .property::after {
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-07-24">24 July 2019</time> </span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-08-03">3 August 2019</time> </span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -251,6 +251,7 @@ pre .property::before, pre .property::after {
      <dd><a href="https://www.w3.org/2017/Process-20170301/" rel="prev">https://www.w3.org/2017/Process-20170301/</a>
      <dt>Issue Tracking:
      <dd><a href="https://github.com/w3c/w3process/issues/">GitHub</a>
+     <dd><a href="#issues-index">Inline In Spec</a>
      <dt class="editor">Editors:
      <dd class="editor p-author h-card vcard"><span class="p-name fn">Natasha Rooney</span> (<span class="p-org org">Invited Expert</span>)
      <dd class="editor p-author h-card vcard"><a class="p-name fn u-url url" href="https://florian.rivoal.net/">Florian Rivoal</a> (<span class="p-org org">Invited Expert</span>)
@@ -283,7 +284,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 24 July 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
+	This is the 3 August 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 
 which is the currently operative W3C Process.</p>
@@ -543,6 +544,7 @@ which is the currently operative W3C Process.</p>
      <ol class="toc">
       <li><a href="#index-defined-here"><span class="secno"></span> <span class="content">Terms defined by this specification</span></a>
      </ol>
+    <li><a href="#issues-index"><span class="secno"></span> <span class="content">Issues Index</span></a>
    </ol>
   </nav>
   <main>
@@ -1829,7 +1831,7 @@ which is the currently operative W3C Process.</p>
       For each technical report being developed on the Evergreen track other than <a data-link-type="dfn" href="#ERSreg" id="ref-for-ERSreg">Registries</a>,
 			an expected date when the document will also be reviewed on the W3C Recommendation track. 
      <p class="note" role="note"><span>Note:</span> This date <em class="rfc2119">may</em> be later than the end date of the charter period of the Working Group;</p>
-    <li> For each technical report being developed on the Evergreen track, the workmode to achieve <a href="#procedural-consensus">procedural consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter <em class="rfc2119">may</em> delegate it to the Working Group. 
+    <li> For each technical report being developed on the Evergreen track, the workmode to achieve <a href="#Consensus">consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter <em class="rfc2119">may</em> delegate it to the Working Group. 
     <li> The process for the group to approve the release of deliverables
 			(including intermediate results); 
     <li> Any dependencies by groups within or outside of W3C on the deliverables of this group.
@@ -2272,20 +2274,22 @@ which is the currently operative W3C Process.</p>
 			that is not intended to be a formal standard,
 			or to document work that was abandoned without producing a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②③">Recommendation</a>. 
     <dt> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="ERspredraft">Preliminary Draft</dfn> 
-    <dd> An Preliminary Draft is a document that W3C has published for review by the community,
+    <dd>
+      An Preliminary Draft is a document that W3C has published for review by the community,
 			including W3C Members, the public, and other technical organizations. All Preliminary
 			Drafts are meant to advance to Evergreen Recommendation. Any Preliminary Draft not, or no
 			longer, intended to advance to Evergreen Recommendation should be published as a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote⑥">Working Group Note</a>.
 			Preliminary Drafts do not necessarily represent a consensus of the Working Group. 
+     <p class="issue" id="issue-99db41f9"><a class="self-link" href="#issue-99db41f9"></a> shall we call this Preliminary Evergreen Specification?</p>
     <dt> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER" id="ERSW3C">Evergreen Recommendation</dfn> (<abbr>ER</abbr>) 
     <dd>
-      Note: shall we call this Evergreen Specification? 
      <p>An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
-			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
-			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
+			and their dependencies. W3C recommends a feature listed in its Evergreen Recommendations if
+			it has been in the document for at least 180 days and has been marked as having adequate implementation experience. The W3C
 			Royalty-Free IPR licenses granted under the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations">Evergreen</a></p>
      <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations"> Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to: 
+     <p class="issue" id="issue-6c9dc56a"><a class="self-link" href="#issue-6c9dc56a"></a> we need to realign the various denomination between ER/ERS and the new Patent Policy.</p>
      <ul>
       <li> Signal to the wider community that there is a consensus of the community that developers can implement the specification 
       <li> Signal to the wider community that there is implementation experience with those features that are designated as
@@ -2295,10 +2299,8 @@ which is the currently operative W3C Process.</p>
      </ul>
      <dl>
       <dt> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Evergreen Recommendation Snapshot | ERS" id="ERSers">Evergreen Recommendation Snapshot</dfn> (<abbr>ERS</abbr>) 
-      <dd>
-        An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+      <dd> An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
           Review Draft Licensing Obligations</a>. 
-       <p class="note" role="note"><span>Note:</span> shall we call this Evergreen Review Draft?</p>
       <dt> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="ERSreg">Registry</dfn> 
       <dd>
         A Registry document contains an index of labels or constants used for extensibility points found in W3C technical reports.
@@ -2366,7 +2368,7 @@ which is the currently operative W3C Process.</p>
    <p>All Technical Reports other than <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote⑦">Note</a> have the following properties:</p>
    <ul>
     <li> <em class="rfc2119 ">must</em> provide public documentation
-			of all <a href="#substantive-change" id="ref-for-substantive-change①⓪">substantive changes</a> to the technical report
+			of all <a href="#substantive-change" id="ref-for-substantive-change①①">substantive changes</a> to the technical report
 			since the previous publication. 
     <li> <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed">formally address</a> all issues
 			raised about the document since the previous <a href="#maturity-levels">maturity level</a>. 
@@ -3048,30 +3050,32 @@ which is the currently operative W3C Process.</p>
    <ul>
     <li>
       <em class="rfc2119">must</em> document the consensus of the Working Group, 
-     <p class="note" role="note"><span>Note:</span> Similar to in the W3C Recommendation track, the Chair has a responsibility to ensure the Group operates under consensus. In
-			the Evergreen Recommendation track, it will likely be less likely to issue calls for consensus or assess consensus as a result
-			of a poll of participants; however, the Chair has an important oversight role to ensure that the group’s discussions proceed
-			according to the <span id="procedural-consensus">procedural approach chartered for the group, are in accordance with <a data-link-type="biblio" href="#biblio-cepc">[CEPC]</a>, and has the responsibility to be
-			an impartial facilitator to decision-making when necessary. Finally, of course, the Chair is the arbiter to whom participants
-			appeal when they disagree with the way that the editors are documenting the evolving consensus of the group. The chair can
-			facilitate discussion between the participant and editor, issue informative calls for consensus, or engage in other
-			discussions to see whether consensus can be reached or whether the editor can adjust their position. Ultimately, the Chair
-			has the authority to overrule the Editor and remove them if necessary.</span></p>
+     <p class="issue" id="issue-bc810fba"><a class="self-link" href="#issue-bc810fba"></a> we need to revise the definition of consensus to clarify that the Working Group is free to make decisions as
+			they see fit, e.g. the editor can make decision on behalf of the Group and the Chair is there to overrule the Editor and remove them if necessary.</p>
     <li>
       <em class="rfc2119">must</em> provide, except for <a data-link-type="dfn" href="#ERSreg" id="ref-for-ERSreg①">Registries</a>, feature-by-feature tagging to illustrate the level of review and
 			implementation applied to the feature: 
      <ul>
-      <li> <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience 
       <li> <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
-					(giving some indication that the feature has received sufficient review). 
+					(giving some indication that the feature has received sufficient review). <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑨">Substantive changes</a> to a feature
+					triggers a new 180 days period and the Group <em class="rfc2119">must</em> re-evaluate the associated tagging designation
+					for adequate implementation experience. 
       <li> <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
 					snapshot and is therefore covered by the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
           Review Draft Licensing Obligations</a>. 
       <li> <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments 
+      <li> <em class="rfc2119">should</em> provide a designation indicating the level of adequate implementation experience.
+					A feature is not considered to be recommended until a feature has adequate implementation experience and this tagging designation has been updated. 
      </ul>
     <li>
       <em class="rfc2119">should</em> report which, if any, of the Working Group’s requirements for this document
 			have changed since the last publication. 
+     <p>W3C recommends a feature listed in its Evergreen Recommendations if it has been in the document for at least 180 days
+ and has been marked as having adequate implementation experience. By default, the level of implementation experience is
+ considered <dfn data-dfn-type="dfn" data-export data-lt="default adequate implementation experience" id="Events">adequate<a class="self-link" href="#Events"></a></dfn> if at least 2
+ distinct products by 2 different	implementers, as evidenced by passing tests of a test suite providing extensive
+ coverage of the changes. The Group	charter MAY provide an alternative set of criteria to indicate the adequacy of
+ implementation experience.</p>
      <p>In rare occurrences, an individual <em class="rfc2119">may</em> register a Formal Objection to a decision. The Group:</p>
      <ul>
       <li> <em class="rfc2119">must</em> document unresolved formal objections in the document header and should document
@@ -3092,11 +3096,12 @@ which is the currently operative W3C Process.</p>
        <h3 class="heading settled" data-level="6.10" id="evergreen-rec-snapshot"><span class="secno">6.10. </span><span class="content"> Evergreen Recommendation Snapshot</span><a class="self-link" href="#evergreen-rec-snapshot"></a></h3>
        <p>All <a href="#evergreen-rec">Evergreen Recommendation</a> other than <a data-link-type="dfn" href="#ERSreg" id="ref-for-ERSreg②">Registries</a> must be published as a revised Evergreen Recommendation Snapshot
 	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
-  Review Draft Licensing Obligations</a>.</p>
+	Review Draft Licensing Obligations</a>.</p>
        <p>To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
 	Recommendation</a> a Working Group:</p>
        <ul>
         <li> must record the group’s decision to request advancement. 
+        <li> <em class="rfc2119">must</em> document the changes since the previous <a data-link-type="dfn" href="#ERSers" id="ref-for-ERSers①">Evergreen Recommendation Snapshot</a>, 
        </ul>
        <h3 class="heading settled" data-level="6.11" id="Note"><span class="secno">6.11. </span><span class="content"> Publishing a Working Group or Interest Group Note</span><a class="self-link" href="#Note"></a></h3>
        <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⓪">Working Groups</a> and <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a> <em class="rfc2119">may</em> publish work as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①①">W3C Notes</a>.
@@ -3344,7 +3349,7 @@ which is the currently operative W3C Process.</p>
         <li> The proposal is approved,
 			possibly with <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change③">editorial changes</a> integrated. 
         <li> The proposal is approved,
-			possibly with <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑨">substantive changes</a> integrated.
+			possibly with <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①⓪">substantive changes</a> integrated.
 			In this case the Director’s announcement <em class="rfc2119">must</em> include rationale
 			for the decision to advance the document despite the proposal for a substantive change. 
         <li>The proposal is returned for additional work,
@@ -4069,6 +4074,7 @@ which is the currently operative W3C Process.</p>
          <li><a href="#dfn-charter-extension">charter extension</a><span>, in §5.2.5</span>
          <li><a href="#def-Consensus">Consensus</a><span>, in §3.3</span>
          <li><a href="#RecsCR">CR</a><span>, in §6.1.3</span>
+         <li><a href="#Events">default adequate implementation experience</a><span>, in §6.9</span>
          <li><a href="#def-Director">Director</a><span>, in §2.2</span>
          <li><a href="#def-Dissent">Dissent</a><span>, in §3.3</span>
          <li><a href="#distributed-meeting">distributed meeting</a><span>, in §3.2</span>
@@ -4165,7 +4171,15 @@ which is the currently operative W3C Process.</p>
          <li><a href="#EventsW">Workshops</a><span>, in §8</span>
         </ul>
        </div>
-       <div data-fill-with="issues-index"></div>
+       <div data-fill-with="issues-index">
+        <h2 class="no-num no-ref heading settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
+        <div style="counter-reset:issue">
+         <div class="issue"> shall we call this Preliminary Evergreen Specification?<a href="#issue-99db41f9"> ↵ </a></div>
+         <div class="issue"> we need to realign the various denomination between ER/ERS and the new Patent Policy.<a href="#issue-6c9dc56a"> ↵ </a></div>
+         <div class="issue"> we need to revise the definition of consensus to clarify that the Working Group is free to make decisions as
+			they see fit, e.g. the editor can make decision on behalf of the Group and the Chair is there to overrule the Editor and remove them if necessary.<a href="#issue-bc810fba"> ↵ </a></div>
+        </div>
+       </div>
      </ul>
    </ul>
   </main>
@@ -5134,6 +5148,8 @@ Wide Review for the Evergreen Track</a>
    <ul>
     <li><a href="#ref-for-ERSers">6.1.2. 
 Transitions between the Evergreen track and W3C Recommendation track</a>
+    <li><a href="#ref-for-ERSers①">6.10. 
+Evergreen Recommendation Snapshot</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="ERSreg">
@@ -5221,7 +5237,9 @@ Proposed Recommendation</a> <a href="#ref-for-substantive-change⑥">(2)</a>
 W3C Recommendation</a>
     <li><a href="#ref-for-substantive-change⑧">6.7.4. 
 Revising a Recommendation: Substantive Changes</a>
-    <li><a href="#ref-for-substantive-change⑨">7.1.2. 
+    <li><a href="#ref-for-substantive-change⑨">6.9. 
+Evergreen Recommendation</a>
+    <li><a href="#ref-for-substantive-change①⓪">7.1.2. 
 After the Review Period</a>
    </ul>
   </aside>
