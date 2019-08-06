@@ -930,13 +930,6 @@ Technical Architecture Group Appointments</h4>
 			excluding individuals running in the election,
 			already selected (see above),
 			or having the same affiliation as someone already selected.
-		<li>
-			2 [=Advisory Committee Representatives=],
-			<a href="#random">randomly selected</a> from those who have attended
-			at least 2 of the last 3 <a href="#ACMeetings">Advisory Committee Meetings</a>,
-			excluding individuals running in the election,
-			already selected (see above),
-			or having the same affiliation as someone already selected.
 	</ol>
 
 	Individuals selected to serve on the [=TAG Appointment Committee=]
