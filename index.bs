@@ -942,7 +942,7 @@ Technical Architecture Group Appointments</h4>
 
 	The chair of the [=TAG Appointment Committee=] is chosen by [=consensus=] among the participants.
 	If no consensus can be reached within one week of the committee being formed,
-	the chair is instead <a href=#random>randomly selected</a>
+	the chair is instead designated by the [=Team=]
 	from the participants willing to serve in that role.
 
 	Participants in the [=TAG Appointment Committee=]
