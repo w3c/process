@@ -31,8 +31,8 @@ TR: https://www.w3.org/Consortium/Process/
 Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
-Editor: Natasha Rooney, Invited Expert
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
+Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
@@ -4911,6 +4911,12 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
+
+		<li>
+			Eliminate the use of the undefined “minor changes” term
+
+		<li>
+			Define and differentiate between Group Decisions and Chair Decisions.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
