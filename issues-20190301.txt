@@ -361,3 +361,9 @@ From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/294
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/294#pullrequestreview-254696601
+----
+Issue 45.
+Summary:  CR change documentation requirement should be for substantive changes only
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/307
+Open
