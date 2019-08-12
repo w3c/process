@@ -31,8 +31,8 @@ TR: https://www.w3.org/Consortium/Process/
 Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
-Editor: Natasha Rooney, Invited Expert
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
+Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
@@ -1378,18 +1378,29 @@ Votes</h3>
 	Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.
 
 <h3 id="WGAppeals">
-Appeal of a Chair's Decision</h3>
+Appeal of [=Chair Decisions=] and [=Group Decisions=]</h3>
 
 	Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision
 	<em class="rfc2119">should</em> register with the Chair any [=Formal Objections=]
 	(e.g., to a decision made as the result of a <a href="#Votes">vote</a>).
 
-	When group participants believe that their concerns are not being duly considered by the group,
+	As detailed in other parts of this document,
+	the [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
+	to make certain decisions based on their own judgement.
+	Such decisions are called <dfn export>Chair Decisions</dfn>.
+	In contrast,
+	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
+	on the basis of having assessed the [=consensus=] of the group
+	or following a vote (see [[#Votes]])
+	are called <dfn export>Group Decisions</dfn>.
+
+	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
 	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
 	(for representatives of a Member organization, via their Advisory Committee representative)
 	to confirm or deny the decision.
-	This is a <dfn id="wg-decision-appeal">Group Decision Appeal</dfn>.
+	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
+	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
 	The participants <em class="rfc2119">should</em> also make their requests known
 	to the <a href="#TeamContact">Team Contact</a>.
 	The Team Contact <em class="rfc2119">must</em> inform the Director
@@ -1917,10 +1928,20 @@ Working Group and Interest Group Charter Development</h4>
 Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 
 	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter.
-	The Director is <em class="rfc2119">not required</em> to solicit Advisory Committee review
-	prior to a charter extension or for minor changes.
-	The review period <em class="rfc2119">must</em> be at least 28 days.</p>
+	of every new or substantively modified Working Group or Interest Group charter,
+	except for either:
+	* a charter extension
+	* substantive changes to a charter that do not affect the way the group functions in any significant way.
+
+	The review period <em class="rfc2119">must</em> be at least 28 days.
+	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+	Such changes must nonetheless be announced
+	to the [=Advisory Committee=]
+	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Intrest Group</a>,
+	and a rationale must be provided.
 
 	The Director's Call for Review of a substantively modified charter
 	<em class="rfc2119">must</em> highlight important changes
@@ -2022,7 +2043,7 @@ Working Group and Interest Group Charters</h4>
 
 		<li>
 			For each technical report being developed on the Evergreen track, the workmode to achieve
-			<a href="#procedural-consensus">procedural consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
+			<a href="#Consensus">consensus</a> <em class="rfc2119">may</em> be in the charter, or the charter
 			<em class="rfc2119">may</em> delegate it to the Working Group.
 
 		<li>
@@ -2423,7 +2444,7 @@ Recommendations, Evergreen Recommendations, and Notes</h4>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Director Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -2592,7 +2613,7 @@ Maturity Levels</h4>
 				<dt>
 					An <dfn export>Edited Recommendation</dfn>
 				<dd>
-					A [=Working Group=] may make <a href="#editorial-change">editorial</a> or other minor changes
+					A [=Working Group=] may make <a href="#editorial-change">editorial</a>
 					to a [=Recommendation=],
 					and produce a new version
 					which W3C [=publishes=] as a <a href="#revised-rec">revised edition</a>
@@ -2656,18 +2677,21 @@ Maturity Levels</h4>
 			longer, intended to advance to Evergreen Recommendation should be published as a [=Working Group Note=].
 			Preliminary Drafts do not necessarily represent a consensus of the Working Group.
 
+			Issue: shall we call this Preliminary Evergreen Specification?
+
 		<dt>
       <dfn export id="ERSW3C" lt="Evergreen Recommendation | W3C Evergreen Recommendation | ER">Evergreen Recommendation</dfn> (<abbr>ER</abbr>)
     <dd>
-		  Note: shall we call this Evergreen Specification?
 
 		  An Evergreen Recommendation is a document that satisfies the technical requirements of the Working Group that produced it
-			and their dependencies. W3C recommends the implementation of a feature listed in its Evergreen Recommendations if
-			it has been in the document for at least 180 days and has been marked as having implementation experience. The W3C
+			and their dependencies. W3C recommends a feature listed in its Evergreen Recommendations if
+			it has been in the document for at least 180 days and has been marked as having adequate implementation experience. The W3C
 			Royalty-Free IPR licenses granted under the
 			<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#52-contribution-licensing-obligations">Evergreen
       Contribution Licensing Obligations</a> apply
 			to W3C Evergreen Recommendations. W3C publishes an Evergreen Recommendation to:
+
+			Issue: we need to realign the various denomination between ER/ERS and the new Patent Policy.
 
 			<ul>
 				<li>
@@ -2691,8 +2715,6 @@ Maturity Levels</h4>
           An Evergreen Recommendation Snapshot is an Evergreen Recommendation under the
 					<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
           Review Draft Licensing Obligations</a>.
-
-          Note: shall we call this Evergreen Review Draft?
 
         <dt>
           <dfn export id="ERSreg">Registry</dfn>
@@ -3553,7 +3575,7 @@ Modifying a W3C Recommendation</h3>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
 									<tspan x="302" y="170">Director Decision</tspan>
-									<tspan x="304" y="180">e.g. for minor changes</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -3799,26 +3821,19 @@ Evergreen Recommendation</h3>
     <li>
 		  <em class="rfc2119">must</em> document the consensus of the Working Group,
 
-      Note: Similar to in the W3C Recommendation track, the Chair has a responsibility to ensure the Group operates under consensus. In
-			the Evergreen Recommendation track, it will likely be less likely to issue calls for consensus or assess consensus as a result
-			of a poll of participants; however, the Chair has an important oversight role to ensure that the group's discussions proceed
-			according to the <span id="procedural-consensus">procedural approach chartered for the group</a>, are in accordance with [[CEPC]], and has the responsibility to be
-			an impartial facilitator to decision-making when necessary. Finally, of course, the Chair is the arbiter to whom participants
-			appeal when they disagree with the way that the editors are documenting the evolving consensus of the group. The chair can
-			facilitate discussion between the participant and editor, issue informative calls for consensus, or engage in other
-			discussions to see whether consensus can be reached or whether the editor can adjust their position. Ultimately, the Chair
-			has the authority to overrule the Editor and remove them if necessary.
+			Issue: we need to revise the definition of consensus to clarify that the Working Group is free to make decisions as
+			they see fit, e.g. the editor can make decision on behalf of the Group and the Chair is there to overrule the Editor and remove them if necessary.
 
     <li>
 		  <em class="rfc2119">must</em> provide, except for [=Registries=], feature-by-feature tagging to illustrate the level of review and
 			implementation applied to the feature:
 
 			<ul>
-			  <li>
-				  <em class="rfc2119">must</em> provide a designation indicating the level of implementation experience
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has been in the spec for at least 180 days
-					(giving some indication that the feature has received sufficient review).
+					(giving some indication that the feature has received sufficient review). [=Substantive changes=] to a feature
+					triggers a new 180 days period and the Group <em class="rfc2119">must</em> re-evaluate the associated tagging designation
+					for adequate implementation experience.
         <li>
 				  <em class="rfc2119">must</em> provide a designation whether the feature has appeared in an Evergreen Recommendation
 					snapshot and is therefore covered by the
@@ -3826,10 +3841,20 @@ Evergreen Recommendation</h3>
           Review Draft Licensing Obligations</a>.
         <li>
 				  <em class="rfc2119">should</em> provide information as to whether the feature has implementation commitments
+			  <li>
+				  <em class="rfc2119">should</em> provide a designation indicating the level of adequate implementation experience.
+					A feature is not considered to be recommended until a feature has adequate implementation experience and this tagging designation has been updated.
 			</ul>
 		<li>
       <em class="rfc2119">should</em> report which, if any, of the Working Group's requirements for this document
 			have changed since the last publication.
+
+ W3C recommends a feature listed in its Evergreen Recommendations if it has been in the document for at least 180 days
+ and has been marked as having adequate implementation experience. By default, the level of implementation experience is
+ considered <dfn id="Events" export	lt="default adequate implementation experience">adequate</dfn> if at least 2
+ distinct products by 2 different	implementers, as evidenced by passing tests of a test suite providing extensive
+ coverage of the changes. The Group	charter MAY provide an alternative set of criteria to indicate the adequacy of
+ implementation experience.
 
   In rare occurrences, an individual <em class="rfc2119">may</em> register a Formal Objection to a decision. The Group:
 
@@ -3862,9 +3887,9 @@ Evergreen Recommendation</h3>
 Evergreen Recommendation Snapshot</h3>
 
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
-	if 24 months elapse with [=substantive changes=] to ensure they get a thorough IPR review as per the
-  <a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
-  Review Draft Licensing Obligations</a>.
+	if 24 months elapse with [=substantive changes=] changes to ensure they get a thorough IPR review as per the
+	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
+	Review Draft Licensing Obligations</a>.
 
   To publish an Evergreen Recommendation Snapshot, in addition to meeting the requirements for <a href="#evergreen-rec">Evergreen
 	Recommendation</a> a Working Group:
@@ -3872,6 +3897,8 @@ Evergreen Recommendation Snapshot</h3>
   <ul>
 	  <li>
 		  must record the group's decision to request advancement.
+		<li>
+			<em class="rfc2119">must</em> document the changes since the previous [=Evergreen Recommendation Snapshot=],
   </ul>
 
 
@@ -4230,7 +4257,7 @@ After the Review Period</h4>
 	<ol>
 		<li>
 			The proposal is approved,
-			possibly with minor changes integrated.
+			possibly with [=editorial changes=] integrated.
 
 		<li>
 			The proposal is approved,
@@ -4972,6 +4999,12 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
+
+		<li>
+			Eliminate the use of the undefined “minor changes” term
+
+		<li>
+			Define and differentiate between Group Decisions and Chair Decisions.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
