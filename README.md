@@ -1,7 +1,4 @@
 # W3C Process Document repository
-<style>
-a img  { vertical-align: text-bottom;}
-</style>
 
 [master](https://github.com/w3c/w3process/tree/master) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process) /
