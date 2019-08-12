@@ -3024,7 +3024,7 @@ First Public Working Draft</h4>
 
 	The [=First Public Working Draft=]
 	is a First Patent Review Draft
-	as defined in [[PATENT-POLICY#|review-draft-publication|section 5.4]] of the W3C Patent Policy
+	as defined in [[PATENT-POLICY#review-draft-publication|section 5.4]] of the W3C Patent Policy
 	and its publication triggers a Call for Exclusions,
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
