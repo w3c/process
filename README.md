@@ -1,14 +1,28 @@
 # W3C Process Document repository
 
-[master](https://github.com/w3c/w3process/tree/master) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process)
+[master](https://github.com/w3c/w3process/tree/master) branch:
+* [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process)
+* [Preview](https://w3c.github.io/w3process/)
 
-[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=evergreen)](https://travis-ci.com/w3c/w3process)
+[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch:
+* [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=evergreen)](https://travis-ci.com/w3c/w3process)
+* [Preview](https://w3c.github.io/w3process/evergreen/)
+* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fevergreen)
 
-[everblue](https://github.com/w3c/w3process/tree/everblue) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=everblue)](https://travis-ci.com/w3c/w3process)
+[everblue](https://github.com/w3c/w3process/tree/everblue) branch:
+* [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=everblue)](https://travis-ci.com/w3c/w3process)
+* [Preview](https://w3c.github.io/w3process/everblue/)
+* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue)
 
-[director-free](https://github.com/w3c/w3process/tree/director-free) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=director-free)](https://travis-ci.com/w3c/w3process)
+[director-free](https://github.com/w3c/w3process/tree/director-free) branch:
+* [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=director-free)](https://travis-ci.com/w3c/w3process)
+* [Preview](https://w3c.github.io/w3process/director-free/)
+* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fdirector-free)
 
-[registries](https://github.com/w3c/w3process/tree/registries) branch: [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries)](https://travis-ci.com/w3c/w3process)
+[registries](https://github.com/w3c/w3process/tree/registries) branch:
+* [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries)](https://travis-ci.com/w3c/w3process)
+* [Preview](https://w3c.github.io/w3process/registries)
+* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries)
 
 This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
 
