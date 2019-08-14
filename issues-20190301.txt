@@ -367,3 +367,13 @@ Summary:  CR change documentation requirement should be for substantive changes 
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/307
 Open
+----
+Issue 46.
+Summary:  Evolution of documents that are linked to the process
+From:     Jeff Jaffe, Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/305
+Comment:  https://github.com/w3c/w3process/issues/319
+Comment:  https://github.com/w3c/w3process/issues/318
+Response: https://github.com/w3c/w3process/pull/309
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/309#issuecomment-521268434
