@@ -377,3 +377,10 @@ Comment:  https://github.com/w3c/w3process/issues/318
 Response: https://github.com/w3c/w3process/pull/309
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/309#issuecomment-521268434
+----
+Issue 47.
+Summary:  Add note to Process about flexibility of consensus
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/296
+Response: https://github.com/w3c/w3process/pull/323
+Open
