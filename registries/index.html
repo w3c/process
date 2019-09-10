@@ -6,9 +6,9 @@
   <link href="https://www.w3.org/StyleSheets/TR/2016/base.css" rel="stylesheet" type="text/css">
   <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
-  <meta content="Bikeshed version 450e0499b28bb4c684052ad936ad1e7d36c4eac5" name="generator">
+  <meta content="Bikeshed version cb5a17652cb33dffd20b8b6a876bb811c1f749a9" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="b2f4f8a23aa464bc5145bcea55d9c70de1640c19" name="document-revision">
+  <meta content="baecc7725a256c322cc822903d260a10f8247700" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -238,7 +238,7 @@ pre .property::before, pre .property::after {
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-08-16">16 August 2019</time> </span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2019-09-10">10 September 2019</time> </span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -283,7 +283,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 16 August 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
+	This is the 10 September 2019 Editor’s draft for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 
 which is the currently operative W3C Process.</p>
@@ -459,13 +459,14 @@ which is the currently operative W3C Process.</p>
       <li>
        <a href="#registries"><span class="secno">6.3</span> <span class="content"> Registries</span></a>
        <ol class="toc">
-        <li><a href="#reg-contents"><span class="secno">6.3.1</span> <span class="content"> Contents of a Registry Report</span></a>
+        <li><a href="#reg-rules"><span class="secno">6.3.1</span> <span class="content"> Rules of a Registry</span></a>
+        <li><a href="#reg-contents"><span class="secno">6.3.2</span> <span class="content"> Registry Reports</span></a>
         <li>
-         <a href="#reg-maturity"><span class="secno">6.3.2</span> <span class="content"> Maturity Levels of Registries</span></a>
+         <a href="#reg-maturity"><span class="secno">6.3.3</span> <span class="content"> Maturity Levels of Registries</span></a>
          <ol class="toc">
-          <li><a href="#draft-reg"><span class="secno">6.3.2.1</span> <span class="content"> Draft Registry</span></a>
-          <li><a href="#proposed-reg"><span class="secno">6.3.2.2</span> <span class="content"> Proposed Registry</span></a>
-          <li><a href="#rec-reg"><span class="secno">6.3.2.3</span> <span class="content"> W3C Registry</span></a>
+          <li><a href="#draft-reg"><span class="secno">6.3.3.1</span> <span class="content"> Draft Registry</span></a>
+          <li><a href="#proposed-reg"><span class="secno">6.3.3.2</span> <span class="content"> Proposed Registry</span></a>
+          <li><a href="#rec-reg"><span class="secno">6.3.3.3</span> <span class="content"> W3C Registry</span></a>
          </ol>
        </ol>
       <li>
@@ -490,6 +491,7 @@ which is the currently operative W3C Process.</p>
         <li><a href="#revised-rec-editorial"><span class="secno">6.8.3</span> <span class="content"> Revising a Recommendation: Editorial Changes</span></a>
         <li><a href="#revised-rec-substantive"><span class="secno">6.8.4</span> <span class="content"> Revising a Recommendation: Substantive Changes</span></a>
         <li><a href="#revised-rec-features"><span class="secno">6.8.5</span> <span class="content"> Revising a Recommendation: New Features</span></a>
+        <li><a href="#revised-rec-registry"><span class="secno">6.8.6</span> <span class="content"> Revising a Recommendation: Registry Changes</span></a>
        </ol>
       <li><a href="#Note"><span class="secno">6.9</span> <span class="content"> Publishing a Working Group or Interest Group Note</span></a>
       <li><a href="#rec-rescind"><span class="secno">6.10</span> <span class="content"> Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</span></a>
@@ -583,7 +585,7 @@ which is the currently operative W3C Process.</p>
 			At the end of the process,
 			the Advisory Committee reviews the mature technical report,
 			and if there is support,
-			W3C publishes it as a <a href="#RecsW3C" id="ref-for-RecsW3C⑥③">Recommendation</a>. 
+			W3C publishes it as a <a href="#RecsW3C" id="ref-for-RecsW3C⑥⑦">Recommendation</a>. 
    </ol>
    <p>The Process Document promotes the goals of quality and fairness in technical decisions
 	by encouraging <a href="#Consensus">consensus</a>,
@@ -1410,7 +1412,7 @@ which is the currently operative W3C Process.</p>
    <p>Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision <em class="rfc2119">should</em> register with the Chair any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection⑤">Formal Objections</a> (e.g., to a decision made as the result of a <a href="#Votes">vote</a>).</p>
    <p>As detailed in other parts of this document,
-	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⓪">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
+	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧①">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
 	to make certain decisions based on their own judgement.
 	Such decisions are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="chair-decisions">Chair Decisions</dfn>.
 	In contrast,
@@ -1539,7 +1541,7 @@ which is the currently operative W3C Process.</p>
    <h2 class="heading settled" data-level="5" id="GAGeneral"><span class="secno">5. </span><span class="content"> <span id="ChapterGroups"></span> Working Groups and Interest Groups</span><a class="self-link" href="#GAGeneral"></a></h2>
    <p id="GAGroups">This document defines two types of groups: </p>
    <dl>
-    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧①">Working Groups</a>. 
+    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧②">Working Groups</a>. 
     <dd> <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG②">Working Groups</a> typically produce deliverables
 			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
 			software,
@@ -1551,7 +1553,7 @@ which is the currently operative W3C Process.</p>
     <dd> The primary goal of an <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG②">Interest Group</a> is to bring together people who wish to evaluate potential Web technologies and policies.
 			An Interest Group is a forum for the exchange of ideas. 
    </dl>
-   <p><a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG③">Interest Groups</a> do not publish <a href="#RecsW3C" id="ref-for-RecsW3C⑥④">Recommendation Track technical reports</a>;
+   <p><a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG③">Interest Groups</a> do not publish <a href="#RecsW3C" id="ref-for-RecsW3C⑥⑧">Recommendation Track technical reports</a>;
 	see information about <a href="#WGNote" id="ref-for-WGNote">maturity levels for Interest Groups</a>.</p>
    <h3 class="heading settled" data-level="5.1" id="ReqsAllGroups"><span class="secno">5.1. </span><span class="content"> Requirements for All Working and Interest Groups</span><a class="self-link" href="#ReqsAllGroups"></a></h3>
    <p>Each group <em class="rfc2119">must</em> have a charter.
@@ -1941,7 +1943,7 @@ which is the currently operative W3C Process.</p>
 	This allows the entire W3C membership to provide feedback
 	on whether the specification is appropriate as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③">W3C Recommendation</a>,
 	while the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG①②">Working Group</a> formally collects <a href="implementation-experience">implementation experience</a> to demonstrate that the specification works in practice.
-	The next phase is a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①②">Proposed Recommendation</a>,
+	The next phase is a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①③">Proposed Recommendation</a>,
 	to finalize the review of W3C Members.
 	If the Director determines that W3C Member review
 	supports a specification becoming a standard,
@@ -2473,9 +2475,7 @@ which is the currently operative W3C Process.</p>
 	conceptually a table with independent rows
 	and rules for the values in the columns
 	(e.g. that values in a column be drawn from a defined set).</p>
-   <p>A W3C <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn> is a <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report③">technical report</a> that defines
-	one or more such <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②">registry tables</a>.</p>
-   <p>The purposes of a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report">registry report</a> can include:</p>
+   <p>The purposes of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②">registry table</a> can include:</p>
    <dl>
     <dt>non-collision 
     <dd> Avoiding the problem
@@ -2495,50 +2495,55 @@ which is the currently operative W3C Process.</p>
     <dt>consensus 
     <dd> Promoting a clear consensus of the community on the terms. 
    </dl>
-   <h4 class="heading settled" data-level="6.3.1" id="reg-contents"><span class="secno">6.3.1. </span><span class="content"> Contents of a Registry Report</span><a class="self-link" href="#reg-contents"></a></h4>
-   <p>For each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table③">registry table</a>,
-	the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①">registry report</a> must:</p>
+   <h4 class="heading settled" data-level="6.3.1" id="reg-rules"><span class="secno">6.3.1. </span><span class="content"> Rules of a Registry</span><a class="self-link" href="#reg-rules"></a></h4>
+   <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="rules-of-the-registry">rules of the registry</dfn> defines what the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table③">registry table</a> is and how it is maintained.
+	They must:</p>
    <ul>
-    <li> Clearly label it as a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table④">registry table</a>,
-			including a link to this section of the Process. 
-    <li> Define the scope and purpose of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑤">registry table</a>. 
-    <li> Define the fields of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑥">registry table</a> and their constraints. 
+    <li> Define the scope and purpose of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table④">registry table</a>. 
+    <li> Define the fields of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑤">registry table</a> and their constraints. 
     <li> Define the method and critera by which changes are proposed, approved, and incorporated
-			(For example, a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report②">registry report</a> could require
+			(For example, a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report">registry report</a> could require
 			that <a data-link-type="dfn" href="#entry" id="ref-for-entry①">registry entries</a> can be added but not changed,
 			or that they must be approved by a member of a particular Working Group). 
     <li>
-      Identify the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="custodian">custodian</dfn> of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑦">registry table</a>:
+      Identify the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="custodian">custodian</dfn> of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑥">registry table</a>:
 			the entity to which request for <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change">registry changes</a> must be sent,
 			and which is responsible for evaluating whether such requests
-			satisfy the criteria defined in the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report③">registry report</a>. 
+			satisfy the criteria defined in the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry">rules of the registry</a>. 
      <p>The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian①">custodian</a> may be the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑦">Working Group</a>, the <a data-link-type="dfn" href="#team" id="ref-for-team②⑥">Team</a>, or a delegated entity.
-			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑧">registry tables</a> in a single <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report④">registry report</a> <em class="rfc2119">should</em> generally be the same entity.</p>
-    <li> Include, if the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry table</a> is provided in a machine-readable file,
+			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑦">registry tables</a> in a single <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①">registry report</a> <em class="rfc2119">should</em> generally be the same entity.</p>
+   </ul>
+   <h4 class="heading settled" data-level="6.3.2" id="reg-contents"><span class="secno">6.3.2. </span><span class="content"> Registry Reports</span><a class="self-link" href="#reg-contents"></a></h4>
+   <p>Registries can be published either as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report③">technical report</a> called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>,
+	or incorporated as part of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑤">W3C Recommendation</a> as a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-section">registry section</dfn>.
+	In either case, the report must:</p>
+   <ul>
+    <li> Clearly label the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report②">registry report</a>/<a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section">section</a> and its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑧">tables</a> as such,
+			including a link to this section of the Process. 
+    <li> Define the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry①">rules of the registry</a> for each of its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry tables</a>. 
+    <li> Include the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">registry table</a>,
+			either inline in the report
+			(e.g. formatted as a table, or list, or other appropriate representation),
+			or in a machine-readable file published as part of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report④">technical report</a>,
+			or (preferably) both. 
+    <li> Include, if the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①①">registry table</a> is provided in a machine-readable file,
 			a definition of the format of that file 
    </ul>
-   <p>The above definitions—<wbr>that define what the registry is and how it is maintained—<wbr>are called the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="rules-of-the-registry">rules of the registry</dfn>.</p>
-   <p>The <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑤">registry report</a> must also
-	incorporate the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">registry table</a>,
-	either inline in the report
-	(e.g. formatted as a table, or list, or other appropriate representation),
-	or in a machine-readable file published as part of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report④">technical report</a>,
-	or (preferably) both.</p>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team②⑦">Team</a> <em class="rfc2119">must</em> make available
-	a means for interested parties to be notified of any updates to a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①①">registry table</a>.</p>
+	a means for interested parties to be notified of any updates to a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①②">registry table</a>.</p>
    <p class="note" role="note"><span>Note:</span> Since the Process does not impose requirements
-	on changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①②">registry table</a> other than those imposed by the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry">rules of the registry</a>,
+	on changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①③">registry table</a> other than those imposed by the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry②">rules of the registry</a>,
 	acceptance of proposed <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change①">registry changes</a> on behalf of the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian③">custodian</a> and
-	publication of an updated <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑥">registry report</a> that contains
+	publication of an updated <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report③">registry report</a> that contains
 	only <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change②">registry changes</a> since the previous publication
 	can be automated
 	if satisfaction of those rules can be automatically verified.</p>
-   <p>A <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑦">registry report</a> is purely documentational,
+   <p>A <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report④">registry report</a> or <a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section①">registry section</a> is purely documentational,
 	contains no requirements on implementers,
 	and is not subject to
 	the licensing commitments of the W3C Patent Policy.</p>
-   <h4 class="heading settled" data-level="6.3.2" id="reg-maturity"><span class="secno">6.3.2. </span><span class="content"> Maturity Levels of Registries</span><a class="self-link" href="#reg-maturity"></a></h4>
-   <h5 class="heading settled" data-level="6.3.2.1" id="draft-reg"><span class="secno">6.3.2.1. </span><span class="content"> Draft Registry</span><a class="self-link" href="#draft-reg"></a></h5>
+   <h4 class="heading settled" data-level="6.3.3" id="reg-maturity"><span class="secno">6.3.3. </span><span class="content"> Maturity Levels of Registries</span><a class="self-link" href="#reg-maturity"></a></h4>
+   <h5 class="heading settled" data-level="6.3.3.1" id="draft-reg"><span class="secno">6.3.3.1. </span><span class="content"> Draft Registry</span><a class="self-link" href="#draft-reg"></a></h5>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="draft-registry">Draft Registry</dfn> is a document that is intended to become a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registry</a>,
 	and that has been published for review by the community,
 	including W3C Members, the public,
@@ -2549,7 +2554,7 @@ which is the currently operative W3C Process.</p>
 	A <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry②">Draft Registry</a> is suitable for gathering wide review prior to advancing to the next stage of maturity.</p>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team②⑧">Team</a> <em class="rfc2119">must</em> announce
 	the publication of the first published <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry③">Draft Registry</a> to other W3C groups and to the public.</p>
-   <p><a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change③">Registry changes</a> can be made by simply re-publishing the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry④">Draft Registry</a> so long as they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry①">rules of the registry</a>.
+   <p><a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change③">Registry changes</a> can be made by simply re-publishing the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry④">Draft Registry</a> so long as they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry③">rules of the registry</a>.
 	Additionally, any aspect of a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑤">Draft Registry</a> can be <a href="#revised-wd">revised</a> in the same manner as a <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⓪">Working Draft</a>.</p>
    <p>Any <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑥">Draft Registry</a> no longer intended to advance to <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①">W3C Registry</a> should be published as a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote⑦">Working Group Note</a>.</p>
    <p>Possible next steps for a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑦">Draft Registry</a>:</p>
@@ -2558,7 +2563,7 @@ which is the currently operative W3C Process.</p>
     <li><a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry">Proposed Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote⑧">Working Group Note</a> 
    </ul>
-   <h5 class="heading settled" data-level="6.3.2.2" id="proposed-reg"><span class="secno">6.3.2.2. </span><span class="content"> Proposed Registry</span><a class="self-link" href="#proposed-reg"></a></h5>
+   <h5 class="heading settled" data-level="6.3.3.2" id="proposed-reg"><span class="secno">6.3.3.2. </span><span class="content"> Proposed Registry</span><a class="self-link" href="#proposed-reg"></a></h5>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="proposed-registry">Proposed Registry</dfn> is a document
 	that satisfies the technical requirements
 	of the Working Group that produced it
@@ -2571,27 +2576,26 @@ which is the currently operative W3C Process.</p>
    <p>Substantive changes <em class="rfc2119">must not</em> be made to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry②">Proposed Registry</a> except by publishing a new <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑨">Draft Registry</a>,
 	or by publishing a new <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry③">Proposed Registry</a> and calling for a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③">Advisory Committee Review</a>.</p>
    <p>To publish a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry④">Proposed Registry</a>,
-        in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
-        a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑧">Working Group</a>:</p>
+	in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑧">Working Group</a>:</p>
    <ul>
-    <li> <em class="rfc2119">must</em> show that the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑧">registry report</a> has met all <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑨">Working Group</a> requirements,
-                        or explain why the requirements have changed or been deferred, 
+    <li> <em class="rfc2119">must</em> show that the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑤">registry report</a> has met all <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑨">Working Group</a> requirements,
+			or explain why the requirements have changed or been deferred, 
     <li> <em class="rfc2119">must</em> document changes to dependencies
-			during the development of the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑨">registry report</a>, 
-    <li> <em class="rfc2119">must</em> show that the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①⓪">registry report</a> has received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review①">wide review</a>, and 
+			during the development of the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑥">registry report</a>, 
+    <li> <em class="rfc2119">must</em> show that the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑦">registry report</a> has received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review①">wide review</a>, and 
     <li> <em class="rfc2119">must</em> show that all issues
-                        raised during the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①⓪">Draft Registry</a> review period
-                        have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed②">formally addressed</a>, 
+			raised during the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①⓪">Draft Registry</a> review period
+			have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed②">formally addressed</a>, 
     <li> <em class="rfc2119">must</em> specify in the status section
-                        the deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review④">Advisory Committee review</a>,
-                        which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days
-                        after the publication of the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑤">Proposed Registry</a>. 
+			the deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review④">Advisory Committee review</a>,
+			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days
+			after the publication of the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑤">Proposed Registry</a>. 
    </ul>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team②⑨">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑥">Proposed Registry</a> to the <a href="#AC">Advisory Committee</a>,
-        and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑤">Advisory Committee Review</a> on the question of whether the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①①">registry report</a></p>
-    is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①①">publish</a> as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry③">W3C Registry</a>. 
-   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①③">registry table</a> (.e. <a href="#correction-classes">Class 5 changes</a>)
-	can be made by re-publishing the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑦">Proposed Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry②">rules of the registry</a>.
+	and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑤">Advisory Committee Review</a> on the question of whether the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑧">registry report</a> is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①①">publish</a> as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry③">W3C Registry</a>.</p>
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①④">registry table</a> (.e. <a href="#correction-classes">Class 5 changes</a>)
+	can be made by re-publishing the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑦">Proposed Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry④">rules of the registry</a>.
 	These changes do not trigger a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑥">Advisory Committee Review</a> (since they would be allowed without review in the final <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry④">W3C Registry</a> anyway).</p>
    <p>Since a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑤">W3C Registry</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change②">substantive changes</a> from the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑧">Proposed Registry</a> it is based on,
 	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change③">substantive change</a> to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑨">Proposed Registry</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④⓪">Working Group</a> <em class="rfc2119">must</em> publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⓪">Proposed Registry</a> or return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①①">Draft Registry</a>.</p>
@@ -2613,8 +2617,8 @@ which is the currently operative W3C Process.</p>
     <li><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑦">W3C Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote⑨">Working Group Note</a> 
    </ul>
-   <h5 class="heading settled" data-level="6.3.2.3" id="rec-reg"><span class="secno">6.3.2.3. </span><span class="content"> W3C Registry</span><a class="self-link" href="#rec-reg"></a></h5>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="w3c-registry">W3C Registry</dfn> is a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①②">registry report</a> that,
+   <h5 class="heading settled" data-level="6.3.3.3" id="rec-reg"><span class="secno">6.3.3.3. </span><span class="content"> W3C Registry</span><a class="self-link" href="#rec-reg"></a></h5>
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="w3c-registry">W3C Registry</dfn> is a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑨">registry report</a> that,
 	after extensive <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus⑥">consensus</a>-building,
 	has received the endorsement of the W3C.
 	W3C recommends the wide use
@@ -2635,14 +2639,14 @@ which is the currently operative W3C Process.</p>
 			other W3C groups
 			and to the public. 
    </ul>
-   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①④">registry table</a> (i.e. <a href="#correction-classes">Class 5 changes</a>)
-	can be made by re-publishing the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①③">W3C Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry③">rules of the registry</a>.
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑤">registry table</a> (i.e. <a href="#correction-classes">Class 5 changes</a>)
+	can be made by re-publishing the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①③">W3C Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry⑤">rules of the registry</a>.
 	Such publications can be made even in the absence
 	of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④①">Working Group</a> chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①④">W3C Registry</a> when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian④">custodian</a> is another entity.</p>
    <p>The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④②">Working Group</a> (or the <a data-link-type="dfn" href="#team" id="ref-for-team③①">Team</a>, if no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④③">Working Group</a> is chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑤">W3C Registry</a>)
 	may re-publish an updated <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑥">W3C Registry</a> to make <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change①">editorial changes</a> (i.e. <a href="#correction-classes">Class 1 or Class 2 changes</a>)
 	to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑦">W3C Registry</a>.</p>
-   <p>In order to make <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑤">substantive changes</a> to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑧">W3C Registry</a> (i.e. changes to the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry④">rules of the registry</a>),
+   <p>In order to make <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑤">substantive changes</a> to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑧">W3C Registry</a> (i.e. changes to the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry⑥">rules of the registry</a>),
 	the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④④">Working Group</a> must publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑥">Proposed Registry</a> or return it to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①③">Draft Registry</a>.</p>
    <p>Possible next steps for a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑨">W3C Registry</a>:</p>
    <ul>
@@ -2769,12 +2773,15 @@ which is the currently operative W3C Process.</p>
 			These features <em class="rfc2119">may</em> be removed
 			before advancement to <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑤">Proposed Recommendation</a> without a requirement to publish a new <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②②">Candidate Recommendation</a>. 
    </ul>
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑥">registry table</a> (.e. <a href="#correction-classes">Class 5 changes</a>)
+	can be made by re-publishing the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②③">Candidate Recommendation</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry⑦">rules of the registry</a>.
+	These changes do not trigger a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑦">Advisory Committee Review</a> (since they would be allowed without review in the final <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑥">W3C Recommendation</a> anyway).</p>
    <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②①">Director</a> <em class="rfc2119">must</em> announce the publication
-	of a revised <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②③">Candidate Recommendation</a> to other W3C groups and the Public.</p>
+	of a revised <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②④">Candidate Recommendation</a> to other W3C groups and the Public.</p>
    <h3 class="heading settled" data-level="6.6" id="rec-pr"><span class="secno">6.6. </span><span class="content"> Proposed Recommendation</span><a class="self-link" href="#rec-pr"></a></h3>
    <p>In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,</p>
    <ul>
-    <li> The status information <em class="rfc2119">must</em> specify the deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑦">Advisory Committee review</a>,
+    <li> The status information <em class="rfc2119">must</em> specify the deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑧">Advisory Committee review</a>,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days
 			after the publication of the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑥">Proposed Recommendation</a> and <em class="rfc2119">should</em> be at least 10 days
 			after the end of the last Exclusion Opportunity
@@ -2786,23 +2793,26 @@ which is the currently operative W3C Process.</p>
     <li> <em class="rfc2119">must</em> show <a data-link-type="dfn" href="#adequate-implementation" id="ref-for-adequate-implementation①">adequate implementation experience</a> except where an exception is approved by the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②②">Director</a>, 
     <li> <em class="rfc2119">must</em> show that the document has received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review④">wide review</a>, 
     <li> <em class="rfc2119">must</em> show that all issues
-			raised during the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②④">Candidate Recommendation</a> review period
+			raised during the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑤">Candidate Recommendation</a> review period
 			other than by <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑧">Advisory Committee representatives</a> acting in their formal <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑨">AC representative</a> role
 			have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed④">formally addressed</a>, 
     <li> <em class="rfc2119">must </em>identify any substantive issues
-			raised since the close of the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑤">Candidate Recommendation</a> review period, 
+			raised since the close of the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑥">Candidate Recommendation</a> review period, 
     <li> <em class="rfc2119">may</em> have removed features
-			identified in the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑥">Candidate Recommendation</a> document as <a data-link-type="dfn" href="#at-risk" id="ref-for-at-risk②">at risk</a> without republishing the specification as a <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑦">Candidate Recommendation</a>. 
+			identified in the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑦">Candidate Recommendation</a> document as <a data-link-type="dfn" href="#at-risk" id="ref-for-at-risk②">at risk</a> without republishing the specification as a <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑧">Candidate Recommendation</a>. 
    </ul>
    <p>The Director:</p>
    <ul>
     <li> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑦">Proposed Recommendation</a> to the <a href="#AC">Advisory Committee</a>,
-			and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑧">Advisory Committee Review</a> on the question of whether the specification is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑥">publish</a> as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑤">W3C Recommendation</a>. 
+			and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑨">Advisory Committee Review</a> on the question of whether the specification is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑥">publish</a> as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑦">W3C Recommendation</a>. 
     <li> <em class="rfc2119">may</em> approve a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑧">Proposed Recommendation</a> with minimal <a href="#implementation-experience">implementation experience</a> where there is a compelling reason to do so.
 			In such a case, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②③">Director</a> <em class="rfc2119">should</em> explain the reasons for that decision. 
    </ul>
-   <p>Since a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑥">W3C Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑨">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑨">Proposed Recommendation</a> it is based on,
-	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①⓪">substantive change</a> to a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①⓪">Proposed Recommendation</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑤">Working Group</a> <em class="rfc2119">must</em> return the specification to <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑧">Candidate Recommendation</a> or <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑤">Working Draft</a>.</p>
+   <p>Since a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑧">W3C Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑨">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑨">Proposed Recommendation</a> it is based on,
+	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①⓪">substantive change</a> to a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①⓪">Proposed Recommendation</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑤">Working Group</a> <em class="rfc2119">must</em> return the specification to <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⑨">Candidate Recommendation</a> or <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑤">Working Draft</a>.</p>
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑦">registry table</a> (.e. <a href="#correction-classes">Class 5 changes</a>)
+	can be made by re-publishing the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①①">Proposed Recommendation</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry⑧">rules of the registry</a>.
+	These changes do not trigger a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⓪">Advisory Committee Review</a> (since they would be allowed without review in the final <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑨">W3C Recommendation</a> anyway).</p>
    <p>Possible Next Steps:</p>
    <ul>
     <li> Return to <a href="#revised-wd">Working Draft</a> 
@@ -2813,24 +2823,24 @@ which is the currently operative W3C Process.</p>
    </ul>
    <p><a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⓪">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal①">Advisory Committee Appeal</a> of the decision to advance the technical report.</p>
    <h3 class="heading settled" data-level="6.7" id="rec-publication"><span class="secno">6.7. </span><span class="content"> W3C Recommendation</span><a class="self-link" href="#rec-publication"></a></h3>
-   <p>The decision to advance a document to <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑦">Recommendation</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision②">W3C Decision</a>.</p>
+   <p>The decision to advance a document to <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⓪">Recommendation</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision②">W3C Decision</a>.</p>
    <p>In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,</p>
    <ul>
-    <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑧">Recommendation</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
-    <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑨">Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①①">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①①">Proposed Recommendation</a> on which it is based. 
+    <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③①">Recommendation</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
+    <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③②">Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①①">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①②">Proposed Recommendation</a> on which it is based. 
     <li> If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent③">dissent</a> in Advisory Committee reviews,
 			the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②④">Director</a> <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑤">formally address</a> the comment
-			at least 14 days before publication as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⓪">W3C Recommendation</a>. 
+			at least 14 days before publication as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③③">W3C Recommendation</a>. 
     <li> <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②①">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate
 			an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal②">Advisory Committee Appeal</a> of the <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision③">W3C decision</a> 
-    <li> The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑤">Director</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③①">W3C Recommendation</a> to <a href="#AC">Advisory Committee</a>,
+    <li> The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑤">Director</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③④">W3C Recommendation</a> to <a href="#AC">Advisory Committee</a>,
 			other W3C groups
 			and to the public. 
    </ul>
    <p>Possible next steps:
-	A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③②">W3C Recommendation</a> normally retains its status indefinitely.
+	A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑤">W3C Recommendation</a> normally retains its status indefinitely.
 	However it <em class="rfc2119">may</em> be:</p>
    <ul>
     <li> republished as an <a href="#rec-modify">Edited or Amended Recommendation</a>, or 
@@ -2840,7 +2850,7 @@ which is the currently operative W3C Process.</p>
    </ul>
    <h3 class="heading settled" data-level="6.8" id="rec-modify"><span class="secno">6.8. </span><span class="content"> Modifying a W3C Recommendation</span><a class="self-link" href="#rec-modify"></a></h3>
    <p>This section details the management of errors in,
-	and the process for making changes to a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③③">Recommendation</a>.
+	and the process for making changes to a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑥">Recommendation</a>.
 	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> <a data-link-type="biblio" href="#biblio-republishing">[REPUBLISHING]</a>.</p>
    <div aria-label="Revising a W3C Recommendation" role="region">
     <svg viewBox="-5 60 630 250" width="100%" xmlns="http://www.w3.org/2000/svg">
@@ -3067,10 +3077,10 @@ which is the currently operative W3C Process.</p>
     </svg>
    </div>
    <h4 class="heading settled" data-level="6.8.1" id="errata"><span class="secno">6.8.1. </span><span class="content"> Errata Management</span><a class="self-link" href="#errata"></a></h4>
-   <p>Tracking errors is an important part of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑥">Working Group</a>'s ongoing care of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③④">Recommendation</a>;
+   <p>Tracking errors is an important part of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑥">Working Group</a>'s ongoing care of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑦">Recommendation</a>;
 	for this reason,
 	the scope of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑦">Working Group</a> charter generally allows time
-	for work after publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑤">Recommendation</a>.
+	for work after publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑧">Recommendation</a>.
 	In this Process Document,
 	the term “<dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="erratum | errata" id="erratum">erratum</dfn>”
 	(plural “errata”) refers to any error
@@ -3079,38 +3089,38 @@ which is the currently operative W3C Process.</p>
    <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑧">Working Groups</a> <em class="rfc2119">must</em> keep a record
 	as errors are reported by readers and implementers.
 	Such error reports <em class="rfc2119">should</em> be processed no less frequently than quarterly.
-	Readers of the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑥">Recommendation</a> <em class="rfc2119">should</em> be able easily
+	Readers of the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑨">Recommendation</a> <em class="rfc2119">should</em> be able easily
 	to find and see the errata
-	that apply to that specific <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑦">Recommendation</a> with their associated tests.</p>
+	that apply to that specific <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⓪">Recommendation</a> with their associated tests.</p>
    <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑨">Working Groups</a> decide how to document errata.
 	The best practice is a document that identifies itself
-	as based on the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑧">Recommendation</a> text
+	as based on the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④①">Recommendation</a> text
 	and clearly identifies the errata and any proposed corrections;
 	other approaches include various forms of an errata page,
 	possibly auto-generated from a database.</p>
    <p>An <a data-link-type="dfn" href="#erratum" id="ref-for-erratum">erratum</a> is resolved by an informative,
 	“proposed” correction generated by the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⓪">Working Group</a>.
-	A correction becomes part of the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑨">Recommendation</a> by the process for Revising a Recommendation described in the next section.</p>
+	A correction becomes part of the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④②">Recommendation</a> by the process for Revising a Recommendation described in the next section.</p>
    <h4 class="heading settled" data-level="6.8.2" id="revised-rec"><span class="secno">6.8.2. </span><span class="content"> Revising a Recommendation: Markup Changes</span><a class="self-link" href="#revised-rec"></a></h4>
-   <p>A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥①">Working group</a> <em class="rfc2119">may</em> request republication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⓪">Recommendation</a>,
-	or if there is no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥②">Working Group</a> chartered to maintain a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④①">Recommendation</a> W3C <em class="rfc2119">may</em> republish the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④②">Recommendation</a>,
+   <p>A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥①">Working group</a> <em class="rfc2119">may</em> request republication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④③">Recommendation</a>,
+	or if there is no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥②">Working Group</a> chartered to maintain a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④④">Recommendation</a> W3C <em class="rfc2119">may</em> republish the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑤">Recommendation</a>,
 	to make corrections that do not result
 	in any changes to the text of the specification.</p>
    <h4 class="heading settled" data-level="6.8.3" id="revised-rec-editorial"><span class="secno">6.8.3. </span><span class="content"> Revising a Recommendation: Editorial Changes</span><a class="self-link" href="#revised-rec-editorial"></a></h4>
-   <p><a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change③">Editorial changes</a> to a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④③">Recommendation</a> require no technical review of the proposed changes.
+   <p><a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change③">Editorial changes</a> to a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑥">Recommendation</a> require no technical review of the proposed changes.
 	A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥③">Working Group</a>,
-	provided there are no votes against the resolution to publish <em class="rfc2119">may</em> request publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④④">Recommendation</a> or W3C <em class="rfc2119">may</em> publish a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑤">Recommendation</a> to make this class of change without passing through earlier maturity levels.
+	provided there are no votes against the resolution to publish <em class="rfc2119">may</em> request publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑦">Recommendation</a> or W3C <em class="rfc2119">may</em> publish a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑧">Recommendation</a> to make this class of change without passing through earlier maturity levels.
 	Such publications are called <a data-link-type="dfn" href="#edited-recommendation" id="ref-for-edited-recommendation③">Edited Recommendations</a>.</p>
    <h4 class="heading settled" data-level="6.8.4" id="revised-rec-substantive"><span class="secno">6.8.4. </span><span class="content"> Revising a Recommendation: Substantive Changes</span><a class="self-link" href="#revised-rec-substantive"></a></h4>
    <p>To make corrections to a Recommendation that produce <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①②">substantive changes</a> but do not add new features,
-	or where there were votes against publishing the corrections directly as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑥">Recommendation</a>,
+	or where there were votes against publishing the corrections directly as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑨">Recommendation</a>,
 	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥④">Working Group</a> <em class="rfc2119">may</em> request <a href="#candidate-rec">publication of a Candidate Recommendation</a>,
-	or if no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑤">Working Group</a> is chartered to maintain a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑦">Recommendation</a> W3C <em class="rfc2119">may</em> publish a <a href="#candidate-rec">candidate Amended Recommendation</a>,
+	or if no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑤">Working Group</a> is chartered to maintain a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⓪">Recommendation</a> W3C <em class="rfc2119">may</em> publish a <a href="#candidate-rec">candidate Amended Recommendation</a>,
 	without passing through earlier maturity levels.</p>
    <p>If the publication was requested by a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑥">Working Group</a>,
-	the resulting <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑧">Recommendation</a> is called an <a data-link-type="dfn" href="#edited-recommendation" id="ref-for-edited-recommendation④">Edited Recommendation</a>.
+	the resulting <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤①">Recommendation</a> is called an <a data-link-type="dfn" href="#edited-recommendation" id="ref-for-edited-recommendation④">Edited Recommendation</a>.
 	If the publication was requested by the <a data-link-type="dfn" href="#team" id="ref-for-team③②">W3C team</a> in the absence of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑦">Working Group</a>,
-	the resulting <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C④⑨">Recommendation</a> is called an <a data-link-type="dfn" href="#rec-amended" id="ref-for-rec-amended⑦">Amended Recommendation</a>.</p>
+	the resulting <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤②">Recommendation</a> is called an <a data-link-type="dfn" href="#rec-amended" id="ref-for-rec-amended⑦">Amended Recommendation</a>.</p>
    <p>When requesting the publication of an <a data-link-type="dfn" href="#edited-recommendation" id="ref-for-edited-recommendation⑤">Edited</a> or <a data-link-type="dfn" href="#rec-amended" id="ref-for-rec-amended⑧">Amended Recommendation</a> as described in this section,
 	in addition to meeting the requirements for the relevant maturity level,
 	a Working Group or W3C:</p>
@@ -3121,8 +3131,14 @@ which is the currently operative W3C Process.</p>
    <h4 class="heading settled" data-level="6.8.5" id="revised-rec-features"><span class="secno">6.8.5. </span><span class="content"> Revising a Recommendation: New Features</span><a class="self-link" href="#revised-rec-features"></a></h4>
    <p>To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a> beginning with a new <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd①⓪">First Public Working Draft</a>.</p>
+   <h4 class="heading settled" data-level="6.8.6" id="revised-rec-registry"><span class="secno">6.8.6. </span><span class="content"> Revising a Recommendation: Registry Changes</span><a class="self-link" href="#revised-rec-registry"></a></h4>
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑧">registry table</a> (i.e. <a href="#correction-classes">Class 5 changes</a>)
+	can be made by re-publishing the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤③">W3C Recommendation</a> if they are in accordance with the <a data-link-type="dfn" href="#rules-of-the-registry" id="ref-for-rules-of-the-registry⑨">rules of the registry</a>.
+	Such publications can be made even in the absence
+	of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑧">Working Group</a> chartered to maintain the registry
+	when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian⑤">custodian</a> is another entity.</p>
    <h3 class="heading settled" data-level="6.9" id="Note"><span class="secno">6.9. </span><span class="content"> Publishing a Working Group or Interest Group Note</span><a class="self-link" href="#Note"></a></h3>
-   <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑧">Working Groups</a> and <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a> <em class="rfc2119">may</em> publish work as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①③">W3C Notes</a>.
+   <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑨">Working Groups</a> and <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a> <em class="rfc2119">may</em> publish work as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①③">W3C Notes</a>.
 	Examples include:</p>
    <ul>
     <li> supporting documentation for a specification,
@@ -3133,7 +3149,7 @@ which is the currently operative W3C Process.</p>
 			and there is no longer consensus for making them a new standard. 
    </ul>
    <p>In order to publish a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①④">Note</a>,
-	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑨">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①③">Interest Group</a>:</p>
+	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⓪">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①③">Interest Group</a>:</p>
    <ul>
     <li> <em class="rfc2119">may</em> <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑦">publish</a> a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑤">Note</a> with or without its prior publication as a <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑥">Working Draft</a>. 
     <li> <em class="rfc2119">must</em> record the group’s decision
@@ -3147,7 +3163,7 @@ which is the currently operative W3C Process.</p>
     <li> End state:
 			A technical report <em class="rfc2119">may</em> remain
 			a Working or Interest Group <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑦">Note</a> indefinitely 
-    <li> A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⓪">Working Group</a> <em class="rfc2119">may</em> resume work
+    <li> A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦①">Working Group</a> <em class="rfc2119">may</em> resume work
 			on a technical report
 			within the scope of its charter
 			at any time,
@@ -3156,13 +3172,13 @@ which is the currently operative W3C Process.</p>
    <p class="note" role="note"><span>Note:</span> The <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a> does not specify any licensing requirements or commitments for Working Group Notes.</p>
    <h3 class="heading settled" data-level="6.10" id="rec-rescind"><span class="secno">6.10. </span><span class="content"> Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</span><a class="self-link" href="#rec-rescind"></a></h3>
    <p>It is possible that W3C decides
-	that implementing a particular <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⓪">Recommendation</a> is no longer recommended.
+	that implementing a particular <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤④">Recommendation</a> is no longer recommended.
 	There are three designations for such specifications,
 	chosen depending on the advice W3C wishes to give about further use of the specification.</p>
-   <p>W3C <em class="rfc2119">may</em> obsolete a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤①">Recommendation</a>,
-	for example if the W3C Community decides that the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤②">Recommendation</a> no longer represents best practices,
+   <p>W3C <em class="rfc2119">may</em> obsolete a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑤">Recommendation</a>,
+	for example if the W3C Community decides that the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑥">Recommendation</a> no longer represents best practices,
 	or is not adopted and is not apparently likely to be adopted.
-	An <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs①">Obsolete Recommendation</a> <em class="rfc2119">may</em> be restored to normal <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤③">Recommendation</a>,
+	An <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs①">Obsolete Recommendation</a> <em class="rfc2119">may</em> be restored to normal <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑦">Recommendation</a>,
 	for example because despite marking it Obsolete the specification is later more broadly adopted.</p>
    <p>W3C <em class="rfc2119">may</em> declare a Recommendation Superseded
 	if a newer version exists which the W3C recommends for new adoption.
@@ -3174,10 +3190,10 @@ which is the currently operative W3C Process.</p>
 	see the W3C Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a> and in particular <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a> (bullet 10)
 	and <a href="https://www.w3.org/Consortium/Patent-Policy#sec-PAG-conclude">section 7.5</a>.</p>
    <p>W3C only rescinds, supersedes, or obsoletes entire Recommendations.
-	A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤④">Recommendation</a> can be both superseded and obsolete.
+	A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑧">Recommendation</a> can be both superseded and obsolete.
 	To rescind, supersede, or obsolete some part of a Recommendation,
 	W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.</p>
-   <p class="note" role="note"><span>Note:</span> For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a> an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs②">Obsolete</a> or <a data-link-type="dfn" href="#RecsSup" id="ref-for-RecsSup">Superseded Recommendation</a> has the status of an active <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑤">Recommendation</a>,
+   <p class="note" role="note"><span>Note:</span> For the purposes of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a> an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs②">Obsolete</a> or <a data-link-type="dfn" href="#RecsSup" id="ref-for-RecsSup">Superseded Recommendation</a> has the status of an active <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑨">Recommendation</a>,
 	although it is not recommended for future implementation;
 	a <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec①">Rescinded Recommendation</a> ceases to be in effect
 	and no new licenses are granted under the Patent Policy.</p>
@@ -3257,38 +3273,38 @@ which is the currently operative W3C Process.</p>
    <p>The process of obsoleting,
 	rescinding,
 	or restoring
-	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑥">Recommendation</a> can be initiated
+	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⓪">Recommendation</a> can be initiated
 	either by a request from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑥">Director</a> or via a request from any of the following:</p>
    <ul>
-    <li> The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦①">Working Group</a> who produced,
+    <li> The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦②">Working Group</a> who produced,
 			or is chartered to maintain,
-			the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑦">Recommendation</a>. 
-    <li> The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑨">TAG</a>, if there is no such <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦②">Working Group</a> 
-    <li> Any individual who made a request to the relevant <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦③">Working Group</a> as described above,
-			or the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⓪">TAG</a> if such a group does not exist, to obsolete, rescind, or restore a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑧">Recommendation</a>,
+			the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥①">Recommendation</a>. 
+    <li> The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑨">TAG</a>, if there is no such <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦③">Working Group</a> 
+    <li> Any individual who made a request to the relevant <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦④">Working Group</a> as described above,
+			or the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⓪">TAG</a> if such a group does not exist, to obsolete, rescind, or restore a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥②">Recommendation</a>,
 			where the request was not answered within 90 days 
     <li> 5% of the members of the Advisory Committee 
    </ul>
    <p id="proposed-rescinded-rec">The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑦">Director</a> <em class="rfc2119">must</em> then
 	submit the request to the <a href="#AC">Advisory Committee</a> for review.
-	For any <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑨">Advisory Committee review</a> of a proposal to
+	For any <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①①">Advisory Committee review</a> of a proposal to
 	obsolete,
 	rescind,
 	or restore
-	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑤⑨">Recommendation</a> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑧">Director</a> <em class="rfc2119">must</em>: </p>
+	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥③">Recommendation</a> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑧">Director</a> <em class="rfc2119">must</em>: </p>
    <ul>
-    <li> announce the proposal to all <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦④">Working Group</a> <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⑨">Chairs</a>,
+    <li> announce the proposal to all <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑤">Working Group</a> <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⑨">Chairs</a>,
 			and to the Public,
 			as well as to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①③">Advisory Committee</a> 
     <li> indicate that this is a proposal to
 			Rescind,
 			Obsolete,
 			or restore,
-			a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⓪">Recommendation</a> as appropriate 
-    <li> identify the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥①">Recommendation</a> by URL 
+			a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥④">Recommendation</a> as appropriate 
+    <li> identify the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑤">Recommendation</a> by URL 
     <li> publish a rationale for the proposal 
     <li> identify known dependencies
-			and solicit review from all dependent <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑤">Working Groups</a> 
+			and solicit review from all dependent <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑥">Working Groups</a> 
     <li> solicit public review 
     <li> specify the deadline for review comments,
 			which <em class="rfc2119">must</em> be at least 28 days
@@ -3298,7 +3314,7 @@ which is the currently operative W3C Process.</p>
    <ul>
     <li> identify known implementations. 
    </ul>
-   <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⓪">Advisory Committee review</a>,
+   <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①②">Advisory Committee review</a>,
 	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⓪">Director</a> <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C <strong>and the public</strong>,
 	and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑥">formally address</a> the dissent
@@ -3322,7 +3338,7 @@ which is the currently operative W3C Process.</p>
    <p>This section describes how the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a> reviews proposals from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③②">Director</a> and how <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②②">Advisory Committee representatives</a> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal④">Advisory Committee Appeal</a> of a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision④">W3C decision</a> or <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③③">Director</a>'s decision.
 	A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="def-w3c-decision">W3C decision</dfn> is one
 	where the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③④">Director</a> (or the Director’s delegate)
-	has exercised the role of assessing consensus after an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①①">Advisory Committee review</a>.</p>
+	has exercised the role of assessing consensus after an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee review</a>.</p>
    <h3 class="heading settled" data-level="7.1" id="ACReview"><span class="secno">7.1. </span><span class="content"> Advisory Committee Reviews</span><a class="self-link" href="#ACReview"></a></h3>
    <p>The Advisory Committee reviews:</p>
    <ul>
@@ -3375,7 +3391,7 @@ which is the currently operative W3C Process.</p>
     <li> The proposal is rejected. 
    </ol>
    <p>This document does not specify
-	time intervals between the end of an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①②">Advisory Committee review</a> period
+	time intervals between the end of an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①④">Advisory Committee review</a> period
 	and the <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑥">W3C decision</a>.
 	This is to ensure that the Members and <a data-link-type="dfn" href="#team" id="ref-for-team③④">Team</a> have sufficient time to consider comments
 	gathered during the review.
@@ -3386,13 +3402,13 @@ which is the currently operative W3C Process.</p>
    <h3 class="heading settled" data-level="7.2" id="ACAppeal"><span class="secno">7.2. </span><span class="content"> Appeal by Advisory Committee Representatives</span><a class="self-link" href="#ACAppeal"></a></h3>
    <p><a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②④">Advisory Committee representatives</a> <em class="rfc2119">may</em> appeal certain decisions,
 	though appeals are only expected to occur in extraordinary circumstances.</p>
-   <p>When a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑦">W3C decision</a> is made following an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee review</a>, <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑤">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate
+   <p>When a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑦">W3C decision</a> is made following an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑤">Advisory Committee review</a>, <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑤">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate
 	an <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Advisory Committee Appeal|AC Appeal| Appeal" id="advisory-committee-appeal">Advisory Committee Appeal</dfn>.
 	These <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑧">W3C decisions</a> include those related to group creation and modification,
 	and transitions to new maturity levels for Recommendation Track documents
 	and the Process document.</p>
    <p><a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑥">Advisory Committee representatives</a> <em class="rfc2119">may</em> also initiate an appeal
-	for certain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑧">Director</a>'s decisions that do not involve an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①④">Advisory Committee review</a>.
+	for certain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑧">Director</a>'s decisions that do not involve an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑥">Advisory Committee review</a>.
 	These cases are identified in the sections
 	which describe the requirements for the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑨">Director</a>'s decision
 	and include
@@ -3493,7 +3509,7 @@ which is the currently operative W3C Process.</p>
    <p>Before signing the MoU,
 	the Team <em class="rfc2119">must</em> inform
 	the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②④">Advisory Committee</a> of the intent to sign
-	and make the MoU available for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑤">Advisory Committee review</a>; <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑨">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑧">Advisory Committee Appeal</a> of the decision to sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou②">MoU</a>.
+	and make the MoU available for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑦">Advisory Committee review</a>; <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑨">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑧">Advisory Committee Appeal</a> of the decision to sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou②">MoU</a>.
 	Unless an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑨">appeal</a> rejects the proposal to sign an MoU,
 	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director④②">Director</a> may sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou③">MoU</a> on behalf of W3C.
 	A signed <a data-link-type="dfn" href="#mou" id="ref-for-mou④">Memorandum of Understanding</a> <em class="rfc2119">should</em> be made public.</p>
@@ -3542,11 +3558,11 @@ which is the currently operative W3C Process.</p>
 				of the W3C <a href="#Reports">technical report development process</a> (and therefore are not included in the <a href="https://www.w3.org/TR/">index of W3C technical reports</a> <a data-link-type="biblio" href="#biblio-tr">[TR]</a>). 
      <li> The Submission process is <strong>not</strong> a means
 				by which Members ask for “ratification” of these documents
-				as <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥②">W3C Recommendations</a>. 
+				as <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑥">W3C Recommendations</a>. 
      <li> There is no requirement or guarantee
 				that technology which is part of an acknowledged Submission request
 				will receive further consideration by W3C
-				(e.g., by a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑥">Working Group</a>). 
+				(e.g., by a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑦">Working Group</a>). 
     </ul>
    </div>
    <p>Making a Member Submission available at the W3C website
@@ -3587,12 +3603,12 @@ which is the currently operative W3C Process.</p>
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑨">Submitter</a>(s) <em class="rfc2119">must not</em>, <strong>under any circumstances</strong>,
 	imply W3C investment in the Member Submission
 	until, and unless, the material has been adopted as a deliverable
-	of a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑦">Working Group</a>.</p>
+	of a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑧">Working Group</a>.</p>
    <h4 class="heading settled" data-level="10.1.1" id="SubmissionScope"><span class="secno">10.1.1. </span><span class="content"> Scope of Member Submissions</span><a class="self-link" href="#SubmissionScope"></a></h4>
    <p>When a technology overlaps in scope with the work of a chartered Working Group,
 	Members <em class="rfc2119">should</em> <a href="#group-participation">participate in the Working Group</a> and contribute the technology to the group’s process
 	rather than seek publication through the Member Submission process.
-	The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑧">Working Group</a> <em class="rfc2119">may</em> incorporate the contributed technology into its deliverables.
+	The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑨">Working Group</a> <em class="rfc2119">may</em> incorporate the contributed technology into its deliverables.
 	If the Working Group does not incorporate the technology,
 	it <em class="rfc2119">should not</em> publish the contributed documents
 	as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑨">Working Group Notes</a> since <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②⓪">Working Group Notes</a> represent group output,
@@ -3718,7 +3734,7 @@ which is the currently operative W3C Process.</p>
      <p>the W3C Code of Ethics and Professional Conduct <a data-link-type="biblio" href="#biblio-cepc">[CEPC]</a></p>
    </ul>
    <p>Revision of a <a data-link-type="dfn" href="#w3c-governing-documents" id="ref-for-w3c-governing-documents">W3C Governing Document</a> undergoes similar <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus⑨">consensus</a>-building processes as for <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report⑤">technical reports</a>,
-	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑧">Advisory Board</a>—<wbr>or another group acting under delegation from the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑨">Working Group</a>.
+	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑧">Advisory Board</a>—<wbr>or another group acting under delegation from the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⓪">Working Group</a>.
 	To help assure fitness for purpose,
 	the group should solicit input from the W3C community,
 	and in particular the Team.</p>
@@ -3726,7 +3742,7 @@ which is the currently operative W3C Process.</p>
    <ol>
     <li> The <a data-link-type="dfn" href="#team" id="ref-for-team⑤①">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑥">Advisory Committee</a> and other W3C groups. 
     <li> After comments have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑧">formally addressed</a> and the document possibly modified,
-			the Team seeks endorsement from the Members by initiating an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑥">Advisory Committee review</a>.
+			the Team seeks endorsement from the Members by initiating an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑧">Advisory Committee review</a>.
 			The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>. 
     <li> <a href="#ACReviewAfter">After the Advisory Committee review</a>,
 			if there is <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①⓪">consensus</a>,
@@ -4108,7 +4124,7 @@ which is the currently operative W3C Process.</p>
      <li><a href="#def-Director">Director</a><span>, in §2.2</span>
      <li><a href="#def-Dissent">Dissent</a><span>, in §3.3</span>
      <li><a href="#distributed-meeting">distributed meeting</a><span>, in §3.2</span>
-     <li><a href="#draft-registry">Draft Registry</a><span>, in §6.3.2.1</span>
+     <li><a href="#draft-registry">Draft Registry</a><span>, in §6.3.3.1</span>
      <li><a href="#editors-draft">ED</a><span>, in §6.1.2</span>
      <li><a href="#edited-recommendation">Edited Recommendation</a><span>, in §6.1.2</span>
      <li><a href="#editors-draft">Editor Draft</a><span>, in §6.1.2</span>
@@ -4153,7 +4169,7 @@ which is the currently operative W3C Process.</p>
      <li><a href="#RecsPR">PR</a><span>, in §6.1.2</span>
      <li><a href="#primary-affiliation">primary affiliation</a><span>, in §2.5.2</span>
      <li><a href="#RecsPR">Proposed Recommendation</a><span>, in §6.1.2</span>
-     <li><a href="#proposed-registry">Proposed Registry</a><span>, in §6.3.2.2</span>
+     <li><a href="#proposed-registry">Proposed Registry</a><span>, in §6.3.3.2</span>
      <li><a href="#proxy">proxy</a><span>, in §3.4</span>
      <li><a href="#public-participant-ig">public participants</a><span>, in §5.2.1</span>
      <li><a href="#publishing">publish</a><span>, in §6.1</span>
@@ -4163,7 +4179,8 @@ which is the currently operative W3C Process.</p>
      <li><a href="#registry-change">registry change</a><span>, in §6.2.5</span>
      <li><a href="#entry">registry entries</a><span>, in §6.3</span>
      <li><a href="#entry">registry entry</a><span>, in §6.3</span>
-     <li><a href="#registry-report">registry report</a><span>, in §6.3</span>
+     <li><a href="#registry-report">registry report</a><span>, in §6.3.2</span>
+     <li><a href="#registry-section">registry section</a><span>, in §6.3.2</span>
      <li><a href="#registry-table">registry table</a><span>, in §6.3</span>
      <li><a href="#related-member">Related Member</a><span>, in §2.1.2.2</span>
      <li><a href="#RescindedRec">Rescinded Recommendation</a><span>, in §6.1.2</span>
@@ -4194,7 +4211,7 @@ which is the currently operative W3C Process.</p>
      <li><a href="#WGNote">W3C Note</a><span>, in §6.1.2</span>
      <li><a href="#RecsPR">W3C Proposed Recommendation</a><span>, in §6.1.2</span>
      <li><a href="#RecsW3C">W3C Recommendation</a><span>, in §6.1.2</span>
-     <li><a href="#w3c-registry">W3C Registry</a><span>, in §6.3.2.3</span>
+     <li><a href="#w3c-registry">W3C Registry</a><span>, in §6.3.3.3</span>
      <li><a href="#team">W3C Team</a><span>, in §2.2</span>
      <li><a href="#RecsWD">W3C Working Draft</a><span>, in §6.1.2</span>
      <li><a href="#RecsWD">WD</a><span>, in §6.1.2</span>
@@ -4230,7 +4247,7 @@ Working Group and Interest Group Closure</a>
 Maturity Levels</a>
     <li><a href="#ref-for-advisory-committee①⓪">6.2.1. 
 General requirements for Technical Reports</a>
-    <li><a href="#ref-for-advisory-committee①①">6.3.2.2. 
+    <li><a href="#ref-for-advisory-committee①①">6.3.3.2. 
 Proposed Registry</a>
     <li><a href="#ref-for-advisory-committee①②">6.5.  
 Candidate Recommendation</a>
@@ -4279,7 +4296,7 @@ Member Representative in a Working Group</a>
 Member Representative in an Interest Group</a>
     <li><a href="#ref-for-advisory-committee-representative①⑥">5.2.7. 
 Working Group and Interest Group Closure</a>
-    <li><a href="#ref-for-advisory-committee-representative①⑦">6.3.2.3. 
+    <li><a href="#ref-for-advisory-committee-representative①⑦">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-advisory-committee-representative①⑧">6.6. 
 Proposed Recommendation</a> <a href="#ref-for-advisory-committee-representative①⑨">(2)</a> <a href="#ref-for-advisory-committee-representative②⓪">(3)</a>
@@ -4354,12 +4371,14 @@ Maturity Levels</a>
     <li><a href="#ref-for-team②⑤">6.2.6. 
 Contributor License Grants</a>
     <li><a href="#ref-for-team②⑥">6.3.1. 
-Contents of a Registry Report</a> <a href="#ref-for-team②⑦">(2)</a>
-    <li><a href="#ref-for-team②⑧">6.3.2.1. 
+Rules of a Registry</a>
+    <li><a href="#ref-for-team②⑦">6.3.2. 
+Registry Reports</a>
+    <li><a href="#ref-for-team②⑧">6.3.3.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-team②⑨">6.3.2.2. 
+    <li><a href="#ref-for-team②⑨">6.3.3.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-team③⓪">6.3.2.3. 
+    <li><a href="#ref-for-team③⓪">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-team③①">(2)</a>
     <li><a href="#ref-for-team③②">6.8.4. 
 Revising a Recommendation: Substantive Changes</a>
@@ -4421,7 +4440,7 @@ Advancement on the Recommendation Track</a> <a href="#ref-for-def-Director①①
 Wide Review</a>
     <li><a href="#ref-for-def-Director①④">6.2.4. 
 Implementation Experience</a>
-    <li><a href="#ref-for-def-Director①⑤">6.3.2.3. 
+    <li><a href="#ref-for-def-Director①⑤">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Director①⑥">6.4.1. 
 First Public Working Draft</a>
@@ -4556,7 +4575,7 @@ Appeal of Chair Decisions and Group Decisions</a>
 W3C Technical Report Development Process</a>
     <li><a href="#ref-for-def-Consensus④">6.1.2. 
 Maturity Levels</a> <a href="#ref-for-def-Consensus⑤">(2)</a>
-    <li><a href="#ref-for-def-Consensus⑥">6.3.2.3. 
+    <li><a href="#ref-for-def-Consensus⑥">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Consensus⑦">6.4.2. 
 Revising Working Drafts</a>
@@ -4578,7 +4597,7 @@ Consensus</a>
    <ul>
     <li><a href="#ref-for-def-Dissent">3.3.1. 
 Managing Dissent</a> <a href="#ref-for-def-Dissent①">(2)</a>
-    <li><a href="#ref-for-def-Dissent②">6.3.2.3. 
+    <li><a href="#ref-for-def-Dissent②">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Dissent③">6.7. 
 W3C Recommendation</a>
@@ -4615,9 +4634,9 @@ After the Review Period</a>
 Advancement on the Recommendation Track</a>
     <li><a href="#ref-for-formally-addressed①">6.2.3. 
 Reviews and Review Responsibilities</a>
-    <li><a href="#ref-for-formally-addressed②">6.3.2.2. 
+    <li><a href="#ref-for-formally-addressed②">6.3.3.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-formally-addressed③">6.3.2.3. 
+    <li><a href="#ref-for-formally-addressed③">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-formally-addressed④">6.6. 
 Proposed Recommendation</a>
@@ -4793,10 +4812,10 @@ Reviews and Review Responsibilities</a> <a href="#ref-for-GroupsWG③②">(2)</a
     <li><a href="#ref-for-GroupsWG③③">6.2.3.1. 
 Wide Review</a> <a href="#ref-for-GroupsWG③④">(2)</a> <a href="#ref-for-GroupsWG③⑤">(3)</a> <a href="#ref-for-GroupsWG③⑥">(4)</a>
     <li><a href="#ref-for-GroupsWG③⑦">6.3.1. 
-Contents of a Registry Report</a>
-    <li><a href="#ref-for-GroupsWG③⑧">6.3.2.2. 
+Rules of a Registry</a>
+    <li><a href="#ref-for-GroupsWG③⑧">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-GroupsWG③⑨">(2)</a> <a href="#ref-for-GroupsWG④⓪">(3)</a>
-    <li><a href="#ref-for-GroupsWG④①">6.3.2.3. 
+    <li><a href="#ref-for-GroupsWG④①">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-GroupsWG④②">(2)</a> <a href="#ref-for-GroupsWG④③">(3)</a> <a href="#ref-for-GroupsWG④④">(4)</a>
     <li><a href="#ref-for-GroupsWG④⑤">6.4.1. 
 First Public Working Draft</a>
@@ -4818,17 +4837,19 @@ Revising a Recommendation: Markup Changes</a> <a href="#ref-for-GroupsWG⑥②">
 Revising a Recommendation: Editorial Changes</a>
     <li><a href="#ref-for-GroupsWG⑥④">6.8.4. 
 Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-GroupsWG⑥⑤">(2)</a> <a href="#ref-for-GroupsWG⑥⑥">(3)</a> <a href="#ref-for-GroupsWG⑥⑦">(4)</a>
-    <li><a href="#ref-for-GroupsWG⑥⑧">6.9. 
-Publishing a Working Group or Interest Group Note</a> <a href="#ref-for-GroupsWG⑥⑨">(2)</a> <a href="#ref-for-GroupsWG⑦⓪">(3)</a>
-    <li><a href="#ref-for-GroupsWG⑦①">6.10. 
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-GroupsWG⑦②">(2)</a> <a href="#ref-for-GroupsWG⑦③">(3)</a> <a href="#ref-for-GroupsWG⑦④">(4)</a> <a href="#ref-for-GroupsWG⑦⑤">(5)</a>
-    <li><a href="#ref-for-GroupsWG⑦⑥">10. 
+    <li><a href="#ref-for-GroupsWG⑥⑧">6.8.6. 
+Revising a Recommendation: Registry Changes</a>
+    <li><a href="#ref-for-GroupsWG⑥⑨">6.9. 
+Publishing a Working Group or Interest Group Note</a> <a href="#ref-for-GroupsWG⑦⓪">(2)</a> <a href="#ref-for-GroupsWG⑦①">(3)</a>
+    <li><a href="#ref-for-GroupsWG⑦②">6.10. 
+Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-GroupsWG⑦③">(2)</a> <a href="#ref-for-GroupsWG⑦④">(3)</a> <a href="#ref-for-GroupsWG⑦⑤">(4)</a> <a href="#ref-for-GroupsWG⑦⑥">(5)</a>
+    <li><a href="#ref-for-GroupsWG⑦⑦">10. 
 Member Submission Process</a>
-    <li><a href="#ref-for-GroupsWG⑦⑦">10.1. 
+    <li><a href="#ref-for-GroupsWG⑦⑧">10.1. 
 Submitter Rights and Obligations</a>
-    <li><a href="#ref-for-GroupsWG⑦⑧">10.1.1. 
+    <li><a href="#ref-for-GroupsWG⑦⑨">10.1.1. 
 Scope of Member Submissions</a>
-    <li><a href="#ref-for-GroupsWG⑦⑨">11. 
+    <li><a href="#ref-for-GroupsWG⑧⓪">11. 
 Evolution of the Governing Documents</a>
    </ul>
   </aside>
@@ -4960,7 +4981,7 @@ Maturity Levels</a> <a href="#ref-for-publishing⑤">(2)</a> <a href="#ref-for-p
 General requirements for Technical Reports</a>
     <li><a href="#ref-for-publishing①⓪">6.2.3. 
 Reviews and Review Responsibilities</a>
-    <li><a href="#ref-for-publishing①①">6.3.2.2. 
+    <li><a href="#ref-for-publishing①①">6.3.3.2. 
 Proposed Registry</a>
     <li><a href="#ref-for-publishing①②">6.4.2. 
 Revising Working Drafts</a>
@@ -4980,10 +5001,8 @@ Publishing a Working Group or Interest Group Note</a>
    <ul>
     <li><a href="#ref-for-technical-report">6.2.1. 
 General requirements for Technical Reports</a> <a href="#ref-for-technical-report①">(2)</a> <a href="#ref-for-technical-report②">(3)</a>
-    <li><a href="#ref-for-technical-report③">6.3. 
-Registries</a>
-    <li><a href="#ref-for-technical-report④">6.3.1. 
-Contents of a Registry Report</a>
+    <li><a href="#ref-for-technical-report③">6.3.2. 
+Registry Reports</a> <a href="#ref-for-technical-report④">(2)</a>
     <li><a href="#ref-for-technical-report⑤">11. 
 Evolution of the Governing Documents</a>
    </ul>
@@ -4997,7 +5016,7 @@ Working Group and Interest Group Charters</a> <a href="#ref-for-RecsWD">(2)</a> 
 W3C Technical Reports</a> <a href="#ref-for-RecsWD④">(2)</a>
     <li><a href="#ref-for-RecsWD⑤">6.1.2. 
 Maturity Levels</a> <a href="#ref-for-RecsWD⑥">(2)</a> <a href="#ref-for-RecsWD⑦">(3)</a> <a href="#ref-for-RecsWD⑧">(4)</a> <a href="#ref-for-RecsWD⑨">(5)</a>
-    <li><a href="#ref-for-RecsWD①⓪">6.3.2.1. 
+    <li><a href="#ref-for-RecsWD①⓪">6.3.3.1. 
 Draft Registry</a>
     <li><a href="#ref-for-RecsWD①①">6.4.2. 
 Revising Working Drafts</a> <a href="#ref-for-RecsWD①②">(2)</a> <a href="#ref-for-RecsWD①③">(3)</a>
@@ -5027,9 +5046,9 @@ Wide Review</a>
     <li><a href="#ref-for-RecsCR①③">6.5.  
 Candidate Recommendation</a> <a href="#ref-for-RecsCR①④">(2)</a> <a href="#ref-for-RecsCR①⑤">(3)</a> <a href="#ref-for-RecsCR①⑥">(4)</a> <a href="#ref-for-RecsCR①⑦">(5)</a>
     <li><a href="#ref-for-RecsCR①⑧">6.5.1. 
-Revising a Candidate Recommendation</a> <a href="#ref-for-RecsCR①⑨">(2)</a> <a href="#ref-for-RecsCR②⓪">(3)</a> <a href="#ref-for-RecsCR②①">(4)</a> <a href="#ref-for-RecsCR②②">(5)</a> <a href="#ref-for-RecsCR②③">(6)</a>
-    <li><a href="#ref-for-RecsCR②④">6.6. 
-Proposed Recommendation</a> <a href="#ref-for-RecsCR②⑤">(2)</a> <a href="#ref-for-RecsCR②⑥">(3)</a> <a href="#ref-for-RecsCR②⑦">(4)</a> <a href="#ref-for-RecsCR②⑧">(5)</a>
+Revising a Candidate Recommendation</a> <a href="#ref-for-RecsCR①⑨">(2)</a> <a href="#ref-for-RecsCR②⓪">(3)</a> <a href="#ref-for-RecsCR②①">(4)</a> <a href="#ref-for-RecsCR②②">(5)</a> <a href="#ref-for-RecsCR②③">(6)</a> <a href="#ref-for-RecsCR②④">(7)</a>
+    <li><a href="#ref-for-RecsCR②⑤">6.6. 
+Proposed Recommendation</a> <a href="#ref-for-RecsCR②⑥">(2)</a> <a href="#ref-for-RecsCR②⑦">(3)</a> <a href="#ref-for-RecsCR②⑧">(4)</a> <a href="#ref-for-RecsCR②⑨">(5)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="RecsPR">
@@ -5050,8 +5069,8 @@ Candidate Recommendation</a>
     <li><a href="#ref-for-RecsPR⑤">6.5.1. 
 Revising a Candidate Recommendation</a>
     <li><a href="#ref-for-RecsPR⑥">6.6. 
-Proposed Recommendation</a> <a href="#ref-for-RecsPR⑦">(2)</a> <a href="#ref-for-RecsPR⑧">(3)</a> <a href="#ref-for-RecsPR⑨">(4)</a> <a href="#ref-for-RecsPR①⓪">(5)</a>
-    <li><a href="#ref-for-RecsPR①①">6.7. 
+Proposed Recommendation</a> <a href="#ref-for-RecsPR⑦">(2)</a> <a href="#ref-for-RecsPR⑧">(3)</a> <a href="#ref-for-RecsPR⑨">(4)</a> <a href="#ref-for-RecsPR①⓪">(5)</a> <a href="#ref-for-RecsPR①①">(6)</a>
+    <li><a href="#ref-for-RecsPR①②">6.7. 
 W3C Recommendation</a>
    </ul>
   </aside>
@@ -5070,23 +5089,29 @@ W3C Technical Reports</a> <a href="#ref-for-RecsW3C③">(2)</a> <a href="#ref-fo
 Recommendations and Notes</a>
     <li><a href="#ref-for-RecsW3C⑥">6.1.2. 
 Maturity Levels</a> <a href="#ref-for-RecsW3C⑦">(2)</a> <a href="#ref-for-RecsW3C⑧">(3)</a> <a href="#ref-for-RecsW3C⑨">(4)</a> <a href="#ref-for-RecsW3C①⓪">(5)</a> <a href="#ref-for-RecsW3C①①">(6)</a> <a href="#ref-for-RecsW3C①②">(7)</a> <a href="#ref-for-RecsW3C①③">(8)</a> <a href="#ref-for-RecsW3C①④">(9)</a> <a href="#ref-for-RecsW3C①⑤">(10)</a> <a href="#ref-for-RecsW3C①⑥">(11)</a> <a href="#ref-for-RecsW3C①⑦">(12)</a> <a href="#ref-for-RecsW3C①⑧">(13)</a> <a href="#ref-for-RecsW3C①⑨">(14)</a> <a href="#ref-for-RecsW3C②⓪">(15)</a> <a href="#ref-for-RecsW3C②①">(16)</a> <a href="#ref-for-RecsW3C②②">(17)</a> <a href="#ref-for-RecsW3C②③">(18)</a> <a href="#ref-for-RecsW3C②④">(19)</a>
-    <li><a href="#ref-for-RecsW3C②⑤">6.6. 
-Proposed Recommendation</a> <a href="#ref-for-RecsW3C②⑥">(2)</a>
-    <li><a href="#ref-for-RecsW3C②⑦">6.7. 
-W3C Recommendation</a> <a href="#ref-for-RecsW3C②⑧">(2)</a> <a href="#ref-for-RecsW3C②⑨">(3)</a> <a href="#ref-for-RecsW3C③⓪">(4)</a> <a href="#ref-for-RecsW3C③①">(5)</a> <a href="#ref-for-RecsW3C③②">(6)</a>
-    <li><a href="#ref-for-RecsW3C③③">6.8. 
+    <li><a href="#ref-for-RecsW3C②⑤">6.3.2. 
+Registry Reports</a>
+    <li><a href="#ref-for-RecsW3C②⑥">6.5.1. 
+Revising a Candidate Recommendation</a>
+    <li><a href="#ref-for-RecsW3C②⑦">6.6. 
+Proposed Recommendation</a> <a href="#ref-for-RecsW3C②⑧">(2)</a> <a href="#ref-for-RecsW3C②⑨">(3)</a>
+    <li><a href="#ref-for-RecsW3C③⓪">6.7. 
+W3C Recommendation</a> <a href="#ref-for-RecsW3C③①">(2)</a> <a href="#ref-for-RecsW3C③②">(3)</a> <a href="#ref-for-RecsW3C③③">(4)</a> <a href="#ref-for-RecsW3C③④">(5)</a> <a href="#ref-for-RecsW3C③⑤">(6)</a>
+    <li><a href="#ref-for-RecsW3C③⑥">6.8. 
 Modifying a W3C Recommendation</a>
-    <li><a href="#ref-for-RecsW3C③④">6.8.1. 
-Errata Management</a> <a href="#ref-for-RecsW3C③⑤">(2)</a> <a href="#ref-for-RecsW3C③⑥">(3)</a> <a href="#ref-for-RecsW3C③⑦">(4)</a> <a href="#ref-for-RecsW3C③⑧">(5)</a> <a href="#ref-for-RecsW3C③⑨">(6)</a>
-    <li><a href="#ref-for-RecsW3C④⓪">6.8.2. 
-Revising a Recommendation: Markup Changes</a> <a href="#ref-for-RecsW3C④①">(2)</a> <a href="#ref-for-RecsW3C④②">(3)</a>
-    <li><a href="#ref-for-RecsW3C④③">6.8.3. 
-Revising a Recommendation: Editorial Changes</a> <a href="#ref-for-RecsW3C④④">(2)</a> <a href="#ref-for-RecsW3C④⑤">(3)</a>
-    <li><a href="#ref-for-RecsW3C④⑥">6.8.4. 
-Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-RecsW3C④⑦">(2)</a> <a href="#ref-for-RecsW3C④⑧">(3)</a> <a href="#ref-for-RecsW3C④⑨">(4)</a>
-    <li><a href="#ref-for-RecsW3C⑤⓪">6.10. 
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-RecsW3C⑤①">(2)</a> <a href="#ref-for-RecsW3C⑤②">(3)</a> <a href="#ref-for-RecsW3C⑤③">(4)</a> <a href="#ref-for-RecsW3C⑤④">(5)</a> <a href="#ref-for-RecsW3C⑤⑤">(6)</a> <a href="#ref-for-RecsW3C⑤⑥">(7)</a> <a href="#ref-for-RecsW3C⑤⑦">(8)</a> <a href="#ref-for-RecsW3C⑤⑧">(9)</a> <a href="#ref-for-RecsW3C⑤⑨">(10)</a> <a href="#ref-for-RecsW3C⑥⓪">(11)</a> <a href="#ref-for-RecsW3C⑥①">(12)</a>
-    <li><a href="#ref-for-RecsW3C⑥②">10. 
+    <li><a href="#ref-for-RecsW3C③⑦">6.8.1. 
+Errata Management</a> <a href="#ref-for-RecsW3C③⑧">(2)</a> <a href="#ref-for-RecsW3C③⑨">(3)</a> <a href="#ref-for-RecsW3C④⓪">(4)</a> <a href="#ref-for-RecsW3C④①">(5)</a> <a href="#ref-for-RecsW3C④②">(6)</a>
+    <li><a href="#ref-for-RecsW3C④③">6.8.2. 
+Revising a Recommendation: Markup Changes</a> <a href="#ref-for-RecsW3C④④">(2)</a> <a href="#ref-for-RecsW3C④⑤">(3)</a>
+    <li><a href="#ref-for-RecsW3C④⑥">6.8.3. 
+Revising a Recommendation: Editorial Changes</a> <a href="#ref-for-RecsW3C④⑦">(2)</a> <a href="#ref-for-RecsW3C④⑧">(3)</a>
+    <li><a href="#ref-for-RecsW3C④⑨">6.8.4. 
+Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-RecsW3C⑤⓪">(2)</a> <a href="#ref-for-RecsW3C⑤①">(3)</a> <a href="#ref-for-RecsW3C⑤②">(4)</a>
+    <li><a href="#ref-for-RecsW3C⑤③">6.8.6. 
+Revising a Recommendation: Registry Changes</a>
+    <li><a href="#ref-for-RecsW3C⑤④">6.10. 
+Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-RecsW3C⑤⑤">(2)</a> <a href="#ref-for-RecsW3C⑤⑥">(3)</a> <a href="#ref-for-RecsW3C⑤⑦">(4)</a> <a href="#ref-for-RecsW3C⑤⑧">(5)</a> <a href="#ref-for-RecsW3C⑤⑨">(6)</a> <a href="#ref-for-RecsW3C⑥⓪">(7)</a> <a href="#ref-for-RecsW3C⑥①">(8)</a> <a href="#ref-for-RecsW3C⑥②">(9)</a> <a href="#ref-for-RecsW3C⑥③">(10)</a> <a href="#ref-for-RecsW3C⑥④">(11)</a> <a href="#ref-for-RecsW3C⑥⑤">(12)</a>
+    <li><a href="#ref-for-RecsW3C⑥⑥">10. 
 Member Submission Process</a>
    </ul>
   </aside>
@@ -5158,11 +5183,11 @@ W3C Technical Reports</a> <a href="#ref-for-WGNote①">(2)</a> <a href="#ref-for
 Maturity Levels</a>
     <li><a href="#ref-for-WGNote⑥">6.2.2. 
 Advancement on the Recommendation Track</a>
-    <li><a href="#ref-for-WGNote⑦">6.3.2.1. 
+    <li><a href="#ref-for-WGNote⑦">6.3.3.1. 
 Draft Registry</a> <a href="#ref-for-WGNote⑧">(2)</a>
-    <li><a href="#ref-for-WGNote⑨">6.3.2.2. 
+    <li><a href="#ref-for-WGNote⑨">6.3.3.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-WGNote①⓪">6.3.2.3. 
+    <li><a href="#ref-for-WGNote①⓪">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-WGNote①①">6.4.3. 
 Stopping Work on a Specification</a> <a href="#ref-for-WGNote①②">(2)</a>
@@ -5191,7 +5216,7 @@ Advancement on the Recommendation Track</a>
    <ul>
     <li><a href="#ref-for-dfn-wide-review">6.1.2. 
 Maturity Levels</a>
-    <li><a href="#ref-for-dfn-wide-review①">6.3.2.2. 
+    <li><a href="#ref-for-dfn-wide-review①">6.3.3.2. 
 Proposed Registry</a>
     <li><a href="#ref-for-dfn-wide-review②">6.5.  
 Candidate Recommendation</a>
@@ -5219,7 +5244,7 @@ Proposed Recommendation</a>
 Maturity Levels</a>
     <li><a href="#ref-for-editorial-change">6.2.2. 
 Advancement on the Recommendation Track</a>
-    <li><a href="#ref-for-editorial-change①">6.3.2.3. 
+    <li><a href="#ref-for-editorial-change①">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-editorial-change②">6.4.2. 
 Revising Working Drafts</a>
@@ -5240,9 +5265,9 @@ Maturity Levels</a>
 Advancement on the Recommendation Track</a>
     <li><a href="#ref-for-substantive-change①">6.2.3. 
 Reviews and Review Responsibilities</a>
-    <li><a href="#ref-for-substantive-change②">6.3.2.2. 
+    <li><a href="#ref-for-substantive-change②">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-substantive-change③">(2)</a>
-    <li><a href="#ref-for-substantive-change④">6.3.2.3. 
+    <li><a href="#ref-for-substantive-change④">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-substantive-change⑤">(2)</a>
     <li><a href="#ref-for-substantive-change⑥">6.4.2. 
 Revising Working Drafts</a>
@@ -5262,8 +5287,10 @@ After the Review Period</a>
    <b><a href="#registry-change">#registry-change</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-change">6.3.1. 
-Contents of a Registry Report</a> <a href="#ref-for-registry-change①">(2)</a> <a href="#ref-for-registry-change②">(3)</a>
-    <li><a href="#ref-for-registry-change③">6.3.2.1. 
+Rules of a Registry</a>
+    <li><a href="#ref-for-registry-change①">6.3.2. 
+Registry Reports</a> <a href="#ref-for-registry-change②">(2)</a>
+    <li><a href="#ref-for-registry-change③">6.3.3.1. 
 Draft Registry</a>
    </ul>
   </aside>
@@ -5275,11 +5302,19 @@ Classes of Changes</a> <a href="#ref-for-registry-table①">(2)</a>
     <li><a href="#ref-for-registry-table②">6.3. 
 Registries</a>
     <li><a href="#ref-for-registry-table③">6.3.1. 
-Contents of a Registry Report</a> <a href="#ref-for-registry-table④">(2)</a> <a href="#ref-for-registry-table⑤">(3)</a> <a href="#ref-for-registry-table⑥">(4)</a> <a href="#ref-for-registry-table⑦">(5)</a> <a href="#ref-for-registry-table⑧">(6)</a> <a href="#ref-for-registry-table⑨">(7)</a> <a href="#ref-for-registry-table①⓪">(8)</a> <a href="#ref-for-registry-table①①">(9)</a> <a href="#ref-for-registry-table①②">(10)</a>
-    <li><a href="#ref-for-registry-table①③">6.3.2.2. 
+Rules of a Registry</a> <a href="#ref-for-registry-table④">(2)</a> <a href="#ref-for-registry-table⑤">(3)</a> <a href="#ref-for-registry-table⑥">(4)</a> <a href="#ref-for-registry-table⑦">(5)</a>
+    <li><a href="#ref-for-registry-table⑧">6.3.2. 
+Registry Reports</a> <a href="#ref-for-registry-table⑨">(2)</a> <a href="#ref-for-registry-table①⓪">(3)</a> <a href="#ref-for-registry-table①①">(4)</a> <a href="#ref-for-registry-table①②">(5)</a> <a href="#ref-for-registry-table①③">(6)</a>
+    <li><a href="#ref-for-registry-table①④">6.3.3.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-registry-table①④">6.3.2.3. 
+    <li><a href="#ref-for-registry-table①⑤">6.3.3.3. 
 W3C Registry</a>
+    <li><a href="#ref-for-registry-table①⑥">6.5.1. 
+Revising a Candidate Recommendation</a>
+    <li><a href="#ref-for-registry-table①⑦">6.6. 
+Proposed Recommendation</a>
+    <li><a href="#ref-for-registry-table①⑧">6.8.6. 
+Revising a Recommendation: Registry Changes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="entry">
@@ -5288,20 +5323,28 @@ W3C Registry</a>
     <li><a href="#ref-for-entry">6.2.5. 
 Classes of Changes</a>
     <li><a href="#ref-for-entry①">6.3.1. 
-Contents of a Registry Report</a>
+Rules of a Registry</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-report">
-   <b><a href="#registry-report">#registry-report</a></b><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="rules-of-the-registry">
+   <b><a href="#rules-of-the-registry">#rules-of-the-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-registry-report">6.3. 
-Registries</a>
-    <li><a href="#ref-for-registry-report①">6.3.1. 
-Contents of a Registry Report</a> <a href="#ref-for-registry-report②">(2)</a> <a href="#ref-for-registry-report③">(3)</a> <a href="#ref-for-registry-report④">(4)</a> <a href="#ref-for-registry-report⑤">(5)</a> <a href="#ref-for-registry-report⑥">(6)</a> <a href="#ref-for-registry-report⑦">(7)</a>
-    <li><a href="#ref-for-registry-report⑧">6.3.2.2. 
-Proposed Registry</a> <a href="#ref-for-registry-report⑨">(2)</a> <a href="#ref-for-registry-report①⓪">(3)</a> <a href="#ref-for-registry-report①①">(4)</a>
-    <li><a href="#ref-for-registry-report①②">6.3.2.3. 
-W3C Registry</a>
+    <li><a href="#ref-for-rules-of-the-registry">6.3.1. 
+Rules of a Registry</a>
+    <li><a href="#ref-for-rules-of-the-registry①">6.3.2. 
+Registry Reports</a> <a href="#ref-for-rules-of-the-registry②">(2)</a>
+    <li><a href="#ref-for-rules-of-the-registry③">6.3.3.1. 
+Draft Registry</a>
+    <li><a href="#ref-for-rules-of-the-registry④">6.3.3.2. 
+Proposed Registry</a>
+    <li><a href="#ref-for-rules-of-the-registry⑤">6.3.3.3. 
+W3C Registry</a> <a href="#ref-for-rules-of-the-registry⑥">(2)</a>
+    <li><a href="#ref-for-rules-of-the-registry⑦">6.5.1. 
+Revising a Candidate Recommendation</a>
+    <li><a href="#ref-for-rules-of-the-registry⑧">6.6. 
+Proposed Recommendation</a>
+    <li><a href="#ref-for-rules-of-the-registry⑨">6.8.6. 
+Revising a Recommendation: Registry Changes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="custodian">
@@ -5310,54 +5353,65 @@ W3C Registry</a>
     <li><a href="#ref-for-custodian">6.3. 
 Registries</a>
     <li><a href="#ref-for-custodian①">6.3.1. 
-Contents of a Registry Report</a> <a href="#ref-for-custodian②">(2)</a> <a href="#ref-for-custodian③">(3)</a>
-    <li><a href="#ref-for-custodian④">6.3.2.3. 
+Rules of a Registry</a> <a href="#ref-for-custodian②">(2)</a>
+    <li><a href="#ref-for-custodian③">6.3.2. 
+Registry Reports</a>
+    <li><a href="#ref-for-custodian④">6.3.3.3. 
+W3C Registry</a>
+    <li><a href="#ref-for-custodian⑤">6.8.6. 
+Revising a Recommendation: Registry Changes</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="registry-report">
+   <b><a href="#registry-report">#registry-report</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-registry-report">6.3.1. 
+Rules of a Registry</a> <a href="#ref-for-registry-report①">(2)</a>
+    <li><a href="#ref-for-registry-report②">6.3.2. 
+Registry Reports</a> <a href="#ref-for-registry-report③">(2)</a> <a href="#ref-for-registry-report④">(3)</a>
+    <li><a href="#ref-for-registry-report⑤">6.3.3.2. 
+Proposed Registry</a> <a href="#ref-for-registry-report⑥">(2)</a> <a href="#ref-for-registry-report⑦">(3)</a> <a href="#ref-for-registry-report⑧">(4)</a>
+    <li><a href="#ref-for-registry-report⑨">6.3.3.3. 
 W3C Registry</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="rules-of-the-registry">
-   <b><a href="#rules-of-the-registry">#rules-of-the-registry</a></b><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="registry-section">
+   <b><a href="#registry-section">#registry-section</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-rules-of-the-registry">6.3.1. 
-Contents of a Registry Report</a>
-    <li><a href="#ref-for-rules-of-the-registry①">6.3.2.1. 
-Draft Registry</a>
-    <li><a href="#ref-for-rules-of-the-registry②">6.3.2.2. 
-Proposed Registry</a>
-    <li><a href="#ref-for-rules-of-the-registry③">6.3.2.3. 
-W3C Registry</a> <a href="#ref-for-rules-of-the-registry④">(2)</a>
+    <li><a href="#ref-for-registry-section">6.3.2. 
+Registry Reports</a> <a href="#ref-for-registry-section①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="draft-registry">
    <b><a href="#draft-registry">#draft-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-draft-registry">6.3.2.1. 
+    <li><a href="#ref-for-draft-registry">6.3.3.1. 
 Draft Registry</a> <a href="#ref-for-draft-registry①">(2)</a> <a href="#ref-for-draft-registry②">(3)</a> <a href="#ref-for-draft-registry③">(4)</a> <a href="#ref-for-draft-registry④">(5)</a> <a href="#ref-for-draft-registry⑤">(6)</a> <a href="#ref-for-draft-registry⑥">(7)</a> <a href="#ref-for-draft-registry⑦">(8)</a> <a href="#ref-for-draft-registry⑧">(9)</a>
-    <li><a href="#ref-for-draft-registry⑨">6.3.2.2. 
+    <li><a href="#ref-for-draft-registry⑨">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-draft-registry①⓪">(2)</a> <a href="#ref-for-draft-registry①①">(3)</a> <a href="#ref-for-draft-registry①②">(4)</a>
-    <li><a href="#ref-for-draft-registry①③">6.3.2.3. 
+    <li><a href="#ref-for-draft-registry①③">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-draft-registry①④">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="proposed-registry">
    <b><a href="#proposed-registry">#proposed-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-proposed-registry">6.3.2.1. 
+    <li><a href="#ref-for-proposed-registry">6.3.3.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-proposed-registry①">6.3.2.2. 
+    <li><a href="#ref-for-proposed-registry①">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-proposed-registry②">(2)</a> <a href="#ref-for-proposed-registry③">(3)</a> <a href="#ref-for-proposed-registry④">(4)</a> <a href="#ref-for-proposed-registry⑤">(5)</a> <a href="#ref-for-proposed-registry⑥">(6)</a> <a href="#ref-for-proposed-registry⑦">(7)</a> <a href="#ref-for-proposed-registry⑧">(8)</a> <a href="#ref-for-proposed-registry⑨">(9)</a> <a href="#ref-for-proposed-registry①⓪">(10)</a> <a href="#ref-for-proposed-registry①①">(11)</a> <a href="#ref-for-proposed-registry①②">(12)</a> <a href="#ref-for-proposed-registry①③">(13)</a> <a href="#ref-for-proposed-registry①④">(14)</a>
-    <li><a href="#ref-for-proposed-registry①⑤">6.3.2.3. 
+    <li><a href="#ref-for-proposed-registry①⑤">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-proposed-registry①⑥">(2)</a> <a href="#ref-for-proposed-registry①⑦">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="w3c-registry">
    <b><a href="#w3c-registry">#w3c-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-w3c-registry">6.3.2.1. 
+    <li><a href="#ref-for-w3c-registry">6.3.3.1. 
 Draft Registry</a> <a href="#ref-for-w3c-registry①">(2)</a>
-    <li><a href="#ref-for-w3c-registry②">6.3.2.2. 
+    <li><a href="#ref-for-w3c-registry②">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-w3c-registry③">(2)</a> <a href="#ref-for-w3c-registry④">(3)</a> <a href="#ref-for-w3c-registry⑤">(4)</a> <a href="#ref-for-w3c-registry⑥">(5)</a> <a href="#ref-for-w3c-registry⑦">(6)</a>
-    <li><a href="#ref-for-w3c-registry⑧">6.3.2.3. 
+    <li><a href="#ref-for-w3c-registry⑧">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-w3c-registry⑨">(2)</a> <a href="#ref-for-w3c-registry①⓪">(3)</a> <a href="#ref-for-w3c-registry①①">(4)</a> <a href="#ref-for-w3c-registry①②">(5)</a> <a href="#ref-for-w3c-registry①③">(6)</a> <a href="#ref-for-w3c-registry①④">(7)</a> <a href="#ref-for-w3c-registry①⑤">(8)</a> <a href="#ref-for-w3c-registry①⑥">(9)</a> <a href="#ref-for-w3c-registry①⑦">(10)</a> <a href="#ref-for-w3c-registry①⑧">(11)</a> <a href="#ref-for-w3c-registry①⑨">(12)</a>
    </ul>
   </aside>
@@ -5402,7 +5456,7 @@ Errata Management</a>
   <aside class="dfn-panel" data-for="def-w3c-decision">
    <b><a href="#def-w3c-decision">#def-w3c-decision</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-def-w3c-decision">6.3.2.3. 
+    <li><a href="#ref-for-def-w3c-decision">6.3.3.3. 
 W3C Registry</a> <a href="#ref-for-def-w3c-decision①">(2)</a>
     <li><a href="#ref-for-def-w3c-decision②">6.7. 
 W3C Recommendation</a> <a href="#ref-for-def-w3c-decision③">(2)</a>
@@ -5425,21 +5479,23 @@ Advisory Committee Review of a Working Group or Interest Group Charter</a>
 Call for Participation in a Working Group or Interest Group</a>
     <li><a href="#ref-for-advisory-committee-review②">6.2.2. 
 Advancement on the Recommendation Track</a>
-    <li><a href="#ref-for-advisory-committee-review③">6.3.2.2. 
+    <li><a href="#ref-for-advisory-committee-review③">6.3.3.2. 
 Proposed Registry</a> <a href="#ref-for-advisory-committee-review④">(2)</a> <a href="#ref-for-advisory-committee-review⑤">(3)</a> <a href="#ref-for-advisory-committee-review⑥">(4)</a>
-    <li><a href="#ref-for-advisory-committee-review⑦">6.6. 
-Proposed Recommendation</a> <a href="#ref-for-advisory-committee-review⑧">(2)</a>
-    <li><a href="#ref-for-advisory-committee-review⑨">6.10. 
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-advisory-committee-review①⓪">(2)</a>
-    <li><a href="#ref-for-advisory-committee-review①①">7. 
+    <li><a href="#ref-for-advisory-committee-review⑦">6.5.1. 
+Revising a Candidate Recommendation</a>
+    <li><a href="#ref-for-advisory-committee-review⑧">6.6. 
+Proposed Recommendation</a> <a href="#ref-for-advisory-committee-review⑨">(2)</a> <a href="#ref-for-advisory-committee-review①⓪">(3)</a>
+    <li><a href="#ref-for-advisory-committee-review①①">6.10. 
+Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</a> <a href="#ref-for-advisory-committee-review①②">(2)</a>
+    <li><a href="#ref-for-advisory-committee-review①③">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
-    <li><a href="#ref-for-advisory-committee-review①②">7.1.2. 
+    <li><a href="#ref-for-advisory-committee-review①④">7.1.2. 
 After the Review Period</a>
-    <li><a href="#ref-for-advisory-committee-review①③">7.2. 
-Appeal by Advisory Committee Representatives</a> <a href="#ref-for-advisory-committee-review①④">(2)</a>
-    <li><a href="#ref-for-advisory-committee-review①⑤">9. 
+    <li><a href="#ref-for-advisory-committee-review①⑤">7.2. 
+Appeal by Advisory Committee Representatives</a> <a href="#ref-for-advisory-committee-review①⑥">(2)</a>
+    <li><a href="#ref-for-advisory-committee-review①⑦">9. 
 Liaisons</a>
-    <li><a href="#ref-for-advisory-committee-review①⑥">11. 
+    <li><a href="#ref-for-advisory-committee-review①⑧">11. 
 Evolution of the Governing Documents</a>
    </ul>
   </aside>
@@ -5453,7 +5509,7 @@ Start of a Review Period</a>
   <aside class="dfn-panel" data-for="advisory-committee-appeal">
    <b><a href="#advisory-committee-appeal">#advisory-committee-appeal</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-advisory-committee-appeal">6.3.2.3. 
+    <li><a href="#ref-for-advisory-committee-appeal">6.3.3.3. 
 W3C Registry</a>
     <li><a href="#ref-for-advisory-committee-appeal①">6.6. 
 Proposed Recommendation</a>
