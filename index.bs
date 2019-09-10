@@ -3260,6 +3260,13 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 	a [=Candidate Recommendation Snapshot=] <em class=rfc2119>should not</em> be published
 	more often than approximately once every 6 months.
 
+	Changes to the contents of a [=registry table=]
+	(.e. [[#correction-classes|Class 5 changes]])
+	can be made by re-publishing the [=Candidate Recommendation Snapshot=]
+	if they are in accordance with the [=rules of the registry=].
+	Such [=registry changes=] do not trigger a new [=Advisory Committee Review=]
+	(since they would be allowed without review in the final [=W3C Recommendation=] anyway).
+
 	Note: [=Substantive changes=] trigger a new Exclusion Opportunity
 	per “Exclusion From W3C RF Licensing Requirements”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
@@ -3400,6 +3407,13 @@ Transitioning to Proposed Recommendation</h4>
 	Such an allowance cannot be added
 	to a [=technical report=] previously published as a [=Recommendation=]
 	that did not allow such changes.
+
+	Changes to the contents of a [=registry table=]
+	(.e. [[#correction-classes|Class 5 changes]])
+	can be made by re-publishing the [=Proposed Recommendation=]
+	if they are in accordance with the [=rules of the registry=].
+	Such [=registry changes=] do not trigger a new [=Advisory Committee Review=]
+	(since they would be allowed without review in the final [=W3C Recommendation=] anyway).
 
 	Possible Next Steps:
 
@@ -3556,6 +3570,17 @@ Revising a Recommendation: New Features</h5>
 	W3C <em class="rfc2119">must</em> create a new [=technical report=],
 	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
+
+<h5 id="revised-rec-registry">
+Revising a Recommendation: Registry Changes</h4>
+
+	Changes to the contents of a [=registry table=]
+	(i.e. [[#correction-classes|Class 5 changes]])
+	can be made by re-publishing the [=W3C Recommendation=]
+	if they are in accordance with the [=rules of the registry=].
+	Such publications can be made even in the absence
+	of a [=Working Group=] chartered to maintain the registry
+	when the [=custodian=] is another entity.
 
 <h5 id=change-review>
 Incorporating Candidate Amendments</h5>
@@ -3986,11 +4011,12 @@ Registries</h3>
 <h4 id=reg-contents>
 Registry Reports</h4>
 
-	Registries are published as a stand-alone [=technical report=] called a <dfn>registry report</dfn>.
-	The report must:
+	Registries can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
+	or incorporated as part of a [=W3C Recommendation=] as a <dfn>registry section</dfn>.
+	In either case, the [=technical report=] must:
 	<ul>
 		<li>
-			Clearly label the [=registry report=]
+			Clearly label the [=registry report=]/[=registry section|section=]
 			and its [=registry tables|tables=] as such,
 			including a link to this section of the Process.
 
@@ -4021,7 +4047,7 @@ Registry Reports</h4>
 	can be automated
 	if satisfaction of those rules can be automatically verified.
 
-	A [=registry report=],
+	A [=registry report=] or [=registry section=],
 	is purely documentational,
 	contains no requirements on implementers,
 	and is not subject to
