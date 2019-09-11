@@ -2593,6 +2593,17 @@ Maturity Levels</h4>
 				An [=Obsolete Recommendation|Obsolete=] or Superseded specification
 				has the same status as a [=W3C Recommendation=]
 				with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.
+
+				Note: When a Technical Report which had previously been published as a [=Recommendation=]
+				is again published as a [=Recommendation=]
+				after following the necessary steps to <a href="#revised-rec">revise</a> it,
+				the latest version replaces the old one,
+				without the need to invoke the the steps of [[#rec-rescind]]:
+				it is the same document, updated.
+				Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
+				is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
+				(or a by a document managed outside of W3C).
+
 			<dt>
 				An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
 			<dd>
