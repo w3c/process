@@ -682,7 +682,7 @@ Technical Architecture Group Participation</h4>
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
-	Participants in the [=TAG=] chose by consensus their Chair or co-Chairs;
+	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
 	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
 	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
 	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
