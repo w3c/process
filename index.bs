@@ -961,9 +961,9 @@ Technical Architecture Group Appointments</h4>
 	except that participants of the [=TAG Appointment Committee=]
 	are not eligible.
 
-	The [=TAG Appointment Committee=] appoints the number of individuals necessary to fill the number of vacant seats,
-	by [=consensus=],
-	among the eligible nominees.
+	The [=TAG Appointment Committee=] appoints by [=consensus=]
+	the number of individuals necessary to fill the number of vacant seats,
+	from the eligible nominees.
 
 	For regularly scheduled elections,
 	the [=TAG Appointment Committee=] must announce its conclusions
