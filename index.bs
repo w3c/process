@@ -1204,6 +1204,23 @@ Consensus</h3>
 	(i.e., some established percentage above 50%)
 	to support certain types of consensus decisions.
 
+	<div class=note>
+	Note: Chairs have substantial flexibility
+	in how they obtain and assess consensus among their groups.
+	Unless otherwise constrained by charter,
+	they may use modes including but not limited to explicit calls for consensus,
+	polls of participants,
+	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
+	or they may also delegate and empower a document editor
+	to assess consensus on their behalf,
+	whether in general
+	or for specific pre-determined circumstances
+	(e.g. in non-controversial situations, for specific types of issues, etc).
+
+	If questions or disagreements arise,
+	the final determination of consensus remains with the chair.
+	</div>
+
 <h4 id="managing-dissent">
 Managing Dissent</h4>
 
