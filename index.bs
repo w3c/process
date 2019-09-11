@@ -909,10 +909,10 @@ Technical Architecture Group Appointments</h4>
 	a diverse and well-balanced [=TAG=].
 
 	For regularly scheduled elections,
-	the [=TAG Appointment Committee=] is formed as soon as possible after the Call for Nominations for the relevant TAG election has closed,
+	a [=TAG Appointment Committee=] is formed as soon as possible after the Call for Nominations for the relevant TAG election has closed,
 	and no later than the end of the voting period.
 	When formed to fill vacated seats out of a regularly scheduled election,
-	the [=TAG Appointment Committee=] is formed as soon as possible after the seat is vacated,
+	a [=TAG Appointment Committee=] is formed as soon as possible after the seat is vacated,
 	unless a regular Call for Nominations is scheduled within 2 months.
 
 	The [=TAG Appointment Committee=] is composed of the following seats,
@@ -1017,7 +1017,7 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			the [=TAG Appointment Committee=] appoints a replacement.
+			a [=TAG Appointment Committee=] appoints a replacement.
 
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
