@@ -1293,10 +1293,6 @@ Recording and Reporting Formal Objections</h4>
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
 
-	Issue: It is still an open question whether someone who has recused themself
-	should still be allowed to participate in the deliberations of the Council
-	even if they are excluded from the consensus/vote.
-
 	The CEO appoints the <dfn>Chair of the W3C Council</dfn>,
 	with the advice of the rest of the Council.
 	This <em class=rfc2919>may</em> be the CEO themself,
