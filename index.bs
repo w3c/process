@@ -940,10 +940,9 @@ Technical Architecture Group Appointments</h4>
 	If willing participants cannot be found to fill the designated number of seats in each category,
 	a [=TAG Appointment Committee=] is formed despite vacant seats.
 
-	The chair of the [=TAG Appointment Committee=] is chosen by [=consensus=] among the participants.
+	The chair of the [=TAG Appointment Committee=] is chosen by [=consensus=] of the participants.
 	If no consensus can be reached within one week of the committee being formed,
-	the chair is instead designated by the [=Team=]
-	from the participants willing to serve in that role.
+	the chair is instead designated by the [=Team=].
 
 	Participants in the [=TAG Appointment Committee=]
 	<em class=rfc2119>should</em> recruit and nominate
