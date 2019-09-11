@@ -91,7 +91,8 @@ Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386465352
 Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386472282
 Comment:  https://github.com/w3c/w3process/issues/183#issuecomment-386865827
 Response: https://github.com/w3c/w3process/pull/213
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/213#issuecomment-530399323
 ----
 Issue 10.
 Summary:  Define charter review process to require addressing comments
@@ -367,7 +368,8 @@ Summary:  CR change documentation requirement should be for substantive changes 
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/307
 Response: https://github.com/w3c/w3process/pull/308
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/308#issuecomment-530397840
 ----
 Issue 46.
 Summary:  Evolution of documents that are linked to the process
@@ -384,4 +386,5 @@ Summary:  Add note to Process about flexibility of consensus
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/296
 Response: https://github.com/w3c/w3process/pull/323
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/323#issuecomment-530397628

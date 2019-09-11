@@ -4760,6 +4760,15 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process
+
+		<li>
+			Add note clarifying when it is appropriate to use the superseding process, and when not.
+
+		<li>
+			Dont require documenting editorial changes since the previous CR.
+
+		<li>
+			Add Note about the flexibility of Consensus.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
