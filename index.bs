@@ -932,7 +932,7 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 
 	If a participant changes affiliation,
 	but the <a href="#AB-TAG-constraints">participation constraints</a> are met,
-	that participant's seat becomes vacant at the the next regularly scheduled election for that group.
+	that participant's seat becomes vacant at the next regularly scheduled election for that group.
 
 	Vacated seats are filled according to this schedule:
 
