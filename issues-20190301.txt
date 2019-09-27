@@ -388,3 +388,10 @@ Comment:  https://github.com/w3c/w3process/issues/296
 Response: https://github.com/w3c/w3process/pull/323
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/323#issuecomment-530397628
+----
+Issue 48.
+Summary:  Typo
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/332
+Closed:   Accepted
+Resolved: Editorial
