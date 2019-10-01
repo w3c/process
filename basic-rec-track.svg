@@ -1,0 +1,168 @@
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 160" width="100%">
+			<title>Basic W3C Recommendation Track</title>
+			<!-- basic maturity states -->
+			<g role="list">
+			<!-- FPWD -->
+				<g role="listitem">
+					<a href="#wd-1">
+						<rect role="img" fill="white" y="122" width="57" height="45">
+							<title>First Public Working Draft (FPWD) - Exclusion opportunity</title>
+						</rect>
+						<text font-size="8">
+							<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
+							<tspan x="0" y="152">WG decision</tspan>
+							<tspan x="0" y="162">Director's approval</tspan>
+						</text>
+						<path d="M0,140h53" fill="none" stroke="#000"></path>
+						<polygon points="47,136 57,140 47,144"></polygon>
+					</a>
+				</g>
+			<!-- WD -->
+				<g role="listitem">
+					<a href="#cr-1">
+						<ellipse role="img" id="wd-1" ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff">
+						<title>Working Draft (WD)</title>
+						</ellipse>
+						<text aria-hidden="true" font-size="14" y="144" x="97" text-anchor="middle">WD</text>
+					</a>
+					<g role="list">
+					<!-- New WD -->
+						<g role="listitem">
+							<a href="#wd-1">
+								<g role="img">
+									<title>Publish a new Working Draft</title>
+								</g>
+								<text font-size="8">
+									<tspan x="30" y="92">WG Decision: review needed, or</tspan>
+									<tspan x="40" y="100">No change for 6 months</tspan>
+								</text>
+								<path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
+								<polygon points="120,114 116,124 114,113"></polygon>
+							</a>
+						</g>
+					<!-- Advance to CR -->
+						<g role="listitem" fill="#060">
+							<a href="#cr-1">
+								<g role="img">
+									<title>Advance to Candidate Recommendation</title>
+								</g>
+								<text x="138" y="134" font-size="8">Director's approval</text>
+								<path stroke="#060" d="M135,140h81"></path>
+								<polygon points="211,136 221,140 211,144"></polygon>
+							</a>
+						</g>
+					</g>
+				</g>
+			<!-- CR -->
+				<g role="listitem">
+					<a href="#pr-1">
+						<ellipse role="img" id="cr-1" ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff">
+						<title>Candidate Recommendation (CR) - Patent Policy exclusion opportunity</title>
+						</ellipse>
+						<text aria-hidden="true" font-size="14" y="144" x="260" text-anchor="middle">CR</text>
+					</a>
+					<g role="list">
+					<!-- Update CR -->
+						<g role="listitem">
+							<a href="#cr-1">
+								<g role="img">
+									<title>Publish revised Candidate Recommendation</title>
+								</g>
+								<text font-size="8">
+									<tspan x="225" y="84">Working Group Decision,</tspan>
+									<tspan x="240" y="96">Directors approval</tspan>
+								</text>
+								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
+								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
+								<polygon points="282,114 277,124 275,113"></polygon>
+							</a>
+						</g>
+					<!-- Advance to PR -->
+						<g role="listitem">
+						<a href="#pr-1">
+							<g role="img">
+							<title>Advance to Proposed Recommendation</title>
+							</g>
+							<text x="300" y="134" font-size="8">Director's approval</text>
+							<path d="M298,140h77" stroke="#060"></path>
+							<polygon points="374,136 384,140 374,144"></polygon>
+						</a>
+						</g>
+					<!-- Return to WD -->
+						<g role="listitem">
+							<a href="#wd-1">
+								<g role="img">
+								<title>Return to Working Draft</title>
+								</g>
+								<text font-size="8">
+									<tspan x="142" y="160">WG or Director decision</tspan>
+									<tspan x="144" y="170">e.g. for further review</tspan>
+								</text>
+								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
+								<polygon points="140,145 133,147 140,149"></polygon>
+							</a>
+						</g>
+					</g>
+				</g>
+			<!-- PR -->
+				<g role="listitem">
+					<a href="#rec-1">
+						<ellipse role="img" id="pr-1" ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff">
+						<title>Proposed Recommendation (PR) - Advisory Committee review</title>
+						</ellipse>
+						<text aria-hidden="true" font-size="14" y="144" x="413" text-anchor="middle">PR</text>
+					</a>
+					<g role="list">
+					<!-- Advance to Rec -->
+						<g role="listitem">
+							<a href="#rec-1">
+								<g role="img">
+									<title>Advance to Recommendation</title>
+								</g>
+								<text x="300" y="138" font-size="8">
+									<tspan x="445" y="124">Advisory Committee Review</tspan>
+									<tspan x="445" y="134">Director's Decision</tspan>
+								</text>
+								<path d="M441,140h100" stroke="#060"></path>
+								<polygon points="534,136 544,140 534,144"></polygon>
+							</a>
+						</g>
+					<!-- Return to CR -->
+						<g role="listitem">
+							<a href="#cr-1">
+								<g role="img">
+									<title>Return to Candidate Recommendation</title>
+								</g>
+								<text font-size="8">
+									<tspan x="306" y="160">AC Review, </tspan>
+									<tspan x="302" y="170">Director Decision</tspan>
+									<tspan x="304" y="180">e.g. for editorial changes</tspan>
+								</text>
+								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
+								<polygon points="301,145 296,147 301,149"></polygon>
+							</a>
+						</g>
+					<!-- Return to WD -->
+						<g role="listitem">
+							<a href="#wd-1">
+								<g role="img">
+									<title>Return to Working Draft</title>
+								</g>
+								<text font-size="9">
+									<tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan>
+								</text>
+								<path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
+								<polygon points="95,164 97,159 99,164"></polygon>
+							</a>
+						</g>
+					</g>
+				</g>
+			<!-- Rec -->
+				<g role="listitem">
+					<ellipse role="img" id="rec-1" ry="18" rx="28" cy="140" cx="573" stroke="black" fill="#fff" stroke-width="2">
+						<title>Recommendation (Rec)</title>
+					</ellipse>
+					<text aria-hidden="true" font-size="16" y="144" x="573" text-anchor="middle" stroke-width=".3">REC</text>
+				</g>
+			</g>
+		</svg>
