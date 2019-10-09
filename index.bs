@@ -3916,7 +3916,7 @@ Evergreen Recommendation</h3>
 Evergreen Recommendation Snapshot</h3>
 
   All <a href="#evergreen-rec">Evergreen Recommendation</a> other than [=Registries=] must be published as a revised Evergreen Recommendation Snapshot
-	if 24 months elapse with significant changes to ensure they get a thorough IPR review as per the
+	if 24 months elapse with [=substantive changes=] changes to ensure they get a thorough IPR review as per the
 	<a href="https://www.w3.org/2004/pp/psig/pp-evergreen.html#53-review-draft-licensing-obligations">Evergreen
 	Review Draft Licensing Obligations</a>.
 
