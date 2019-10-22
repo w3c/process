@@ -2828,6 +2828,144 @@ Advancement on the Recommendation Track</h4>
 	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a [=Director=]'s decision
 	on an [=Advisory Committee Review=].</p>
 
+<h4 id="update-reqs">
+Updating Mature Publications on the Recommendation Track</h4>
+
+	Certain requests to re-publish a specification
+	within its current maturity level
+	(called <dfn export>Update Requests</dfn>)
+	require [=Director=] approval.
+	For such [=update requests=], the Working Group:
+
+	<ul>
+		<li>
+			<em class="rfc2119">must</em> record the group's decision to request the update.
+
+		<li>
+			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
+
+		<li>
+			<em class="rfc2119">must </em> obtain [=Director=] approval,
+			or fulfill the criteria for [[#streamlined-update]].
+
+		<li>
+			<em class="rfc2119 ">must</em> provide public documentation
+			of all <a href="#substantive-change">substantive changes</a> to the technical report
+			since the previous publication.
+
+		<li>
+			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
+
+		<li>
+			<em class="rfc2119">must</em> show that the revised specification
+			meets all [=Working Group=] requirements,
+			or explain why the requirements have changed or been deferred,
+
+		<li>
+			<em class="rfc2119">should</em> document if [=editorial changes=] changes have been made,
+			and <em class="rfc2119">may</em> document the details of such changes.
+
+		<li>
+			<em class="rfc2119">should</em> report which, if any, of the [=Working Group=]'s requirements
+			for this document have changed since the previous step.
+
+		<li>
+			<em class="rfc2119">should</em> report any changes in dependencies with other groups.
+
+		<li>
+			<em class="rfc2119">should</em> provide information about implementations known to the [=Working Group=].
+	</ul>
+
+	There is usually a formal review meeting
+	to ensure the requirements have been met before [=Director=]'s approval is given.
+
+	Note: [=Update request=] approval is expected to be fairly simple
+	compared to getting approval for a [=transition request=].
+
+	The [=Director=] <em class="rfc2119">must</em> announce the publication
+	of the revised specification
+	to other W3C groups and the Public.
+
+
+<h5 id="streamlined-update">
+Streamlined Publication Approval</h5>
+
+	Note: These criteria are intentionally stricter than
+	the general requirements for an [=update request=].
+	This is in order to minimize ambiguities and the need for expert judgement,
+	and to make self-evaluation practical.
+
+	In order to streamline the publication process in non-controversial cases,
+	approval to an [=update request=] is automatically granted without formal review
+	when the following <em>additional</em> criteria are fulfilled:
+
+	<ul>
+		<li>
+			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
+
+		<li>
+			For each of the
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
+			if the Horizontal Review Group has made available a set criteria
+			under which their review is not necessary,
+			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
+			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
+			that review from that group has been solicited and received.
+
+		<li>
+			No [=Formal Objection=] has been registered against the document.
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em>
+			have [=formally addressed=]:
+			* all issues raised against the document that resulted in changes since the previous publication
+			* all issues raised against changes since the previous publication
+			* all issues raised against the document that were closed since the previous publication with no change to the document
+
+			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
+			of the person who raised it:
+			their proposal has been accepted,
+			or a compromise has been found,
+			or they accepted the Working Group's rationale for rejecting it.
+
+			Note: This is stricter than the general Transition Request criteria.
+	</ul>
+
+	Additionally, for updates to [=Recommendations=]
+	with <a href="#revised-rec-substantive">substative changes</a>
+	or <a href="#revised-rec-features">with new features</a>:
+
+	<ul>
+
+		<li>
+			Changes to the document are limited to
+			[=proposed corrections=] that were included in a [=Last Call for Review of Proposed Corrections=]
+			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>,
+			and/or (in the case of an [=Extensible Recommendation=])
+			[=proposed additions=] that were included in a [=Last Call for Review of Proposed Additions=].
+
+		<li>
+			The [=Working Group=] <em class=rfc2119>must</em> show
+			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
+			as evidenced by passing tests of a test suite
+			providing extensive coverage of the changes.
+
+			Note: This is stricter than the general criteria for [=adequate implementation experience=].
+	</ul>
+
+	The [=Working Group=] must provide written evidence for these claims,
+	and the [=Team=] must make these answers publicly and permanently available.
+
+	After publication,
+	if an AC Representative
+	or Team member
+	doubts that the evidence presented supports the claims,
+	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
+	If that review finds that the requirements were not fulfilled,
+	the Team <em class=rfc2119>may</em> revert the changes
+	by updating in place the status section to indicate that it has been reverted,
+	and by republishing the previously approved version of the technical report.
+
 <h4 id="doc-reviews">
 Reviews and Review Responsibilities</h4>
 
@@ -3033,7 +3171,7 @@ First Public Working Draft</h4>
 	The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>).
 
 	To publish the [=First Public Working Draft=] of a document,
-	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">general requirements for advancement</a>.
+	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">requirements for advancement</a>.
 
 	The [=Director=] <em class="rfc2119">must</em> announce
 	the publication of a [=First Public Working Draft=]
@@ -3115,7 +3253,7 @@ Stopping Work on a Specification</h4>
 Candidate Recommendation</h3>
 
 	To publish a [=Candidate Recommendation=],
-	in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>
+	in addition to meeting the <a href="#transition-reqs">requirements for advancement</a>
 	a [=Working Group=],
 	or in the case of a candidate [=Amended Recommendation=]
 	(a document intended to become an [=Amended Recommendation=]),
@@ -3177,34 +3315,19 @@ Revising a Candidate Recommendation</h4>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
 	other than to remove features explicitly identified as [=at risk=],
-	the [=Working Group=] <em class="rfc2119">must</em> obtain
-	the [=Director=]'s approval to [=publish=] a revision of a [=Candidate Recommendation=].
+	the [=Working Group=] <em class="rfc2119">must</em>
+	meet the requirements of an [=update request=] in order to republish.
 	[=Substantive changes=] can require a new Exclusion Opportunity
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
-
-	Note: approval is <em>expected</em> to be fairly simple
-	compared to getting approval for a transition from [=Working Draft=] to [=Candidate Recommendation=].
 
 	In addition the Working Group:
 
 	<ul>
 		<li>
-			<em class="rfc2119">must</em> show that the revised specification
-			meets all [=Working Group=] requirements,
-			or explain why the requirements have changed or been deferred,
-		<li>
 			<em class="rfc2119">must</em> specify the deadline for further comments,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days after publication,
 			and <em class="rfc2119">should</em> be longer for complex documents,
-
-		<li>
-			<em class="rfc2119">must</em> document the [=substantive changes=] since the previous [=Candidate Recommendation=]
-			(if [=editorial changes=] have been made, this <em class=rfc2119>should</em> be indicated, but details are not required),
-
-		<li>
-			<em class="rfc2119">must</em> show that the proposed changes have received [=wide review=],
-			and
 
 		<li>
 			<em class="rfc2119">may</em> identify features in the document as [=at risk=].
@@ -3213,10 +3336,6 @@ Revising a Candidate Recommendation</h4>
 			without a requirement to publish a new [=Candidate Recommendation=].
 	</ul>
 
-	The [=Director=] <em class="rfc2119">must</em> announce the publication
-	of a revised [=Candidate Recommendation=]
-	to other W3C groups and the Public.
-
 	To provide timely updates and patent protection,
 	a <a>Candidate Recommendation</a>
 	<em class=rfc2119>should</em> be published
@@ -3224,78 +3343,11 @@ Revising a Candidate Recommendation</h4>
 	any proposal for a substantive change
 	(and preferably sooner).
 
-<h5 id="streamlined-cr-update">
-Streamlined Publication Approval for CR Updates</h5
-
-	In order to streamline the publication process in non-controversial cases,
-	approval is automatically granted without formal review
-	when the following criteria are fulfilled:
-
-	Note: The criteria are intentionally stricter than those applied
-	during normal [=Transition Requests=].
-	This is in order to minimize ambiguities and the need for expert judgement,
-	and to make self-evaluation practical.
-
-	<ul>
-		<li>
-			There is a [=Working Group=] decision to publish.
-
-		<li>
-			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
-
-		<li>
-			the [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Candidate Recommendation=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that the specification has received [=wide review=].
-
-		<li>
-			For each of the
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
-			if the Horizontal Review Group has made available a set criteria
-			under which their review is not necessary,
-			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
-			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
-			that review from has been solicited and received.
-
-		<li>
-			No [=Formal Objection=] has been registered against the document.
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em>
-			have [=formally addressed=]:
-			* all issues raised against the document that resulted in changes since the previous publication
-			* all issues raised against changes since the previous publication
-			* all issues raised against the document that were closed since the previous publication with no change to the document
-
-			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
-			of the person who raised it:
-			their proposal has been accepted,
-			or a compromise has been found,
-			or they accepted the Working Group's rationale for rejecting it.
-
-			Note: this is stricter than the general Transition Request criteria.
-	</ul>
-
-	The [=Working Group=] must provide written evidence for these claims,
-	and the [=Team=] must make these answers publicly and permanently available.
-
-	After publication,
-	if an AC Representative
-	or Team member
-	doubts that the evidence presented supports the claims,
-	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
-	If that review finds that the requirements were not fulfilled,
-	the Team <em class=rfc2119>may</em> revert the publication
-	by updating in place the status section to indicate that it has been reverted,
-	and by republishing the previous [=Candidate Recommendation=].
-
 
 <h3 id="rec-pr">
 Proposed Recommendation</h3>
 
-	In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 
 	<ul>
 		<li>
@@ -3390,7 +3442,7 @@ W3C Recommendation</h3>
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
 
-	In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 
 	<ul>
 		<li>
@@ -3799,7 +3851,7 @@ Revising a Recommendation: Substantive Changes</h4>
 	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	it may incorporate the [=Proposed Correction=] into the main text
-	by <a lt="transition request">requesting</a> <a href="#rec-publication">publication as a Recommendation</a>.
+	by issuing an [=update request=] for <a href="#rec-publication">publication as a Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
@@ -3817,86 +3869,6 @@ Revising a Recommendation: Substantive Changes</h4>
 	If the publication was requested by the [=W3C team=] in the absence of a [=Working Group=],
 	the resulting [=Recommendation=] will be called an [=Amended Recommendation=].
 	(See <a href="#correction-classes">class 3 changes</a>.)
-
-<h5 id="streamline-rec-class-3">
-Streamlined Publication Approval for Recommendations with Substantive Changes</h5>
-
-	In order to streamline the publication process in non-controversial cases,
-	approval is automatically granted without formal review
-	when the following criteria are fulfilled:
-
-	Note: The criteria are intentionally stricter than those applied
-	during normal [=Transition Requests=].
-	This is in order to minimize ambiguities and the need for expert judgement,
-	and to make self-evaluation practical.
-
-	<ul>
-		<li>
-			There is a [=Working Group=] decision to publish.
-
-		<li>
-			Changes to the document are limited to
-			[=proposed corrections=] which were included in a [=Last Call for Review of Proposed Corrections=],
-			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
-
-		<li>
-			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
-
-		<li>
-			The [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Recommendation=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
-			as evidenced by passing tests of a test suite
-			providing extensive coverage of the changes.
-
-			Note: this is stricter than the general criteria for [=adequate implementation experience=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that the changes have received [=wide review=].
-
-		<li>
-			For each of the
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
-			if the Horizontal Review Group has made available a set criteria
-			under which their review is not necessary,
-			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
-			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
-			that review from has been solicited and received.
-
-		<li>
-			No [=Formal Objection=] has been registered against the document.
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em>
-			have [=formally addressed=]:
-			* all issues raised against the document that resulted in changes since the previous publication
-			* all issues raised against changes since the previous publication
-			* all issues raised against the document that were closed since the previous publication with no change to the document
-
-			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
-			of the person who raised it:
-			their proposal has been accepted,
-			or a compromise has been found,
-			or they accepted the Working Group's rationale for rejecting it.
-
-			Note: this is stricter than the general Transition Request criteria.
-	</ul>
-
-	The [=Working Group=] must provide written evidence for these claims,
-	and the [=Team=] must make these answers publicly and permanently available.
-
-	After publication,
-	if an AC Representative
-	or Team member
-	doubts that the evidence presented supports the claims,
-	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
-	If that review finds that the requirements were not fulfilled,
-	the Team <em class=rfc2119>may</em> revert the publication
-	by updating in place the status section to indicate that it has been reverted,
-	and by republishing the previous [=Recommendation=].
 
 <h4 id="revised-rec-features">
 Revising a Recommendation: New Features</h4>
@@ -3961,7 +3933,7 @@ Revising a Recommendation: New Features</h4>
 	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	it may incorporate the [=Proposed Addition=] into the main text
-	by <a lt="transition request">requesting</a> <a href="#rec-publication">publication as a Extensible Recommendation</a>.
+	by issuing [=update request=] for <a href="#rec-publication">publication as a Extensible Recommendation</a>.
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
@@ -3975,87 +3947,6 @@ Revising a Recommendation: New Features</h4>
 	It is then called
 	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
 	and fullfils the requirements of both.
-
-<h5 id="streamline-rec-class-4">
-Streamlined Publication Approval for Recommendations with New Features</h5>
-
-	In order to streamline the publication process in non-controversial cases,
-	approval is automatically granted without formal review
-	when the following criteria are fulfilled:
-
-	Note: The criteria are intentionally stricter than those applied
-	during normal [=Transition Requests=].
-	This is in order to minimize ambiguities and the need for expert judgement,
-	and to make self-evaluation practical.
-
-	<ul>
-		<li>
-			There is a [=Working Group=] decision to publish.
-
-		<li>
-			Changes to the document are limited to
-			[=proposed corrections=] which were included in a [=Last Call for Review of Proposed Corrections=],
-			[=proposed additions=] which were included in a [=Last Call for Review of Proposed Additions=],
-			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>.
-
-		<li>
-			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
-
-		<li>
-			The [=Working Group=] <em class="rfc2119">must</em> document the changes since the previous [=Extensible Recommendation=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
-			as evidenced by passing tests of a test suite
-			providing extensive coverage of the changes.
-
-			Note: this is stricter than the general criteria for [=adequate implementation experience=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that the changes have received [=wide review=].
-
-		<li>
-			For each of the
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
-			if the Horizontal Review Group has made available a set criteria
-			under which their review is not necessary,
-			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
-			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
-			that review from has been solicited and received.
-
-		<li>
-			No [=Formal Objection=] has been registered against the document.
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em>
-			have [=formally addressed=]:
-			* all issues raised against the document that resulted in changes since the previous publication
-			* all issues raised against changes since the previous publication
-			* all issues raised against the document that were closed since the previous publication with no change to the document
-
-			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
-			of the person who raised it:
-			their proposal has been accepted,
-			or a compromise has been found,
-			or they accepted the Working Group's rationale for rejecting it.
-
-			Note: this is stricter than the general Transition Request criteria.
-	</ul>
-
-	The [=Working Group=] must provide written evidence for these claims,
-	and the [=Team=] must make these answers publicly and permanently available.
-
-	After publication,
-	if an AC Representative
-	or Team member
-	doubts that the evidence presented supports the claims,
-	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
-	If that review finds that the requirements were not fulfilled,
-	the Team <em class=rfc2119>may</em> revert the publication
-	by updating in place the status section to indicate that it has been reverted,
-	and by republishing the previous [=Extensible Recommendation=].
 
 <h3 id="Note">
 Publishing a Working Group or Interest Group Note</h3>
