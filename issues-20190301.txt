@@ -401,3 +401,11 @@ Summary:  Purpose of short terms undefined
 From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/333
 Open
+----
+Issue 50.
+Summary:  Add references to "Open Stand" principles to the Process
+From:     Larry Masinter
+Comment:  https://github.com/w3c/w3process/issues/325
+Response: https://github.com/w3c/w3process/issues/325#issuecomment-545684526
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/325#issuecomment-545480250
