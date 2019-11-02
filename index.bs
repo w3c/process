@@ -53,8 +53,8 @@ Status Text:
 <pre class=biblio>
 {
 	"PATENT-POLICY": {
-		"href": "https://frivoal.github.io/w3c-ipr/w3c-ipr-policy.html",
-		"title": "W3C IPR Policy"
+		"href": "https://patent-policy.rivoal.net",
+		"title": "W3C IPR Policy (experimental version)"
 	}
 }
 </pre>
@@ -1004,8 +1004,8 @@ Individual Participation Criteria</h3>
 	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
 	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
 	and the participation requirements described in
-	[[PATENT-POLICY#patent-disclosures|section 5.6]]
-	of the W3C Patent Policy [[!PATENT-POLICY]].
+	“Disclosure”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	The [=Director=] <em class="rfc2119">may</em> suspend or remove for cause
 	a participant in any group (including the [=AB=] and [=TAG=]),
@@ -1453,7 +1453,7 @@ Resignation from a Group</h3>
 	or the Invited Expert
 	will be deemed to have resigned from the relevant group.
 	The team <em class="rfc2119">must</em> record the notification.
-	See [[PATENT-POLICY#leaving|section 2.10.2]] of the W3C Patent Policy [[PATENT-POLICY]]
+	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
@@ -1708,8 +1708,8 @@ Working Group and Interest Group Participation Requirements</h4>
 	a Working or Interest Group participant
 	at any time during the group's existence.
 	See also relevant requirements in
-	[[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
-	of the W3C Patent Policy [[PATENT-POLICY]].
+	“Joining an Already Established Working Group”
+	in the W3C Patent Policy [[PATENT-POLICY]].
 
 	On an exceptional basis,
 	a Working or Interest Group participant <em class="rfc2119">may</em> designate
@@ -1737,9 +1737,10 @@ Working Group and Interest Group Participation Requirements</h4>
 	(a core group of highly dedicated participants).
 
 	See also the licensing obligations on Working Group participants
-	in [[PATENT-POLICY#patent-licensing-obligations-in-general|section 5.1]]
-	of the W3C Patent Policy [[!PATENT-POLICY]],
-	and the patent claim exclusion process of [[PATENT-POLICY#patent-exclusions|section 5.5]].
+	in “Licensing Obligations”
+	in the W3C Patent Policy [[!PATENT-POLICY]],
+	and the patent claim exclusion process
+	in “Exclusion From W3C RF Licensing Requirements” in the Patent Policy.
 
 <h5 id="member-rep-wg">
 Member Representative in a Working Group</h5>
@@ -1856,8 +1857,8 @@ Invited Expert in a Working Group</h5>
 			accept the participation terms set forth in the charter,
 			including the participation requirements of
 			the W3C Patent Policy [[!PATENT-POLICY]],
-			especially [[PATENT-POLICY#sec-invited|section 2.10.1]]
-			and [[PATENT-POLICY#patent-disclosures|section 5.6]],
+			especially in “Note on Licensing Commitments for Invited Experts”
+			and in “Disclosure”,
 			indicating a specific charter date or version,
 
 		<li>
@@ -2125,12 +2126,12 @@ Working Group and Interest Group Charters</h4>
 			considerations affecting the success of the Group?
 			In particular, is there any reason to believe
 			that it will be difficult to meet the Royalty-Free licensing goals
-			of [[PATENT-POLICY#goals|section 1.2]]
-			of the W3C Patent Policy [[PATENT-POLICY]]?
+			in “Licensing Goals for W3C Specifications”
+			in the W3C Patent Policy [[PATENT-POLICY]]?
 	</ul>
 
-	See also the charter requirements of [[PATENT-POLICY#goals|section 1.2]]
-	of the W3C Patent Policy [[!PATENT-POLICY]]. 
+	See also the charter requirements in “Licensing Goals for W3C Specifications”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	For every Recommendation Track deliverable
 	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
@@ -2153,8 +2154,9 @@ Working Group and Interest Group Charters</h4>
 			stable URL,
 			and publication date of the most recent [=Patent Review Draft=]
 			that triggered an Exclusion Opportunity
-			as per [[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
-			of the W3C Patent Policy [[!PATENT-POLICY]].
+			as per
+			<!--[[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]] of-->
+			the W3C Patent Policy [[!PATENT-POLICY]].
 			(labeled “<dfn export id="exclusion-draft">Exclusion Draft</dfn>”); and
 
 		<li>
@@ -2172,8 +2174,8 @@ Working Group and Interest Group Charters</h4>
 	the dates on which the Exclusion Opportunity
 	that arose on publishing the [=Exclusion Draft=]
 	began and ended.
-	As per [[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]]
-	of the W3C Patent Policy [[!PATENT-POLICY]],
+	As per “Joining an Already Established Working Group”
+	in the W3C Patent Policy [[!PATENT-POLICY]],
 	this potentially means that exclusions can only be made immediately on joining a Working Group.
 
 	<p id="ig-charter-participation">An Interest Group charter
@@ -2244,9 +2246,8 @@ W3C Technical Report Development Process</h2>
 			earn endorsement by W3C and the broader community.
 	</ul>
 
-	See also the licensing goals for [=W3C Recommendations=] in
-	[[PATENT-POLICY#goals|section 1.2]]
-	of the W3C Patent Policy [[PATENT-POLICY]].
+	See also “licensing goals for W3C Specifications”
+	in the W3C Patent Policy [[PATENT-POLICY]].
 
 <h3 id="rec-advance">
 W3C Technical Reports</h3>
@@ -4746,8 +4747,8 @@ Information Required in a Submission Request</h4>
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
 	The request <em class="rfc2119">must</em> satisfy the Member Submission licensing commitments
-	of [[PATENT-POLICY#sec-submissions|section 5.7]]
-	of the W3C Patent Policy [!!PATENT-POLICY]].
+	in “Licensing Commitments in W3C Submissions”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	The [=Submitter=](s) <em class="rfc2119">must</em> include the following information:
 
@@ -4866,7 +4867,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 		<li>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
 			Patent Policy [[!PATENT-POLICY]]
-			and in particular [[PATENT-POLICY#sec-submissions|section 5.7]]
+			and in particular the “Licensing Commitments in W3C Submissions”,
 			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
 			or other IPR policies.
 
