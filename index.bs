@@ -2586,7 +2586,7 @@ Maturity Levels</h4>
 			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
 		<dd>
 			A Proposed Recommendation is a document
-			that has been accepted by the W3C Director
+			that has been accepted by the W3C
 			as of sufficient quality to become a [=W3C Recommendation=].
 			This phase triggers formal review by the [=Advisory Committee=],
 			who <em class="rfc2119">may</em> recommend
@@ -2609,7 +2609,7 @@ Maturity Levels</h4>
 			or set of guidelines
 			or requirements that,
 			after extensive [=consensus=]-building,
-			has received the endorsement of W3C Members and the Director.
+			has received the endorsement of the W3C and its Members.
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
 			The W3C Royalty-Free IPR licenses
