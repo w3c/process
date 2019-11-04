@@ -2682,7 +2682,7 @@ Maturity Levels</h4>
 			This is enabled by the [=Proposed Addition=] mechanism
 			described in <a href="#revised-rec-features"></a>.
 			Publishing a Technical Report as a [=Extensible Recommendation=]
-			is only possible when explicitely allowed in the [=Working Group=]'s [=Charter=].
+			is only possible when explicitly allowed in the [=Working Group=]'s [=Charter=].
 
 			If the [=Working Group=]'s [=Charter=] allows a Technical Report
 			to be published either as a [=Recommendation=] or as a [=Extensible Recommendation=],
