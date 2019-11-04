@@ -3340,7 +3340,7 @@ Candidate Recommendation</h3>
 		<li>Return to <a href="#revised-wd">Working Draft</a></li>
 		<li>A revised <a href="#revised-cr">Candidate Recommendation Review Snapshot</a></li>
 		<li>A revised <a href="#revised-cr-update">Candidate Recommendation Update Draft</a></li>
-		<li><a href="#rec-pr">Proposed Recommendation</a> (The expected next step)</li>
+		<li><a href="#rec-pr">Proposed Recommendation</a></li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
 
