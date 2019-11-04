@@ -3433,6 +3433,8 @@ Revising a Candidate Recommendation: Publishing an [=Candidate Recommendation Up
 		<li>Return to <a href="#revised-wd">Working Draft</a></li>
 		<li>A revised <a href="#revised-cr">Candidate Recommendation Review Snapshot</a></li>
 		<li>A revised <a href="#revised-cr-update">Candidate Recommendation Update Draft</a></li>
+		<li><a href="#rec-pr">Proposed Recommendation</a>,
+		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
 
@@ -3479,6 +3481,11 @@ Proposed Recommendation</h3>
 			in which case the [=Proposed Recommendation=] <em class=rfc2119>must</em> be identified as a
 			[=Proposed Extensible Recommendation=].
 			This is only possible when the [=Charter=] allows it for that Technical Report.
+
+		<li>
+			<em class=rfc2119>must not</em> have any [=substantive changes=]
+			since the most recent [=Candidate Recommendation Review Snapshot=],
+			other than dropping features identified [=at risk=].
 
 		<li>
 			<em class="rfc2119">may</em> have removed features
