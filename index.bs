@@ -2531,8 +2531,10 @@ Maturity Levels</h4>
 			</ul>
 
 			Note: Advancing to [=Candidate Recommendation=] indicates
-			that no further improvement is expected
-			without additional implementation experience and testing.
+			that the document is considered complete and fit for purpose,
+			and that no further refinement to the text is expected
+			without additional implementation experience and testing;
+			additional features in a later revision may however be expected.
 			A [=Candidate Recommendation=] is expected to be as well-written,
 			detailed,
 			self-consistent,
@@ -2540,8 +2542,6 @@ Maturity Levels</h4>
 			as a [=Recommendation=],
 			and acceptable as such
 			if and when the requirements for further advancement are met.
-			Announcement of a different next step <em class="rfc2119">should</em> include the reasons
-			why the change in expectations comes at so late a stage.
 
 			Candidate Recommendation publications take one of two forms:
 
