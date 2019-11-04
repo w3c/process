@@ -2612,6 +2612,9 @@ Maturity Levels</h4>
 			has received the endorsement of W3C Members and the Director.
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
+			The W3C Royalty-Free IPR licenses
+			granted under the W3C Patent Policy [[PATENT-POLICY]]
+			apply to [=W3C Recommendations=].
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
 			<dl>
