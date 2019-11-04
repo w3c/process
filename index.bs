@@ -3988,8 +3988,8 @@ Revising a Recommendation: New Features</h4>
 	new features can also be added to a [=Extensible Recommendation=]
 	using [=proposed additions=].
 	<dfn>Proposed Additions</dfn> are similar to [=errata=],
-	except that they introduce new features
-	rather than correct errors.
+	except that they propose new features
+	rather than errors corrections.
 	Like errata,
 	[=proposed additions=] are initially non-normative,
 	and when annotated inline,
