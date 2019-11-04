@@ -2057,7 +2057,7 @@ Working Group and Interest Group Charters</h4>
 			when sufficiently mature,
 			be published as a [=Extensible Recommendation=],
 			as an ordinary [=Recommendation=],
-			or as either at the discression of the [=Working Group=].
+			or as either at the discretion of the [=Working Group=].
 
 			Revising the Recommendation using [=proposed additions=]
 			(see [[#revised-rec-features]])
