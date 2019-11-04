@@ -2058,14 +2058,13 @@ Working Group and Interest Group Charters</h4>
 			be published as a [=Extensible Recommendation=],
 			as an ordinary [=Recommendation=],
 			or as either at the discretion of the [=Working Group=].
+			If this information is left out,
+			only publishing as an ordinary [=Recommendation=] is allowed.
 
-			Revising the Recommendation using [=proposed additions=]
+			Note: Revising the Recommendation using [=proposed additions=]
 			(see [[#revised-rec-features]])
 			is only allowed for [=Extensible Recommendations=].
 
-			If this information is left out
-			(for example, if the charter predates the introduction of [=Extensible Recommendations=]),
-			only publishing as an ordinary [=Recommendation=] is allowed.
 
 		<li>
 			Expected milestone dates where available.
