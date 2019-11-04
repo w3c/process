@@ -2693,14 +2693,14 @@ Maturity Levels</h4>
 			The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>.
 			If the proposal is approved,
 			the [=Recommendation=] is republished as a [=Extensible Recommendation=].
+			Republishing a [=Extensible Recommendation=] as a [=Recommendation=],
+			if allowed by the relevant [=Working Group=]'s charter,
+			follows the same process.
 
 			Note: An AC Review is necessary to make sure the change from
 			[=Recommendation=] to [=Extensible Recommendation=] is not made lightly,
 			as there may be stakeholders who rely on a [=Recommendation=] having a fixed scope.
 
-			Republishing a [=Extensible Recommendation=] as a [=Recommendation=],
-			if allowed by the relevant [=Working Group=]'s charter,
-			follows the same process.
 
 		<dt>
 			<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
