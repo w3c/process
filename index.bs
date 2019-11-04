@@ -3373,6 +3373,9 @@ Revising a Candidate Recommendation: Publishing a [=Candidate Recommendation Rev
 	within 24 months of the Working Group accepting
 	any proposal for a substantive change
 	(and preferably sooner).
+	To make scheduling reviews easier,
+	a [=Candidate Recommendation Review Snapshot=] <em class=rfc2119>should not</em> be published
+	more often than approximately once every 6 months.
 
 	Note: [=Substantive changes=] trigger a new Exclusion Opportunity
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
