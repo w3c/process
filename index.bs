@@ -3272,22 +3272,6 @@ Revising Working Drafts</h4>
 		<li><a href="#Note">Working Group Note</a>
 	</ul>
 
-<h4 id="tr-end">
-Stopping Work on a Specification</h4>
-
-	Work on a technical report <em class="rfc2119">may</em> cease at any time.
-	Work <em class="rfc2119 new">should</em> cease
-	if W3C or a [=Working Group=] determines
-	that it cannot productively carry the work any further.
-	If the [=Director=] <a href="#GeneralTermination">closes a Working Group</a>
-	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
-	on the Recommendation track as [=Working Group Notes=].
-	If a [=Working group=] decides,
-	or the [=Director=] requires the [=Working Group=],
-	to discontinue work on a technical report before completion,
-	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
-	as a [=Working Group Note=].
-
 <h3 id="candidate-rec"> <span id="last-call"></span>
 Candidate Recommendation</h3>
 
@@ -4108,6 +4092,22 @@ Publishing a Working Group or Interest Group Note</h3>
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
 	does not specify any licensing requirements or commitments for Working Group Notes.
+
+<h3 id="tr-end">
+Stopping Work on a Specification</h3>
+
+	Work on a technical report <em class="rfc2119">may</em> cease at any time.
+	Work <em class="rfc2119 new">should</em> cease
+	if W3C or a [=Working Group=] determines
+	that it cannot productively carry the work any further.
+	If the [=Director=] <a href="#GeneralTermination">closes a Working Group</a>
+	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
+	on the Recommendation track as [=Working Group Notes=].
+	If a [=Working group=] decides,
+	or the [=Director=] requires the [=Working Group=],
+	to discontinue work on a technical report before completion,
+	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
+	as a [=Working Group Note=].
 
 <h3 id="rec-rescind">
 Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
