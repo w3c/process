@@ -2336,6 +2336,9 @@ Maturity Levels</h4>
 			A [=Working Draft=] is suitable for gathering [=wide review=]
 			prior to advancing to the next stage of maturity.
 
+			The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>).
+
+
 		<dt>
 			<dfn id="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
 		<dd>
@@ -2815,8 +2818,6 @@ Working Draft</h3>
 
 <h4 id="first-wd">
 First Public Working Draft</h4>
-
-	The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>).
 
 	To publish the [=First Public Working Draft=] of a document,
 	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">general requirements for advancement</a>.
