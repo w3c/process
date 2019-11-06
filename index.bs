@@ -2320,8 +2320,10 @@ Maturity Levels</h4>
 			<dfn id="RecsWD" export lt="W3C Working Draft | Working Draft | WD">Working Draft</dfn> (<abbr>WD</abbr>)
 		<dd>
 			A Working Draft is a document that W3C has [=published=]
-			for review by the community, including W3C Members, the public,
-			and other technical organizations.
+			on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
+			for review by the community (including W3C Members), the public,
+			and other technical organizations,
+			and for simple historical reference.
 			Some, but not all, Working Drafts are meant to advance to [=Recommendation=];
 			see the <a href="#DocumentStatus">document status section</a> of a Working Draft
 			for the group's expectations.
@@ -2335,6 +2337,20 @@ Maturity Levels</h4>
 			as the basis for their work at the time of adoption.
 			A [=Working Draft=] is suitable for gathering [=wide review=]
 			prior to advancing to the next stage of maturity.
+
+			For all Working Drafts a Working Group:
+
+			<ul>
+				<li>
+					<em class="rfc2119">should</em> document outstanding issues,
+					and parts of the document on which the Working Group does not have consensus,
+					and
+
+				<li>
+					<em class="rfc2119">may</em> request publication of a Working Draft
+					even if its content is considered unstable
+					and does not meet all Working Group requirements.
+			</ul>
 
 			The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>).
 
@@ -2799,22 +2815,6 @@ Contributor License Grants</h4>
 
 <h3 id="working-draft">
 Working Draft</h3>
-
-	A Working Draft is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]for review,
-	and for simple historical reference.
-	For all Working Drafts a Working Group:
-
-	<ul>
-		<li>
-			<em class="rfc2119">should</em> document outstanding issues,
-			and parts of the document on which the Working Group does not have consensus,
-			and
-
-		<li>
-			<em class="rfc2119">may</em> request publication of a Working Draft
-			even if its content is considered unstable
-			and does not meet all Working Group requirements.
-	</ul>
 
 <h4 id="first-wd">
 First Public Working Draft</h4>
