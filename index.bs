@@ -2133,7 +2133,7 @@ Working Group and Interest Group Charters</h4>
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	For every Recommendation Track deliverable
-	that continues work on a <a href="#RecsWD">Working Draft</a> (WD)
+	that continues work on a [=Working Draft=] (WD)
 	published under any other Charter (including a predecessor group of the same name),
 	for which there is an existing [=Patent Review Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
@@ -2293,14 +2293,14 @@ W3C Technical Reports</h3>
 	for developing publications,
 	so long as they do not conflict with the requirements in this chapter.
 
-<h4 id="recs-and-notes">
-Recommendations and Notes</h4>
+<h4 id=rec-track oldids="recs-and-notes">
+The W3C Recommendation Track</h4>
 
 	W3C follows these steps when advancing a technical report to Recommendation.
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
-		<li>Publication of zero or more revised <a href="#revised-wd">Working Drafts</a>.
+		<li>Publication of zero or more revised [=Working Drafts=].
 		<li>Publication of a [=Candidate Recommendation=].
 		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
@@ -2643,7 +2643,7 @@ Maturity Levels</h4>
 					A [=Working Group=] may make <a href="#editorial-change">editorial</a>
 					to a [=Recommendation=],
 					and produce a new version
-					which W3C [=publishes=] as a <a href="#revised-rec">revised edition</a>
+					which W3C [=publishes=] as a <a href="#revising-rec">revised edition</a>
 					of the [=Recommendation=].
 			<dt>
 				An <dfn id="rec-amended" export>Amended Recommendation</dfn>
@@ -2668,7 +2668,7 @@ Maturity Levels</h4>
 
 				Note: When a Technical Report which had previously been published as a [=Recommendation=]
 				is again published as a [=Recommendation=]
-				after following the necessary steps to <a href="#revised-rec">revise</a> it,
+				after following the necessary steps to <a href="#revising-rec">revise</a> it,
 				the latest version replaces the old one,
 				without the need to invoke the the steps of [[#rec-rescind]]:
 				it is the same document, updated.
@@ -3204,11 +3204,8 @@ Contributor License Grants</h4>
 	that existed at the time of the contribution,
 	on the terms specified in the “W3C Royalty-Free (RF) Licensing Requirements” section of the W3C Patent Policy [[PATENT-POLICY]].
 
-<h3 id="working-draft">
-Working Draft</h3>
-
-<h4 id="first-wd">
-First Public Working Draft</h4>
+<h3 id="first-wd">
+Publishing a First Public Working Draft</h3>
 
 	To publish the [=First Public Working Draft=] of a document,
 	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">requirements for advancement</a>.
@@ -3224,8 +3221,8 @@ First Public Working Draft</h4>
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
-<h4 id="revised-wd">
-Revising Working Drafts</h4>
+<h3 id="revising-wd" oldids="revised-wd">
+Revising a Working Draft</h3>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Working Draft=]
 	to the W3C Technical Reports page
@@ -3268,13 +3265,13 @@ Revising Working Drafts</h4>
 	Possible next steps for any Working Draft:
 
 	<ul>
-		<li>Revised <a href="#revised-wd">Working Draft</a>
-		<li><a href="#candidate-rec">Candidate Recommendation</a>
+		<li>Revised <a href="#revising-wd">Working Draft</a>
+		<li><a href="#transition-cr">Candidate Recommendation</a>
 		<li><a href="#Note">Working Group Note</a>
 	</ul>
 
-<h3 id="candidate-rec"> <span id="last-call"></span>
-Candidate Recommendation</h3>
+<h3 id="transition-cr" oldids="candidate-rec last-call">
+Transitioning to Candidate Recommendation</h3>
 
 	To publish a [=Candidate Recommendation=],
 	in addition to meeting the <a href="#transition-reqs">requirements for advancement</a>
@@ -3322,18 +3319,21 @@ Candidate Recommendation</h3>
 	Possible next steps after a [=Candidate Recommendation Review Snapshot=]:
 
 	<ul>
-		<li>Return to <a href="#revised-wd">Working Draft</a></li>
-		<li>A revised <a href="#revised-cr">Candidate Recommendation Review Snapshot</a></li>
-		<li>A revised <a href="#revised-cr-update">Candidate Recommendation Update Draft</a></li>
-		<li><a href="#rec-pr">Proposed Recommendation</a></li>
+		<li>Return to <a href="#revising-wd">Working Draft</a></li>
+		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Review Snapshot</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update Draft</a></li>
+		<li><a href="#transition-pr">Proposed Recommendation</a></li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
 
 	[=Advisory Committee=] representatives <em class="rfc2119">may</em> initiate an
 	<a href="#ACAppeal">Advisory Committee Appeal</a> of the decision to advance the technical report.
 
-<h4 id="revised-cr">
-Revising a Candidate Recommendation: Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h4>
+<h3 id=revising-cr oldids="revised-cr">
+Revising a Candidate Recommendation</h3>
+
+<h4 id="publishing-crrs">
+Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h4>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
 	since the previous [=Candidate Recommendation Review Snapshot=]
@@ -3370,8 +3370,8 @@ Revising a Candidate Recommendation: Publishing a [=Candidate Recommendation Rev
 	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
-<h4 id="revised-cr-update">
-Revising a Candidate Recommendation: Publishing an [=Candidate Recommendation Update Draft|Update Draft=]</h4>
+<h4 id="publishing-crud">
+Publishing an [=Candidate Recommendation Update Draft|Update Draft=]</h4>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Update Draft|Update Draft=]
 	to the W3C Technical Reports page
@@ -3419,17 +3419,17 @@ Revising a Candidate Recommendation: Publishing an [=Candidate Recommendation Up
 	Possible next steps after a [=Candidate Recommendation Update Draft=]:
 
 	<ul>
-		<li>Return to <a href="#revised-wd">Working Draft</a></li>
-		<li>A revised <a href="#revised-cr">Candidate Recommendation Review Snapshot</a></li>
-		<li>A revised <a href="#revised-cr-update">Candidate Recommendation Update Draft</a></li>
-		<li><a href="#rec-pr">Proposed Recommendation</a>,
+		<li>Return to <a href="#revising-wd">Working Draft</a></li>
+		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Review Snapshot</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update Draft</a></li>
+		<li><a href="#transition-pr">Proposed Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
 
 
-<h3 id="rec-pr">
-Proposed Recommendation</h3>
+<h3 id=transition-pr oldids="rec-pr">
+Transitioning to Proposed Recommendation</h3>
 
 	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 
@@ -3508,13 +3508,13 @@ Proposed Recommendation</h3>
 
 	<ul>
 		<li>
-			Return to <a href="#revised-wd">Working Draft</a>
+			Return to <a href="#revising-wd">Working Draft</a>
 
 		<li>
-			Return to <a href="#candidate-rec">Candidate Recommendation</a>
+			Return to <a href="#transition-cr">Candidate Recommendation</a>
 
 		<li>
-			<a href="#rec-publication">Recommendation status</a>,
+			<a href="#transition-rec">Recommendation status</a>,
 			including [=Edited Recommendation|Edited=] or [=Amended Recommendation=]
 			(The expected next step).
 
@@ -3525,8 +3525,8 @@ Proposed Recommendation</h3>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to advance the technical report.
 
-<h3 id="rec-publication">
-W3C Recommendation</h3>
+<h3 id="transition-rec" oldids="rec-publication">
+Transitioning to W3C Recommendation</h3>
 
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
@@ -3567,10 +3567,10 @@ W3C Recommendation</h3>
 
 	<ul>
 		<li>
-			republished as an <a href="#rec-modify">Edited or Amended Recommendation</a>, or
+			republished as an <a href="#revising-rec">Edited or Amended Recommendation</a>, or
 
 		<li>
-			republished as a <a href="#candidate-rec">Candidate Recommendation</a>
+			republished as a <a href="#transition-cr">Candidate Recommendation</a>
 			to be developed as an [=Edited Recommendation|Edited=] or [=Amended Recommendation=], or
 
 		<li>
@@ -3580,12 +3580,11 @@ W3C Recommendation</h3>
 			<a href="#rec-rescind">rescinded</a>.
 	</ul>
 
-<h3 id="rec-modify">
-Modifying a W3C Recommendation</h3>
+<h3 id=revising-rec oldids="rec-modify revised-rec">
+Revising a W3C Recommendation</h3>
 
 	This section details the management of errors in,
 	and the process for making changes to a [=Recommendation=].
-	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
 
 	<div role="region" aria-label="Revising a W3C Recommendation">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 250" width="100%">
@@ -3876,7 +3875,7 @@ Errata Management</h4>
 	A [=proposed correction=] becomes a normative part of the [=Recommendation=]
 	by the process for Revising a Recommendation described in [[#revised-rec-substantive]].
 
-<h4 id="revised-rec">
+<h4 id="revised-rec-markup">
 Revising a Recommendation: Markup Changes</h4>
 
 	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=],
@@ -3940,7 +3939,7 @@ Revising a Recommendation: Substantive Changes</h4>
 	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	it may incorporate the [=Proposed Correction=] into the main text
-	by issuing an [=update request=] for <a href="#rec-publication">publication as a Recommendation</a>.
+	by issuing an [=update request=] for publication as a [=Recommendation=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
@@ -3951,9 +3950,9 @@ Revising a Recommendation: Substantive Changes</h4>
 
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
-	and <a href="#candidate-rec">publish as a Candidate Recommendation</a>,
+	and <a href="#transition-cr">publish as a Candidate Recommendation</a>,
 	or if no [=Working Group=] is chartered to maintain a [=Recommendation=]
-	W3C <em class="rfc2119">may</em> publish a <a href="#candidate-rec">candidate Amended Recommendation</a>,
+	W3C <em class="rfc2119">may</em> publish a <a href="#transition-cr">candidate Amended Recommendation</a>,
 	and advance the specification from that state.
 	If the publication was requested by the [=W3C team=] in the absence of a [=Working Group=],
 	the resulting [=Recommendation=] will be called an [=Amended Recommendation=].
@@ -4022,7 +4021,7 @@ Revising a Recommendation: New Features</h4>
 	if the [=Working Group=] can show <a>adequate implementation experience</a>
 	and the fulfillment of all other criteria of Recommendation text,
 	it may incorporate the [=Proposed Addition=] into the main text
-	by issuing [=update request=] for <a href="#rec-publication">publication as a Extensible Recommendation</a>.
+	by issuing [=update request=] for publication as a [=Extensible Recommendation=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
@@ -4037,65 +4036,13 @@ Revising a Recommendation: New Features</h4>
 	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
 	and fullfils the requirements of both.
 
-<h3 id="Note">
-Publishing a Working Group or Interest Group Note</h3>
-
-	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> publish work as [=W3C Notes=].
-	Examples include:
-
-	<ul>
-		<li>
-			supporting documentation for a specification,
-			such as explanations of design principles
-			or use cases and requirements,
-
-		<li>
-			non-normative guides to good practices,
-
-		<li>
-			specifications where work has been stopped
-			and there is no longer consensus for making them a new standard.
-	</ul>
-
-	In order to publish a [=Note=],
-	a [=Working Group=] or [=Interest Group=]:
-
-	<ul>
-		<li>
-			<em class="rfc2119">may</em> [=publish=] a [=Note=]
-			with or without its prior publication as a [=Working Draft=].
-
-		<li>
-			<em class="rfc2119">must</em> record the group's decision
-			to request publication as a [=Note=], and
-
-		<li>
-			<em class="rfc2119">should</em> publish documentation
-			of significant changes to the technical report
-			since any previous publication.
-	</ul>
-
-	Possible next steps:
-
-	<ul>
-		<li>
-			End state:
-			A technical report <em class="rfc2119">may</em> remain
-			a Working or Interest Group [=Note=] indefinitely
-
-		<li>
-			A [=Working Group=] <em class="rfc2119">may</em> resume work
-			on a technical report
-			within the scope of its charter
-			at any time,
-			at the maturity level the specification had before publication as a [=Note=]
-	</ul>
-
-	Note: The W3C Patent Policy [[PATENT-POLICY]]
-	does not specify any licensing requirements or commitments for Working Group Notes.
-
 <h3 id="tr-end">
 Stopping Work on a Specification</h3>
+
+<!--
+<h4 id=abandon-wd>
+Abandoning a Working Draft</h4>
+-->
 
 	Work on a technical report <em class="rfc2119">may</em> cease at any time.
 	Work <em class="rfc2119 new">should</em> cease
@@ -4109,9 +4056,13 @@ Stopping Work on a Specification</h3>
 	to discontinue work on a technical report before completion,
 	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
 	as a [=Working Group Note=].
+<!--
+<h4 id=abandon-cr-pr>
+Abandoning a Candidate or Proposed Recommendation</h4>
+-->
 
-<h3 id="rec-rescind">
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
+<h4 id="rec-rescind">
+Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h4>
 
 	It is possible that W3C decides
 	that implementing a particular [=Recommendation=] is no longer recommended.
@@ -4139,7 +4090,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	W3C only rescinds, supersedes, or obsoletes entire Recommendations.
 	A [=Recommendation=] can be both superseded and obsolete.
 	To rescind, supersede, or obsolete some part of a Recommendation,
-	W3C follows the process for <a href="#rec-modify">modifying a Recommendation</a>.
+	W3C follows the process for <a href="#revising-rec">modifying a Recommendation</a>.
 
 
 	Note: For the purposes of the W3C Patent Policy
@@ -4319,6 +4270,64 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h3>
 	Note: W3C strives to ensure that all Technical Reports
 	will continue to be available at their version-specific URL.
 
+
+<h3 id="Note">
+Publishing a Working Group or Interest Group Note</h3>
+
+	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> publish work as [=W3C Notes=].
+	Examples include:
+
+	<ul>
+		<li>
+			supporting documentation for a specification,
+			such as explanations of design principles
+			or use cases and requirements,
+
+		<li>
+			non-normative guides to good practices,
+
+		<li>
+			specifications where work has been stopped
+			and there is no longer consensus for making them a new standard.
+	</ul>
+
+	In order to publish a [=Note=],
+	a [=Working Group=] or [=Interest Group=]:
+
+	<ul>
+		<li>
+			<em class="rfc2119">may</em> [=publish=] a [=Note=]
+			with or without its prior publication as a [=Working Draft=].
+
+		<li>
+			<em class="rfc2119">must</em> record the group's decision
+			to request publication as a [=Note=], and
+
+		<li>
+			<em class="rfc2119">should</em> publish documentation
+			of significant changes to the technical report
+			since any previous publication.
+	</ul>
+
+	Possible next steps:
+
+	<ul>
+		<li>
+			End state:
+			A technical report <em class="rfc2119">may</em> remain
+			a Working or Interest Group [=Note=] indefinitely
+
+		<li>
+			A [=Working Group=] <em class="rfc2119">may</em> resume work
+			on a technical report
+			within the scope of its charter
+			at any time,
+			at the maturity level the specification had before publication as a [=Note=]
+	</ul>
+
+	Note: The W3C Patent Policy [[PATENT-POLICY]]
+	does not specify any licensing requirements or commitments for Working Group Notes.
+
 <h3 id="further-reading">
 Further reading</h3>
 
@@ -4327,6 +4336,7 @@ Further reading</h3>
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
+	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
 
 <h2 id="ReviewAppeal">
 Advisory Committee Reviews, Appeals, and Votes</h2>
@@ -4350,7 +4360,7 @@ Advisory Committee Reviews</h3>
 			<a href="#CharterReview">new and modified Working and Interest Groups</a>,
 
 		<li>
-			<a href="#rec-pr">Proposed Recommendations</a>,
+			[=Proposed Recommendations=],
 			<a href="#proposed-rescinded-rec">Proposals to Obsolete, Rescind, Supersede, or Restore Recommendations</a>,
 			and
 
@@ -5322,7 +5332,7 @@ and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Proc
 			additional to those defined in <a href="#Votes"></a>.
 
 		<dt>
-			<a href="#revised-rec"></a>
+			<a href="#revising-rec"></a>
 		<dd>
 			W3C can produce an <a href="#rec-amended">Amended Recommendation</a> to update a Recommendation,
 			without adding new features,
