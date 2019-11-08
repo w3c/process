@@ -2258,35 +2258,34 @@ W3C Technical Reports</h3>
 	This chapter describes the formal requirements
 	for [=publishing=] and maintaining a [=W3C Recommendation=] or [=Note=].
 
-	Typically a series of [=Working Drafts=] are [=published=],
-	each of which refines a document under development
-	to complete the scope of work envisioned by a [=Working Group=]'s [=charter=].
-	For a technical specification,
-	once review suggests the Working Group has met their requirements satisfactorily for a new standard,
-	there is a [=Candidate Recommendation=] phase.
-	This allows the entire W3C membership to provide feedback
-	on whether the specification is appropriate as a [=W3C Recommendation=],
-	while the [=Working Group=] formally collects <a href="implementation-experience">implementation experience</a>
-	to demonstrate that the specification works in practice.
-	The next phase is a [=Proposed Recommendation=],
-	to finalize the review of W3C Members.
-	If the Director determines that W3C Member review
-	supports a specification becoming a standard,
-	W3C publishes it as a [=Recommendation=].
+	<dl>
+		<dt>Recommendations
+		<dd>
+			[=Working Groups=] develop technical reports on the [=W3C Recommendation Track=]
+			in order to produce normative specifications or guidelines
+			as standards for the Web.
+			The [=Recommendation Track=] process incorporates requirements for [=wide review=],
+			[=adequate implementation experience=],
+			and [=consensus=]-building,
+			and is subject to the W3C Patent Policy [[PATENT-POLICY]]
+			which grants Royalty-Free IPR licenses to implementations.
+			See [[#rec-track]] for details.
 
-	Groups can also publish documents as [=W3C Notes=],
-	typically either to document information
-	other than technical specifications,
-	such as use cases motivating a specification
-	and best practices for its use,
-	or to clarify the status of work that is abandoned.
+		<dt>Notes
+		<dd>
+			Groups can also publish documents as [=W3C Notes=],
+			typically either to document information
+			other than technical specifications,
+			such as use cases motivating a specification
+			and best practices for its use,
+			or to clarify the status of work that is abandoned.
+			See [[#Note]] for details.
 
-	Some [=W3C Notes=] are developed through successive [=Working Drafts=],
-	with an expectation that they will become [=Notes=],
-	while others are simply [=published=].
-	There are few formal requirements to [=publish=] a document as a [=W3C Note=],
-	and they have no standing as a recommendation of W3C
-	but are simply documents preserved for historical reference.
+		<!--
+		<dt>Registries
+		-->
+	</dl>
+
 
 	Individual [=Working Groups=] and [=Interest Groups=]
 	<em class="rfc2119">should</em> adopt additional processes
@@ -2503,7 +2502,24 @@ Contributor License Grants</h4>
 <h3 id=rec-track oldids="recs-and-notes">
 The W3C Recommendation Track</h3>
 
-	W3C follows these steps when advancing a technical report to Recommendation.
+	When advancing a technical report to Recommendation,
+	typically a series of [=Working Drafts=] are [=published=],
+	each of which refines a document under development
+	to complete the scope of work envisioned by a [=Working Group=]'s [=charter=].
+	For a technical specification,
+	once review suggests the Working Group has met their requirements satisfactorily for a new standard,
+	there is a [=Candidate Recommendation=] phase.
+	This allows the entire W3C membership to provide feedback
+	on whether the specification is appropriate as a [=W3C Recommendation=],
+	while the [=Working Group=] formally collects <a href="implementation-experience">implementation experience</a>
+	to demonstrate that the specification works in practice.
+	The next phase is a [=Proposed Recommendation=],
+	to finalize the review of W3C Members.
+	If the Director determines that W3C Member review
+	supports a specification becoming a standard,
+	W3C publishes it as a [=Recommendation=].
+
+	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track">W3C Recommendation Track</dfn> consists of:
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
@@ -4287,6 +4303,13 @@ Working Group and Interest Group Notes</h3>
 			specifications where work has been stopped
 			and there is no longer consensus for making them a new standard.
 	</ul>
+
+	Some [=W3C Notes=] are developed through successive [=Working Drafts=],
+	with an expectation that they will become [=Notes=],
+	while others are simply [=published=].
+	There are few formal requirements to [=publish=] a document as a [=W3C Note=],
+	and they have no standing as a recommendation of W3C
+	but are simply documents preserved for historical reference.
 
 	In order to publish a [=Note=],
 	a [=Working Group=] or [=Interest Group=]:
