@@ -3923,48 +3923,11 @@ Revising a Recommendation: Substantive Changes</h5>
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the proposed correction.
+	the technical and editorial soundness of the proposed change.
 	To validate this, the [=Working Group=] must request
-	a <dfn>Last Call for Review of Proposed Corrections</dfn>.
-
-	The <a>Last Call for Review of Proposed Corrections</a>
-	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
-	and the combination of the existing [=Recommendation=]
-	with the [=proposed corrections=] included in the [=Last Call for Review of Proposed Corrections=]
-	is considered a “Patent Review Draft” of the proposed changes
-	for the purposes of the Patent Policy [[PATENT-POLICY]].
-	The review initiated by the [=Last Call for Review of Proposed Additions=]
-	is an [=Advisory Committee Review=].
-	The announcement <em class="rfc2119">must</em>:
-	<ul>
-		<li>Identify the proposed corrections under review.
-		<li>Specify the deadline for review comments,
-			which must not be any sooner than 60 days from the Call for Review.
-		<li>Solicit review and, if it does not already have it, implementation experience.
-	</ul>
-
-	At the end of the <a>Last Call for Review of Proposed Corrections</a>,
-	the [=W3C Decision=] may either be
-	to reject the [=Proposed Correction=],
-	or to clear the [=Proposed Correction=] for advancement as is,
-	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
-	comments made on the changes under review.
-	If the [=Working Group=] needs to amend a [=Proposed Correction=]
-	in response to review feedback
-	it must issue another <a>Last Call for Review of Proposed Correction</a> on the revised change
-	before it can be incorporated into the main text.
-	Once all comments have been [=formally addressed=],
-	if the [=Working Group=] can show <a>adequate implementation experience</a>
-	and the fulfillment of all other criteria of Recommendation text,
-	it may incorporate the [=Proposed Correction=] into the main text
-	by issuing an [=update request=] for publication as a [=Recommendation=].
-
-	A [=Working Group=] <em class="rfc2119">may</em> batch
-	multiple proposed corrections into a single <a>Last Call for Review of Proposed Corrections</a>.
-	To facilitate review,
-	a <a>Last Call for Review of Proposed Corrections</a> on a given specification
-	<em class=rfc2119>should not</em> be issued more frequently
-	than approximately once every six months.
+	a [=Last Call for Review of Proposed Changes=],
+	followed by an [=update request=].
+	See [[#change-review]]
 
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
@@ -3989,60 +3952,78 @@ Revising a Recommendation: New Features</h5>
 	However,
 	new features can also be added to a [=Extensible Recommendation=]
 	using [=proposed additions=].
-
 	A [=proposed addition=] can be made normative
-	and be folded into the main text of the [=Extensible Recommendation=],
+	and be folded into the main text of an [=Extensible Recommendation=],
 	once it has satisfied all the same criteria
-	as the rest of the [=Extensible Recommendation=],
+	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the proposed correction.
+	the technical and editorial soundness of the proposed change.
 	To validate this, the [=Working Group=] must request
-	a <dfn>Last Call for Review of Proposed Additions</dfn>.
+	a [=Last Call for Review of Proposed Changes=],
+	followed by an [=update request=].
+	See [[#change-review]]
 
-	The <a>Last Call for Review of Proposed Additions</a>
-	must be announced to other W3C groups, the public, and the [=Advisory Committee=],
-	and the combination of the existing [=Extensible Recommendation=]
-	with the [=proposed additions=] included in the [=Last Call for Review of Proposed Additions=]
+<h5 id=change-review>
+Incorporating Proposed Changes</h5>
+
+	A <dfn id=last-call>Last Call for Review of Proposed Changes</dfn>
+	verifies acceptance by the W3C community of [=proposed changes=]
+	by combining an [=AC Review=] with a patent exclusion opportunity.
+
+	The combination of the existing [=Recommendation=]
+	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
 	is considered a “Patent Review Draft” of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
-	The review initiated by the [=Last Call for Review of Proposed Additions=]
+	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
 	is an [=Advisory Committee Review=].
+
+	The <a>Last Call for Review of Proposed Changes</a>
+	must be announced to other W3C groups, the public, and the [=Advisory Committee=].
 	The announcement <em class="rfc2119">must</em>:
 	<ul>
-		<li>Identify the proposed additions under review.
-		<li>Specify the deadline for review comments,
+		<li>
+			Identify whether this is a
+			<dfn>Last Call for Review of Proposed Corrections</dfn>,
+			<dfn>Last Call for Review of Proposed Additions</dfn>,
+			or <dfn>Last Call for Review of Proposed Corrections and Additions</dfn>.
+
+		<li>
+			Identify the specific proposed changes under review.
+
+		<li>
+			Specify the deadline for review comments,
 			which must not be any sooner than 60 days from the Call for Review.
-		<li>Solicit review and, if it does not already have it, implementation experience.
+
+		<li>
+			Solicit review and, if it does not already have it, implementation experience.
 	</ul>
 
-	At the end of the <a>Last Call for Review of Proposed Additions</a>,
-	the [=W3C Decision=] may either be
-	to reject the [=Proposed Addition=],
-	or to clear the [=Proposed Addition=] for advancement as is,
-	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
-	comments made on the changes under review.
-	If the [=Working Group=] needs to amend a [=Proposed Addition=]
-	in response to review feedback
-	it must issue another <a>Last Call for Review of Proposed Additions</a> on the revised change
-	before it can be incorporated into the main text.
-	Once all comments have been [=formally addressed=],
-	if the [=Working Group=] can show <a>adequate implementation experience</a>
-	and the fulfillment of all other criteria of Recommendation text,
-	it may incorporate the [=Proposed Addition=] into the main text
-	by issuing [=update request=] for publication as a [=Extensible Recommendation=].
+	Note: [=Last Call for Review of Proposed Additions=] and
+	[=Last Call for Review of Proposed Corrections and Additions=]
+	can only be issued for [=Extensible Recommendations=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
-	multiple proposed additions into a single <a>Last Call for Review of Proposed Additions</a>.
+	multiple [=proposed changes=] into a single <a>Last Call for Review of Proposed Changes</a>.
 	To facilitate review,
-	a <a>Last Call for Review of Proposed Additions</a> on a given specification
+	a <a>Last Call for Review of Proposed Changes</a> on a given specification
 	<em class=rfc2119>should not</em> be issued more frequently
 	than approximately once every six months.
 
-	A <a>Last Call for Review of Proposed Additions</a> <em class=rfc2119>may</em> be combined with
-	a <a>Last Call for Review of Proposed Corrections</a>.
-	It is then called
-	a <dfn noexport>Last Call for Review of Proposed Corrections and Additions</dfn>,
-	and fullfils the requirements of both.
+	At the end of the <a>Last Call for Review of Proposed Changes</a>,
+	the [=W3C Decision=] may either be
+	to reject the [=Proposed Change=],
+	or to clear the [=Proposed Change=] for advancement as is,
+	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
+	comments made on the changes under review.
+	If the [=Working Group=] needs to amend a [=Proposed Change=]
+	in response to review feedback
+	it must issue another <a>Last Call for Review of Proposed Change</a> on the revised change
+	before it can be incorporated into the main text.
+	Once all comments have been [=formally addressed=],
+	if the [=Working Group=] can show <a>adequate implementation experience</a>
+	and the fulfillment of all other requirements of Recommendation text,
+	it may incorporate the [=Proposed Change=] into the main text
+	by issuing an [=update request=] for publication as a [=Recommendation=].
 
 <h4 id="tr-end">
 Stopping Work on a Recommendation Track Document</h4>
