@@ -2994,23 +2994,6 @@ Maturity Levels on the Recommendation Track</h4>
 			described in <a href="#revised-rec-features"></a>.
 			Publishing a Technical Report as a [=Extensible Recommendation=]
 			is only possible when explicitly allowed in the [=Working Group=]'s [=Charter=].
-
-			If the [=Working Group=]'s [=Charter=] allows a Technical Report
-			to be published either as a [=Recommendation=] or as a [=Extensible Recommendation=],
-			it is possible to republish a [=Recommendation=] as a [=Extensible Recommendation=]:
-			There <em class=rfc2119>must</em> be a [=Working Group=] decision to do so,
-			after which the [=Team=] <em class=rfc2119>must</em> solicit
-			an [=Advisory Committee Review=] of the proposed change.
-			The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>.
-			If the proposal is approved,
-			the [=Recommendation=] is republished as a [=Extensible Recommendation=].
-			Republishing a [=Extensible Recommendation=] as a [=Recommendation=],
-			if allowed by the relevant [=Working Group=]'s charter,
-			follows the same process.
-
-			Note: An AC Review is necessary to make sure the change from
-			[=Recommendation=] to [=Extensible Recommendation=] is not made lightly,
-			as there may be stakeholders who rely on a [=Recommendation=] having a fixed scope.
 	</dl>
 
 	Only sufficiently technically mature work should be advanced.
@@ -4024,6 +4007,26 @@ Incorporating Proposed Changes</h5>
 	and the fulfillment of all other requirements of Recommendation text,
 	it may incorporate the [=Proposed Change=] into the main text
 	by issuing an [=update request=] for publication as a [=Recommendation=].
+
+<h5 id=rec-conversion>
+Transitoning between Extensible Recommendation and Recommendation</h5>
+
+	If the [=Working Group=]'s [=Charter=] allows a Technical Report
+	to be published either as a [=Recommendation=] or as a [=Extensible Recommendation=],
+	it is possible to republish a [=Recommendation=] as a [=Extensible Recommendation=]:
+	There <em class=rfc2119>must</em> be a [=Working Group=] decision to do so,
+	after which the [=Team=] <em class=rfc2119>must</em> solicit
+	an [=Advisory Committee Review=] of the proposed change of status.
+	The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>.
+	If the proposal is approved,
+	the [=Recommendation=] is republished as a [=Extensible Recommendation=].
+	Republishing a [=Extensible Recommendation=] as a [=Recommendation=],
+	if allowed by the relevant [=Working Group=]'s charter,
+	follows the same process.
+
+	Note: An AC Review is necessary to make sure the change from
+	[=Recommendation=] to [=Extensible Recommendation=] is not made lightly,
+	as there may be stakeholders who rely on a [=Recommendation=] having a fixed scope.
 
 <h4 id="tr-end">
 Stopping Work on a Recommendation Track Document</h4>
