@@ -2482,6 +2482,67 @@ Classes of Changes</h4>
 			Changes that add a new functionality, element, etc.
 	</dl>
 
+<h4 id="errata">
+Errata Management</h4>
+
+	Tracking errors is an important part of a [=Working Group=]'s ongoing care of a [=technical report=];
+	for this reason,
+	the scope of a [=Working Group=] charter generally allows time
+	for work after publication of a [=Recommendation=].
+	In this Process Document,
+	the term “<dfn lt="erratum | errata" export>erratum</dfn>”
+	(plural “errata”) refers to any error
+	that can be resolved by one or more changes in classes 1-3
+	of section [[#correction-classes]].</a>.
+
+	[=Working Groups=] <em class="rfc2119">must</em> keep
+	a public record of errors
+	that are reported by readers and implementers
+	for [=Recommendations=].
+	Such error reports <em class="rfc2119">should</em> be compiled
+	no less frequently than quarterly.
+
+	[=Working Groups=] decide how to document errata.
+	Such documentation <em class="rfc2119">must</em> identify
+	the affected [=technical report=] text
+	and describe the error;
+	it <em class="rfc2119">may</em> also describe some possible solution(s).
+	Readers of the [=technical report=] <em class="rfc2119">should</em> be able easily
+	to find and see the errata
+	that apply to that specific [=technical report=] with their associated tests.
+	Errata <em class="rfc2119">may</em> be documented
+	in a separate errata page or tracking system.
+	They <em class="rfc2119">may</em> also, or alternatively,
+	be annotated inline
+	alongside the affected [=technical report=] text
+	or at the start or end of the most relevant section(s).
+
+<h4 id=proposed-changes>
+Proposed Changes</h4>
+
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
+	<dfn>proposed correction</dfn> approved by the consensus of the [=Working Group=].
+	When annotated inline,
+	errata--
+	including their [=proposed corrections=]--
+	must be marked as such,
+	are treated as <a href="#correction-classes">class 2 changes</a>,
+	and are published accordingly.
+
+	Note: Annotating changes in this way allows more mature documents
+	such as [=Recommendations=] and [=Candidate Recommendations=]
+	to be updated quickly with the Working Group's most current thinking,
+	even when the proposed changes have not yet received
+	sufficient review or implementation experience
+	to be normatively incorporated into the specification proper.
+
+	A <dfn>proposed addition</dfn> is similar to a [=proposed correction=],
+	except that it proposes a new feature
+	rather than an error correction.
+
+	[=Proposed corrections=] and [=proposed additions=] are collectively known as
+	<dfn lt="proposed change">proposed changes</dfn>.
+
 <h4 id="contributor-license">
 Contributor License Grants</h4>
 
@@ -3832,51 +3893,6 @@ Revising a W3C Recommendation</h4>
 		</svg>
 	</div>
 
-<h5 id="errata">
-Errata Management</h5>
-
-	Tracking errors is an important part of a [=Working Group=]'s ongoing care of a [=Recommendation=];
-	for this reason,
-	the scope of a [=Working Group=] charter generally allows time
-	for work after publication of a [=Recommendation=].
-	In this Process Document,
-	the term “<dfn lt="erratum | errata" export>erratum</dfn>”
-	(plural “errata”) refers to any error
-	that can be resolved by one or more changes in classes 1-3
-	of section [[#correction-classes]].</a>.
-
-	[=Working Groups=] <em class="rfc2119">must</em> keep
-	a pulic record of errors
-	that are reported by readers and implementers.
-	Such error reports <em class="rfc2119">should</em> be compiled
-	no less frequently than quarterly.
-	Readers of the [=Recommendation=] <em class="rfc2119">should</em> be able easily
-	to find and see the errata
-	that apply to that specific [=Recommendation=] with their associated tests.
-
-	[=Working Groups=] decide how to document errata.
-	Such documentation <em class="rfc2119">must</em> identify
-	the affected [=Recommendation=] text
-	and describe the error;
-	it <em class="rfc2119">may</em> also describe some possible solution(s).
-	Errata <em class="rfc2119">may</em> be documented
-	in a separate errata page or tracking system.
-	They <em class="rfc2119">may</em> also, or alternatively,
-	be annotated inline
-	alongside the affected [=Recommendation=] text
-	or at the start or end of the most relevant section(s).
-
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
-	<dfn>proposed correction</dfn> approved by the consensus of the [=Working Group=].
-	When annotated inline,
-	errata--
-	including their [=proposed corrections=]--
-	must be marked as such,
-	are treated as <a href="#correction-classes">class 2 changes</a>,
-	and are published according to [[#revised-rec-editorial]].
-	A [=proposed correction=] becomes a normative part of the [=Recommendation=]
-	by the process for Revising a Recommendation described in [[#revised-rec-substantive]].
-
 <h5 id="revised-rec-markup">
 Revising a Recommendation: Markup Changes</h5>
 
@@ -3973,16 +3989,6 @@ Revising a Recommendation: New Features</h5>
 	However,
 	new features can also be added to a [=Extensible Recommendation=]
 	using [=proposed additions=].
-	<dfn>Proposed Additions</dfn> are similar to [=errata=],
-	except that they propose new features
-	rather than errors corrections.
-	Like errata,
-	[=proposed additions=] are initially non-normative,
-	and when annotated inline,
-	they must be marked as such.
-	Their inclusion in the [=Extensible Recommendation=]
-	is treated as <a href="#correction-classes">class 2 changes</a>,
-	and are published according to [[#revised-rec-editorial]].
 
 	A [=proposed addition=] can be made normative
 	and be folded into the main text of the [=Extensible Recommendation=],
