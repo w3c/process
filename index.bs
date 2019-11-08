@@ -2281,8 +2281,215 @@ W3C Technical Reports</h3>
 	for developing publications,
 	so long as they do not conflict with the requirements in this chapter.
 
-<h4 id=rec-track oldids="recs-and-notes">
-The W3C Recommendation Track</h4>
+<h4 id="general-requirements">
+General requirements for Technical Reports</h3>
+
+	Every document published as part of the technical report development process
+	<em class="rfc2119 old">must</em> be a public document.
+	The <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]] is available at the W3C Web site.
+	W3C strives to make archival documents indefinitely available
+	at their original address in their original form.
+
+	Every document published as part of the technical report development process
+	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-levels">maturity level</a>,
+	and <em id="DocumentStatus" class="rfc2119">must</em> include information about the status of the document.
+	This status information:
+
+	<ul>
+		<li>
+			<em class="rfc2119">must</em> be unique each time a specification is [=published=],
+
+		<li>
+			<em class="rfc2119">must</em> state which [=Working Group=] developed the specification,
+
+		<li>
+			<em class="rfc2119">must</em> state how to send comments or file bugs,
+			and where these are recorded,
+
+		<li>
+			<em class="rfc2119">must</em> include expectations about next steps,
+
+		<li>
+			<em class="rfc2119">should</em> explain how the technology relates to existing international standards
+			and related work inside or outside W3C,
+			and
+
+		<li>
+			<em class="rfc2119">should</em> explain
+			or link to
+			an explanation of significant changes from the previous version.
+	</ul>
+
+	Every Technical Report published
+	as part of the Technical Report development process
+	is edited by one or more editors
+	appointed by a Group [=Chair=].
+	It is the responsibility of these editors to ensure that the decisions of the Group are
+	correctly reflected in subsequent drafts of the technical report.
+	An editor <em class="rfc2119">must</em> be a participant,
+	per <a href="#group-participation"></a>
+	in the Group responsible for the document(s) they are editing.
+
+	The Team is <em class="rfc2119">not required</em> to publish a [=Technical Report=]
+	that does not conform to the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]]
+	(e.g., for <span id="DocumentName">naming</span>,
+	status information,
+	style,
+	and <span id="document-copyright">copyright requirements</span>).
+	These rules are subject to change by the Team from time to time.
+	The Team <em class="rfc2119">must</em> inform group [=Chairs=]
+	and the [=Advisory Committee=]
+	of any changes to these rules.
+
+	The primary language for W3C [=Technical Reports=] is English.
+	W3C encourages the translation of its [=Technical Reports=].
+	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
+	is available at the W3C Web site.
+
+<h4 id="doc-reviews">
+Reviews and Review Responsibilities</h4>
+
+	A document is available for review
+	from the moment it is first [=published=].
+	Working Groups <em class="rfc2119">should</em> [=formally address=]
+	<em>any</em> substantive review comment
+	about a technical report in a timely manner.
+
+	Reviewers <em class="rfc2119">should</em> send substantive technical reviews as early as possible.
+	[=Working Groups=] are often reluctant to make [=substantive changes=] to a mature document,
+	particularly if this would cause significant compatibility problems
+	due to existing implementation.
+	[=Working Groups=] <em class="rfc2119">should</em> record substantive
+	or interesting proposals raised by reviews
+	but not incorporated into a current specification.
+
+<h5 id="wide-review">
+Wide Review</h5>
+
+	The requirements for <dfn id=dfn-wide-review export>wide review</dfn> are not precisely defined by the W3C Process.
+	The objective is to ensure that the entire set of stakeholders of the Web community,
+	including the general public,
+	have had adequate notice of the progress of the [=Working Group=]
+	(for example through notices posted to <a href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a>)
+	and were able to actually perform reviews of and provide comments on the specification.
+	A second objective is to encourage groups to request reviews
+	early enough that comments and suggested changes
+	can still be reasonably incorporated in response to the review.
+	Before approving transitions,
+	the [=Director=] will consider who has been explicitly offered
+	a reasonable opportunity to review the document,
+	who has provided comments,
+	the record of requests to and responses from reviewers,
+	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
+	and groups identified as dependencies in the charter
+	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
+	and seek evidence of clear communication to the general public
+	about appropriate times and which content to review
+	and whether such reviews actually occurred.
+
+	For example,
+	inviting review of new or significantly revised sections published in Working Drafts,
+	and tracking those comments
+	and the [=Working Group=]'s responses,
+	is generally a good practice which would often be considered positive evidence of wide review.
+	[=Working Groups=] <em class="rfc2119">should</em> announce to other W3C Working Groups
+	as well as the general public,
+	especially those affected by this specification,
+	a proposal to enter [=Candidate Recommendation=]
+	(for example in approximately 28 days).
+	By contrast a generic statement in a document
+	requesting review at any time
+	is likely not to be considered as sufficient evidence
+	that the group has solicited wide review.
+
+	A [=Working Group=] could present evidence that wide review has been received,
+	irrespective of solicitation.
+	But it is important to note that receiving many detailed reviews
+	is not necessarily the same as wide review,
+	since they might only represent comment
+	from a small segment of the relevant stakeholder community.
+
+<h4 id="correction-classes">
+Classes of Changes</h4>
+
+	This document distinguishes the following 4 classes of changes to a specification.
+	The first two classes of change are considered <dfn id="editorial-change">editorial changes</dfn>,
+	the latter two <dfn id="substantive-change">substantive changes</dfn>.
+
+	<dl>
+		<dt>
+			1. No changes to text content
+		<dd>
+			These changes include fixing broken links, style sheets or invalid markup.
+
+		<dt>
+			2. Corrections that do not affect conformance
+		<dd>
+			Changes that reasonable implementers
+			would not interpret as changing architectural
+			or interoperability requirements
+			or their implementation.
+			Changes which resolve ambiguities in the specification
+			are considered to change (by clarification) the implementation requirements
+			and do not fall into this class.
+		<dd>
+			Examples of changes in this class include
+			correcting non-normative code examples
+			where the code clearly conflicts with normative requirements,
+			clarifying informative use cases or other non-normative text,
+			fixing typos or grammatical errors
+			where the change does not change implementation requirements.
+			If there is any doubt or disagreement
+			as to whether requirements are changed,
+			such changes do not fall into this class.
+
+		<dt>
+			3. Corrections that do not add new features
+		<dd>
+			These changes <em class="rfc2119">may</em> affect conformance to the specification.
+			A change that affects conformance is one that:
+
+			<ul>
+				<li>
+					makes conforming data, processors, or other conforming agents become non-conforming according to the new version,
+					or
+				<li>
+					makes non-conforming data, processors, or other agents become conforming,
+					or
+				<li>
+					clears up an ambiguity or under-specified part of the specification
+					in such a way that data,
+					a processor,
+					or an agent
+					whose conformance was once unclear
+					becomes clearly either conforming or non-conforming.
+			</ul>
+
+		<dt>
+			4. New features
+		<dd>
+			Changes that add a new functionality, element, etc.
+	</dl>
+
+<h4 id="contributor-license">
+Contributor License Grants</h4>
+
+	When a contributor who is not already obligated under the Patent Policy
+	offers a change in class 3 or 4
+	(as described in [[#correction-classes]]) to a technical report under this process
+	the [=Team=] <em class=rfc2119>must</em> request from the contributor
+	a recorded royalty-free patent commitment;
+	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
+	Such commitment <em class=rfc2119>should</em> cover,
+	at a minimum,
+	all the contributor's Essential Claims both in the contribution,
+	and that become Essential Claims as a result of incorporating the contribution into the draft
+	that existed at the time of the contribution,
+	on the terms specified in the “W3C Royalty-Free (RF) Licensing Requirements” section of the W3C Patent Policy [[PATENT-POLICY]].
+
+
+<h3 id=rec-track oldids="recs-and-notes">
+The W3C Recommendation Track</h3>
 
 	W3C follows these steps when advancing a technical report to Recommendation.
 
@@ -2313,7 +2520,7 @@ The W3C Recommendation Track</h4>
 	and the specification is returned to a [=Working Group=] for further work.
 
 <h4 id="maturity-levels">
-Maturity Levels</h4>
+Maturity Levels on the Recommendation Track</h4>
 
 	<dl>
 		<dt>
@@ -2327,9 +2534,6 @@ Maturity Levels</h4>
 			Some, but not all, Working Drafts are meant to advance to [=Recommendation=];
 			see the <a href="#DocumentStatus">document status section</a> of a Working Draft
 			for the group's expectations.
-			Any [=Working Draft=] not, or no longer,
-			intended to advance to [=Recommendation=]
-			<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=].
 			[=Working Drafts=] do not necessarily represent a [=consensus=] of the [=Working Group=] with respect to their content,
 			and do not imply any endorsement by W3C
 			or its members beyond agreement to work on a general area of technology.
@@ -2468,25 +2672,15 @@ Maturity Levels</h4>
 				that would require it to be [=Rescinded Recommendation|Rescinded=].
 				If an Obsolete specification gains sufficient market relevance,
 				the W3C may decide to restore it to [=Recommendation=] status.
+
+			<dt>
+				<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
+			<dd>
+				A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
+				and believes is unlikely to ever be restored to [=Recommendation=] status.
+				See also [[PATENT-POLICY#283|section 2.8.3]]
+				of the W3C Patent Policy [[!PATENT-POLICY]].
 		</dl>
-
-		<dt>
-			<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
-		<dd>
-			A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
-			and believes is unlikely to ever be restored to [=Recommendation=] status.
-			See also clause 10 of the licensing requirements for W3C Recommendations
-			in <a href="https://www.w3.org/Consortium/Patent-Policy#sec-Requirements">section 5</a>
-			of the W3C Patent Policy [[!PATENT-POLICY]].
-
-		<dt>
-			<dfn export id="WGNote" lt="W3C Note | WG Note | Working Group Note | IG Note | Interest Group Note | Note">Working Group Note, Interest Group Note</dfn> (<abbr>NOTE</abbr>)
-		<dd>
-			A Working Group Note or Interest Group Note is published
-			by a chartered [=Working Group=] or [=Interest Group=]
-			to provide a stable reference for a useful document
-			that is not intended to be a formal standard,
-			or to document work that was abandoned without producing a [=Recommendation=].
 	</dl>
 
 	Only sufficiently technically mature work should be advanced.
@@ -2508,73 +2702,47 @@ Maturity Levels</h4>
 	and do not necessarily imply consensus of a [=Working Group=] or [=Interest Group=],
 	nor are their contents endorsed in any way by W3C.
 
-<h3 id="requirements-and-definitions">
-General requirements and definitions</h3>
+<h4 id="implementation-experience">
+Implementation Experience</h4>
 
-<h4 id="general-requirements">
-General requirements for Technical Reports</h4>
-
-	Every document published as part of the technical report development process
-	<em class="rfc2119 old">must</em> be a public document.
-	The <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]] is available at the W3C Web site.
-	W3C strives to make archival documents indefinitely available
-	at their original address in their original form.
-
-	Every document published as part of the technical report development process
-	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-levels">maturity level</a>,
-	and <em id="DocumentStatus" class="rfc2119">must</em> include information about the status of the document.
-	This status information:
+	Implementation experience is required to show that a specification is sufficiently clear,
+	complete,
+	and relevant to market needs,
+	to ensure that independent interoperable implementations
+	of each feature of the specification will be realized.
+	While no exhaustive list of requirements is provided here,
+	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
+	the [=Director=] will consider (though not be limited to):
 
 	<ul>
 		<li>
-			<em class="rfc2119">must</em> be unique each time a specification is [=published=],
+			is each feature of the current specification implemented,
+			and how is this demonstrated?
 
 		<li>
-			<em class="rfc2119">must</em> state which [=Working Group=] developed the specification,
+			are there independent interoperable implementations of the current specification?
 
 		<li>
-			<em class="rfc2119">must</em> state how to send comments or file bugs,
-			and where these are recorded,
+			are there implementations created by people other than the authors of the specification?
 
 		<li>
-			<em class="rfc2119">must</em> include expectations about next steps,
+			are implementations publicly deployed?
 
 		<li>
-			<em class="rfc2119">should</em> explain how the technology relates to existing international standards
-			and related work inside or outside W3C,
-			and
+			is there implementation experience
+			at all levels of the specification's ecosystem
+			(authoring, consuming, publishing…)?
 
 		<li>
-			<em class="rfc2119">should</em> explain
-			or link to
-			an explanation of significant changes from the previous version.
+			are there reports of difficulties or problems with implementation?
 	</ul>
 
-	Every Technical Report published
-	as part of the Technical Report development process
-	is edited by one or more editors
-	appointed by a Group [=Chair=].
-	It is the responsibility of these editors to ensure that the decisions of the Group are
-	correctly reflected in subsequent drafts of the technical report.
-	An editor <em class="rfc2119">must</em> be a participant,
-	per <a href="#group-participation"></a>
-	in the Group responsible for the document(s) they are editing.
+	Planning and accomplishing a demonstration of (interoperable) implementations can be very time consuming.
+	Groups are often able to work more effectively
+	if they plan how they will demonstrate interoperable implementations
+	early in the development process;
+	for example, developing tests in concert with implementation efforts.
 
-	The Team is <em class="rfc2119">not required</em> to publish a [=Technical Report=]
-	that does not conform to the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]]
-	(e.g., for <span id="DocumentName">naming</span>,
-	status information,
-	style,
-	and <span id="document-copyright">copyright requirements</span>).
-	These rules are subject to change by the Team from time to time.
-	The Team <em class="rfc2119">must</em> inform group [=Chairs=]
-	and the [=Advisory Committee=]
-	of any changes to these rules.
-
-	The primary language for W3C [=Technical Reports=] is English.
-	W3C encourages the translation of its [=Technical Reports=].
-	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
-	is available at the W3C Web site.
 
 <h4 id="transition-reqs">
 Advancement on the Recommendation Track</h4>
@@ -2631,190 +2799,8 @@ Advancement on the Recommendation Track</h4>
 	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a [=Director=]'s decision
 	on an [=Advisory Committee Review=].</p>
 
-<h4 id="doc-reviews">
-Reviews and Review Responsibilities</h4>
-
-	A document is available for review
-	from the moment it is first [=published=].
-	Working Groups <em class="rfc2119">should</em> [=formally address=]
-	<em>any</em> substantive review comment
-	about a technical report in a timely manner.
-
-	Reviewers <em class="rfc2119">should</em> send substantive technical reviews as early as possible.
-	[=Working Groups=] are often reluctant to make [=substantive changes=] to a mature document,
-	particularly if this would cause significant compatibility problems
-	due to existing implementation.
-	[=Working Groups=] <em class="rfc2119">should</em> record substantive
-	or interesting proposals raised by reviews
-	but not incorporated into a current specification.
-
-<h5 id="wide-review">
-Wide Review</h5>
-
-	The requirements for <dfn id=dfn-wide-review export>wide review</dfn> are not precisely defined by the W3C Process.
-	The objective is to ensure that the entire set of stakeholders of the Web community,
-	including the general public,
-	have had adequate notice of the progress of the [=Working Group=]
-	(for example through notices posted to <a href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a>)
-	and were able to actually perform reviews of and provide comments on the specification.
-	A second objective is to encourage groups to request reviews
-	early enough that comments and suggested changes
-	can still be reasonably incorporated in response to the review.
-	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
-	a reasonable opportunity to review the document,
-	who has provided comments,
-	the record of requests to and responses from reviewers,
-	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
-	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
-	and seek evidence of clear communication to the general public
-	about appropriate times and which content to review
-	and whether such reviews actually occurred.
-
-	For example,
-	inviting review of new or significantly revised sections published in Working Drafts,
-	and tracking those comments
-	and the [=Working Group=]'s responses,
-	is generally a good practice which would often be considered positive evidence of wide review.
-	[=Working Groups=] <em class="rfc2119">should</em> announce to other W3C Working Groups
-	as well as the general public,
-	especially those affected by this specification,
-	a proposal to enter [=Candidate Recommendation=]
-	(for example in approximately 28 days).
-	By contrast a generic statement in a document
-	requesting review at any time
-	is likely not to be considered as sufficient evidence
-	that the group has solicited wide review.
-
-	A [=Working Group=] could present evidence that wide review has been received,
-	irrespective of solicitation.
-	But it is important to note that receiving many detailed reviews
-	is not necessarily the same as wide review,
-	since they might only represent comment
-	from a small segment of the relevant stakeholder community.
-
-<h4 id="implementation-experience">
-Implementation Experience</h4>
-
-	Implementation experience is required to show that a specification is sufficiently clear,
-	complete,
-	and relevant to market needs,
-	to ensure that independent interoperable implementations
-	of each feature of the specification will be realized.
-	While no exhaustive list of requirements is provided here,
-	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
-	the [=Director=] will consider (though not be limited to):
-
-	<ul>
-		<li>
-			is each feature of the current specification implemented,
-			and how is this demonstrated?
-
-		<li>
-			are there independent interoperable implementations of the current specification?
-
-		<li>
-			are there implementations created by people other than the authors of the specification?
-
-		<li>
-			are implementations publicly deployed?
-
-		<li>
-			is there implementation experience
-			at all levels of the specification's ecosystem
-			(authoring, consuming, publishing…)?
-
-		<li>
-			are there reports of difficulties or problems with implementation?
-	</ul>
-
-	Planning and accomplishing a demonstration of (interoperable) implementations can be very time consuming.
-	Groups are often able to work more effectively
-	if they plan how they will demonstrate interoperable implementations
-	early in the development process;
-	for example, developing tests in concert with implementation efforts.
-
-<h4 id="correction-classes">
-Classes of Changes</h4>
-
-	This document distinguishes the following 4 classes of changes to a specification.
-	The first two classes of change are considered <dfn id="editorial-change">editorial changes</dfn>,
-	the latter two <dfn id="substantive-change">substantive changes</dfn>.
-
-	<dl>
-		<dt>
-			1. No changes to text content
-		<dd>
-			These changes include fixing broken links, style sheets or invalid markup.
-
-		<dt>
-			2. Corrections that do not affect conformance
-		<dd>
-			Changes that reasonable implementers
-			would not interpret as changing architectural
-			or interoperability requirements
-			or their implementation.
-			Changes which resolve ambiguities in the specification
-			are considered to change (by clarification) the implementation requirements
-			and do not fall into this class.
-		<dd>
-			Examples of changes in this class include
-			correcting non-normative code examples
-			where the code clearly conflicts with normative requirements,
-			clarifying informative use cases or other non-normative text,
-			fixing typos or grammatical errors
-			where the change does not change implementation requirements.
-			If there is any doubt or disagreement
-			as to whether requirements are changed,
-			such changes do not fall into this class.
-
-		<dt>
-			3. Corrections that do not add new features
-		<dd>
-			These changes <em class="rfc2119">may</em> affect conformance to the specification.
-			A change that affects conformance is one that:
-
-			<ul>
-				<li>
-					makes conforming data, processors, or other conforming agents become non-conforming according to the new version,
-					or
-				<li>
-					makes non-conforming data, processors, or other agents become conforming,
-					or
-				<li>
-					clears up an ambiguity or under-specified part of the specification
-					in such a way that data,
-					a processor,
-					or an agent
-					whose conformance was once unclear
-					becomes clearly either conforming or non-conforming.
-			</ul>
-
-		<dt>
-			4. New features
-		<dd>
-			Changes that add a new functionality, element, etc.
-	</dl>
-
-<h4 id="contributor-license">
-Contributor License Grants</h4>
-
-	When a contributor who is not already obligated under the Patent Policy
-	offers a change in class 3 or 4
-	(as described in [[#correction-classes]]) to a technical report under this process
-	the [=Team=] <em class=rfc2119>must</em> request from the contributor
-	a recorded royalty-free patent commitment;
-	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
-	Such commitment <em class=rfc2119>should</em> cover,
-	at a minimum,
-	all the contributor's Essential Claims both in the contribution,
-	and that become Essential Claims as a result of incorporating the contribution into the draft
-	that existed at the time of the contribution,
-	on the terms specified in section 5 (W3C Royalty-Free (RF) Licensing Requirements) of the W3C Patent Policy.
-
-<h3 id="first-wd">
-Publishing a First Public Working Draft</h3>
+<h4 id="first-wd">
+Publishing a First Public Working Draft</h4>
 
 	To publish the [=First Public Working Draft=] of a document,
 	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">general requirements for advancement</a>.
@@ -2827,8 +2813,8 @@ Publishing a First Public Working Draft</h3>
 	per <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">section 4</a>
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
-<h3 id="revising-wd" oldids="revised-wd">
-Revising a Working Draft</h3>
+<h4 id="revising-wd" oldids="revised-wd">
+Revising a Working Draft</h4>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Working Draft=]
 	to the W3C Technical Reports page
@@ -2876,8 +2862,8 @@ Revising a Working Draft</h3>
 		<li><a href="#Note">Working Group Note</a>
 	</ul>
 
-<h3 id="transition-cr" oldids="candidate-rec last-call">
-Transitioning to Candidate Recommendation</h3>
+<h4 id="transition-cr" oldids="candidate-rec last-call">
+Transitioning to Candidate Recommendation</h4>
 
 	To publish a [=Candidate Recommendation=],
 	in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>
@@ -2939,8 +2925,8 @@ Transitioning to Candidate Recommendation</h3>
 	[=Advisory Committee=] representatives <em class="rfc2119">may</em> initiate an
 	<a href="#ACAppeal">Advisory Committee Appeal</a> of the decision to advance the technical report.
 
-<h3 id=revising-cr oldids="revised-cr">
-Revising a Candidate Recommendation</h3>
+<h4 id=revising-cr oldids="revised-cr">
+Revising a Candidate Recommendation</h4>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
 	other than to remove features explicitly identified as [=at risk=],
@@ -2984,8 +2970,8 @@ Revising a Candidate Recommendation</h3>
 	of a revised [=Candidate Recommendation=]
 	to other W3C groups and the Public.
 
-<h3 id=transition-pr oldids="rec-pr">
-Transitioning to Proposed Recommendation</h3>
+<h4 id=transition-pr oldids="rec-pr">
+Transitioning to Proposed Recommendation</h4>
 
 	In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
 
@@ -3070,8 +3056,8 @@ Transitioning to Proposed Recommendation</h3>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to advance the technical report.
 
-<h3 id="transition-rec" oldids="rec-publication">
-Transitioning to W3C Recommendation</h3>
+<h4 id="transition-rec" oldids="rec-publication">
+Transitioning to W3C Recommendation</h4>
 
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
@@ -3125,8 +3111,8 @@ Transitioning to W3C Recommendation</h3>
 			<a href="#rec-rescind">rescinded</a>.
 	</ul>
 
-<h3 id=revising-rec oldids="rec-modify revised-rec">
-Revising a W3C Recommendation</h3>
+<h4 id=revising-rec oldids="rec-modify revised-rec">
+Revising a W3C Recommendation</h4>
 
 	This section details the management of errors in,
 	and the process for making changes to a [=Recommendation=].
@@ -3137,8 +3123,8 @@ Revising a W3C Recommendation</h3>
 		</pre>
 	</div>
 
-<h4 id="errata">
-Errata Management</h4>
+<h5 id="errata">
+Errata Management</h5>
 
 	Tracking errors is an important part of a [=Working Group=]'s ongoing care of a [=Recommendation=];
 	for this reason,
@@ -3169,8 +3155,8 @@ Errata Management</h4>
 	A correction becomes part of the [=Recommendation=]
 	by the process for Revising a Recommendation described in the next section.
 
-<h4 id="revised-rec-markup">
-Revising a Recommendation: Markup Changes</h4>
+<h5 id="revised-rec-markup">
+Revising a Recommendation: Markup Changes</h5>
 
 	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=],
 	or if there is no [=Working Group=] chartered to maintain a [=Recommendation=]
@@ -3178,8 +3164,8 @@ Revising a Recommendation: Markup Changes</h4>
 	to make corrections that do not result
 	in any changes to the text of the specification.
 
-<h4 id="revised-rec-editorial">
-Revising a Recommendation: Editorial Changes</h4>
+<h5 id="revised-rec-editorial">
+Revising a Recommendation: Editorial Changes</h5>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the proposed changes.
 	A [=Working Group=],
@@ -3189,8 +3175,8 @@ Revising a Recommendation: Editorial Changes</h4>
 	to make this class of change without passing through earlier maturity levels.
 	Such publications are called [=Edited Recommendations=].
 
-<h4 id="revised-rec-substantive">
-Revising a Recommendation: Substantive Changes</h4>
+<h5 id="revised-rec-substantive">
+Revising a Recommendation: Substantive Changes</h5>
 
 	To make corrections to a Recommendation that produce [=substantive changes=]
 	but do not add new features,
@@ -3218,40 +3204,44 @@ Revising a Recommendation: Substantive Changes</h4>
 			<em class="rfc2119">should</em> address all recorded errata.
 	</ul>
 
-<h4 id="revised-rec-features">
-Revising a Recommendation: New Features</h4>
+<h5 id="revised-rec-features">
+Revising a Recommendation: New Features</h5>
 
 	To make changes which introduce a new feature or features,
 	W3C <em class="rfc2119">must</em> follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
 
-<h3 id="tr-end">
-Stopping Work on a Specification</h3>
+<h4 id="tr-end">
+Stopping Work on a Recommendation Track Document</h4>
 
 <!--
-<h4 id=abandon-wd>
-Abandoning a Working Draft</h4>
+<h5 id=abandon-wd>
+Abandoning a Working Draft</h5>
 -->
 
 	Work on a technical report <em class="rfc2119">may</em> cease at any time.
 	Work <em class="rfc2119 new">should</em> cease
 	if W3C or a [=Working Group=] determines
 	that it cannot productively carry the work any further.
+
+	Any [=Working Draft=] not, or no longer,
+	intended to advance to [=Recommendation=],
+	<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=],
+	whether the [=Working Group=] decided
+	to abandon work on the report,
+	or the [=Director=] required the [=Working Group=]
+	to discontinue work on a technical report before completion.
 	If the [=Director=] <a href="#GeneralTermination">closes a Working Group</a>
 	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
 	on the Recommendation track as [=Working Group Notes=].
-	If a [=Working group=] decides,
-	or the [=Director=] requires the [=Working Group=],
-	to discontinue work on a technical report before completion,
-	the [=Working Group=] <em class="rfc2119">should</em> [=publish=] the document
-	as a [=Working Group Note=].
+
 <!--
-<h4 id=abandon-cr-pr>
-Abandoning a Candidate or Proposed Recommendation</h4>
+<h5 id=abandon-cr-pr>
+Abandoning a Candidate or Proposed Recommendation</h5>
 -->
 
-<h4 id="rec-rescind">
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h4>
+<h5 id="rec-rescind">
+Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
 
 	It is possible that W3C decides
 	that implementing a particular [=Recommendation=] is no longer recommended.
@@ -3393,7 +3383,14 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h4>
 
 
 <h3 id="Note">
-Publishing a Working Group or Interest Group Note</h3>
+Working Group and Interest Group Notes</h3>
+
+	A <dfn export id="WGNote" lt="W3C Note | WG Note | Working Group Note | IG Note | Interest Group Note | Note">Working Group Note or Interest Group Note</dfn> (<abbr>NOTE</abbr>)
+	is published
+	by a chartered [=Working Group=] or [=Interest Group=]
+	to provide a stable reference for a useful document
+	that is not intended to be a formal standard,
+	or to document work that was abandoned without producing a [=Recommendation=].
 
 	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> publish work as [=W3C Notes=].
 	Examples include:
