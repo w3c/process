@@ -3407,6 +3407,11 @@ Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h5>
 			without a requirement to publish a new [=Candidate Recommendation=].
 	</ul>
 
+	The [=Director=] <em class="rfc2119">must</em> announce
+	the publication of a revised [=Candidate Recommendation Review Snapshot=]
+	to other W3C groups
+	and to the public.
+
 	To provide timely updates and patent protection,
 	a [=Candidate Recommendation Review Snapshot=]
 	<em class=rfc2119>should</em> be published
