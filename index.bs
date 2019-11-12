@@ -3242,7 +3242,9 @@ Streamlined Publication Approval</h5>
 			The [=Working Group=] <em class=rfc2119>must</em> show
 			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
 			as evidenced by passing tests of a test suite
-			providing extensive coverage of the changes.
+			providing extensive coverage of the changes,
+			or an alternative streamlined approval implementation requirement
+			described in the [=working Group=] charter has been met.
 
 			Note: This is stricter than the general criteria for [=adequate implementation experience=].
 	</ul>
