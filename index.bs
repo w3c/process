@@ -3073,19 +3073,24 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must </em> obtain [=Director=] approval.
 
 		<li>
-			<em class="rfc2119 ">must</em> provide public documentation
-			of all <a href="#substantive-change">substantive changes</a> to the technical report
+			<em class="rfc2119 ">must</em> provide public documentation of all new features
+			(<a href="#correction-classes">class 4 changes</a>) to the technical report
 			since the previous publication.
 
+		<li>
+			<em class="rfc2119">must</em> document if other substantive changes
+			(<a href="#correction-classes">class 3 changes</a>) have been made,
+			and <em class="rfc2119">should</em> document the details of such changes.
+
+		<li>
+			<em class="rfc2119">should</em> document if [=editorial changes=] changes have been made,
+			and <em class="rfc2119">may</em> document the details of such changes.
 		<li>
 			<em class="rfc2119">must</em> [=formally address=] all issues
 			raised about the document since the previous <a href="#maturity-levels">maturity level</a>.
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
-
-		<li>
-			<em class="rfc2119">should</em> provide public documentation of changes that are [=editorial changes|not substantive=].
 
 		<li>
 			<em class="rfc2119">should</em> report which, if any, of the [=Working Group=]'s requirements
@@ -3133,21 +3138,26 @@ Updating Mature Publications on the Recommendation Track</h4>
 			or fulfill the criteria for [[#streamlined-update]].
 
 		<li>
-			<em class="rfc2119 ">must</em> provide public documentation
-			of all <a href="#substantive-change">substantive changes</a> to the technical report
+			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
+
+		<li>
+			<em class="rfc2119 ">must</em> provide public documentation of all new features
+			(<a href="#correction-classes">class 4 changes</a>) to the technical report
 			since the previous publication.
 
 		<li>
-			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
+			<em class="rfc2119">must</em> document if other substantive changes
+			(<a href="#correction-classes">class 3 changes</a>) have been made,
+			and <em class="rfc2119">should</em> document the details of such changes.
+
+		<li>
+			<em class="rfc2119">should</em> document if [=editorial changes=] changes have been made,
+			and <em class="rfc2119">may</em> document the details of such changes.
 
 		<li>
 			<em class="rfc2119">must</em> show that the revised specification
 			meets all [=Working Group=] requirements,
 			or explain why the requirements have changed or been deferred,
-
-		<li>
-			<em class="rfc2119">should</em> document if [=editorial changes=] changes have been made,
-			and <em class="rfc2119">may</em> document the details of such changes.
 
 		<li>
 			<em class="rfc2119">should</em> report which, if any, of the [=Working Group=]'s requirements
