@@ -2810,8 +2810,8 @@ Maturity Levels on the Recommendation Track</h4>
 					and does not meet all Working Group requirements.
 			</ul>
 
-			The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>).
-
+			The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>),
+			and has patent implications as defined in the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
 			<dfn id="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
@@ -3271,13 +3271,6 @@ Publishing a First Public Working Draft</h4>
 	The [=Director=] <em class="rfc2119">must</em> announce
 	the publication of a [=First Public Working Draft=]
 	to other W3C groups and to the public.
-
-	The [=First Public Working Draft=]
-	is a First Patent Review Draft
-	as defined in [[PATENT-POLICY#review-draft-publication|section 5.4]] of the W3C Patent Policy
-	and its publication triggers a Call for Exclusions,
-	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
-	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h4 id="revising-wd" oldids="revised-wd">
 Revising a Working Draft</h4>
