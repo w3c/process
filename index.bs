@@ -2882,6 +2882,16 @@ Maturity Levels on the Recommendation Track</h4>
 					per the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
 
+			A <dfn>Rescinded Candidate Recommendation</dfn>
+			is a [=Candidate Recommendation=] in which significant problems have been discovered
+			such that W3C cannot endorse it or continue work on it,
+			for example due to burdensome patent claims that affect implementers and cannot be resolved
+			(see [[PATENT-POLICY#sec-PAG-conclude|section 5.5.5.4]] of the W3C Patent Policy [[PATENT-POLICY]]).
+			There is no path to restoration for a [=Rescinded Candidate Recommendation=].
+			See [[PATENT-POLICY#283|section 2.8.3]]
+			of the W3C Patent Policy [[!PATENT-POLICY]]
+			for implication on patent licensing obligations.
+
 		<dt>
 			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
 		<dd>
@@ -4039,36 +4049,37 @@ Transitoning between Extensible Recommendation and Recommendation</h5>
 	as there may be stakeholders who rely on a [=Recommendation=] having a fixed scope.
 
 <h4 id="tr-end">
-Stopping Work on a Recommendation Track Document</h4>
-
-<!--
-<h5 id=abandon-wd>
-Abandoning a Working Draft</h5>
--->
+Retiring Recommendation Track Documents</h4>
 
 	Work on a technical report <em class="rfc2119">may</em> cease at any time.
 	Work <em class="rfc2119 new">should</em> cease
 	if W3C or a [=Working Group=] determines
 	that it cannot productively carry the work any further.
 
-	Any [=Working Draft=] not, or no longer,
-	intended to advance to [=Recommendation=],
-	<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=],
-	whether the [=Working Group=] decided
+<h5 id=abandon-draft>
+Abandoning an Unfinished Technical Report</h5>
+
+	Any [=technical report=] no longer intended
+	to advance or to be maintained,
+	and that is not being rescinded,
+	<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=].
+	This can happen if
+	the [=Working Group=] decided
 	to abandon work on the report,
 	or the [=Director=] required the [=Working Group=]
-	to discontinue work on a technical report before completion.
+	to discontinue work on the technical report before completion.
 	If the [=Director=] <a href="#GeneralTermination">closes a Working Group</a>
-	W3C <em class="rfc2119">must </em> [=publish=] any unfinished specifications
+	W3C <em class="rfc2119">must</em> [=publish=] any unfinished [=technical report=]
 	on the Recommendation track as [=Working Group Notes=].
 
-<!--
-<h5 id=abandon-cr-pr>
-Abandoning a Candidate or Proposed Recommendation</h5>
--->
+<h5 id=rescind-cr>
+Rescinding a Candidate Recommendation</h5>
+
+	The process for rescinding a [=Candidate Recommendation=]
+	is the same as for rescinding a [=Recommendation=].
 
 <h5 id="rec-rescind">
-Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
+Abandoning a W3C Recommendation</h5>
 
 	It is possible that W3C decides
 	that implementing a particular [=Recommendation=] is no longer recommended.
@@ -4180,8 +4191,12 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
 		</svg>
 	</div>
 
+<h5 id="deactivation">
+Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
+
 	The process of obsoleting,
 	rescinding,
+	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
 	either by a request from the [=Director=]
@@ -4198,7 +4213,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
 
 		<li>
 			Any individual who made a request to the relevant [=Working Group=] as described above,
-			or the [=TAG=] if such a group does not exist, to obsolete, rescind, or restore a [=Recommendation=],
+			or the [=TAG=] if such a group does not exist, to obsolete, rescind, supersede, or restore a [=Recommendation=],
 			where the request was not answered within 90 days
 
 		<li>
@@ -4210,6 +4225,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
 	For any [=Advisory Committee review=] of a proposal to
 	obsolete,
 	rescind,
+	supersede,
 	or restore
 	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
 
@@ -4223,6 +4239,7 @@ Declaring a W3C Recommendation Rescinded, Obsolete or Superseded</h5>
 			indicate that this is a proposal to
 			Rescind,
 			Obsolete,
+			Supersede,
 			or restore,
 			a [=Recommendation=] as appropriate
 
