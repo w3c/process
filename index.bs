@@ -3000,9 +3000,9 @@ Maturity Levels on the Recommendation Track</h4>
 
 			However, new features can be incrementally added to a [=Extensible Recommendation=],
 			which is not possible for an ordinary [=Recommendation=].
-			This is enabled by the [=Proposed Addition=] mechanism
+			This is enabled by the mechanism
 			described in <a href="#revised-rec-features"></a>.
-			Publishing a Technical Report as a [=Extensible Recommendation=]
+			Publishing a technical report as a [=Extensible Recommendation=]
 			is only possible when explicitly allowed in the [=Working Group=]'s [=Charter=].
 	</dl>
 
