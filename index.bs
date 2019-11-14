@@ -2998,7 +2998,8 @@ Maturity Levels on the Recommendation Track</h4>
 			a [=Extensible Recommendation=] is a [=Recommendation=] for the purpose of the Patent Policy [[!PATENT-POLICY]],
 			etc.
 
-			However, new features can be incrementally added to a [=Extensible Recommendation=],
+			However, new features (i.e. <a href="#correction-classes">class 4 changes</a>)
+			can be incrementally added to a [=Extensible Recommendation=],
 			which is not possible for an ordinary [=Recommendation=].
 			This is enabled by the mechanism
 			described in <a href="#revised-rec-features"></a>.
