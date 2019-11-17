@@ -2816,7 +2816,7 @@ Advancement on the Recommendation Track</h4>
 Publishing a First Public Working Draft</h4>
 
 	To publish the [=First Public Working Draft=] of a document,
-	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">general requirements for advancement</a>.
+	a [=Working Group=] <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">requirements for advancement</a>.
 
 	The [=Director=] <em class="rfc2119">must</em> announce
 	the publication of a [=First Public Working Draft=]
@@ -2879,7 +2879,7 @@ Revising a Working Draft</h4>
 Transitioning to Candidate Recommendation</h4>
 
 	To publish a [=Candidate Recommendation=],
-	in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>
+	in addition to meeting the <a href="#transition-reqs">requirements for advancement</a>
 	a [=Working Group=],
 	or in the case of a candidate [=Amended Recommendation=]
 	(a document intended to become an [=Amended Recommendation=]),
@@ -2986,7 +2986,7 @@ Revising a Candidate Recommendation</h4>
 <h4 id=transition-pr oldids="rec-pr">
 Transitioning to Proposed Recommendation</h4>
 
-	In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 
 	<ul>
 		<li>
@@ -3075,7 +3075,7 @@ Transitioning to W3C Recommendation</h4>
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
 
-	In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
+	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 
 	<ul>
 		<li>
