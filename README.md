@@ -12,7 +12,8 @@
 [everblue](https://github.com/w3c/w3process/tree/everblue) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=everblue)](https://travis-ci.com/w3c/w3process) /
 [Preview](https://w3c.github.io/w3process/everblue/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue)
+[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue) /
+[Diff against master+section 6 refactoring](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue)
 
 [section-6-clean-up](https://github.com/w3c/w3process/tree/section-6-clean-up) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=section-6-clean-up)](https://travis-ci.com/w3c/w3process) /
