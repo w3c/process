@@ -3651,8 +3651,7 @@ Transitioning to W3C Recommendation</h4>
 <h4 id=revising-rec oldids="rec-modify revised-rec">
 Revising a W3C Recommendation</h4>
 
-	This section details the management of errors in,
-	and the process for making changes to a [=Recommendation=].
+	This section details the process for making changes to a [=Recommendation=].
 
 	<div role="region" aria-label="Revising a W3C Recommendation">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 60 630 250" width="100%">
