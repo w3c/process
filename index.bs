@@ -2512,7 +2512,8 @@ Errata Management</h4>
 	that apply to that specific [=technical report=] with their associated tests.
 	Errata <em class="rfc2119">may</em> be documented
 	in a separate errata page or tracking system.
-	They <em class="rfc2119">may</em> also, or alternatively,
+	They <em class="rfc2119">may</em>,
+	in addition or alternatively,
 	be annotated inline
 	alongside the affected [=technical report=] text
 	or at the start or end of the most relevant section(s).
