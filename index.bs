@@ -3396,7 +3396,7 @@ Transitioning to Candidate Recommendation</h4>
 Revising a Candidate Recommendation</h4>
 
 <h5 id="publishing-crrs">
-Publishing a [=Candidate Recommendation Snapshot|Review Snapshot=]</h5>
+Publishing a [=Candidate Recommendation Snapshot=]</h5>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
 	since the previous [=Candidate Recommendation Snapshot=]
@@ -3439,7 +3439,7 @@ Publishing a [=Candidate Recommendation Snapshot|Review Snapshot=]</h5>
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h5 id="publishing-crud">
-Publishing an [=Candidate Recommendation Update|Update Draft=]</h5>
+Publishing a [=Candidate Recommendation Update=]</h5>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Update|Update Draft=]
 	to the W3C Technical Reports page
