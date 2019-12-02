@@ -2848,37 +2848,37 @@ Maturity Levels on the Recommendation Track</h4>
 
 			<dl>
 				<dt>
-					<dfn>Candidate Recommendation Review Snapshot</dfn>
+					<dfn>Candidate Recommendation Snapshot</dfn>
 				<dd>
-					A [=Candidate Recommendation Review Snapshot|Review Snapshot=]
+					A [=Candidate Recommendation Snapshot|Review Snapshot=]
 					corresponds to a [=Patent Review Draft=]
 					as used in the W3C Patent Policy [[!PATENT-POLICY]].
 					Publishing a <dfn>Patent Review Draft</dfn> triggers a Call for Exclusions,
 					per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 					of the W3C Patent Policy.
 
-					Publication as a Candidate Recommendation Review Snapshot
+					Publication as a Candidate Recommendation Snapshot
 					requires approval of either a [=Transition Request=]
 					(for the first Candidate Recommendation publication from another maturity level)
 					or an [=Update Request=]
-					(for subsequent Candidate Recommendation Review Snapshots).
+					(for subsequent Candidate Recommendation Snapshots).
 				<dt>
-					<dfn>Candidate Recommendation Update Draft</dfn>
+					<dfn>Candidate Recommendation Update</dfn>
 				<dd>
-					An [=Candidate Recommendation Update Draft|Update Draft=]
+					An [=Candidate Recommendation Update|Update Draft=]
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
-					to integrate changes from the previous Candidate Recommendation Review Snapshot
+					to integrate changes from the previous Candidate Recommendation Snapshot
 					that the Working Group intends to include
-					in a subsequent Candidate Recommendation Review Snapshot.
+					in a subsequent Candidate Recommendation Snapshot.
 					This allows for wider review of the changes
 					and for ease of reference to the integrated specification.
 
-					Any changes published directly into a Candidate Recommendation Update Draft
+					Any changes published directly into a Candidate Recommendation Update
 					should be at the same level of quality as a Candidate Recommendation Reveiw Snapshot.
 					However, the process requirements are minimized
 					so that the Working Group can easily keep the specification up to date.
 
-					A Candidate Recommendation Update Draft
+					A Candidate Recommendation Update
 					<em>does not</em> provide an exclusion opportunity
 					per the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
@@ -3373,18 +3373,18 @@ Transitioning to Candidate Recommendation</h4>
 
 	The first Candidate Recommendation publication
 	after approval of a [=Transition Request=]
-	is always a [=Candidate Recommendation Review Snapshot=].
+	is always a [=Candidate Recommendation Snapshot=].
 	The [=Director=] <em class="rfc2119">must</em> announce
-	the publication of the [=Candidate Recommendation Review Snapshot=]
+	the publication of the [=Candidate Recommendation Snapshot=]
 	to other W3C groups
 	and to the public.
 
-	Possible next steps after a [=Candidate Recommendation Review Snapshot=]:
+	Possible next steps after a [=Candidate Recommendation Snapshot=]:
 
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
-		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Review Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update Draft</a></li>
+		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a></li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
@@ -3396,10 +3396,10 @@ Transitioning to Candidate Recommendation</h4>
 Revising a Candidate Recommendation</h4>
 
 <h5 id="publishing-crrs">
-Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h5>
+Publishing a [=Candidate Recommendation Snapshot|Review Snapshot=]</h5>
 
 	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
-	since the previous [=Candidate Recommendation Review Snapshot=]
+	since the previous [=Candidate Recommendation Snapshot=]
 	other than to remove features explicitly identified as [=at risk=],
 	the [=Working Group=] <em class="rfc2119">must</em>
 	meet the requirements of an [=update request=] in order to republish.
@@ -3420,18 +3420,18 @@ Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h5>
 	</ul>
 
 	The [=Director=] <em class="rfc2119">must</em> announce
-	the publication of a revised [=Candidate Recommendation Review Snapshot=]
+	the publication of a revised [=Candidate Recommendation Snapshot=]
 	to other W3C groups
 	and to the public.
 
 	To provide timely updates and patent protection,
-	a [=Candidate Recommendation Review Snapshot=]
+	a [=Candidate Recommendation Snapshot=]
 	<em class=rfc2119>should</em> be published
 	within 24 months of the Working Group accepting
 	any proposal for a substantive change
 	(and preferably sooner).
 	To make scheduling reviews easier,
-	a [=Candidate Recommendation Review Snapshot=] <em class=rfc2119>should not</em> be published
+	a [=Candidate Recommendation Snapshot=] <em class=rfc2119>should not</em> be published
 	more often than approximately once every 6 months.
 
 	Note: [=Substantive changes=] trigger a new Exclusion Opportunity
@@ -3439,16 +3439,16 @@ Publishing a [=Candidate Recommendation Review Snapshot|Review Snapshot=]</h5>
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h5 id="publishing-crud">
-Publishing an [=Candidate Recommendation Update Draft|Update Draft=]</h5>
+Publishing an [=Candidate Recommendation Update|Update Draft=]</h5>
 
-	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Update Draft|Update Draft=]
+	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Update|Update Draft=]
 	to the W3C Technical Reports page
 	when there have been significant changes
 	to the previous published document
 	that would benefit from review beyond the Working Group.
 
 
-	To publish a revision of a [=Candidate Recommendation Update Draft=],
+	To publish a revision of a [=Candidate Recommendation Update=],
 	a Working Group:
 
 	<ul>
@@ -3458,12 +3458,12 @@ Publishing an [=Candidate Recommendation Update Draft|Update Draft=]</h5>
 		<li>
 			<em class="rfc2119">must</em> provide public documentation
 			of [=substantive changes=] to the technical report
-			since the previous [=Candidate Recommendation Review Snapshot=],
+			since the previous [=Candidate Recommendation Snapshot=],
 
 		<li>
 			<em class="rfc2119">should</em> provide public documentation
 			of significant [=editorial changes=] to the technical report
-			since the previous [=Candidate Recommendation Review Snapshot=],
+			since the previous [=Candidate Recommendation Snapshot=],
 
 		<li>
 			<em class="rfc2119">should</em> document outstanding issues,
@@ -3481,15 +3481,15 @@ Publishing an [=Candidate Recommendation Update Draft|Update Draft=]</h5>
 	</ul>
 
 	Note: A Working Group <em>does not</em> need to
-	meet the requirements of a [=Candidate Recommendation Review Snapshot=] [=update request=]
-	in order to publish a [=Candidate Recommendation Update Draft=].
+	meet the requirements of a [=Candidate Recommendation Snapshot=] [=update request=]
+	in order to publish a [=Candidate Recommendation Update=].
 
-	Possible next steps after a [=Candidate Recommendation Update Draft=]:
+	Possible next steps after a [=Candidate Recommendation Update=]:
 
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
-		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Review Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update Draft</a></li>
+		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#Note">Working Group Note</a></li>
@@ -3541,13 +3541,13 @@ Transitioning to Proposed Recommendation</h4>
 
 		<li>
 			<em class=rfc2119>must not</em> have any [=substantive changes=]
-			since the most recent [=Candidate Recommendation Review Snapshot=],
+			since the most recent [=Candidate Recommendation Snapshot=],
 			other than dropping features identified [=at risk=].
 
 		<li>
 			<em class="rfc2119">may</em> have removed features
-			identified in the [=Candidate Recommendation Review Snapshot=] document as [=at risk=]
-			without republishing the specification as a [=Candidate Recommendation Review Snapshot=].
+			identified in the [=Candidate Recommendation Snapshot=] document as [=at risk=]
+			without republishing the specification as a [=Candidate Recommendation Snapshot=].
 	</ul>
 
 	The Director:
