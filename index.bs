@@ -50,6 +50,7 @@ Status Text:
 	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 	which is the currently operative W3C Process.
 </pre>
+<!--
 <pre class=biblio>
 {
 	"PATENT-POLICY": {
@@ -58,6 +59,7 @@ Status Text:
 	}
 }
 </pre>
+-->
 
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
@@ -2763,6 +2765,9 @@ The W3C Recommendation Track</h3>
 		</svg>
 	</div>
 
+	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
+	These correspond to the “Last Call Working Draft” of the Patent Policy [[!PATENT-POLICY]].
+
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
 	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
@@ -2853,7 +2858,7 @@ Maturity Levels on the Recommendation Track</h4>
 					A [=Candidate Recommendation Snapshot|Review Snapshot=]
 					corresponds to a [=Patent Review Draft=]
 					as used in the W3C Patent Policy [[!PATENT-POLICY]].
-					Publishing a <dfn>Patent Review Draft</dfn> triggers a Call for Exclusions,
+					Publishing a [=Patent Review Draft=] triggers a Call for Exclusions,
 					per [[PATENT-POLICY#patent-exclusions|section 5.5]]
 					of the W3C Patent Policy.
 
@@ -3976,7 +3981,7 @@ Incorporating Proposed Changes</h5>
 
 	The combination of the existing [=Recommendation=]
 	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
-	is considered a “Patent Review Draft” of the proposed changes
+	is considered a [=Patent Review Draft=] of the proposed changes
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
 	is an [=Advisory Committee Review=].
