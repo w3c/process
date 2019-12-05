@@ -4028,11 +4028,19 @@ Incorporating Proposed Changes</h5>
 	in response to review feedback
 	it must issue another <a>Last Call for Review of Proposed Change</a> on the revised change
 	before it can be incorporated into the main text.
-	Once all comments have been [=formally addressed=],
-	if the [=Working Group=] can show <a>adequate implementation experience</a>
+
+	Once all comments on a [=Proposed Change=] have been [=formally addressed=],
+	and after the [=Working Group=] can show [=adequate implementation experience=]
 	and the fulfillment of all other requirements of Recommendation text,
-	it may incorporate the [=Proposed Change=] into the main text
-	by issuing an [=update request=] for publication as a [=Recommendation=].
+	it may incorporate the [=Proposed Change=] into the normative [=Recommendation=]
+	by issuing an [=update request=] for publication of the updated [=Recommendation=].
+
+	To ensure adequate review of [=Proposed Change=] combinations,
+	only [=Proposed Changes=] included in the most recent
+	[=Last Call for Review of Proposed Changes=]
+	can be incorporated into the normative [=Recommendation=] text.
+	(Thus if incorporation of a [=Proposed Change=] is postponed,
+	it may need be included in multiple Last Calls for Review of Proposed Changes.)
 
 <h5 id=rec-conversion>
 Transitoning between Expandable Recommendation and Recommendation</h5>
