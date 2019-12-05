@@ -2588,10 +2588,10 @@ The W3C Recommendation Track</h3>
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
 		<li>Publication of zero or more revised [=Working Drafts=].
-		<li>Publication of a [=Candidate Recommendation=].
+		<li>Publication of one or more [=Candidate Recommendations=].
 		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
-		<li>Possibly, Publication as an [=Edited Recommendation|Edited=] or [=Amended Recommendation=].
+		<li>Possibly, publication as an [=Edited Recommendation|Edited=] or [=Amended Recommendation=].
 	</ol>
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
