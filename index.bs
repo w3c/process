@@ -2868,9 +2868,9 @@ Maturity Levels on the Recommendation Track</h4>
 					or an [=Update Request=]
 					(for subsequent Candidate Recommendation Snapshots).
 				<dt>
-					<dfn>Candidate Recommendation Update</dfn>
+					<dfn>Candidate Recommendation Draft</dfn>
 				<dd>
-					An [=Candidate Recommendation Update|Update Draft=]
+					An [=Candidate Recommendation Draft|Update Draft=]
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
 					to integrate changes from the previous Candidate Recommendation Snapshot
 					that the Working Group intends to include
@@ -2878,12 +2878,12 @@ Maturity Levels on the Recommendation Track</h4>
 					This allows for wider review of the changes
 					and for ease of reference to the integrated specification.
 
-					Any changes published directly into a Candidate Recommendation Update
+					Any changes published directly into a Candidate Recommendation Draft
 					should be at the same level of quality as a Candidate Recommendation Reveiw Snapshot.
 					However, the process requirements are minimized
 					so that the Working Group can easily keep the specification up to date.
 
-					A Candidate Recommendation Update
+					A Candidate Recommendation Draft
 					<em>does not</em> provide an exclusion opportunity
 					per the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
@@ -3389,7 +3389,7 @@ Transitioning to Candidate Recommendation</h4>
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
 		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a></li>
 		<li><a href="#Note">Working Group Note</a></li>
 	</ul>
@@ -3444,16 +3444,16 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 	of the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h5 id="publishing-crud">
-Publishing a [=Candidate Recommendation Update=]</h5>
+Publishing a [=Candidate Recommendation Draft=]</h5>
 
-	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Update|Update Draft=]
+	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Draft|Update Draft=]
 	to the W3C Technical Reports page
 	when there have been significant changes
 	to the previous published document
 	that would benefit from review beyond the Working Group.
 
 
-	To publish a revision of a [=Candidate Recommendation Update=],
+	To publish a revision of a [=Candidate Recommendation Draft=],
 	a Working Group:
 
 	<ul>
@@ -3487,14 +3487,14 @@ Publishing a [=Candidate Recommendation Update=]</h5>
 
 	Note: A Working Group <em>does not</em> need to
 	meet the requirements of a [=Candidate Recommendation Snapshot=] [=update request=]
-	in order to publish a [=Candidate Recommendation Update=].
+	in order to publish a [=Candidate Recommendation Draft=].
 
-	Possible next steps after a [=Candidate Recommendation Update=]:
+	Possible next steps after a [=Candidate Recommendation Draft=]:
 
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
 		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Update</a></li>
+		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#Note">Working Group Note</a></li>
