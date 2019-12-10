@@ -1404,7 +1404,7 @@ Appeal of [=Chair Decisions=] and [=Group Decisions=]</h3>
 
 	As detailed in other parts of this document,
 	the [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
-	to make certain decisions based on their own judgement.
+	to make certain decisions based on their own judgment.
 	Such decisions are called <dfn export>Chair Decisions</dfn>.
 	In contrast,
 	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
