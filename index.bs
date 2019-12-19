@@ -2547,17 +2547,17 @@ Proposed Changes</h4>
 	<dfn lt="proposed change">proposed changes</dfn>.
 
 <h4 id="contributor-license">
-Contributor License Grants</h4>
+License Grants from Non-Participants</h4>
 
-	When a contributor who is not already obligated under the Patent Policy
+	When a party who is not already obligated under the Patent Policy
 	offers a change in class 3 or 4
 	(as described in [[#correction-classes]]) to a technical report under this process
-	the [=Team=] <em class=rfc2119>must</em> request from the contributor
+	the [=Team=] <em class=rfc2119>must</em> request from them
 	a recorded royalty-free patent commitment;
 	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
 	Such commitment <em class=rfc2119>should</em> cover,
 	at a minimum,
-	all the contributor's Essential Claims both in the contribution,
+	all the party's Essential Claims both in the contribution,
 	and that become Essential Claims as a result of incorporating the contribution into the draft
 	that existed at the time of the contribution,
 	on the terms specified in the “W3C Royalty-Free (RF) Licensing Requirements” section of the W3C Patent Policy [[PATENT-POLICY]].
