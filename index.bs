@@ -2552,7 +2552,7 @@ License Grants from Non-Participants</h4>
 	When a party who is not already obligated under the Patent Policy
 	offers a change in class 3 or 4
 	(as described in [[#correction-classes]]) to a technical report under this process
-	the [=Team=] <em class=rfc2119>must</em> request from them
+	the [=Team=] <em class=rfc2119>must</em> request
 	a recorded royalty-free patent commitment;
 	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
 	Such commitment <em class=rfc2119>should</em> cover,
