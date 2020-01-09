@@ -1,24 +1,21 @@
 # W3C Process Document repository
 
+
+This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
+
+The Process document is updated most years by the W3C.
+Discussion happens in the context of the W3C Process Community Group
+[https://www.w3.org/community/w3process/](https://www.w3.org/community/w3process/).
+
+The editor's draft can be viewed at [https://w3c.github.io/w3process/](https://w3c.github.io/w3process/).
+
+----
+
+Branches under development
+
 [master](https://github.com/w3c/w3process/tree/master) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process) /
 [Preview](https://w3c.github.io/w3process/)
-
-[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=evergreen)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://w3c.github.io/w3process/evergreen/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fevergreen)
-
-[everblue](https://github.com/w3c/w3process/tree/everblue) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=everblue)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://w3c.github.io/w3process/everblue/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue) /
-[Diff against master+section 6 refactoring](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsection-6-clean-up%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Feverblue%2F)
-
-[section-6-clean-up](https://github.com/w3c/w3process/tree/section-6-clean-up) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=section-6-clean-up)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://w3c.github.io/w3process/section-6-clean-up/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsection-6-clean-up)
 
 [director-free](https://github.com/w3c/w3process/tree/director-free) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=director-free)](https://travis-ci.com/w3c/w3process) /
@@ -30,13 +27,10 @@
 [Preview](https://w3c.github.io/w3process/registries) /
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries)
 
-This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
-
-The Process document is updated most years by the W3C.
-
-The editor's draft can be viewed at [https://w3c.github.io/w3process/](https://w3c.github.io/w3process/).
-
-Discussion happens in the context of the W3C Process Community Group [https://www.w3.org/community/w3process/](https://www.w3.org/community/w3process/).
+[evergreen](https://github.com/w3c/w3process/tree/evergreen) branch:
+[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=evergreen)](https://travis-ci.com/w3c/w3process) /
+[Preview](https://w3c.github.io/w3process/evergreen/) /
+[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fevergreen)
 
 ----
 
