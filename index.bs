@@ -2778,56 +2778,56 @@ Maturity Levels on the Recommendation Track</h4>
 					and produce a new version
 					which W3C [=publishes=] as a <a href="#revising-rec">revised edition</a>
 					of the [=Recommendation=].
-			<dt>
-				An <dfn id="rec-amended" export>Amended Recommendation</dfn>
-			<dd>
-				An Amended Recommendation is a [=Recommendation=] that is amended to include
-				<a href="#correction-classes">substantive changes that do not add new features</a>,
-				and is produced by the W3C
-				at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
-				Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
-				there are implications regarding the scope of Royalty-Free IPR licenses
-				granted under the W3C Patent Policy [[PATENT-POLICY]].
+				<dt>
+					An <dfn id="rec-amended" export>Amended Recommendation</dfn>
+				<dd>
+					An Amended Recommendation is a [=Recommendation=] that is amended to include
+					<a href="#correction-classes">substantive changes that do not add new features</a>,
+					and is produced by the W3C
+					at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
+					Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
+					there are implications regarding the scope of Royalty-Free IPR licenses
+					granted under the W3C Patent Policy [[PATENT-POLICY]].
 
-			<dt>
-				A <dfn export id="RecsSup">Superseded Recommendation</dfn>
-			<dd>
-				A Superseded Recommendation is a specification
-				that has been replaced by a newer version
-				that the W3C recommends for new adoption.
-				An [=Obsolete Recommendation|Obsolete=] or Superseded specification
-				has the same status as a [=W3C Recommendation=]
-				with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.
+				<dt>
+					A <dfn export id="RecsSup">Superseded Recommendation</dfn>
+				<dd>
+					A Superseded Recommendation is a specification
+					that has been replaced by a newer version
+					that the W3C recommends for new adoption.
+					An [=Obsolete Recommendation|Obsolete=] or Superseded specification
+					has the same status as a [=W3C Recommendation=]
+					with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.
 
-				Note: When a Technical Report which had previously been published as a [=Recommendation=]
-				is again published as a [=Recommendation=]
-				after following the necessary steps to <a href="#revising-rec">revise</a> it,
-				the latest version replaces the old one,
-				without the need to invoke the the steps of [[#rec-rescind]]:
-				it is the same document, updated.
-				Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
-				is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
-				(or a by a document managed outside of W3C).
+					Note: When a Technical Report which had previously been published as a [=Recommendation=]
+					is again published as a [=Recommendation=]
+					after following the necessary steps to <a href="#revising-rec">revise</a> it,
+					the latest version replaces the old one,
+					without the need to invoke the the steps of [[#rec-rescind]]:
+					it is the same document, updated.
+					Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
+					is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
+					(or a by a document managed outside of W3C).
 
-			<dt>
-				An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
-			<dd>
-				An Obsolete Recommendation is a specification
-				that the W3C has determined lacks sufficient market relevance
-				to continue recommending it for implementation,
-				but which does not have fundamental problems
-				that would require it to be [=Rescinded Recommendation|Rescinded=].
-				If an Obsolete specification gains sufficient market relevance,
-				the W3C may decide to restore it to [=Recommendation=] status.
+				<dt>
+					An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
+				<dd>
+					An Obsolete Recommendation is a specification
+					that the W3C has determined lacks sufficient market relevance
+					to continue recommending it for implementation,
+					but which does not have fundamental problems
+					that would require it to be [=Rescinded Recommendation|Rescinded=].
+					If an Obsolete specification gains sufficient market relevance,
+					the W3C may decide to restore it to [=Recommendation=] status.
 
-			<dt>
-				<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
-			<dd>
-				A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
-				and believes is unlikely to ever be restored to [=Recommendation=] status.
-				See also [[PATENT-POLICY#283|section 2.8.3]]
-				of the W3C Patent Policy [[!PATENT-POLICY]].
-		</dl>
+				<dt>
+					<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
+				<dd>
+					A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
+					and believes is unlikely to ever be restored to [=Recommendation=] status.
+					See also [[PATENT-POLICY#283|section 2.8.3]]
+					of the W3C Patent Policy [[!PATENT-POLICY]].
+			</dl>
 
 		<dt>
 			<dfn id="Extensible" export lt="W3C Expandable Recommendation | Expandable Recommendation | Extensible REC">W3C Expandable Recommendation</dfn> (<abbr>Extensible REC</abbr>)
