@@ -9,9 +9,35 @@ Discussion happens in the context of the W3C Process Community Group
 
 The editor's draft can be viewed at [https://w3c.github.io/w3process/](https://w3c.github.io/w3process/).
 
-----
+The Process being prepared for release in 2020
+includes a singificant number of large changes,
+which can be broadly categorized into:
+* A convertion of the document from plain HTML to the <a href="#bikeshed">bikeshed specification preprocessor</a>
+	(mostly just markup changes,
+	some editorial changes)
+* Miscelaneous fixes, some editorial, some small, some medium
+* A reorganization of section 6,
+	to disentangle definitions of maturities from transition between states
+	(editorial)
+* Significant revisions and additions to the Recommendation Track
 
-Branches under development
+As some of these changes overlap,
+in order to facilitate review,
+the following snapshots of various stages of the evolution have been prepared,
+as well as diffs between these various stages.
+
+<table>
+	<tr><th rowspan="2">Process Version</th><th colspan="4">compared to</th></tr>
+	<tr><th rowspan="2">Process 2019</th><th rowspan="3">…converted to Bikeshed…</th><th rowspan="4">…with miscelaneous fixes…</th><th rowspan="5">…with section 6 refactoring</th></tr>
+	<tr><td><a href="https://www.w3.org/2019/Process-20190301/">Process 2019</a></td></tr>
+	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2019-02-04-bikesheded.html">…converted to Bikeshed…</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">Diff</a></td></tr>
+	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2020-01-09-before-everblue.html">…with miscelaneous fixes…</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">Diff</a></td></tr>
+	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2020-01-09-refactor.html">…with section 6 refactoring…</td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td></tr>
+	<tr><td><a href="https://w3c.github.io/w3process/">…with REC track revision (latest)</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F"">Diff</a></td></tr>
+</table>
+
+----
+## Branches under development
 
 [master](https://github.com/w3c/w3process/tree/master) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process) /
@@ -33,6 +59,7 @@ Branches under development
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fevergreen)
 
 ----
+## Bikeshed
 
 This document is maintained using [Bikeshed](https://tabatkins.github.io/bikeshed/).
 See the [section about markup](https://tabatkins.github.io/bikeshed/#markup-shortcuts) in Bikeshed's documentation for full details about the syntax.
@@ -45,6 +72,7 @@ Follow [the instructions](https://tabatkins.github.io/bikeshed/#installing) in B
 Once Bikeshed is installed, just type `bikeshed` to compile the document.
 
 ----
+## Setting up Branches
 
 To set up long-lived topic branches which get built server side and published to github.io,
 follow these steps:
