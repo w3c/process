@@ -4769,6 +4769,17 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 
 		<li>
 			Add Note about the flexibility of Consensus.
+
+		<li>
+			Section 6 (on Technical Report development) has been reogranized,
+			to disentangle definitions of the various maturities
+			from the steps needed to publish
+			and to transition form one maturity to another.
+
+		<li>
+			Significant additions were made to the Recommendation Track,
+			both to facilitated maintenance,
+			and to ease development of technical reports in a more agile fashion.
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
