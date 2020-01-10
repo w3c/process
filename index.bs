@@ -2054,21 +2054,6 @@ Working Group and Interest Group Charters</h4>
 			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software);
 
 		<li>
-			For each technical report,
-			a designation whether it may,
-			when sufficiently mature,
-			be published as a [=Expandable Recommendation=],
-			as an ordinary [=Recommendation=],
-			or as either at the discretion of the [=Working Group=].
-			If this information is left out,
-			only publishing as an ordinary [=Recommendation=] is allowed.
-
-			Note: Revising the Recommendation using [=proposed additions=]
-			(see [[#revised-rec-features]])
-			is only allowed for [=Expandable Recommendations=].
-
-
-		<li>
 			Expected milestone dates where available.
 
 			Note: A charter is <em class="rfc2119">not required</em>
@@ -2748,12 +2733,6 @@ Maturity Levels on the Recommendation Track</h4>
 			[=Substantive changes=] <em class="rfc2119">must not</em> be made to a [=Proposed Recommendation=]
 			except by [=publishing=] a new [=Working Draft=] or [=Candidate Recommendation=].
 
-			When the intended next step is a [=Expandable Recommendation=],
-			the [=Proposed Recommendation=] is deemed to be a <dfn>Proposed Expandable Recommendation</dfn>,
-			and <em class=rfc2119>must</em> identify itself as such.
-			In all other respects,
-			[=Proposed Recommendations=] and [=Proposed Expandable Recommendations=] are identical.
-
 		<dt>
 			<dfn id="RecsW3C" export lt="W3C Recommendation | Recommendation | REC">W3C Recommendation</dfn> (<abbr>REC</abbr>)
 		<dd>
@@ -2828,25 +2807,6 @@ Maturity Levels on the Recommendation Track</h4>
 					See also [[PATENT-POLICY#283|section 2.8.3]]
 					of the W3C Patent Policy [[!PATENT-POLICY]].
 			</dl>
-
-		<dt>
-			<dfn id="Extensible" export lt="W3C Expandable Recommendation | Expandable Recommendation | Extensible REC">W3C Expandable Recommendation</dfn> (<abbr>Extensible REC</abbr>)
-		<dd>
-			A Expandable Recommendation is identical to a [=Recommendation=] in most respects.
-			All statements about [=Recommendations=] in this document
-			apply to [=Expandable Recommendations=] as well.
-			For instance, the criteria for advancement are the same,
-			the steps to <a href="#rec-rescind">declare a W3C Recommendation Rescinded, Obsolete or Superseded</a> are the same,
-			a [=Expandable Recommendation=] is a [=Recommendation=] for the purpose of the Patent Policy [[!PATENT-POLICY]],
-			etc.
-
-			However, new features (i.e. <a href="#correction-classes">class 4 changes</a>)
-			can be incrementally added to a [=Expandable Recommendation=],
-			which is not possible for an ordinary [=Recommendation=].
-			This is enabled by the mechanism
-			described in <a href="#revised-rec-features"></a>.
-			Publishing a technical report as a [=Expandable Recommendation=]
-			is only possible when explicitly allowed in the [=Working Group=]'s [=Charter=].
 	</dl>
 
 	Only sufficiently technically mature work should be advanced.
@@ -3088,7 +3048,7 @@ Streamlined Publication Approval</h5>
 			Changes to the document are limited to
 			[=proposed corrections=] that were included in a [=Last Call for Review of Proposed Corrections=]
 			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>,
-			and/or (in the case of an [=Expandable Recommendation=])
+			and/or (in the case of a [=Recommendation=] that [=allow new feature|allows new features=])
 			[=proposed additions=] that were included in a [=Last Call for Review of Proposed Additions=].
 
 		<li>
@@ -3375,12 +3335,6 @@ Transitioning to Proposed Recommendation</h4>
 			raised since the close of the [=Candidate Recommendation=] review period,
 
 		<li>
-			<em class="rfc2119">must</em> indicate whether the intended next step is [=Expandable Recommendation=],
-			in which case the [=Proposed Recommendation=] <em class=rfc2119>must</em> be identified as a
-			[=Proposed Expandable Recommendation=].
-			This is only possible when the [=Charter=] allows it for that Technical Report.
-
-		<li>
 			<em class=rfc2119>must not</em> have any [=substantive changes=]
 			since the most recent [=Candidate Recommendation Snapshot=],
 			other than dropping features identified [=at risk=].
@@ -3412,6 +3366,16 @@ Transitioning to Proposed Recommendation</h4>
 	to make any [=substantive change=] to a [=Proposed Recommendation=]
 	the [=Working Group=] <em class="rfc2119">must</em> return the specification to [=Candidate Recommendation=]
 	or [=Working Draft=].
+
+	<p id="expandable-rec">
+	A [=Proposed Recommendation=] may identify itself
+	as intending to <dfn>allow new features</dfn>
+	(<a href="#correction-classes">class 4 changes</a>)
+	after its initial publication as a [=Recommendation=],
+	as described in [[#revised-rec-features]].
+	Such an allowance cannot be added
+	to a [=technical report=] reviously published as a [=Recommendation=]
+	that did not allow such changes.
 
 	Possible Next Steps:
 
@@ -3549,18 +3513,12 @@ Revising a Recommendation: Substantive Changes</h5>
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
-	To make changes which introduce a new feature or features
-	(see <a href="#correction-classes">class 4 changes</a>)
-	to a [=Recommendation=] which is not a [=Expandable Recommendation=],
-	W3C <em class="rfc2119">must</em>
-	follow the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
-	beginning with a new [=First Public Working Draft=].
-
-	However,
-	new features can also be added to a [=Expandable Recommendation=]
+	New features (see <a href="#correction-classes">class 4 changes</a>)
+	may be incorporated into a [=Recommendation=]
+	explicitly identified as [=allow new features|allowing new features=]
 	using [=proposed additions=].
 	A [=proposed addition=] can be made normative
-	and be folded into the main text of an [=Expandable Recommendation=],
+	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
@@ -3569,6 +3527,17 @@ Revising a Recommendation: New Features</h5>
 	a [=Last Call for Review of Proposed Changes=],
 	followed by an [=update request=].
 	See [[#change-review]]
+
+	Note: This prohibition against new features unless explicitly allowed
+	enables third parties to depend on Recommendations having a stable feature-set,
+	as they have prior to the 2020 revision of this Process.
+
+	To make changes which introduce a new feature
+	to a [=Recommendation=]
+	that was not approved for accepting new features,
+	W3C <em class="rfc2119">must</em> create a new [=technical report=],
+	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
+	beginning with a new [=First Public Working Draft=].
 
 <h5 id=change-review>
 Incorporating Proposed Changes</h5>
@@ -3607,7 +3576,7 @@ Incorporating Proposed Changes</h5>
 
 	Note: [=Last Call for Review of Proposed Additions=] and
 	[=Last Call for Review of Proposed Corrections and Additions=]
-	can only be issued for [=Expandable Recommendations=].
+	can only be issued for [=Recommendations=] that [=allow new features=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple [=proposed changes=] into a single <a>Last Call for Review of Proposed Changes</a>.
@@ -3639,26 +3608,6 @@ Incorporating Proposed Changes</h5>
 	can be incorporated into the normative [=Recommendation=] text.
 	(Thus if incorporation of a [=Proposed Change=] is postponed,
 	it may need be included in multiple Last Calls for Review of Proposed Changes.)
-
-<h5 id=rec-conversion>
-Transitoning between Expandable Recommendation and Recommendation</h5>
-
-	If the [=Working Group=]'s [=Charter=] allows a Technical Report
-	to be published either as a [=Recommendation=] or as a [=Expandable Recommendation=],
-	it is possible to republish a [=Recommendation=] as a [=Expandable Recommendation=]:
-	There <em class=rfc2119>must</em> be a [=Working Group=] decision to do so,
-	after which the [=Team=] <em class=rfc2119>must</em> solicit
-	an [=Advisory Committee Review=] of the proposed change of status.
-	The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>.
-	If the proposal is approved,
-	the [=Recommendation=] is republished as a [=Expandable Recommendation=].
-	Republishing a [=Expandable Recommendation=] as a [=Recommendation=],
-	if allowed by the relevant [=Working Group=]'s charter,
-	follows the same process.
-
-	Note: An AC Review is necessary to make sure the change from
-	[=Recommendation=] to [=Expandable Recommendation=] is not made lightly,
-	as there may be stakeholders who rely on a [=Recommendation=] having a fixed scope.
 
 <h4 id="tr-end">
 Retiring Recommendation Track Documents</h4>
@@ -3947,9 +3896,6 @@ Advisory Committee Reviews</h3>
 
 		<li>
 			<a href="#GAProcess">Proposed changes to the W3C process</a>.
-
-		<li>
-			Conversion from a [=Recommendation=] to a [=Expandable Recommendation=], and vice versa.
 	</ul>
 
 <h4 id="ACReviewStart">
