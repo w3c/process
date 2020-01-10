@@ -2259,7 +2259,9 @@ W3C Technical Reports</h3>
 	on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> [[TR]].
 
 	This chapter describes the formal requirements
-	for [=publishing=] and maintaining a [=W3C Recommendation=] or [=Note=].
+	for [=publishing=] and maintaining a [=W3C Recommendation=],
+	[=Note=],
+	or [=Registry Report=].
 
 	<dl>
 		<dt>Recommendations
@@ -2283,9 +2285,21 @@ W3C Technical Reports</h3>
 			and best practices for its use.
 			See [[#Note]] for details.
 
-		<!--
 		<dt>Registries
-		-->
+		<dd>
+			[=Working Groups=] can also publish registries
+			in order to document collections of values or other data
+			that have no normative implementation requirements.
+			Registries are generally companion to [=Recommendation Track=] documents
+			which contain the related normative requirements,
+			and are typically published in a separate [=registry report=],
+			although they can also be directly embedded in [=Recommendation Track=] documents.
+			The registry track requires [=wide review=] and [=consensus=]
+			on what the registry will contain and how it will be managed,
+			but once set up,
+			changes to its entries are lightweight
+			and can even be done without a [=Working Group=].
+			See [[#registries]] for details.
 	</dl>
 
 
