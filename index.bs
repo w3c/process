@@ -3956,13 +3956,18 @@ Revising W3C Statements</h4>
 <h3 id="registries">
 Registries</h3>
 
-	A <dfn>registry table</dfn> is an updatable collection
-	of logically independent, consistently-structured <dfn lt="entry | entries | registry entry | registry entries">entries</dfn>:
-	conceptually a table with independent rows
-	and rules for the values in the columns
-	(e.g. that values in a column be drawn from a defined set, or be unique, etc.).
+	A <dfn>registry</dfn> documents a data set
+	consisting of one or more associated <dfn lt="registry table">registry tables</dfn>,
+	each table representing an updatable collection
+	of logically independent, consistently-structured <dfn lt="registry entry">registry entries</dfn>.
+	A registry has three associated components:
+	<ul>
+		<li>one or more [=registry tables=], holding the data set represented by the [=registry=]
+		<li>the [=rules of the registry=], defining how the [=registry tables=] are structured and maintained
+		<li>one or more referencing specifications, which make use of the [=registry=]
+	</ul>
 
-	The purposes of maintaining a [=registry table=] can include:
+	The purposes of maintaining a [=registry=] can include:
 
 	<dl>
 		<dt>non-collision
@@ -3993,14 +3998,14 @@ Registries</h3>
 			Promoting a clear consensus of the community on the terms.
 	</dl>
 
-	In order to facilitate the publication and maintenance of such [=registry tables=],
-	particularly those required by or closely related to [=W3C Recommendations=],
-	this section of the W3C Process provides a specialized process for handling such [=registry tables=].
+	This section of the W3C Process provides a specialized process
+	facilitating the publication and maintenance of such [=registry tables=],
+	particularly those required by or closely related to [=W3C Recommendations=].
 
 <h4 id=reg-contents>
 Registry Reports</h4>
 
-	Registries can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
+	[=Registries=] can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
 	or incorporated as part of a [=W3C Recommendation=] as a <dfn>registry section</dfn>.
 	In either case, the [=technical report=] must:
 	<ul>
@@ -4046,7 +4051,7 @@ Registry Reports</h4>
 Rules of a Registry</h4>
 
 	The <dfn>rules of the registry</dfn>
-	define what the [=registry table=] is and how it is maintained.
+	define what each [=registry table=] is and how it is maintained.
 	They must:
 
 	<ul>
@@ -4054,11 +4059,13 @@ Rules of a Registry</h4>
 			Define the scope and purpose of the [=registry table=].
 
 		<li>
-			Define the fields of the [=registry table=] and their constraints.
+			Define the fields of the [=registry table=]
+			and their constraints
+			(e.g. values must be drawn from a defined set, or be unique, etc.)
 
 		<li>
 			Define the method and critera by which changes are proposed, approved, and incorporated.
-			(For example, a [=registry report=] could require
+			(For example, a [=registry=] could require
 			that [=registry entries=] can be added but not changed,
 			or that they must be approved by a member of a particular Working Group.)
 
@@ -4069,7 +4076,7 @@ Rules of a Registry</h4>
 			satisfy the criteria defined in the [=rules of the registry=].
 
 			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
-			The [=custodian=] for all [=registry tables=] in a single [=registry report=]
+			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
 
 	</ul>
