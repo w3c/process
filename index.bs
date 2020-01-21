@@ -4061,13 +4061,16 @@ Rules of a Registry</h4>
 		<li>
 			Define the fields of the [=registry table=]
 			and their constraints
-			(e.g. values must be drawn from a defined set, or be unique, etc.)
+			(e.g. values must be drawn from a defined set, or be unique,
+			or only reference publicly available resources,
+			etc.)
 
 		<li>
 			Define the method and critera by which changes are proposed, approved, and incorporated.
-			(For example, a [=registry=] could require
+			(For example, a [=registry=] could define
+			that changes to [=registry entries=] can be proposed using a particular web form or email address,
 			that [=registry entries=] can be added but not changed,
-			or that they must be approved by a member of a particular Working Group.)
+			or that they do or do not need to be approved by any member of a particular Working Group.)
 
 		<li>
 			Identify the <dfn>custodian</dfn> of the [=registry table=]:
