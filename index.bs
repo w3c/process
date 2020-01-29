@@ -3374,7 +3374,7 @@ Transitioning to Proposed Recommendation</h4>
 	after its initial publication as a [=Recommendation=],
 	as described in [[#revised-rec-features]].
 	Such an allowance cannot be added
-	to a [=technical report=] reviously published as a [=Recommendation=]
+	to a [=technical report=] previously published as a [=Recommendation=]
 	that did not allow such changes.
 
 	Possible Next Steps:
