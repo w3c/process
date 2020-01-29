@@ -788,12 +788,12 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	no later than the start of a nomination period as part of the Call for Nominations.
 
 	In the case of regularly scheduled elections of the [=TAG=],
-	the minimum and maximum number of avaiable seats are the same:
+	the minimum and maximum number of available seats are the same:
 	the 3 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.
 
 	In the case of regularly scheduled elections of the [=AB=],
-	the minimum and maximum number of avaiable seats differ:
+	the minimum and maximum number of available seats differ:
 	The maximum number is the 5 or 6 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats;
 	the minimum number is such that when added to the occupied seats from the prior year,
@@ -856,7 +856,7 @@ Advisory Board and Technical Architecture Group Elections</h4>
 			Greater than the maximum number of available seats,
 			the [=Team=] issues a Call for Votes
 			that includes the names of all candidates,
-			the (maxiumum) number of available seats,
+			the (maximum) number of available seats,
 			the deadline for votes,
 			details about the vote tabulation system selected by the Team for the election,
 			and operational information.
@@ -1968,7 +1968,7 @@ Advisory Committee Review of a Working Group or Interest Group Charter</h4>
 	or a change of [=Chair=].
 	Such changes must nonetheless be announced
 	to the [=Advisory Committee=]
-	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Intrest Group</a>,
+	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
 	and a rationale must be provided.
 
 	The Director's Call for Review of a substantively modified charter
@@ -2714,7 +2714,7 @@ Maturity Levels on the Recommendation Track</h4>
 					and for ease of reference to the integrated specification.
 
 					Any changes published directly into a Candidate Recommendation Draft
-					should be at the same level of quality as a Candidate Recommendation Reveiw Snapshot.
+					should be at the same level of quality as a Candidate Recommendation Review Snapshot.
 					However, the process requirements are minimized
 					so that the Working Group can easily keep the specification up to date.
 
@@ -2803,7 +2803,7 @@ Maturity Levels on the Recommendation Track</h4>
 					is again published as a [=Recommendation=]
 					after following the necessary steps to <a href="#revising-rec">revise</a> it,
 					the latest version replaces the old one,
-					without the need to invoke the the steps of [[#rec-rescind]]:
+					without the need to invoke the steps of [[#rec-rescind]]:
 					it is the same document, updated.
 					Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
 					is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
@@ -3079,7 +3079,7 @@ Streamlined Publication Approval</h5>
 	</ul>
 
 	Additionally, for updates to [=Recommendations=]
-	with <a href="#revised-rec-substantive">substative changes</a>
+	with <a href="#revised-rec-substantive">substantive changes</a>
 	or <a href="#revised-rec-features">with new features</a>:
 
 	<ul>
@@ -4771,7 +4771,7 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Add Note about the flexibility of Consensus.
 
 		<li>
-			Section 6 (on Technical Report development) has been reogranized,
+			Section 6 (on Technical Report development) has been reorganized,
 			to disentangle definitions of the various maturities
 			from the steps needed to publish
 			and to transition form one maturity to another.
@@ -4862,7 +4862,7 @@ Changes between the <a href="https://www.w3.org/2017/Process-20170301/">1 March 
 and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</h3>
 
 	A log of
-	<a href="https://github.com/w3c/w3process/compare/7836a7a539e97fe430a930daa00e7f2151abb2ac...process-20180201">all changes from March 2017 to the 1 February 2018 Processs</a>
+	<a href="https://github.com/w3c/w3process/compare/7836a7a539e97fe430a930daa00e7f2151abb2ac...process-20180201">all changes from March 2017 to the 1 February 2018 Process</a>
 	is available,
 	as is an earlier <a href="https://dvcs.w3.org/hg/AB/">log of changes in previous versions, from 2005-2014</a>.
 	The following is a summary:
@@ -4938,7 +4938,7 @@ and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Proc
 		<dt>
 			<a href="#ACAppeal"></a>
 		<dd>
-			Clarify that in the event of an Advisory Committee appeal, a Director's decision can be overtuned by more votes for than against
+			Clarify that in the event of an Advisory Committee appeal, a Director's decision can be overturned by more votes for than against
 
 		<dt>
 			<a href="#Liaisons"></a>
