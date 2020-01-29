@@ -15,7 +15,7 @@ which can be broadly categorized into:
 * A convertion of the document from plain HTML to the <a href="#bikeshed">bikeshed specification preprocessor</a>
 	(mostly just markup changes,
 	some editorial changes)
-* Miscelaneous fixes, some editorial, some small, some medium
+* Miscellaneous fixes, some editorial, some small, some medium
 * A reorganization of section 6,
 	to disentangle definitions of maturities from transition between states
 	(editorial)
