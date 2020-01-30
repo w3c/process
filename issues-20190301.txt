@@ -425,3 +425,20 @@ Comment:  https://github.com/w3c/w3process/issues/345
 Response: https://github.com/w3c/w3process/pull/365
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/365#issuecomment-579799691
+----
+Issue 53.
+Summary:  Should W3C drop the idea of a separate Evergreen Track?
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/343
+Comment:  https://github.com/w3c/w3process/issues/303
+Comment:  https://github.com/w3c/w3process/issues/302
+Comment:  https://github.com/w3c/w3process/issues/301
+Comment:  https://github.com/w3c/w3process/issues/300
+Comment:  https://github.com/w3c/w3process/issues/297
+Comment:  https://github.com/w3c/w3process/issues/273
+Comment:  https://github.com/w3c/w3process/issues/272
+Comment:  https://github.com/w3c/w3process/issues/271
+Comment:  https://github.com/w3c/w3process/issues/267
+Comment:  https://github.com/w3c/w3process/issues/263
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/343#issuecomment-580173062
