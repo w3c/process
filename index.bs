@@ -1225,7 +1225,7 @@ Consensus</h3>
 	to assess consensus on their behalf,
 	whether in general
 	or for specific pre-determined circumstances
-	(e.g. in non-controversial situations, for specific types of issues, etc).
+	(e.g. in non-controversial situations, for specific types of issues, etc.).
 
 	If questions or disagreements arise,
 	the final determination of consensus remains with the chair.
@@ -2888,7 +2888,7 @@ Advancement on the Recommendation Track</h4>
 			and <em class="rfc2119">should</em> document the details of such changes.
 
 		<li>
-			<em class="rfc2119">should</em> publicly document if [=editorial changes=] changes have been made,
+			<em class="rfc2119">should</em> publicly document if [=editorial changes=] have been made,
 			and <em class="rfc2119">may</em> document the details of such changes.
 		<li>
 			<em class="rfc2119">must</em> [=formally address=] all issues
