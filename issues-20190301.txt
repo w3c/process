@@ -442,3 +442,19 @@ Comment:  https://github.com/w3c/w3process/issues/267
 Comment:  https://github.com/w3c/w3process/issues/263
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/343#issuecomment-580173062
+----
+Issue 54.
+Summary:  Section 6 is poorly organized and hard to read
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/336
+Comment:  https://github.com/w3c/w3process/issues/340
+Response: https://github.com/w3c/w3process/pull/348
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/344#issuecomment-572121863
+----
+Issue 55.
+Summary:  Should W3C adopt the so-called Everblue/teal modifications to the REC track?
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/344
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/344#issuecomment-572121863
