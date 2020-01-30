@@ -417,3 +417,11 @@ Comment:  https://github.com/w3c/w3process/issues/362
 Response: https://github.com/w3c/w3process/pull/364
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/364#issuecomment-579800586
+----
+Issue 52.
+Summary:  Don't create different classes of RECs for those that can accept new features vs those that cannot
+From:     Elika Etemad
+Comment:  https://github.com/w3c/w3process/issues/345
+Response: https://github.com/w3c/w3process/pull/365
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/365#issuecomment-579799691
