@@ -4771,6 +4771,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Significant additions were made to the Recommendation Track,
 			both to facilitated maintenance,
 			and to ease development of technical reports in a more agile fashion.
+
+		<li>
+			Drop the distinction between Recommendation and Edited Recommendation
 	</ul>
 
 <h3 id=changes-2018 class=no-num>

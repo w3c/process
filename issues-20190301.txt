@@ -409,3 +409,11 @@ Comment:  https://github.com/w3c/w3process/issues/325
 Response: https://github.com/w3c/w3process/issues/325#issuecomment-545684526
 Closed:   Rejected
 Resolved: https://github.com/w3c/w3process/issues/325#issuecomment-545480250
+----
+Issue 51.
+Summary:  Drop the distinction between REC and Edited REC
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/362
+Response: https://github.com/w3c/w3process/pull/364
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/364#issuecomment-579800586
