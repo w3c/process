@@ -2679,8 +2679,8 @@ Maturity Levels on the Recommendation Track</h4>
 					corresponds to a [=Patent Review Draft=]
 					as used in the W3C Patent Policy [[!PATENT-POLICY]].
 					Publishing a [=Patent Review Draft=] triggers a Call for Exclusions,
-					per [[PATENT-POLICY#patent-exclusions|section 5.5]]
-					of the W3C Patent Policy.
+					per “Exclusion From W3C RF Licensing Requirements”
+					in the W3C Patent Policy.
 
 					Publication as a Candidate Recommendation Snapshot
 					requires approval of either a [=Transition Request=]
@@ -2713,10 +2713,11 @@ Maturity Levels on the Recommendation Track</h4>
 			is a [=Candidate Recommendation=] in which significant problems have been discovered
 			such that W3C cannot endorse it or continue work on it,
 			for example due to burdensome patent claims that affect implementers and cannot be resolved
-			(see [[PATENT-POLICY#sec-PAG-conclude|section 5.5.5.4]] of the W3C Patent Policy [[PATENT-POLICY]]).
+			(see the W3C Patent Policy [[PATENT-POLICY]]
+			and in particular “PAG Conclusion”).
 			There is no path to restoration for a [=Rescinded Candidate Recommendation=].
-			See [[PATENT-POLICY#283|section 2.8.3]]
-			of the W3C Patent Policy [[!PATENT-POLICY]]
+			See “W3C Royalty-Free (RF) Licensing Requirements”
+			in the W3C Patent Policy [[!PATENT-POLICY]]
 			for implication on patent licensing obligations.
 
 		<dt>
@@ -2796,8 +2797,8 @@ Maturity Levels on the Recommendation Track</h4>
 				<dd>
 					A Rescinded Recommendation is an entire Recommendation that W3C no longer endorses,
 					and believes is unlikely to ever be restored to [=Recommendation=] status.
-					See also [[PATENT-POLICY#283|section 2.8.3]]
-					of the W3C Patent Policy [[!PATENT-POLICY]].
+					See also “W3C Royalty-Free (RF) Licensing Requirements”
+					in the W3C Patent Policy [[!PATENT-POLICY]].
 			</dl>
 	</dl>
 
@@ -3228,8 +3229,8 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 	more often than approximately once every 6 months.
 
 	Note: [=Substantive changes=] trigger a new Exclusion Opportunity
-	per [[PATENT-POLICY#patent-exclusions|section 5.5]]
-	of the W3C Patent Policy [[!PATENT-POLICY]].
+	per “Exclusion From W3C RF Licensing Requirements”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 <h5 id="publishing-crud">
 Publishing a [=Candidate Recommendation Draft=]</h5>
@@ -3301,8 +3302,8 @@ Transitioning to Proposed Recommendation</h4>
 			after the publication of the [=Proposed Recommendation=]
 			and <em class="rfc2119">should</em> be at least 10 days
 			after the end of the last Exclusion Opportunity
-			per [[PATENT-POLICY#patent-exclusions|section 5.5]]
-			of the W3C Patent Policy [[!PATENT-POLICY]].
+			per ”Exclusion From W3C RF Licensing Requirements”
+			in the W3C Patent Policy [[!PATENT-POLICY]].
 	</ul>
 
 	A Working Group,
@@ -3653,8 +3654,8 @@ Abandoning a W3C Recommendation</h5>
 	if W3C believes there is no reasonable prospect of it being restored
 	for example due to burdensome patent claims that affect implementers and cannot be resolved;
 	see the W3C Patent Policy [[!PATENT-POLICY]]
-	and in particular [[PATENT-POLICY#283|section 2.8.3]]
-	and [[PATENT-POLICY#sec-PAG-conclude|section 5.5.5.4]].
+	and in particular “W3C Royalty-Free (RF) Licensing Requirements”
+	and “PAG Conclusion”.
 
 	W3C only rescinds, supersedes, or obsoletes entire Recommendations.
 	A [=Recommendation=] can be both superseded and obsolete.
