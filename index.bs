@@ -2120,9 +2120,9 @@ Working Group and Interest Group Charters</h4>
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	For every Recommendation Track deliverable
-	that continues work on a [=Working Draft=] (WD)
+	that continues work on [=technical report=]
 	published under any other Charter (including a predecessor group of the same name),
-	for which there is an existing [=Patent Review Draft=]
+	for which there is at least an existing [=First Public Working Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
 	<em class="rfc2119">must</em> provide the following information:
 
@@ -2138,8 +2138,8 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			The title,
 			stable URL,
-			and publication date of the most recent [=Patent Review Draft=]
-			that triggered an Exclusion Opportunity
+			and publication date of the document
+			that was used as the basis for its most recent Exclusion Opportunity
 			as per
 			<!--[[PATENT-POLICY#lrd-exclusion-pediods|section 5.4.1]] of-->
 			the W3C Patent Policy [[!PATENT-POLICY]].
