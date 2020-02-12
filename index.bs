@@ -4446,14 +4446,9 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 	  that ensures the appropriate <a href="#confidentiality-levels">level of confidentiality</a>.
 
 <h2 id="GAProcess">
-Evolution of the Governing Documents</h2>
+Process Evolution</h2>
 
-	The <dfn>W3C Governing Documents</dfn> comprise:
-	* the W3C Process (this document)
-	* the W3C Patent Policy [[!PATENT-POLICY]]
-	* the W3C Code of Ethics and Professional Conduct [[!CEPC]]
-
-	Revision of a [=W3C Governing Document=] undergoes similar [=consensus=]-building processes as for [=technical reports=],
+	Revision of the W3C Process and related documents (see below) undergoes similar [=consensus=]-building processes as for [=technical reports=],
 	with the [=Advisory Board=]--
 	or another group acting under delegation from the [=Advisory Board=]--
 	acting as the sponsoring [=Working Group=].
@@ -4461,7 +4456,12 @@ Evolution of the Governing Documents</h2>
 	the group should solicit input from the W3C community,
 	and in particular the Team.
 
-	The [=Advisory Board=] initiates review of a [=W3C Governing Document=] as follows:
+	The documents covered by this section are:
+	* the W3C Process (this document)
+	* the W3C Patent Policy [[!PATENT-POLICY]]
+	* the W3C Code of Ethics and Professional Conduct [[!CEPC]]
+
+	The [=Advisory Board=] initiates review as follows:
 
 	<ol>
 		<li>
