@@ -26,14 +26,17 @@ in order to facilitate review,
 the following snapshots of various stages of the evolution have been prepared,
 as well as diffs between these various stages.
 
-<table>
-	<tr><th rowspan="2">Process Version</th><th colspan="4">compared to</th></tr>
-	<tr><th rowspan="2">Process 2019</th><th rowspan="3">…converted to Bikeshed…</th><th rowspan="4">…with miscellaneous fixes…</th><th rowspan="5">…with section 6 refactoring</th></tr>
-	<tr><td><a href="https://www.w3.org/2019/Process-20190301/">Process 2019</a></td></tr>
-	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2019-02-04-bikesheded.html">…converted to Bikeshed…</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">Diff</a></td></tr>
-	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2020-01-09-before-everblue.html">…with miscellaneous fixes…</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">Diff</a></td></tr>
-	<tr><td><a href="https://w3c.github.io/w3process/snapshots/2020-01-09-refactor.html">…with section 6 refactoring…</td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">Diff</a></td></tr>
-	<tr><td><a href="https://w3c.github.io/w3process/">…with REC track revision (latest)</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">Diff</a></td><td><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F"">Diff</a></td></tr>
+<table border=1>
+<tr><th>Process 2020 drafts at various stages</th><th>Diffs from stage to stage</th></tr>
+	<tr><td rowspan=2>1. <a href="https://www.w3.org/2019/Process-20190301/">Process 2019</a></td></tr>
+<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">diff from 1. to 2.</a></td></tr>
+<tr><td rowspan=2>2. <a href="https://w3c.github.io/w3process/snapshots/2019-02-04-bikesheded.html">… converted to bikeshed …</a></td></tr>
+<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">diff from 2. to 3.</a></td></tr>
+<tr><td rowspan=2>3. <a href="https://w3c.github.io/w3process/snapshots/2020-01-09-before-everblue.html">…with miscellaneous fixes…</a></td></tr>
+<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff from 3. to 4.</a></td></tr>
+<tr><td rowspan=2>4. <a href="https://w3c.github.io/w3process/snapshots/2020-01-09-refactor.html">…with section 6 refactoring…</a></td></tr>
+<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff from 4. to 5.</a></td></tr>
+	<tr><td>5. <a href="https://w3c.github.io/w3process/">…with REC track revision (latest)</a></td></tr>
 </table>
 
 ----
