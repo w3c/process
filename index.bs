@@ -228,7 +228,7 @@ Introduction</h2>
 			and the general public.
 	</ol>
 
-	The W3C also operates Community and Business Groups,
+	W3C also operates Community and Business Groups,
 	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
 
 <h2 id="Organization">
@@ -2725,7 +2725,7 @@ Maturity Levels on the Recommendation Track</h4>
 			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
 		<dd>
 			A Proposed Recommendation is a document
-			that has been accepted by the W3C
+			that has been accepted by W3C
 			as of sufficient quality to become a [=W3C Recommendation=].
 			This phase triggers formal review by the [=Advisory Committee=],
 			who <em class="rfc2119">may</em> recommend
@@ -2742,7 +2742,7 @@ Maturity Levels on the Recommendation Track</h4>
 			or set of guidelines
 			or requirements that,
 			after extensive [=consensus=]-building,
-			has received the endorsement of the W3C and its Members.
+			has received the endorsement of W3C and its Members.
 			W3C recommends the wide deployment
 			of its Recommendations as standards for the Web.
 			The W3C Royalty-Free IPR licenses
@@ -2756,7 +2756,7 @@ Maturity Levels on the Recommendation Track</h4>
 				<dd>
 					An Amended Recommendation is a [=Recommendation=] that is amended to include
 					<a href="#correction-classes">substantive changes that do not add new features</a>,
-					and is produced by the W3C
+					and is produced by W3C
 					at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
 					Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
 					there are implications regarding the scope of Royalty-Free IPR licenses
@@ -2767,7 +2767,7 @@ Maturity Levels on the Recommendation Track</h4>
 				<dd>
 					A Superseded Recommendation is a specification
 					that has been replaced by a newer version
-					that the W3C recommends for new adoption.
+					that W3C recommends for new adoption.
 					An [=Obsolete Recommendation|Obsolete=] or Superseded specification
 					has the same status as a [=W3C Recommendation=]
 					with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.
@@ -2786,12 +2786,12 @@ Maturity Levels on the Recommendation Track</h4>
 					An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
 				<dd>
 					An Obsolete Recommendation is a specification
-					that the W3C has determined lacks sufficient market relevance
+					that W3C has determined lacks sufficient market relevance
 					to continue recommending it for implementation,
 					but which does not have fundamental problems
 					that would require it to be [=Rescinded Recommendation|Rescinded=].
 					If an Obsolete specification gains sufficient market relevance,
-					the W3C may decide to restore it to [=Recommendation=] status.
+					W3C may decide to restore it to [=Recommendation=] status.
 
 				<dt>
 					<dfn export id="RescindedRec">Rescinded Recommendation</dfn>
@@ -3136,7 +3136,7 @@ Transitioning to Candidate Recommendation</h4>
 	a [=Working Group=],
 	or in the case of a candidate [=Amended Recommendation=]
 	(a document intended to become an [=Amended Recommendation=]),
-	the W3C:
+	W3C:
 
 	<ul>
 		<li>
@@ -3308,7 +3308,7 @@ Transitioning to Proposed Recommendation</h4>
 	</ul>
 
 	A Working Group,
-	or for a proposed [=Amended Recommendation=], the W3C:
+	or for a proposed [=Amended Recommendation=], W3C:
 
 	<ul>
 		<li>
@@ -3647,7 +3647,7 @@ Abandoning a W3C Recommendation</h5>
 	for example because despite marking it Obsolete the specification is later more broadly adopted.
 
 	W3C <em class="rfc2119">may</em> declare a Recommendation Superseded
-	if a newer version exists which the W3C recommends for new adoption.
+	if a newer version exists which W3C recommends for new adoption.
 	The process for declaring a Recommendation Superseded is the same as for declaring it Obsolete, below;
 	only the name and explanation change.
 
@@ -4207,7 +4207,7 @@ Member Submission Process</h2>
 		</ul>
 	</div>
 
-	Making a Member Submission available at the W3C website
+	Making a Member Submission available at the W3C Web site
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
 	The acknowledgment of a Submission request
@@ -4215,7 +4215,7 @@ Member Submission Process</h2>
 	It merely records publicly
 	that the Submission request has been made by the Submitter.
 	A Member Submission made available by W3C
-	<em class="rfc2119">must not</em> be referred to as “work in progress” of the W3C.
+	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
 
 	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
 	is available at the W3C Web site.
@@ -4332,7 +4332,7 @@ Information Required in a Submission Request</h4>
 		<li>
 			What resources, if any,
 			does the Submitter intend to make available
-			if the W3C acknowledges the Submission request
+			if W3C acknowledges the Submission request
 			and takes action on it?
 
 		<li>
@@ -4385,10 +4385,10 @@ Acknowledgment of a Submission Request</h3>
 
 	<ul>
 		<li>
-			Make the [=Member Submission=] available at the W3C website.
+			Make the [=Member Submission=] available at the W3C Web site.
 
 		<li>
-			Make the Team comments about the Submission request available at the W3C website.
+			Make the Team comments about the Submission request available at the W3C Web site.
 	</ul>
 
 	If the [=Submitter=](s) wishes to modify
@@ -4478,7 +4478,7 @@ Process Evolution</h2>
 			the Team enacts the new process officially by announcing
 			the <a href="#def-w3c-decision">W3C decision</a> to the [=Advisory Committee=].
 			Advisory Committee representatives <em class="rfc2119">may</em> initiate
-			an [=Advisory Committee Appeal=] to the W3C.
+			an [=Advisory Committee Appeal=] to W3C.
 	</ol>
 
 <h2 id="acks" class=non-normative>
