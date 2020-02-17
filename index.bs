@@ -3236,7 +3236,7 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 <h5 id="publishing-crud">
 Publishing a [=Candidate Recommendation Draft=]</h5>
 
-	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Candidate Recommendation Draft|Update Draft=]
+	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] an [=Candidate Recommendation Draft|Update Draft=]
 	to the W3C Technical Reports page
 	when there have been significant changes
 	to the previous published document
