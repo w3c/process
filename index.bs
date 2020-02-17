@@ -4997,7 +4997,7 @@ and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Proc
 	},
 	"GUIDE": {
 		"href": "https://www.w3.org/Guide/",
-		"title": "The Art of Consensus",
+		"title": "The Art of Consensus", a guidebook for W3C Working Group Chairs and other collaborators
 		"publisher": "W3C"
 	},
 	"CEPC": {
