@@ -3855,7 +3855,7 @@ Working Group and Interest Group Notes</h3>
 Further reading</h3>
 
 	Refer to <a href="https://www.w3.org/Guide/transitions">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
-	in the <a href="https://www.w3.org/Guide/">Member guide</a> [[GUIDE]]
+	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
