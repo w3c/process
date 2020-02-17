@@ -3692,7 +3692,7 @@ Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
 		<li>
 			The [=Working Group=] who produced,
 			or is chartered to maintain,
-			the [=Recommendation=].
+			the [=Recommendation=]
 
 		<li>
 			The [=TAG=], if there is no such [=Working Group=]
