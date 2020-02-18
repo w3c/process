@@ -4397,7 +4397,7 @@ Acknowledgment of a Submission Request</h3>
 	even just to correct [=editorial changes=].
 
 <h3 id="SubmissionNo">
-Rejection of a Submission Request, and Submission Appeals</h3>
+Rejection of a Submission Request, and Submission Appeal</h3>
 
 	The [=Director=] <em class="rfc2119">may</em> reject a Submission request
 	for a variety of reasons,
