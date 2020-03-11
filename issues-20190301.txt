@@ -547,3 +547,10 @@ From:     Ralph Swick
 Comment:  https://github.com/w3c/w3process/pull/387
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 68.
+Summary:  Consistent usage of "Team's Publication Rules"
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/385
+Closed:   Accepted
+Resolved: Editorial
