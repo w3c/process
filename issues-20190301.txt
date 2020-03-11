@@ -12,7 +12,7 @@ Comment:  https://github.com/w3c/w3process/issues/167
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-367498122
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-372415200
 Response: https://github.com/w3c/w3process/issues/167#issuecomment-380498842
-Open
+Closed:   Deferred
 ----
 Issue 2.
 Summary:  Clarification of Introduction
@@ -31,7 +31,7 @@ Response: https://github.com/w3c/w3process/issues/230#issuecomment-442721522
 Response: https://github.com/w3c/w3process/issues/230#issuecomment-443498734
 Response: https://github.com/w3c/w3process/issues/230#issuecomment-443529197
 Response: https://github.com/w3c/w3process/issues/230#issuecomment-443814364
-Open
+Closed:   Deferred
 ----
 Issue 4.
 Summary:  Misleading characterisation about WDs in 6.2.1
@@ -104,7 +104,7 @@ Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-387124626
 Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-388929432
 Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-389719860
 Comment:  https://github.com/w3c/w3process/issues/182#issuecomment-390356337
-Open
+Closed:   Deferred
 ----
 Issue 11.
 Summary:  Review the role of the Director in the process document
@@ -118,49 +118,50 @@ Issue 12.
 Summary:  We need a process for handling registries, APIs and other enumerations
 From:     David Singer
 Comment:  https://github.com/w3c/w3process/issues/168
-Open
+Closed:   Deferred
 ----
 Issue 13.
 Summary:  Should the process include something about Testing?
 From:     Natasha Rooney
 Comment:  https://github.com/w3c/w3process/issues/157
-Open
+Closed:   Deferred
 ----
 Issue 14.
 Summary:  provide clearer/common wording for transitions to Obsolete/Superseded status
 From:     Tantek Çelik
 Comment:  https://github.com/w3c/w3process/issues/141
-Open
+Closed:   Deferred
 ----
 Issue 15.
 Summary:  Concerns about Amended Recommendations
 From:     Andreas Tai
 Comment:  https://github.com/w3c/w3process/issues/137
-Open
+Closed:   Deferred
 ----
 Issue 16.
 Summary:  Enumerate the requirements for wide review
 From:     Nigel Megitt
 Comment:  https://github.com/w3c/w3process/issues/130
-Open
+Comment:  https://github.com/w3c/w3process/issues/264
+Closed:   Deferred
 ----
 Issue 17.
 Summary:  Process should say how W3T can update NOTES
 From:     Ralph Swick
 Comment:  https://github.com/w3c/w3process/issues/120
-Open
+Closed:   Deferred
 ----
 Issue 18.
 Summary:  We need to consider equal-preference voting
 From:     David Signer
 Comment:  https://github.com/w3c/w3process/issues/115
-Open
+Closed:   Deferred
 ----
 Issue 19.
 Summary:  Should the process allow REC->WD transition directly?
 From:     David Baron
 Comment:  https://github.com/w3c/w3process/issues/103
-Open
+Closed:   Deferred
 ----
 Issue 20.
 Summary:  Update Graphics
@@ -179,7 +180,7 @@ Issue 22.
 Summary:  Should there be good standing / supermajority criteria in authoritative ballots?
 From:     Michael Champion
 Comment:  https://github.com/w3c/w3process/issues/76
-Open
+Closed:   Deferred
 ----
 Issue 23.
 Summary:  Allow AC Reviews to be made public
@@ -187,13 +188,13 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/63
 Comment:  https://github.com/w3c/w3process/issues/38
 Comment:  https://github.com/w3c/w3process/issues/39
-Open
+Closed:   Deferred
 ----
 Issue 24.
 Summary:  Clarify the voting Process
 From:     Jeff Jaffe
 Comment:  https://github.com/w3c/w3process/issues/60
-Open
+Closed:   Deferred
 ----
 Issue 25.
 Summary:  Substantive changes undefined for Charter and Process reviews
@@ -202,7 +203,7 @@ Comment:  https://www.w3.org/community/w3process/track/issues/176
 Comment:  https://github.com/w3c/w3process/issues/28
 Comment:  https://github.com/w3c/w3process/pull/217
 Comment:  https://github.com/w3c/w3process/pull/218
-Open
+Closed:   Deferred
 ----
 Issue 26.
 Summary:  Sections 3.4 and 6.2.6 have different statements about Voting rules in a Charter
@@ -218,7 +219,7 @@ Summary:  Are W3C Hosts members of W3C
 From:     Charles McCathie Nevile
 Comment:  https://www.w3.org/community/w3process/track/issues/168
 Comment:  https://github.com/w3c/w3process/issues/10
-Open
+Closed:   OutOfScope
 ----
 Issue 28.
 Summary:  The word “dissent” is used more broadly than appropriate given its specific definition
@@ -330,7 +331,7 @@ Issue 40.
 Summary:  First meeting of a WG allowed too soon
 From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/issues/251
-Open
+Closed:   Deferred
 ----
 Issue 41.
 Summary:  Fix misplaced punctuation
@@ -400,7 +401,7 @@ Issue 49.
 Summary:  Purpose of short terms undefined
 From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/333
-Open
+Closed:   Deferred
 ----
 Issue 50.
 Summary:  Add references to "Open Stand" principles to the Process
@@ -430,10 +431,12 @@ Issue 53.
 Summary:  Should W3C drop the idea of a separate Evergreen Track?
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/343
+Comment:  https://github.com/w3c/w3process/pull/304
 Comment:  https://github.com/w3c/w3process/issues/303
 Comment:  https://github.com/w3c/w3process/issues/302
 Comment:  https://github.com/w3c/w3process/issues/301
 Comment:  https://github.com/w3c/w3process/issues/300
+Comment:  https://github.com/w3c/w3process/pull/298
 Comment:  https://github.com/w3c/w3process/issues/297
 Comment:  https://github.com/w3c/w3process/issues/273
 Comment:  https://github.com/w3c/w3process/issues/272
@@ -448,6 +451,7 @@ Summary:  Section 6 is poorly organized and hard to read
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/336
 Comment:  https://github.com/w3c/w3process/issues/340
+Comment:  https://github.com/w3c/w3process/issues/341
 Response: https://github.com/w3c/w3process/pull/348
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/344#issuecomment-572121863
@@ -458,3 +462,81 @@ From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/344
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/344#issuecomment-572121863
+----
+Issue 56.
+Summary:  Rephrase Evolution of the Process section
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/issues/355
+Response: https://github.com/w3c/w3process/pull/367
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/367#issuecomment-585252380
+----
+Issue 57.
+Summary:  Avoid using the word "contributor" to limit conflicts with the patent policy
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/359
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/359#issuecomment-572125274
+----
+Issue 58.
+Summary:  Define a type of publication that is sumultaneously FPWD and CR
+From:     Jeff Jaffe
+Comment:  https://github.com/w3c/w3process/issues/352
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/352#issuecomment-585260875
+Verified: https://github.com/w3c/w3process/issues/352#issuecomment-585259948
+----
+Issue 59.
+Summary:  Further automating transition requests
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/260
+Closed:   Retracted
+----
+Issue 60.
+Summary:  Fix typo
+From:     Tab Atkins
+Comment:  https://github.com/w3c/w3process/pull/266
+Closed:   Accepted
+Resolved: Editorial
+----
+Issue 61.
+Summary:  Can records of appeals ever be made public?
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/268
+Response: https://github.com/w3c/w3process/issues/268#issuecomment-490750384
+Closed:   Retracted
+----
+Issue 62.
+Summary:  Add more convenient links for review
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/317
+Closed:   Accepted
+Resolved: Editorial
+----
+Issue 63.
+Summary:  Are W3C hosts members of W3C
+From:     Charles McCathie Nevile
+Comment:  https://github.com/w3c/w3process/issues/10
+Closed:   
+Resolved: https://github.com/w3c/w3process/issues/10#issuecomment-521317797
+----
+Issue 64.
+Summary:  Update REC-track diagrams
+From:     David Singer
+Comment:  https://github.com/w3c/w3process/issues/390
+Open
+----
+Issue 65.
+Summary:  Use consistent spelling for "judgment" vs "judgement"
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/pull/357
+Open
+----
+Issue 66.
+Summary:  removing CR reference to Last Call, tie everblue to new patent policy
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/pull/361
+Comment:  https://github.com/w3c/w3process/pull/306
+Comment:  https://github.com/w3c/w3process/pull/320
+Comment:  https://github.com/w3c/w3process/pull/363
+Open
