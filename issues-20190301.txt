@@ -540,3 +540,10 @@ Comment:  https://github.com/w3c/w3process/pull/306
 Comment:  https://github.com/w3c/w3process/pull/320
 Comment:  https://github.com/w3c/w3process/pull/363
 Open
+----
+Issue 67.
+Summary:  Fix typo
+From:     Ralph Swick
+Comment:  https://github.com/w3c/w3process/pull/387
+Closed:   Accepted
+Resolved: Editorial
