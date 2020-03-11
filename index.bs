@@ -3708,8 +3708,8 @@ Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
 	<p id="proposed-rescinded-rec">The [=Director=] <em class="rfc2119">must</em> then
 	submit the request to the <a href="#AC">Advisory Committee</a> for review.
 	For any [=Advisory Committee review=] of a proposal to
-	obsolete,
 	rescind,
+	obsolete,
 	supersede,
 	or restore
 	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
