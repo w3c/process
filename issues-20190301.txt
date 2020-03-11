@@ -637,3 +637,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/378
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 81.
+Summary:  Write numbers consistently
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/379
+Closed:   Accepted
+Resolved: Editorial
