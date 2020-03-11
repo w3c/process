@@ -656,5 +656,6 @@ Issue 83.
 Summary:  Consitently order the same terms in the same order
 From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/381
+Comment:  https://github.com/w3c/w3process/pull/382
 Closed:   Accepted
 Resolved: Editorial
