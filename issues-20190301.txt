@@ -568,3 +568,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/383
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 71.
+Summary:  The guidebook is no longer member-only
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/371
+Closed:   Accepted
+Resolved: Editorial
