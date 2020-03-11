@@ -630,3 +630,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/377
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 80.
+Summary:  Fixed letter case
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/378
+Closed:   Accepted
+Resolved: Editorial
