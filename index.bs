@@ -2369,7 +2369,7 @@ Wide Review</h5>
 	The objective is to ensure that the entire set of stakeholders of the Web community,
 	including the general public,
 	have had adequate notice of the progress of the [=Working Group=]
-	(for example through notices posted to <a href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a>)
+	(for example through notices posted to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>)
 	and were able to actually perform reviews of and provide comments on the specification.
 	A second objective is to encourage groups to request reviews
 	early enough that comments and suggested changes
