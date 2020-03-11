@@ -4312,7 +4312,7 @@ Information Required in a Submission Request</h4>
 			etc.)
 			If the Submission request is acknowledged,
 			these documents will be made available by W3C
-			and therefore <em class="rfc2119">must</em> satisfy the Communication Team's
+			and therefore <em class="rfc2119">must</em> satisfy the Team's
 			<a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 			[=Submitters=] <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
 			but when made available by W3C,
