@@ -517,7 +517,7 @@ Issue 63.
 Summary:  Are W3C hosts members of W3C
 From:     Charles McCathie Nevile
 Comment:  https://github.com/w3c/w3process/issues/10
-Closed:   
+Closed:   OutOfScope
 Resolved: https://github.com/w3c/w3process/issues/10#issuecomment-521317797
 ----
 Issue 64.
