@@ -575,3 +575,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/371
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 72.
+Summary:  Add hyphen
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/369
+Closed:   Accepted
+Resolved: Editorial
