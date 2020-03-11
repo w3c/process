@@ -1499,7 +1499,7 @@ Dissemination Policies</h2>
 	[=Workshops=],
 	and review deadlines,
 	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]. 
+	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]] 
 	of official W3C events.
 	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
