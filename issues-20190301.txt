@@ -174,7 +174,8 @@ Issue 21.
 Summary:  Process supporting "Living Standards"?
 From:     https://github.com/joanmarie
 Comment:  https://github.com/w3c/w3process/issues/79
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/79#issuecomment-597657227
 ----
 Issue 22.
 Summary:  Should there be good standing / supermajority criteria in authoritative ballots?
