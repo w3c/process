@@ -3383,7 +3383,7 @@ Transitioning to Proposed Recommendation</h4>
 		<li>
 			<a href="#transition-rec">Recommendation status</a>,
 			including [=Amended Recommendation=]
-			(The expected next step).
+			(the expected next step).
 
 		<li>
 			<a href="#Note">Working Group Note</a>
