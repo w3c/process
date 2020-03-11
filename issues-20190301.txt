@@ -644,3 +644,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/379
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 82.
+Summary:  Correct punctuation
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/380
+Closed:   Accepted
+Resolved: Editorial
