@@ -602,3 +602,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/370
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 76.
+Summary:  Update link that redirected
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/372
+Closed:   Accepted
+Resolved: Editorial
