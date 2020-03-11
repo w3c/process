@@ -595,3 +595,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/issues/368
 Comment:  https://github.com/w3c/w3process/issues/373
 Closed:   Deferred
+----
+Issue 75.
+Summary:  Removed spurious period mid-sentence
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/370
+Closed:   Accepted
+Resolved: Editorial
