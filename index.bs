@@ -2691,7 +2691,7 @@ Maturity Levels on the Recommendation Track</h4>
 				<dt>
 					<dfn>Candidate Recommendation Draft</dfn>
 				<dd>
-					An [=Candidate Recommendation Draft=]
+					A [=Candidate Recommendation Draft=]
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
 					to integrate changes from the previous Candidate Recommendation Snapshot
 					that the Working Group intends to include
