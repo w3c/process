@@ -1654,7 +1654,7 @@ Requirements for All Working and Interest Groups</h3>
 	who acts as the interface between the [=Chair=],
 	group participants,
 	and the rest of the Team.
-	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] is described in the Member guide [[GUIDE]].
+	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
 	The [=Chair=] and the [=Team Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
 
 	Each group <em class="rfc2119">must</em> have an archived mailing list
