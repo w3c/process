@@ -3576,7 +3576,7 @@ Incorporating Proposed Changes</h5>
 	To facilitate review,
 	a <a>Last Call for Review of Proposed Changes</a> on a given specification
 	<em class=rfc2119>should not</em> be issued more frequently
-	than approximately once every six months.
+	than approximately once every 6 months.
 
 	At the end of the <a>Last Call for Review of Proposed Changes</a>,
 	the [=W3C Decision=] may either be
