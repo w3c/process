@@ -609,3 +609,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/372
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 77.
+Summary:  link to ML archive rather than ML mailto
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/374
+Closed:   Accepted
+Resolved: Editorial
