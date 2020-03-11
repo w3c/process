@@ -651,3 +651,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/380
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 83.
+Summary:  Consitently order the same terms in the same order
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/381
+Closed:   Accepted
+Resolved: Editorial
