@@ -554,3 +554,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/385
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 69.
+Summary:  description for "The Art of Consensus"
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/384
+Closed:   Accepted
+Resolved: Editorial
