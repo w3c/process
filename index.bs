@@ -2993,7 +2993,7 @@ Streamlined Publication Approval</h5>
 
 	Note: These criteria are intentionally stricter than
 	the general requirements for an [=update request=].
-	This is in order to minimize ambiguities and the need for expert judgement,
+	This is in order to minimize ambiguities and the need for expert judgment,
 	and to make self-evaluation practical.
 
 	In order to streamline the publication process in non-controversial cases,

@@ -530,7 +530,8 @@ Issue 65.
 Summary:  Use consistent spelling for "judgment" vs "judgement"
 From:     Wendy Seltzer
 Comment:  https://github.com/w3c/w3process/pull/357
-Open
+Closed:   Accepted
+Resolved: Editorial
 ----
 Issue 66.
 Summary:  removing CR reference to Last Call, tie everblue to new patent policy
