@@ -215,13 +215,6 @@ Response: https://github.com/w3c/w3process/issues/24#issuecomment-422474665
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/24#issuecomment-490507215
 ----
-Issue 27.
-Summary:  Are W3C Hosts members of W3C
-From:     Charles McCathie Nevile
-Comment:  https://www.w3.org/community/w3process/track/issues/168
-Comment:  https://github.com/w3c/w3process/issues/10
-Closed:   OutOfScope
-----
 Issue 28.
 Summary:  The word “dissent” is used more broadly than appropriate given its specific definition
 From:     Florian Rivoal
