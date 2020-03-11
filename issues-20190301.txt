@@ -623,3 +623,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/375
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 79.
+Summary:  Fix typo
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/377
+Closed:   Accepted
+Resolved: Editorial
