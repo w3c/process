@@ -1051,7 +1051,7 @@ Conflict of Interest Policy</h4>
 
 		<li>
 			A position on a publicly visible advisory body,
-			even if no decision making authority is involved.
+			even if no decision-making authority is involved.
 	</ul>
 
 	Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the [=Team=].
