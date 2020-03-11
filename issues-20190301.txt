@@ -561,3 +561,10 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/384
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 70.
+Summary:  Use actual title of the linked document
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/pull/383
+Closed:   Accepted
+Resolved: Editorial
