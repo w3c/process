@@ -3680,8 +3680,7 @@ Abandoning a W3C Recommendation</h5>
 <h5 id="deactivation">
 Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
 
-	The process of obsoleting,
-	rescinding,
+	The process of rescinding, obsoleting, 
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
