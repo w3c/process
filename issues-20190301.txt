@@ -582,3 +582,16 @@ From:     Coralie Mercier
 Comment:  https://github.com/w3c/w3process/pull/369
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 73.
+Summary:  TAG appointed participants announcement by Director
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/368
+Closed:   Deferred
+----
+Issue 74.
+Summary:  ambiguous statement for proxy in WG/IG
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/368
+Comment:  https://github.com/w3c/w3process/issues/373
+Closed:   Deferred
