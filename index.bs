@@ -1664,7 +1664,7 @@ Requirements for All Working and Interest Groups</h3>
 	and [=Formal Objections=] to decisions).
 	It is the responsibility of the [=Chair=] and [=Team Contact=]
 	to ensure that new participants are subscribed to all relevant mailing lists.
-	Refer to the list of <a href="https://www.w3.org/Member/Mail/">group mailing lists</a> [[GROUP-MAIL]].
+	Refer to the list of <a href="https://www.w3.org/Member/Groups">group mailing lists</a> [[GROUP-MAIL]].
 
 	<p>A [=Chair=] <em class="rfc2119">may</em> form task forces
 	(composed of group participants)
