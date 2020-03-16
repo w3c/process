@@ -3452,12 +3452,6 @@ Revising a W3C Recommendation</h4>
 
 	This section details the process for making changes to a [=Recommendation=].
 
-	<div role="region" aria-label="Revising a W3C Recommendation">
-		<pre class=include-raw>
-			path: revising-rec.svg
-		</pre>
-	</div>
-
 <h5 id="revised-rec-markup">
 Revising a Recommendation: Markup Changes</h5>
 
