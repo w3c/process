@@ -37,7 +37,20 @@ Getting something in front of both the [Advisory Board](https://www.w3.org/Conso
 Gaining consensus from the [Advisory Board](https://www.w3.org/2002/ab/) or [Advisory Committee](https://www.w3.org/participate/meetings) will take some time. After consensus has been reached you may either raise a `pull request` which include the changes agreed by these committees or wait for the Editor to make the required changes. See more details about `pull requests` below.
 
 ## Edit and Pull Request Instructions
-This is a very simple repository. To make an edit to the document simply edit the [index.html](index.html) file and send a pull request when your changes are done. If you have the rights to edit this repo your edits will need to be made on a new branch. If you do not have the rights to edit this repo please `fork` the repo, make your edits, then send a `pull request`.
+To make an edit to the document simply edit the [`index.bs`](index.bs) file
+and send a pull request when your changes are done.
+This document is maintained using [Bikeshed](https://tabatkins.github.io/bikeshed/).
+See the [section about markup](https://tabatkins.github.io/bikeshed/#markup-shortcuts) in Bikeshed's documentation
+for full details about the syntax.
+
+**Only the source (`index.bs`) should be committed**,
+as this repository is configured to run bikeshed server-side and push the result to the gh-pages branch.
+
+If you want to run Bikeshed locally to check the results of your edits before committing or sending a pull request,
+follow [the installation instructions](https://tabatkins.github.io/bikeshed/#installing) in Bikeshed's documentation.
+Once Bikeshed is installed, just type `bikeshed` to generate `index.html` from `index.bs`.
+
+If you have the rights to edit this repo your edits will need to be made on a new branch. If you do not have the rights to edit this repo please `fork` the repo, make your edits, then send a `pull request`.
 
 Pull Requests should result in a correct-looking document (formats and lays out correctly).
 
