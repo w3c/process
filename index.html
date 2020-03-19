@@ -6,9 +6,9 @@
   <link href="https://www.w3.org/StyleSheets/TR/2016/base.css" rel="stylesheet" type="text/css">
   <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
-  <meta content="Bikeshed version 7dd49ddf2b095c0a9accc859934f2349a4fb5d3c" name="generator">
+  <meta content="Bikeshed version 576ef4f5126e3fb83bf07d9bbe1a64f99aa4944e" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="bfa1a51dd331db938d22409f10cf67de00cd7c6a" name="document-revision">
+  <meta content="03020e861c6f261acaab862b2d7af45786f97ce4" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -238,7 +238,7 @@ pre .property::before, pre .property::after {
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2020-03-17">17 March 2020</time> </span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2020-03-19">19 March 2020</time> </span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -284,7 +284,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 17 March 2020 Editor’s draft for the proposed next version of the W3C Process Document. 
+	This is the 19 March 2020 Editor’s draft for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 
 which is the currently operative W3C Process.</p>
@@ -3795,24 +3795,70 @@ which is the currently operative W3C Process.</p>
    <p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
 	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">Detailed log of all changes since then</a> are available.
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">detailed log of all changes since then</a> are available.
 	The following is a summary: </p>
+   <h4 class="no-num no-toc heading settled" id="major-changes-2019"><span class="content"> Major Update to the Recommendation Track</span><a class="self-link" href="#major-changes-2019"></a></h4>
+   <p>Significant additions and modifications were made to the Recommendation Track.
+	While the meaning of the various maturities and associated transition criteria are unchanged,
+	important additions have been made to what can be done during CR and REC phases.
+	These aim to facilitate maintenance of specifications,
+	and to provide a Living Standards capability as a native capability of the W3C Recommendation Track.</p>
    <ul>
-    <li> Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
-			improving the ease of maintenance,
-			and gaining better cross linking capabilities as well as an <a href="#index">Index</a> in the process.
-			Note that while this makes no change to the text of the process,
-			it is a large change of the source code,
-			and source level diffs are unlikely to be of help to compare the before and after state. 
-    <li> Phrasing clarifications and removal of unnecessary text
-			in <a href="#AB-TAG-constraints">§ 2.5.1 Advisory Board and Technical Architecture Group Participation Constraints</a> and <a href="#ACReviewAfter">§ 7.1.2 After the Review Period</a>. 
-    <li> Avoid using the specialized term “<a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑤">publish</a>” to mean anything other than
-			putting documents on TR. 
-    <li> Avoid using the specialized term “<a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a>” in situations that do not involve Formal Objections. 
+    <li> Work-in-progress updates to CRs can be published on TR as <a data-link-type="dfn" href="#candidate-recommendation-draft" id="ref-for-candidate-recommendation-draft⑥">Candidate Recommendation Drafts</a>.
+			This allows the Working Group
+			to publish the latest state of their work and to get wide review on the official copy,
+			without having to direct readers to an unofficial Editor’s Draft. 
+    <li> An simultaneous update of the Patent Policy is planned
+			and the Process has been adjusted to tie into it.
+			Together, they provide patent protection from the CR stage,
+			as opposed to having to wait for the Recommendation as needed today. 
+    <li> Errata and related proposed changes can be informatively annotated inline in a Recommendation,
+			and republished without W3C approval.
+			This too allows the Working Group
+			to publish the latest state of their work and to get wide review on the official copy,
+			without having to direct readers to an unofficial Editor’s Draft,
+			or separate errata documents. 
+    <li> Once some of the proposed changes have reached sufficient maturity to be part of the Recommendation,
+			and once it has secured the usual approvals (Director review, AC Review),
+			the Working Group can fold them into the Recommendation as normative text,
+			republish the Recommendation directly,
+			without intermediate publication as CR or PR. 
+    <li> Both the addition of new proposed changes
+			and the normative incorporation of mature proposed changes into the Recommendation
+			can be done incrementally,
+			allowing complex specifications to be gradually improved
+			without having to fix everything before anything can be republished. 
+    <li> Similarly to proposed changes which correct errors,
+			proposed additions to a Recommendation can be annotated inline,
+			then made normative when sufficiently mature.
+			This is limited to Recommendations explicitly identifying themselves as allowing new features,
+			so as to avoid breaking expectation of feature-set stability
+			on Recommendations that have already been published without this note. 
+    <li> When certain objective criteria are met,
+			both the CR-to-REC transition
+			and the REC-to-REC update
+			can be automatically approved and skip the usual “transition call”.
+			Further developments in tooling may later reduce friction on this “fast-path”. 
+   </ul>
+   <p>Some minor simplifications have also been made:</p>
+   <ul>
+    <li> Drop the distinction between Recommendation and Edited Recommendation. 
+    <li> Don’t require documenting editorial changes since the previous CR. 
+   </ul>
+   <p>A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&amp;doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.</p>
+   <h4 class="no-num no-toc heading settled" id="other-changes-2019"><span class="content"> Other Substantive Changes and Clarifications</span><a class="self-link" href="#other-changes-2019"></a></h4>
+   <p>A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&amp;doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after these changes</a> is available.</p>
+   <ul>
     <li> Retire the “Team Submissions” (<em>not</em> “Member Submissions”) mechanism,
 			as it is unused,
 			does not provide the Team with abilities it doesn’t already have,
 			nor provides meaningful governance of the Team’s communications. 
+    <li> Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process 
+    <li> Avoid using the specialized term “<a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑤">publish</a>” to mean anything other than
+			putting documents on TR. 
+    <li> Avoid using the specialized term “<a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a>” in situations that do not involve Formal Objections. 
+    <li> Phrasing clarifications and removal of unnecessary text
+			in <a href="#AB-TAG-constraints">§ 2.5.1 Advisory Board and Technical Architecture Group Participation Constraints</a> and <a href="#ACReviewAfter">§ 7.1.2 After the Review Period</a>. 
     <li> Clarify that appeal statements are meant to be member-only. 
     <li> Clarify that Working Drafts have some, even if limited, standing. 
     <li> Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures. 
@@ -3822,18 +3868,25 @@ which is the currently operative W3C Process.</p>
     <li> Clarify the rule on vacant seats in <a href="#AB-TAG-elections">§ 2.5.2 Advisory Board and Technical Architecture Group Elections</a> 
     <li> Eliminate the use of the undefined “minor changes” term 
     <li> Define and differentiate between Group Decisions and Chair Decisions. 
-    <li> Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process 
     <li> Add note clarifying when it is appropriate to use the superseding process, and when not. 
-    <li> Dont require documenting editorial changes since the previous CR. 
     <li> Add Note about the flexibility of Consensus. 
-    <li> Section 6 (on Technical Report development) has been reorganized,
+   </ul>
+   <h4 class="no-num no-toc heading settled" id="editorial-changes-2019"><span class="content"> Notable Editorial Changes</span><a class="self-link" href="#editorial-changes-2019"></a></h4>
+   <ul>
+    <li>
+      Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
+			improving the ease of maintenance,
+			and gaining better cross linking capabilities as well as an <a href="#index">Index</a> in the process.
+			Note that while this makes no change to the text of the process,
+			it is a large change of the source code,
+			and source level diffs are unlikely to be of help to compare the before and after state. 
+     <p>A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&amp;doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">diff comparing the state before/after this change</a> is available.</p>
+    <li>
+      Section <a href="#Reports">§ 6 W3C Technical Report Development Process</a> has been reorganized,
 			to disentangle definitions of the various maturities
 			from the steps needed to publish
 			and to transition form one maturity to another. 
-    <li> Significant additions were made to the Recommendation Track,
-			both to facilitated maintenance,
-			and to ease development of technical reports in a more agile fashion. 
-    <li> Drop the distinction between Recommendation and Edited Recommendation 
+     <p>A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&amp;doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after this change</a> is available.</p>
    </ul>
    <h3 class="no-num heading settled" id="changes-2018"><span class="content"> Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</span><a class="self-link" href="#changes-2018"></a></h3>
    <p>This document is based on the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>.
@@ -4501,7 +4554,7 @@ Transitioning to W3C Recommendation</a>
 Process for Rescinding, Obsoleting, Superseding a Recommendation</a>
     <li><a href="#ref-for-def-Dissent④">7.1.2. 
 After the Review Period</a>
-    <li><a href="#ref-for-def-Dissent⑤"> Changes since the 1 March 2019 Process:</a>
+    <li><a href="#ref-for-def-Dissent⑤"> Other Substantive Changes and Clarifications</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="FormalObjection">
@@ -4892,7 +4945,7 @@ Transitioning to Proposed Recommendation</a>
 Abandoning an Unfinished Technical Report</a> <a href="#ref-for-publishing①①">(2)</a>
     <li><a href="#ref-for-publishing①②">6.3. 
 Working Group and Interest Group Notes</a> <a href="#ref-for-publishing①③">(2)</a> <a href="#ref-for-publishing①④">(3)</a>
-    <li><a href="#ref-for-publishing①⑤"> Changes since the 1 March 2019 Process:</a>
+    <li><a href="#ref-for-publishing①⑤"> Other Substantive Changes and Clarifications</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="technical-report">
@@ -5102,6 +5155,7 @@ Transitioning to Proposed Recommendation</a> <a href="#ref-for-candidate-recomme
 Maturity Levels on the Recommendation Track</a>
     <li><a href="#ref-for-candidate-recommendation-draft①">6.2.8.2. 
 Publishing a Candidate Recommendation Draft</a> <a href="#ref-for-candidate-recommendation-draft②">(2)</a> <a href="#ref-for-candidate-recommendation-draft③">(3)</a> <a href="#ref-for-candidate-recommendation-draft④">(4)</a> <a href="#ref-for-candidate-recommendation-draft⑤">(5)</a>
+    <li><a href="#ref-for-candidate-recommendation-draft⑥"> Major Update to the Recommendation Track</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="rescinded-candidate-recommendation">
