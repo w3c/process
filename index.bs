@@ -4632,23 +4632,97 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
 	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">Detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">detailed log of all changes since then</a>
 	are available.
 	The following is a summary:
 
+<h4 id=major-changes-2019 class="no-num no-toc">
+Major Update to the Recommendation Track</h4>
+
+	Significant additions and modifications were made to the Recommendation Track.
+	While the meaning of the various maturities and associated transition criteria are unchanged,
+	important additions have been made to what can be done during CR and REC phases.
+	These aim to facilitate maintenance of specifications,
+	and to provide a Living Standards capability as a native capability of the W3C Recommendation Track.
+
 	<ul>
 		<li>
-			Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
-			improving the ease of maintenance,
-			and gaining better cross linking capabilities as well as an [[#index]] in the process.
-			Note that while this makes no change to the text of the process,
-			it is a large change of the source code,
-			and source level diffs are unlikely to be of help to compare the before and after state.
+			Work-in-progress updates to CRs can be published on TR as [=Candidate Recommendation Drafts=].
+			This allows the Working Group
+			to publish the latest state of their work and to get wide review on the official copy,
+			without having to direct readers to an unofficial Editor's Draft.
 
 		<li>
-			Phrasing clarifications and removal of unnecessary text
-			in <a href="#AB-TAG-constraints"></a> and
-			<a href="#ACReviewAfter"></a>.
+			An simultaneous update of the Patent Policy is planned
+			and the Process has been adjusted to tie into it.
+			Together, they provide patent protection from the CR stage,
+			as opposed to having to wait for the Recommendation as needed today.
+
+		<li>
+			Errata and related proposed changes can be informatively annotated inline in a Recommendation,
+			and republished without W3C approval.
+			This too allows the Working Group
+			to publish the latest state of their work and to get wide review on the official copy,
+			without having to direct readers to an unofficial Editor's Draft,
+			or separate errata documents.
+
+		<li>
+			Once some of the proposed changes have reached sufficient maturity to be part of the Recommendation,
+			and once it has secured the usual approvals (Director review, AC Review),
+			the Working Group can fold them into the Recommendation as normative text,
+			republish the Recommendation directly,
+			without intermediate publication as CR or PR.
+
+		<li>
+			Both the addition of new proposed changes
+			and the normative incorporation of mature proposed changes into the Recommendation
+			can be done incrementally,
+			allowing complex specifications to be gradually improved
+			without having to fix everything before anything can be republished.
+
+		<li>
+			Similarly to proposed changes which correct errors,
+			proposed additions to a Recommendation can be annotated inline,
+			then made normative when sufficiently mature.
+			This is limited to Recommendations explicitly identifying themselves as allowing new features,
+			so as to avoid breaking expectation of feature-set stability
+			on Recommendations that have already been published without this note.
+
+		<li>
+			When certain objective criteria are met,
+			both the CR-to-REC transition
+			and the REC-to-REC update
+			can be automatically approved and skip the usual “transition call”.
+			Further developments in tooling may later reduce friction on this “fast-path”.
+
+
+	</ul>
+
+	Some minor simplifications have also been made:
+	<ul>
+		<li>
+			Drop the distinction between Recommendation and Edited Recommendation.
+
+		<li>
+			Don't require documenting editorial changes since the previous CR.
+	</ul>
+
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
+
+<h4 id=other-changes-2019 class="no-num no-toc">
+Other Substantive Changes and Clarifications</h4>
+
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after these changes</a> is available.
+
+	<ul>
+		<li>
+			Retire the “Team Submissions” (<em>not</em> “Member Submissions”) mechanism,
+			as it is unused,
+			does not provide the Team with abilities it doesn't already have,
+			nor provides meaningful governance of the Team's communications.
+
+		<li>
+			Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process
 
 		<li>
 			Avoid using the specialized term “[=publish=]” to mean anything other than
@@ -4658,10 +4732,9 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Avoid using the specialized term “[=dissent=]” in situations that do not involve Formal Objections.
 
 		<li>
-			Retire the “Team Submissions” (<em>not</em> “Member Submissions”) mechanism,
-			as it is unused,
-			does not provide the Team with abilities it doesn't already have,
-			nor provides meaningful governance of the Team's communications.
+			Phrasing clarifications and removal of unnecessary text
+			in <a href="#AB-TAG-constraints"></a> and
+			<a href="#ACReviewAfter"></a>.
 
 		<li>
 			Clarify that appeal statements are meant to be member-only.
@@ -4691,30 +4764,34 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 			Define and differentiate between Group Decisions and Chair Decisions.
 
 		<li>
-			Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process
-
-		<li>
 			Add note clarifying when it is appropriate to use the superseding process, and when not.
 
 		<li>
-			Dont require documenting editorial changes since the previous CR.
-
-		<li>
 			Add Note about the flexibility of Consensus.
+	</ul>
+
+<h4 id=editorial-changes-2019 class="no-num no-toc">
+Notable Editorial Changes</h4>
+
+	<ul>
+		<li>
+			Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
+			improving the ease of maintenance,
+			and gaining better cross linking capabilities as well as an [[#index]] in the process.
+			Note that while this makes no change to the text of the process,
+			it is a large change of the source code,
+			and source level diffs are unlikely to be of help to compare the before and after state.
+
+			A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">diff comparing the state before/after this change</a> is available.
 
 		<li>
-			Section 6 (on Technical Report development) has been reorganized,
+			Section [[#Reports]] has been reorganized,
 			to disentangle definitions of the various maturities
 			from the steps needed to publish
 			and to transition form one maturity to another.
 
-		<li>
-			Significant additions were made to the Recommendation Track,
-			both to facilitated maintenance,
-			and to ease development of technical reports in a more agile fashion.
+			A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after this change</a> is available.
 
-		<li>
-			Drop the distinction between Recommendation and Edited Recommendation
 	</ul>
 
 <h3 id=changes-2018 class=no-num>
