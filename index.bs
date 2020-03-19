@@ -4632,9 +4632,17 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
 	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...843aea51e2216133aa875e798b9a001079a4e84a">detailed log of all changes since then</a>
 	are available.
-	The following is a summary:
+
+	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html">diff comparing it to the 2019 edition of the Process</a> is available.
+	Note that due to overlapping changes,
+	this diff may be somewhat difficult to review.
+	In order to make review easier,
+	several partial diffs,
+	grouping related changes,
+	are available as well,
+	as detailed below.
 
 <h4 id=major-changes-2019 class="no-num no-toc">
 Major Update to the Recommendation Track</h4>
@@ -4791,6 +4799,7 @@ Notable Editorial Changes</h4>
 			and to transition form one maturity to another.
 
 			A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after this change</a> is available.
+			Note that this reorganization was done prior to the major changes to the Recommendation track mentioned earlier.
 
 	</ul>
 
