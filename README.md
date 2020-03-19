@@ -35,8 +35,8 @@ as well as diffs between these various stages.
 <tr><td rowspan=2>3. <a href="https://w3c.github.io/w3process/snapshots/2020-01-09-before-everblue.html">…with miscellaneous fixes…</a></td></tr>
 <tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff from 3. to 4.</a></td></tr>
 <tr><td rowspan=2>4. <a href="https://w3c.github.io/w3process/snapshots/2020-01-09-refactor.html">…with section 6 refactoring…</a></td></tr>
-<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff from 4. to 5.</a></td></tr>
-	<tr><td>5. <a href="https://w3c.github.io/w3process/">…with REC track revision (latest)</a></td></tr>
+<tr><td rowspan=2><a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html">diff from 4. to 5.</a></td></tr>
+	<tr><td>5. <a href="https://w3c.github.io/w3process/snapshots/after-everblue.html">…with REC track revision (latest)</a></td></tr>
 </table>
 
 ----
