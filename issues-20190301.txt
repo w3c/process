@@ -518,7 +518,8 @@ Issue 64.
 Summary:  Update REC-track diagrams
 From:     David Singer
 Comment:  https://github.com/w3c/w3process/issues/390
-Open
+Closed:   Accepted
+Resolved: Editorial
 ----
 Issue 65.
 Summary:  Use consistent spelling for "judgment" vs "judgement"
@@ -528,13 +529,15 @@ Closed:   Accepted
 Resolved: Editorial
 ----
 Issue 66.
-Summary:  removing CR reference to Last Call, tie everblue to new patent policy
+Summary:  Tie everblue to new patent policy
 From:     Wendy Seltzer
 Comment:  https://github.com/w3c/w3process/pull/361
 Comment:  https://github.com/w3c/w3process/pull/306
 Comment:  https://github.com/w3c/w3process/pull/320
 Comment:  https://github.com/w3c/w3process/pull/363
-Open
+Comment:  https://github.com/w3c/w3process/pull/395
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/395#issuecomment-611010980
 ----
 Issue 67.
 Summary:  Fix typo
