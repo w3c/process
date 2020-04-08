@@ -4718,12 +4718,12 @@ Major Update to the Recommendation Track</h4>
 			Don't require documenting editorial changes since the previous CR.
 	</ul>
 
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html">diff comparing the state before/after these changes</a> is available.
 
 <h4 id=other-changes-2019 class="no-num no-toc">
 Other Substantive Changes and Clarifications</h4>
 
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after these changes</a> is available.
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">diff comparing the state before/after these changes</a> is available.
 
 	<ul>
 		<li>
