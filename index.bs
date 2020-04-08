@@ -2587,9 +2587,9 @@ The W3C Recommendation Track</h3>
 	</div>
 
 	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
-	For groups operating under the 2004 (updated in 2017) Patent Policy,
+	Under the 2004 (updated in 2017) Patent Policy,
 	these correspond to “Last Call Working Draft” in the Patent Policy [[PATENT-POLICY-2017]];
-	for groups operating under the 2020 Patent Policy,
+	Under the 2020 Patent Policy,
 	these correspond to “Patent Review Draft” in the Patent Policy PATENT-POLICY-2020.
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
