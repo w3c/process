@@ -657,3 +657,10 @@ Comment:  https://github.com/w3c/w3process/pull/381
 Comment:  https://github.com/w3c/w3process/pull/382
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 84.
+Summary:  Fix punctuation
+From:     Ivan Herman
+Comment:  https://github.com/w3c/w3process/pull/397
+Closed:   Accepted
+Resolved: Editorial
