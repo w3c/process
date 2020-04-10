@@ -2481,7 +2481,7 @@ Errata Management</h4>
 	the term “<dfn lt="erratum | errata" export>erratum</dfn>”
 	(plural “errata”) refers to any error
 	that can be resolved by one or more changes in classes 1-3
-	of section [[#correction-classes]].</a>.
+	of section [[#correction-classes]]</a>.
 
 	[=Working Groups=] <em class="rfc2119">must</em> keep
 	a public record of errors
@@ -3488,7 +3488,7 @@ Revising a Recommendation: Substantive Changes</h5>
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Changes=],
 	followed by an [=update request=].
-	See [[#change-review]]
+	See [[#change-review]].
 
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
@@ -3516,7 +3516,7 @@ Revising a Recommendation: New Features</h5>
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Changes=],
 	followed by an [=update request=].
-	See [[#change-review]]
+	See [[#change-review]].
 
 	Note: This prohibition against new features unless explicitly allowed
 	enables third parties to depend on Recommendations having a stable feature-set,
