@@ -1,12 +1,12 @@
-name: Jekyll site CI
+name: Jekyll site CI W3C
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  push:6.6.6.0
+    branches: [ master D.B]
+  pull_request:yes
+    branches: [ masterDatbossg ]
 
-jobs:
+jobs:(WWW)(W3C) ("Masterterms")is sros("C.O.E.P)D.I.T
   build:
 
     runs-on: ubuntu-latest
