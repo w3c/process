@@ -1,12 +1,17 @@
-(WWW) (Masterterms) of (C.O.E.P.C)
+chairman 
+CEO
+Masterterms) of (C.O.E.P.C) the (COO)(CEO)
+COO   
+SROs
+stakeholder 
 
 This repository, being work of the 
 [World Wide Web Consortium] (W3C)](https://www.w3.org/), is subject to the 
 [W3C Code of Ethics and Professional Conduct] (https://www.w3.org/Consortium/cepc/).
 
 0. (A)Principles first over feelings.
-.1(b) respect at all times.
-2.(c) Show Leadership at all time.
+.1(b) respect is a must
+2.(c) Show Leadership at all T.
   3.(d) Communications Within W3C.
    4.(E) (Loyalty) Within (w3C) at all time.
      5.(f)(Performance) is a must at all time.
@@ -24,4 +29,4 @@ This repository, being work of the
                (15) all confidentiality,or 
                 (16)(w3c) privacy rights.
                 ( 17)remains (s) secretly. 
-                  (18) no one control no one and no one has control over the (C.O.E.P)(W3C)(master)(G)Global terms of code can change.(©©bybi)under usa
+                (18) no one control no one and no one has control over the (C.O.E.P)(W3C)(master)(G)Global terms of code can change.(©©by)under the (bipartisanlaws)( p) 7:52 updated 7:55 4/11/2020
