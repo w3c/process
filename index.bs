@@ -2365,48 +2365,99 @@ Reviews and Review Responsibilities</h4>
 <h5 id="wide-review">
 Wide Review</h5>
 
-	The requirements for <dfn id=dfn-wide-review export>wide review</dfn> are not precisely defined by the W3C Process.
-	The objective is to ensure that the entire set of stakeholders of the Web community,
-	including the general public,
-	have had adequate notice of the progress of the [=Working Group=]
-	(for example through notices posted to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>)
-	and were able to actually perform reviews of and provide comments on the specification.
-	A second objective is to encourage groups to request reviews
-	early enough that comments and suggested changes
-	can still be reasonably incorporated in response to the review.
-	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
-	a reasonable opportunity to review the document,
-	who has provided comments,
-	the record of requests to and responses from reviewers,
-	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
-	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
-	and seek evidence of clear communication to the general public
-	about appropriate times and which content to review
-	and whether such reviews actually occurred.
+	The objective of <dfn id=dfn-wide-review export>wide review</dfn> is to seek
+	feedback on a specification from the entire web community, including the general
+	public. The goal is to make the specification as robust as possible before it
+	becomes a [=W3C Recommendation=]. 
 
-	For example,
-	inviting review of new or significantly revised sections published in Working Drafts,
-	and tracking those comments
-	and the [=Working Group=]'s responses,
-	is generally a good practice which would often be considered positive evidence of wide review.
-	[=Working Groups=] <em class="rfc2119">should</em> announce to other W3C Working Groups
-	as well as the general public,
-	especially those affected by this specification,
-	a proposal to enter [=Candidate Recommendation=]
-	(for example in approximately 28 days).
-	By contrast a generic statement in a document
-	requesting review at any time
-	is likely not to be considered as sufficient evidence
-	that the group has solicited wide review.
+	Wide review <em class="rfc2119">should</em> be sought continuously as a
+	specification matures, to allow different parts of the web community to iterate
+	on requirements, problems, and solutions. 
 
-	A [=Working Group=] could present evidence that wide review has been received,
-	irrespective of solicitation.
-	But it is important to note that receiving many detailed reviews
-	is not necessarily the same as wide review,
-	since they might only represent comment
-	from a small segment of the relevant stakeholder community.
+	When a [=First Public Working Draft=] of a specification is published, a notification
+	<em class="rfc2119">must</em> be sent to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>. 
+
+	As a specification progresses along the Recommendation Track, Working Groups
+	<em class="rfc2119">should</em> solicit review from some or all of the following
+	stakeholders: 
+
+	<ul>
+		<li>The Working Group responsible for the specification</li>
+		<li>The horizontal review groups (see 6.2.3.2)</li>
+		<li>The Working Groups and organisations documented in the Working Group's charter</li>
+		<li>The general public</li>
+		<li>Other relevant standards organizations</li>
+	</ul>
+
+	The Director <em class="rfc2119">must</em> consider evidence of wide review before
+	approving transitions. Appropriate evidence may include: 
+
+	<ul>
+		<li>Documented requests for wide review</li>
+		<li>Documented discussion and resolution of issues raised during wide review</li>
+	</ul>
+
+<h5 id="horizontal-review">
+Horizontal Review</h5>
+
+	The objective of <dfn id=dfn-horizontal-review export>horizontal review</dfn> is
+	to make sure specifications are robust in terms of accessibility, internationalisation,
+	privacy, security, and technical architecture by the time they become a [=W3C Recommendation=]. 
+
+	Horizontal review <em class="rfc2119">should</em> be sought continuously as a
+	specification matures, so that accessibility, internationalisation, privacy,
+	security, and technical architecture are considered throughout. 
+
+	Before a proposed specification transitions onto the Recommendation Track, the
+	group responsible for the specification <em class="rfc2119">must</em> solicit a
+	horizontal review from each of the horizontal review groups (in many cases,
+	submitting a self-review to the reviewing group will satisfy this requirement).
+
+	The <dfn id=dfn-horizontal-review-groups export>Horizontal Review Groups</dfn> are:
+
+	<ul>
+		<li><a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a></li>
+		<li><a href="https://www.w3.org/International/core/Overview">Internationalisation Working Group</a></li>
+		<li><a href="https://www.w3.org/Privacy/">Privacy Interest Group</a></li>
+		<li><a href="https://www.w3.org/2001/tag/">Technical Architecture Group</a></li>
+	</ul>
+
+	When the [=First Public Working Draft=] of a specification is published, a notification
+	<em class="rfc2119">must</em> be sent to
+	<a href="https://lists.w3.org/Archives/Public/horizontal-review-announce/">horizontal-review-announce@w3.org</a>. 
+
+	Horizontal review <em class="rfc2119">must</em> be solicited from the Horizontal
+	Review groups at least 60 days before requesting transition to [=Candidate Recommendation=]. 
+
+	Horizontal Review of all new and significantly revised sections of a specification
+	<em class="rfc2119">should</em> also be sought from the Horizontal Review groups. 
+
+	When a Working Group requests horizontal review: 
+
+	<ul>
+		<li>The horizontal review group <em class="rfc2119">must</em> acknowledge
+		 	receipt of the request and indicate whether the review will be conducted</li>
+		<li>The horizontal review group <em class="rfc2119">should</em> review
+			the specification and raise relevant issues within the agreed timeframe</li>
+		<li>The requesting Working Group <em class="rfc2119">must</em> acknowledge
+			receipt of each issue, then give each issue due consideration before
+			providing an appropriate response</li>
+		<li>If the Working Group and the horizontal review group do not agree,
+			they <em class="rfc2119">should</em> make a determined effort to find
+			agreement</li>
+		<li>When the Working Group requests transition of a specification, evidence
+			of this process <em class="rfc2119">must</em> be provided and any issues
+			that remain unresolved <em class="rfc2119">must</em> be indicated</li>
+	</ul>
+
+	The Director <em class="rfc2119">must</em> consider evidence of horizontal
+	review before approving transitions. Appropriate evidence MAY include: 
+
+	<ul>
+		<li>Documented requests for horizontal review</li>
+		<li>Documented response from each horizontal review group</li>
+		<li>Documented resolution of issues raised during horizontal review</li>
+	</ul>
 
 <h4 id="correction-classes">
 Classes of Changes</h4>
