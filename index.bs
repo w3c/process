@@ -3865,9 +3865,8 @@ Advisory Committee Reviews, Appeals, and Votes</h2>
 	of a [=W3C decision=]
 	or [=Director=]'s decision.
 	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
-	where the [=Director=]
-	(or the Director's delegate)
-	has exercised the role of assessing consensus after an [=Advisory Committee review=].
+	where the [=Director=] decides,
+	after exercising the role of assessing consensus of the W3C Community after an [=Advisory Committee review=].
 
 <h3 id="ACReview">
 Advisory Committee Reviews</h3>
@@ -4635,10 +4634,10 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
 	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...843aea51e2216133aa875e798b9a001079a4e84a">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">detailed log of all changes since then</a>
 	are available.
 
-	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html">diff comparing it to the 2019 edition of the Process</a> is available.
+	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing it to the 2019 edition of the Process</a> is available.
 	Note that due to overlapping changes,
 	this diff may be somewhat difficult to review.
 	In order to make review easier,
@@ -4805,6 +4804,24 @@ Notable Editorial Changes</h4>
 			Note that this reorganization was done prior to the major changes to the Recommendation track mentioned earlier.
 
 	</ul>
+
+<h4 id=additional-changes-2019 class="no-num no-toc">
+Final adjustements</h4>
+
+	Based on a cycle of review
+	by the Advisory Committee and the broader community
+	of the changes described above,
+	a few final adjustments were made:
+
+	<ul>
+		<li>
+			Clarify the definition of W3C Decision,
+			to make it clear that the Director actually has decision power,
+			and does take the input of the whole community into account.
+
+	</ul>
+
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
 
 <h3 id=changes-2018 class=no-num>
 Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</h3>

@@ -664,3 +664,10 @@ From:     Ivan Herman
 Comment:  https://github.com/w3c/w3process/pull/397
 Closed:   Accepted
 Resolved: Editorial
+----
+Issue 85.
+Summary:  Clarify W3C Decision
+From:     Jeff Jaffe
+Comment:  https://github.com/w3c/w3process/issues/404
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/404#issuecomment-634693844
