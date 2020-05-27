@@ -4445,10 +4445,10 @@ Process Evolution</h2>
 
 	Revision of the W3C Process and related documents (see below) undergoes similar [=consensus=]-building processes as for [=technical reports=],
 	with the [=Advisory Board=]--
-	or another group acting under delegation from the [=Advisory Board=]--
 	acting as the sponsoring [=Working Group=].
-	To help assure fitness for purpose,
-	the group should solicit input from the W3C community,
+	The documents may be developed by the [=AB=] or by another group to whom the [=AB=] has delegated development.
+	Review includes
+	soliciting input from the W3C community,
 	and in particular the Team.
 
 	The documents covered by this section are:
@@ -4469,12 +4469,17 @@ Process Evolution</h2>
 
 		<li>
 			<a href="#ACReviewAfter">After the Advisory Committee review</a>,
-			if there is [=consensus=],
-			the Team enacts the new process officially by announcing
-			the <a href="#def-w3c-decision">W3C decision</a> to the [=Advisory Committee=].
+			following a [=W3C decision=] to adopt the document(s),
+			the Team does so
+			and sends an announcement to the [=Advisory Committee=].
 			Advisory Committee representatives <em class="rfc2119">may</em> initiate
 			an [=Advisory Committee Appeal=] to the W3C.
 	</ol>
+
+	Note: As of June 2020,
+	the [[PATENT-POLICY|Patent Policy]] is developed in the <a href="https://www.w3.org/2004/pp/psig/">Patents and Standards Interest Group</a>,
+	the [[CEPC|Code of Ethics and Professional Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
+	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
 <h2 id="acks" class=non-normative>
 Acknowledgments</h2>
@@ -4818,6 +4823,9 @@ Final adjustements</h4>
 			Clarify the definition of W3C Decision,
 			to make it clear that the Director actually has decision power,
 			and does take the input of the whole community into account.
+
+		<li>
+			Adjust the wording of section [[#GAProcess]] to clarify responsibilities.
 
 	</ul>
 
