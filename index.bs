@@ -37,6 +37,7 @@ Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
+Local Boilerplate: header yes, footer yes, status yes, logo yes, copyright yes
 Shortname: w3process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
