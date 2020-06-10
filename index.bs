@@ -2566,7 +2566,7 @@ The W3C Recommendation Track</h3>
 	once review suggests the Working Group has met their requirements satisfactorily for a new standard,
 	there is a [=Candidate Recommendation=] phase.
 	This allows the entire W3C membership to provide feedback
-	on whether the specification is appropriate as a [=W3C Recommendation=],
+	on the specification,
 	while the [=Working Group=] formally collects <a href="implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
 	The next phase is a [=Proposed Recommendation=],
@@ -4836,6 +4836,10 @@ Final adjustements</h4>
 		<li>
 			Define the published proposed changes to be treated as Working Drafts
 			for the purpose of the Patent Policy.
+
+		<li>
+			Remove statement from introductory text on the REC track
+			about the kind of feedback the AC is expected to provide during the CR phase.
 
 	</ul>
 
