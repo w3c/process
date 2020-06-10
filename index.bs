@@ -3542,13 +3542,6 @@ Incorporating Proposed Changes</h5>
 	verifies acceptance by the W3C community of [=proposed changes=]
 	by combining an [=AC Review=] with a patent exclusion opportunity.
 
-	The combination of the existing [=Recommendation=]
-	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
-	is considered a [=Patent Review Draft=] of the proposed changes
-	for the purposes of the Patent Policy [[PATENT-POLICY]].
-	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
-	is an [=Advisory Committee Review=].
-
 	The <a>Last Call for Review of Proposed Changes</a>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=].
 	The announcement <em class="rfc2119">must</em>:
@@ -3569,6 +3562,13 @@ Incorporating Proposed Changes</h5>
 		<li>
 			Solicit review and, if it does not already have it, implementation experience.
 	</ul>
+
+	The combination of the existing [=Recommendation=]
+	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
+	is considered a [=Patent Review Draft=] of the proposed changes
+	for the purposes of the Patent Policy [[PATENT-POLICY]].
+	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
+	is an [=Advisory Committee Review=].
 
 	Note: [=Last Call for Review of Proposed Additions=] and
 	[=Last Call for Review of Proposed Corrections and Additions=]
