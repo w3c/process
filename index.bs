@@ -3603,7 +3603,7 @@ Incorporating Proposed Changes</h5>
 	[=Last Call for Review of Proposed Changes=]
 	can be incorporated into the normative [=Recommendation=] text.
 	(Thus if incorporation of a [=Proposed Change=] is postponed,
-	it may need be included in multiple Last Calls for Review of Proposed Changes.)
+	it may need to be included in multiple Last Calls for Review of Proposed Changes.)
 
 <h4 id="tr-end">
 Retiring Recommendation Track Documents</h4>
