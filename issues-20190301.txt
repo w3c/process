@@ -706,3 +706,15 @@ From:     Pierre-Anthony Lemieux
 Comment:  https://github.com/w3c/w3process/issues/406
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/issues/406#issuecomment-642057764
+----
+Issue 91.
+Summary:  Community Groups and Business Groups should be incorporated into the Process
+From:     Chris Wilson
+Comment:  https://github.com/w3c/w3process/issues/409
+Closed:   Deferred
+----
+Issue 92.
+Summary:  Increasing voter turnout in AC reviews with incentives
+From:     Anssi Kostiainen
+Comment:  https://github.com/w3c/w3process/issues/410
+Closed:   Deferred
