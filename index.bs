@@ -2507,14 +2507,14 @@ Errata Management</h4>
 	alongside the affected [=technical report=] text
 	or at the start or end of the most relevant section(s).
 
-<h4 id=proposed-changes>
-Proposed Changes</h4>
+<h4 id=candidate-changes>
+Candidate Changes</h4>
 
 	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
-	<dfn>proposed correction</dfn> approved by the consensus of the [=Working Group=].
+	<dfn>candidate correction</dfn> approved by the consensus of the [=Working Group=].
 	When annotated inline,
 	errata--
-	including their [=proposed corrections=]--
+	including their [=candidate corrections=]--
 	must be marked as such,
 	are treated as <a href="#correction-classes">class 2 changes</a>,
 	and are published accordingly.
@@ -2522,21 +2522,21 @@ Proposed Changes</h4>
 	Note: Annotating changes in this way allows more mature documents
 	such as [=Recommendations=] and [=Candidate Recommendations=]
 	to be updated quickly with the Working Group's most current thinking,
-	even when the proposed changes have not yet received
+	even when the [=candidate changes=] have not yet received
 	sufficient review or implementation experience
 	to be normatively incorporated into the specification proper.
 
-	A <dfn>proposed addition</dfn> is similar to a [=proposed correction=],
+	A <dfn>candidate addition</dfn> is similar to a [=candidate correction=],
 	except that it proposes a new feature
 	rather than an error correction.
 
-	[=Proposed corrections=] and [=proposed additions=] are collectively known as
-	<dfn lt="proposed change">proposed changes</dfn>.
+	[=Candidate corrections=] and [=candidate additions=] are collectively known as
+	<dfn lt="candidate change">candidate changes</dfn>.
 
 	In addition to their actual [[#maturity-levels|maturity level]],
-	[=published=] [=REC Track=] documents with [=proposed changes=] are also considered,
+	[=published=] [=REC Track=] documents with [=candidate changes=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
-	to be [=Working Drafts=] with those [=proposed changes=] treated as normative.
+	to be [=Working Drafts=] with those [=candidate changes=] treated as normative.
 
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
@@ -3474,7 +3474,7 @@ Revising a Recommendation: Markup Changes</h5>
 <h5 id="revised-rec-editorial">
 Revising a Recommendation: Editorial Changes</h5>
 
-	[=Editorial changes=] to a [=Recommendation=] require no technical review of the proposed changes.
+	[=Editorial changes=] to a [=Recommendation=] require no technical review of the intended changes.
 	A [=Working Group=],
 	provided there are no votes against the resolution to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
@@ -3485,12 +3485,12 @@ Revising a Recommendation: Editorial Changes</h5>
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
 
-	A [=proposed correction=] can be made normative
+	A [=candidate correction=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the proposed change.
+	the technical and editorial soundness of the [=candidate change=].
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Changes=],
 	followed by an [=update request=].
@@ -3512,13 +3512,13 @@ Revising a Recommendation: New Features</h5>
 	New features (see <a href="#correction-classes">class 4 changes</a>)
 	may be incorporated into a [=Recommendation=]
 	explicitly identified as [=allow new features|allowing new features=]
-	using [=proposed additions=].
-	A [=proposed addition=] can be made normative
+	using [=candidate additions=].
+	A [=candidate addition=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the proposed change.
+	the technical and editorial soundness of the [=candidate change=].
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Changes=],
 	followed by an [=update request=].
@@ -3536,10 +3536,10 @@ Revising a Recommendation: New Features</h5>
 	beginning with a new [=First Public Working Draft=].
 
 <h5 id=change-review>
-Incorporating Proposed Changes</h5>
+Incorporating Candidate Changes</h5>
 
 	A <dfn id=last-call-review>Last Call for Review of Proposed Changes</dfn>
-	verifies acceptance by the W3C community of [=proposed changes=]
+	verifies acceptance by the W3C community of [=candidate changes=]
 	by combining an [=AC Review=] with a patent exclusion opportunity.
 
 	The <a>Last Call for Review of Proposed Changes</a>
@@ -3553,7 +3553,9 @@ Incorporating Proposed Changes</h5>
 			or <dfn>Last Call for Review of Proposed Corrections and Additions</dfn>.
 
 		<li>
-			Identify the specific proposed changes under review.
+			Identify the specific [=candidate changes=] under review
+			as <dfn>proposed changes</dfn>
+			(<dfn>proposed corrections</dfn>/<dfn>proposed addition</dfn>).
 
 		<li>
 			Specify the deadline for review comments,
@@ -3565,7 +3567,7 @@ Incorporating Proposed Changes</h5>
 
 	The combination of the existing [=Recommendation=]
 	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
-	is considered a [=Patent Review Draft=] of the proposed changes
+	is considered a [=Patent Review Draft=]
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
 	is an [=Advisory Committee Review=].
@@ -3583,26 +3585,26 @@ Incorporating Proposed Changes</h5>
 
 	At the end of the <a>Last Call for Review of Proposed Changes</a>,
 	the [=W3C Decision=] may either be
-	to reject the [=Proposed Change=],
-	or to clear the [=Proposed Change=] for advancement as is,
+	to reject the [=proposed change=],
+	or to clear the [=proposed change=] for advancement as is,
 	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
 	comments made on the changes under review.
-	If the [=Working Group=] needs to amend a [=Proposed Change=]
+	If the [=Working Group=] needs to amend a [=proposed change=]
 	in response to review feedback
 	it must issue another <a>Last Call for Review of Proposed Change</a> on the revised change
 	before it can be incorporated into the main text.
 
-	Once all comments on a [=Proposed Change=] have been [=formally addressed=],
+	Once all comments on a [=proposed change=] have been [=formally addressed=],
 	and after the [=Working Group=] can show [=adequate implementation experience=]
 	and the fulfillment of all other requirements of Recommendation text,
-	it may incorporate the [=Proposed Change=] into the normative [=Recommendation=]
+	it may incorporate the [=proposed change=] into the normative [=Recommendation=]
 	by issuing an [=update request=] for publication of the updated [=Recommendation=].
 
-	To ensure adequate review of [=Proposed Change=] combinations,
-	only [=Proposed Changes=] included in the most recent
+	To ensure adequate review of [=proposed change=] combinations,
+	only [=proposed changes=] included in the most recent
 	[=Last Call for Review of Proposed Changes=]
 	can be incorporated into the normative [=Recommendation=] text.
-	(Thus if incorporation of a [=Proposed Change=] is postponed,
+	(Thus if incorporation of a [=proposed change=] is postponed,
 	it may need to be included in multiple Last Calls for Review of Proposed Changes.)
 
 <h4 id="tr-end">
@@ -4680,7 +4682,7 @@ Major Update to the Recommendation Track</h4>
 			as opposed to having to wait for the Recommendation as needed today.
 
 		<li>
-			Errata and related proposed changes can be informatively annotated inline in a Recommendation,
+			Errata and related changes can be informatively annotated inline in a Recommendation,
 			and republished without W3C approval.
 			This too allows the Working Group
 			to publish the latest state of their work and to get wide review on the official copy,
@@ -4688,22 +4690,22 @@ Major Update to the Recommendation Track</h4>
 			or separate errata documents.
 
 		<li>
-			Once some of the proposed changes have reached sufficient maturity to be part of the Recommendation,
+			Once some of these [=candidate changes=] have reached sufficient maturity to be part of the Recommendation,
 			and once it has secured the usual approvals (Director review, AC Review),
 			the Working Group can fold them into the Recommendation as normative text,
 			republish the Recommendation directly,
 			without intermediate publication as CR or PR.
 
 		<li>
-			Both the addition of new proposed changes
-			and the normative incorporation of mature proposed changes into the Recommendation
+			Both the addition of new [=candidate changes=]
+			and the normative incorporation of mature [=proposed changes=] into the Recommendation
 			can be done incrementally,
 			allowing complex specifications to be gradually improved
 			without having to fix everything before anything can be republished.
 
 		<li>
-			Similarly to proposed changes which correct errors,
-			proposed additions to a Recommendation can be annotated inline,
+			Similarly to [=candidate corrections=] which correct errors,
+			[=candidate additions=] to a Recommendation can be annotated inline,
 			then made normative when sufficiently mature.
 			This is limited to Recommendations explicitly identifying themselves as allowing new features,
 			so as to avoid breaking expectation of feature-set stability
@@ -4834,12 +4836,16 @@ Final adjustements</h4>
 			Adjust the wording of section [[#GAProcess]] to clarify responsibilities.
 
 		<li>
-			Define the published proposed changes to be treated as Working Drafts
+			Define the published candidate changes to be treated as Working Drafts
 			for the purpose of the Patent Policy.
 
 		<li>
 			Remove statement from introductory text on the REC track
 			about the kind of feedback the AC is expected to provide during the CR phase.
+
+		<li>
+			Rename "proposed changes" to "candidate changes",
+			and use the term "proposed changes" to refer to the subset which is under AC review.
 
 	</ul>
 
