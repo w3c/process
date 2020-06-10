@@ -2533,6 +2533,11 @@ Proposed Changes</h4>
 	[=Proposed corrections=] and [=proposed additions=] are collectively known as
 	<dfn lt="proposed change">proposed changes</dfn>.
 
+	In addition to their actual [[#maturity-levels|maturity level]],
+	[=published=] [=REC Track=] documents with [=proposed changes=] are also considered,
+	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
+	to be [=Working Drafts=] with those [=proposed changes=] treated as normative.
+
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
 
@@ -4827,6 +4832,10 @@ Final adjustements</h4>
 
 		<li>
 			Adjust the wording of section [[#GAProcess]] to clarify responsibilities.
+
+		<li>
+			Define the published proposed changes to be treated as Working Drafts
+			for the purpose of the Patent Policy.
 
 	</ul>
 

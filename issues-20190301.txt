@@ -690,7 +690,9 @@ Issue 88.
 Summary:  Patent Policy application to Proposed Changes
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/403
-Open
+Comment:  https://www.w3.org/mid/B9DBE3C4-53AB-4801-9695-853257EA3410@rivoal.net
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/403#issuecomment-642036601
 ----
 Issue 89.
 Summary:  Streamlining horizontal reviews
