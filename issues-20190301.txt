@@ -718,3 +718,12 @@ Summary:  Increasing voter turnout in AC reviews with incentives
 From:     Anssi Kostiainen
 Comment:  https://github.com/w3c/w3process/issues/410
 Closed:   Deferred
+----
+Issue 93.
+Summary:  Remove the term "blacklisted" from W3C communications
+From:     guest271314
+Comment:  https://github.com/w3c/w3process/issues/415
+Comment:  https://github.com/w3c/w3process/issues/415#issuecomment-644448791
+Comment:  https://github.com/w3c/w3process/issues/415#issuecomment-644461987
+Comment:  https://github.com/w3c/w3process/issues/415#issuecomment-644521759
+Closed:   OutOfScope
