@@ -51,8 +51,13 @@ Summary:  Does the process assume all WDs are on the Rec. Track?
 From:     Nigel Megitt
 Comment:  https://github.com/w3c/w3process/issues/236
 Response: https://github.com/w3c/w3process/issues/236#issuecomment-494898411
-Closed:   Rejected
-Resolved: https://github.com/w3c/w3process/issues/236#issuecomment-514654606
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-514654606
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-642704181
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-643057849
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-643217094
+Response: https://github.com/w3c/w3process/issues/236#issuecomment-643579948
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/236#issuecomment-643969336
 ----
 Issue 6.
 Summary:  Clarification on vacant seats and elections
