@@ -4639,7 +4639,7 @@ Changes</h2>
 	<em>This section is non-normative.</em>
 
 <h3 id=changes-2019 class=no-num>
-Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>:</h3>
+Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a></h3>
 
 
 	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
@@ -4845,169 +4845,12 @@ Final adjustements</h4>
 
 	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
 
-<h3 id=changes-2018 class=no-num>
-Changes since the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</h3>
+<h3 id=changes-previous class=no-num>
+Changes since earlier versions</h3>
 
-
-	<p>This document is based on the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>.
-	A <a href="https://github.com/w3c/w3process/compare/process-20180201...process-2019">Detailed log of all changes since then</a> is available.
-	The following is a summary:
-
-	<ul>
-		<li>
-			Mention the existence of Community Groups and Business Groups
-			in <a href="#Intro"></a>.
-
-		<li>
-			Change the size of the Advisory Board from a fixed 9 to a range of 9 to 11 elected members
-			in <a href="#ABParticipation"></a>,
-			and adjust the election mechanics accordingly
-			in <a href="#AB-TAG-elections"></a>
-			and <a href="#AB-TAG-vacated"></a>.
-
-		<li>
-			Clarify that AB and TAG members act in their personal capacity
-			in <a href="#AB-TAG-participation"></a>.
-
-		<li>
-			Improve phrasing in <a href="#AB-TAG-constraints"></a>
-			to avoid suggesting that while member organizations were limited to one seat,
-			non member organizations could have several.
-
-		<li>
-			Clarify what constitutes “affiliation”
-			for the purposes of the “change of affiliation” provisions for TAG and AB members
-			in <a href="#AB-TAG-elections"></a>.
-
-		<li>
-			In case of resignation from a group,
-			require that the team records the resignation notification,
-			in <a href="#resignation"></a>.
-
-		<li>
-			Allow one person to represent (with disclosure) multiple organizations in a Working Group
-			in <a href="#group-participation"></a>.
-
-		<li>
-			Various phrasing clarifications
-			to <a href="#maturity-levels"></a>,
-			and <a href="#transition-reqs"></a>,
-			and <a href="#first-wd"></a>.
-
-		<li>
-			Added new <a href="#contributor-license"></a>
-			to define the requirements for contributions made by non-WG members.
-
-		<li>
-			Clarify in <a href="#rec-rescind"></a>
-			that a Recommendation can be both superseded and obsolete.
-
-		<li>
-			Add an informative diagram about the process of obsoleting, rescinding, or restoring a Recommendation
-			in <a href="#rec-rescind"></a>.
-
-		<li>
-			Clarify in <a href="#rec-rescind"></a>
-			that the process to obsolete, rescind, or restore a Recommendation does not have to be initiated by the Director.
-
-		<li>
-			Rephrase part of <a href="#Submission"></a>
-			to avoid statement about Member Submissions that appeared to negate the possibility
-			of having work originate in Community Groups.
-
-		<li>
-			Remove meaningless claim from <a href="#GAProcess"></a>
-			that an alternative way to update the Process was to follow the REC track process.
-	</ul>
-
-<h3 id=changes-2017 class=no-num>
-Changes between the <a href="https://www.w3.org/2017/Process-20170301/">1 March 2017 Process</a>
-and the <a href="https://www.w3.org/2018/Process-20180201/">1 February 2018 Process</a>:</h3>
-
-	A log of
-	<a href="https://github.com/w3c/w3process/compare/7836a7a539e97fe430a930daa00e7f2151abb2ac...process-20180201">all changes from March 2017 to the 1 February 2018 Process</a>
-	is available,
-	as is an earlier <a href="https://dvcs.w3.org/hg/AB/">log of changes in previous versions, from 2005-2014</a>.
-	The following is a summary:
-
-
-	<dl>
-		<dt>
-			<a href="#ABParticipation"></a>
-		<dd>
-			The AB has a team contact
-
-		<dt>
-			<a href="#tag-participation"></a>
-		<dd>
-			Tim Berners-Lee is a Life Member of the TAG.
-		<dd>
-			The TAG chair <em class="rfc2119">must</em> be one of the participants
-		<dd>
-			The TAG has 6 AC-elected members instead of 5
-		<dd>
-			The TAG has a team contact
-
-		<dt>
-			<a href="#AB-TAG-participation"></a>
-		<dd>
-			Seats on the AB or TAG cannot be delegated to a proxy
-
-		<dt>
-			<a href="#AB-TAG-vacated"></a>
-		<dd>
-			AB and TAG seats are vacated if the Director removes a participant,
-			instead of if the chair asks them to resign
-		<dd>
-			Clarify that a special election can begin if a candidate resigns as of some future date,
-			rather than waiting for that resignation to take effect.
-
-		<dt>
-			<a href="#ParticipationCriteria"></a>
-		<dd>
-			Participants in W3C activity are explicitly required to abide by the terms and spirit
-			of the <a href="https://www.w3.org/Consortium/cepc/" title="Code of Ethics and Professional Conduct">CEPC</a>
-		<dd>
-			The Director can suspend or remove a participant from any Group or activity
-			for failure to meet participation criteria.
-
-		<dt>
-			<a href="#CharterReview"></a>
-		<dd>
-			An AC member may request at least 60 days
-			to review any new or substantively modified working group charter,
-			with such review period occurring between the Call for Review
-			and the Call for Participation.
-
-
-		<dt>
-			<a href="#WGCharter"></a>
-		<dd>
-			Charters <em class="rfc2119">must</em> include documentation of any voting procedures
-			additional to those defined in <a href="#Votes"></a>.
-
-		<dt>
-			<a href="#revising-rec"></a>
-		<dd>
-			W3C can produce an <a href="#rec-amended">Amended Recommendation</a> to update a Recommendation,
-			without adding new features,
-			similar to the way a Working Group produces an Edited Recommendation.
-
-		<dt>
-			<a href="#rec-rescind"></a>
-		<dd>
-			A Recommendation can be declared Superseded.
-
-		<dt>
-			<a href="#ACAppeal"></a>
-		<dd>
-			Clarify that in the event of an Advisory Committee appeal, a Director's decision can be overturned by more votes for than against
-
-		<dt>
-			<a href="#Liaisons"></a>
-		<dd>
-			Definition of MoU and conditions for approval.
-	</dl>
+	Changes since earlier version of the Process are detailed
+	in the <a href="https://www.w3.org/2019/Process-20190301/#changes">changes section of the previous version</a>
+	of the Process.
 
 <pre class=biblio>
 {
