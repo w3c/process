@@ -3137,7 +3137,7 @@ Revising a Working Draft</h4>
 		<li><a href="#Note">Working Group Note</a>
 	</ul>
 
-<h4 id="transition-cr" oldids="candidate-rec last-call">
+<h4 id="transition-cr" oldids="candidate-rec, last-call">
 Transitioning to Candidate Recommendation</h4>
 
 	To publish a [=Candidate Recommendation=],
@@ -3456,7 +3456,7 @@ Transitioning to W3C Recommendation</h4>
 			<a href="#rec-rescind">rescinded</a>.
 	</ul>
 
-<h4 id=revising-rec oldids="rec-modify revised-rec">
+<h4 id=revising-rec oldids="rec-modify, revised-rec">
 Revising a W3C Recommendation</h4>
 
 	This section details the process for making changes to a [=Recommendation=].
@@ -3538,7 +3538,7 @@ Revising a Recommendation: New Features</h5>
 <h5 id=change-review>
 Incorporating Proposed Changes</h5>
 
-	A <dfn id=last-call>Last Call for Review of Proposed Changes</dfn>
+	A <dfn id=last-call-review>Last Call for Review of Proposed Changes</dfn>
 	verifies acceptance by the W3C community of [=proposed changes=]
 	by combining an [=AC Review=] with a patent exclusion opportunity.
 
