@@ -738,7 +738,8 @@ Summary:  Trim the Changes section
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/412
 Response: https://github.com/w3c/w3process/pull/416
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/issues/412#issuecomment-648842528
 ----
 Issue 95.
 Summary:  Find name for Proposed Changes under patent review
