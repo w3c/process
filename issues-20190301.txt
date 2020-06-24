@@ -746,4 +746,5 @@ Summary:  Find name for Proposed Changes under patent review
 From:     Elika Etemad
 Comment:  https://github.com/w3c/w3process/issues/408
 Response: https://github.com/w3c/w3process/pull/413
-Open
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/413#issuecomment-648843546
