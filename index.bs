@@ -37,6 +37,7 @@ Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
+Repository: w3c/w3process
 Local Boilerplate: header yes, footer yes, status yes, logo yes, copyright yes
 Shortname: w3process
 Abstract:
@@ -4645,10 +4646,10 @@ Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 20
 	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
 	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...master">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/process-2019...2020-candidate">detailed log of all changes since then</a>
 	are available.
 
-	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing it to the 2019 edition of the Process</a> is available.
+	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-06-25">diff comparing it to the 2019 edition of the Process</a> is available.
 	Note that due to overlapping changes,
 	this diff may be somewhat difficult to review.
 	In order to make review easier,
@@ -4847,7 +4848,7 @@ Final adjustements</h4>
 
 	</ul>
 
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-06-25">diff comparing the state before/after these changes</a> is available.
 
 <h3 id=changes-previous class=no-num>
 Changes since earlier versions</h3>
