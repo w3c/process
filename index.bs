@@ -52,16 +52,14 @@ Status Text:
 	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
 	which is the currently operative W3C Process.
 </pre>
-<!--
 <pre class=biblio>
 {
 	"PATENT-POLICY": {
-		"href": "https://patent-policy.rivoal.net",
-		"title": "W3C IPR Policy (experimental version)"
+		"href": "https://www.w3.org/Consortium/Patent-Policy/@@@TBD@@@",
+		"title": "The W3C 2020 Patent Policy"
 	}
 }
 </pre>
--->
 
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
@@ -2594,9 +2592,9 @@ The W3C Recommendation Track</h3>
 
 	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
 	Under the 2004 (updated in 2017) Patent Policy,
-	these correspond to “Last Call Working Draft” in the Patent Policy [[PATENT-POLICY-2017]];
+	these correspond to “Last Call Working Draft” in the Patent Policy [[!PATENT-POLICY-2017]];
 	Under the 2020 Patent Policy,
-	these correspond to “Patent Review Draft” in the Patent Policy PATENT-POLICY-2020.
+	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY]].
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
