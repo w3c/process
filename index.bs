@@ -2367,7 +2367,7 @@ Wide Review</h5>
 
 	The objective of <dfn id=dfn-wide-review export>wide review</dfn> is to seek
 	feedback on a specification from the entire web community, including the general
-	public. The goal is to make the specification as robust as possible before it becomes a [=W3C Recommendation=]. 
+	public. The goal is the early identification and resolution of issues in order to make the specification as robust as possible before it becomes a [=W3C Recommendation=]. 
 
 	Wide review <em class="rfc2119">should</em> be sought continuously as a
 	specification matures, to allow different parts of the web community to iterate
@@ -2398,8 +2398,7 @@ Wide Review</h5>
 <h5 id="horizontal-review">
 Horizontal Review</h5>
 
-	The objective of <dfn id=dfn-horizontal-review export>horizontal review</dfn> is
-	to make sure specifications are robust in terms of accessibility, internationalisation,
+	The objective of <dfn id=dfn-horizontal-review export>horizontal review</dfn> is the early identification and resolution of issues in order to make sure specifications are robust in terms of accessibility, internationalisation,
 	privacy, security, and technical architecture by the time they become a [=W3C Recommendation=]. 
 
 	Horizontal review <em class="rfc2119">should</em> be sought continuously as a
