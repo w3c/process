@@ -2424,8 +2424,9 @@ Horizontal Review</h5>
 	When the [=First Public Working Draft=] of a specification has been published, the Team <em class="rfc2119">must</em> ensure that a notification is sent to
 	<a href="https://lists.w3.org/Archives/Public/horizontal-review-announce/">horizontal-review-announce@w3.org</a>. 
 
-	Horizontal review <em class="rfc2119">must</em> be solicited from the Horizontal
-	Review groups at least 60 days before requesting transition to [=Candidate Recommendation=]. 
+	Transition to [=Candidate Recommendation=] <em class="rfc2119">must</em> not be requested unless either the Horizontal Review groups have been given at least 60 days notice to review the specification or the Horizontal Review Groups have completed their reviews.
+    
+    before requesting transition to . 
 
 	Horizontal Review of all new and significantly revised sections of a specification
 	<em class="rfc2119">should</em> also be sought from the Horizontal Review groups. 
