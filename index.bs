@@ -2367,8 +2367,7 @@ Wide Review</h5>
 
 	The objective of <dfn id=dfn-wide-review export>wide review</dfn> is to seek
 	feedback on a specification from the entire web community, including the general
-	public. The goal is to make the specification as robust as possible before it
-	becomes a [=W3C Recommendation=]. 
+	public. The goal is to make the specification as robust as possible before it becomes a [=W3C Recommendation=]. 
 
 	Wide review <em class="rfc2119">should</em> be sought continuously as a
 	specification matures, to allow different parts of the web community to iterate
@@ -2389,7 +2388,7 @@ Wide Review</h5>
 	</ul>
 
 	The Director <em class="rfc2119">must</em> consider evidence of wide review before
-	approving transitions. Appropriate evidence may include: 
+	approving transitions. Appropriate evidence <em class="rfc2119">should</em> include: 
 
 	<ul>
 		<li>Documented requests for wide review</li>
@@ -2426,9 +2425,8 @@ Horizontal Review</h5>
 
 	Transition to [=Candidate Recommendation=] <em class="rfc2119">must</em> not be requested unless either the Horizontal Review groups have been given at least 60 days notice to review the specification or the Horizontal Review Groups have completed their reviews.
     
-	Horizontal Review of all new and significantly revised sections of a specification
-	<em class="rfc2119">should</em> also be sought from the Horizontal Review groups. 
-
+	Horizontal Review Groups <em class="rfc2119">should</em> be notified of all new and significantly revised sections of a specification that has already been reviewed. Note: failure to do so may result in the transition to [=Candidate Recommendation=] being delayed.
+    
 	When a Working Group requests horizontal review: 
 
 	<ul>
