@@ -2426,8 +2426,6 @@ Horizontal Review</h5>
 
 	Transition to [=Candidate Recommendation=] <em class="rfc2119">must</em> not be requested unless either the Horizontal Review groups have been given at least 60 days notice to review the specification or the Horizontal Review Groups have completed their reviews.
     
-    before requesting transition to . 
-
 	Horizontal Review of all new and significantly revised sections of a specification
 	<em class="rfc2119">should</em> also be sought from the Horizontal Review groups. 
 
@@ -2450,14 +2448,19 @@ Horizontal Review</h5>
 	</ul>
 
 	The Director <em class="rfc2119">must</em> consider evidence of horizontal
-	review before approving transitions. Appropriate evidence MAY include: 
+	review before approving transitions. Appropriate evidence <em class="rfc2119">should</em> include: 
 
 	<ul>
-		<li>Documented requests for horizontal review</li>
-		<li>Documented response from each horizontal review group</li>
-		<li>Documented resolution of issues raised during horizontal review</li>
-	</ul>
-
+		<li>Documentation that the Horizontal Review Group did not consider a review to be necessary; or</li>
+        <li>In the event that "no review" is cited, documentation that at least 60 days has elapsed since the review request was made to the Horizontal Review Group; or</li>
+        <li>Documentation that the Horizontal Review Group raised no issues; or</li>
+        <li>Documentation of both:
+        <ol>
+        <li>The list of issues raised by the Horizontal Review Group that were resolved</li>
+        <li>The list of issues raised by the Horizontal Review Group that remain unresolved, including evidence that a determined effort was made to find a resolution in each case</li>
+        </ol></li>
+        </ol>
+        
 <h4 id="correction-classes">
 Classes of Changes</h4>
 
