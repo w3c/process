@@ -2406,7 +2406,7 @@ Horizontal Review</h5>
 	specification matures, so that accessibility, internationalisation, privacy,
 	security, and technical architecture are considered throughout. 
 
-	Before a proposed specification transitions onto the Recommendation Track, the
+	As a specification is being prepared for, and moved along, the Recommendation Track, the
 	group responsible for the specification <em class="rfc2119">must</em> solicit a
 	horizontal review from each of the horizontal review groups (in many cases,
 	submitting a self-review to the reviewing group will satisfy this requirement).
