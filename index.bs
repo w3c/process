@@ -2374,8 +2374,7 @@ Wide Review</h5>
 	specification matures, to allow different parts of the web community to iterate
 	on requirements, problems, and solutions. 
 
-	When a [=First Public Working Draft=] of a specification is published, a notification
-	<em class="rfc2119">must</em> be sent to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>. 
+	When the [=First Public Working Draft=] of a specification has been published, the Team <em class="rfc2119">must</em> ensure that a notification is sent to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>. 
 
 	As a specification progresses along the Recommendation Track, Working Groups
 	<em class="rfc2119">should</em> solicit review from some or all of the following
@@ -2422,8 +2421,7 @@ Horizontal Review</h5>
 		<li><a href="https://www.w3.org/2001/tag/">Technical Architecture Group</a></li>
 	</ul>
 
-	When the [=First Public Working Draft=] of a specification is published, a notification
-	<em class="rfc2119">must</em> be sent to
+	When the [=First Public Working Draft=] of a specification has been published, the Team <em class="rfc2119">must</em> ensure that a notification is sent to
 	<a href="https://lists.w3.org/Archives/Public/horizontal-review-announce/">horizontal-review-announce@w3.org</a>. 
 
 	Horizontal review <em class="rfc2119">must</em> be solicited from the Horizontal
