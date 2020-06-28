@@ -2383,7 +2383,7 @@ Wide Review</h5>
 	<ul>
 		<li>The Working Group responsible for the specification</li>
 		<li>The horizontal review groups (see 6.2.3.2)</li>
-		<li>The Working Groups and organisations documented in the Working Group's charter</li>
+		<li>The Groups and external organisations documented in the Working Group's charter or with which the Working Group has relevant liaisons</li>
 		<li>The general public</li>
 		<li>Other relevant standards organizations</li>
 	</ul>
