@@ -11,7 +11,7 @@
 						<text font-size="8">
 							<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
 							<tspan x="0" y="152">WG decision</tspan>
-							<tspan x="0" y="162">Director's approval</tspan>
+							<tspan x="0" y="162">Team's approval</tspan>
 						</text>
 						<path d="M0,140h53" fill="none" stroke="#000"></path>
 						<polygon points="47,136 57,140 47,144"></polygon>
@@ -46,7 +46,7 @@
 								<g role="img">
 									<title>Advance to Candidate Recommendation</title>
 								</g>
-								<text x="138" y="134" font-size="8">Director's approval</text>
+								<text x="138" y="134" font-size="8">Team's approval</text>
 								<path stroke="#060" d="M135,140h81"></path>
 								<polygon points="211,136 221,140 211,144"></polygon>
 							</a>
@@ -102,7 +102,7 @@
 								</g>
 								<text font-size="8">
 									<tspan x="288" y="104">WG Decision +</tspan>
-									<tspan x="288" y="112">Director’s approval</tspan>
+									<tspan x="288" y="112">Team’s approval</tspan>
 								</text>
 								<path stroke="#000" d="M286,127v-34"></path>
 								<polygon points="286,128 282,118 290,118"></polygon>
@@ -116,7 +116,7 @@
 								</g>
 								<text font-size="8">
 									<tspan x="182" y="112">WG Decision</tspan>
-									<tspan x="288" y="112">Director’s approval</tspan>
+									<tspan x="288" y="112">Team’s approval</tspan>
 								</text>
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
 								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
@@ -129,7 +129,7 @@
 							<g role="img">
 							<title>Advance to Proposed Recommendation</title>
 							</g>
-							<text x="300" y="134" font-size="8">Director's approval</text>
+							<text x="300" y="134" font-size="8">Team's approval</text>
 							<path d="M298,140h77" stroke="#060"></path>
 							<polygon points="374,136 384,140 374,144"></polygon>
 						</a>
@@ -141,7 +141,7 @@
 								<title>Return to Working Draft</title>
 								</g>
 								<text font-size="8">
-									<tspan x="142" y="160">WG or Director decision</tspan>
+									<tspan x="142" y="160">WG or Team decision</tspan>
 									<tspan x="144" y="170">e.g. for further review</tspan>
 								</text>
 								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
@@ -167,7 +167,7 @@
 								</g>
 								<text x="300" y="138" font-size="8">
 									<tspan x="445" y="124">Advisory Committee Review</tspan>
-									<tspan x="445" y="134">Director's Decision</tspan>
+									<tspan x="445" y="134">Team's Decision</tspan>
 								</text>
 								<path d="M441,140h100" stroke="#060"></path>
 								<polygon points="534,136 544,140 534,144"></polygon>
@@ -181,7 +181,7 @@
 								</g>
 								<text font-size="8">
 									<tspan x="306" y="160">AC Review, </tspan>
-									<tspan x="302" y="170">Director Decision</tspan>
+									<tspan x="302" y="170">Team Decision</tspan>
 									<tspan x="304" y="180">e.g. for editorial changes</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
@@ -195,7 +195,7 @@
 									<title>Return to Working Draft</title>
 								</g>
 								<text font-size="9">
-									<tspan x="90" y="202">Advisory Committee review and Director's Decision, e.g. for further work and review</tspan>
+									<tspan x="90" y="202">Advisory Committee review and Team's Decision, e.g. for further work and review</tspan>
 								</text>
 								<path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
