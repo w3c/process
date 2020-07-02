@@ -507,7 +507,7 @@ The W3C Team</h3>
 
 	The <dfn export lt="Team | W3C Team">Team</dfn> consists of
 	the Director,
-	CEO,
+	<dfn>CEO</dfn>,
 	W3C paid staff,
 	unpaid interns,
 	and W3C Fellows.
