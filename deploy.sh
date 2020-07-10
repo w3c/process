@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-SOURCE_BRANCH="master"
+SOURCE_BRANCH="main"
 TARGET_BRANCH="gh-pages"
 
 # List of long-lived topic branch names to be published on github.io as a subdirectory

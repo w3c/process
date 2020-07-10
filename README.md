@@ -45,8 +45,8 @@ as well as diffs between these various stages.
 ----
 ## Branches under development
 
-[master](https://github.com/w3c/w3process/tree/master) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=master)](https://travis-ci.com/w3c/w3process) /
+[main](https://github.com/w3c/w3process/tree/main) branch:
+[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=main)](https://travis-ci.com/w3c/w3process) /
 [Preview](https://w3c.github.io/w3process/)
 
 [maintenance-2020](https://github.com/w3c/w3process/tree/maintenance-2020) branch:
@@ -84,23 +84,23 @@ Once Bikeshed is installed, just type `bikeshed` to compile the document.
 To set up long-lived topic branches which get built server side and published to github.io,
 follow these steps:
 
-1. **On the master branch** edit deploy.sh to add the name of your topic branch to the `TOPIC_BRANCHES` array. Example:
+1. **On the main branch** edit deploy.sh to add the name of your topic branch to the `TOPIC_BRANCHES` array. Example:
 
     ```bash
     TOPIC_BRANCHES=("topic1" "topic2" "topic3")
     ```
 
 2. (Optional Step) Edit the README.md file to add a "Build Status" line for your topic branch.
-   See the existing "Build Status" for the master branch as a model.
+   See the existing "Build Status" for the main branch as a model.
 3. Commit the change(s) above, and push to github.com/w3c/w3process (not your personal fork). Example:
 
     ```bash
     git add deploy.sh README.md
     git commit -m "Register topic branch for topic3"
-    git push upstream master
+    git push upstream main
     ```
 
-4. Create a new branch from the master branch (after the previous commit), using the same name as the one you used in the `TOPIC_BRANCHES` array, and push it to github.com/w3process (not your personal fork). Example:
+4. Create a new branch from the main branch (after the previous commit), using the same name as the one you used in the `TOPIC_BRANCHES` array, and push it to github.com/w3process (not your personal fork). Example:
 
     ```bash
     git checkout -b topic3
