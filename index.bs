@@ -553,8 +553,7 @@ The W3C Team</h3>
 <h3 id="AB">
 Advisory Board (AB)</h3>
 
-	Created in March 1998,
-	the <dfn export lt="Advisory Board|AB">Advisory Board</dfn> provides ongoing guidance to the Team
+	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn> provides ongoing guidance to the Team
 	on issues of strategy,
 	management,
 	legal matters,
@@ -611,8 +610,7 @@ Advisory Board Participation</h4>
 <h3 id="TAG">
 Technical Architecture Group (TAG)</h3>
 
-	Created in February 2001,
-	the mission of the <dfn export lt="Technical Architecture Group|TAG">TAG</dfn> is stewardship of the Web architecture.
+	The mission of the <dfn export lt="Technical Architecture Group|TAG">TAG</dfn> is stewardship of the Web architecture.
 	There are three aspects to this mission:
 
 	<ol>
