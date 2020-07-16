@@ -66,6 +66,14 @@ as well as diffs between these various stages.
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries)
 
 ----
+## Useful searches
+
+[PRs triaged into P2021](https://github.com/w3c/w3process/issues?q=is%3Aopen+-label%3A%22P2021%3A+Priority%22+milestone%3A%22Process+2021%22+) which are not priorities.
+
+
+
+
+----
 ## Bikeshed
 
 This document is maintained using [Bikeshed](https://tabatkins.github.io/bikeshed/).
