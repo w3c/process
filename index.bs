@@ -3511,15 +3511,9 @@ Revising a Recommendation: New Features</h5>
 	explicitly identified as [=allow new features|allowing new features=]
 	using [=candidate additions=].
 	A [=candidate addition=] can be made normative
-	and be folded into the main text of the [=Recommendation=],
-	once it has satisfied all the same criteria
-	as the rest of the [=Recommendation=],
-	including review by the community to ensure
-	the technical and editorial soundness of the [=candidate change=].
-	To validate this, the [=Working Group=] must request
-	a [=Last Call for Review of Proposed Changes=],
-	followed by an [=update request=].
-	See [[#change-review]].
+	and be folded into the main text of the [=Recommendation=]
+	using the same process as for [=candidate changes=],
+	as detailed in [[#revised-rec-substantive]].
 
 	Note: This prohibition against new features unless explicitly allowed
 	enables third parties to depend on Recommendations having a stable feature-set,
