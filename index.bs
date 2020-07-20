@@ -2580,7 +2580,6 @@ The W3C Recommendation Track</h3>
 		<li>Publication of one or more [=Candidate Recommendations=].
 		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
-		<li>Possibly, publication as an [=Amended Recommendation=].
 	</ol>
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
@@ -2757,17 +2756,6 @@ Maturity Levels on the Recommendation Track</h4>
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
 			<dl>
-				<dt>
-					An <dfn id="rec-amended" export>Amended Recommendation</dfn>
-				<dd>
-					An Amended Recommendation is a [=Recommendation=] that is amended to include
-					<a href="#correction-classes">substantive changes that do not add new features</a>,
-					and is produced by W3C
-					at a time when the [=Recommendation=] does not fit within the charter of any active Working Group.
-					Since the [=W3C team=] rather than a [=Working Group=] moves it through the Process,
-					there are implications regarding the scope of Royalty-Free IPR licenses
-					granted under the W3C Patent Policy [[PATENT-POLICY]].
-
 				<dt>
 					A <dfn export id="RecsSup">Superseded Recommendation</dfn>
 				<dd>
@@ -3139,10 +3127,7 @@ Transitioning to Candidate Recommendation</h4>
 
 	To publish a [=Candidate Recommendation=],
 	in addition to meeting the <a href="#transition-reqs">requirements for advancement</a>
-	a [=Working Group=],
-	or in the case of a candidate [=Amended Recommendation=]
-	(a document intended to become an [=Amended Recommendation=]),
-	W3C:
+	a [=Working Group=]:
 
 	<ul>
 		<li>
@@ -3313,8 +3298,7 @@ Transitioning to Proposed Recommendation</h4>
 			in the W3C Patent Policy [[!PATENT-POLICY]].
 	</ul>
 
-	A Working Group,
-	or for a proposed [=Amended Recommendation=], W3C:
+	A Working Group:
 
 	<ul>
 		<li>
@@ -3388,7 +3372,6 @@ Transitioning to Proposed Recommendation</h4>
 
 		<li>
 			<a href="#transition-rec">Recommendation status</a>,
-			including [=Amended Recommendation=]
 			(the expected next step).
 
 		<li>
@@ -3440,11 +3423,11 @@ Transitioning to W3C Recommendation</h4>
 
 	<ul>
 		<li>
-			republished as a <a href="#revising-rec">revised Recommendation or Amended Recommendation</a>, or
+			republished as a <a href="#revising-rec">revised Recommendation</a>, or
 
 		<li>
 			republished as a <a href="#transition-cr">Candidate Recommendation</a>
-			to be developed towards a revised [=Recommendation=] or [=Amended Recommendation=], or
+			to be developed towards a revised [=Recommendation=], or
 
 		<li>
 			declared <a href="#rec-rescind">superseded or obsolete</a>, or
@@ -3496,11 +3479,7 @@ Revising a Recommendation: Substantive Changes</h5>
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
 	and <a href="#transition-cr">publish as a Candidate Recommendation</a>,
-	or if no [=Working Group=] is chartered to maintain a [=Recommendation=]
-	W3C <em class="rfc2119">may</em> publish a <a href="#transition-cr">candidate Amended Recommendation</a>,
 	and advance the specification from that state.
-	If the publication was requested by the [=W3C team=] in the absence of a [=Working Group=],
-	the resulting [=Recommendation=] will be called an [=Amended Recommendation=].
 	(See <a href="#correction-classes">class 3 changes</a>.)
 
 <h5 id="revised-rec-features">
