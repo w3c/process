@@ -482,7 +482,7 @@ Advisory Committee Meetings</h5>
 					in particular those started or terminated since the previous Advisory Committee meeting.
 
 				<li>
-					The allocation of resources to pursuing <a href="#Liaisons">liaisons</a> with other organizations.
+					The allocation of resources to pursuing [=liaisons=] with other organizations.
 			</ul>
 		</dd>
 	</dl>
@@ -549,6 +549,18 @@ The W3C Team</h3>
 	and the Massachusetts Institute of Technology (<abbr>MIT</abbr>).
 	Within W3C, the Host institutions are governed by hosting agreements;
 	the [=Hosts=] themselves are not W3C Members.
+
+	All <dfn export>liaisons</dfn> with external organizations
+	<em class="rfc2119">must</em> be coordinated by the [=Team=]
+	due to requirements for public communication;
+	patent,
+	copyright,
+	and other IPR policies;
+	confidentiality agreements;
+	and mutual membership agreements.
+	Refer to <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
+	for information about existing liaisons
+	and the guidelines W3C follows when creating a liaison.
 
 <h3 id="AB">
 Advisory Board (AB)</h3>
@@ -1820,7 +1832,7 @@ Invited Expert in a Working Group</h5>
 	The [=Chair=] <em class="rfc2119">may</em> invite an individual with a particular expertise
 	to participate in a Working Group.
 	This individual <em class="rfc2119">may</em> represent an organization in the group
-	(e.g., if acting as a liaison with another organization).
+	(e.g., if acting as a [=liaison=] with another organization).
 
 	An individual is an <dfn export>Invited Expert in a Working Group</dfn> if all of the following conditions are satisfied:
 
@@ -2379,7 +2391,7 @@ Wide Review</h5>
 	the record of requests to and responses from reviewers,
 	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
 	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
+	or identified as [=liaisons=],
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
@@ -4078,30 +4090,12 @@ Workshops and Symposia</h2>
 	This helps ensure that speakers and authors
 	have adequate time to prepare position papers and talks.
 
-<h2 id="Liaisons">
-Liaisons</h2>
-
-	W3C uses the term <dfn export>liaison</dfn>
-	to refer to coordination of activities with a variety of organizations,
-	through a number of mechanisms
-	ranging from very informal
-	(e.g., an individual from another organization participates in a W3C Working Group,
-	or just follows its work)
-	to mutual membership,
-	to even more formal agreements.
-	Liaisons are not meant to substitute for W3C membership.
-
-	All liaisons <em class="rfc2119">must</em> be coordinated by the [=Team=]
-	due to requirements for public communication;
-	patent,
-	copyright,
-	and other IPR policies;
-	confidentiality agreements;
-	and mutual membership agreements.
+<h2 id=mou oldids="Liaisons">
+Memorandum of Understanding</h2>
 
 	The [=W3C Director=] <em class="rfc2119">may</em> negotiate
 	a Memorandum of Understanding with another organization.
-	For the purposes of the W3C Process a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
+	For the purposes of the W3C Process a <dfn export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
 	is a formal agreement or similar contractual framework between W3C and another party or parties,
 	other than agreements between the [=Hosts=]
 	or between [=Hosts=] and W3C members
@@ -4125,9 +4119,6 @@ Liaisons</h2>
 	Unless an [=appeal=] rejects the proposal to sign an MoU,
 	the [=Director=] may sign the [=MoU=] on behalf of W3C.
 	A signed [=Memorandum of Understanding=] <em class="rfc2119">should</em> be made public.
-
-	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
-	and the guidelines W3C follows when creating a liaison is available on the Web.
 
 <h2 id="Submission">
 Member Submission Process</h2>
