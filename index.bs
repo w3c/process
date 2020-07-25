@@ -3568,7 +3568,7 @@ Incorporating Candidate Changes</h5>
 	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
 	is considered a [=Patent Review Draft=]
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
-	Also, the review initiated by the [=Last Call for Review of Proposed Additions=]
+	Also, the review initiated by the [=Last Call for Review of Proposed Changes=]
 	is an [=Advisory Committee Review=].
 
 	Note: [=Last Call for Review of Proposed Additions=] and
