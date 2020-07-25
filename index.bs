@@ -842,7 +842,7 @@ Advisory Board and Technical Architecture Group Elections</h4>
 			Greater than or equal to the minimum number of available seats
 			and less than or equal to the maximum number of available seats,
 			those nominees are thereby elected.
-			This situation constitutes a tie for the purpose of assigning <a href="#short-term">short terms</a>.
+			This situation constitutes a tie for the purpose of assigning <a href="#short-term">incomplete terms</a>.
 			Furthermore, if the number is less than the maximum number of available seats,
 			the longest terms are filled first.
 
@@ -870,12 +870,12 @@ Advisory Board and Technical Architecture Group Elections</h4>
 	In case of a tie the <a href="#random">verifiable random selection procedure</a> described below
 	will be used to fill the available seats.
 
-	<p id="short-term">The shortest term is assigned to the elected candidate ranked lowest by the tabulation of votes,
+	<p id="short-term">The shortest incomplete term is assigned to the elected candidate ranked lowest by the tabulation of votes,
 	the next shortest term to the next-lowest ranked elected candidate,
 	and so on.
-	In the case of a tie among those eligible for a short term,
+	In the case of a tie among those eligible for a incomplete term,
 	the <a href="#random">verifiable random selection procedure</a> described below
-	will be used to assign the short term.
+	will be used to assign the incomplete term.
 
 	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
@@ -886,7 +886,7 @@ Verifiable Random Selection Procedure</h5>
 	When it is necessary to use a verifiable random selection process
 	(e.g., in an [=AB=] or [=TAG=] election,
 	to “draw straws” in case of a tie
-	or to fill a short term),
+	or to fill a incomplete term),
 	W3C uses the random and verifiable procedure defined in <a href="https://www.ietf.org/rfc/rfc3797.txt">RFC 3797</a> [[!RFC3797]].
 	The procedure orders an input list of names
 	(listed in alphabetical order by family name unless otherwise specified)
@@ -903,9 +903,9 @@ Verifiable Random Selection Procedure</h5>
 
 		<li>
 			After all elected individuals have been identified,
-			when N people are eligible for M (less than N) short terms.
+			when N people are eligible for M (less than N) incomplete terms.
 			In this case, only the names of those N individuals are provided as input to the procedure.
-			The short terms are assigned in result order.
+			The incomplete terms are assigned in result order.
 	</ol>
 
 <h4 id="AB-TAG-vacated">
