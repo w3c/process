@@ -328,12 +328,8 @@ Rights of Members</h4>
 	</ul>
 
 	The rights and benefits of W3C membership are contingent upon conformance to the processes described in this document.
-	The vast majority of W3C Members faithfully follow the spirit as well as the letter of these processes.
-	When serious and/or repeated violations do occur,
-	and repeated attempts to address these violations have not resolved the situation,
-	the [=Director=] <em class="rfc2119">may</em> take disciplinary action.
-	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
-	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
+	Arbitration is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
+	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
 
 <h4 id="RelatedAndConsortiumMembers">
 Member Consortia and Related Members</h4>
@@ -986,6 +982,9 @@ General Policies for W3C Groups</h2>
 <h3 id="ParticipationCriteria">
 Individual Participation Criteria</h3>
 
+<h4 id="discipline">
+Expectations and Discipline</h4>
+
 	There are three qualities an individual is expected to demonstrate in order to participate in W3C:
 
 	<ol>
@@ -1008,10 +1007,14 @@ Individual Participation Criteria</h3>
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-	The [=Director=] <em class="rfc2119">may</em> suspend or remove for cause
-	a participant in any group (including the [=AB=] and [=TAG=]),
-	where cause includes failure to meet the requirements of this process,
-	the membership agreement, or applicable laws.
+	When serious and/or repeated violations do occur,
+	including failure to meet the requirements of this process,
+	the membership agreement, or applicable laws,
+	and repeated attempts to address these violations have not resolved the situation,
+	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
+	including suspending or removing for cause
+	a participant in any group (including the [=AB=] and [=TAG=]).
+	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
 
 <h4 id="coi">
 Conflict of Interest Policy</h4>
