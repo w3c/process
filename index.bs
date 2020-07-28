@@ -1014,7 +1014,6 @@ Expectations and Discipline</h4>
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=]).
-	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> [[DISCIPLINARY-GL]].
 
 <h4 id="coi">
 Conflict of Interest Policy</h4>
@@ -5018,11 +5017,6 @@ Changes since earlier versions</h3>
 	"MEMBER-SUB": {
 		"href": "https://www.w3.org/2000/09/submission",
 		"title": "How to send a Submission request",
-		"publisher": "W3C"
-	},
-	"DISCIPLINARY-GL": {
-		"href": "https://www.w3.org/2002/09/discipline",
-		"title": "Guidelines for Disciplinary Action",
 		"publisher": "W3C"
 	},
 	"ELECTION-HOWTO": {
