@@ -1147,6 +1147,13 @@ Meetings</h3>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
+	For new proposed [=Working Groups=] or [=Interest Groups=]
+	that have not yet been chartered,
+	the minimum announcement period
+	is counted from the date of the <a href=#cfp>Call for Participation</a>,
+	and meetings <em class=rfc2119>must not</em> be announced before the call has been issued.
+	This is to ensure a fair opportunity to participate for all W3C members,
+	so informal meetings <em class=rfc2119>should not</em> be planned to get around this timing restriction.
 
 <h3 id="Consensus">
 Consensus</h3>
@@ -2078,13 +2085,6 @@ Working Group and Interest Group Charters</h4>
 
 		<li>
 			Meeting mechanisms and expected frequency;
-
-		<li>
-			If known,
-			the date of the first <a href="#ftf-meeting">face-to-face meeting</a>.
-			The date of the first face-to-face meeting of a proposed group
-			<em class="rfc2119">must not</em> be sooner than <span class="time-interval">eight weeks</span>
-			after the date of the proposal.
 
 		<li>
 			Communication mechanisms to be employed within the group,
