@@ -2650,8 +2650,6 @@ Maturity Levels on the Recommendation Track</h4>
 		<dd>
 			A Candidate Recommendation is a document that satisfies the technical
 			requirements of the Working Group that produced it and their dependencies,
-			or makes substantive corrections
-			to a [=Recommendation=] that is not maintained by a [=Working Group=],
 			and has already received wide review.
 			W3C publishes a Candidate Recommendation to
 
