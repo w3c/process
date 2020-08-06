@@ -1114,7 +1114,7 @@ Meetings</h3>
 	A [=Chair=] <em class="rfc2119">may</em> invite an individual with a particular expertise
 	to attend a meeting on an exceptional basis.
 	This person is a meeting guest,
-	not a group <a href="#participant">participant</a>.
+	not a group [=participant=].
 	Meeting guests do not have <a href="#Votes">voting rights</a>.
 	It is the responsibility of the Chair to ensure
 	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a>
@@ -1387,7 +1387,7 @@ Votes</h3>
 	</ul>
 
 	In order to vote to resolve a substantive issue,
-	an individual <em class="rfc2119">must</em> be a group <a href="#participant">participant</a>.
+	an individual <em class="rfc2119">must</em> be a group [=participant=].
 	Each organization represented in the group <em class="rfc2119">must</em> have at most one vote,
 	even when the organization is represented by several participants in the group
 	(including Invited Experts).
@@ -1486,6 +1486,76 @@ Resignation from a Group</h3>
 	The team <em class="rfc2119">must</em> record the notification.
 	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
+
+<h3 id="tooling">
+Tooling</h3>
+
+	For [=W3C Groups=] operating under this Process,
+	a core operating principle is to allow access across disabilities,
+	across country borders,
+	and across time.
+	Thus in order to allow all would-be participants to effectively participate,
+	to allow future participants and observers to understand the rationale and origins of current decisions,
+	and to guarantee long lived access to its publications,
+	W3C requires that:
+
+	<ul>
+		<li>
+			Any tooling used by the group
+			for producing its documentation and deliverables
+			or for official group discussions
+			<em class=rfc2119>must</em> be usable
+			without cost
+			by all active or would-be active group participants
+			to allow their equal participation
+			regardless of disability
+			or geographical location.
+
+			Note: If a new participant joins who cannot use the tool,
+			this can require the [=Working Group=] to change its tooling
+			or operate some workaround.
+
+		<li>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			(i.e. intended for use or reference outside its own membership)
+			<em class=rfc2119>must</em> be published on a W3C-controlled domain
+			and backed up by W3C systems
+			such that if the underlying service is discontinued,
+			W3C can continue to serve such content without breaking links
+			or other key functionality.
+
+		<li>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			<em class=rfc2119>must</em> be accessible worldwide
+			and to persons with disabilities.
+
+		<li>
+			Persistent text-based discussions sponsored by the group
+			pertaining to their work
+			and intended to be referenceable by all group members,
+			as well as all official meeting minutes,
+			<em class=rfc2119>must</em> be archived by W3C for future reference.
+			This includes discussions conducted over email lists
+			or in issue-tracking services
+			or any equivalent fora.
+			For fora whose archive exists on a domain separate from its active operations,
+			the archive <em class=rfc2119>must</em> be available at the same level of confidentiality.
+
+		<li>
+			All tools and archives used by the group
+			for its discussions and recordkeeping
+			<em class=rfc2119>must</em> be documented
+			such that new participants and observers
+			can easily find the group’s tools and records.
+
+			Note: Community Groups producing material
+			intended to be adopted by a Working Group for standardization
+			should also adhere to these policies.
+	</ul>
+
+	Issue: Link to policy document with detailed recommendations / best practices / additional info.
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
 Dissemination Policies</h2>
