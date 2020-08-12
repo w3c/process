@@ -1009,7 +1009,7 @@ Expectations and Discipline</h4>
 
 	When serious and/or repeated violations do occur,
 	including failure to meet the requirements of this process,
-	the membership agreement, or applicable laws,
+	or violation of the membership agreement or applicable laws,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=]).
