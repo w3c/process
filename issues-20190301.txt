@@ -748,3 +748,10 @@ Comment:  https://github.com/w3c/w3process/issues/408
 Response: https://github.com/w3c/w3process/pull/413
 Closed:   Accepted
 Resolved: https://github.com/w3c/w3process/pull/413#issuecomment-648843546
+----
+Issue 96.
+Summary:  Adjust section title for the sake of ease of referencing
+From:     Philipe Le Hegaret
+Comment:  https://github.com/w3c/w3process/issues/437
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r01
