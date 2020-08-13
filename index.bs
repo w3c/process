@@ -3490,6 +3490,12 @@ Revising a Recommendation: Substantive Changes</h5>
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
 
+	Note: If there is no [=Working Group=] chartered to maintain a [=Recommendation=]
+	the [=Team=] cannot make substantive changes and republish the [=Recommendation=].
+	It can, however, informatively highlight problems and desirable changes
+	using [=errata=] and [=candidate corrections=]
+	and republish as described in [[#revised-rec-editorial|the previous section]].
+
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
