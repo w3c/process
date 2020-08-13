@@ -2527,6 +2527,10 @@ Candidate Changes</h4>
 	except that it proposes a new feature
 	rather than an error correction.
 
+	If there is no group chartered to maintain a [=technical report=],
+	the [=Team=] <em class="rfc2119">may</em> maintain its [=errata=]
+	and associated [=candidate corrections=].
+
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate change">candidate changes</dfn>.
 
@@ -3442,12 +3446,14 @@ Revising a W3C Recommendation</h4>
 <h5 id="revised-rec-markup">
 Revising a Recommendation: Markup Changes</h5>
 
-	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=],
-	or if there is no [=Working Group=] chartered to maintain a [=Recommendation=]
-	W3C <em class="rfc2119">may</em> republish the [=Recommendation=],
+	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=]
 	to make corrections that do not result
 	in any changes to the text of the specification.
 	(See <a href="#correction-classes">class 1 changes</a>.)
+
+	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
+	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
+	with such changes incorporated.
 
 <h5 id="revised-rec-editorial">
 Revising a Recommendation: Editorial Changes</h5>
@@ -3456,9 +3462,13 @@ Revising a Recommendation: Editorial Changes</h5>
 	A [=Working Group=],
 	provided there are no votes against the resolution to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
-	or W3C <em class="rfc2119">may</em> publish a [=Recommendation=]
 	to make this class of change without passing through earlier maturity levels.
 	(See <a href="#correction-classes">class 2 changes</a>.)
+
+	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
+	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
+	with such changes incorporated,
+	including [=errata=] and [=candidate corrections=].
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
