@@ -3681,7 +3681,7 @@ Abandoning a W3C Recommendation</h5>
 	</div>
 
 <h5 id="deactivation">
-Process for Rescinding, Obsoleting, Superseding a Recommendation</h5>
+Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
 	The process of rescinding, obsoleting, 
 	superseding,
@@ -4845,6 +4845,8 @@ Final adjustements</h4>
 			Rename "proposed changes" to "candidate changes",
 			and use the term "proposed changes" to refer to the subset which is under AC review.
 
+		<li>
+			Adjust a section title for easier referencing.
 	</ul>
 
 	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing the state before/after these changes</a> is available.
