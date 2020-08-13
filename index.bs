@@ -2530,6 +2530,11 @@ Candidate Changes</h4>
 	If there is no group chartered to maintain a [=technical report=],
 	the [=Team=] <em class="rfc2119">may</em> maintain its [=errata=]
 	and associated [=candidate corrections=].
+	When doing so,
+	it <em class=rfc2119>must</em> be explicit that those [=errata=] and [=candidate corrections=]
+	were written by the [=Team=].
+	The [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
+	on [=candidate corrections=] that it produces.
 
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate change">candidate changes</dfn>.
