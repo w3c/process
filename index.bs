@@ -4850,7 +4850,7 @@ Final adjustements</h4>
 			Adjust a section title for easier referencing.
 	</ul>
 
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-06-25">diff comparing the state before/after these changes</a> is available.
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fmaintenance-2020%2F">diff comparing the state before/after these changes</a> is available.
 
 <h3 id=changes-previous class=no-num>
 Changes since earlier versions</h3>
