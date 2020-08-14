@@ -2684,35 +2684,35 @@ Maturity Levels on the Recommendation Track</h4>
 				<dt>
 					<dfn>Candidate Recommendation Snapshot</dfn>
 				<dd>
-					A [=Candidate Recommendation Snapshot|Review Snapshot=]
+					A Candidate Recommendation Snapshot
 					corresponds to a [=Patent Review Draft=]
 					as used in the W3C Patent Policy [[!PATENT-POLICY]].
 					Publishing a [=Patent Review Draft=] triggers a Call for Exclusions,
 					per “Exclusion From W3C RF Licensing Requirements”
 					in the W3C Patent Policy.
 
-					Publication as a Candidate Recommendation Snapshot
+					Publication as a [=Candidate Recommendation Snapshot=]
 					requires approval of either a [=Transition Request=]
-					(for the first Candidate Recommendation publication from another maturity level)
+					(for the first [=Candidate Recommendation=] publication from another maturity level)
 					or an [=Update Request=]
-					(for subsequent Candidate Recommendation Snapshots).
+					(for subsequent [=Candidate Recommendation Snapshots=]).
 				<dt>
 					<dfn>Candidate Recommendation Draft</dfn>
 				<dd>
-					A [=Candidate Recommendation Draft=]
+					A Candidate Recommendation Draft
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
-					to integrate changes from the previous Candidate Recommendation Snapshot
+					to integrate changes from the previous [=Candidate Recommendation Snapshot=]
 					that the Working Group intends to include
-					in a subsequent Candidate Recommendation Snapshot.
+					in a subsequent [=Candidate Recommendation Snapshot=].
 					This allows for wider review of the changes
 					and for ease of reference to the integrated specification.
 
-					Any changes published directly into a Candidate Recommendation Draft
-					should be at the same level of quality as a Candidate Recommendation Review Snapshot.
+					Any changes published directly into a [=Candidate Recommendation Draft=]
+					should be at the same level of quality as a [=Candidate Recommendation Snapshot=].
 					However, the process requirements are minimized
 					so that the Working Group can easily keep the specification up to date.
 
-					A Candidate Recommendation Draft
+					A [=Candidate Recommendation Draft=]
 					<em>does not</em> provide an exclusion opportunity
 					instead, it is considered a [=Working Draft=]
 					for the purpose of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
@@ -4851,6 +4851,9 @@ Final adjustements</h4>
 
 		<li>
 			Adjust grammar in a list of requirements so that all entries have the same subject.
+
+		<li>
+			Use consistent terminology to refer to Candidate Recommednation Snapshotsa.
 	</ul>
 
 	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fmaintenance-2020%2F">diff comparing the state before/after these changes</a> is available.
