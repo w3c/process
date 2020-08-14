@@ -3337,7 +3337,7 @@ Transitioning to Proposed Recommendation</h4>
 			raised since the close of the [=Candidate Recommendation=] review period,
 
 		<li>
-			<em class=rfc2119>must not</em> have any [=substantive changes=]
+			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
 			since the most recent [=Candidate Recommendation Snapshot=],
 			other than dropping features identified [=at risk=].
 
@@ -4848,6 +4848,9 @@ Final adjustements</h4>
 
 		<li>
 			Adjust a section title for easier referencing.
+
+		<li>
+			Adjust grammar in a list of requirements so that all entries have the same subject.
 	</ul>
 
 	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fmaintenance-2020%2F">diff comparing the state before/after these changes</a> is available.
