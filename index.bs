@@ -2781,12 +2781,12 @@ Maturity Levels on the Recommendation Track</h4>
 					Note: When a Technical Report which had previously been published as a [=Recommendation=]
 					is again published as a [=Recommendation=]
 					after following the necessary steps to <a href="#revising-rec">revise</a> it,
-					the latest version replaces the old one,
+					the latest version replaces the previous one,
 					without the need to invoke the steps of [[#rec-rescind]]:
 					it is the same document, updated.
 					Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
 					is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
-					(or a by a document managed outside of W3C).
+					(or by a document managed outside of W3C).
 
 				<dt>
 					An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
