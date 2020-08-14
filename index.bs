@@ -1150,7 +1150,7 @@ Meetings</h3>
 	For new proposed [=Working Groups=] or [=Interest Groups=]
 	that have not yet been chartered,
 	the minimum announcement period
-	is counted from the date of the <a href=#cfp>Call for Participation</a>,
+	starts on the date of the <a href=#cfp>Call for Participation</a>,
 	and meetings <em class=rfc2119>must not</em> be announced before the call has been issued.
 	This is to ensure a fair opportunity to participate for all W3C members,
 	so informal meetings <em class=rfc2119>should not</em> be planned to get around this timing restriction.
