@@ -4854,6 +4854,9 @@ Final adjustements</h4>
 
 		<li>
 			Use consistent terminology to refer to Candidate Recommednation Snapshotsa.
+
+		<li>
+			Fix a typo and use more appropriate vocabulary ("previous" rather than "old")
 	</ul>
 
 	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fmaintenance-2020%2F">diff comparing the state before/after these changes</a> is available.
