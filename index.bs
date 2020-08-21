@@ -28,6 +28,7 @@ Title: W3C Process Document
 Status: w3c/ED
 ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
+Previous Version: https://www.w3.org/2020/Process-20200915/
 Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
@@ -50,13 +51,12 @@ Abstract:
 	For more information about the W3C mission and the history of W3C,
 	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
-	This document is based on the <a href="https://www.w3.org/2017/Process-20190301/">1 March 2019 Process</a>,
-	which is the currently operative W3C Process.
+	This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
 </pre>
 <pre class=biblio>
 {
 	"PATENT-POLICY": {
-		"href": "https://www.w3.org/Consortium/Patent-Policy/@@@TBD@@@",
+		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
 		"title": "The W3C 2020 Patent Policy"
 	}
 }
@@ -4631,233 +4631,48 @@ Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2019 class=no-num>
-Changes since the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a></h3>
+<h3 id=changes-2020 class=no-num>
+Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a></h3>
 
-
-	<p>This document is based on the <a href="https://www.w3.org/2019/Process-20190301/">1 March 2019 Process</a>.
-	A <a href="https://w3c.github.io/w3process/issues-20190301">Disposition of Comments</a>,
+	<p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
+	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2F">diff comparing it to the 2020 edition of the Process</a> is available.
+	A <a href="https://w3c.github.io/w3process/issues-20200915">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2019...maintenance-2020">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a>
 	are available.
 
-	A <a hreF="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fmaintenance-2020">diff comparing it to the 2019 edition of the Process</a> is available.
-	Note that due to overlapping changes,
-	this diff may be somewhat difficult to review.
-	In order to make review easier,
-	several partial diffs,
-	grouping related changes,
-	are available as well,
-	as detailed below.
-
-<h4 id=major-changes-2019 class="no-num no-toc">
-Major Update to the Recommendation Track</h4>
-
-	Significant additions and modifications were made to the Recommendation Track.
-	While the meaning of the various maturities and associated transition criteria are unchanged,
-	important additions have been made to what can be done during CR and REC phases.
-	These aim to facilitate maintenance of specifications,
-	and to provide a Living Standards capability as a native capability of the W3C Recommendation Track.
+	The following is a summary:
 
 	<ul>
 		<li>
-			Work-in-progress updates to CRs can be published on TR as [=Candidate Recommendation Drafts=].
-			This allows the Working Group
-			to publish the latest state of their work and to get wide review on the official copy,
-			without having to direct readers to an unofficial Editor's Draft.
+			Mentions of the Director which had no material effects on the Process have been removed
 
 		<li>
-			An simultaneous update of the Patent Policy is planned
-			and the Process has been adjusted to tie into it.
-			Together, they provide patent protection from the CR stage,
-			as opposed to having to wait for the Recommendation as needed today.
+			References to “short terms” and “incomplete terms” have been unified to “incomplete terms”.
 
 		<li>
-			Errata and related changes can be informatively annotated inline in a Recommendation,
-			and republished without W3C approval.
-			This too allows the Working Group
-			to publish the latest state of their work and to get wide review on the official copy,
-			without having to direct readers to an unofficial Editor's Draft,
-			or separate errata documents.
+			A few typos and grammatical oddities have been addressed.
 
 		<li>
-			Once some of these [=candidate changes=] have reached sufficient maturity to be part of the Recommendation,
-			and once it has secured the usual approvals (Director review, AC Review),
-			the Working Group can fold them into the Recommendation as normative text,
-			republish the Recommendation directly,
-			without intermediate publication as CR or PR.
+			Mentions of when various groups were created have been removed,
+			as they had no effect and the Process is not the right place
+			to document history.
 
 		<li>
-			Both the addition of new [=candidate changes=]
-			and the normative incorporation of mature [=proposed changes=] into the Recommendation
-			can be done incrementally,
-			allowing complex specifications to be gradually improved
-			without having to fix everything before anything can be republished.
+			An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”.
 
 		<li>
-			Similarly to [=candidate corrections=] which correct errors,
-			[=candidate additions=] to a Recommendation can be annotated inline,
-			then made normative when sufficiently mature.
-			This is limited to Recommendations explicitly identifying themselves as allowing new features,
-			so as to avoid breaking expectation of feature-set stability
-			on Recommendations that have already been published without this note.
-
-		<li>
-			When certain objective criteria are met,
-			both the CR-to-REC transition
-			and the REC-to-REC update
-			can be automatically approved and skip the usual “transition call”.
-			Further developments in tooling may later reduce friction on this “fast-path”.
-
+			Some text in section [[#revised-rec-features]] has been rewritten
+			to reduce redundancy with other sections,
+			with no normative change.
 
 	</ul>
 
-	Some minor simplifications have also been made:
-	<ul>
-		<li>
-			Drop the distinction between Recommendation and Edited Recommendation.
-
-		<li>
-			Don't require documenting editorial changes since the previous CR.
-	</ul>
-
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html">diff comparing the state before/after these changes</a> is available.
-
-<h4 id=other-changes-2019 class="no-num no-toc">
-Other Substantive Changes and Clarifications</h4>
-
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html">diff comparing the state before/after these changes</a> is available.
-
-	<ul>
-		<li>
-			Retire the “Team Submissions” (<em>not</em> “Member Submissions”) mechanism,
-			as it is unused,
-			does not provide the Team with abilities it doesn't already have,
-			nor provides meaningful governance of the Team's communications.
-
-		<li>
-			Define that the process to revise the CEPC and Patent Policy are the same as for revising the Process
-
-		<li>
-			Avoid using the specialized term “[=publish=]” to mean anything other than
-			putting documents on TR.
-
-		<li>
-			Avoid using the specialized term “[=dissent=]” in situations that do not involve Formal Objections.
-
-		<li>
-			Phrasing clarifications and removal of unnecessary text
-			in <a href="#AB-TAG-constraints"></a> and
-			<a href="#ACReviewAfter"></a>.
-
-		<li>
-			Clarify that appeal statements are meant to be member-only.
-
-		<li>
-			Clarify that Working Drafts have some, even if limited, standing.
-
-		<li>
-			Resolve minor wording conflict as to whether charters "should" or "may" include formal voting procedures.
-
-		<li>
-			Delete references to non existing parts of the Patent policy, previously invoked in the TAG participation section.
-
-		<li>
-			Remove a spurious link that made it look like AC-Reps were involved when participants in the TAG or AB resign.
-
-		<li>
-			Add some sub-section headings to improve readability and cross-section linking
-
-		<li>
-			Clarify the rule on vacant seats in [[#AB-TAG-elections]]
-
-		<li>
-			Eliminate the use of the undefined “minor changes” term
-
-		<li>
-			Define and differentiate between Group Decisions and Chair Decisions.
-
-		<li>
-			Add note clarifying when it is appropriate to use the superseding process, and when not.
-
-		<li>
-			Add Note about the flexibility of Consensus.
-	</ul>
-
-<h4 id=editorial-changes-2019 class="no-num no-toc">
-Notable Editorial Changes</h4>
-
-	<ul>
-		<li>
-			Converted the source code of the process to the <a href="https://tabatkins.github.io/bikeshed/">Bikeshed</a> document format,
-			improving the ease of maintenance,
-			and gaining better cross linking capabilities as well as an [[#index]] in the process.
-			Note that while this makes no change to the text of the process,
-			it is a large change of the source code,
-			and source level diffs are unlikely to be of help to compare the before and after state.
-
-			A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2019%2FProcess-20190301%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2019-02-04-bikesheded.html">diff comparing the state before/after this change</a> is available.
-
-		<li>
-			Section [[#Reports]] has been reorganized,
-			to disentangle definitions of the various maturities
-			from the steps needed to publish
-			and to transition form one maturity to another.
-
-			A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-before-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-01-09-refactor.html">diff comparing the state before/after this change</a> is available.
-			Note that this reorganization was done prior to the major changes to the Recommendation track mentioned earlier.
-
-	</ul>
-
-<h4 id=additional-changes-2019 class="no-num no-toc">
-Final adjustements</h4>
-
-	Based on a cycle of review
-	by the Advisory Committee and the broader community
-	of the changes described above,
-	a few final adjustments were made:
-
-	<ul>
-		<li>
-			Clarify the definition of W3C Decision,
-			to make it clear that the Director actually has decision power,
-			and does take the input of the whole community into account.
-
-		<li>
-			Adjust the wording of section [[#GAProcess]] to clarify responsibilities.
-
-		<li>
-			Define the published candidate changes to be treated as Working Drafts
-			for the purpose of the Patent Policy.
-
-		<li>
-			Remove statement from introductory text on the REC track
-			about the kind of feedback the AC is expected to provide during the CR phase.
-
-		<li>
-			Rename "proposed changes" to "candidate changes",
-			and use the term "proposed changes" to refer to the subset which is under AC review.
-
-		<li>
-			Adjust a section title for easier referencing.
-
-		<li>
-			Adjust grammar in a list of requirements so that all entries have the same subject.
-
-		<li>
-			Use consistent terminology to refer to Candidate Recommednation Snapshotsa.
-
-		<li>
-			Fix a typo and use more appropriate vocabulary ("previous" rather than "old")
-	</ul>
-
-	A <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2Fafter-everblue.html&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fsnapshots%2F2020-08-14">diff comparing the state before/after these changes</a> is available.
-
-<h3 id=changes-previous class=no-num>
+<h3 id=changes-previous class=no-num oldids="changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
 
-	Changes since earlier version of the Process are detailed
-	in the <a href="https://www.w3.org/2019/Process-20190301/#changes">changes section of the previous version</a>
+	Changes since earlier versions of the Process are detailed
+	in the <a href="https://www.w3.org/2020/Process-20200915/#changes">changes section of the previous version</a>
 	of the Process.
 
 <pre class=biblio>

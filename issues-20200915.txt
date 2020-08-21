@@ -1,0 +1,79 @@
+Draft:    https://www.w3.org/2020/Process-20200915/
+Title:    W3C Process Document
+Date:     2020-09-15
+Status:   Version
+ED:       https://w3c.github.io/w3process/
+
+----
+Issue 1.
+Summary:  "short term" is undefined
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/333
+Response: https://github.com/w3c/w3process/pull/431
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
+----
+Issue 2.
+Summary:  Editorial tweaks
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/376
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
+----
+Issue 3.
+Summary:  Fix terminology mixup
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/430
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
+----
+Issue 4.
+Summary:  Remove Gratuitous mentions of the Director
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/254
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r03
+----
+Issue 5.
+Summary:  Re-envisioning the CRUD/Snapshot split
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/issues/346
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/346#issuecomment-658799591
+Verified: https://github.com/w3c/w3process/issues/346#issuecomment-658799591
+----
+Issue 6.
+Summary:  Switch plural term to singular
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/386
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/pull/386#issuecomment-658826867
+Verified: https://github.com/w3c/w3process/pull/386#issuecomment-658855009
+----
+Issue 7.
+Summary:  Remove mentions of when various groups were created
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/420
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/420#issuecomment-658813800
+----
+Issue 8.
+Summary:  Editorial tweak in Superseded Recommendation note
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/pull/445
+Closed:   Accepted
+Resolved: Editor's Discretion
+----
+Issue 9.
+Summary:  Reduce redundant text about how to substantively revise a REC
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/427
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/427#issuecomment-672912287
+----
+Issue 10.
+Summary:  Remove reference to stale document
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/274
+Closed:   Retracted
+Resolved: https://github.com/w3c/w3process/pull/274#issuecomment-673288144
