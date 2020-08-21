@@ -4095,7 +4095,7 @@ Updating Registry Tables</h4>
 	(not even Working Group consensus, unless this is required by the [=rules of the registry=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor new Exclusion Opportunities,
-	and do not require Director's approval,
+	and do not require approval via an [=update request=],
 	even for [=technical reports=] at maturities where this would normally be expected.
 	Such publications can be made
 	even in the absence of a [=Working Group=] chartered to maintain the registry
