@@ -755,3 +755,24 @@ From:     Philipe Le Hegaret
 Comment:  https://github.com/w3c/w3process/issues/437
 Closed:   Accepted
 Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r01
+----
+Issue 97.
+Summary:  Use terminology consistently
+From:     Travis Leithead
+Comment:  https://github.com/w3c/w3process/issues/439
+Closed:   Accepted
+Resolved: Director's decision in response to AC Review
+----
+Issue 98.
+Summary:  Grammar fix: adjust sentence to have the correct subject
+From:     Travis Leithead
+Comment:  https://github.com/w3c/w3process/issues/440
+Closed:   Accepted
+Resolved: Director's decision in response to AC Review
+----
+Issue 99.
+Summary:  Minor vocabulary tweak and typo fix
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/pull/444
+Closed:   Accepted
+Resolved: Director's decision in response to AC Review
