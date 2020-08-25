@@ -1012,7 +1012,7 @@ Expectations and Discipline</h4>
 	or violation of the membership agreement or applicable laws,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
-	a participant in any group (including the [=AB=] and [=TAG=]).
+	a participant in any group (including the [=AB=] and [=TAG=]). Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
 
 <h4 id="coi">
 Conflict of Interest Policy</h4>
