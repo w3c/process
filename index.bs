@@ -523,8 +523,7 @@ The W3C Team</h3>
 	(generally to other individuals in the Team)
 	for any of their roles described in this document,
 	except <a href="#tag-participation">participation in the TAG</a>.</p>
-	Decisions being described in this document
-	as being <dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
+	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
 
 	Note: This does not imply that the CEO or Director are expected to make all decisions personally,
