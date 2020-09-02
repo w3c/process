@@ -2711,7 +2711,7 @@ Maturity Levels on the Recommendation Track</h4>
 					so that the Working Group can easily keep the specification up to date.
 
 					A [=Candidate Recommendation Draft=]
-					<em>does not</em> provide an exclusion opportunity
+					<em>does not</em> provide an exclusion opportunity;
 					instead, it is considered a [=Working Draft=]
 					for the purpose of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
