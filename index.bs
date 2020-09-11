@@ -2517,8 +2517,8 @@ Errata Management</h4>
 	alongside the affected [=technical report=] text
 	or at the start or end of the most relevant section(s).
 
-<h4 id=candidate-changes>
-Candidate Changes</h4>
+<h4 id=candidate-amendments oldids=candidate-changes>
+Candidate Amendments</h4>
 
 	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
 	<dfn>candidate correction</dfn> approved by the consensus of the [=Working Group=].
@@ -2532,7 +2532,7 @@ Candidate Changes</h4>
 	Note: Annotating changes in this way allows more mature documents
 	such as [=Recommendations=] and [=Candidate Recommendations=]
 	to be updated quickly with the Working Group's most current thinking,
-	even when the [=candidate changes=] have not yet received
+	even when the [=candidate amendments=] have not yet received
 	sufficient review or implementation experience
 	to be normatively incorporated into the specification proper.
 
@@ -2550,12 +2550,12 @@ Candidate Changes</h4>
 	on [=candidate corrections=] that it produces.
 
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
-	<dfn lt="candidate change">candidate changes</dfn>.
+	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
 	In addition to their actual [[#maturity-levels|maturity level]],
-	[=published=] [=REC Track=] documents with [=candidate changes=] are also considered,
+	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
-	to be [=Working Drafts=] with those [=candidate changes=] treated as normative.
+	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
 
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
@@ -3496,9 +3496,9 @@ Revising a Recommendation: Substantive Changes</h5>
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the [=candidate change=].
+	the technical and editorial soundness of the [=candidate amendments=].
 	To validate this, the [=Working Group=] must request
-	a [=Last Call for Review of Proposed Changes=],
+	a [=Last Call for Review of Proposed Amendments=],
 	followed by an [=update request=].
 	See [[#change-review]].
 
@@ -3523,7 +3523,7 @@ Revising a Recommendation: New Features</h5>
 	using [=candidate additions=].
 	A [=candidate addition=] can be made normative
 	and be folded into the main text of the [=Recommendation=]
-	using the same process as for [=candidate changes=],
+	using the same process as for [=candidate amendments=],
 	as detailed in [[#revised-rec-substantive]].
 
 	Note: This prohibition against new features unless explicitly allowed
@@ -3538,13 +3538,13 @@ Revising a Recommendation: New Features</h5>
 	beginning with a new [=First Public Working Draft=].
 
 <h5 id=change-review>
-Incorporating Candidate Changes</h5>
+Incorporating Candidate Amendments</h5>
 
-	A <dfn id=last-call-review>Last Call for Review of Proposed Changes</dfn>
-	verifies acceptance by the W3C community of [=candidate changes=]
+	A <dfn id=last-call-review>Last Call for Review of Proposed Amendments</dfn>
+	verifies acceptance by the W3C community of [=candidate amendments=]
 	by combining an [=AC Review=] with a patent exclusion opportunity.
 
-	The <a>Last Call for Review of Proposed Changes</a>
+	The <a>Last Call for Review of Proposed Amendments</a>
 	must be announced to other W3C groups, the public, and the [=Advisory Committee=].
 	The announcement <em class="rfc2119">must</em>:
 	<ul>
@@ -3555,8 +3555,8 @@ Incorporating Candidate Changes</h5>
 			or <dfn>Last Call for Review of Proposed Corrections and Additions</dfn>.
 
 		<li>
-			Identify the specific [=candidate changes=] under review
-			as <dfn>proposed changes</dfn>
+			Identify the specific [=candidate amendments=] under review
+			as <dfn>proposed amendments</dfn>
 			(<dfn>proposed corrections</dfn>/<dfn>proposed addition</dfn>).
 
 		<li>
@@ -3568,10 +3568,10 @@ Incorporating Candidate Changes</h5>
 	</ul>
 
 	The combination of the existing [=Recommendation=]
-	with the [=proposed changes=] included in the [=Last Call for Review of Proposed Changes=]
+	with the [=proposed amendments=] included in the [=Last Call for Review of Proposed Amendments=]
 	is considered a [=Patent Review Draft=]
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
-	Also, the review initiated by the [=Last Call for Review of Proposed Changes=]
+	Also, the review initiated by the [=Last Call for Review of Proposed Amendments=]
 	is an [=Advisory Committee Review=].
 
 	Note: [=Last Call for Review of Proposed Additions=] and
@@ -3579,35 +3579,35 @@ Incorporating Candidate Changes</h5>
 	can only be issued for [=Recommendations=] that [=allow new features=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
-	multiple [=proposed changes=] into a single <a>Last Call for Review of Proposed Changes</a>.
+	multiple [=proposed amendments=] into a single <a>Last Call for Review of Proposed Amendments</a>.
 	To facilitate review,
-	a <a>Last Call for Review of Proposed Changes</a> on a given specification
+	a <a>Last Call for Review of Proposed Amendments</a> on a given specification
 	<em class=rfc2119>should not</em> be issued more frequently
 	than approximately once every 6 months.
 
-	At the end of the <a>Last Call for Review of Proposed Changes</a>,
+	At the end of the <a>Last Call for Review of Proposed Amendments</a>,
 	the [=W3C Decision=] may either be
-	to reject the [=proposed change=],
-	or to clear the [=proposed change=] for advancement as is,
+	to reject the [=proposed amendment=],
+	or to clear the [=proposed amendment=] for advancement as is,
 	or to return the proposal to the [=Working Group=] with a request to [=formally address=]
 	comments made on the changes under review.
-	If the [=Working Group=] needs to amend a [=proposed change=]
+	If the [=Working Group=] needs to amend a [=proposed amendment=]
 	in response to review feedback
-	it must issue another <a>Last Call for Review of Proposed Change</a> on the revised change
+	it must issue another <a>Last Call for Review of Proposed Amendments</a> on the revised change
 	before it can be incorporated into the main text.
 
-	Once all comments on a [=proposed change=] have been [=formally addressed=],
+	Once all comments on a [=proposed amendment=] have been [=formally addressed=],
 	and after the [=Working Group=] can show [=adequate implementation experience=]
 	and the fulfillment of all other requirements of Recommendation text,
-	it may incorporate the [=proposed change=] into the normative [=Recommendation=]
+	it may incorporate the [=proposed amendment=] into the normative [=Recommendation=]
 	by issuing an [=update request=] for publication of the updated [=Recommendation=].
 
-	To ensure adequate review of [=proposed change=] combinations,
-	only [=proposed changes=] included in the most recent
-	[=Last Call for Review of Proposed Changes=]
+	To ensure adequate review of [=proposed amendment=] combinations,
+	only [=proposed amendments=] included in the most recent
+	[=Last Call for Review of Proposed Amendments=]
 	can be incorporated into the normative [=Recommendation=] text.
-	(Thus if incorporation of a [=proposed change=] is postponed,
-	it may need to be included in multiple Last Calls for Review of Proposed Changes.)
+	(Thus if incorporation of a [=proposed amendment=] is postponed,
+	it may need to be included in multiple Last Calls for Review of Proposed Amendments.)
 
 <h4 id="tr-end">
 Retiring Recommendation Track Documents</h4>
@@ -4691,7 +4691,10 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 			this process, which had never been used,
 			allowed the Team to do update a REC with normative changes in the absence of a Working Group,
 			in order to maintain the document.
-			Now handled through [=candidate changes=].
+			Now handled through [=candidate amendments=].
+
+		<li>
+			Candidate and proposed “changes” have been renamed into candidate and proposed “amendments”.
 
 	</ul>
 

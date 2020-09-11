@@ -93,3 +93,11 @@ Comment:  https://github.com/w3c/w3process/issues/137
 Response: https://github.com/w3c/w3process/pull/428
 Closed:   Accepted
 Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x030
+----
+Issue 13.
+Summary:  Rename Candidate Change / Proposed Change to Candidate Amendment / Proposed Amendment
+From:     Elika J. Etemad
+Comment:  https://github.com/w3c/w3process/issues/449
+Response: https://github.com/w3c/w3process/pull/451
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x093
