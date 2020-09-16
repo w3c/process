@@ -3622,6 +3622,10 @@ Abandoning an Unfinished Technical Report</h5>
 	W3C <em class="rfc2119">must</em> [=publish=] any unfinished [=technical report=]
 	on the Recommendation track as [=Working Group Notes=].
 
+	Such a document should be documented as discontinued in its status section,
+	with a <a href="#abandon-draft">link to this section of this document</a>,
+	and accompanied by an explanation of why it was discontinued.
+
 <h5 id=rescind-cr>
 Rescinding a Candidate Recommendation</h5>
 
@@ -4665,6 +4669,11 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 			Some text in section [[#revised-rec-features]] has been rewritten
 			to reduce redundancy with other sections,
 			with no normative change.
+
+		<li>
+			Added an editorial clarification to what is supposed to happen
+			to the status section of unfinished technical reports
+			that get abandoned.
 
 	</ul>
 

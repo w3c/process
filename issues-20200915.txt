@@ -77,3 +77,11 @@ From:     Florian Rivoal
 Comment:  https://github.com/w3c/w3process/pull/274
 Closed:   Retracted
 Resolved: https://github.com/w3c/w3process/pull/274#issuecomment-673288144
+----
+Issue 11.
+Summary:  What does the document status "discontinued" mean?
+From:     rduerr
+Comment:  https://github.com/w3c/w3process/issues/262
+Response: https://github.com/w3c/w3process/issues/262#issuecomment-692918581
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x047
