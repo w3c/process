@@ -526,10 +526,16 @@ The W3C Team</h3>
 	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
 
+	<div class=issue>
+	It's bee suggested that the following note may be helpful,
+	but <a href="https://github.com/w3c/w3process/pull/438#issuecomment-693001060">this remains controversial</a>.
+	Should we include it?
+
 	Note: It is generally expected
 	that the CEO and Director will take the Team's input into consideration when making decisions,
 	and that they will delegate various responsibilities to individuals or groups within the Team.
 	Nevertheless, the CEO and Director have the ultimate authority within the Team.
+	</div>
 
 	The <dfn id="def-Director" export lt="Director|W3C Director">Director</dfn> is the lead technical architect at W3C,
 	whose responsibilities are identified throughout this document in relevant places.
