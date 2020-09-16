@@ -85,3 +85,11 @@ Comment:  https://github.com/w3c/w3process/issues/262
 Response: https://github.com/w3c/w3process/issues/262#issuecomment-692918581
 Closed:   Accepted
 Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x047
+----
+Issue 12.
+Summary:  Concerns about Amended Recommendations
+From:     Andreas
+Comment:  https://github.com/w3c/w3process/issues/137
+Response: https://github.com/w3c/w3process/pull/428
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x030
