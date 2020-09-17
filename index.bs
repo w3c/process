@@ -4057,7 +4057,7 @@ Registry Definitions</h4>
 <h4 id=reg-pub>
 Publishing Registries</h4>
 
-	[=Registries=] can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
+	[=Registries=] can be published either as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
 	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
 
 	A [=registry report=] or [=registry section=],
@@ -4146,6 +4146,12 @@ Updating Registry Tables</h4>
 
 <h4 id=reg-maturity>
 Maturity Levels of Registry Reports</h4>
+
+	The <dfn export>Registry Track</dfn> consists of:
+
+	1. [=Draft Registries=]
+	2. [=Proposed Registries=]
+	3. [=W3C Registries=]
 
 <h5 id=draft-reg>
 Draft Registry</h5>
