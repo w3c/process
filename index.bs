@@ -4001,6 +4001,14 @@ Registries</h3>
 	facilitating the publication and maintenance of such [=registry tables=],
 	particularly those required by or closely related to [=W3C Recommendations=].
 
+	Note: Not every table in a specification is a potential registry.
+	If the intent or effect is that the table enumerates
+	all the possibilities the authors of the specification expect or envisage,
+	then the table by itself is enough.
+	Similarly, if the table is managed by the Working Group
+	and only updated as part of specification update,
+	then the complexities of registry management are not needed.
+
 <h4 id=reg-contents>
 Registry Reports</h4>
 
