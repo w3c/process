@@ -4009,6 +4009,51 @@ Registries</h3>
 	and only updated as part of specification update,
 	then the complexities of registry management are not needed.
 
+<h4 id=reg-def>
+Registry Definitions</h4>
+
+	The <dfn>Registry Definition</dfn>
+	define what each [=registry table=] is and how it is maintained.
+	It <em class=rfc2119>must</em>:
+
+	<ul>
+		<li>
+			Define the scope and purpose of each [=registry table=].
+
+		<li>
+			Define the fields of each [=registry table=]
+			and their constraints
+			(e.g. values must be drawn from a defined set, or be unique,
+			or only reference publicly available resources,
+			etc.)
+
+		<li>
+			Define what kind of changes are allowed,
+			as well as the method and criteria by which they are proposed, approved, and incorporated.
+			(For example, a [=registry=] could define
+			that changes to [=registry entries=] can be proposed using a particular web form or email address,
+			or that they do or do not need to be approved by any member of a particular Working Group.)
+			Specifically:
+			<ul>
+				<li>can entries be retired (deleted) or deprecated?
+				<li>can entries be changed after being published?
+				<li>
+					if entries can be deleted, can any code-points be re-used,
+					or are they reserved indefinitely?
+			</ul>
+
+		<li>
+			Identify the <dfn>custodian</dfn> of the [=registry table=]:
+			the entity to which requests for [=registry changes=] must be sent,
+			and which is responsible for evaluating whether such requests
+			satisfy the criteria defined in the [=Registry Definition=].
+
+			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
+			The [=custodian=] for all [=registry tables=] in a single [=registry=]
+			<em class=rfc2119>should</em> generally be the same entity.
+
+	</ul>
+
 <h4 id=reg-contents>
 Registry Reports</h4>
 
@@ -4055,51 +4100,6 @@ Registry Reports</h4>
 	only [=registry changes=] since the previous publication
 	can be automated
 	if satisfaction of those rules can be automatically verified.
-
-<h4 id=reg-def>
-Registry Definitions</h4>
-
-	The <dfn>Registry Definition</dfn>
-	define what each [=registry table=] is and how it is maintained.
-	It <em class=rfc2119>must</em>:
-
-	<ul>
-		<li>
-			Define the scope and purpose of each [=registry table=].
-
-		<li>
-			Define the fields of each [=registry table=]
-			and their constraints
-			(e.g. values must be drawn from a defined set, or be unique,
-			or only reference publicly available resources,
-			etc.)
-
-		<li>
-			Define what kind of changes are allowed,
-			as well as the method and criteria by which they are proposed, approved, and incorporated.
-			(For example, a [=registry=] could define
-			that changes to [=registry entries=] can be proposed using a particular web form or email address,
-			or that they do or do not need to be approved by any member of a particular Working Group.)
-			Specifically:
-			<ul>
-				<li>can entries be retired (deleted) or deprecated?
-				<li>can entries be changed after being published?
-				<li>
-					if entries can be deleted, can any code-points be re-used,
-					or are they reserved indefinitely?
-			</ul>
-
-		<li>
-			Identify the <dfn>custodian</dfn> of the [=registry table=]:
-			the entity to which requests for [=registry changes=] must be sent,
-			and which is responsible for evaluating whether such requests
-			satisfy the criteria defined in the [=Registry Definition=].
-
-			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
-			The [=custodian=] for all [=registry tables=] in a single [=registry=]
-			<em class=rfc2119>should</em> generally be the same entity.
-
-	</ul>
 
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
