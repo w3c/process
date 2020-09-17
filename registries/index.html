@@ -8,7 +8,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 5f7b0e20, updated Tue Aug 18 15:46:28 2020 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="4fbfb8c61d37a1151e6598250b1af511fd96aa0d" name="document-revision">
+  <meta content="008b422debd8aeffd1aca8694b8b26bd11cd1c25" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -498,14 +498,13 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
         <li><a href="#reg-def"><span class="secno">6.4.1</span> <span class="content"> Registry Definitions</span></a>
         <li><a href="#reg-pub"><span class="secno">6.4.2</span> <span class="content"> Publishing Registries</span></a>
         <li><a href="#reg-ref-specifications"><span class="secno">6.4.3</span> <span class="content"> Specifications that Reference Registries</span></a>
-        <li><a href="#reg-ref-specifications①"><span class="secno">6.4.4</span> <span class="content"> Specifications that Reference Registries</span></a>
-        <li><a href="#reg-table-update"><span class="secno">6.4.5</span> <span class="content"> Updating Registry Tables</span></a>
+        <li><a href="#reg-table-update"><span class="secno">6.4.4</span> <span class="content"> Updating Registry Tables</span></a>
         <li>
-         <a href="#reg-maturity"><span class="secno">6.4.6</span> <span class="content"> Maturity Levels of Registry Reports</span></a>
+         <a href="#reg-maturity"><span class="secno">6.4.5</span> <span class="content"> Maturity Levels of Registry Reports</span></a>
          <ol class="toc">
-          <li><a href="#draft-reg"><span class="secno">6.4.6.1</span> <span class="content"> Draft Registry</span></a>
-          <li><a href="#proposed-reg"><span class="secno">6.4.6.2</span> <span class="content"> Proposed Registry</span></a>
-          <li><a href="#rec-reg"><span class="secno">6.4.6.3</span> <span class="content"> W3C Registry</span></a>
+          <li><a href="#draft-reg"><span class="secno">6.4.5.1</span> <span class="content"> Draft Registry</span></a>
+          <li><a href="#proposed-reg"><span class="secno">6.4.5.2</span> <span class="content"> Proposed Registry</span></a>
+          <li><a href="#rec-reg"><span class="secno">6.4.5.3</span> <span class="content"> W3C Registry</span></a>
          </ol>
        </ol>
       <li><a href="#further-reading"><span class="secno">6.5</span> <span class="content"> Further reading</span></a>
@@ -3378,25 +3377,6 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	if there are entries that must be implemented,
 	or any other such restrictions,
 	they <em rfc="2119">must</em> be documented in the document without reference to the registry.</p>
-   <div class="example" id="example-ac291b4e"><a class="self-link" href="#example-ac291b4e"></a> For example,
-		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
-		is not acceptable;
-		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
-		Instead, the requirement must be complete in the specification,
-		directly or by reference to another specification.
-		For example
-		“All implementations must recognize the name <code>Basic-Method</code>,
-		and implement it as defined by IETF RFC xxxx”.
-		(The Registry should nonetheless contain Basic-Method as an entry.) </div>
-   <h4 class="heading settled" data-level="6.4.4" id="reg-ref-specifications①"><span class="secno">6.4.4. </span><span class="content"> Specifications that Reference Registries</span><a class="self-link" href="#reg-ref-specifications①"></a></h4>
-   <p>All rules and statements about implementations of <a data-link-type="dfn" href="#registry" id="ref-for-registry⑦">registries</a> <em rfc="2119">must</em> be contained in the specifications or other documents that reference the registry,
-	and are therefore subject to the processes
-	(including approval and intellectual property provisions)
-	applicable to those referencing specifications.</p>
-   <p>It <em class="rfc2119">must not</em> be possible that a change to the <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry③">registry entries</a> affect the conformance of implementations to the Referencing document;
-	if there are entries that must be implemented,
-	or any other such restrictions,
-	they <em rfc="2119">must</em> be documented in the document without reference to the registry.</p>
    <div class="example" id="example-cbb39e74"><a class="self-link" href="#example-cbb39e74"></a> For example,
 		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
 		is not acceptable;
@@ -3407,7 +3387,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 		“All implementations must recognize the name <code>Basic-Method</code>,
 		and implement it as defined by section yy of IETF RFC xxxx”.
 		(The Registry should nonetheless contain Basic-Method as an entry.) </div>
-   <h4 class="heading settled" data-level="6.4.5" id="reg-table-update"><span class="secno">6.4.5. </span><span class="content"> Updating Registry Tables</span><a class="self-link" href="#reg-table-update"></a></h4>
+   <h4 class="heading settled" data-level="6.4.4" id="reg-table-update"><span class="secno">6.4.4. </span><span class="content"> Updating Registry Tables</span><a class="self-link" href="#reg-table-update"></a></h4>
    <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑥">registry table</a> that are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑤">Registry Definition</a>,
 	(i.e. <a href="#correction-classes">Class 5 changes</a>)
 	can be made by re-publishing the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑦">technical report</a> that contains the affected table,
@@ -3420,7 +3400,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	Such publications can be made
 	even in the absence of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧③">Working Group</a> chartered to maintain the registry
 	when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian④">custodian</a> is another entity.</p>
-   <h4 class="heading settled" data-level="6.4.6" id="reg-maturity"><span class="secno">6.4.6. </span><span class="content"> Maturity Levels of Registry Reports</span><a class="self-link" href="#reg-maturity"></a></h4>
+   <h4 class="heading settled" data-level="6.4.5" id="reg-maturity"><span class="secno">6.4.5. </span><span class="content"> Maturity Levels of Registry Reports</span><a class="self-link" href="#reg-maturity"></a></h4>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="registry-track">Registry Track</dfn> consists of:</p>
    <ol>
     <li data-md>
@@ -3430,7 +3410,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li data-md>
      <p><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registries</a></p>
    </ol>
-   <h5 class="heading settled" data-level="6.4.6.1" id="draft-reg"><span class="secno">6.4.6.1. </span><span class="content"> Draft Registry</span><a class="self-link" href="#draft-reg"></a></h5>
+   <h5 class="heading settled" data-level="6.4.5.1" id="draft-reg"><span class="secno">6.4.5.1. </span><span class="content"> Draft Registry</span><a class="self-link" href="#draft-reg"></a></h5>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="draft-registry">Draft Registry</dfn> is a document that is intended to become a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①">W3C Registry</a>,
 	and that has been published for review by the community,
 	including W3C Members, the public,
@@ -3450,7 +3430,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li><a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①">Proposed Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑤">Working Group Note</a> 
    </ul>
-   <h5 class="heading settled" data-level="6.4.6.2" id="proposed-reg"><span class="secno">6.4.6.2. </span><span class="content"> Proposed Registry</span><a class="self-link" href="#proposed-reg"></a></h5>
+   <h5 class="heading settled" data-level="6.4.5.2" id="proposed-reg"><span class="secno">6.4.5.2. </span><span class="content"> Proposed Registry</span><a class="self-link" href="#proposed-reg"></a></h5>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="proposed-registry">Proposed Registry</dfn> is a document
 	that satisfies the technical requirements
 	of the Working Group that produced it
@@ -3504,7 +3484,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑧">W3C Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑥">Working Group Note</a> 
    </ul>
-   <h5 class="heading settled" data-level="6.4.6.3" id="rec-reg"><span class="secno">6.4.6.3. </span><span class="content"> W3C Registry</span><a class="self-link" href="#rec-reg"></a></h5>
+   <h5 class="heading settled" data-level="6.4.5.3" id="rec-reg"><span class="secno">6.4.5.3. </span><span class="content"> W3C Registry</span><a class="self-link" href="#rec-reg"></a></h5>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="w3c-registry">W3C Registry</dfn> is a <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①⓪">registry report</a> that,
 	after extensive <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus⑨">consensus</a>-building,
 	has received the endorsement of the W3C.
@@ -4269,7 +4249,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <li><a href="#def-Director">Director</a><span>, in §2.2</span>
      <li><a href="#def-Dissent">Dissent</a><span>, in §3.3</span>
      <li><a href="#distributed-meeting">distributed meeting</a><span>, in §3.2</span>
-     <li><a href="#draft-registry">Draft Registry</a><span>, in §6.4.6.1</span>
+     <li><a href="#draft-registry">Draft Registry</a><span>, in §6.4.5.1</span>
      <li><a href="#editors-draft">ED</a><span>, in §6.2.1</span>
      <li><a href="#editors-draft">Editor Draft</a><span>, in §6.2.1</span>
      <li><a href="#editorial-change">editorial change</a><span>, in §6.1.3</span>
@@ -4318,7 +4298,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <li><a href="#proposed-amendments">proposed amendments</a><span>, in §6.2.11.5</span>
      <li><a href="#proposed-corrections">proposed corrections</a><span>, in §6.2.11.5</span>
      <li><a href="#RecsPR">Proposed Recommendation</a><span>, in §6.2.1</span>
-     <li><a href="#proposed-registry">Proposed Registry</a><span>, in §6.4.6.2</span>
+     <li><a href="#proposed-registry">Proposed Registry</a><span>, in §6.4.5.2</span>
      <li><a href="#proxy">proxy</a><span>, in §3.4</span>
      <li><a href="#public-participant-ig">public participants</a><span>, in §5.2.1</span>
      <li><a href="#publishing">publish</a><span>, in §6.1</span>
@@ -4333,7 +4313,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <li><a href="#registry-report">registry report</a><span>, in §6.4.2</span>
      <li><a href="#registry-section">registry section</a><span>, in §6.4.2</span>
      <li><a href="#registry-table">registry table</a><span>, in §6.4</span>
-     <li><a href="#registry-track">Registry Track</a><span>, in §6.4.6</span>
+     <li><a href="#registry-track">Registry Track</a><span>, in §6.4.5</span>
      <li><a href="#related-member">Related Member</a><span>, in §2.1.2.2</span>
      <li><a href="#rescinded-candidate-recommendation">Rescinded Candidate Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#RescindedRec">Rescinded Recommendation</a><span>, in §6.2.1</span>
@@ -4366,7 +4346,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <li><a href="#RecsPR">W3C Proposed Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#RecsW3C">W3C Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#w3c-recommendation-track">W3C Recommendation Track</a><span>, in §6.2</span>
-     <li><a href="#w3c-registry">W3C Registry</a><span>, in §6.4.6.3</span>
+     <li><a href="#w3c-registry">W3C Registry</a><span>, in §6.4.5.3</span>
      <li><a href="#team">W3C Team</a><span>, in §2.2</span>
      <li><a href="#RecsWD">W3C Working Draft</a><span>, in §6.2.1</span>
      <li><a href="#RecsWD">WD</a><span>, in §6.2.1</span>
@@ -4422,7 +4402,7 @@ Transitioning to Candidate Recommendation</a>
 Incorporating Candidate Amendments</a>
     <li><a href="#ref-for-advisory-committee①③">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
-    <li><a href="#ref-for-advisory-committee①④">6.4.6.2. 
+    <li><a href="#ref-for-advisory-committee①④">6.4.5.2. 
 Proposed Registry</a>
     <li><a href="#ref-for-advisory-committee①⑤">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
@@ -4471,7 +4451,7 @@ Working Group and Interest Group Closure</a>
 Transitioning to Proposed Recommendation</a> <a href="#ref-for-advisory-committee-representative①⑧">(2)</a> <a href="#ref-for-advisory-committee-representative①⑨">(3)</a>
     <li><a href="#ref-for-advisory-committee-representative②⓪">6.2.10. 
 Transitioning to W3C Recommendation</a>
-    <li><a href="#ref-for-advisory-committee-representative②①">6.4.6.3. 
+    <li><a href="#ref-for-advisory-committee-representative②①">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-advisory-committee-representative②②">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
@@ -4571,11 +4551,11 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
 Registry Definitions</a>
     <li><a href="#ref-for-team④③">6.4.2. 
 Publishing Registries</a>
-    <li><a href="#ref-for-team④④">6.4.6.1. 
+    <li><a href="#ref-for-team④④">6.4.5.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-team④⑤">6.4.6.2. 
+    <li><a href="#ref-for-team④⑤">6.4.5.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-team④⑥">6.4.6.3. 
+    <li><a href="#ref-for-team④⑥">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-team④⑦">(2)</a>
     <li><a href="#ref-for-team④⑧">7.1.1. 
 Start of a Review Period</a>
@@ -4650,7 +4630,7 @@ Transitioning to W3C Recommendation</a>
 Abandoning an Unfinished Technical Report</a>
     <li><a href="#ref-for-def-Director②⓪">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-def-Director②①">(2)</a> <a href="#ref-for-def-Director②②">(3)</a> <a href="#ref-for-def-Director②③">(4)</a>
-    <li><a href="#ref-for-def-Director②④">6.4.6.3. 
+    <li><a href="#ref-for-def-Director②④">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Director②⑤">7. 
 Advisory Committee Reviews, Appeals, and Votes</a> <a href="#ref-for-def-Director②⑥">(2)</a> <a href="#ref-for-def-Director②⑦">(3)</a>
@@ -4773,7 +4753,7 @@ W3C Technical Reports</a> <a href="#ref-for-def-Consensus⑤">(2)</a>
 Maturity Levels on the Recommendation Track</a> <a href="#ref-for-def-Consensus⑦">(2)</a>
     <li><a href="#ref-for-def-Consensus⑧">6.2.6. 
 Revising a Working Draft</a>
-    <li><a href="#ref-for-def-Consensus⑨">6.4.6.3. 
+    <li><a href="#ref-for-def-Consensus⑨">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Consensus①⓪">7.1.2. 
 After the Review Period</a>
@@ -4797,7 +4777,7 @@ Managing Dissent</a> <a href="#ref-for-def-Dissent①">(2)</a>
 Transitioning to W3C Recommendation</a>
     <li><a href="#ref-for-def-Dissent③">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
-    <li><a href="#ref-for-def-Dissent④">6.4.6.3. 
+    <li><a href="#ref-for-def-Dissent④">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-def-Dissent⑤">7.1.2. 
 After the Review Period</a>
@@ -4843,9 +4823,9 @@ Transitioning to W3C Recommendation</a>
 Incorporating Candidate Amendments</a> <a href="#ref-for-formally-addressed⑥">(2)</a>
     <li><a href="#ref-for-formally-addressed⑦">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
-    <li><a href="#ref-for-formally-addressed⑧">6.4.6.2. 
+    <li><a href="#ref-for-formally-addressed⑧">6.4.5.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-formally-addressed⑨">6.4.6.3. 
+    <li><a href="#ref-for-formally-addressed⑨">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-formally-addressed①⓪">7.1.2. 
 After the Review Period</a>
@@ -5052,11 +5032,11 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> 
 Working Group and Interest Group Notes</a> <a href="#ref-for-GroupsWG⑦⑨">(2)</a> <a href="#ref-for-GroupsWG⑧⓪">(3)</a> <a href="#ref-for-GroupsWG⑧①">(4)</a>
     <li><a href="#ref-for-GroupsWG⑧②">6.4.1. 
 Registry Definitions</a>
-    <li><a href="#ref-for-GroupsWG⑧③">6.4.5. 
+    <li><a href="#ref-for-GroupsWG⑧③">6.4.4. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-GroupsWG⑧④">6.4.6.2. 
+    <li><a href="#ref-for-GroupsWG⑧④">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-GroupsWG⑧⑤">(2)</a> <a href="#ref-for-GroupsWG⑧⑥">(3)</a>
-    <li><a href="#ref-for-GroupsWG⑧⑦">6.4.6.3. 
+    <li><a href="#ref-for-GroupsWG⑧⑦">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-GroupsWG⑧⑧">(2)</a> <a href="#ref-for-GroupsWG⑧⑨">(3)</a> <a href="#ref-for-GroupsWG⑨⓪">(4)</a>
     <li><a href="#ref-for-GroupsWG⑨①">10. 
 Member Submission Process</a>
@@ -5203,7 +5183,7 @@ Transitioning to Proposed Recommendation</a>
 Abandoning an Unfinished Technical Report</a> <a href="#ref-for-publishing①②">(2)</a>
     <li><a href="#ref-for-publishing①③">6.3. 
 Working Group and Interest Group Notes</a> <a href="#ref-for-publishing①④">(2)</a> <a href="#ref-for-publishing①⑤">(3)</a>
-    <li><a href="#ref-for-publishing①⑥">6.4.6.2. 
+    <li><a href="#ref-for-publishing①⑥">6.4.5.2. 
 Proposed Registry</a>
    </ul>
   </aside>
@@ -5228,7 +5208,7 @@ Revising a Recommendation: New Features</a>
 Abandoning an Unfinished Technical Report</a> <a href="#ref-for-technical-report①④">(2)</a>
     <li><a href="#ref-for-technical-report①⑤">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-technical-report①⑥">(2)</a>
-    <li><a href="#ref-for-technical-report①⑦">6.4.5. 
+    <li><a href="#ref-for-technical-report①⑦">6.4.4. 
 Updating Registry Tables</a> <a href="#ref-for-technical-report①⑧">(2)</a>
     <li><a href="#ref-for-technical-report①⑨">11. 
 Process Evolution</a>
@@ -5249,7 +5229,7 @@ Updating Mature Publications on the Recommendation Track</a>
 Transitioning to Candidate Recommendation</a>
     <li><a href="#ref-for-dfn-wide-review⑥">6.2.9. 
 Transitioning to Proposed Recommendation</a>
-    <li><a href="#ref-for-dfn-wide-review⑦">6.4.6.2. 
+    <li><a href="#ref-for-dfn-wide-review⑦">6.4.5.2. 
 Proposed Registry</a>
    </ul>
   </aside>
@@ -5266,7 +5246,7 @@ Revising a Working Draft</a>
 Publishing a Candidate Recommendation Draft</a>
     <li><a href="#ref-for-editorial-change④">6.2.11.2. 
 Revising a Recommendation: Editorial Changes</a>
-    <li><a href="#ref-for-editorial-change⑤">6.4.6.3. 
+    <li><a href="#ref-for-editorial-change⑤">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-editorial-change⑥">7.1.2. 
 After the Review Period</a>
@@ -5291,9 +5271,9 @@ Publishing a Candidate Recommendation Draft</a> <a href="#ref-for-substantive-ch
 Transitioning to Proposed Recommendation</a> <a href="#ref-for-substantive-change⑧">(2)</a> <a href="#ref-for-substantive-change⑨">(3)</a>
     <li><a href="#ref-for-substantive-change①⓪">6.2.10. 
 Transitioning to W3C Recommendation</a>
-    <li><a href="#ref-for-substantive-change①①">6.4.6.2. 
+    <li><a href="#ref-for-substantive-change①①">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-substantive-change①②">(2)</a>
-    <li><a href="#ref-for-substantive-change①③">6.4.6.3. 
+    <li><a href="#ref-for-substantive-change①③">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-substantive-change①④">(2)</a>
     <li><a href="#ref-for-substantive-change①⑤">7.1.2. 
 After the Review Period</a>
@@ -5306,9 +5286,9 @@ After the Review Period</a>
 Registry Definitions</a>
     <li><a href="#ref-for-registry-change①">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-registry-change②">(2)</a>
-    <li><a href="#ref-for-registry-change③">6.4.5. 
+    <li><a href="#ref-for-registry-change③">6.4.4. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-registry-change④">6.4.6.1. 
+    <li><a href="#ref-for-registry-change④">6.4.5.1. 
 Draft Registry</a>
    </ul>
   </aside>
@@ -5394,7 +5374,7 @@ Revising a Working Draft</a> <a href="#ref-for-RecsWD①⓪">(2)</a> <a href="#r
 Transitioning to Proposed Recommendation</a>
     <li><a href="#ref-for-RecsWD①③">6.3. 
 Working Group and Interest Group Notes</a> <a href="#ref-for-RecsWD①④">(2)</a>
-    <li><a href="#ref-for-RecsWD①⑤">6.4.6.1. 
+    <li><a href="#ref-for-RecsWD①⑤">6.4.5.1. 
 Draft Registry</a>
    </ul>
   </aside>
@@ -5622,7 +5602,7 @@ Publishing a Candidate Recommendation Draft</a>
 Revising a Recommendation: Substantive Changes</a>
     <li><a href="#ref-for-update-requests⑧">6.2.11.5. 
 Incorporating Candidate Amendments</a>
-    <li><a href="#ref-for-update-requests⑨">6.4.5. 
+    <li><a href="#ref-for-update-requests⑨">6.4.4. 
 Updating Registry Tables</a>
    </ul>
   </aside>
@@ -5714,11 +5694,11 @@ Advancement on the Recommendation Track</a>
 Abandoning an Unfinished Technical Report</a> <a href="#ref-for-WGNote④">(2)</a>
     <li><a href="#ref-for-WGNote⑤">6.3. 
 Working Group and Interest Group Notes</a> <a href="#ref-for-WGNote⑥">(2)</a> <a href="#ref-for-WGNote⑦">(3)</a> <a href="#ref-for-WGNote⑧">(4)</a> <a href="#ref-for-WGNote⑨">(5)</a> <a href="#ref-for-WGNote①⓪">(6)</a> <a href="#ref-for-WGNote①①">(7)</a> <a href="#ref-for-WGNote①②">(8)</a> <a href="#ref-for-WGNote①③">(9)</a>
-    <li><a href="#ref-for-WGNote①④">6.4.6.1. 
+    <li><a href="#ref-for-WGNote①④">6.4.5.1. 
 Draft Registry</a> <a href="#ref-for-WGNote①⑤">(2)</a>
-    <li><a href="#ref-for-WGNote①⑥">6.4.6.2. 
+    <li><a href="#ref-for-WGNote①⑥">6.4.5.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-WGNote①⑦">6.4.6.3. 
+    <li><a href="#ref-for-WGNote①⑦">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-WGNote①⑧">10.1.1. 
 Scope of Member Submissions</a> <a href="#ref-for-WGNote①⑨">(2)</a>
@@ -5735,8 +5715,6 @@ Registry Definitions</a> <a href="#ref-for-registry④">(2)</a>
 Publishing Registries</a>
     <li><a href="#ref-for-registry⑥">6.4.3. 
 Specifications that Reference Registries</a>
-    <li><a href="#ref-for-registry⑦">6.4.4. 
-Specifications that Reference Registries</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="registry-table">
@@ -5750,11 +5728,11 @@ Registries</a> <a href="#ref-for-registry-table③">(2)</a> <a href="#ref-for-re
 Registry Definitions</a> <a href="#ref-for-registry-table⑥">(2)</a> <a href="#ref-for-registry-table⑦">(3)</a> <a href="#ref-for-registry-table⑧">(4)</a> <a href="#ref-for-registry-table⑨">(5)</a>
     <li><a href="#ref-for-registry-table①⓪">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-registry-table①①">(2)</a> <a href="#ref-for-registry-table①②">(3)</a> <a href="#ref-for-registry-table①③">(4)</a> <a href="#ref-for-registry-table①④">(5)</a> <a href="#ref-for-registry-table①⑤">(6)</a>
-    <li><a href="#ref-for-registry-table①⑥">6.4.5. 
+    <li><a href="#ref-for-registry-table①⑥">6.4.4. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-registry-table①⑦">6.4.6.2. 
+    <li><a href="#ref-for-registry-table①⑦">6.4.5.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-registry-table①⑧">6.4.6.3. 
+    <li><a href="#ref-for-registry-table①⑧">6.4.5.3. 
 W3C Registry</a>
    </ul>
   </aside>
@@ -5767,8 +5745,6 @@ Classes of Changes</a>
 Registry Definitions</a>
     <li><a href="#ref-for-registry-entry②">6.4.3. 
 Specifications that Reference Registries</a>
-    <li><a href="#ref-for-registry-entry③">6.4.4. 
-Specifications that Reference Registries</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="registry-definition">
@@ -5780,13 +5756,13 @@ Registries</a>
 Registry Definitions</a>
     <li><a href="#ref-for-registry-definition②">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-registry-definition③">(2)</a> <a href="#ref-for-registry-definition④">(3)</a>
-    <li><a href="#ref-for-registry-definition⑤">6.4.5. 
+    <li><a href="#ref-for-registry-definition⑤">6.4.4. 
 Updating Registry Tables</a> <a href="#ref-for-registry-definition⑥">(2)</a>
-    <li><a href="#ref-for-registry-definition⑦">6.4.6.1. 
+    <li><a href="#ref-for-registry-definition⑦">6.4.5.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-registry-definition⑧">6.4.6.2. 
+    <li><a href="#ref-for-registry-definition⑧">6.4.5.2. 
 Proposed Registry</a>
-    <li><a href="#ref-for-registry-definition⑨">6.4.6.3. 
+    <li><a href="#ref-for-registry-definition⑨">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-registry-definition①⓪">(2)</a>
    </ul>
   </aside>
@@ -5799,9 +5775,9 @@ Registries</a>
 Registry Definitions</a> <a href="#ref-for-custodian②">(2)</a>
     <li><a href="#ref-for-custodian③">6.4.2. 
 Publishing Registries</a>
-    <li><a href="#ref-for-custodian④">6.4.5. 
+    <li><a href="#ref-for-custodian④">6.4.4. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-custodian⑤">6.4.6.3. 
+    <li><a href="#ref-for-custodian⑤">6.4.5.3. 
 W3C Registry</a>
    </ul>
   </aside>
@@ -5812,9 +5788,9 @@ W3C Registry</a>
 W3C Technical Reports</a> <a href="#ref-for-registry-report①">(2)</a>
     <li><a href="#ref-for-registry-report②">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-registry-report③">(2)</a> <a href="#ref-for-registry-report④">(3)</a> <a href="#ref-for-registry-report⑤">(4)</a>
-    <li><a href="#ref-for-registry-report⑥">6.4.6.2. 
+    <li><a href="#ref-for-registry-report⑥">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-registry-report⑦">(2)</a> <a href="#ref-for-registry-report⑧">(3)</a> <a href="#ref-for-registry-report⑨">(4)</a>
-    <li><a href="#ref-for-registry-report①⓪">6.4.6.3. 
+    <li><a href="#ref-for-registry-report①⓪">6.4.5.3. 
 W3C Registry</a>
    </ul>
   </aside>
@@ -5835,39 +5811,39 @@ Publishing Registries</a>
   <aside class="dfn-panel" data-for="draft-registry">
    <b><a href="#draft-registry">#draft-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-draft-registry">6.4.6. 
+    <li><a href="#ref-for-draft-registry">6.4.5. 
 Maturity Levels of Registry Reports</a>
-    <li><a href="#ref-for-draft-registry①">6.4.6.1. 
+    <li><a href="#ref-for-draft-registry①">6.4.5.1. 
 Draft Registry</a> <a href="#ref-for-draft-registry②">(2)</a> <a href="#ref-for-draft-registry③">(3)</a> <a href="#ref-for-draft-registry④">(4)</a> <a href="#ref-for-draft-registry⑤">(5)</a> <a href="#ref-for-draft-registry⑥">(6)</a> <a href="#ref-for-draft-registry⑦">(7)</a> <a href="#ref-for-draft-registry⑧">(8)</a> <a href="#ref-for-draft-registry⑨">(9)</a>
-    <li><a href="#ref-for-draft-registry①⓪">6.4.6.2. 
+    <li><a href="#ref-for-draft-registry①⓪">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-draft-registry①①">(2)</a> <a href="#ref-for-draft-registry①②">(3)</a> <a href="#ref-for-draft-registry①③">(4)</a>
-    <li><a href="#ref-for-draft-registry①④">6.4.6.3. 
+    <li><a href="#ref-for-draft-registry①④">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-draft-registry①⑤">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="proposed-registry">
    <b><a href="#proposed-registry">#proposed-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-proposed-registry">6.4.6. 
+    <li><a href="#ref-for-proposed-registry">6.4.5. 
 Maturity Levels of Registry Reports</a>
-    <li><a href="#ref-for-proposed-registry①">6.4.6.1. 
+    <li><a href="#ref-for-proposed-registry①">6.4.5.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-proposed-registry②">6.4.6.2. 
+    <li><a href="#ref-for-proposed-registry②">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-proposed-registry③">(2)</a> <a href="#ref-for-proposed-registry④">(3)</a> <a href="#ref-for-proposed-registry⑤">(4)</a> <a href="#ref-for-proposed-registry⑥">(5)</a> <a href="#ref-for-proposed-registry⑦">(6)</a> <a href="#ref-for-proposed-registry⑧">(7)</a> <a href="#ref-for-proposed-registry⑨">(8)</a> <a href="#ref-for-proposed-registry①⓪">(9)</a> <a href="#ref-for-proposed-registry①①">(10)</a> <a href="#ref-for-proposed-registry①②">(11)</a> <a href="#ref-for-proposed-registry①③">(12)</a> <a href="#ref-for-proposed-registry①④">(13)</a> <a href="#ref-for-proposed-registry①⑤">(14)</a>
-    <li><a href="#ref-for-proposed-registry①⑥">6.4.6.3. 
+    <li><a href="#ref-for-proposed-registry①⑥">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-proposed-registry①⑦">(2)</a> <a href="#ref-for-proposed-registry①⑧">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="w3c-registry">
    <b><a href="#w3c-registry">#w3c-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-w3c-registry">6.4.6. 
+    <li><a href="#ref-for-w3c-registry">6.4.5. 
 Maturity Levels of Registry Reports</a>
-    <li><a href="#ref-for-w3c-registry①">6.4.6.1. 
+    <li><a href="#ref-for-w3c-registry①">6.4.5.1. 
 Draft Registry</a> <a href="#ref-for-w3c-registry②">(2)</a>
-    <li><a href="#ref-for-w3c-registry③">6.4.6.2. 
+    <li><a href="#ref-for-w3c-registry③">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-w3c-registry④">(2)</a> <a href="#ref-for-w3c-registry⑤">(3)</a> <a href="#ref-for-w3c-registry⑥">(4)</a> <a href="#ref-for-w3c-registry⑦">(5)</a> <a href="#ref-for-w3c-registry⑧">(6)</a>
-    <li><a href="#ref-for-w3c-registry⑨">6.4.6.3. 
+    <li><a href="#ref-for-w3c-registry⑨">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-w3c-registry①⓪">(2)</a> <a href="#ref-for-w3c-registry①①">(3)</a> <a href="#ref-for-w3c-registry①②">(4)</a> <a href="#ref-for-w3c-registry①③">(5)</a> <a href="#ref-for-w3c-registry①④">(6)</a> <a href="#ref-for-w3c-registry①⑤">(7)</a> <a href="#ref-for-w3c-registry①⑥">(8)</a> <a href="#ref-for-w3c-registry①⑦">(9)</a> <a href="#ref-for-w3c-registry①⑧">(10)</a> <a href="#ref-for-w3c-registry①⑨">(11)</a> <a href="#ref-for-w3c-registry②⓪">(12)</a>
    </ul>
   </aside>
@@ -5878,7 +5854,7 @@ W3C Registry</a> <a href="#ref-for-w3c-registry①⓪">(2)</a> <a href="#ref-for
 Transitioning to W3C Recommendation</a> <a href="#ref-for-def-w3c-decision①">(2)</a>
     <li><a href="#ref-for-def-w3c-decision②">6.2.11.5. 
 Incorporating Candidate Amendments</a>
-    <li><a href="#ref-for-def-w3c-decision③">6.4.6.3. 
+    <li><a href="#ref-for-def-w3c-decision③">6.4.5.3. 
 W3C Registry</a> <a href="#ref-for-def-w3c-decision④">(2)</a>
     <li><a href="#ref-for-def-w3c-decision⑤">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
@@ -5905,9 +5881,9 @@ Transitioning to Proposed Recommendation</a> <a href="#ref-for-advisory-committe
 Incorporating Candidate Amendments</a> <a href="#ref-for-advisory-committee-review⑥">(2)</a>
     <li><a href="#ref-for-advisory-committee-review⑦">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-advisory-committee-review⑧">(2)</a>
-    <li><a href="#ref-for-advisory-committee-review⑨">6.4.5. 
+    <li><a href="#ref-for-advisory-committee-review⑨">6.4.4. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-advisory-committee-review①⓪">6.4.6.2. 
+    <li><a href="#ref-for-advisory-committee-review①⓪">6.4.5.2. 
 Proposed Registry</a> <a href="#ref-for-advisory-committee-review①①">(2)</a> <a href="#ref-for-advisory-committee-review①②">(3)</a> <a href="#ref-for-advisory-committee-review①③">(4)</a>
     <li><a href="#ref-for-advisory-committee-review①④">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
@@ -5937,7 +5913,7 @@ Transitioning to Proposed Recommendation</a>
 Transitioning to W3C Recommendation</a>
     <li><a href="#ref-for-advisory-committee-appeal②">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
-    <li><a href="#ref-for-advisory-committee-appeal③">6.4.6.3. 
+    <li><a href="#ref-for-advisory-committee-appeal③">6.4.5.3. 
 W3C Registry</a>
     <li><a href="#ref-for-advisory-committee-appeal④">7. 
 Advisory Committee Reviews, Appeals, and Votes</a>
