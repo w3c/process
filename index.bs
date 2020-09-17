@@ -4028,19 +4028,19 @@ Registry Definitions</h4>
 			etc.)
 
 		<li>
-			Define what kind of changes are allowed,
-			as well as the method and criteria by which they are proposed, approved, and incorporated.
+			 Define the policy for changes to existing entries, such as
+			<ul>
+				<li>whether entries can be deleted or deprecated
+				<li>whether entries be changed after being published, and what kinds of changes are allowed
+				<li>whether previously-deleted unique identifiers can be re-used, or are reserved indefinitely
+			</ul>
+
+		<li>
+			Define the method and criteria by which changes are proposed, approved, and incorporated.
 			(For example, a [=registry=] could define
 			that changes to [=registry entries=] can be proposed using a particular web form or email address,
+			that they must be accompanied by certain background information,
 			or that they do or do not need to be approved by any member of a particular Working Group.)
-			Specifically:
-			<ul>
-				<li>can entries be retired (deleted) or deprecated?
-				<li>can entries be changed after being published?
-				<li>
-					if entries can be deleted, can any code-points be re-used,
-					or are they reserved indefinitely?
-			</ul>
 
 		<li>
 			Identify the <dfn>custodian</dfn> of the [=registry table=]:
