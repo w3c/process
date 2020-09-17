@@ -4024,8 +4024,9 @@ Registry Reports</h4>
 	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
 	<ul>
 		<li>
-			Clearly label the [=registry report=]/[=registry section|section=]
-			and its [=registry tables|tables=] as such,
+			Clearly label the [=registry report=]/[=registry section|section=],
+			its [=registry tables|tables=],
+			and its [=Registry Definitions=] as such,
 			including a link to this section of the Process.
 
 		<li>
@@ -4074,11 +4075,19 @@ Registry Definitions</h4>
 			etc.)
 
 		<li>
-			Define the method and critera by which changes are proposed, approved, and incorporated.
+			Define what kind of changes are allowed,
+			as well as the method and criteria by which they are proposed, approved, and incorporated.
 			(For example, a [=registry=] could define
 			that changes to [=registry entries=] can be proposed using a particular web form or email address,
-			that [=registry entries=] can be added but not changed,
 			or that they do or do not need to be approved by any member of a particular Working Group.)
+			Specifically:
+			<ul>
+				<li>can entries be retired (deleted) or deprecated?
+				<li>can entries be changed after being published?
+				<li>
+					if entries can be deleted, can any code-points be re-used,
+					or are they reserved indefinitely?
+			</ul>
 
 		<li>
 			Identify the <dfn>custodian</dfn> of the [=registry table=]:
