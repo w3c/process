@@ -1496,7 +1496,7 @@ Tooling</h3>
 	and across time.
 	Thus in order to allow all would-be participants to effectively participate,
 	to allow future participants and observers to understand the rationale and origins of current decisions,
-	and to guarantee long lived access to its publications,
+	and to guarantee long-lived access to its publications,
 	W3C requires that:
 
 	<ul>
@@ -1539,7 +1539,7 @@ Tooling</h3>
 			<em class=rfc2119>must</em> be archived by W3C for future reference.
 			This includes discussions conducted over email lists
 			or in issue-tracking services
-			or any equivalent fora.
+			or any equivalent forum.
 			For fora whose archive exists on a domain separate from its active operations,
 			the archive <em class=rfc2119>must</em> be available at the same level of confidentiality.
 
