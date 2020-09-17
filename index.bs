@@ -4054,8 +4054,8 @@ Registry Definitions</h4>
 
 	</ul>
 
-<h4 id=reg-contents>
-Registry Reports</h4>
+<h4 id=reg-pub>
+Publishing Registries</h4>
 
 	[=Registries=] can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
 	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
