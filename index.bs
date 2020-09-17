@@ -4071,7 +4071,7 @@ Publishing Registries</h4>
 			Clearly label the [=registry report=]/[=registry section|section=],
 			its [=registry tables|tables=],
 			and its [=Registry Definitions=] as such,
-			including a link to this section of the Process.
+			including a link to [[#registries]] in this Process.
 
 		<li>
 			Include the [=Registry Definition=] for each of its [=registry tables=].
