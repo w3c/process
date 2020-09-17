@@ -4012,8 +4012,8 @@ Registries</h3>
 <h4 id=reg-def>
 Registry Definitions</h4>
 
-	The <dfn>Registry Definition</dfn>
-	define what each [=registry table=] is and how it is maintained.
+	A <dfn>Registry Definition</dfn>
+	defines what each [=registry table=] is and how it is maintained.
 	It <em class=rfc2119>must</em>:
 
 	<ul>
