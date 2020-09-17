@@ -8,7 +8,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 5f7b0e20, updated Tue Aug 18 15:46:28 2020 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="36771c54f9b80f022f04d0bddabdcc5af2718c17" name="document-revision">
+  <meta content="5e828ed1f3311911d330dd90ca67affa6e0da0b9" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -3319,18 +3319,17 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 			or only reference publicly available resources,
 			etc.) 
     <li>
-      Define what kind of changes are allowed,
-			as well as the method and criteria by which they are proposed, approved, and incorporated.
+      Define the policy for changes to existing entries, such as 
+     <ul>
+      <li>whether entries can be deleted or deprecated 
+      <li>whether entries be changed after being published, and what kinds of changes are allowed 
+      <li>whether previously-deleted unique identifiers can be re-used, or are reserved indefinitely 
+     </ul>
+    <li> Define the method and criteria by which changes are proposed, approved, and incorporated.
 			(For example, a <a data-link-type="dfn" href="#registry" id="ref-for-registry③">registry</a> could define
 			that changes to <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry①">registry entries</a> can be proposed using a particular web form or email address,
-			or that they do or do not need to be approved by any member of a particular Working Group.)
-			Specifically: 
-     <ul>
-      <li>can entries be retired (deleted) or deprecated? 
-      <li>can entries be changed after being published? 
-      <li> if entries can be deleted, can any code-points be re-used,
-					or are they reserved indefinitely? 
-     </ul>
+			that they must be accompanied by certain background information,
+			or that they do or do not need to be approved by any member of a particular Working Group.) 
     <li>
       Identify the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="custodian">custodian</dfn> of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑧">registry table</a>:
 			the entity to which requests for <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change">registry changes</a> must be sent,
@@ -3340,18 +3339,17 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry tables</a> in a single <a data-link-type="dfn" href="#registry" id="ref-for-registry④">registry</a> <em class="rfc2119">should</em> generally be the same entity.</p>
    </ul>
    <h4 class="heading settled" data-level="6.4.2" id="reg-pub"><span class="secno">6.4.2. </span><span class="content"> Publishing Registries</span><a class="self-link" href="#reg-pub"></a></h4>
-   <p><a data-link-type="dfn" href="#registry" id="ref-for-registry⑤">Registries</a> can be published either as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑤">technical report</a> called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>,
+   <p><a data-link-type="dfn" href="#registry" id="ref-for-registry⑤">Registries</a> can be published either as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑤">technical report</a> on the <a data-link-type="dfn" href="#registry-track" id="ref-for-registry-track">Registry Track</a> called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>,
 	or incorporated as part of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑦⓪">Recommendation</a> as a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-section">registry section</dfn>.</p>
    <p>A <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report②">registry report</a> or <a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section">registry section</a>,
-	is purely documentational, <em class="rfc2119">must not</em> contain any requirements on implementers,
-	and is not subject to
-	the licensing commitments of the W3C Patent Policy.</p>
+	is purely documentational, <em class="rfc2119">must not</em> contain any requirements on implementations,
+	and is not subject to the W3C Patent Policy.</p>
    <p>The <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report③">registry report</a> or <a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section①">registry section</a> <em class="rfc2119">must</em>:</p>
    <ul>
     <li> Clearly label the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report④">registry report</a>/<a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section②">section</a>,
 			its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">tables</a>,
 			and its <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition②">Registry Definitions</a> as such,
-			including a link to this section of the Process. 
+			including a link to <a href="#registries">§ 6.4 Registries</a> in this Process. 
     <li> Include the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition③">Registry Definition</a> for each of its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①①">registry tables</a>. 
     <li> Include the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①②">registry table</a>,
 			either inline in the report
@@ -3403,24 +3401,33 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	even in the absence of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧③">Working Group</a> chartered to maintain the registry
 	when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian④">custodian</a> is another entity.</p>
    <h4 class="heading settled" data-level="6.4.5" id="reg-maturity"><span class="secno">6.4.5. </span><span class="content"> Maturity Levels of Registry Reports</span><a class="self-link" href="#reg-maturity"></a></h4>
+   <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="registry-track">Registry Track</dfn> consists of:</p>
+   <ol>
+    <li data-md>
+     <p><a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry">Draft Registries</a></p>
+    <li data-md>
+     <p><a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry">Proposed Registries</a></p>
+    <li data-md>
+     <p><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registries</a></p>
+   </ol>
    <h5 class="heading settled" data-level="6.4.5.1" id="draft-reg"><span class="secno">6.4.5.1. </span><span class="content"> Draft Registry</span><a class="self-link" href="#draft-reg"></a></h5>
-   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="draft-registry">Draft Registry</dfn> is a document that is intended to become a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registry</a>,
+   <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="draft-registry">Draft Registry</dfn> is a document that is intended to become a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①">W3C Registry</a>,
 	and that has been published for review by the community,
 	including W3C Members, the public,
-	and other technical organizations. <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry">Draft Registries</a> do not necessarily represent a consensus of the Working Group with respect to their content,
+	and other technical organizations. <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①">Draft Registries</a> do not necessarily represent a consensus of the Working Group with respect to their content,
 	and do not imply any endorsement by W3C
 	or its members beyond agreement to work on a general area of technology.
-	Nevertheless the Working Group decided to adopt the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①">Draft Registry</a> as the basis for their work at the time of publication.
-	A <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry②">Draft Registry</a> is suitable for gathering wide review prior to advancing to the next stage of maturity.</p>
+	Nevertheless the Working Group decided to adopt the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry②">Draft Registry</a> as the basis for their work at the time of publication.
+	A <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry③">Draft Registry</a> is suitable for gathering wide review prior to advancing to the next stage of maturity.</p>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④④">Team</a> <em class="rfc2119">must</em> announce
-	the publication of the first published <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry③">Draft Registry</a> to other W3C groups and to the public.</p>
-   <p><a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change④">Registry changes</a> can be made by simply re-publishing the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry④">Draft Registry</a> so long as they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑦">Registry Definition</a>.
-	Additionally, any aspect of a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑤">Draft Registry</a> can be <a href="#revising-wd">revised</a> in the same manner as a <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑤">Working Draft</a>.</p>
-   <p>Any <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑥">Draft Registry</a> no longer intended to advance to <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①">W3C Registry</a> should be published as a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①④">Working Group Note</a>.</p>
-   <p>Possible next steps for a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑦">Draft Registry</a>:</p>
+	the publication of the first published <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry④">Draft Registry</a> to other W3C groups and to the public.</p>
+   <p><a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change④">Registry changes</a> can be made by simply re-publishing the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑤">Draft Registry</a> so long as they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑦">Registry Definition</a>.
+	Additionally, any aspect of a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑥">Draft Registry</a> can be <a href="#revising-wd">revised</a> in the same manner as a <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑤">Working Draft</a>.</p>
+   <p>Any <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑦">Draft Registry</a> no longer intended to advance to <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry②">W3C Registry</a> should be published as a <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①④">Working Group Note</a>.</p>
+   <p>Possible next steps for a <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑧">Draft Registry</a>:</p>
    <ul>
-    <li>Revised <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑧">Draft Registry</a> 
-    <li><a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry">Proposed Registry</a> 
+    <li>Revised <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑨">Draft Registry</a> 
+    <li><a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①">Proposed Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑤">Working Group Note</a> 
    </ul>
    <h5 class="heading settled" data-level="6.4.5.2" id="proposed-reg"><span class="secno">6.4.5.2. </span><span class="content"> Proposed Registry</span><a class="self-link" href="#proposed-reg"></a></h5>
@@ -3428,17 +3435,17 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	that satisfies the technical requirements
 	of the Working Group that produced it
 	and their dependencies.</p>
-   <p>W3C publishes a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①">Proposed Registry</a> to trigger formal review by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a>,
+   <p>W3C publishes a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry②">Proposed Registry</a> to trigger formal review by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a>,
 	who <em class="rfc2119">may</em> recommend
-	that the document be published as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry②">W3C Registry</a>,
+	that the document be published as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry③">W3C Registry</a>,
 	returned to the Working Group for further work,
 	or abandoned.</p>
-   <p>Substantive changes <em class="rfc2119">must not</em> be made to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry②">Proposed Registry</a> except by publishing a new <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry⑨">Draft Registry</a>,
-	or by publishing a new <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry③">Proposed Registry</a> and calling for a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⓪">Advisory Committee Review</a>.
+   <p>Substantive changes <em class="rfc2119">must not</em> be made to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry③">Proposed Registry</a> except by publishing a new <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①⓪">Draft Registry</a>,
+	or by publishing a new <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry④">Proposed Registry</a> and calling for a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⓪">Advisory Committee Review</a>.
 	However, changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑦">registry table</a> (i.e. <a href="#correction-classes">Class 5 changes</a>)
-	can be made by re-publishing the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry④">Proposed Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑧">Registry Definition</a>.
-	These changes do not trigger a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①①">Advisory Committee Review</a> (since they would be allowed without review in the final <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry③">W3C Registry</a> anyway).</p>
-   <p>To publish a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑤">Proposed Registry</a>,
+	can be made by re-publishing the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑤">Proposed Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑧">Registry Definition</a>.
+	These changes do not trigger a new <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①①">Advisory Committee Review</a> (since they would be allowed without review in the final <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry④">W3C Registry</a> anyway).</p>
+   <p>To publish a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑥">Proposed Registry</a>,
 	in addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,
 	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧④">Working Group</a>:</p>
    <ul>
@@ -3448,33 +3455,33 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 			during the development of the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑦">registry report</a>, 
     <li> <em class="rfc2119">must</em> show that the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑧">registry report</a> has received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review⑦">wide review</a>, and 
     <li> <em class="rfc2119">must</em> show that all issues
-			raised during the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①⓪">Draft Registry</a> review period
+			raised during the <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①①">Draft Registry</a> review period
 			have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑧">formally addressed</a>, 
     <li> <em class="rfc2119">must</em> specify in the status section
 			the deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①②">Advisory Committee review</a>,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days
-			after the publication of the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑥">Proposed Registry</a>. 
+			after the publication of the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑦">Proposed Registry</a>. 
    </ul>
-   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑦">Proposed Registry</a> to the <a href="#AC">Advisory Committee</a>,
-	and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee Review</a> on the question of whether the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑨">registry report</a> is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑥">publish</a> as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry④">W3C Registry</a>.</p>
-   <p>Since a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑤">W3C Registry</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①①">substantive changes</a> from the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑧">Proposed Registry</a> it is based on,
-	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①②">substantive change</a> to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑨">Proposed Registry</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑥">Working Group</a> <em class="rfc2119">must</em> publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⓪">Proposed Registry</a> or return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①①">Draft Registry</a>.</p>
-   <p class="note" role="note"><span>Note:</span> Advancing to <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①①">Proposed Registry</a> indicates
+   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑧">Proposed Registry</a> to the <a href="#AC">Advisory Committee</a>,
+	and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee Review</a> on the question of whether the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑨">registry report</a> is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⑥">publish</a> as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑤">W3C Registry</a>.</p>
+   <p>Since a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑥">W3C Registry</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①①">substantive changes</a> from the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry⑨">Proposed Registry</a> it is based on,
+	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①②">substantive change</a> to a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⓪">Proposed Registry</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑥">Working Group</a> <em class="rfc2119">must</em> publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①①">Proposed Registry</a> or return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①②">Draft Registry</a>.</p>
+   <p class="note" role="note"><span>Note:</span> Advancing to <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①②">Proposed Registry</a> indicates
 	that no further improvement is expected,
 	other than <a href="#correction-classes">changes to the contents of registry tables</a>.
-	A <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①②">Proposed Registry</a> is expected to be as well-written,
+	A <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①③">Proposed Registry</a> is expected to be as well-written,
 	detailed,
 	self-consistent,
 	and technically complete
-	as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑥">W3C Registry</a>,
+	as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑦">W3C Registry</a>,
 	and acceptable as such as soon as the AC completes its review.
 	Announcement of a different next step should include the reasons
 	why the change in expectations comes at so late a stage.</p>
-   <p>Possible next steps for a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①③">Proposed Registry</a>:</p>
+   <p>Possible next steps for a <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①④">Proposed Registry</a>:</p>
    <ul>
-    <li>Return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①②">Draft Registry</a> 
-    <li>Revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①④">Proposed Registry</a> 
-    <li><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑦">W3C Registry</a> 
+    <li>Return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①③">Draft Registry</a> 
+    <li>Revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑤">Proposed Registry</a> 
+    <li><a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑧">W3C Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑥">Working Group Note</a> 
    </ul>
    <h5 class="heading settled" data-level="6.4.5.3" id="rec-reg"><span class="secno">6.4.5.3. </span><span class="content"> W3C Registry</span><a class="self-link" href="#rec-reg"></a></h5>
@@ -3483,35 +3490,35 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	has received the endorsement of the W3C.
 	W3C recommends the wide use
 	of its Registries in support of standards for the Web.</p>
-   <p>The decision to advance a document to <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑧">W3C Registry</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision③">W3C Decision</a>.</p>
+   <p>The decision to advance a document to <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑨">W3C Registry</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision③">W3C Decision</a>.</p>
    <p>In addition to meeting the <a href="#transition-reqs">general requirements for advancement</a>,</p>
    <ul>
-    <li> A <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry⑨">W3C Registry</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
-    <li> A <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⓪">W3C Registry</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①③">substantive changes</a> from the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑤">Proposed Registry</a> on which it is based. 
+    <li> A <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⓪">W3C Registry</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
+    <li> A <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①①">W3C Registry</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①③">substantive changes</a> from the <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑥">Proposed Registry</a> on which it is based. 
     <li> If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> in Advisory Committee reviews,
 			the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②④">Director</a> <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑨">formally address</a> the comment
-			at least 14 days before publication as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①①">W3C Registry</a>. 
+			at least 14 days before publication as a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①②">W3C Registry</a>. 
     <li> <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②①">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate
 			an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal③">Advisory Committee Appeal</a> of the <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision④">W3C decision</a> 
-    <li> The <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①②">W3C Registry</a> to <a href="#AC">Advisory Committee</a>,
+    <li> The <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①③">W3C Registry</a> to <a href="#AC">Advisory Committee</a>,
 			other W3C groups
 			and to the public. 
    </ul>
    <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑧">registry table</a> (i.e. <a href="#correction-classes">Class 5 changes</a>)
-	can be made by re-publishing the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①③">W3C Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑨">Registry Definition</a>.
+	can be made by re-publishing the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①④">W3C Registry</a> if they are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑨">Registry Definition</a>.
 	Such publications can be made even in the absence
-	of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑦">Working Group</a> chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①④">W3C Registry</a> when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian⑤">custodian</a> is another entity.</p>
-   <p>The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑧">Working Group</a> (or the <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a>, if no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑨">Working Group</a> is chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑤">W3C Registry</a>)
-	may re-publish an updated <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑥">W3C Registry</a> to make <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑤">editorial changes</a> (i.e. <a href="#correction-classes">Class 1 or Class 2 changes</a>)
-	to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑦">W3C Registry</a>.</p>
-   <p>In order to make <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①④">substantive changes</a> to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑧">W3C Registry</a> (i.e. changes to the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①⓪">Registry Definition</a>),
-	the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨⓪">Working Group</a> must publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑥">Proposed Registry</a> or return it to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①③">Draft Registry</a>.</p>
-   <p>Possible next steps for a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑨">W3C Registry</a>:</p>
+	of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑦">Working Group</a> chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑤">W3C Registry</a> when the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian⑤">custodian</a> is another entity.</p>
+   <p>The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑧">Working Group</a> (or the <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a>, if no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑨">Working Group</a> is chartered to maintain the <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑥">W3C Registry</a>)
+	may re-publish an updated <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑦">W3C Registry</a> to make <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑤">editorial changes</a> (i.e. <a href="#correction-classes">Class 1 or Class 2 changes</a>)
+	to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑧">W3C Registry</a>.</p>
+   <p>In order to make <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①④">substantive changes</a> to a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry①⑨">W3C Registry</a> (i.e. changes to the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①⓪">Registry Definition</a>),
+	the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨⓪">Working Group</a> must publish a revised <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑦">Proposed Registry</a> or return it to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①④">Draft Registry</a>.</p>
+   <p>Possible next steps for a <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry②⓪">W3C Registry</a>:</p>
    <ul>
-    <li>Return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①④">Draft Registry</a> 
-    <li>Return to <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑦">Proposed Registry</a> 
+    <li>Return to <a data-link-type="dfn" href="#draft-registry" id="ref-for-draft-registry①⑤">Draft Registry</a> 
+    <li>Return to <a data-link-type="dfn" href="#proposed-registry" id="ref-for-proposed-registry①⑧">Proposed Registry</a> 
     <li><a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑦">Working Group Note</a> 
    </ul>
    <h3 class="heading settled" data-level="6.5" id="further-reading"><span class="secno">6.5. </span><span class="content"> Further reading</span><a class="self-link" href="#further-reading"></a></h3>
@@ -4306,6 +4313,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <li><a href="#registry-report">registry report</a><span>, in §6.4.2</span>
      <li><a href="#registry-section">registry section</a><span>, in §6.4.2</span>
      <li><a href="#registry-table">registry table</a><span>, in §6.4</span>
+     <li><a href="#registry-track">Registry Track</a><span>, in §6.4.5</span>
      <li><a href="#related-member">Related Member</a><span>, in §2.1.2.2</span>
      <li><a href="#rescinded-candidate-recommendation">Rescinded Candidate Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#RescindedRec">Rescinded Recommendation</a><span>, in §6.2.1</span>
@@ -5793,37 +5801,50 @@ W3C Registry</a>
 Publishing Registries</a> <a href="#ref-for-registry-section①">(2)</a> <a href="#ref-for-registry-section②">(3)</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="registry-track">
+   <b><a href="#registry-track">#registry-track</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-registry-track">6.4.2. 
+Publishing Registries</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="draft-registry">
    <b><a href="#draft-registry">#draft-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-draft-registry">6.4.5.1. 
-Draft Registry</a> <a href="#ref-for-draft-registry①">(2)</a> <a href="#ref-for-draft-registry②">(3)</a> <a href="#ref-for-draft-registry③">(4)</a> <a href="#ref-for-draft-registry④">(5)</a> <a href="#ref-for-draft-registry⑤">(6)</a> <a href="#ref-for-draft-registry⑥">(7)</a> <a href="#ref-for-draft-registry⑦">(8)</a> <a href="#ref-for-draft-registry⑧">(9)</a>
-    <li><a href="#ref-for-draft-registry⑨">6.4.5.2. 
-Proposed Registry</a> <a href="#ref-for-draft-registry①⓪">(2)</a> <a href="#ref-for-draft-registry①①">(3)</a> <a href="#ref-for-draft-registry①②">(4)</a>
-    <li><a href="#ref-for-draft-registry①③">6.4.5.3. 
-W3C Registry</a> <a href="#ref-for-draft-registry①④">(2)</a>
+    <li><a href="#ref-for-draft-registry">6.4.5. 
+Maturity Levels of Registry Reports</a>
+    <li><a href="#ref-for-draft-registry①">6.4.5.1. 
+Draft Registry</a> <a href="#ref-for-draft-registry②">(2)</a> <a href="#ref-for-draft-registry③">(3)</a> <a href="#ref-for-draft-registry④">(4)</a> <a href="#ref-for-draft-registry⑤">(5)</a> <a href="#ref-for-draft-registry⑥">(6)</a> <a href="#ref-for-draft-registry⑦">(7)</a> <a href="#ref-for-draft-registry⑧">(8)</a> <a href="#ref-for-draft-registry⑨">(9)</a>
+    <li><a href="#ref-for-draft-registry①⓪">6.4.5.2. 
+Proposed Registry</a> <a href="#ref-for-draft-registry①①">(2)</a> <a href="#ref-for-draft-registry①②">(3)</a> <a href="#ref-for-draft-registry①③">(4)</a>
+    <li><a href="#ref-for-draft-registry①④">6.4.5.3. 
+W3C Registry</a> <a href="#ref-for-draft-registry①⑤">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="proposed-registry">
    <b><a href="#proposed-registry">#proposed-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-proposed-registry">6.4.5.1. 
+    <li><a href="#ref-for-proposed-registry">6.4.5. 
+Maturity Levels of Registry Reports</a>
+    <li><a href="#ref-for-proposed-registry①">6.4.5.1. 
 Draft Registry</a>
-    <li><a href="#ref-for-proposed-registry①">6.4.5.2. 
-Proposed Registry</a> <a href="#ref-for-proposed-registry②">(2)</a> <a href="#ref-for-proposed-registry③">(3)</a> <a href="#ref-for-proposed-registry④">(4)</a> <a href="#ref-for-proposed-registry⑤">(5)</a> <a href="#ref-for-proposed-registry⑥">(6)</a> <a href="#ref-for-proposed-registry⑦">(7)</a> <a href="#ref-for-proposed-registry⑧">(8)</a> <a href="#ref-for-proposed-registry⑨">(9)</a> <a href="#ref-for-proposed-registry①⓪">(10)</a> <a href="#ref-for-proposed-registry①①">(11)</a> <a href="#ref-for-proposed-registry①②">(12)</a> <a href="#ref-for-proposed-registry①③">(13)</a> <a href="#ref-for-proposed-registry①④">(14)</a>
-    <li><a href="#ref-for-proposed-registry①⑤">6.4.5.3. 
-W3C Registry</a> <a href="#ref-for-proposed-registry①⑥">(2)</a> <a href="#ref-for-proposed-registry①⑦">(3)</a>
+    <li><a href="#ref-for-proposed-registry②">6.4.5.2. 
+Proposed Registry</a> <a href="#ref-for-proposed-registry③">(2)</a> <a href="#ref-for-proposed-registry④">(3)</a> <a href="#ref-for-proposed-registry⑤">(4)</a> <a href="#ref-for-proposed-registry⑥">(5)</a> <a href="#ref-for-proposed-registry⑦">(6)</a> <a href="#ref-for-proposed-registry⑧">(7)</a> <a href="#ref-for-proposed-registry⑨">(8)</a> <a href="#ref-for-proposed-registry①⓪">(9)</a> <a href="#ref-for-proposed-registry①①">(10)</a> <a href="#ref-for-proposed-registry①②">(11)</a> <a href="#ref-for-proposed-registry①③">(12)</a> <a href="#ref-for-proposed-registry①④">(13)</a> <a href="#ref-for-proposed-registry①⑤">(14)</a>
+    <li><a href="#ref-for-proposed-registry①⑥">6.4.5.3. 
+W3C Registry</a> <a href="#ref-for-proposed-registry①⑦">(2)</a> <a href="#ref-for-proposed-registry①⑧">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="w3c-registry">
    <b><a href="#w3c-registry">#w3c-registry</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-w3c-registry">6.4.5.1. 
-Draft Registry</a> <a href="#ref-for-w3c-registry①">(2)</a>
-    <li><a href="#ref-for-w3c-registry②">6.4.5.2. 
-Proposed Registry</a> <a href="#ref-for-w3c-registry③">(2)</a> <a href="#ref-for-w3c-registry④">(3)</a> <a href="#ref-for-w3c-registry⑤">(4)</a> <a href="#ref-for-w3c-registry⑥">(5)</a> <a href="#ref-for-w3c-registry⑦">(6)</a>
-    <li><a href="#ref-for-w3c-registry⑧">6.4.5.3. 
-W3C Registry</a> <a href="#ref-for-w3c-registry⑨">(2)</a> <a href="#ref-for-w3c-registry①⓪">(3)</a> <a href="#ref-for-w3c-registry①①">(4)</a> <a href="#ref-for-w3c-registry①②">(5)</a> <a href="#ref-for-w3c-registry①③">(6)</a> <a href="#ref-for-w3c-registry①④">(7)</a> <a href="#ref-for-w3c-registry①⑤">(8)</a> <a href="#ref-for-w3c-registry①⑥">(9)</a> <a href="#ref-for-w3c-registry①⑦">(10)</a> <a href="#ref-for-w3c-registry①⑧">(11)</a> <a href="#ref-for-w3c-registry①⑨">(12)</a>
+    <li><a href="#ref-for-w3c-registry">6.4.5. 
+Maturity Levels of Registry Reports</a>
+    <li><a href="#ref-for-w3c-registry①">6.4.5.1. 
+Draft Registry</a> <a href="#ref-for-w3c-registry②">(2)</a>
+    <li><a href="#ref-for-w3c-registry③">6.4.5.2. 
+Proposed Registry</a> <a href="#ref-for-w3c-registry④">(2)</a> <a href="#ref-for-w3c-registry⑤">(3)</a> <a href="#ref-for-w3c-registry⑥">(4)</a> <a href="#ref-for-w3c-registry⑦">(5)</a> <a href="#ref-for-w3c-registry⑧">(6)</a>
+    <li><a href="#ref-for-w3c-registry⑨">6.4.5.3. 
+W3C Registry</a> <a href="#ref-for-w3c-registry①⓪">(2)</a> <a href="#ref-for-w3c-registry①①">(3)</a> <a href="#ref-for-w3c-registry①②">(4)</a> <a href="#ref-for-w3c-registry①③">(5)</a> <a href="#ref-for-w3c-registry①④">(6)</a> <a href="#ref-for-w3c-registry①⑤">(7)</a> <a href="#ref-for-w3c-registry①⑥">(8)</a> <a href="#ref-for-w3c-registry①⑦">(9)</a> <a href="#ref-for-w3c-registry①⑧">(10)</a> <a href="#ref-for-w3c-registry①⑨">(11)</a> <a href="#ref-for-w3c-registry②⓪">(12)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="def-w3c-decision">
