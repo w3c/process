@@ -4062,7 +4062,7 @@ Publishing Registries</h4>
 
 	A [=registry report=] or [=registry section=],
 	is purely documentational,
-	<em class=rfc2119>must not</em> contain any requirements on implementers,
+	<em class=rfc2119>must not</em> contain any requirements on implementations,
 	and is not subject to the W3C Patent Policy.
 
 	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
