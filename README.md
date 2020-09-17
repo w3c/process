@@ -31,7 +31,7 @@ The editor's draft can be viewed at [https://w3c.github.io/w3process/](https://w
 [Preview](https://w3c.github.io/w3process/registries-on-rec-track) /
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2F&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries-on-rec-track)
 
-[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries-on-rec-track)
+[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries-on-rec-track&doc2=https%3A%2F%2Fw3c.github.io%2Fw3process%2Fregistries)
 
 ----
 ## Useful searches
