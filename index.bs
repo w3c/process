@@ -4101,6 +4101,34 @@ Registry Definitions</h4>
 
 	</ul>
 
+<h4 id=reg-ref-specifications>
+Specifications that Reference Registries</h4>
+
+	All rules and statements about implementations of [=registries=]
+	<em rfc=2119>must</em> be contained in the specifications or other documents that reference the registry,
+	and are therefore subject to the processes
+	(including approval and intellectual property provisions)
+	applicable to those referencing specifications.
+
+	It <em class=rfc2119>must not</em> be possible that a change to the [=registry entries=]
+	affect the conformance of implementations to the Referencing document;
+	if there are entries that must be implemented,
+	or any other such restrictions,
+	they <em rfc=2119>must</em> be documented in the document without reference to the registry.
+
+	<div class=example>
+		For example,
+		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
+		is not acceptable;
+		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
+		Instead, the requirement must be complete in the specification,
+		directly or by reference to another specification.
+		For example
+		“All implementations must recognize the name <code>Basic-Method</code>,
+		and implement it as defined by section yy of IETF RFC xxxx”.
+		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
+	</div>
+
 <h4 id=reg-table-update>
 Updating Registry Tables</h4>
 
