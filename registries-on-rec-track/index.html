@@ -8,7 +8,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 5f7b0e20, updated Tue Aug 18 15:46:28 2020 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="1f1d6934271c7c8e5fb7ac2c0d624e8a5f743410" name="document-revision">
+  <meta content="0ce6d909eb94964625bb1a2c8f88f1bb11d3026d" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -1991,8 +1991,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 			A Registry is defined in a <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track②">Recommendation Track</a> document
 			which contains all related normative requirements.
 			A Registry is typically published in a separate <a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registry</a>,
-			although it can also be directly embedded in a <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track③">Recommendation Track</a> docum
-ent.
+			although it can also be directly embedded in a <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track③">Recommendation Track</a> document.
 			Once set up, changes to registry entries are lightweight
 			and can even be done without a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG①③">Working Group</a>.
 			See <a href="#registries">§ 6.4 Registries</a> for details. 
@@ -3315,18 +3314,17 @@ ent.
 			or only reference publicly available resources,
 			etc.) 
     <li>
-      Define what kind of changes are allowed,
-			as well as the method and criteria by which they are proposed, approved, and incorporated.
+      Define the policy for changes to existing entries, such as 
+     <ul>
+      <li>whether entries can be deleted or deprecated 
+      <li>whether entries be changed after being published, and what kinds of changes are allowed 
+      <li>whether previously-deleted unique identifiers can be re-used, or are reserved indefinitely 
+     </ul>
+    <li> Define the method and criteria by which changes are proposed, approved, and incorporated.
 			(For example, a <a data-link-type="dfn" href="#registry" id="ref-for-registry③">registry</a> could define
 			that changes to <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry①">registry entries</a> can be proposed using a particular web form or email address,
-			or that they do or do not need to be approved by any member of a particular Working Group.)
-			Specifically: 
-     <ul>
-      <li>can entries be retired (deleted) or deprecated? 
-      <li>can entries be changed after being published? 
-      <li> if entries can be deleted, can any code-points be re-used,
-					or are they reserved indefinitely? 
-     </ul>
+			that they must be accompanied by certain background information,
+			or that they do or do not need to be approved by any member of a particular Working Group.) 
     <li>
       Identify the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="custodian">custodian</dfn> of the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑧">registry table</a>:
 			the entity to which requests for <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change">registry changes</a> must be sent,
@@ -3340,15 +3338,14 @@ ent.
    <p><a data-link-type="dfn" href="#registry" id="ref-for-registry⑥">Registries</a> can be published either as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑥">technical report</a> called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>,
 	or incorporated as part of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑦⓪">Recommendation</a> as a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-section">registry section</dfn>.</p>
    <p>A <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①">registry report</a> or <a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section">registry section</a>,
-	is purely documentational, <em class="rfc2119">must not</em> contain any requirements on implementers,
-	and is not subject to
-	the licensing commitments of the W3C Patent Policy.</p>
+	is purely documentational, <em class="rfc2119">must not</em> contain any requirements on implementations,
+	and is not subject to the W3C Patent Policy.</p>
    <p>The <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report②">registry report</a> or <a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section①">registry section</a> <em class="rfc2119">must</em>:</p>
    <ul>
     <li> Clearly label the <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report③">registry report</a>/<a data-link-type="dfn" href="#registry-section" id="ref-for-registry-section②">section</a>,
 			its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">tables</a>,
 			and its <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition③">Registry Definitions</a> as such,
-			including a link to this section of the Process. 
+			including a link to <a href="#registries">§ 6.4 Registries</a> in this Process. 
     <li> Include the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①①">registry table</a>,
 			either inline in the report
 			(e.g. formatted as a table, or list, or other appropriate representation),
