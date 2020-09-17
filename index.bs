@@ -3963,7 +3963,7 @@ Registries</h3>
 	A registry has three associated components:
 	<ul>
 		<li>one or more [=registry tables=], holding the data set represented by the [=registry=]
-		<li>the [=rules of the registry=], defining how the [=registry tables=] are structured and maintained
+		<li>the [=Registry Definition=], defining how the [=registry tables=] are structured and maintained
 		<li>one or more referencing specifications, which make use of the [=registry=]
 	</ul>
 
@@ -4015,7 +4015,7 @@ Registry Reports</h4>
 			including a link to this section of the Process.
 
 		<li>
-			Define the [=rules of the registry=] for each of its [=registry tables=].
+			Define the [=Registry Definition=] for each of its [=registry tables=].
 
 		<li>
 			Include the entire contents of each [=registry table=],
@@ -4034,7 +4034,7 @@ Registry Reports</h4>
 
 	Note: Since the Process does not impose requirements
 	on changes to the contents of a [=registry table=]
-	other than those imposed by the [=rules of the registry=],
+	other than those imposed by the [=Registry Definition=],
 	acceptance of proposed [=registry changes=] on behalf of the [=custodian=] and
 	publication of an updated [=registry report=] that contains
 	only [=registry changes=] since the previous publication
@@ -4047,12 +4047,12 @@ Registry Reports</h4>
 	and is not subject to
 	the licensing commitments of the W3C Patent Policy.
 
-<h4 id=reg-rules>
-Rules of a Registry</h4>
+<h4 id=reg-def>
+Registry Definitions</h4>
 
-	The <dfn>rules of the registry</dfn>
+	The <dfn>Registry Definition</dfn>
 	define what each [=registry table=] is and how it is maintained.
-	They must:
+	It must:
 
 	<ul>
 		<li>
@@ -4076,7 +4076,7 @@ Rules of a Registry</h4>
 			Identify the <dfn>custodian</dfn> of the [=registry table=]:
 			the entity to which requests for [=registry changes=] must be sent,
 			and which is responsible for evaluating whether such requests
-			satisfy the criteria defined in the [=rules of the registry=].
+			satisfy the criteria defined in the [=Registry Definition=].
 
 			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
@@ -4087,12 +4087,12 @@ Rules of a Registry</h4>
 <h4 id=reg-table-update>
 Updating Registry Tables</h4>
 
-	As long as (and only if) they are in accordance with the [=rules of the registry=],
+	As long as (and only if) they are in accordance with the [=Registry Definition=],
 	changes to the contents of a [=registry table=]
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=technical report=] that contains the affected table,
 	without needing to satisfy any other requirements for the publication
-	(not even Working Group consensus, unless this is required by the [=rules of the registry=]).
+	(not even Working Group consensus, unless this is required by the [=Registry Definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor new Exclusion Opportunities,
 	and do not require approval via an [=update request=],
@@ -4124,7 +4124,7 @@ Draft Registry</h5>
 
 	[=Registry changes=]
 	can be made by simply re-publishing the [=Draft Registry=]
-	so long as they are in accordance with the [=rules of the registry=].
+	so long as they are in accordance with the [=Registry Definition=].
 	Additionally, any aspect of a [=Draft Registry=]
 	can be [[#revising-wd|revised]] in the same manner as a [=Working Draft=].
 
@@ -4161,7 +4161,7 @@ Proposed Registry</h5>
 	However, changes to the contents of a [=registry table=]
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=Proposed Registry=]
-	if they are in accordance with the [=rules of the registry=].
+	if they are in accordance with the [=Registry Definition=].
 	These changes do not trigger a new [=Advisory Committee Review=]
 	(since they would be allowed without review in the final [=W3C Registry=] anyway).
 
@@ -4274,7 +4274,7 @@ W3C Registry</h5>
 	Changes to the contents of a [=registry table=]
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=W3C Registry=]
-	if they are in accordance with the [=rules of the registry=].
+	if they are in accordance with the [=Registry Definition=].
 	Such publications can be made even in the absence
 	of a [=Working Group=] chartered to maintain the [=W3C Registry=]
 	when the [=custodian=] is another entity.
@@ -4287,7 +4287,7 @@ W3C Registry</h5>
 	to a [=W3C Registry=].
 
 	In order to make [=substantive changes=] to a [=W3C Registry=]
-	(i.e. changes to the [=rules of the registry=]),
+	(i.e. changes to the [=Registry Definition=]),
 	the [=Working Group=] must publish a revised [=Proposed Registry=]
 	or return it to [=Draft Registry=].
 
