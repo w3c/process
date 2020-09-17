@@ -2295,9 +2295,8 @@ W3C Technical Reports</h3>
 			and are typically published in a separate [=registry report=],
 			although they can also be directly embedded in [=Recommendation Track=] documents.
 			The registry track requires [=wide review=] and [=consensus=]
-			on what the registry will contain and how it will be managed,
-			but once set up,
-			changes to its entries are lightweight
+			on what the registry will contain and how it will be managed.
+			Once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
 			See [[#registries]] for details.
 	</dl>
@@ -3962,8 +3961,8 @@ Registries</h3>
 	of logically independent, consistently-structured <dfn lt="registry entry">registry entries</dfn>.
 	A registry has three associated components:
 	<ul>
-		<li>one or more [=registry tables=], holding the data set represented by the [=registry=]
 		<li>the [=Registry Definition=], defining how the [=registry tables=] are structured and maintained
+		<li>one or more [=registry tables=], holding the data set represented by the [=registry=]
 		<li>one or more referencing specifications, which make use of the [=registry=]
 	</ul>
 
@@ -4006,8 +4005,15 @@ Registries</h3>
 Registry Reports</h4>
 
 	[=Registries=] can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
-	or incorporated as part of a [=W3C Recommendation=] as a <dfn>registry section</dfn>.
-	In either case, the [=technical report=] must:
+	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
+
+	A [=registry report=] or [=registry section=],
+	is purely documentational,
+	<em class=rfc2119>must not</em> contain any requirements on implementers,
+	and is not subject to
+	the licensing commitments of the W3C Patent Policy.
+
+	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
 	<ul>
 		<li>
 			Clearly label the [=registry report=]/[=registry section|section=]
@@ -4041,25 +4047,19 @@ Registry Reports</h4>
 	can be automated
 	if satisfaction of those rules can be automatically verified.
 
-	A [=registry report=] or [=registry section=],
-	is purely documentational,
-	contains no requirements on implementers,
-	and is not subject to
-	the licensing commitments of the W3C Patent Policy.
-
 <h4 id=reg-def>
 Registry Definitions</h4>
 
 	The <dfn>Registry Definition</dfn>
 	define what each [=registry table=] is and how it is maintained.
-	It must:
+	It <em class=rfc2119>must</em>:
 
 	<ul>
 		<li>
-			Define the scope and purpose of the [=registry table=].
+			Define the scope and purpose of each [=registry table=].
 
 		<li>
-			Define the fields of the [=registry table=]
+			Define the fields of each [=registry table=]
 			and their constraints
 			(e.g. values must be drawn from a defined set, or be unique,
 			or only reference publicly available resources,
@@ -4087,14 +4087,13 @@ Registry Definitions</h4>
 <h4 id=reg-table-update>
 Updating Registry Tables</h4>
 
-	As long as (and only if) they are in accordance with the [=Registry Definition=],
-	changes to the contents of a [=registry table=]
+	Changes to the contents of a [=registry table=] that are in accordance with the [=Registry Definition=],
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=technical report=] that contains the affected table,
 	without needing to satisfy any other requirements for the publication
 	(not even Working Group consensus, unless this is required by the [=Registry Definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
-	nor new Exclusion Opportunities,
+	nor Exclusion Opportunities,
 	and do not require approval via an [=update request=],
 	even for [=technical reports=] at maturities where this would normally be expected.
 	Such publications can be made
