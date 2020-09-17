@@ -4075,7 +4075,7 @@ Publishing Registries</h4>
 			including a link to this section of the Process.
 
 		<li>
-			Define the [=Registry Definition=] for each of its [=registry tables=].
+			Include the [=Registry Definition=] for each of its [=registry tables=].
 
 		<li>
 			Include the entire contents of each [=registry table=],
