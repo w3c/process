@@ -1534,6 +1534,7 @@ Tooling</h3>
 			produced by the group for public consumption
 			<em class=rfc2119>must</em> be accessible worldwide
 			and to persons with disabilities.
+			Network access to w3.org itself may be assumed.
 
 		<li>
 			Persistent text-based discussions sponsored by the group
