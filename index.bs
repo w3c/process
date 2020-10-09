@@ -1007,7 +1007,7 @@ Expectations and Discipline</h4>
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-	When serious and/or repeated violations do occur,
+	If serious and/or repeated violations do occur,
 	including failure to meet the requirements of this process,
 	or violation of the membership agreement or applicable laws,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
