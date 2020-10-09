@@ -1008,7 +1008,7 @@ Expectations and Discipline</h4>
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	If serious and/or repeated violations do occur,
-	including failure to meet the requirements of this process,
+	such as failure to meet the requirements of this process,
 	or violation of the membership agreement or applicable laws,
 	the [=Director=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
