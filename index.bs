@@ -327,8 +327,8 @@ Rights of Members</h4>
 			On the Team, as <a href="#fellows">W3C Fellows</a>.
 	</ul>
 
-	The rights and benefits of W3C membership are contingent upon conformance to the processes described in this document.
-	Arbitration is governed by paragraph 19 of the Membership Agreement [[MEMBER-AGREEMENT]].
+	The rights and benefits of W3C membership [[MEMBER-AGREEMENT]]
+	are contingent upon conformance to the processes described in this document.
 	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
 
 <h4 id="RelatedAndConsortiumMembers">
