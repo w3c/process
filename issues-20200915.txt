@@ -101,3 +101,11 @@ Comment:  https://github.com/w3c/w3process/issues/449
 Response: https://github.com/w3c/w3process/pull/451
 Closed:   Accepted
 Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x093
+----
+Issue 14.
+Summary:  Consolidate discipline-related text
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/418
+Comment:  https://github.com/w3c/w3process/pull/432
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/432#issuecomment-741839423
