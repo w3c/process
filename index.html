@@ -6,9 +6,9 @@
   <link href="https://www.w3.org/StyleSheets/TR/2016/base.css" rel="stylesheet" type="text/css">
   <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
-  <meta content="Bikeshed version 5f7b0e20, updated Tue Aug 18 15:46:28 2020 -0700" name="generator">
+  <meta content="Bikeshed version c5172e83, updated Fri Nov 20 15:35:20 2020 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="a99af2591c548dc059741b873d363bf93df65a5b" name="document-revision">
+  <meta content="cff058988006ac5efca44e28c53a73f0c77005ff" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -53,7 +53,7 @@ g g:hover text {
 <style>/* style-autolinks */
 
 .css.css, .property.property, .descriptor.descriptor {
-    color: #005a9c;
+    color: var(--a-normal-text);
     font-size: inherit;
     font-family: inherit;
 }
@@ -112,6 +112,115 @@ pre .property::before, pre .property::after {
 [data-link-type=biblio] {
     white-space: pre;
 }</style>
+<style>/* style-colors */
+
+/* Any --*-text not paired with a --*-bg is assumed to have a transparent bg */
+:root {
+    color-scheme: light dark;
+
+    --text: black;
+    --bg: white;
+
+    --unofficial-watermark: url(https://www.w3.org/StyleSheets/TR/2016/logos/UD-watermark);
+
+    --logo-bg: #1a5e9a;
+    --logo-active-bg: #c00;
+    --logo-text: white;
+
+    --tocnav-normal-text: #707070;
+    --tocnav-normal-bg: var(--bg);
+    --tocnav-hover-text: var(--tocnav-normal-text);
+    --tocnav-hover-bg: #f8f8f8;
+    --tocnav-active-text: #c00;
+    --tocnav-active-bg: var(--tocnav-normal-bg);
+
+    --tocsidebar-text: var(--text);
+    --tocsidebar-bg: #f7f8f9;
+    --tocsidebar-shadow: rgba(0,0,0,.1);
+    --tocsidebar-heading-text: hsla(203,20%,40%,.7);
+
+    --toclink-text: var(--text);
+    --toclink-underline: #3980b5;
+    --toclink-visited-text: var(--toclink-text);
+    --toclink-visited-underline: #054572;
+
+    --heading-text: #005a9c;
+
+    --hr-text: var(--text);
+
+    --algo-border: #def;
+
+    --del-text: red;
+    --del-bg: transparent;
+    --ins-text: #080;
+    --ins-bg: transparent;
+
+    --a-normal-text: #034575;
+    --a-normal-underline: #707070;
+    --a-visited-text: var(--a-normal-text);
+    --a-visited-underline: #bbb;
+    --a-hover-bg: rgba(75%, 75%, 75%, .25);
+    --a-active-text: #c00;
+    --a-active-underline: #c00;
+
+    --blockquote-border: silver;
+    --blockquote-bg: transparent;
+    --blockquote-text: currentcolor;
+
+    --issue-border: #e05252;
+    --issue-bg: #fbe9e9;
+    --issue-text: var(--text);
+    --issueheading-text: #831616;
+
+    --example-border: #e0cb52;
+    --example-bg: #fcfaee;
+    --example-text: var(--text);
+    --exampleheading-text: #574b0f;
+
+    --note-border: #52e052;
+    --note-bg: #e9fbe9;
+    --note-text: var(--text);
+    --noteheading-text: hsl(120, 70%, 30%);
+    --notesummary-underline: silver;
+
+    --assertion-border: #aaa;
+    --assertion-bg: #eee;
+    --assertion-text: black;
+
+    --advisement-border: orange;
+    --advisement-bg: #fec;
+    --advisement-text: var(--text);
+    --advisementheading-text: #b35f00;
+
+    --warning-border: red;
+    --warning-bg: hsla(40,100%,50%,0.95);
+    --warning-text: var(--text);
+
+    --amendment-border: #330099;
+    --amendment-bg: #F5F0FF;
+    --amendment-text: var(--text);
+    --amendmentheading-text: #220066;
+
+    --def-border: #8ccbf2;
+    --def-bg: #def;
+    --def-text: var(--text);
+    --defrow-border: #bbd7e9;
+
+    --datacell-border: silver;
+
+    --indexinfo-text: #707070;
+
+    --indextable-hover-text: black;
+    --indextable-hover-bg: #f7f8f9;
+
+    --outdatedspec-bg: rgba(0, 0, 0, .5);
+    --outdatedspec-text: black;
+    --outdated-bg: maroon;
+    --outdated-text: white;
+    --outdated-shadow: red;
+
+    --editedrec-bg: darkorange;
+}</style>
 <style>/* style-counters */
 
 body {
@@ -143,6 +252,10 @@ figcaption:not(.no-marker)::before {
 }</style>
 <style>/* style-dfn-panel */
 
+:root {
+    --dfnpanel-bg: #ddd;
+    --dfnpanel-text: var(--text);
+}
 .dfn-panel {
     position: absolute;
     z-index: 35;
@@ -154,14 +267,14 @@ figcaption:not(.no-marker)::before {
     overflow: auto;
     padding: 0.5em 0.75em;
     font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
-    background: #DDDDDD;
-    color: black;
+    background: var(--dfnpanel-bg);
+    color: var(--dfnpanel-text);
     border: outset 0.2em;
 }
 .dfn-panel:not(.on) { display: none; }
 .dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
 .dfn-panel > b { display: block; }
-.dfn-panel a { color: black; }
+.dfn-panel a { color: var(--dfnpanel-text); }
 .dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
 .dfn-panel > b + b { margin-top: 0.25em; }
 .dfn-panel ul { padding: 0; }
@@ -190,6 +303,11 @@ figcaption:not(.no-marker)::before {
 }</style>
 <style>/* style-selflinks */
 
+:root {
+    --selflink-text: white;
+    --selflink-bg: gray;
+    --selflink-hover-text: black;
+}
 .heading, .issue, .note, .example, li, dt {
     position: relative;
 }
@@ -219,8 +337,8 @@ dfn > a.self-link {
     opacity: 0;
     width: 1.5em;
     height: 1.5em;
-    background: gray;
-    color: white;
+    background: var(--selflink-bg);
+    color: var(--selflink-text);
     font-style: normal;
     transition: opacity .2s, background-color .2s, color .2s;
 }
@@ -228,17 +346,139 @@ dfn:hover > a.self-link {
     opacity: 1;
 }
 dfn > a.self-link:hover {
-    color: black;
+    color: var(--selflink-hover-text);
 }
 
 a.self-link::before            { content: "¶"; }
 .heading > a.self-link::before { content: "§"; }
-dfn > a.self-link::before      { content: "#"; }</style>
+dfn > a.self-link::before      { content: "#"; }
+</style>
+<style>/* style-darkmode */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #ddd;
+        --bg: black;
+
+        --unofficial-watermark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='%23100808' transform='translate(200 200) rotate(-45) translate(-200 -200)' stroke='%23100808' stroke-width='3'%3E%3Ctext x='50%25' y='220' style='font: bold 70px sans-serif; text-anchor: middle; letter-spacing: 6px;'%3EUNOFFICIAL%3C/text%3E%3Ctext x='50%25' y='305' style='font: bold 70px sans-serif; text-anchor: middle; letter-spacing: 6px;'%3EDRAFT%3C/text%3E%3C/g%3E%3C/svg%3E");
+
+        --logo-bg: #1a5e9a;
+        --logo-active-bg: #c00;
+        --logo-text: white;
+
+        --tocnav-normal-text: #999;
+        --tocnav-normal-bg: var(--bg);
+        --tocnav-hover-text: var(--tocnav-normal-text);
+        --tocnav-hover-bg: #080808;
+        --tocnav-active-text: #f44;
+        --tocnav-active-bg: var(--tocnav-normal-bg);
+
+        --tocsidebar-text: var(--text);
+        --tocsidebar-bg: #080808;
+        --tocsidebar-shadow: rgba(255,255,255,.1);
+        --tocsidebar-heading-text: hsla(203,20%,40%,.7);
+
+        --toclink-text: var(--text);
+        --toclink-underline: #6af;
+        --toclink-visited-text: var(--toclink-text);
+        --toclink-visited-underline: #054572;
+
+        --heading-text: #8af;
+
+        --hr-text: var(--text);
+
+        --algo-border: #456;
+
+        --del-text: #f44;
+        --del-bg: transparent;
+        --ins-text: #4a4;
+        --ins-bg: transparent;
+
+        --a-normal-text: #6af;
+        --a-normal-underline: #555;
+        --a-visited-text: var(--a-normal-text);
+        --a-visited-underline: var(--a-normal-underline);
+        --a-hover-bg: rgba(25%, 25%, 25%, .2);
+        --a-active-text: #f44;
+        --a-active-underline: var(--a-active-text);
+
+        --borderedblock-bg: rgba(255, 255, 255, .05);
+
+        --blockquote-border: silver;
+        --blockquote-bg: var(--borderedblock-bg);
+        --blockquote-text: currentcolor;
+
+        --issue-border: #e05252;
+        --issue-bg: var(--borderedblock-bg);
+        --issue-text: var(--text);
+        --issueheading-text: hsl(0deg, 70%, 70%);
+
+        --example-border: hsl(50deg, 90%, 60%);
+        --example-bg: var(--borderedblock-bg);
+        --example-text: var(--text);
+        --exampleheading-text: hsl(50deg, 70%, 70%);
+
+        --note-border: hsl(120deg, 100%, 35%);
+        --note-bg: var(--borderedblock-bg);
+        --note-text: var(--text);
+        --noteheading-text: hsl(120, 70%, 70%);
+        --notesummary-underline: silver;
+
+        --assertion-border: #444;
+        --assertion-bg: var(--borderedblock-bg);
+        --assertion-text: var(--text);
+
+        --advisement-border: orange;
+        --advisement-bg: #222218;
+        --advisement-text: var(--text);
+        --advisementheading-text: #f84;
+
+        --warning-border: red;
+        --warning-bg: hsla(40,100%,20%,0.95);
+        --warning-text: var(--text);
+
+        --amendment-border: #330099;
+        --amendment-bg: #080010;
+        --amendment-text: var(--text);
+        --amendmentheading-text: #cc00ff;
+
+        --def-border: #8ccbf2;
+        --def-bg: #080818;
+        --def-text: var(--text);
+        --defrow-border: #136;
+
+        --datacell-border: silver;
+
+        --indexinfo-text: #aaa;
+
+        --indextable-hover-text: var(--text);
+        --indextable-hover-bg: #181818;
+
+        --outdatedspec-bg: rgba(255, 255, 255, .5);
+        --outdatedspec-text: black;
+        --outdated-bg: maroon;
+        --outdated-text: white;
+        --outdated-shadow: red;
+
+        --editedrec-bg: darkorange;
+    }
+    /* In case a transparent-bg image doesn't expect to be on a dark bg,
+       which is quite common in practice... */
+    img { background: white; }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --selflink-text: black;
+        --selflink-bg: silver;
+        --selflink-hover-text: white;
+    }
+}
+</style>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2020-09-19">19 September 2020</time> </span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2020-12-09">9 December 2020</time> </span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -286,7 +526,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 19 September 2020 Editor’s draft for the proposed next version of the W3C Process Document. 
+	This is the 9 December 2020 Editor’s draft for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.</p>
     This draft has been prepared for review by the W3C Advisory Board,
 	to approve or change before proposing it to the W3C Advisory Committee for preliminary review.
@@ -384,8 +624,9 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
       <li>
        <a href="#ParticipationCriteria"><span class="secno">3.1</span> <span class="content"> Individual Participation Criteria</span></a>
        <ol class="toc">
-        <li><a href="#coi"><span class="secno">3.1.1</span> <span class="content"> Conflict of Interest Policy</span></a>
-        <li><a href="#member-rep"><span class="secno">3.1.2</span> <span class="content"> Individuals Representing a Member Organization</span></a>
+        <li><a href="#discipline"><span class="secno">3.1.1</span> <span class="content"> Expectations and Discipline</span></a>
+        <li><a href="#coi"><span class="secno">3.1.2</span> <span class="content"> Conflict of Interest Policy</span></a>
+        <li><a href="#member-rep"><span class="secno">3.1.3</span> <span class="content"> Individuals Representing a Member Organization</span></a>
        </ol>
       <li><a href="#GeneralMeetings"><span class="secno">3.2</span> <span class="content"> Meetings</span></a>
       <li>
@@ -657,13 +898,8 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> In <a href="#GAEvents">Workshops and Symposia</a>; 
     <li> On the Team, as <a href="#fellows" id="ref-for-fellows">W3C Fellows</a>. 
    </ul>
-   <p>The rights and benefits of W3C membership are contingent upon conformance to the processes described in this document.
-	The vast majority of W3C Members faithfully follow the spirit as well as the letter of these processes.
-	When serious and/or repeated violations do occur,
-	and repeated attempts to address these violations have not resolved the situation,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director">Director</a> <em class="rfc2119">may</em> take disciplinary action.
-	Arbitration in the case of further disagreement is governed by paragraph 19 of the Membership Agreement <a data-link-type="biblio" href="#biblio-member-agreement">[MEMBER-AGREEMENT]</a>.
-	Refer to the <a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a> <a data-link-type="biblio" href="#biblio-disciplinary-gl">[DISCIPLINARY-GL]</a>.</p>
+   <p>The rights and benefits of W3C membership <a data-link-type="biblio" href="#biblio-member-agreement">[MEMBER-AGREEMENT]</a> are contingent upon conformance to the processes described in this document.
+	Disciplinary action for anyone participating in W3C activities is described in <a href="#discipline">§ 3.1.1 Expectations and Discipline</a>.</p>
    <h4 class="heading settled" data-level="2.1.2" id="RelatedAndConsortiumMembers"><span class="secno">2.1.2. </span><span class="content"> Member Consortia and Related Members</span><a class="self-link" href="#RelatedAndConsortiumMembers"></a></h4>
    <h5 class="heading settled" data-level="2.1.2.1" id="MemberConsortia"><span class="secno">2.1.2.1. </span><span class="content"> Membership Consortia</span><a class="self-link" href="#MemberConsortia"></a></h5>
    <p>A “<dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="Member Consortium | Member Consortia" data-noexport id="fdn-member-consortium">Member Consortium</dfn>” means a consortium,
@@ -783,11 +1019,11 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	within practical constraints (such as resources available),
 	and communicates with the Members and the public
 	about the Web and W3C technologies.</p>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①">Director</a> and CEO <em class="rfc2119">may</em> delegate responsibility
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director">Director</a> and CEO <em class="rfc2119">may</em> delegate responsibility
 	(generally to other individuals in the Team)
 	for any of their roles described in this document,
 	except <a href="#tag-participation">participation in the TAG</a>.</p>
-    <dfn data-dfn-type="dfn" data-lt="Team Decision | Team’s Decision" data-noexport id="team-decision">Team Decisions<a class="self-link" href="#team-decision"></a></dfn> derive from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②">Director</a> and <a data-link-type="dfn" href="#ceo" id="ref-for-ceo">CEO</a>'s authority,
+    <dfn data-dfn-type="dfn" data-lt="Team Decision | Team’s Decision" data-noexport id="team-decision">Team Decisions<a class="self-link" href="#team-decision"></a></dfn> derive from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①">Director</a> and <a data-link-type="dfn" href="#ceo" id="ref-for-ceo">CEO</a>'s authority,
 	even when they are carried out by other members of the <a data-link-type="dfn" href="#team" id="ref-for-team⑦">Team</a>.
    <p></p>
    <div class="issue" id="issue-b325df73">
@@ -912,9 +1148,9 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
    <p>The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group⑧">TAG</a> consists of:</p>
    <ul>
     <li> Tim Berners-Lee, who is a life member; 
-    <li> The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③">Director</a>,
+    <li> The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②">Director</a>,
 			sitting <i>ex officio</i>; 
-    <li> Three participants appointed by the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director④">Director</a>; 
+    <li> Three participants appointed by the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③">Director</a>; 
     <li> Six participants elected by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee④">Advisory Committee</a> following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>. 
    </ul>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①①">Team</a> appoints the Chair of the TAG,
@@ -927,7 +1163,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual’s term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.</p>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑤">Director</a> <em class="rfc2119">may</em> announce the appointed participants
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director④">Director</a> <em class="rfc2119">may</em> announce the appointed participants
 	after the results for the Advisory Committee election of participants have been announced.</p>
    <h3 class="heading settled" data-level="2.5" id="AB-TAG-participation"><span class="secno">2.5. </span><span class="content"> Advisory Board and Technical Architecture Group Participation</span><a class="self-link" href="#AB-TAG-participation"></a></h3>
    <p><a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board⑤">Advisory Board</a> and <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group⑨">TAG</a> participants have a special role within W3C:
@@ -1129,6 +1365,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	These policies apply to <span id="participant">participants</span> in the following groups: <a href="#AC">Advisory Committee</a>, <a href="#ABParticipation">Advisory Board</a>, <a href="#tag-participation">TAG</a>, <a href="#wgparticipant" id="ref-for-wgparticipant">Working Groups</a>,
 	and <a href="#igparticipant" id="ref-for-igparticipant">Interest Groups</a>.</p>
    <h3 class="heading settled" data-level="3.1" id="ParticipationCriteria"><span class="secno">3.1. </span><span class="content"> Individual Participation Criteria</span><a class="self-link" href="#ParticipationCriteria"></a></h3>
+   <h4 class="heading settled" data-level="3.1.1" id="discipline"><span class="secno">3.1.1. </span><span class="content"> Expectations and Discipline</span><a class="self-link" href="#discipline"></a></h4>
    <p>There are three qualities an individual is expected to demonstrate in order to participate in W3C:</p>
    <ol>
     <li> Technical competence in one’s role; 
@@ -1141,11 +1378,16 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> <a data-link-type="biblio" href="#biblio-cepc">[CEPC]</a> and the participation requirements described in
 	“Disclosure”
 	in the W3C Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a>. </p>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑥">Director</a> <em class="rfc2119">may</em> suspend or remove for cause
-	a participant in any group (including the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑤">AB</a> and <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑧">TAG</a>),
-	where cause includes failure to meet the requirements of this process,
-	the membership agreement, or applicable laws.</p>
-   <h4 class="heading settled" data-level="3.1.1" id="coi"><span class="secno">3.1.1. </span><span class="content"> Conflict of Interest Policy</span><a class="self-link" href="#coi"></a></h4>
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑤">Director</a> <em class="rfc2119">may</em> take disciplinary action,
+	including suspending or removing for cause
+	a participant in any group (including the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑤">AB</a> and <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑧">TAG</a>)
+	if serious and/or repeated violations,
+	such as failure to meet the requirements of this process
+	(where repeated attempts to address these violations have not resolved the situation)
+	or violation of the membership agreement or applicable laws,
+	occur.
+	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.</p>
+   <h4 class="heading settled" data-level="3.1.2" id="coi"><span class="secno">3.1.2. </span><span class="content"> Conflict of Interest Policy</span><a class="self-link" href="#coi"></a></h4>
    <p>Individuals participating materially in W3C work <em class="rfc2119">must</em> disclose significant relationships
 	when those relationships might reasonably be perceived as creating a conflict of interest with the individual’s role at W3C.
 	These disclosures <em class="rfc2119">must</em> be kept up-to-date
@@ -1159,7 +1401,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	the individual’s assignment to the role <em class="rfc2119">must</em> be evaluated.
 	The role <em class="rfc2119">may</em> be reassigned according to the appropriate process.
 	For instance,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑦">Director</a> <em class="rfc2119">may</em> appoint a new group <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs③⓪">Chair</a> when the current Chair changes affiliations
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑥">Director</a> <em class="rfc2119">may</em> appoint a new group <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs③⓪">Chair</a> when the current Chair changes affiliations
 	(e.g., if there is a risk of conflict of interest,
 	or if there is risk that the Chair’s new employer will be over-represented within a W3C activity).</p>
    <p>The following are some scenarios where disclosure is appropriate:</p>
@@ -1174,7 +1416,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
    </ul>
    <p>Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the <a data-link-type="dfn" href="#team" id="ref-for-team①⑧">Team</a>.</p>
    <p><a data-link-type="dfn" href="#team" id="ref-for-team①⑨">Team</a> members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy">W3C Team conflict of interest policy</a> <a data-link-type="biblio" href="#biblio-conflict-policy">[CONFLICT-POLICY]</a>.</p>
-   <h4 class="heading settled" data-level="3.1.2" id="member-rep"><span class="secno">3.1.2. </span><span class="content"> Individuals Representing a Member Organization</span><a class="self-link" href="#member-rep"></a></h4>
+   <h4 class="heading settled" data-level="3.1.3" id="member-rep"><span class="secno">3.1.3. </span><span class="content"> Individuals Representing a Member Organization</span><a class="self-link" href="#member-rep"></a></h4>
    <p>Generally, individuals representing a Member in an official capacity within W3C
 	are employees of the Member organization.
 	However, an <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⓪">Advisory Committee representative</a> <em class="rfc2119">may</em> designate a non-employee
@@ -1183,7 +1425,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	relevant affiliations to the Team and to any group in which the individual participates.</p>
    <p>In exceptional circumstances
 	(e.g., situations that might jeopardize the progress of a group or create a <a href="#coi">conflict of interest</a>),
-	the <a href="#def-Director" id="ref-for-def-Director③⑦">Director</a> <em class="rfc2119">may</em> decline
+	the <a href="#def-Director" id="ref-for-def-Director③⑥">Director</a> <em class="rfc2119">may</em> decline
 	to allow an individual designated by an Advisory Committee representative to participate in a group.</p>
    <p>A group charter <em class="rfc2119">may</em> limit
 	the number of individuals representing a W3C Member
@@ -1442,7 +1684,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	or following a vote (see <a href="#Votes">§ 3.4 Votes</a>)
 	are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="group-decisions">Group Decisions</dfn>.</p>
    <p>When group participants believe that their concerns are not being duly considered by the group or the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①⓪">Chair</a>,
-	they <em class="rfc2119">may</em> ask the <a href="#def-Director" id="ref-for-def-Director③⑧">Director</a> (for representatives of a Member organization, via their Advisory Committee representative)
+	they <em class="rfc2119">may</em> ask the <a href="#def-Director" id="ref-for-def-Director③⑦">Director</a> (for representatives of a Member organization, via their Advisory Committee representative)
 	to confirm or deny the decision.
 	This is a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="wg-decision-appeal">Group Decision Appeal</dfn> or a <dfn data-dfn-type="dfn" data-export id="chair-decision-appeal">Chair Decision Appeal<a class="self-link" href="#chair-decision-appeal"></a></dfn>.
 	The participants <em class="rfc2119">should</em> also make their requests known
@@ -1715,7 +1957,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①⑨">Chair</a> <em class="rfc2119">must</em> inform the Team Contact
 	and provide rationale for the choice.
 	When the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⓪">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact③">Team Contact</a> disagree about a designation,
-	the <a href="#def-Director" id="ref-for-def-Director③⑨">Director</a> determines
+	the <a href="#def-Director" id="ref-for-def-Director③⑧">Director</a> determines
 	whether the individual will be invited to participate in the Working Group.</p>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="inv-expert-info">participate in a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥">Working Group</a> as an Invited Expert</dfn>,
 	an individual <em class="rfc2119">must</em>:</p>
@@ -1928,7 +2170,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	who represent the same Member organization or group of <a href="#MemberRelated">related Members</a>).</p>
    <h4 class="heading settled" data-level="5.2.7" id="GeneralTermination"><span class="secno">5.2.7. </span><span class="content"> Working Group and Interest Group Closure</span><a class="self-link" href="#GeneralTermination"></a></h4>
    <p>A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG⑥">Interest Group</a> charter specifies a duration for the group.
-	The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑧">Director</a> <em class="rfc2119">may</em> decide to close a group
+	The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑦">Director</a> <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:</p>
    <ul>
     <li> There are insufficient resources to produce chartered deliverables
@@ -1936,7 +2178,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 			according to priorities established within W3C. 
     <li> The group produces chartered deliverables ahead of schedule. 
    </ul>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑨">Director</a> closes a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG⑦">Interest Group</a> by announcement to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑧">Advisory Committee</a>. <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑥">Advisory Committee representatives</a> <em class>may</em> initiate
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑧">Director</a> closes a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG⑦">Interest Group</a> by announcement to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑧">Advisory Committee</a>. <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑥">Advisory Committee representatives</a> <em class>may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.</p>
    <p>Closing a Working Group has implications
 	with respect to the W3C Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a>.</p>
@@ -2036,7 +2278,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⓪">Director</a> will consider who has been explicitly offered
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director⑨">Director</a> will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -2574,7 +2816,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	to ensure that independent interoperable implementations
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
-	when assessing that there is <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="adequate-implementation">adequate implementation experience</dfn> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①①">Director</a> will consider (though not be limited to):</p>
+	when assessing that there is <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="adequate-implementation">adequate implementation experience</dfn> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⓪">Director</a> will consider (though not be limited to):</p>
    <ul>
     <li> is each feature of the current specification implemented,
 			and how is this demonstrated? 
@@ -2597,7 +2839,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	the Working Group:</p>
    <ul>
     <li> <em class="rfc2119">must</em> record the group’s decision to request advancement. 
-    <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①②">Director</a> approval. 
+    <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①①">Director</a> approval. 
     <li> <em class="rfc2119 ">must</em> publicly document all new features
 			(<a href="#correction-classes">class 4 changes</a>) to the technical report
 			since the previous publication. 
@@ -2629,12 +2871,12 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
    <p>Certain requests to re-publish a specification
 	within its current maturity level
 	(called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="update-requests">Update Requests</dfn>)
-	require <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①③">Director</a> approval.
+	require <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①②">Director</a> approval.
 	For such <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests①">update requests</a>, the Working Group:</p>
    <ul>
     <li> <em class="rfc2119">must</em> record the group’s decision to request the update. 
     <li> <em class="rfc2119">must</em> show that the changes have received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review③">wide review</a>. 
-    <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①④">Director</a> approval,
+    <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①③">Director</a> approval,
 			or fulfill the criteria for <a href="#streamlined-update">§ 6.2.4.1 Streamlined Publication Approval</a>. 
     <li> <em class="rfc2119">must</em> provide public documentation of any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection⑧">Formal Objections</a>. 
     <li> <em class="rfc2119 ">must</em> publicly document of all new features
@@ -2654,7 +2896,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> <em class="rfc2119">should</em> provide information about implementations known to the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④①">Working Group</a>. 
    </ul>
    <p>There is usually a formal review meeting
-	to ensure the requirements have been met before <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑤">Director</a>'s approval is given.</p>
+	to ensure the requirements have been met before <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①④">Director</a>'s approval is given.</p>
    <p class="note" role="note"><span>Note:</span> <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests②">Update request</a> approval is expected to be fairly simple
 	compared to getting approval for a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req②">transition request</a>.</p>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③②">Team</a> <em class="rfc2119">must</em> announce the publication
@@ -2858,7 +3100,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
    </ul>
    <p>A Working Group:</p>
    <ul>
-    <li> <em class="rfc2119">must</em> show <a data-link-type="dfn" href="#adequate-implementation" id="ref-for-adequate-implementation③">adequate implementation experience</a> except where an exception is approved by the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑥">Director</a>, 
+    <li> <em class="rfc2119">must</em> show <a data-link-type="dfn" href="#adequate-implementation" id="ref-for-adequate-implementation③">adequate implementation experience</a> except where an exception is approved by the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑤">Director</a>, 
     <li> <em class="rfc2119">must</em> show that the document has received <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review⑤">wide review</a>, 
     <li> <em class="rfc2119">must</em> show that all issues
 			raised during the <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR①⑧">Candidate Recommendation</a> review period
@@ -2877,7 +3119,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑦">Proposed Recommendation</a> to the <a href="#AC">Advisory Committee</a>,
 			and <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review④">Advisory Committee Review</a> on the question of whether the specification is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①⓪">publish</a> as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②④">W3C Recommendation</a>. 
     <li> <em class="rfc2119">may</em> approve a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑧">Proposed Recommendation</a> with minimal <a href="#implementation-experience">implementation experience</a> where there is a compelling reason to do so.
-			In such a case, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑦">Director</a> <em class="rfc2119">should</em> explain the reasons for that decision. 
+			In such a case, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑥">Director</a> <em class="rfc2119">should</em> explain the reasons for that decision. 
    </ul>
    <p>Since a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑤">W3C Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑧">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR⑨">Proposed Recommendation</a> it is based on,
 	to make any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change⑨">substantive change</a> to a <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①⓪">Proposed Recommendation</a> the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑤⑤">Working Group</a> <em class="rfc2119">must</em> return the specification to <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⓪">Candidate Recommendation</a> or <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①②">Working Draft</a>.</p>
@@ -2903,7 +3145,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑨">Recommendation</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
     <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⓪">Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①⓪">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①②">Proposed Recommendation</a> on which it is based. 
     <li> If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent②">dissent</a> in Advisory Committee reviews,
-			the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑧">Director</a> <em class="rfc2119">must</em> publish the substantive content of the dissent
+			the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑦">Director</a> <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed④">formally address</a> the comment
 			at least 14 days before publication as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③①">W3C Recommendation</a>. 
@@ -3018,7 +3260,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	This can happen if
 	the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑧">Working Group</a> decided
 	to abandon work on the report,
-	or the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑨">Director</a> required the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑨">Working Group</a> to discontinue work on the technical report before completion.
+	or the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑧">Director</a> required the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑥⑨">Working Group</a> to discontinue work on the technical report before completion.
 	If a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⓪">Working Group</a> is made to <a href="#GeneralTermination">close</a>,
 	W3C <em class="rfc2119">must</em> <a data-link-type="dfn" href="#publishing" id="ref-for-publishing①②">publish</a> any unfinished <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①④">technical report</a> on the Recommendation track as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote④">Working Group Notes</a>.</p>
    <p>Such a document should be documented as discontinued in its status section,
@@ -3131,7 +3373,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	superseding,
 	or restoring
 	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥②">Recommendation</a> can be initiated
-	either by a request from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⓪">Director</a> or via a request from any of the following:</p>
+	either by a request from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director①⑨">Director</a> or via a request from any of the following:</p>
    <ul>
     <li> The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦①">Working Group</a> who produced,
 			or is chartered to maintain,
@@ -3149,7 +3391,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	obsolete,
 	supersede,
 	or restore
-	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑤">Recommendation</a> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②①">Director</a> <em class="rfc2119">must</em>: </p>
+	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑤">Recommendation</a> the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⓪">Director</a> <em class="rfc2119">must</em>: </p>
    <ul>
     <li> announce the proposal to all <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦④">Working Group</a> <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⑨">Chairs</a>,
 			and to the Public,
@@ -3174,12 +3416,12 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> identify known implementations. 
    </ul>
    <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent③">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑧">Advisory Committee review</a>,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②②">Director</a> <em class="rfc2119">must</em> publish
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②①">Director</a> <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C <strong>and the public</strong>,
 	and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑦">formally address</a> the dissent
 	at least 14 days
 	before publication as an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs③">Obsolete</a> or <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec②">Rescinded Recommendation</a>.</p>
-   <p>The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal②">Advisory Committee Appeal</a> of the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②③">Director</a>'s decision.</p>
+   <p>The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal②">Advisory Committee Appeal</a> of the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②②">Director</a>'s decision.</p>
    <p>W3C <em class="rfc2119">must</em> publish an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs④">Obsolete</a> or <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec③">Rescinded Recommendation</a> with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
 	The Status of this Document section <em class="rfc2119">should</em> link
@@ -3239,9 +3481,9 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> <a data-link-type="biblio" href="#biblio-rec-tips">[REC-TIPS]</a>.
 	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> <a data-link-type="biblio" href="#biblio-republishing">[REPUBLISHING]</a>.</p>
    <h2 class="heading settled" data-level="7" id="ReviewAppeal"><span class="secno">7. </span><span class="content"> Advisory Committee Reviews, Appeals, and Votes</span><a class="self-link" href="#ReviewAppeal"></a></h2>
-   <p>This section describes how the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a> reviews proposals from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②④">Director</a> and how <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②①">Advisory Committee representatives</a> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal③">Advisory Committee Appeal</a> of a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision③">W3C decision</a> or <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑤">Director</a>'s decision.
+   <p>This section describes how the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a> reviews proposals from the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②③">Director</a> and how <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②①">Advisory Committee representatives</a> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal③">Advisory Committee Appeal</a> of a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision③">W3C decision</a> or <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②④">Director</a>'s decision.
 	A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="def-w3c-decision">W3C decision</dfn> is one
-	where the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑥">Director</a> decides,
+	where the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑤">Director</a> decides,
 	after exercising the role of assessing consensus of the W3C Community after an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑨">Advisory Committee review</a>.</p>
    <h3 class="heading settled" data-level="7.1" id="ACReview"><span class="secno">7.1. </span><span class="content"> Advisory Committee Reviews</span><a class="self-link" href="#ACReview"></a></h3>
    <p>The Advisory Committee reviews:</p>
@@ -3276,10 +3518,10 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	(e.g., in light of comments from other Members).</p>
    <h4 class="heading settled" data-level="7.1.2" id="ACReviewAfter"><span class="secno">7.1.2. </span><span class="content"> After the Review Period</span><a class="self-link" href="#ACReviewAfter"></a></h4>
    <p>After the review period,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑦">Director</a> <em class="rfc2119">must</em> announce
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑥">Director</a> <em class="rfc2119">must</em> announce
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑥">Advisory Committee</a> the level of support for the proposal
 	(<a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus⑧">consensus</a> or <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a>).
-	The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑧">Director</a> <em class="rfc2119">must</em> also indicate
+	The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑦">Director</a> <em class="rfc2119">must</em> also indicate
 	whether there were any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection①⓪">Formal Objections</a>,
 	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
 	This <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision④">W3C decision</a> is generally one of the following:</p>
@@ -3302,7 +3544,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	The <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑦">Advisory Committee</a> <em class="rfc2119">should not</em> expect an announcement
 	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
 	If, after <span class="time-interval">three weeks</span>, the outcome has not been announced,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑨">Director</a> <em class="rfc2119">should</em> provide the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑧">Advisory Committee</a> with an update.</p>
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑧">Director</a> <em class="rfc2119">should</em> provide the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑧">Advisory Committee</a> with an update.</p>
    <h3 class="heading settled" data-level="7.2" id="ACAppeal"><span class="secno">7.2. </span><span class="content"> Appeal by Advisory Committee Representatives</span><a class="self-link" href="#ACAppeal"></a></h3>
    <p><a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②③">Advisory Committee representatives</a> <em class="rfc2119">may</em> appeal certain decisions,
 	though appeals are only expected to occur in extraordinary circumstances.</p>
@@ -3312,9 +3554,9 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	and transitions to new maturity levels for Recommendation Track documents
 	and the Process document.</p>
    <p><a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑤">Advisory Committee representatives</a> <em class="rfc2119">may</em> also initiate an appeal
-	for certain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⓪">Director</a>'s decisions that do not involve an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①②">Advisory Committee review</a>.
+	for certain <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director②⑨">Director</a>'s decisions that do not involve an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①②">Advisory Committee review</a>.
 	These cases are identified in the sections
-	which describe the requirements for the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③①">Director</a>'s decision
+	which describe the requirements for the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⓪">Director</a>'s decision
 	and include
 	additional (non-reviewed) maturity levels of Recommendation Track documents,
 	group <a data-link-type="dfn" href="#dfn-charter-extension" id="ref-for-dfn-charter-extension">charter extensions</a> and closures,
@@ -3331,7 +3573,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	5% or more of the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⓪">Advisory Committee</a> support the appeal request,
 	the Team <em class="rfc2119">must</em> organize an appeal vote
 	asking the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②①">Advisory Committee</a> “Do you approve of the Director’s Decision?”
-	together with links to the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③②">Director</a>'s decision and the appeal support.</p>
+	together with links to the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③①">Director</a>'s decision and the appeal support.</p>
    <p>The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
 	“Reject”,
@@ -3395,7 +3637,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	and other IPR policies;
 	confidentiality agreements;
 	and mutual membership agreements.</p>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③③">W3C Director</a> <em class="rfc2119">may</em> negotiate
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③②">W3C Director</a> <em class="rfc2119">may</em> negotiate
 	a Memorandum of Understanding with another organization.
 	For the purposes of the W3C Process a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Memorandum of Understanding | Memoranda of Understanding | MoU" id="mou">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
 	is a formal agreement or similar contractual framework between W3C and another party or parties,
@@ -3415,7 +3657,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②④">Advisory Committee</a> of the intent to sign
 	and make the MoU available for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee review</a>; <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑧">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑦">Advisory Committee Appeal</a> of the decision to sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou②">MoU</a>.
 	Unless an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑧">appeal</a> rejects the proposal to sign an MoU,
-	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③④">Director</a> may sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou③">MoU</a> on behalf of W3C.
+	the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③③">Director</a> may sign the <a data-link-type="dfn" href="#mou" id="ref-for-mou③">MoU</a> on behalf of W3C.
 	A signed <a data-link-type="dfn" href="#mou" id="ref-for-mou④">Memorandum of Understanding</a> <em class="rfc2119">should</em> be made public.</p>
    <p>Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> <a data-link-type="biblio" href="#biblio-liaison">[LIAISON]</a> and the guidelines W3C follows when creating a liaison is available on the Web.</p>
    <h2 class="heading settled" data-level="10" id="Submission"><span class="secno">10. </span><span class="content"> Member Submission Process</span><a class="self-link" href="#Submission"></a></h2>
@@ -3444,7 +3686,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
     <li> One of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①">Submitters</a> sends a request to the Team to acknowledge the Submission request.
 			The Team and <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②">Submitter</a>(s) communicate to ensure that the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission">Member Submission</a> is complete. 
     <li>
-      After <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a> review, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑤">Director</a> <em class="rfc2119">must</em> either
+      After <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a> review, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③④">Director</a> <em class="rfc2119">must</em> either
 			acknowledge or reject the Submission request. 
      <ul>
       <li> If <a href="#SubmissionYes">acknowledged</a>,
@@ -3598,7 +3840,7 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
 	the Submitter(s) <em class="rfc2119">must</em> start the Submission process from the beginning,
 	even just to correct <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑥">editorial changes</a>.</p>
    <h3 class="heading settled" data-level="10.4" id="SubmissionNo"><span class="secno">10.4. </span><span class="content"> Rejection of a Submission Request, and Submission Appeals</span><a class="self-link" href="#SubmissionNo"></a></h3>
-   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑥">Director</a> <em class="rfc2119">may</em> reject a Submission request
+   <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑤">Director</a> <em class="rfc2119">may</em> reject a Submission request
 	for a variety of reasons,
 	including any of the following:</p>
    <ul>
@@ -3873,8 +4115,6 @@ with this site are in accordance with our <a href="/Consortium/Legal/privacy-sta
      <dd><a href="https://www.w3.org/Guide/process/charter.html">How to Create a Working Group or Interest Group</a>. URL: <a href="https://www.w3.org/Guide/process/charter.html">https://www.w3.org/Guide/process/charter.html</a>
      <dt id="biblio-current-ac">[CURRENT-AC]
      <dd><a href="https://www.w3.org/Member/ACList">Current Advisory Committee representatives (Member-only access)</a>. URL: <a href="https://www.w3.org/Member/ACList">https://www.w3.org/Member/ACList</a>
-     <dt id="biblio-disciplinary-gl">[DISCIPLINARY-GL]
-     <dd><a href="https://www.w3.org/2002/09/discipline">Guidelines for Disciplinary Action</a>. URL: <a href="https://www.w3.org/2002/09/discipline">https://www.w3.org/2002/09/discipline</a>
      <dt id="biblio-election-howto">[ELECTION-HOWTO]
      <dd><a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a>. URL: <a href="https://www.w3.org/2002/10/election-howto">https://www.w3.org/2002/10/election-howto</a>
      <dt id="biblio-fellows">[FELLOWS]
@@ -4131,9 +4371,9 @@ Advisory Committee (AC)</a> <a href="#ref-for-advisory-committee-representative�
 Advisory Committee Mailing Lists</a> <a href="#ref-for-advisory-committee-representative⑤">(2)</a>
     <li><a href="#ref-for-advisory-committee-representative⑥">2.5.2. 
 Advisory Board and Technical Architecture Group Elections</a> <a href="#ref-for-advisory-committee-representative⑦">(2)</a> <a href="#ref-for-advisory-committee-representative⑧">(3)</a>
-    <li><a href="#ref-for-advisory-committee-representative⑨">3.1. 
-Individual Participation Criteria</a>
-    <li><a href="#ref-for-advisory-committee-representative①⓪">3.1.2. 
+    <li><a href="#ref-for-advisory-committee-representative⑨">3.1.1. 
+Expectations and Discipline</a>
+    <li><a href="#ref-for-advisory-committee-representative①⓪">3.1.3. 
 Individuals Representing a Member Organization</a>
     <li><a href="#ref-for-advisory-committee-representative①①">4.1. 
 Confidentiality Levels</a> <a href="#ref-for-advisory-committee-representative①②">(2)</a>
@@ -4209,7 +4449,7 @@ Technical Architecture Group (TAG)</a>
 Technical Architecture Group Participation</a>
     <li><a href="#ref-for-team①②">2.5.2. 
 Advisory Board and Technical Architecture Group Elections</a> <a href="#ref-for-team①③">(2)</a> <a href="#ref-for-team①④">(3)</a> <a href="#ref-for-team①⑤">(4)</a> <a href="#ref-for-team①⑥">(5)</a> <a href="#ref-for-team①⑦">(6)</a>
-    <li><a href="#ref-for-team①⑧">3.1.1. 
+    <li><a href="#ref-for-team①⑧">3.1.2. 
 Conflict of Interest Policy</a> <a href="#ref-for-team①⑨">(2)</a>
     <li><a href="#ref-for-team②⓪">4.  
 Dissemination Policies</a> <a href="#ref-for-team②①">(2)</a>
@@ -4282,51 +4522,49 @@ Advisory Board and Technical Architecture Group Elections</a>
   <aside class="dfn-panel" data-for="def-Director">
    <b><a href="#def-Director">#def-Director</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-def-Director">2.1.1. 
-Rights of Members</a>
-    <li><a href="#ref-for-def-Director①">2.2. 
-The W3C Team</a> <a href="#ref-for-def-Director②">(2)</a>
-    <li><a href="#ref-for-def-Director③">2.4.1. 
-Technical Architecture Group Participation</a> <a href="#ref-for-def-Director④">(2)</a> <a href="#ref-for-def-Director⑤">(3)</a>
-    <li><a href="#ref-for-def-Director⑥">3.1. 
-Individual Participation Criteria</a>
-    <li><a href="#ref-for-def-Director⑦">3.1.1. 
+    <li><a href="#ref-for-def-Director">2.2. 
+The W3C Team</a> <a href="#ref-for-def-Director①">(2)</a>
+    <li><a href="#ref-for-def-Director②">2.4.1. 
+Technical Architecture Group Participation</a> <a href="#ref-for-def-Director③">(2)</a> <a href="#ref-for-def-Director④">(3)</a>
+    <li><a href="#ref-for-def-Director⑤">3.1.1. 
+Expectations and Discipline</a>
+    <li><a href="#ref-for-def-Director⑥">3.1.2. 
 Conflict of Interest Policy</a>
-    <li><a href="#ref-for-def-Director">3.1.2. 
+    <li><a href="#ref-for-def-Director">3.1.3. 
 Individuals Representing a Member Organization</a>
     <li><a href="#ref-for-def-Director">3.5. 
 Appeal of Chair Decisions and Group Decisions</a>
     <li><a href="#ref-for-def-Director">5.2.1.3. 
 Invited Expert in a Working Group</a>
-    <li><a href="#ref-for-def-Director⑧">5.2.7. 
-Working Group and Interest Group Closure</a> <a href="#ref-for-def-Director⑨">(2)</a>
-    <li><a href="#ref-for-def-Director①⓪">6.1.2.1. 
+    <li><a href="#ref-for-def-Director⑦">5.2.7. 
+Working Group and Interest Group Closure</a> <a href="#ref-for-def-Director⑧">(2)</a>
+    <li><a href="#ref-for-def-Director⑨">6.1.2.1. 
 Wide Review</a>
-    <li><a href="#ref-for-def-Director①①">6.2.2. 
+    <li><a href="#ref-for-def-Director①⓪">6.2.2. 
 Implementation Experience</a>
-    <li><a href="#ref-for-def-Director①②">6.2.3. 
+    <li><a href="#ref-for-def-Director①①">6.2.3. 
 Advancement on the Recommendation Track</a>
-    <li><a href="#ref-for-def-Director①③">6.2.4. 
-Updating Mature Publications on the Recommendation Track</a> <a href="#ref-for-def-Director①④">(2)</a> <a href="#ref-for-def-Director①⑤">(3)</a>
-    <li><a href="#ref-for-def-Director①⑥">6.2.9. 
-Transitioning to Proposed Recommendation</a> <a href="#ref-for-def-Director①⑦">(2)</a>
-    <li><a href="#ref-for-def-Director①⑧">6.2.10. 
+    <li><a href="#ref-for-def-Director①②">6.2.4. 
+Updating Mature Publications on the Recommendation Track</a> <a href="#ref-for-def-Director①③">(2)</a> <a href="#ref-for-def-Director①④">(3)</a>
+    <li><a href="#ref-for-def-Director①⑤">6.2.9. 
+Transitioning to Proposed Recommendation</a> <a href="#ref-for-def-Director①⑥">(2)</a>
+    <li><a href="#ref-for-def-Director①⑦">6.2.10. 
 Transitioning to W3C Recommendation</a>
-    <li><a href="#ref-for-def-Director①⑨">6.2.12.1. 
+    <li><a href="#ref-for-def-Director①⑧">6.2.12.1. 
 Abandoning an Unfinished Technical Report</a>
-    <li><a href="#ref-for-def-Director②⓪">6.2.12.4. 
-Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-def-Director②①">(2)</a> <a href="#ref-for-def-Director②②">(3)</a> <a href="#ref-for-def-Director②③">(4)</a>
-    <li><a href="#ref-for-def-Director②④">7. 
-Advisory Committee Reviews, Appeals, and Votes</a> <a href="#ref-for-def-Director②⑤">(2)</a> <a href="#ref-for-def-Director②⑥">(3)</a>
-    <li><a href="#ref-for-def-Director②⑦">7.1.2. 
-After the Review Period</a> <a href="#ref-for-def-Director②⑧">(2)</a> <a href="#ref-for-def-Director②⑨">(3)</a>
-    <li><a href="#ref-for-def-Director③⓪">7.2. 
-Appeal by Advisory Committee Representatives</a> <a href="#ref-for-def-Director③①">(2)</a> <a href="#ref-for-def-Director③②">(3)</a>
-    <li><a href="#ref-for-def-Director③③">9. 
-Liaisons</a> <a href="#ref-for-def-Director③④">(2)</a>
-    <li><a href="#ref-for-def-Director③⑤">10. 
+    <li><a href="#ref-for-def-Director①⑨">6.2.12.4. 
+Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-def-Director②⓪">(2)</a> <a href="#ref-for-def-Director②①">(3)</a> <a href="#ref-for-def-Director②②">(4)</a>
+    <li><a href="#ref-for-def-Director②③">7. 
+Advisory Committee Reviews, Appeals, and Votes</a> <a href="#ref-for-def-Director②④">(2)</a> <a href="#ref-for-def-Director②⑤">(3)</a>
+    <li><a href="#ref-for-def-Director②⑥">7.1.2. 
+After the Review Period</a> <a href="#ref-for-def-Director②⑦">(2)</a> <a href="#ref-for-def-Director②⑧">(3)</a>
+    <li><a href="#ref-for-def-Director②⑨">7.2. 
+Appeal by Advisory Committee Representatives</a> <a href="#ref-for-def-Director③⓪">(2)</a> <a href="#ref-for-def-Director③①">(3)</a>
+    <li><a href="#ref-for-def-Director③②">9. 
+Liaisons</a> <a href="#ref-for-def-Director③③">(2)</a>
+    <li><a href="#ref-for-def-Director③④">10. 
 Member Submission Process</a>
-    <li><a href="#ref-for-def-Director③⑥">10.4. 
+    <li><a href="#ref-for-def-Director③⑤">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
    </ul>
   </aside>
@@ -4356,8 +4594,8 @@ Advisory Board and Technical Architecture Group Elections</a> <a href="#ref-for-
 Verifiable Random Selection Procedure</a>
     <li><a href="#ref-for-advisory-board①②">2.5.3. 
 Advisory Board and Technical Architecture Group Vacated Seats</a> <a href="#ref-for-advisory-board①③">(2)</a> <a href="#ref-for-advisory-board①④">(3)</a>
-    <li><a href="#ref-for-advisory-board①⑤">3.1. 
-Individual Participation Criteria</a>
+    <li><a href="#ref-for-advisory-board①⑤">3.1.1. 
+Expectations and Discipline</a>
     <li><a href="#ref-for-advisory-board①⑥">10. 
 Member Submission Process</a>
     <li><a href="#ref-for-advisory-board①⑦">10.4. 
@@ -4383,8 +4621,8 @@ Advisory Board and Technical Architecture Group Elections</a> <a href="#ref-for-
 Verifiable Random Selection Procedure</a>
     <li><a href="#ref-for-technical-architecture-group①④">2.5.3. 
 Advisory Board and Technical Architecture Group Vacated Seats</a> <a href="#ref-for-technical-architecture-group①⑤">(2)</a> <a href="#ref-for-technical-architecture-group①⑥">(3)</a> <a href="#ref-for-technical-architecture-group①⑦">(4)</a>
-    <li><a href="#ref-for-technical-architecture-group①⑧">3.1. 
-Individual Participation Criteria</a>
+    <li><a href="#ref-for-technical-architecture-group①⑧">3.1.1. 
+Expectations and Discipline</a>
     <li><a href="#ref-for-technical-architecture-group①⑨">6.2.12.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-technical-architecture-group②⓪">(2)</a>
     <li><a href="#ref-for-technical-architecture-group②①">10. 
@@ -4580,7 +4818,7 @@ Team Rights and Obligations</a>
    <ul>
     <li><a href="#ref-for-GeneralChairs">2.2. 
 The W3C Team</a>
-    <li><a href="#ref-for-GeneralChairs">3.1.1. 
+    <li><a href="#ref-for-GeneralChairs">3.1.2. 
 Conflict of Interest Policy</a>
     <li><a href="#ref-for-GeneralChairs①">3.2. 
 Meetings</a>
