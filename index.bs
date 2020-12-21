@@ -3561,7 +3561,7 @@ Incorporating Candidate Amendments</h5>
 		<li>
 			Identify the specific [=candidate amendments=] under review
 			as <dfn>proposed amendments</dfn>
-			(<dfn>proposed corrections</dfn>/<dfn>proposed addition</dfn>).
+			(<dfn>proposed corrections</dfn>/<dfn oldids="proposed-addition">proposed additions</dfn>).
 
 		<li>
 			Specify the deadline for review comments,
