@@ -111,7 +111,7 @@ Relation of Process Document to Patent Policy</h2>
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
 	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
-	The W3C Patent Policy</a> [[!PATENT-POLICY]]
+	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	is incorporated by normative reference as a part of the Process Document,
 	and is thus equally binding.
 
