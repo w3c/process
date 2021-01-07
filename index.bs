@@ -3811,8 +3811,11 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	will continue to be available at their version-specific URL.
 
 
-<h3 id="Note">
-Group Notes</h3>
+<h3 id=note-track>
+Note Track: Notes and Statements</h3>
+
+<h4 id="Note">
+Group Notes</h4>
 
 	A <dfn export id="WGNote" lt="Group Note | Note | W3C Note | Working Group Note | Interest Group Note | AB Note | TAG Note">Group Note</dfn> (<abbr>NOTE</abbr>)
 	is published
@@ -3864,6 +3867,43 @@ Group Notes</h3>
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
 	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
+
+<h4 id=memo>
+Elevating Group Notes to W3C Statement status</h4>
+
+	A <dfn lt="Statement | W3C Statement">W3C Statement</dfn> is a [=Note=]
+	that has been endorsed by W3C as a whole.
+	In order to elevate a [=Note=] to [=W3C Statement=] status,
+	A group <em class=rfc2119>must</em>:
+
+	<ul>
+		<li>
+			show that the document has received [=wide review=].
+
+		<li>
+			record the group’s decision to request publication as a [=W3C Statement=].
+
+		<li>
+			show that all issues raised against the document
+			since its first publication as a [=Note=]
+			have been [=formally addressed=].
+
+		<li>
+			provide public documentation of any [=Formal Objections=].
+	</ul>
+
+	Once these conditions are fulfilled,
+	the [=Team=] <em class=rfc2119>must</em> then
+	begin an Advisory Committee Review on the question of
+	whether the document is appropriate to publish as a [=W3C Statement=].
+	During this review period,
+	the [=Note=] <em class=rfc2119>must not</em> be updated.
+
+	The decision to advance a document to [=W3C Statement=] is a [=W3C Decision=].
+	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=] of the decision.
+
+	The [=Team=] must announce the publication of a [=W3C Statement=]
+	to the [=Advisory Committee=], other W3C groups, and the public.
 
 <h3 id="further-reading">
 Further reading</h3>
