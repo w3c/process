@@ -3892,6 +3892,12 @@ Elevating Group Notes to W3C Statement status</h4>
 			provide public documentation of any [=Formal Objections=].
 	</ul>
 
+	A [=Note=] specifying implementable technology <em rfc=2119>should not</em> be elevated to [=W3C Statement=] status;
+	if it does,
+	the request to publish as a [=Statement=] <em class=rfc2119>must</em> include rationale
+	for why it should be elevated,
+	and why it is not on the [=Recommendation track=].
+
 	Once these conditions are fulfilled,
 	the [=Team=] <em class=rfc2119>must</em> then
 	begin an Advisory Committee Review on the question of
