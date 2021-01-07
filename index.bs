@@ -2819,6 +2819,13 @@ Maturity Levels on the Recommendation Track</h4>
 					See also “W3C Royalty-Free (RF) Licensing Requirements”
 					in the W3C Patent Policy [[!PATENT-POLICY]].
 			</dl>
+		<dt>
+			<dfn id="discontinuedREC" export >Discontinued Draft</dfn>
+		<dd>
+			A [=technical report=] representing the state of a Recommendation-track document
+			at the point at which work on it was discontinued.
+			See [[#abandon-draft]].
+
 	</dl>
 
 	Only sufficiently technically mature work should be advanced.
@@ -3144,6 +3151,7 @@ Revising a Working Draft</h4>
 		<li>Revised <a href="#revising-wd">Working Draft</a>
 		<li><a href="#transition-cr">Candidate Recommendation</a>
 		<li><a href="#Note">Working Group Note</a>
+		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
 <h4 id="transition-cr" oldids="candidate-rec, last-call">
@@ -3196,7 +3204,7 @@ Transitioning to Candidate Recommendation</h4>
 		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
 		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a></li>
-		<li><a href="#Note">Working Group Note</a></li>
+		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
 	[=Advisory Committee=] representatives <em class="rfc2119">may</em> initiate an
@@ -3302,7 +3310,7 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
-		<li><a href="#Note">Working Group Note</a></li>
+		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
 
@@ -3399,7 +3407,7 @@ Transitioning to Proposed Recommendation</h4>
 			(the expected next step).
 
 		<li>
-			<a href="#Note">Working Group Note</a>
+			<a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
@@ -3627,19 +3635,26 @@ Abandoning an Unfinished Technical Report</h5>
 	Any [=technical report=] no longer intended
 	to advance or to be maintained,
 	and that is not being rescinded,
-	<em class="rfc2119">should</em> be [=published=] as a [=Working Group Note=].
+	<em class="rfc2119">should</em> be [=published=]
+	as a [=Discontinued Draft=],
+	with no [=substantive change=] compared to the previous publication.
 	This can happen if
 	the [=Working Group=] decided
 	to abandon work on the report,
 	or the [=Director=] required the [=Working Group=]
 	to discontinue work on the technical report before completion.
 	If a [=Working Group=] is made to <a href="#GeneralTermination">close</a>,
-	W3C <em class="rfc2119">must</em> [=publish=] any unfinished [=technical report=]
-	on the Recommendation track as [=Working Group Notes=].
+	W3C <em class="rfc2119">must</em> re-[=publish=] any unfinished [=technical report=]
+	on the Recommendation track as [=Discontinued Draft=].
 
-	Such a document should be documented as discontinued in its status section,
-	with a <a href="#abandon-draft">link to this section of this document</a>,
-	and accompanied by an explanation of why it was discontinued.
+	Such a document should include in its status section
+	an explanation of why it was discontinued.
+
+	A [=Working Group=] <em class="rfc2119">may</em> resume work
+	on a [=technical report=]
+	within the scope of its charter
+	at any time,
+	by re-[=publishing=] it as a [=Working Draft=].
 
 <h5 id=rescind-cr>
 Rescinding a Candidate Recommendation</h5>
@@ -3801,8 +3816,7 @@ Working Group and Interest Group Notes</h3>
 	is published
 	by a chartered [=Working Group=] or [=Interest Group=]
 	to provide a stable reference for a useful document
-	that is not intended to be a formal standard,
-	or to document work that was abandoned without producing a [=Recommendation=].
+	that is not intended to be a formal standard.
 
 	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> publish work as [=W3C Notes=].
 	Examples include:
@@ -3815,10 +3829,6 @@ Working Group and Interest Group Notes</h3>
 
 		<li>
 			non-normative guides to good practices,
-
-		<li>
-			specifications where work has been stopped
-			and there is no longer consensus for making them a new standard.
 	</ul>
 
 	Some [=W3C Notes=] are developed through successive [=Working Drafts=],
@@ -3853,13 +3863,6 @@ Working Group and Interest Group Notes</h3>
 			End state:
 			A technical report <em class="rfc2119">may</em> remain
 			a Working or Interest Group [=Note=] indefinitely
-
-		<li>
-			A [=Working Group=] <em class="rfc2119">may</em> resume work
-			on a technical report
-			within the scope of its charter
-			at any time,
-			at the maturity level the specification had before publication as a [=Note=]
 	</ul>
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
