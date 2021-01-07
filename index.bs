@@ -3812,15 +3812,18 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
 
 <h3 id="Note">
-Working Group and Interest Group Notes</h3>
+Group Notes</h3>
 
-	A <dfn export id="WGNote" lt="W3C Note | WG Note | Working Group Note | IG Note | Interest Group Note | Note">Working Group Note or Interest Group Note</dfn> (<abbr>NOTE</abbr>)
+	A <dfn export id="WGNote" lt="Group Note | Note | W3C Note | Working Group Note | Interest Group Note | AB Note | TAG Note">Group Note</dfn> (<abbr>NOTE</abbr>)
 	is published
-	by a chartered [=Working Group=] or [=Interest Group=]
 	to provide a stable reference for a useful document
 	that is not intended to be a formal standard.
 
-	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> publish work as [=W3C Notes=].
+	[=Working Groups=],
+	[=Interest Groups=],
+	the [=TAG=]
+	and the [=AB=]
+	<em class="rfc2119">may</em> publish work as [=Notes=].
 	Examples include:
 
 	<ul>
@@ -3833,19 +3836,19 @@ Working Group and Interest Group Notes</h3>
 			non-normative guides to good practices,
 	</ul>
 
-	Some [=W3C Notes=] are developed through successive <dfn lt="Draft Note">Draft Notes</dfn>
+	Some [=Notes=] are developed through successive <dfn lt="Draft Note">Draft Notes</dfn>
 	before publication as a full [=Notes=],
 	while others are [=published=] directly as a [=Note=].
-	There are few formal requirements to [=publish=] a document as a [=W3C Note=] or [=Draft Note=],
+	There are few formal requirements to [=publish=] a document as a [=Note=] or [=Draft Note=],
 	and they have no standing as a recommendation of W3C
 	but are simply documents preserved for historical reference.
 
 	In order to publish a [=Note=] or [=Draft Note=],
-	a [=Working Group=] or [=Interest Group=]:
+	the group:
 
 	<ul>
 		<li>
-			<em class="rfc2119">must</em> record the group's decision
+			<em class="rfc2119">must</em> record their decision
 			to request publication as a [=Note=] or [=Draft Note=], and
 
 		<li>
@@ -3857,10 +3860,10 @@ Working Group and Interest Group Notes</h3>
 	Both [=Notes=] and [=Draft Notes=] can be updated by republishing
 	as a [=Note=] or [=Draft Note=].
 	A [=technical report=] <em class="rfc2119">may</em> remain
-	a Working or Interest Group [=Note=] indefinitely.
+	a [=Note=] indefinitely.
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
-	does not specify any licensing requirements or commitments for Working Group Notes or Draft Notes.
+	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
 
 <h3 id="further-reading">
 Further reading</h3>
