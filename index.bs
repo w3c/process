@@ -3905,6 +3905,28 @@ Elevating Group Notes to W3C Statement status</h4>
 	The [=Team=] must announce the publication of a [=W3C Statement=]
 	to the [=Advisory Committee=], other W3C groups, and the public.
 
+<h4 id=revising-memo>
+Revising W3C Statements</h4>
+
+	Given a recorded [=Group Decision=] to do so,
+	groups can request publication of a [=W3C Statement=] with [=editorial changes=]--
+	including [=candidate amendment=]--
+	without any additional process.
+
+	A [=candidate amendment=] can be folded into the main text of the [=W3C Statement=],
+	once it has satisfied all the same criteria
+	as the rest of the [=Statement=],
+	including review by the community to ensure
+	the substantive and editorial soundness of the [=candidate amendments=].
+	To validate this, the group must request
+	an [=Advisory Committee review=] of the changes it wishes to incorporate.
+	The specific [=candidate amendments=] under review
+	<em class=rfc2119>must</em> be identified as [=proposed amendments=]
+	just as in a [=Last Call for Review of Proposed Corrections=].
+
+	The decision to incorporate [=proposed amendments=] into [=W3C Statement=] is a [=W3C Decision=].
+	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=] of the decision.
+
 <h3 id="further-reading">
 Further reading</h3>
 
