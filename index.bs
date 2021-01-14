@@ -25,7 +25,8 @@
 -->
 <pre class='metadata'>
 Title: W3C Process Document
-Status: w3c/ED
+Group: processcg
+Status: CG-DRAFT
 ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
 Previous Version: https://www.w3.org/2020/Process-20200915/
@@ -39,7 +40,6 @@ Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
 Repository: w3c/w3process
-Local Boilerplate: header yes, footer yes, status yes, logo yes, copyright yes
 Shortname: w3process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
