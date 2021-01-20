@@ -1501,13 +1501,43 @@ Tooling</h3>
 
 	<ul>
 		<li>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			(i.e. intended for use or reference outside its own membership)
+			<em class=rfc2119>must</em> be published and promoted at a W3C-controlled URL,
+			and backed up by W3C systems
+			such that if the underlying service is discontinued,
+			W3C can continue to serve such content without breaking incoming links
+			or other key functionality.
+
+		<li>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			<em class=rfc2119>must</em> follow best practices for accessibility worldwide
+			and for persons with disabilities.
+			Network access to w3.org itself may be assumed.
+
+		<li>
+			Persistent text-based discussions sponsored by the group
+			pertaining to their work
+			and intended to be referenceable by all group members,
+			including official meeting minutes and especially records of decisions made,
+			<em class=rfc2119>must</em> be archived by W3C for future reference.
+			This includes discussions conducted over email lists
+			or in issue-tracking services
+			or any equivalent fora.
+			Any discussion system whose archive is separate from its active interactive operation
+			<em class=rfc2119>must</em> make that archive available
+			at the same level of confidentiality.
+
+		<li>
 			Any tooling used by the group
 			for producing its documentation and deliverables
 			or for official group discussions
 			<em class=rfc2119>must</em> be usable
-			without cost
+			without cost (direct or indirect)
 			by all active or would-be active group participants
-			to allow their equal participation
+			to allow their effective participation
 			regardless of disability
 			or geographical location.
 
@@ -1516,45 +1546,17 @@ Tooling</h3>
 			or operate some workaround.
 
 		<li>
-			All reports, publications, or other deliverables
-			produced by the group for public consumption
-			(i.e. intended for use or reference outside its own membership)
-			<em class=rfc2119>must</em> be published on a W3C-controlled domain
-			and backed up by W3C systems
-			such that if the underlying service is discontinued,
-			W3C can continue to serve such content without breaking links
-			or other key functionality.
-
-		<li>
-			All reports, publications, or other deliverables
-			produced by the group for public consumption
-			<em class=rfc2119>must</em> be accessible worldwide
-			and to persons with disabilities.
-			Network access to w3.org itself may be assumed.
-
-		<li>
-			Persistent text-based discussions sponsored by the group
-			pertaining to their work
-			and intended to be referenceable by all group members,
-			as well as all official meeting minutes,
-			<em class=rfc2119>must</em> be archived by W3C for future reference.
-			This includes discussions conducted over email lists
-			or in issue-tracking services
-			or any equivalent forum.
-			For fora whose archive exists on a domain separate from its active operations,
-			the archive <em class=rfc2119>must</em> be available at the same level of confidentiality.
-
-		<li>
 			All tools and archives used by the group
 			for its discussions and recordkeeping
 			<em class=rfc2119>must</em> be documented
 			such that new participants and observers
 			can easily find the group’s tools and records.
 
-			Note: Community Groups producing material
-			intended to be adopted by a Working Group for standardization
-			should also adhere to these policies.
 	</ul>
+
+	Note: Community Groups producing material
+	intended to be adopted by a Working Group for standardization
+	should also adhere to these policies.
 
 	Issue: Link to policy document with detailed recommendations / best practices / additional info.
 
