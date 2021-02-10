@@ -2549,9 +2549,10 @@ Candidate Amendments</h4>
 	and associated [=candidate corrections=].
 	Such corrections <em class=rfc2119>must</em> be marked
 	as <dfn>Team correction</dfn>,
-	and are considered non-normative
-	(i.e. not covered)
-	for the purposes of the Patent Policy.
+	and do not constitute
+	a normative portion of the Recommendation,
+	as defined in the Patent Policy [[PATENT-POLICY]]
+	(i.e. they are not covered by the Patent Policy).
 	The [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
 	on [=Team corrections=] that it produces.
 
