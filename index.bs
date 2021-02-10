@@ -2547,11 +2547,14 @@ Candidate Amendments</h4>
 	If there is no group chartered to maintain a [=technical report=],
 	the [=Team=] <em class="rfc2119">may</em> maintain its [=errata=]
 	and associated [=candidate corrections=].
-	When doing so,
-	it <em class=rfc2119>must</em> be explicit that those [=errata=] and [=candidate corrections=]
-	were written by the [=Team=].
+	Such corrections <em class=rfc2119>must</em> be marked
+	as <dfn>Team correction</dfn>,
+	and do not constitute
+	a normative portion of the Recommendation,
+	as defined in the Patent Policy [[PATENT-POLICY]]
+	(i.e. they are not covered by the Patent Policy).
 	The [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
-	on [=candidate corrections=] that it produces.
+	on [=Team corrections=] that it produces.
 
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
@@ -3490,7 +3493,7 @@ Revising a Recommendation: Editorial Changes</h5>
 	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
 	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
 	with such changes incorporated,
-	including [=errata=] and [=candidate corrections=].
+	including [=errata=] and [=Team corrections=].
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
