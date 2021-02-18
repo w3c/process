@@ -2,7 +2,7 @@ Draft:    https://www.w3.org/2019/Process-20190301/
 Title:    W3C Process Document
 Date:     2019-03-01
 Status:   Version
-ED:       https://www.w3.org/w3process/
+ED:       https://www.w3.org/Consortium/Process/Drafts/
 
 ----
 Issue 1.

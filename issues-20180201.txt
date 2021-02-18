@@ -2,7 +2,7 @@ Draft:    https://www.w3.org/2018/Process-20180201/
 Title:    W3C Process Document
 Date:     2018-02-01
 Status:   Version
-ED:       https://www.w3.org/w3process/
+ED:       https://www.w3.org/Consortium/Process/Drafts/
 
 No Disposition of Comments was produced for versions of the Process Prior to this one.
 Issues in Github (and other trackers) closed prior to the 2018-02-01 will not be documented individually,
