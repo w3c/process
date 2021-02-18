@@ -2,7 +2,7 @@ Draft:    https://www.w3.org/2020/Process-20200915/
 Title:    W3C Process Document
 Date:     2020-09-15
 Status:   Version
-ED:       https://w3c.github.io/w3process/
+ED:       https://www.w3.org/w3process/
 
 ----
 Issue 1.
