@@ -21,15 +21,15 @@ Discussion happens in the context of the W3C Process Community Group
 
 [registries](https://github.com/w3c/w3process/tree/registries) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://www.w3.org/w3process/registries) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2F&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries)
+[Preview](https://www.w3.org/w3process/registries/) /
+[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2F&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries%2F)
 
 [registries-on-rec-track](https://github.com/w3c/w3process/tree/registries-on-rec-track) branch:
 [![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries-on-rec-track)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://www.w3.org/w3process/registries-on-rec-track) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2F&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries-on-rec-track)
+[Preview](https://www.w3.org/w3process/registries-on-rec-track/) /
+[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2F&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries-on-rec-track%2F)
 
-[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries-on-rec-track)
+[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries%2F&doc2=https%3A%2F%2Fwww.w3.org%2Fw3process%2Fregistries-on-rec-track%2F)
 
 ----
 ## Useful searches
