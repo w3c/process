@@ -2290,12 +2290,10 @@ W3C Technical Reports</h3>
 			[=Working Groups=] can also publish registries
 			in order to document collections of values or other data
 			that have no normative implementation requirements.
-			Registries are generally companion to [=Recommendation Track=] documents
-			which contain the related normative requirements,
-			and are typically published in a separate [=registry report=],
-			although they can also be directly embedded in [=Recommendation Track=] documents.
-			The registry track requires [=wide review=] and [=consensus=]
-			on what the registry will contain and how it will be managed.
+			A Registry is defined in a [=Recommendation Track=] document
+			which contains all related normative requirements.
+			A Registry is typically published in a separate [=W3C Registry=],
+			although it can also be directly embedded in a [=Recommendation Track=] document.
 			Once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
 			See [[#registries]] for details.
@@ -4018,6 +4016,13 @@ Registry Definitions</h4>
 
 	<ul>
 		<li>
+			Be published in a [=technical report=] on the [=Recommendation track=].
+
+		<li>
+			Be clearly isolated in its own section or document,
+			and labeled as a [=Registry Definition=].
+
+		<li>
 			Define the scope and purpose of each [=registry table=].
 
 		<li>
@@ -4052,12 +4057,14 @@ Registry Definitions</h4>
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
 
+		<li>
+			Link to the [=Registry=] if that is separately published.
 	</ul>
 
 <h4 id=reg-pub>
 Publishing Registries</h4>
 
-	[=Registries=] can be published either as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
+	[=Registries=] can be published either as a stand-alone [=technical report=] called a <dfn>registry report</dfn>,
 	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
 
 	A [=registry report=] or [=registry section=],
@@ -4069,12 +4076,8 @@ Publishing Registries</h4>
 	<ul>
 		<li>
 			Clearly label the [=registry report=]/[=registry section|section=],
-			its [=registry tables|tables=],
-			and its [=Registry Definitions=] as such,
+			and its [=registry tables|tables=] as such,
 			including a link to [[#registries]] in this Process.
-
-		<li>
-			Include the [=Registry Definition=] for each of its [=registry tables=].
 
 		<li>
 			Include the entire contents of each [=registry table=],
@@ -4086,7 +4089,15 @@ Publishing Registries</h4>
 		<li>
 			Include, if the [=registry table=] is provided in a machine-readable file,
 			a definition of the format of that file.
+
+		<li>
+			Link to the [=Registry Definition=] if that is separately published.
 	</ul>
+
+	A [=registry report=] or [=registry section=]
+	<em class=rfc2119>may</em> contain sufficient information
+	about the [=Registry Definition=]
+	such that it is independently readable.
 
 	The [=Team=] <em class="rfc2119">must</em> make available
 	a means for interested parties to be notified of any updates to a [=registry table=].
@@ -4100,47 +4111,11 @@ Publishing Registries</h4>
 	can be automated
 	if satisfaction of those rules can be automatically verified.
 
-	Rules for publication and advancement on the <dfn>Registry Track</dfn>
-	are identical to that of the [=Recommendation Track=]
-	with the following exceptions:
-
-	<ul>
-		<li>
-			Since [=Registry Reports=] are not subject to the [[PATENT-POLICY]],
-			none of their publications correspond,
-			to [=First Public Working Draft=],
-			[=Working Draft=],
-			or [=Patent Review Draft=]
-			for the purposes of the [[PATENT-POLICY]].
-
-		<li>
-			The equivalent of [=Working Draft=] is called <dfn export>Draft Registry</dfn>.
-
-		<li>
-			The equivalent of [=Candidate Recommendation=] is called <dfn export>Candidate Registry</dfn>,
-			with [=Candidate Recommendation Snapshot=] and [=Candidate Recommendation Draft=] corresponding to
-			<dfn export>Candidate Registry Snapshot</dfn> and <dfn export>Candidate Registry Draft</dfn>.
-
-		<li>
-			The equivalent of [=W3C Recommendation=] is called <dfn export>W3C Registry</dfn>.
-
-		<li>
-			The [=Proposed Recommendation=] phase is eliminated. Instead:
-			<ul>
-				<li>
-					An [=Advisory Committee Review=] is started
-					upon publication of each [=Candidate Registry Snapshot=].
-
-				<li>
-					To transition to [=W3C Registry=],
-					the [=Working Group=] must also show [=adequate implementation experience=].
-			</ul>
-
-		<li>
-			Changes that add new features (i.e. class 4) are allowed
-			in all [=W3C Registries=],
-			without needing the to explicitly indicate that this is allowed.
-	</ul>
+	The [=registry report=] or [=registry section=] is a <dfn export>Draft Registry</dfn>
+	until the [=technical report=] holding the [=Registry Definition=] is a [=Recommendation=],
+	when it then becomes
+	(and only then may be labeled, if separately published)
+	a <dfn export>W3C Registry</dfn>.
 
 	For [=Registries=],
 	[=adequate implementation experience=] is evaluated on the basis of
