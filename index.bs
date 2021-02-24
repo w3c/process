@@ -2280,8 +2280,7 @@ W3C Technical Reports</h3>
 			typically either to document information
 			other than technical specifications,
 			such as use cases motivating a specification
-			and best practices for its use,
-			or to clarify the status of work that is abandoned.
+			and best practices for its use.
 			See [[#Note]] for details.
 
 		<!--
