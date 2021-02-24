@@ -4776,6 +4776,13 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 			Make Draft Note into its own status,
 			instead of using REC track Working Draft for that purpose.
 
+		<li>
+			Allow TAG and AB to publish Notes.
+
+		<li>
+			Create W3C Statements, which are Notes endorsed by the W3C as a whole,
+			through an AC Review.
+
 	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2019, changes-2018, changes-2017">
