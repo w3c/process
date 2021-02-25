@@ -3811,7 +3811,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
 
 <h3 id=note-track>
-Note Track: Notes and Statements</h3>
+The Note Track: Notes and Statements</h3>
 
 <h4 id="Note">
 Group Notes</h4>
