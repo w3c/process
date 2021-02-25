@@ -3832,10 +3832,10 @@ Group Notes</h4>
 		<li>
 			supporting documentation for a specification,
 			such as explanations of design principles
-			or use cases and requirements,
+			or use cases and requirements
 
 		<li>
-			non-normative guides to good practices,
+			non-normative guides to good practices
 	</ul>
 
 	Some [=Notes=] are developed through successive <dfn lt="Draft Note">Draft Notes</dfn>
