@@ -4077,11 +4077,21 @@ Publishing Registries</h4>
 			Include the [=registry definition=] for each of its [=registry tables=].
 
 		<li>
-			Include the entire contents of each [=registry table=],
-			either inline in the report
-			(e.g. formatted as a table, or list, or other appropriate representation),
-			or in a machine-readable file published as part of the [=technical report=],
-			or (preferably) both.
+			Provide the [=registry data=] by either:
+			<ul>
+				<li>
+					Including the entire contents of each [=registry table=],
+					either inline in the report
+					(e.g. formatted as a table, or list, or other appropriate representation),
+					or in a machine-readable file published as part of the [=technical report=],
+					or (preferably) both.
+
+				<li>
+					Linking to one or more standalone [=Registry Data Reports=]
+					containing the [=registry tables=]
+					in human-readable form, machine-readable form,
+					or (preferably) both.
+			</ul>
 
 		<li>
 			Include, if the [=registry table=] is provided in a machine-readable file,
@@ -4171,6 +4181,40 @@ Updating Registry Tables</h4>
 	made in accordance with [=candidate amendment|candidate=] or [=proposed amendments=] to the [=registry definition=]
 	which would not be allowed by the unamended [=registry definition=]
 	<em class=rfc2119>must</em> be identified as such.
+
+<h4 id=reg-data-reports>
+Registry Data Reports</h4>
+
+	When the [=registry data=] is published in a separate [=technical report=]
+	from its [=registry definition=],
+	that [=technical report|report=] is called a <dfn>Registry Data Report</dfn>.
+	This [=technical report=]:
+	<ul>
+		<li>
+			<em class=rfc2119>Must</em> link to the [=registry definition=]
+			establishing the [=registry tables=] that it contain.
+
+		<li>
+			<em class=rfc2119>May</em> contain informative introductory text, examples, and notes
+			about the [=registry tables=] and [=registry entries|entries=] that it contains.
+			(Changes to these parts are deemed to be [=editorial changes=]).
+	</ul>
+
+	[=Registry Data Reports=] do not have maturity levels in and of themselves;
+	The maturity level of the [=registry=] whose [=registry data|data=] they record
+	is that of the [=technical report=] holding the [=registry definition=].
+
+	Anytime a change is made to a [=registry definition=],
+	the Working Group <em class=rfc2119>must</em> update and republish
+	any document holding the corresponding [=registry tables=]
+	to make it consistent with these changes.
+
+	Given a recorded [=Group Decision=] to do so,
+	the [=Working Group=]
+	<em class=rfc2119>may</em> republish the [=Registry Data Report=] to incorporate
+	[=editorial changes=].
+	If there is no [=Working Group=] chartered to maintain this registry,
+	the [=Team=] <em class=rfc2119>may</em> do so instead.
 
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
