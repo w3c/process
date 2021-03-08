@@ -5,7 +5,7 @@ SOURCE_BRANCH="main"
 TARGET_BRANCH="gh-pages"
 
 # List of long-lived topic branch names to be published on github.io as a subdirectory
-TOPIC_BRANCHES=("director-free" "registries" "registries-on-rec-track")
+TOPIC_BRANCHES=("director-free" "registries" "registries-on-rec-track" "registries-separable")
 
 containsElement () {
   local e match="$1"

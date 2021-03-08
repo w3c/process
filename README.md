@@ -24,12 +24,12 @@ Discussion happens in the context of the W3C Process Community Group
 [Preview](https://www.w3.org/Consortium/Process/Drafts/registries/) /
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries%2F)
 
-[registries-on-rec-track](https://github.com/w3c/w3process/tree/registries-on-rec-track) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries-on-rec-track)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://www.w3.org/Consortium/Process/Drafts/registries-on-rec-track/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries-on-rec-track%2F)
+[registries-separable](https://github.com/w3c/w3process/tree/registries-separable) branch:
+[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=registries-separable)](https://travis-ci.com/w3c/w3process) /
+[Preview](https://www.w3.org/Consortium/Process/Drafts/registries-separable/) /
+[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries-separable%2F)
 
-[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries-on-rec-track%2F)
+[Diff between the two registry branches](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fregistries-separable%2F)
 
 ----
 ## Useful searches
