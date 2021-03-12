@@ -1557,7 +1557,7 @@ Tooling</h3>
 
 	</ul>
 
-	The Team is responsible for ensuring adherence to these rules
+	The [=Team=] is responsible for ensuring adherence to these rules
 	and for bringing any group not in compliance into compliance.
 
 	Issue: Link to policy document with detailed recommendations / best practices / additional info.
