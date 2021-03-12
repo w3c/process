@@ -1558,10 +1558,6 @@ Tooling</h3>
 
 	</ul>
 
-	Note: Community Groups producing material
-	intended to be adopted by a Working Group for standardization
-	should also adhere to these policies.
-
 	Issue: Link to policy document with detailed recommendations / best practices / additional info.
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
