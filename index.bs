@@ -4219,7 +4219,7 @@ Registry Data Reports</h4>
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
 
-	All rules and statements about implementations of [=registries=]
+	All rules and statements about implementations of [=registry entries=]
 	<em rfc=2119>must</em> be contained in the specifications or other documents that reference the registry,
 	and are therefore subject to the processes
 	(including approval and intellectual property provisions)
