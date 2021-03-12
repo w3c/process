@@ -1535,8 +1535,8 @@ Tooling</h3>
 			for producing its documentation and deliverables
 			or for official group discussions
 			<em class=rfc2119>must</em> be usable
-			without cost (direct or indirect)
-			by all active or would-be active group participants
+			without additional cost
+			by all who wish to participate,
 			to allow their effective participation
 			regardless of disability
 			or geographical location.
