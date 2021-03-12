@@ -1508,7 +1508,7 @@ Tooling</h3>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
 			(i.e. intended for use or reference outside its own membership)
-			<em class=rfc2119>must</em> be published and promoted at a W3C-controlled URL,
+			<em class=rfc2119>should</em> be published and promoted at a W3C-controlled URL,
 			and backed up by W3C systems
 			such that if the underlying service is discontinued,
 			W3C can continue to serve such content without breaking incoming links
@@ -1517,16 +1517,16 @@ Tooling</h3>
 		<li>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
-			<em class=rfc2119>must</em> follow best practices for accessibility worldwide
+			<em class=rfc2119>should</em> follow best practices for accessibility worldwide
 			and for persons with disabilities.
 			Network access to w3.org itself may be assumed.
 
 		<li>
 			Persistent text-based discussions sponsored by the group
 			pertaining to their work
-			and intended to be referenceable by all group members,
-			including official meeting minutes and especially records of decisions made,
-			<em class=rfc2119>must</em> be archived by W3C for future reference.
+			and intended to be referenceable by all group members <em class=rfc2119>should</em>--
+			and official meeting minutes and especially records of decisions made <em class=rfc2119>must</em>--
+			be archived by W3C for future reference.
 			This includes discussions conducted over email lists
 			or in issue-tracking services
 			or any equivalent fora.
@@ -1538,7 +1538,7 @@ Tooling</h3>
 			Any tooling used by the group
 			for producing its documentation and deliverables
 			or for official group discussions
-			<em class=rfc2119>must</em> be usable
+			<em class=rfc2119>should</em> be usable
 			without additional cost
 			by all who wish to participate,
 			to allow their effective participation
@@ -1552,7 +1552,7 @@ Tooling</h3>
 		<li>
 			All tools and archives used by the group
 			for its discussions and recordkeeping
-			<em class=rfc2119>must</em> be documented
+			<em class=rfc2119>should</em> be documented
 			such that new participants and observers
 			can easily find the group’s tools and records.
 
