@@ -1119,6 +1119,9 @@ Meetings</h3>
 	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a>
 	and other group requirements.
 
+<h4 id="meeting-schedules">
+Meeting Scheduling and Announcements</h4>
+
 	Meeting announcements <em class="rfc2119">should</em> be sent to all appropriate group mailing lists,
 	i.e. those most relevant to the anticipated meeting participants.
 
@@ -1159,6 +1162,19 @@ Meetings</h3>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
+
+<h4 id="meeting-recording">
+Meeting Recordings and Transcripts</h4>
+
+	No-one may record a meeting,
+	or retain an automated transcript,
+	unless the intent is announced at the start of the meeting,
+	and no-one participating in the recorded portion of the meeting withholds consent.
+	If consent is withheld by anyone, recording/retention <em class=rfc2119>must</em> not occur.
+	The announcement <em class=rfc2119>must</em> cover:
+	(a) who will have access to the recording or transcript and
+	(b) the purpose/use of it and
+	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.
 
 <h3 id="Consensus">
 Consensus</h3>
