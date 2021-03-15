@@ -985,7 +985,7 @@ General Policies for W3C Groups</h2>
 	This section describes general policies for W3C groups regarding participation,
 	meeting requirements,
 	and decision-making.
-	These policies apply to <span id="participant">participants</span> in the following groups:
+	These policies apply to <span id="participant">participants</span> in the following <dfn lt="group | W3C Group">groups</dfn>:
 	<a href="#AC">Advisory Committee</a>,
 	<a href="#ABParticipation">Advisory Board</a>,
 	<a href="#tag-participation">TAG</a>,
@@ -1095,11 +1095,7 @@ Individuals Representing a Member Organization</h4>
 <h3 id="GeneralMeetings">
 Meetings</h3>
 
-	W3C groups
-	(including the <a href="#ACMeetings">Advisory Committee</a>,
-	<a href="#AB">Advisory Board</a>,
-	<a href="#TAG">TAG</a>,
-	and <a href="#GroupsWG">Working Groups</a>)
+	[=W3C groups=]
 	<em class="rfc2119">should</em> observe the meeting requirements in this section.
 
 	<p>W3C distinguishes two types of meetings:</p>
