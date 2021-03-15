@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version b94c7e755, updated Fri Feb 19 16:28:59 2021 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="06c17da0e589d9dd9f9bc6b4a9cbcba7e566c136" name="document-revision">
+  <meta content="1e01b72d34153796dbc3d6789abf312557b088c5" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -629,7 +629,12 @@ dfn > a.self-link::before      { content: "#"; }
         <li><a href="#coi"><span class="secno">3.1.2</span> <span class="content"> Conflict of Interest Policy</span></a>
         <li><a href="#member-rep"><span class="secno">3.1.3</span> <span class="content"> Individuals Representing a Member Organization</span></a>
        </ol>
-      <li><a href="#GeneralMeetings"><span class="secno">3.2</span> <span class="content"> Meetings</span></a>
+      <li>
+       <a href="#GeneralMeetings"><span class="secno">3.2</span> <span class="content"> Meetings</span></a>
+       <ol class="toc">
+        <li><a href="#meeting-schedules"><span class="secno">3.2.1</span> <span class="content"> Meeting Scheduling and Announcements</span></a>
+        <li><a href="#meeting-recording"><span class="secno">3.2.2</span> <span class="content"> Meeting Recordings and Transcripts</span></a>
+       </ol>
       <li>
        <a href="#Consensus"><span class="secno">3.3</span> <span class="content"> Consensus</span></a>
        <ol class="toc">
@@ -1378,7 +1383,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>This section describes general policies for W3C groups regarding participation,
 	meeting requirements,
 	and decision-making.
-	These policies apply to <span id="participant">participants</span> in the following groups: <a href="#AC">Advisory Committee</a>, <a href="#ABParticipation">Advisory Board</a>, <a href="#tag-participation">TAG</a>, <a href="#wgparticipant" id="ref-for-wgparticipant">Working Groups</a>,
+	These policies apply to <span id="participant">participants</span> in the following <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="group | W3C Group" data-noexport id="group">groups</dfn>: <a href="#AC">Advisory Committee</a>, <a href="#ABParticipation">Advisory Board</a>, <a href="#tag-participation">TAG</a>, <a href="#wgparticipant" id="ref-for-wgparticipant">Working Groups</a>,
 	and <a href="#igparticipant" id="ref-for-igparticipant">Interest Groups</a>.</p>
    <h3 class="heading settled" data-level="3.1" id="ParticipationCriteria"><span class="secno">3.1. </span><span class="content"> Individual Participation Criteria</span><a class="self-link" href="#ParticipationCriteria"></a></h3>
    <h4 class="heading settled" data-level="3.1.1" id="discipline"><span class="secno">3.1.1. </span><span class="content"> Expectations and Discipline</span><a class="self-link" href="#discipline"></a></h4>
@@ -1447,9 +1452,7 @@ dfn > a.self-link::before      { content: "#"; }
 	the number of individuals representing a W3C Member
 	(or group of <a href="#MemberRelated">related Members</a>).</p>
    <h3 class="heading settled" data-level="3.2" id="GeneralMeetings"><span class="secno">3.2. </span><span class="content"> Meetings</span><a class="self-link" href="#GeneralMeetings"></a></h3>
-   <p>W3C groups
-	(including the <a href="#ACMeetings">Advisory Committee</a>, <a href="#AB">Advisory Board</a>, <a href="#TAG">TAG</a>,
-	and <a href="#GroupsWG" id="ref-for-GroupsWG">Working Groups</a>) <em class="rfc2119">should</em> observe the meeting requirements in this section.</p>
+   <p>The requirements in this section apply to the official meetings of any <a data-link-type="dfn" href="#group" id="ref-for-group">W3C group</a>.</p>
    <p>W3C distinguishes two types of meetings:</p>
    <ol>
     <li> A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="ftf-meeting">face-to-face meeting</dfn> is one
@@ -1465,9 +1468,10 @@ dfn > a.self-link::before      { content: "#"; }
 	Meeting guests do not have <a href="#Votes">voting rights</a>.
 	It is the responsibility of the Chair to ensure
 	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a> and other group requirements.</p>
+   <h4 class="heading settled" data-level="3.2.1" id="meeting-schedules"><span class="secno">3.2.1. </span><span class="content"> Meeting Scheduling and Announcements</span><a class="self-link" href="#meeting-schedules"></a></h4>
    <p>Meeting announcements <em class="rfc2119">should</em> be sent to all appropriate group mailing lists,
 	i.e. those most relevant to the anticipated meeting participants.</p>
-   <p>The following table lists requirements for organizing a meeting:</p>
+   <p>The following table lists <em class="rfc2119">recommendations</em> for organizing a meeting:</p>
    <table class="data">
     <thead>
      <tr>
@@ -1501,6 +1505,16 @@ dfn > a.self-link::before      { content: "#"; }
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.</p>
+   <h4 class="heading settled" data-level="3.2.2" id="meeting-recording"><span class="secno">3.2.2. </span><span class="content"> Meeting Recordings and Transcripts</span><a class="self-link" href="#meeting-recording"></a></h4>
+   <p>No-one may record a meeting,
+	or retain an automated transcript,
+	unless the intent is announced at the start of the meeting,
+	and no-one participating in the recorded portion of the meeting withholds consent.
+	If consent is withheld by anyone, recording/retention <em class="rfc2119">must</em> not occur.
+	The announcement <em class="rfc2119">must</em> cover:
+	(a) who will have access to the recording or transcript and
+	(b) the purpose/use of it and
+	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.</p>
    <h3 class="heading settled" data-level="3.3" id="Consensus"><span class="secno">3.3. </span><span class="content"> Consensus</span><a class="self-link" href="#Consensus"></a></h3>
    <p>Consensus is a core value of W3C.
 	To promote consensus,
@@ -1692,7 +1706,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision <em class="rfc2119">should</em> register with the Chair any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection⑤">Formal Objections</a> (e.g., to a decision made as the result of a <a href="#Votes">vote</a>).</p>
    <p>As detailed in other parts of this document,
-	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑧">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
+	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
 	to make certain decisions based on their own judgment.
 	Such decisions are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="chair-decisions">chair decisions</dfn>.
 	In contrast,
@@ -1820,7 +1834,7 @@ dfn > a.self-link::before      { content: "#"; }
    <h2 class="heading settled" data-level="5" id="GAGeneral"><span class="secno">5. </span><span class="content"> <span id="ChapterGroups"></span> Working Groups and Interest Groups</span><a class="self-link" href="#GAGeneral"></a></h2>
    <p id="GAGroups">This document defines two types of groups: </p>
    <dl>
-    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧⑨">Working Groups</a>. 
+    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧⑧">Working Groups</a>. 
     <dd> <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG②">Working Groups</a> typically produce deliverables
 			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
 			software,
@@ -4490,6 +4504,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#fpwd">First Public Working Draft</a><span>, in §6.2.1</span>
      <li><a href="#formally-addressed">formally addressed</a><span>, in §3.3.3</span>
      <li><a href="#FormalObjection">Formal Objection</a><span>, in §3.3.2</span>
+     <li><a href="#group">group</a><span>, in §3</span>
      <li><a href="#group-decision">group decision</a><span>, in §3.5</span>
      <li><a href="#wg-decision-appeal">Group Decision Appeal</a><span>, in §3.5</span>
      <li><a href="#WGNote">Group Note</a><span>, in §6.3.1</span>
@@ -4578,6 +4593,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#def-w3c-decision">W3C decision</a><span>, in §7</span>
      <li><a href="#def-Director">W3C Director</a><span>, in §2.2</span>
      <li><a href="#fellows">W3C Fellows</a><span>, in §2.2</span>
+     <li><a href="#group">W3C Group</a><span>, in §3</span>
      <li><a href="#WGNote">W3C Note</a><span>, in §6.3.1</span>
      <li><a href="#RecsPR">W3C Proposed Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#RecsW3C">W3C Recommendation</a><span>, in §6.2.1</span>
@@ -4954,6 +4970,13 @@ Advisory Board and Technical Architecture Group Participation Constraints</a> <a
 Advisory Board and Technical Architecture Group Elections</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="group">
+   <b><a href="#group">#group</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-group">3.2. 
+Meetings</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="ftf-meeting">
    <b><a href="#ftf-meeting">#ftf-meeting</a></b><b>Referenced in:</b>
    <ul>
@@ -5200,8 +5223,6 @@ Working Group and Interest Group Charter Extension</a>
   <aside class="dfn-panel" data-for="GroupsWG">
    <b><a href="#GroupsWG">#GroupsWG</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-GroupsWG">3.2. 
-Meetings</a>
     <li><a href="#ref-for-GroupsWG">3.5. 
 Chair Decisions and Group Decisions</a> <a href="#ref-for-GroupsWG①">(2)</a>
     <li><a href="#ref-for-GroupsWG">5.  
