@@ -2292,7 +2292,7 @@ W3C Technical Reports</h3>
 			These are typically published in a separate [=registry report=],
 			although they can also be directly embedded in [=Recommendation Track=] documents
 			as a [=registry section=].
-			Establishing a [=registry=] requires [=wide review=] and [=consensus=],
+			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
 			See [[#registries]] for details.
