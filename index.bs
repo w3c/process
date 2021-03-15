@@ -1095,8 +1095,7 @@ Individuals Representing a Member Organization</h4>
 <h3 id="GeneralMeetings">
 Meetings</h3>
 
-	[=W3C groups=]
-	<em class="rfc2119">should</em> observe the meeting requirements in this section.
+	The requirements in this section apply to the official meetings of any [=W3C group=].
 
 	<p>W3C distinguishes two types of meetings:</p>
 
@@ -1123,7 +1122,7 @@ Meetings</h3>
 	Meeting announcements <em class="rfc2119">should</em> be sent to all appropriate group mailing lists,
 	i.e. those most relevant to the anticipated meeting participants.
 
-	The following table lists requirements for organizing a meeting:
+	The following table lists <em class="rfc2119">recommendations</em> for organizing a meeting:
 
 	<table class="data">
 	<thead>
