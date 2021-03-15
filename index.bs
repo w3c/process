@@ -1431,12 +1431,13 @@ Votes</h3>
 	As detailed in other parts of this document,
 	the [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
 	to make certain decisions based on their own judgment.
-	Such decisions are called <dfn export>Chair Decisions</dfn>.
+	Such decisions are called <dfn export>chair decisions</dfn>.
 	In contrast,
 	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
 	on the basis of having assessed the [=consensus=] of the group
 	or following a vote (see [[#Votes]])
-	are called <dfn export>Group Decisions</dfn>.
+	are called <dfn export lt="group decision | resolution">group decisions</dfn>
+	(also known as group “resolutions”).
 
 	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
 	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
@@ -3511,7 +3512,7 @@ Revising a Recommendation: Editorial Changes</h5>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the intended changes.
 	A [=Working Group=],
-	provided there are no votes against the resolution to publish,
+	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
 	to make this class of change without passing through earlier maturity levels.
 	(See <a href="#correction-classes">class 2 changes</a>.)
@@ -3933,7 +3934,7 @@ Elevating Group Notes to W3C Statement status</h4>
 <h4 id=revising-memo>
 Revising W3C Statements</h4>
 
-	Given a recorded [=Group Decision=] to do so,
+	Given a recorded [=group decision=] to do so,
 	groups can request publication of a [=W3C Statement=] with [=editorial changes=]--
 	including [=candidate amendment=]--
 	without any additional process.
@@ -4209,7 +4210,7 @@ Registry Data Reports</h4>
 	any document holding the corresponding [=registry tables=]
 	to make it consistent with these changes.
 
-	Given a recorded [=Group Decision=] to do so,
+	Given a recorded [=group decision=] to do so,
 	the [=Working Group=]
 	<em class=rfc2119>may</em> republish the [=Registry Data Report=] to incorporate
 	[=editorial changes=].
