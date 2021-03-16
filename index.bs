@@ -4154,7 +4154,7 @@ Publishing Registries</h4>
 			<dfn export>Obsolete Registry</dfn> and <dfn export>Superseded Registry</dfn>.
 
 		<li>
-			The [=Proposed Recommendation=] phase is eliminated.
+			There is no equivalent to the Proposed Recommendation phase.
 			Instead,
 			an [=Advisory Committee Review=] is started
 			upon publication of each [=Candidate Registry Snapshot=].
