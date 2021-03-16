@@ -1522,11 +1522,13 @@ Tooling</h3>
 			Network access to w3.org itself may be assumed.
 
 		<li>
-			Persistent text-based discussions sponsored by the group
+			Official meeting minutes and especially records of decisions made <em class=rfc2119>must</em>
+			be archived by W3C for future reference;
+			and other persistent text-based discussions
+			sponsored by the group,
 			pertaining to their work
-			and intended to be referenceable by all group members <em class=rfc2119>should</em>--
-			and official meeting minutes and especially records of decisions made <em class=rfc2119>must</em>--
-			be archived by W3C for future reference.
+			and intended to be referenceable by all group members
+			<em class=rfc2119>should</em> be.
 			This includes discussions conducted over email lists
 			or in issue-tracking services
 			or any equivalent fora.
