@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version b94c7e755, updated Fri Feb 19 16:28:59 2021 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="3d40b97101c9cde31bbd4a0cc88f9d748f0341ca" name="document-revision">
+  <meta content="60a9548d5bab24ce3b6ec8f9763a358b93154da3" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -1380,11 +1380,12 @@ dfn > a.self-link::before      { content: "#"; }
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.</p>
    </ul>
    <h2 class="heading settled" data-level="3" id="Policies"><span class="secno">3. </span><span class="content"> General Policies for W3C Groups</span><a class="self-link" href="#Policies"></a></h2>
-   <p>This section describes general policies for W3C groups regarding participation,
+   <p>For the purposes of this Process, a <dfn class="dfn-paneled" data-dfn-type="dfn" data-local-lt="group" data-noexport id="w3c-group">W3C Group</dfn> is one of W3C’s <a href="#wgparticipant" id="ref-for-wgparticipant">Working Groups</a>, <a href="#igparticipant" id="ref-for-igparticipant">Interest Groups</a>, <a href="#AC">Advisory Committee</a>, <a href="#ABParticipation">Advisory Board</a>,
+	or <a href="#tag-participation">TAG</a>,
+	and a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="participant">participant</dfn> is a member of such a group
+	This section describes general policies for such groups regarding participation,
 	meeting requirements,
-	and decision-making.
-	These policies apply to <span id="participant">participants</span> in the following <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="group | W3C Group" data-noexport id="group">groups</dfn>: <a href="#AC">Advisory Committee</a>, <a href="#ABParticipation">Advisory Board</a>, <a href="#tag-participation">TAG</a>, <a href="#wgparticipant" id="ref-for-wgparticipant">Working Groups</a>,
-	and <a href="#igparticipant" id="ref-for-igparticipant">Interest Groups</a>.</p>
+	and decision-making.</p>
    <h3 class="heading settled" data-level="3.1" id="ParticipationCriteria"><span class="secno">3.1. </span><span class="content"> Individual Participation Criteria</span><a class="self-link" href="#ParticipationCriteria"></a></h3>
    <h4 class="heading settled" data-level="3.1.1" id="discipline"><span class="secno">3.1.1. </span><span class="content"> Expectations and Discipline</span><a class="self-link" href="#discipline"></a></h4>
    <p>There are three qualities an individual is expected to demonstrate in order to participate in W3C:</p>
@@ -1452,7 +1453,7 @@ dfn > a.self-link::before      { content: "#"; }
 	the number of individuals representing a W3C Member
 	(or group of <a href="#MemberRelated">related Members</a>).</p>
    <h3 class="heading settled" data-level="3.2" id="GeneralMeetings"><span class="secno">3.2. </span><span class="content"> Meetings</span><a class="self-link" href="#GeneralMeetings"></a></h3>
-   <p>The requirements in this section apply to the official meetings of any <a data-link-type="dfn" href="#group" id="ref-for-group">W3C group</a>.</p>
+   <p>The requirements in this section apply to the official meetings of any <a data-link-type="dfn" href="#w3c-group" id="ref-for-w3c-group">W3C group</a>.</p>
    <p>W3C distinguishes two types of meetings:</p>
    <ol>
     <li> A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="ftf-meeting">face-to-face meeting</dfn> is one
@@ -1464,7 +1465,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>A <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①">Chair</a> <em class="rfc2119">may</em> invite an individual with a particular expertise
 	to attend a meeting on an exceptional basis.
 	This person is a meeting guest,
-	not a group <a href="#participant">participant</a>.
+	not a group <a href="#participant" id="ref-for-participant">participant</a>.
 	Meeting guests do not have <a href="#Votes">voting rights</a>.
 	It is the responsibility of the Chair to ensure
 	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a> and other group requirements.</p>
@@ -1669,7 +1670,7 @@ dfn > a.self-link::before      { content: "#"; }
     <li> any Formal Objections. 
    </ul>
    <p>In order to vote to resolve a substantive issue,
-	an individual <em class="rfc2119">must</em> be a group <a href="#participant">participant</a>.
+	an individual <em class="rfc2119">must</em> be a group <a href="#participant" id="ref-for-participant①">participant</a>.
 	Each organization represented in the group <em class="rfc2119">must</em> have at most one vote,
 	even when the organization is represented by several participants in the group
 	(including Invited Experts).
@@ -4504,7 +4505,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#fpwd">First Public Working Draft</a><span>, in §6.2.1</span>
      <li><a href="#formally-addressed">formally addressed</a><span>, in §3.3.3</span>
      <li><a href="#FormalObjection">Formal Objection</a><span>, in §3.3.2</span>
-     <li><a href="#group">group</a><span>, in §3</span>
+     <li><a href="#w3c-group">group</a><span>, in §3</span>
      <li><a href="#group-decision">group decision</a><span>, in §3.5</span>
      <li><a href="#wg-decision-appeal">Group Decision Appeal</a><span>, in §3.5</span>
      <li><a href="#WGNote">Group Note</a><span>, in §6.3.1</span>
@@ -4533,6 +4534,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#RecsObs">Obsolete Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#obsolete-registry">Obsolete Registry</a><span>, in §6.4.2</span>
      <li><a href="#other-charter">Other Charter</a><span>, in §5.2.6</span>
+     <li><a href="#participant">participant</a><span>, in §3</span>
      <li><a href="#igparticipant">participants in an Interest Group</a><span>, in §5.2.1</span>
      <li><a href="#wgparticipant">participants in a Working Group</a><span>, in §5.2.1</span>
      <li><a href="#inv-expert-info">participate in a Working Group as an Invited Expert</a><span>, in §5.2.1.3</span>
@@ -4593,7 +4595,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#def-w3c-decision">W3C decision</a><span>, in §7</span>
      <li><a href="#def-Director">W3C Director</a><span>, in §2.2</span>
      <li><a href="#fellows">W3C Fellows</a><span>, in §2.2</span>
-     <li><a href="#group">W3C Group</a><span>, in §3</span>
+     <li><a href="#w3c-group">W3C Group</a><span>, in §3</span>
      <li><a href="#WGNote">W3C Note</a><span>, in §6.3.1</span>
      <li><a href="#RecsPR">W3C Proposed Recommendation</a><span>, in §6.2.1</span>
      <li><a href="#RecsW3C">W3C Recommendation</a><span>, in §6.2.1</span>
@@ -4970,11 +4972,20 @@ Advisory Board and Technical Architecture Group Participation Constraints</a> <a
 Advisory Board and Technical Architecture Group Elections</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="group">
-   <b><a href="#group">#group</a></b><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="w3c-group">
+   <b><a href="#w3c-group">#w3c-group</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-group">3.2. 
+    <li><a href="#ref-for-w3c-group">3.2. 
 Meetings</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="participant">
+   <b><a href="#participant">#participant</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-participant">3.2. 
+Meetings</a>
+    <li><a href="#ref-for-participant">3.4. 
+Votes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="ftf-meeting">
