@@ -982,15 +982,16 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 <h2 id="Policies">
 General Policies for W3C Groups</h2>
 
-	This section describes general policies for W3C groups regarding participation,
-	meeting requirements,
-	and decision-making.
-	These policies apply to <span id="participant">participants</span> in the following <dfn lt="group | W3C Group">groups</dfn>:
+	For the purposes of this Process, a <dfn lt="W3C Group" local-lt="group">W3C Group</dfn> is one of W3C’s
+	<a href="#wgparticipant">Working Groups</a>,
+	<a href="#igparticipant">Interest Groups</a>,
 	<a href="#AC">Advisory Committee</a>,
 	<a href="#ABParticipation">Advisory Board</a>,
-	<a href="#tag-participation">TAG</a>,
-	<a href="#wgparticipant">Working Groups</a>,
-	and <a href="#igparticipant">Interest Groups</a>.
+	or <a href="#tag-participation">TAG</a>,
+	and a <dfn>participant</dfn> is a member of such a group
+	This section describes general policies for such groups regarding participation,
+	meeting requirements,
+	and decision-making.
 
 <h3 id="ParticipationCriteria">
 Individual Participation Criteria</h3>
