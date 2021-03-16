@@ -1166,8 +1166,8 @@ Meeting Scheduling and Announcements</h4>
 <h4 id="meeting-minutes">
 Meeting Minutes</h4>
 
-	Groups are expected to take and retain <dfn>minutes</dfn> of their meetings,
-	and <em class="rfc2119">must</em> record in particular
+	Groups <em class=rfc2119>should</em> take and retain <dfn>minutes</dfn> of their meetings,
+	and <em class="rfc2119">must</em> record
 	any official [=group decisions=] made during the meeting discussions.
 	Precise details of the discussion leading to such decisions
 	is recommended, but not required
