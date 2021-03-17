@@ -2300,16 +2300,13 @@ W3C Technical Reports</h3>
 
 		<dt>Registries
 		<dd>
-			[=Working Groups=] can also publish registries
-			in order to document collections of values or other data
-			that have no normative implementation requirements.
-			Registries are generally companion to [=Recommendation Track=] documents
-			which contain the related normative requirements,
-			and are typically published in a separate [=registry report=],
-			although they can also be directly embedded in [=Recommendation Track=] documents.
-			The registry track requires [=wide review=] and [=consensus=]
-			on what the registry will contain and how it will be managed.
-			Once set up, changes to registry entries are lightweight
+			[=Working Groups=] can also publish [=registries=]
+			in order to document collections of values or other data.
+			These are typically published in a separate [=registry report=],
+			although they can also be directly embedded in [=Recommendation Track=] documents
+			as a [=registry section=].
+			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
+			but once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
 			See [[#registries]] for details.
 	</dl>
@@ -4077,6 +4074,9 @@ Publishing Registries</h4>
 	is purely documentational,
 	is not subject to the W3C Patent Policy,
 	and <em class=rfc2119>must not</em> contain any requirements on implementations.
+	For the purposes of the Patent Policy [[PATENT-POLICY]],
+	any [=registry section=] in a [=Recommendation track=] document
+	is not a normative portion of that specification.
 
 	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
 	<ul>
@@ -4129,8 +4129,8 @@ Publishing Registries</h4>
 
 	<ul>
 		<li>
-			Since [=Registry Reports=] are not subject to the [[PATENT-POLICY]],
-			none of their publications correspond,
+			[=Registry reports=] are not subject to the [[PATENT-POLICY]],
+			and therefore none of their publications correspond,
 			to [=First Public Working Draft=],
 			[=Working Draft=],
 			or [=Patent Review Draft=]
