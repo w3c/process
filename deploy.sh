@@ -5,7 +5,12 @@ SOURCE_BRANCH="main"
 TARGET_BRANCH="gh-pages"
 
 # List of long-lived topic branch names to be published on github.io as a subdirectory
-TOPIC_BRANCHES=("director-free" "tooling")
+# Once added, branches should not be removed from here,
+# because cool URLs don't change.
+# (But you can stop advertising them in README.md)
+# Even if the branch itself is retired,
+# the built copies will continue to be served unless and until its name is removed from here.
+TOPIC_BRANCHES=("director-free" "tooling" "registries" "registries-on-rec-track" "registries-separable" "evergreen" "everblue" "section-6-clean-up" "maintenance-2020")
 
 containsElement () {
   local e match="$1"
