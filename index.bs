@@ -1169,8 +1169,7 @@ Meeting Minutes</h4>
 	Groups <em class=rfc2119>should</em> take and retain <dfn>minutes</dfn> of their meetings,
 	and <em class="rfc2119">must</em> record
 	any official [=group decisions=] made during the meeting discussions.
-	Precise details of the discussion leading to such decisions
-	is recommended, but not required
+	Details of the discussion leading to such decisions are not required,
 	provided that the rationale for the [=group decision=] is nonetheless clear.
 
 <h4 id="meeting-recording">
