@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version b94c7e755, updated Fri Feb 19 16:28:59 2021 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="753bcb311c7a686115177bf2e32f1ac4a57d70b6" name="document-revision">
+  <meta content="ebd4c990193132a8906c4a2863fbc64516716897" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -746,8 +746,7 @@ dfn > a.self-link::before      { content: "#"; }
         <li><a href="#reg-def"><span class="secno">6.4.1</span> <span class="content"> Registry Definitions</span></a>
         <li><a href="#reg-pub"><span class="secno">6.4.2</span> <span class="content"> Publishing Registries</span></a>
         <li><a href="#reg-table-update"><span class="secno">6.4.3</span> <span class="content"> Updating Registry Tables</span></a>
-        <li><a href="#reg-data-reports"><span class="secno">6.4.4</span> <span class="content"> Registry Data Reports</span></a>
-        <li><a href="#reg-ref-specifications"><span class="secno">6.4.5</span> <span class="content"> Specifications that Reference Registries</span></a>
+        <li><a href="#reg-ref-specifications"><span class="secno">6.4.4</span> <span class="content"> Specifications that Reference Registries</span></a>
        </ol>
       <li><a href="#further-reading"><span class="secno">6.5</span> <span class="content"> Further reading</span></a>
      </ol>
@@ -1692,7 +1691,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>Groups resolve issues through dialog.
 	Individuals who disagree strongly with a decision <em class="rfc2119">should</em> register with the Chair any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection⑤">Formal Objections</a> (e.g., to a decision made as the result of a <a href="#Votes">vote</a>).</p>
    <p>As detailed in other parts of this document,
-	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑧">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
+	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs⑧">Chair</a> of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑥">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG">Interest Group</a> has the prerogative
 	to make certain decisions based on their own judgment.
 	Such decisions are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="chair-decisions">Chair Decisions</dfn>.
 	In contrast,
@@ -1820,7 +1819,7 @@ dfn > a.self-link::before      { content: "#"; }
    <h2 class="heading settled" data-level="5" id="GAGeneral"><span class="secno">5. </span><span class="content"> <span id="ChapterGroups"></span> Working Groups and Interest Groups</span><a class="self-link" href="#GAGeneral"></a></h2>
    <p id="GAGroups">This document defines two types of groups: </p>
    <dl>
-    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧⑨">Working Groups</a>. 
+    <dt> <a href="#GroupsWG" id="ref-for-GroupsWG⑧⑦">Working Groups</a>. 
     <dd> <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG②">Working Groups</a> typically produce deliverables
 			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
 			software,
@@ -3556,7 +3555,7 @@ dfn > a.self-link::before      { content: "#"; }
 	A registry has three associated components:</p>
    <ul>
     <li>the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition">registry definition</a>, defining how the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②">registry tables</a> are structured and maintained 
-    <li>one or more <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table③">registry tables</a>, holding the data set represented by the <a data-link-type="dfn" href="#registry" id="ref-for-registry">registry</a> (the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-data">registry data</dfn>) 
+    <li>one or more <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table③">registry tables</a>, holding the data set represented by the <a data-link-type="dfn" href="#registry" id="ref-for-registry">registry</a> (the <dfn data-dfn-type="dfn" data-noexport id="registry-data">registry data<a class="self-link" href="#registry-data"></a></dfn>) 
     <li>one or more referencing specifications, which make use of the <a data-link-type="dfn" href="#registry" id="ref-for-registry①">registry</a> 
    </ul>
    <p>The purposes of maintaining a <a data-link-type="dfn" href="#registry" id="ref-for-registry②">registry</a> can include:</p>
@@ -3632,24 +3631,18 @@ dfn > a.self-link::before      { content: "#"; }
 			and its <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition②">registry definitions</a> as such,
 			including a link to <a href="#registries">§ 6.4 The Registry Track</a> in this Process. 
     <li> Include the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition③">registry definition</a> for each of its <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①①">registry tables</a>. 
-    <li>
-      Provide the <a data-link-type="dfn" href="#registry-data" id="ref-for-registry-data">registry data</a> by either: 
-     <ul>
-      <li> Including the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①②">registry table</a>,
-					either inline in the report
-					(e.g. formatted as a table, or list, or other appropriate representation),
-					or in a machine-readable file published as part of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑨">technical report</a>,
-					or (preferably) both. 
-      <li> Linking to one or more standalone <a data-link-type="dfn" href="#registry-data-report" id="ref-for-registry-data-report">Registry Data Reports</a> containing the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①③">registry tables</a> in human-readable form, machine-readable form,
-					or (preferably) both. 
-     </ul>
-    <li> Include, if the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①④">registry table</a> is provided in a machine-readable file,
+    <li> Include the entire contents of each <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①②">registry table</a>,
+			either inline in the report
+			(e.g. formatted as a table, or list, or other appropriate representation),
+			or in a machine-readable file published as part of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①⑨">technical report</a>,
+			or (preferably) both. 
+    <li> Include, if the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①③">registry table</a> is provided in a machine-readable file,
 			a definition of the format of that file. 
    </ul>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④④">Team</a> <em class="rfc2119">must</em> make available
-	a means for interested parties to be notified of any updates to a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑤">registry table</a>.</p>
+	a means for interested parties to be notified of any updates to a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①④">registry table</a>.</p>
    <p class="note" role="note"><span>Note:</span> Since the Process does not impose requirements
-	on changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑥">registry table</a> other than those imposed by the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition④">registry definition</a>,
+	on changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑤">registry table</a> other than those imposed by the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition④">registry definition</a>,
 	acceptance of proposed <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change①">registry changes</a> on behalf of the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian③">custodian</a> and
 	publication of an updated <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report⑤">registry report</a> that contains
 	only <a data-link-type="dfn" href="#registry-change" id="ref-for-registry-change②">registry changes</a> since the previous publication
@@ -3676,7 +3669,7 @@ dfn > a.self-link::before      { content: "#"; }
 			without needing the to explicitly indicate that this is allowed. 
    </ul>
    <h4 class="heading settled" data-level="6.4.3" id="reg-table-update"><span class="secno">6.4.3. </span><span class="content"> Updating Registry Tables</span><a class="self-link" href="#reg-table-update"></a></h4>
-   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑦">registry table</a> that are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑤">registry definition</a>,
+   <p>Changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑥">registry table</a> that are in accordance with the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑤">registry definition</a>,
 	(i.e. <a href="#correction-classes">Class 5 changes</a>)
 	can be made by re-publishing the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②⓪">technical report</a> that contains the affected table,
 	without needing to satisfy any other requirements for the publication
@@ -3694,33 +3687,13 @@ dfn > a.self-link::before      { content: "#"; }
 	this needs to be part of the registry table’s defintion.
 	If other changes are desired,
 	they must be requested of the responsible Working Group—<wbr>or in the absence of a Working Group, of the Team.</p>
-   <p>Changes to the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑧">registry tables</a> made in accordance with <a data-link-type="dfn" href="#candidate-amendment" id="ref-for-candidate-amendment①①">candidate</a> or <a data-link-type="dfn" href="#proposed-amendments" id="ref-for-proposed-amendments①②">proposed amendments</a> to the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑦">registry definition</a> which would not be allowed by the unamended <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑧">registry definition</a> <em class="rfc2119">must</em> be identified as such.</p>
-   <h4 class="heading settled" data-level="6.4.4" id="reg-data-reports"><span class="secno">6.4.4. </span><span class="content"> Registry Data Reports</span><a class="self-link" href="#reg-data-reports"></a></h4>
-   <p>When the <a data-link-type="dfn" href="#registry-data" id="ref-for-registry-data①">registry data</a> is published in a separate <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②②">technical report</a> from its <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑨">registry definition</a>,
-	that <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②③">report</a> is called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-data-report">Registry Data Report</dfn>.
-	This <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②④">technical report</a>:</p>
-   <ul>
-    <li> <em class="rfc2119">Must</em> link to the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①⓪">registry definition</a> establishing the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑨">registry tables</a> that it contain. 
-    <li> <em class="rfc2119">May</em> contain informative introductory text, examples, and notes
-			about the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②⓪">registry tables</a> and <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry②">entries</a> that it contains.
-			(Changes to these parts are deemed to be <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑥">editorial changes</a>). 
-   </ul>
-   <p><a data-link-type="dfn" href="#registry-data-report" id="ref-for-registry-data-report①">Registry Data Reports</a> do not have maturity levels in and of themselves;
-	The maturity level of the <a data-link-type="dfn" href="#registry" id="ref-for-registry⑦">registry</a> whose <a data-link-type="dfn" href="#registry-data" id="ref-for-registry-data②">data</a> they record
-	is that of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②⑤">technical report</a> holding the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①①">registry definition</a>.</p>
-   <p>Anytime a change is made to a <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①②">registry definition</a>,
-	the Working Group <em class="rfc2119">must</em> update and republish
-	any document holding the corresponding <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②①">registry tables</a> to make it consistent with these changes.</p>
-   <p>Given a recorded <a data-link-type="dfn" href="#group-decisions" id="ref-for-group-decisions②">Group Decision</a> to do so,
-	the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧②">Working Group</a> <em class="rfc2119">may</em> republish the <a data-link-type="dfn" href="#registry-data-report" id="ref-for-registry-data-report②">Registry Data Report</a> to incorporate <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑦">editorial changes</a>.
-	If there is no <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧③">Working Group</a> chartered to maintain this registry,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> <em class="rfc2119">may</em> do so instead.</p>
-   <h4 class="heading settled" data-level="6.4.5" id="reg-ref-specifications"><span class="secno">6.4.5. </span><span class="content"> Specifications that Reference Registries</span><a class="self-link" href="#reg-ref-specifications"></a></h4>
-   <p>All rules and statements about implementations of <a data-link-type="dfn" href="#registry" id="ref-for-registry⑧">registries</a> <em rfc="2119">must</em> be contained in the specifications or other documents that reference the registry,
+   <p>Changes to the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑦">registry tables</a> made in accordance with <a data-link-type="dfn" href="#candidate-amendment" id="ref-for-candidate-amendment①①">candidate</a> or <a data-link-type="dfn" href="#proposed-amendments" id="ref-for-proposed-amendments①②">proposed amendments</a> to the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑦">registry definition</a> which would not be allowed by the unamended <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition⑧">registry definition</a> <em class="rfc2119">must</em> be identified as such.</p>
+   <h4 class="heading settled" data-level="6.4.4" id="reg-ref-specifications"><span class="secno">6.4.4. </span><span class="content"> Specifications that Reference Registries</span><a class="self-link" href="#reg-ref-specifications"></a></h4>
+   <p>All rules and statements about implementations of <a data-link-type="dfn" href="#registry" id="ref-for-registry⑦">registries</a> <em rfc="2119">must</em> be contained in the specifications or other documents that reference the registry,
 	and are therefore subject to the processes
 	(including approval and intellectual property provisions)
 	applicable to those referencing specifications.</p>
-   <p>It <em class="rfc2119">must not</em> be possible that a change to the <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry③">registry entries</a> affect the conformance of implementations to the Referencing document;
+   <p>It <em class="rfc2119">must not</em> be possible that a change to the <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry②">registry entries</a> affect the conformance of implementations to the Referencing document;
 	if there are entries that must be implemented,
 	or any other such restrictions,
 	they <em rfc="2119">must</em> be documented in the document without reference to the registry.</p>
@@ -3754,7 +3727,7 @@ dfn > a.self-link::before      { content: "#"; }
    </ul>
    <h4 class="heading settled" data-level="7.1.1" id="ACReviewStart"><span class="secno">7.1.1. </span><span class="content"> Start of a Review Period</span><a class="self-link" href="#ACReviewStart"></a></h4>
    <p>Each <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Advisory Committee review | AC Review" id="advisory-committee-review"> Advisory Committee review</dfn> period
-	begins with a Call for Review from the <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a> to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑥">Advisory Committee</a>.
+	begins with a Call for Review from the <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑥">Advisory Committee</a>.
 	The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="reviewform">Call for Review</dfn> describes the proposal,
 	raises attention to deadlines,
 	estimates when the decision will be available,
@@ -3786,7 +3759,7 @@ dfn > a.self-link::before      { content: "#"; }
 	This <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑥">W3C decision</a> is generally one of the following:</p>
    <ol>
     <li> The proposal is approved,
-			possibly with <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑧">editorial changes</a> integrated. 
+			possibly with <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑥">editorial changes</a> integrated. 
     <li> The proposal is approved,
 			possibly with <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①②">substantive changes</a> integrated.
 			In this case the announcement <em class="rfc2119">must</em> include rationale
@@ -3798,7 +3771,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>This document does not specify
 	time intervals between the end of an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee review</a> period
 	and the <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑦">W3C decision</a>.
-	This is to ensure that the Members and <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a> have sufficient time to consider comments
+	This is to ensure that the Members and <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a> have sufficient time to consider comments
 	gathered during the review.
 	The <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑧">Advisory Committee</a> <em class="rfc2119">should not</em> expect an announcement
 	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
@@ -3822,10 +3795,10 @@ dfn > a.self-link::before      { content: "#"; }
 	and <a data-link-type="dfn" href="#mou" id="ref-for-mou">Memoranda of Understanding</a>.</p>
    <p>In all cases,
 	an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑥">appeal</a> <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.</p>
-   <p>An <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑧">Advisory Committee representative</a> initiates an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑦">appeal</a> by sending a request to the <a data-link-type="dfn" href="#team" id="ref-for-team④⑧">Team</a>.
+   <p>An <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑧">Advisory Committee representative</a> initiates an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑦">appeal</a> by sending a request to the <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a>.
 	The request should say “I appeal this Director’s Decision”
 	and identify the decision.
-	Within one week the <a data-link-type="dfn" href="#team" id="ref-for-team④⑨">Team</a> <em class="rfc2119">must</em> announce the appeal process
+	Within one week the <a data-link-type="dfn" href="#team" id="ref-for-team④⑧">Team</a> <em class="rfc2119">must</em> announce the appeal process
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⓪">Advisory Committee</a> and provide a mechanism for <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑨">Advisory Committee representatives</a> to respond with a statement of positive support for this appeal.
 	The archive of these statements <em class="rfc2119">must</em> be <a data-link-type="dfn" href="#Member-only" id="ref-for-Member-only①⓪">member-only</a>.
 	If, within <span class="time-interval">one week</span> of the Team’s announcement,
@@ -3890,7 +3863,7 @@ dfn > a.self-link::before      { content: "#"; }
 	to mutual membership,
 	to even more formal agreements.
 	Liaisons are not meant to substitute for W3C membership.</p>
-   <p>All liaisons <em class="rfc2119">must</em> be coordinated by the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a> due to requirements for public communication;
+   <p>All liaisons <em class="rfc2119">must</em> be coordinated by the <a data-link-type="dfn" href="#team" id="ref-for-team④⑨">Team</a> due to requirements for public communication;
 	patent,
 	copyright,
 	and other IPR policies;
@@ -3923,13 +3896,13 @@ dfn > a.self-link::before      { content: "#"; }
    <p>The Member Submission process allows Members
 	to propose technology
 	or other ideas
-	for consideration by the <a data-link-type="dfn" href="#team" id="ref-for-team⑤①">Team</a>.
+	for consideration by the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a>.
 	After review,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤②">Team</a> <em class="rfc2119">may</em> make the material available at the W3C Web site.
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤①">Team</a> <em class="rfc2119">may</em> make the material available at the W3C Web site.
 	The formal process affords Members a record of their contribution
 	and gives them a mechanism for disclosing the details of the transaction with the Team
 	(including IPR claims).
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤③">Team</a> also makes review comments on the Submitted materials available for W3C Members,
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤②">Team</a> also makes review comments on the Submitted materials available for W3C Members,
 	the public,
 	and the media.</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="MemberSubmission">Member Submission</dfn> consists of:</p>
@@ -3945,7 +3918,7 @@ dfn > a.self-link::before      { content: "#"; }
     <li> One of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①">Submitters</a> sends a request to the Team to acknowledge the Submission request.
 			The Team and <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②">Submitter</a>(s) communicate to ensure that the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission">Member Submission</a> is complete. 
     <li>
-      After <a data-link-type="dfn" href="#team" id="ref-for-team⑤④">Team</a> review, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③④">Director</a> <em class="rfc2119">must</em> either
+      After <a data-link-type="dfn" href="#team" id="ref-for-team⑤③">Team</a> review, the <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③④">Director</a> <em class="rfc2119">must</em> either
 			acknowledge or reject the Submission request. 
      <ul>
       <li> If <a href="#SubmissionYes">acknowledged</a>,
@@ -3967,7 +3940,7 @@ dfn > a.self-link::before      { content: "#"; }
      <li> There is no requirement or guarantee
 				that technology which is part of an acknowledged Submission request
 				will receive further consideration by W3C
-				(e.g., by a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧④">Working Group</a>). 
+				(e.g., by a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧②">Working Group</a>). 
     </ul>
    </div>
    <p>Making a Member Submission available at the W3C Web site
@@ -4008,12 +3981,12 @@ dfn > a.self-link::before      { content: "#"; }
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑨">Submitter</a>(s) <em class="rfc2119">must not</em>, <strong>under any circumstances</strong>,
 	imply W3C investment in the Member Submission
 	until, and unless, the material has been adopted as a deliverable
-	of a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑤">Working Group</a>.</p>
+	of a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧③">Working Group</a>.</p>
    <h4 class="heading settled" data-level="10.1.1" id="SubmissionScope"><span class="secno">10.1.1. </span><span class="content"> Scope of Member Submissions</span><a class="self-link" href="#SubmissionScope"></a></h4>
    <p>When a technology overlaps in scope with the work of a chartered Working Group,
 	Members <em class="rfc2119">should</em> <a href="#group-participation">participate in the Working Group</a> and contribute the technology to the group’s process
 	rather than seek publication through the Member Submission process.
-	The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑥">Working Group</a> <em class="rfc2119">may</em> incorporate the contributed technology into its deliverables.
+	The <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧④">Working Group</a> <em class="rfc2119">may</em> incorporate the contributed technology into its deliverables.
 	If the Working Group does not incorporate the technology,
 	it <em class="rfc2119">should not</em> publish the contributed documents
 	as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑧">Working Group Notes</a> since <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑨">Working Group Notes</a> represent group output,
@@ -4070,26 +4043,26 @@ dfn > a.self-link::before      { content: "#"; }
 	see “<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>” <a data-link-type="biblio" href="#biblio-member-sub">[MEMBER-SUB]</a>.</p>
    <h3 class="heading settled" data-level="10.2" id="TeamSubmissionRights"><span class="secno">10.2. </span><span class="content"> Team Rights and Obligations</span><a class="self-link" href="#TeamSubmissionRights"></a></h3>
    <p>Although they are not technical reports,
-	the documents in a <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑤">Member Submission</a> <em class="rfc2119">must</em> fulfil the requirements established by the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑤">Team</a>,
+	the documents in a <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑤">Member Submission</a> <em class="rfc2119">must</em> fulfil the requirements established by the <a data-link-type="dfn" href="#team" id="ref-for-team⑤④">Team</a>,
 	including the Team’s <a href="https://www.w3.org/pubrules/">Publication Rules</a> <a data-link-type="biblio" href="#biblio-pubrules">[PUBRULES]</a>.</p>
-   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑥">Team</a> sends a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="validation-notice">validation notice</dfn> to the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①④">Submitter</a>(s)
+   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑤">Team</a> sends a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="validation-notice">validation notice</dfn> to the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①④">Submitter</a>(s)
 	once the Team has reviewed a Submission request
 	and judged it complete and correct.</p>
    <p>Prior to a decision to <a href="#SubmissionYes">acknowledge</a> or <a href="#SubmissionNo">reject</a> the request,
 	the request is <a data-link-type="dfn" href="#Team-only" id="ref-for-Team-only⑥">Team-only</a>,
-	and the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑦">Team</a> <em class="rfc2119">must</em> hold it in the strictest confidentiality.
+	and the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑥">Team</a> <em class="rfc2119">must</em> hold it in the strictest confidentiality.
 	In particular,
 	the Team <em class="rfc2119">must not</em> comment to the media
 	about the Submission request.</p>
    <h3 class="heading settled" data-level="10.3" id="SubmissionYes"><span class="secno">10.3. </span><span class="content"> Acknowledgment of a Submission Request</span><a class="self-link" href="#SubmissionYes"></a></h3>
-   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑧">Team</a> <a href="#SubmissionYes">acknowledges</a> a Submission request
+   <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑦">Team</a> <a href="#SubmissionYes">acknowledges</a> a Submission request
 	by sending an announcement to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑥">Advisory Committee</a>.
 	Though the announcement <em class="rfc2119">may</em> be made at any time,
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑤">Submitter</a>(s) can expect an announcement between <span class="time-interval">four to six weeks</span> after the <a data-link-type="dfn" href="#validation-notice" id="ref-for-validation-notice">validation notice</a>.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑨">Team</a> <em class="rfc2119">must</em> keep the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑥">Submitter</a>(s) informed
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑧">Team</a> <em class="rfc2119">must</em> keep the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑥">Submitter</a>(s) informed
 	of when an announcement is likely to be made.</p>
    <p>Once a Submission request has been acknowledged,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⓪">Team</a> <em class="rfc2119">must</em>:</p>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑨">Team</a> <em class="rfc2119">must</em>:</p>
    <ul>
     <li> Make the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑥">Member Submission</a> available at the W3C Web site. 
     <li> Make the Team comments about the Submission request available at the W3C Web site. 
@@ -4097,7 +4070,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p>If the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑦">Submitter</a>(s) wishes to modify
 	a document made available as the result of acknowledgment,
 	the Submitter(s) <em class="rfc2119">must</em> start the Submission process from the beginning,
-	even just to correct <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑨">editorial changes</a>.</p>
+	even just to correct <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑦">editorial changes</a>.</p>
    <h3 class="heading settled" data-level="10.4" id="SubmissionNo"><span class="secno">10.4. </span><span class="content"> Rejection of a Submission Request, and Submission Appeals</span><a class="self-link" href="#SubmissionNo"></a></h3>
    <p>The <a data-link-type="dfn" href="#def-Director" id="ref-for-def-Director③⑤">Director</a> <em class="rfc2119">may</em> reject a Submission request
 	for a variety of reasons,
@@ -4115,23 +4088,23 @@ dfn > a.self-link::before      { content: "#"; }
     <li> The ideas expressed in the request lie well outside the scope of W3C’s mission. 
    </ul>
    <p>In case of a rejection,
-	  the <a data-link-type="dfn" href="#team" id="ref-for-team⑥①">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③③">Advisory Committee representative</a>(s)
+	  the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⓪">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③③">Advisory Committee representative</a>(s)
 	  of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑨">Submitter</a>(s).
 	  If requested by the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②⓪">Submitter</a>(s),
-	  the <a data-link-type="dfn" href="#team" id="ref-for-team⑥②">Team</a> <em class="rfc2119">must</em> provide rationale
+	  the <a data-link-type="dfn" href="#team" id="ref-for-team⑥①">Team</a> <em class="rfc2119">must</em> provide rationale
 	  to the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②①">Submitter</a>(s) about the rejection.
 	  Other than to the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②②">Submitter</a>(s),
 	  the Team <em class="rfc2119">must not</em> make statements about why a Submission request was rejected.</p>
    <p>The <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③④">Advisory Committee representative</a>(s) of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②③">Submitters</a>(s) <em class="rfc2119">may</em> initiate a Submission Appeal
 	  of the Team’s Decision to the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②③">TAG</a> if the reasons are related to Web architecture,
 	  or to the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑧">Advisory Board</a> if the request is rejected for other reasons.
-	  In this case the <a data-link-type="dfn" href="#team" id="ref-for-team⑥③">Team</a> <em class="rfc2119">should</em> make available
+	  In this case the <a data-link-type="dfn" href="#team" id="ref-for-team⑥②">Team</a> <em class="rfc2119">should</em> make available
 	  its rationale for the rejection to the appropriate body.
-	  The <a data-link-type="dfn" href="#team" id="ref-for-team⑥④">Team</a> will establish a process for such appeals
+	  The <a data-link-type="dfn" href="#team" id="ref-for-team⑥③">Team</a> will establish a process for such appeals
 	  that ensures the appropriate <a href="#confidentiality-levels">level of confidentiality</a>.</p>
    <h2 class="heading settled" data-level="11" id="GAProcess"><span class="secno">11. </span><span class="content"> Process Evolution</span><a class="self-link" href="#GAProcess"></a></h2>
-   <p>Revision of the W3C Process and related documents (see below) undergoes similar <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①⓪">consensus</a>-building processes as for <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②⑥">technical reports</a>,
-	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑦">Working Group</a>.
+   <p>Revision of the W3C Process and related documents (see below) undergoes similar <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①⓪">consensus</a>-building processes as for <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②②">technical reports</a>,
+	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑤">Working Group</a>.
 	The documents may be developed by the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⓪">AB</a> or by another group to whom the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②①">AB</a> has delegated development.
 	Review includes
 	soliciting input from the W3C community,
@@ -4147,7 +4120,7 @@ dfn > a.self-link::before      { content: "#"; }
    </ul>
    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②②">Advisory Board</a> initiates review as follows:</p>
    <ol>
-    <li> The <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑤">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑦">Advisory Committee</a> and other W3C groups. 
+    <li> The <a data-link-type="dfn" href="#team" id="ref-for-team⑥④">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑦">Advisory Committee</a> and other W3C groups. 
     <li> After comments have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed①⓪">formally addressed</a> and the document possibly modified,
 			the Team seeks endorsement from the Members by initiating an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑦">Advisory Committee review</a>.
 			The review period <em class="rfc2119">must</em> last at least <span class="time-interval">28 days</span>. 
@@ -4533,7 +4506,6 @@ dfn > a.self-link::before      { content: "#"; }
      <li><a href="#registry">registry</a><span>, in §6.4</span>
      <li><a href="#registry-change">registry change</a><span>, in §6.1.3</span>
      <li><a href="#registry-data">registry data</a><span>, in §6.4</span>
-     <li><a href="#registry-data-report">Registry Data Report</a><span>, in §6.4.4</span>
      <li><a href="#registry-definition">registry definition</a><span>, in §6.4.1</span>
      <li><a href="#registry-entry">registry entry</a><span>, in §6.4</span>
      <li><a href="#registry-report">registry report</a><span>, in §6.4.2</span>
@@ -4785,25 +4757,23 @@ Elevating Group Notes to W3C Statement status</a> <a href="#ref-for-team④②">
 Registry Definitions</a>
     <li><a href="#ref-for-team④④">6.4.2. 
 Publishing Registries</a>
-    <li><a href="#ref-for-team④⑤">6.4.4. 
-Registry Data Reports</a>
-    <li><a href="#ref-for-team④⑥">7.1.1. 
+    <li><a href="#ref-for-team④⑤">7.1.1. 
 Start of a Review Period</a>
-    <li><a href="#ref-for-team④⑦">7.1.2. 
+    <li><a href="#ref-for-team④⑥">7.1.2. 
 After the Review Period</a>
-    <li><a href="#ref-for-team④⑧">7.2. 
-Appeal by Advisory Committee Representatives</a> <a href="#ref-for-team④⑨">(2)</a>
-    <li><a href="#ref-for-team⑤⓪">9. 
+    <li><a href="#ref-for-team④⑦">7.2. 
+Appeal by Advisory Committee Representatives</a> <a href="#ref-for-team④⑧">(2)</a>
+    <li><a href="#ref-for-team④⑨">9. 
 Liaisons</a>
-    <li><a href="#ref-for-team⑤①">10. 
-Member Submission Process</a> <a href="#ref-for-team⑤②">(2)</a> <a href="#ref-for-team⑤③">(3)</a> <a href="#ref-for-team⑤④">(4)</a>
-    <li><a href="#ref-for-team⑤⑤">10.2. 
-Team Rights and Obligations</a> <a href="#ref-for-team⑤⑥">(2)</a> <a href="#ref-for-team⑤⑦">(3)</a>
-    <li><a href="#ref-for-team⑤⑧">10.3. 
-Acknowledgment of a Submission Request</a> <a href="#ref-for-team⑤⑨">(2)</a> <a href="#ref-for-team⑥⓪">(3)</a>
-    <li><a href="#ref-for-team⑥①">10.4. 
-Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-team⑥②">(2)</a> <a href="#ref-for-team⑥③">(3)</a> <a href="#ref-for-team⑥④">(4)</a>
-    <li><a href="#ref-for-team⑥⑤">11. 
+    <li><a href="#ref-for-team⑤⓪">10. 
+Member Submission Process</a> <a href="#ref-for-team⑤①">(2)</a> <a href="#ref-for-team⑤②">(3)</a> <a href="#ref-for-team⑤③">(4)</a>
+    <li><a href="#ref-for-team⑤④">10.2. 
+Team Rights and Obligations</a> <a href="#ref-for-team⑤⑤">(2)</a> <a href="#ref-for-team⑤⑥">(3)</a>
+    <li><a href="#ref-for-team⑤⑦">10.3. 
+Acknowledgment of a Submission Request</a> <a href="#ref-for-team⑤⑧">(2)</a> <a href="#ref-for-team⑤⑨">(3)</a>
+    <li><a href="#ref-for-team⑥⓪">10.4. 
+Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-team⑥①">(2)</a> <a href="#ref-for-team⑥②">(3)</a> <a href="#ref-for-team⑥③">(4)</a>
+    <li><a href="#ref-for-team⑥④">11. 
 Process Evolution</a>
    </ul>
   </aside>
@@ -5080,8 +5050,6 @@ Appeal of Chair Decisions and Group Decisions</a>
 Appeal of Chair Decisions and Group Decisions</a>
     <li><a href="#ref-for-group-decisions①">6.3.3. 
 Revising W3C Statements</a>
-    <li><a href="#ref-for-group-decisions②">6.4.4. 
-Registry Data Reports</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="wg-decision-appeal">
@@ -5264,15 +5232,13 @@ Group Notes</a>
 Registry Definitions</a>
     <li><a href="#ref-for-GroupsWG⑧①">6.4.3. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-GroupsWG⑧②">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-GroupsWG⑧③">(2)</a>
-    <li><a href="#ref-for-GroupsWG⑧④">10. 
+    <li><a href="#ref-for-GroupsWG⑧②">10. 
 Member Submission Process</a>
-    <li><a href="#ref-for-GroupsWG⑧⑤">10.1. 
+    <li><a href="#ref-for-GroupsWG⑧③">10.1. 
 Submitter Rights and Obligations</a>
-    <li><a href="#ref-for-GroupsWG⑧⑥">10.1.1. 
+    <li><a href="#ref-for-GroupsWG⑧④">10.1.1. 
 Scope of Member Submissions</a>
-    <li><a href="#ref-for-GroupsWG⑧⑦">11. 
+    <li><a href="#ref-for-GroupsWG⑧⑤">11. 
 Process Evolution</a>
    </ul>
   </aside>
@@ -5438,9 +5404,7 @@ Group Notes</a>
 Publishing Registries</a> <a href="#ref-for-technical-report①⑨">(2)</a>
     <li><a href="#ref-for-technical-report②⓪">6.4.3. 
 Updating Registry Tables</a> <a href="#ref-for-technical-report②①">(2)</a>
-    <li><a href="#ref-for-technical-report②②">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-technical-report②③">(2)</a> <a href="#ref-for-technical-report②④">(3)</a> <a href="#ref-for-technical-report②⑤">(4)</a>
-    <li><a href="#ref-for-technical-report②⑥">11. 
+    <li><a href="#ref-for-technical-report②②">11. 
 Process Evolution</a>
    </ul>
   </aside>
@@ -5478,11 +5442,9 @@ Publishing a Candidate Recommendation Draft</a>
 Revising a Recommendation: Editorial Changes</a>
     <li><a href="#ref-for-editorial-change⑤">6.3.3. 
 Revising W3C Statements</a>
-    <li><a href="#ref-for-editorial-change⑥">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-editorial-change⑦">(2)</a>
-    <li><a href="#ref-for-editorial-change⑧">7.1.2. 
+    <li><a href="#ref-for-editorial-change⑥">7.1.2. 
 After the Review Period</a>
-    <li><a href="#ref-for-editorial-change⑨">10.3. 
+    <li><a href="#ref-for-editorial-change⑦">10.3. 
 Acknowledgment of a Submission Request</a>
    </ul>
   </aside>
@@ -5996,8 +5958,6 @@ Registry Definitions</a> <a href="#ref-for-registry④">(2)</a>
     <li><a href="#ref-for-registry⑤">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-registry⑥">(2)</a>
     <li><a href="#ref-for-registry⑦">6.4.4. 
-Registry Data Reports</a>
-    <li><a href="#ref-for-registry⑧">6.4.5. 
 Specifications that Reference Registries</a>
    </ul>
   </aside>
@@ -6011,11 +5971,9 @@ The Registry Track</a> <a href="#ref-for-registry-table③">(2)</a> <a href="#re
     <li><a href="#ref-for-registry-table⑤">6.4.1. 
 Registry Definitions</a> <a href="#ref-for-registry-table⑥">(2)</a> <a href="#ref-for-registry-table⑦">(3)</a> <a href="#ref-for-registry-table⑧">(4)</a> <a href="#ref-for-registry-table⑨">(5)</a>
     <li><a href="#ref-for-registry-table①⓪">6.4.2. 
-Publishing Registries</a> <a href="#ref-for-registry-table①①">(2)</a> <a href="#ref-for-registry-table①②">(3)</a> <a href="#ref-for-registry-table①③">(4)</a> <a href="#ref-for-registry-table①④">(5)</a> <a href="#ref-for-registry-table①⑤">(6)</a> <a href="#ref-for-registry-table①⑥">(7)</a>
-    <li><a href="#ref-for-registry-table①⑦">6.4.3. 
-Updating Registry Tables</a> <a href="#ref-for-registry-table①⑧">(2)</a>
-    <li><a href="#ref-for-registry-table①⑨">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-registry-table②⓪">(2)</a> <a href="#ref-for-registry-table②①">(3)</a>
+Publishing Registries</a> <a href="#ref-for-registry-table①①">(2)</a> <a href="#ref-for-registry-table①②">(3)</a> <a href="#ref-for-registry-table①③">(4)</a> <a href="#ref-for-registry-table①④">(5)</a> <a href="#ref-for-registry-table①⑤">(6)</a>
+    <li><a href="#ref-for-registry-table①⑥">6.4.3. 
+Updating Registry Tables</a> <a href="#ref-for-registry-table①⑦">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="registry-entry">
@@ -6026,18 +5984,7 @@ Classes of Changes</a>
     <li><a href="#ref-for-registry-entry①">6.4.1. 
 Registry Definitions</a>
     <li><a href="#ref-for-registry-entry②">6.4.4. 
-Registry Data Reports</a>
-    <li><a href="#ref-for-registry-entry③">6.4.5. 
 Specifications that Reference Registries</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="registry-data">
-   <b><a href="#registry-data">#registry-data</a></b><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-registry-data">6.4.2. 
-Publishing Registries</a>
-    <li><a href="#ref-for-registry-data①">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-registry-data②">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="registry-definition">
@@ -6051,8 +5998,6 @@ Registry Definitions</a>
 Publishing Registries</a> <a href="#ref-for-registry-definition③">(2)</a> <a href="#ref-for-registry-definition④">(3)</a>
     <li><a href="#ref-for-registry-definition⑤">6.4.3. 
 Updating Registry Tables</a> <a href="#ref-for-registry-definition⑥">(2)</a> <a href="#ref-for-registry-definition⑦">(3)</a> <a href="#ref-for-registry-definition⑧">(4)</a>
-    <li><a href="#ref-for-registry-definition⑨">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-registry-definition①⓪">(2)</a> <a href="#ref-for-registry-definition①①">(3)</a> <a href="#ref-for-registry-definition①②">(4)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="custodian">
@@ -6103,15 +6048,6 @@ Publishing Registries</a>
    <ul>
     <li><a href="#ref-for-w3c-registry">6.4.2. 
 Publishing Registries</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="registry-data-report">
-   <b><a href="#registry-data-report">#registry-data-report</a></b><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-registry-data-report">6.4.2. 
-Publishing Registries</a>
-    <li><a href="#ref-for-registry-data-report①">6.4.4. 
-Registry Data Reports</a> <a href="#ref-for-registry-data-report②">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="def-w3c-decision">
