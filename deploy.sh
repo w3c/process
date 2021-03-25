@@ -10,7 +10,16 @@ TARGET_BRANCH="gh-pages"
 # (But you can stop advertising them in README.md)
 # Even if the branch itself is retired,
 # the built copies will continue to be served unless and until its name is removed from here.
-TOPIC_BRANCHES=("director-free" "tooling" "registries" "registries-on-rec-track" "registries-separable" "evergreen" "everblue" "section-6-clean-up" "maintenance-2020")
+TOPIC_BRANCHES=(
+	"director-free"
+	"tooling"
+	"registries"
+	"registries-on-rec-track"
+	"registries-separable"
+	"evergreen"
+	"everblue"
+	"section-6-clean-up"
+	"maintenance-2020")
 
 containsElement () {
   local e match="$1"
