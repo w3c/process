@@ -1153,7 +1153,7 @@ Meeting Scheduling and Announcements</h4>
 			<td><span class="time-interval">three days</span>
 			<td><span class="time-interval">24 hours</span>
 		<tr>
-			<th scope=row>Minutes available (after)
+			<th scope=row>[=Minutes=] available (after)
 			<td><span class="time-interval">two weeks</span>
 			<td><span class="time-interval">48 hours</span>
 	</table>
@@ -1163,6 +1163,15 @@ Meeting Scheduling and Announcements</h4>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
+
+<h4 id="meeting-minutes">
+Meeting Minutes</h4>
+
+	Groups <em class=rfc2119>should</em> take and retain <dfn>minutes</dfn> of their meetings,
+	and <em class="rfc2119">must</em> record
+	any official [=group decisions=] made during the meeting discussions.
+	Details of the discussion leading to such decisions are not required,
+	provided that the rationale for the [=group decision=] is nonetheless clear.
 
 <h4 id="meeting-recording">
 Meeting Recordings and Transcripts</h4>
@@ -1369,7 +1378,7 @@ Votes</h3>
 	through technical discussion and compromise have failed,
 	and that a vote is necessary to break a deadlock.
 	In this case the [=Chair=] <em class="rfc2119">must</em> record
-	(e.g., in the minutes of the meeting or in an archived email message):
+	(e.g., in the [=minutes=] of the meeting or in an archived email message):
 
 	<ul>
 		<li>
@@ -1687,7 +1696,7 @@ Requirements for All Working and Interest Groups</h3>
 
 	Each group <em class="rfc2119">must</em> have an archived mailing list
 	for formal group communication
-	(e.g., for meeting announcements and minutes,
+	(e.g., for meeting announcements and [=minutes=],
 	documentation of decisions,
 	and [=Formal Objections=] to decisions).
 	It is the responsibility of the [=Chair=] and [=Team Contact=]
@@ -4466,7 +4475,7 @@ Workshops and Symposia</h2>
 	The Call for Participation in a Workshop or Symposium
 	<em class="rfc2119">may</em> indicate participation requirements or limits,
 	and expected deliverables
-	(e.g., reports and minutes).
+	(e.g., reports and [=minutes=]).
 	Organization of an event does not guarantee
 	further investment by W3C in a particular topic,
 	but <em class="rfc2119">may</em> lead to proposals for new activities or groups.
