@@ -1532,9 +1532,6 @@ Tooling</h3>
 			This includes discussions conducted over email lists
 			or in issue-tracking services
 			or any equivalent fora.
-			Any discussion system whose archive is separate from its active interactive operation
-			<em class=rfc2119>must</em> make that archive available
-			at the same level of confidentiality.
 
 			Note: The lack, or loss, of such archives does not by itself
 			invalidate an otherwise-valid decision.
