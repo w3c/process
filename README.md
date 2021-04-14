@@ -19,11 +19,6 @@ Discussion happens in the context of the W3C Process Community Group
 [Preview](https://www.w3.org/Consortium/Process/Drafts/director-free/) /
 [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fdirector-free)
 
-[tooling](https://github.com/w3c/w3process/tree/tooling) branch:
-[![Build Status](https://travis-ci.com/w3c/w3process.svg?branch=tooling)](https://travis-ci.com/w3c/w3process) /
-[Preview](https://www.w3.org/Consortium/Process/Drafts/tooling/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Ftooling)
-
 ----
 ## Useful searches
 
