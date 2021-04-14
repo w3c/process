@@ -588,11 +588,17 @@ Advisory Board (AB)</h3>
 <h4 id="ABParticipation">
 Advisory Board Participation</h4>
 
-	The [=Advisory Board=] consists of nine to eleven elected participants and a Chair.
-	The [=Team=] appoints the Chair of the <a href="#AB">Advisory Board</a>,
-	who is generally the CEO.
-	The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a> for the [=AB=],
+	The [=Advisory Board=] consists of nine to eleven elected participants and one Chair
+	(who <em class=rfc2119>may</em> be one of the elected participants).
+	With the input of the [=AB=],
+	the [=Team=] appoints the Chair,
+	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
+	The Chair(s) are subject to ratification by secret ballot
+	by two thirds of the AB upon appointment and at the start of each AB term.
+	The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
+	The CEO and Team Contact have a standing invitation
+	to all regular Advisory Board sessions.
 
 	The remaining nine to eleven [=Advisory Board=] participants are elected by the W3C [=Advisory Committee=]
 	following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
