@@ -4338,6 +4338,31 @@ Specifications that Reference Registries</h4>
 		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
 	</div>
 
+<h3 id="switching-tracks">
+Switching Tracks</h3>
+
+	Given a [=Group decision=] to do so,
+	[=Working Groups=] can republish a [=technical report=]
+	on a different track than the one it is on,
+	under the following restrictions:
+
+	<ul>
+		<li>
+			A [=technical report=] that is or was
+			a [=W3C Recommendation=], [=W3C Statement=], or [=Patent Review Draft=]
+			cannot switch tracks.
+
+		<li>
+			A [=technical report=] should not switch away from the [=Recommendation Track=]
+			without due consideration of the Patent Policy implications
+			and approval of the W3C’s legal counsel
+			if the [=Working Group=] envisions a likelihood of returning to it later.
+	</ul>
+
+	[=Technical reports=] that switch tracks start at
+	their new track’s initial maturity level,
+	while retaining any established identity (url, shortname, etc.).
+
 <h3 id="further-reading">
 Further reading</h3>
 
