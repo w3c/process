@@ -1517,7 +1517,7 @@ Tooling</h3>
 		<li>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
-			<em class=rfc2119>should</em> follow best practices for accessibility worldwide
+			<em class=rfc2119>should</em> follow best practices for accessibility with regards to internationalization
 			and for persons with disabilities.
 			Network access to w3.org itself may be assumed.
 
@@ -1546,9 +1546,7 @@ Tooling</h3>
 			<em class=rfc2119>should</em> be usable
 			without additional cost
 			by all who wish to participate,
-			to allow their effective participation
-			regardless of disability
-			or geographical location.
+			to allow their effective participation.
 
 			Note: If a new participant joins who cannot use the tool,
 			this can require the [=Working Group=] to change its tooling
