@@ -5212,6 +5212,23 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 			that have no normative implementation requirements,
 			yet need specific and enforceable rules
 			about how they are updated.
+
+		<li>
+			Define requirements for recording of meetings
+
+		<li>
+			Clarifications about minutes, decisions, and groups
+
+		<li>
+			Change how the AB selects its chair,
+			and make sure the CEO is invited to AB meetings
+			even if they are not the chair.
+
+		<li>
+			Define requirements about tooling
+
+		<li>
+			Define how technical reports can switch tracks
 	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2019, changes-2018, changes-2017">
