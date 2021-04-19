@@ -1519,7 +1519,7 @@ Tooling</h3>
 			produced by the group for public consumption
 			<em class=rfc2119>should</em> follow best practices for accessibility with regards to internationalization
 			and for persons with disabilities.
-			Network access to w3.org itself may be assumed.
+			Network access to W3C-controlled domains may be assumed.
 
 		<li>
 			Official meeting minutes and especially records of decisions made <em class=rfc2119>must</em>
@@ -1532,9 +1532,6 @@ Tooling</h3>
 			This includes discussions conducted over email lists
 			or in issue-tracking services
 			or any equivalent fora.
-			Any discussion system whose archive is separate from its active interactive operation
-			<em class=rfc2119>must</em> make that archive available
-			at the same level of confidentiality.
 
 			Note: The lack, or loss, of such archives does not by itself
 			invalidate an otherwise-valid decision.
