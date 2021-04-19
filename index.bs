@@ -5151,85 +5151,122 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a>
 	are available.
 
-	The following is a summary:
+	The following is a summary of the main differences:
 
-	<ul>
-		<li>
-			Mentions of the Director which had no material effects on the Process have been removed
-
-		<li>
-			References to “short terms” and “incomplete terms” have been unified to “incomplete terms”.
-
-		<li>
-			A few typos and grammatical oddities have been addressed.
-
-		<li>
-			Mentions of when various groups were created have been removed,
-			as they had no effect and the Process is not the right place
-			to document history.
-
-		<li>
-			An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”.
-
-		<li>
-			Some text in section [[#revised-rec-features]] has been rewritten
-			to reduce redundancy with other sections,
-			with no normative change.
-
-		<li>
-			Added an editorial clarification to what is supposed to happen
-			to the status section of unfinished technical reports
-			that get abandoned.
-
-		<li>
-			Retire Amended RECs:
-			this process, which had never been used,
-			allowed the Team to do update a REC with normative changes in the absence of a Working Group,
-			in order to maintain the document.
-			Now handled through [=candidate amendments=].
-
-		<li>
-			Candidate and proposed “changes” have been renamed into candidate and proposed “amendments”.
-
-		<li>
-			Create dedicated status (Discontinued Draft) for discontinued REC track documents,
-			instead of using Notes for that purpose.
-
-		<li>
-			Make Draft Note into its own status,
-			instead of using REC track Working Draft for that purpose.
-
-		<li>
-			Allow TAG and AB to publish Notes.
-
-		<li>
-			Create W3C Statements, which are Notes endorsed by the W3C as a whole,
-			through an AC Review.
-
-		<li>
-			Introduce a new Registry Track,
+	<dl>
+		<dt>Registries Track
+		<dd>
+			Introduced a new class of technical reports called [[#registries|registries]],
 			for documents that describe collections of values or other data
 			that have no normative implementation requirements,
 			yet need specific and enforceable rules
 			about how they are updated.
 
-		<li>
-			Define requirements for recording of meetings
+		<dt>Recommendation Track
+		<dd>
+			Made a small clarifications and minor simplifications to the Recommendation Track:
 
-		<li>
-			Clarifications about minutes, decisions, and groups
+			<ul>
+				<li>
+					Retired Amended RECs:
+					this process, which had never been used,
+					allowed the Team to do update a REC with normative changes in the absence of a Working Group,
+					in order to maintain the document.
+					This ability is not provided through [=candidate amendments=].
 
-		<li>
-			Change how the AB selects its chair,
-			and make sure the CEO is invited to AB meetings
-			even if they are not the chair.
+				<li>
+					An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”.
 
-		<li>
-			Define requirements about tooling
+				<li>
+					Some text in section [[#revised-rec-features]] has been rewritten
+					to reduce redundancy with other sections,
+					with no normative change.
 
-		<li>
-			Define how technical reports can switch tracks
-	</ul>
+				<li>
+					Candidate and proposed “changes” have been renamed into [=candidate amendment|candidate=] and [=proposed amendments=].
+
+				<li>
+					Added an editorial clarification to what is supposed to happen
+					to the status section of unfinished technical reports
+					that get [[#abandon-draft|abandoned]].
+			</ul>
+
+		<dt>Note Track
+		<dd>
+			Disentangled the Note Track from the Recommendation Track,
+			and added a few capabilities:
+
+			<ul>
+				<li>
+					Created dedicated status ([=Discontinued Draft=]) for discontinued REC Track documents,
+					instead of using Notes for that purpose.
+
+				<li>
+					Made [=Draft Note=] into its own status,
+					instead of using REC Track [=Working Draft=]
+					(which, unlike Notes,
+					is covered by the Patent Policy,
+					and cannot be published by [=Interest Groups=])
+					for that purpose.
+
+				<li>
+					Allowed [=TAG=] and [=AB=] to publish [=Notes=]
+					(for the TAG, this was already an allowed practice,
+					against the letter of the Process).
+
+				<li>
+					Created [=W3C Statements=],
+					which are [=Notes=] endorsed by the W3C as a whole,
+					through an [=AC Review=].
+
+				<li>
+					Defined how technical reports can switch tracks
+					(other than by copy &amp; paste).
+			</ul>
+
+		<dt>Governance and Operations
+		<dd>
+			<ul>
+				<li>
+					Defined requirements for [[#meeting-recording|recording of meetings]].
+
+				<li>
+					Defined expectations about [[#tooling|tooling]] that may be used for publication
+					as well as for collaboration
+					in order to ensure long-lived access to publications,
+					and to enable effective and equitable participation by anyone.
+
+				<li>
+					Defined [=minutes=],
+					partly to distinguish them from other recordings,
+					partly because other sections (including [[#tooling|tooling])
+					have requirements about them.
+
+				<li>
+					Changed [[#ABParticipation|how the AB selects its chair]],
+					and make sure the CEO is invited to AB meetings
+					even if they are not the chair.
+			</ul>
+
+		<dt>Miscellaneous editorial tweaks, clarifications, and simplifications
+		<dd>
+			A few typos and grammatical oddities have been addressed,
+			and some parts have been rephrased or adjusted
+			in an attempt to simplify or clarify.
+			Notably:
+
+			<ul>
+				<li>
+					The various parts of the document that talked about discipline
+					have been consolidated into a [[#discipline|single section]].
+
+				<li>
+					References to “short terms” and “incomplete terms” have been unified to “incomplete terms”.
+
+				<li>
+					Mentions of the Director which had no material effects on the Process have been removed
+			</ul>
+	</dl>
 
 <h3 id=changes-previous class=no-num oldids="changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
