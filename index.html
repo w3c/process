@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version c6f50773a, updated Fri Apr 16 16:45:47 2021 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="30c7bf9281a5e6d169e89c6be6fc8cf3ede692d9" name="document-revision">
+  <meta content="fac9751fd1da8ccda0dde1b7ef27af2acc51dac3" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -1896,7 +1896,7 @@ dfn > a.self-link::before      { content: "#"; }
 			and reviews of the deliverables of other groups).
 			There are additional participation requirements
 			described in the W3C Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a>. 
-    <dt> <a href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a>. 
+    <dt> <a href="#GroupsIG" id="ref-for-GroupsIG①③">Interest Groups</a>. 
     <dd> The primary goal of an <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG②">Interest Group</a> is to bring together people who wish to evaluate potential Web technologies and policies.
 			An Interest Group is a forum for the exchange of ideas. 
    </dl>
@@ -2284,7 +2284,7 @@ dfn > a.self-link::before      { content: "#"; }
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="publish" data-noexport id="publishing">Publishing</dfn> as used in this document
 	refers to producing a version which is listed as a W3C <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="technical-report">Technical Report</dfn> on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> <a data-link-type="biblio" href="#biblio-tr">[TR]</a>.</p>
    <p>This chapter describes the formal requirements
-	for <a data-link-type="dfn" href="#publishing" id="ref-for-publishing">publishing</a> and maintaining a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C①">W3C Recommendation</a>, <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②⓪">Note</a>,
+	for <a data-link-type="dfn" href="#publishing" id="ref-for-publishing">publishing</a> and maintaining a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C①">W3C Recommendation</a>, <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②②">Note</a>,
 	or <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report">Registry Report</a>.</p>
    <dl>
     <dt>Recommendations 
@@ -4390,40 +4390,81 @@ dfn > a.self-link::before      { content: "#"; }
 	A <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20200915/">Disposition of Comments</a>,
 	as well as
 	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a> are available. </p>
-   <p>The following is a summary:</p>
-   <ul>
-    <li> Mentions of the Director which had no material effects on the Process have been removed 
-    <li> References to “short terms” and “incomplete terms” have been unified to “incomplete terms”. 
-    <li> A few typos and grammatical oddities have been addressed. 
-    <li> Mentions of when various groups were created have been removed,
-			as they had no effect and the Process is not the right place
-			to document history. 
-    <li> An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”. 
-    <li> Some text in section <a href="#revised-rec-features">§ 6.2.11.4 Revising a Recommendation: New Features</a> has been rewritten
-			to reduce redundancy with other sections,
-			with no normative change. 
-    <li> Added an editorial clarification to what is supposed to happen
-			to the status section of unfinished technical reports
-			that get abandoned. 
-    <li> Retire Amended RECs:
-			this process, which had never been used,
-			allowed the Team to do update a REC with normative changes in the absence of a Working Group,
-			in order to maintain the document.
-			Now handled through <a data-link-type="dfn" href="#candidate-amendment" id="ref-for-candidate-amendment①②">candidate amendments</a>. 
-    <li> Candidate and proposed “changes” have been renamed into candidate and proposed “amendments”. 
-    <li> Create dedicated status (Discontinued Draft) for discontinued REC track documents,
-			instead of using Notes for that purpose. 
-    <li> Make Draft Note into its own status,
-			instead of using REC track Working Draft for that purpose. 
-    <li> Allow TAG and AB to publish Notes. 
-    <li> Create W3C Statements, which are Notes endorsed by the W3C as a whole,
-			through an AC Review. 
-    <li> Introduce a new Registry Track,
+   <p>The following is a summary of the main differences:</p>
+   <dl>
+    <dt>Registries Track 
+    <dd> Introduced a new class of technical reports called <a href="#registries">registries</a>,
 			for documents that describe collections of values or other data
 			that have no normative implementation requirements,
 			yet need specific and enforceable rules
 			about how they are updated. 
-   </ul>
+    <dt>Recommendation Track 
+    <dd>
+      Made a small clarifications and minor simplifications to the Recommendation Track: 
+     <ul>
+      <li> Retired Amended RECs:
+					this process, which had never been used,
+					allowed the Team to do update a REC with normative changes in the absence of a Working Group,
+					in order to maintain the document.
+					This ability is not provided through <a data-link-type="dfn" href="#candidate-amendment" id="ref-for-candidate-amendment①②">candidate amendments</a>. 
+      <li> An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”. 
+      <li> Some text in section <a href="#revised-rec-features">§ 6.2.11.4 Revising a Recommendation: New Features</a> has been rewritten
+					to reduce redundancy with other sections,
+					with no normative change. 
+      <li> Candidate and proposed “changes” have been renamed into <a data-link-type="dfn" href="#candidate-amendment" id="ref-for-candidate-amendment①③">candidate</a> and <a data-link-type="dfn" href="#proposed-amendments" id="ref-for-proposed-amendments①③">proposed amendments</a>. 
+      <li> Added an editorial clarification to what is supposed to happen
+					to the status section of unfinished technical reports
+					that get <a href="#abandon-draft">abandoned</a>. 
+     </ul>
+    <dt>Note Track 
+    <dd>
+      Disentangled the Note Track from the Recommendation Track,
+			and added a few capabilities: 
+     <ul>
+      <li> Created dedicated status (<a data-link-type="dfn" href="#discontinuedREC" id="ref-for-discontinuedREC②">Discontinued Draft</a>) for discontinued REC Track documents,
+					instead of using Notes for that purpose. 
+      <li> Made <a data-link-type="dfn" href="#draft-note" id="ref-for-draft-note⑥">Draft Note</a> into its own status,
+					instead of using REC Track <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①⑥">Working Draft</a> (which, unlike Notes,
+					is covered by the Patent Policy,
+					and cannot be published by <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a>)
+					for that purpose. 
+      <li> Allowed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②④">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②③">AB</a> to publish <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②⓪">Notes</a> (for the TAG, this was already an allowed practice,
+					against the letter of the Process). 
+      <li> Created <a data-link-type="dfn" href="#statement" id="ref-for-statement①②">W3C Statements</a>,
+					which are <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②①">Notes</a> endorsed by the W3C as a whole,
+					through an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑧">AC Review</a>. 
+      <li> Defined how technical reports can switch tracks
+					(other than by copy &amp; paste). 
+     </ul>
+    <dt>Governance and Operations 
+    <dd>
+     <ul>
+      <li> Defined requirements for <a href="#meeting-recording">recording of meetings</a>. 
+      <li> Defined expectations about <a href="#tooling">tooling</a> that may be used for publication
+					as well as for collaboration
+					in order to ensure long-lived access to publications,
+					and to enable effective and equitable participation by anyone. 
+      <li> Defined <a data-link-type="dfn" href="#minutes" id="ref-for-minutes④">minutes</a>,
+					partly to distinguish them from other recordings,
+					partly because other sections (including [[#tooling|tooling])
+					have requirements about them. 
+      <li> Changed <a href="#ABParticipation">how the AB selects its chair</a>,
+					and make sure the CEO is invited to AB meetings
+					even if they are not the chair. 
+     </ul>
+    <dt>Miscellaneous editorial tweaks, clarifications, and simplifications 
+    <dd>
+      A few typos and grammatical oddities have been addressed,
+			and some parts have been rephrased or adjusted
+			in an attempt to simplify or clarify.
+			Notably: 
+     <ul>
+      <li> The various parts of the document that talked about discipline
+					have been consolidated into a <a href="#discipline">single section</a>. 
+      <li> References to “short terms” and “incomplete terms” have been unified to “incomplete terms”. 
+      <li> Mentions of the Director which had no material effects on the Process have been removed 
+     </ul>
+   </dl>
    <h3 class="no-num heading settled" id="changes-previous"><span class="content"> Changes since earlier versions</span><span id="changes-2019"></span><span id="changes-2018"></span><span id="changes-2017"></span><a class="self-link" href="#changes-previous"></a></h3>
    <p>Changes since earlier versions of the Process are detailed
 	in the <a href="https://www.w3.org/2020/Process-20200915/#changes">changes section of the previous version</a> of the Process.</p>
@@ -4986,6 +5027,7 @@ Member Submission Process</a>
 Rejection of a Submission Request, and Submission Appeals</a>
     <li><a href="#ref-for-advisory-board①⑨">11. 
 Process Evolution</a> <a href="#ref-for-advisory-board②⓪">(2)</a> <a href="#ref-for-advisory-board②①">(3)</a> <a href="#ref-for-advisory-board②②">(4)</a>
+    <li><a href="#ref-for-advisory-board②③"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="technical-architecture-group">
@@ -5015,6 +5057,7 @@ Group Notes</a>
 Member Submission Process</a>
     <li><a href="#ref-for-technical-architecture-group②③">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
+    <li><a href="#ref-for-technical-architecture-group②④"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="primary-affiliation">
@@ -5073,6 +5116,7 @@ Votes</a>
 Requirements for All Working and Interest Groups</a>
     <li><a href="#ref-for-minutes③">8. 
 Workshops and Symposia</a>
+    <li><a href="#ref-for-minutes④"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="def-Consensus">
@@ -5412,6 +5456,7 @@ W3C Technical Reports</a>
 Maturity Levels on the Recommendation Track</a> <a href="#ref-for-GroupsIG①⓪">(2)</a>
     <li><a href="#ref-for-GroupsIG①①">6.3.1. 
 Group Notes</a>
+    <li><a href="#ref-for-GroupsIG①②"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="wgparticipant">
@@ -5692,7 +5737,7 @@ Incorporating Candidate Amendments</a> <a href="#ref-for-candidate-amendment⑥"
 Revising W3C Statements</a> <a href="#ref-for-candidate-amendment⑧">(2)</a> <a href="#ref-for-candidate-amendment⑨">(3)</a> <a href="#ref-for-candidate-amendment①⓪">(4)</a>
     <li><a href="#ref-for-candidate-amendment①①">6.4.3. 
 Updating Registry Tables</a>
-    <li><a href="#ref-for-candidate-amendment①②"> Changes since the 15 September 2020 Process</a>
+    <li><a href="#ref-for-candidate-amendment①②"> Changes since the 15 September 2020 Process</a> <a href="#ref-for-candidate-amendment①③">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="w3c-recommendation-track">
@@ -5744,6 +5789,7 @@ Transitioning to Proposed Recommendation</a>
 Abandoning an Unfinished Technical Report</a>
     <li><a href="#ref-for-RecsWD①④">6.4.2. 
 Publishing Registries</a> <a href="#ref-for-RecsWD①⑤">(2)</a>
+    <li><a href="#ref-for-RecsWD①⑥"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="fpwd">
@@ -5939,6 +5985,7 @@ Publishing Registries</a>
    <ul>
     <li><a href="#ref-for-discontinuedREC">6.2.12.1. 
 Abandoning an Unfinished Technical Report</a> <a href="#ref-for-discontinuedREC①">(2)</a>
+    <li><a href="#ref-for-discontinuedREC②"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="editors-draft">
@@ -6062,6 +6109,7 @@ Incorporating Candidate Amendments</a> <a href="#ref-for-proposed-amendments①"
 Revising W3C Statements</a> <a href="#ref-for-proposed-amendments①①">(2)</a>
     <li><a href="#ref-for-proposed-amendments①②">6.4.3. 
 Updating Registry Tables</a>
+    <li><a href="#ref-for-proposed-amendments①③"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="proposed-corrections">
@@ -6091,6 +6139,7 @@ Group Notes</a> <a href="#ref-for-WGNote③">(2)</a> <a href="#ref-for-WGNote④
 Elevating Group Notes to W3C Statement status</a> <a href="#ref-for-WGNote①④">(2)</a> <a href="#ref-for-WGNote①⑤">(3)</a> <a href="#ref-for-WGNote①⑥">(4)</a> <a href="#ref-for-WGNote①⑦">(5)</a>
     <li><a href="#ref-for-WGNote①⑧">10.1.1. 
 Scope of Member Submissions</a> <a href="#ref-for-WGNote①⑨">(2)</a>
+    <li><a href="#ref-for-WGNote②⓪"> Changes since the 15 September 2020 Process</a> <a href="#ref-for-WGNote②①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="draft-note">
@@ -6098,6 +6147,7 @@ Scope of Member Submissions</a> <a href="#ref-for-WGNote①⑨">(2)</a>
    <ul>
     <li><a href="#ref-for-draft-note">6.3.1. 
 Group Notes</a> <a href="#ref-for-draft-note①">(2)</a> <a href="#ref-for-draft-note②">(3)</a> <a href="#ref-for-draft-note③">(4)</a> <a href="#ref-for-draft-note④">(5)</a> <a href="#ref-for-draft-note⑤">(6)</a>
+    <li><a href="#ref-for-draft-note⑥"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="statement">
@@ -6109,6 +6159,7 @@ Elevating Group Notes to W3C Statement status</a> <a href="#ref-for-statement①
 Revising W3C Statements</a> <a href="#ref-for-statement⑧">(2)</a> <a href="#ref-for-statement⑨">(3)</a> <a href="#ref-for-statement①⓪">(4)</a>
     <li><a href="#ref-for-statement①①">6.5. 
 Switching Tracks</a>
+    <li><a href="#ref-for-statement①②"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="registry">
@@ -6295,6 +6346,7 @@ Appeal by Advisory Committee Representatives</a> <a href="#ref-for-advisory-comm
 Liaisons</a>
     <li><a href="#ref-for-advisory-committee-review①⑦">11. 
 Process Evolution</a>
+    <li><a href="#ref-for-advisory-committee-review①⑧"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="reviewform">
