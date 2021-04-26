@@ -1197,7 +1197,7 @@ Consensus</h3>
 	Decisions <em class="rfc2119">may</em> be made during meetings
 	(<a href="#ftf-meeting">face-to-face</a>
 	or <a href="#distributed-meeting">distributed</a>)
-	as well as through email.
+	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
 	Note: The Director, CEO, and COO have the role of
 	assessing consensus within the Advisory Committee.
