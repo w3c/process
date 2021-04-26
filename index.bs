@@ -1504,7 +1504,7 @@ Tooling</h3>
 	W3C requires that:
 
 	<ul>
-		<li>
+		<li id=report-stability>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
 			(i.e. intended for use or reference outside its own membership)
@@ -1514,14 +1514,14 @@ Tooling</h3>
 			W3C can continue to serve such content without breaking incoming links
 			or other key functionality.
 
-		<li>
+		<li id=report-accessibility>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
 			<em class=rfc2119>should</em> follow best practices for accessibility with regards to internationalization
 			and for persons with disabilities.
 			Network access to W3C-controlled domains may be assumed.
 
-		<li>
+		<li id=discussion-archiving>
 			Official meeting minutes and other records of decisions made <em class=rfc2119>must</em>
 			be archived by W3C for future reference;
 			and other persistent text-based discussions
@@ -1536,7 +1536,7 @@ Tooling</h3>
 			Note: The lack, or loss, of such archives does not by itself
 			invalidate an otherwise-valid decision.
 
-		<li>
+		<li id=tool-accessibility>
 			Any tooling used by the group
 			for producing its documentation and deliverables
 			or for official group discussions
@@ -1549,7 +1549,7 @@ Tooling</h3>
 			this can require the [=Working Group=] to change its tooling
 			or operate some workaround.
 
-		<li>
+		<li id=where-is-your-stuff>
 			All tools and archives used by the group
 			for its discussions and recordkeeping
 			<em class=rfc2119>should</em> be documented
