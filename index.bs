@@ -1522,7 +1522,7 @@ Tooling</h3>
 			Network access to W3C-controlled domains may be assumed.
 
 		<li>
-			Official meeting minutes and especially records of decisions made <em class=rfc2119>must</em>
+			Official meeting minutes and other records of decisions made <em class=rfc2119>must</em>
 			be archived by W3C for future reference;
 			and other persistent text-based discussions
 			sponsored by the group,
