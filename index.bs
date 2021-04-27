@@ -1564,6 +1564,9 @@ Tooling</h3>
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
 Dissemination Policies</h2>
 
+<h3 id=pub-com>
+Public communication</h3>
+
 	The [=Team=] is responsible for managing communication within W3C
 	and with the general public
 	(e.g., news services, press releases, managing the Web site and access privileges, and managing calendars).
@@ -1663,8 +1666,8 @@ Confidentiality Levels</h3>
 	Information about Member mailing lists is available
 	in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
-<h4 id="confidentiality-change">
-Changing Confidentiality Level</h4>
+<h3 id="confidentiality-change">
+Changing Confidentiality Level</h3>
 
 	As a benefit of membership,
 	W3C provides some [=Team-only=] and [=Member-only=] channels
