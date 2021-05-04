@@ -5175,7 +5175,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					this process, which had never been used,
 					allowed the Team to do update a REC with normative changes in the absence of a Working Group,
 					in order to maintain the document.
-					This ability is not provided through [=candidate amendments=].
+					This ability is now provided through [=candidate amendments=].
 
 				<li>
 					An incorrect use of “Proposed Additions” has been corrected to the intended “Proposed Changes”.
