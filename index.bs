@@ -1517,8 +1517,8 @@ Tooling</h3>
 		<li id=report-accessibility>
 			All reports, publications, or other deliverables
 			produced by the group for public consumption
-			<em class=rfc2119>should</em> follow best practices for accessibility with regards to internationalization
-			and for persons with disabilities.
+			<em class=rfc2119>should</em> follow best practices for internationalization
+			and for accessibility to people with disabilities.
 			Network access to W3C-controlled domains may be assumed.
 
 		<li id=discussion-archiving>
@@ -5019,6 +5019,7 @@ Acknowledgments</h2>
 	Ralph Swick (W3C),
 	Samuel Weiler (W3C),
 	Sandro Hawke (W3C),
+	Shawn Lawton Henry,
 	Tantek Çelik (Mozilla),
 	Virginia Fournier (Apple),
 	Wendy Seltzer (W3C),
