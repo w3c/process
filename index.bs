@@ -211,11 +211,11 @@ Introduction</h2>
 	Further sections of this Process Document deal with topics including
 	liaisons ([[#Liaisons]]),
 	confidentiality ([[#dissemination]]),
-	and formal decisions and appeals ([[#ReviewAppeal]]).
+	and formal decisions and appeals ([[#decisions]]).
 
 
 <h2 id="Organization">
-Members, Advisory Committee, Team, Advisory Board, Technical Architecture Group</h2>
+Members and the Team</h2>
 
 	W3C's mission is to lead the Web to its full potential.
 	W3C <a href="#Members">Member</a> organizations provide resources to this end,
@@ -314,6 +314,8 @@ Rights of Members</h4>
 	are contingent upon conformance to the processes described in this document.
 	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
 
+	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
+
 <h4 id="RelatedAndConsortiumMembers">
 Member Consortia and Related Members</h4>
 
@@ -386,105 +388,6 @@ Related Members</h5>
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
 	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
-<h4 id="AC">
-Advisory Committee (AC)</h4>
-
-	When an organization joins W3C
-	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
-	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
-	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
-	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
-	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
-	explains how to name a new [=Advisory Committee representative=],
-	and more.
-	[=Advisory Committee representatives=] <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a>
-	by disclosing information according to the mechanisms described in the New Member Orientation.
-	See also the additional roles of [=Advisory Committee representatives=]
-	described in the W3C Patent Policy [[PATENT-POLICY]].
-
-	The AC representative may delegate any of their rights and responsibilities
-	to an <dfn export lt="alternate AC representative | alternate Advisory Committee representative | alt AC rep">alternate</dfn>
-	(except the ability to designate an alternate).
-
-	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
-
-<h5 id="ACCommunication">
-Advisory Committee Mailing Lists</h5>
-
-	The [=Team=] <em class="rfc2119">must</em> provide two mailing lists for use by the [=Advisory Committee=]:
-
-	<ol>
-		<li>
-			One for official announcements (e.g., those required by this document) from the [=Team=] to the [=Advisory Committee=].
-			This list is read-only for Advisory Committee representatives.
-
-		<li>
-			One for discussion among [=Advisory Committee representatives=].
-			Though this list is primarily for Advisory Committee representatives,
-			the [=Team=] <em class="rfc2119">must</em> monitor discussion
-			and <em class="rfc2119">should</em> participate in discussion when appropriate.
-			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
-			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
-	</ol>
-
-	An [=Advisory Committee representative=] <em class="rfc2119">may</em> request
-	that additional individuals from their organization be subscribed to these lists.
-	Failure to contain distribution internally
-	<em class="rfc2119">may</em> result in suspension of additional email addresses,
-	at the discretion of the Team.
-
-<h5 id="ACMeetings">
-Advisory Committee Meetings</h5>
-
-	The [=Team=] organizes a <a href="#ftf-meeting">face-to-face meeting</a> for the [=Advisory Committee=]
-	<span class="time-interval">twice a year</span>.
-	The [=Team=] appoints the Chair of these meetings (generally the CEO).
-	At each Advisory Committee meeting,
-	the Team <em class="rfc2119">should</em> provide an update to the Advisory Committee about:
-
-	<dl>
-		<dt><em>Resources</em>
-		<dd>
-			<ul>
-				<li>
-					The number of W3C Members at each level.
-
-				<li>
-					An overview of the financial status of W3C.
-			</ul>
-
-		<dt><em>Allocations</em>
-		<dd>
-			<ul>
-				<li>
-					The allocation of the annual budget, including size of the Team and their approximate deployment.
-
-				<li>
-					A list of all activities (including but not limited to Working and Interest Groups)
-					and brief status statement about each,
-					in particular those started or terminated since the previous Advisory Committee meeting.
-
-				<li>
-					The allocation of resources to pursuing <a href="#Liaisons">liaisons</a> with other organizations.
-			</ul>
-		</dd>
-	</dl>
-
-	Each Member organization <em class="rfc2119">should</em> send one <a href="#member-rep">representative</a>
-	to each Advisory Committee Meeting.
-	In exceptional circumstances
-	(e.g., during a period of transition between representatives from an organization),
-	the meeting Chair <em class="rfc2119">may</em> allow a Member organization to send two representatives to a meeting.
-
-	The [=Team=] <em class="rfc2119">must</em> announce the date and location of each Advisory Committee meeting
-	no later than at the end of the previous meeting;
-	<span class="time-interval">one year's</span> notice is preferred.
-	The Team <em class="rfc2119">must</em> announce the region of each Advisory Committee meeting
-	at least <span class="time-interval">one year</span> in advance.
-
-	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
-	is available at the Member Web site.
-
 <h3 id="Team">
 The W3C Team</h3>
 
@@ -535,8 +438,418 @@ The W3C Team</h3>
 	Within W3C, the Host institutions are governed by hosting agreements;
 	the [=Hosts=] themselves are not W3C Members.
 
-<h3 id="AB">
-Advisory Board (AB)</h3>
+<h2 id=groups>
+Groups and Participation</h2>
+
+	For the purposes of this Process, a <dfn lt="W3C Group" local-lt="group">W3C Group</dfn> is one of W3C’s
+	<a href="#wgparticipant">Working Groups</a>,
+	<a href="#igparticipant">Interest Groups</a>,
+	<a href="#AC">Advisory Committee</a>,
+	<a href="#ABParticipation">Advisory Board</a>,
+	or <a href="#tag-participation">TAG</a>,
+	and a <dfn>participant</dfn> is a member of such a group.
+
+<h3 id="Policies">
+Policies for Participation in W3C Groups</h3>
+
+<h4 id="ParticipationCriteria">
+Individual Participation Criteria</h4>
+
+<h5 id="discipline">
+Expectations and Discipline</h5>
+
+	There are three qualities an individual is expected to demonstrate in order to participate in W3C:
+
+	<ol>
+		<li>
+			Technical competence in one's role;
+
+		<li>
+			The ability to act fairly;
+
+		<li>
+			Social competence in one's role.
+	</ol>
+
+	[=Advisory Committee representatives=] who nominate individuals from their organization for participation in W3C activities
+	are responsible for assessing and attesting to the qualities of those nominees.
+
+	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
+	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
+	and the participation requirements described in
+	“Disclosure”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
+
+	The [=Director=] <em class="rfc2119">may</em> take disciplinary action,
+	including suspending or removing for cause
+	a participant in any group (including the [=AB=] and [=TAG=])
+	if serious and/or repeated violations,
+	such as failure to meet the requirements on individual behavior of
+	(a) this process
+	and in particular the CEPC, or
+	(b) the membership agreement, or
+	(c) applicable laws,
+	occur.
+	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
+
+<h5 id="coi">
+Conflict of Interest Policy</h5>
+
+	Individuals participating materially in W3C work <em class="rfc2119">must</em> disclose significant relationships
+	when those relationships might reasonably be perceived as creating a conflict of interest with the individual's role at W3C.
+	These disclosures <em class="rfc2119">must</em> be kept up-to-date
+	as the individual's affiliations change and W3C membership evolves
+	(since, for example, the individual might have a relationship with an organization that joins or leaves W3C).
+	Each section in this document that describes a W3C group
+	provides more detail about the disclosure mechanisms for that group.
+
+	The ability of an individual to fulfill a role within a group
+	without risking a conflict of interest depends on the individual's affiliations.
+	When these affiliations change,
+	the individual's assignment to the role <em class="rfc2119">must</em> be evaluated.
+	The role <em class="rfc2119">may</em> be reassigned according to the appropriate process.
+	For instance,
+	the [=Director=] <em class="rfc2119">may</em> appoint a new group [=Chair=]
+	when the current Chair changes affiliations
+	(e.g., if there is a risk of conflict of interest,
+	or if there is risk that the Chair's new employer will be over-represented within a W3C activity).
+
+	The following are some scenarios where disclosure is appropriate:
+
+	<ul>
+		<li>
+			Paid consulting for an organization whose activity is relevant to W3C,
+			or any consulting compensated with equity
+			(shares of stock, stock options, or other forms of corporate equity).
+
+		<li>
+			A decision-making role/responsibility
+			(such as participating on the Board) in other organizations relevant to W3C.
+
+		<li>
+			A position on a publicly visible advisory body,
+			even if no decision-making authority is involved.
+	</ul>
+
+	Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the [=Team=].
+
+	[=Team=] members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy">W3C Team conflict of interest policy</a> [[!CONFLICT-POLICY]].
+
+<h5 id="member-rep">
+Individuals Representing a Member Organization</h5>
+
+	Generally, individuals representing a Member in an official capacity within W3C
+	are employees of the Member organization.
+	However, an [=Advisory Committee representative=] <em class="rfc2119">may</em> designate a non-employee
+	to represent the Member.
+	Non-employee Member representatives <em class="rfc2119">must</em> disclose
+	relevant affiliations to the Team and to any group in which the individual participates.
+
+	In exceptional circumstances
+	(e.g., situations that might jeopardize the progress of a group or create a <a href="#coi">conflict of interest</a>),
+	the <a href="#def-Director">Director</a> <em class="rfc2119">may</em> decline
+	to allow an individual designated by an Advisory Committee representative to participate in a group.
+
+	A group charter <em class="rfc2119">may</em> limit
+	the number of individuals representing a W3C Member
+	(or group of <a href="#MemberRelated">related Members</a>).
+
+<h4 id="GeneralMeetings">
+Meetings</h4>
+
+	The requirements in this section apply to the official meetings of any [=W3C group=].
+
+	<p>W3C distinguishes two types of meetings:</p>
+
+	<ol>
+		<li>
+			A <dfn id="ftf-meeting">face-to-face meeting</dfn> is one
+			where most of the attendees are expected to participate in the same physical location.
+
+		<li>
+			A <dfn id="distributed-meeting">distributed meeting</dfn> is one
+			where most of the attendees are expected to participate from remote locations
+			(e.g., by telephone, video conferencing, or <abbr title="Internet Relay Chat">IRC</abbr>).
+	</ol>
+
+	A [=Chair=] <em class="rfc2119">may</em> invite an individual with a particular expertise
+	to attend a meeting on an exceptional basis.
+	This person is a meeting guest,
+	not a group [=participant=].
+	Meeting guests do not have <a href="#Votes">voting rights</a>.
+	It is the responsibility of the Chair to ensure
+	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a>
+	and other group requirements.
+
+<h5 id="meeting-schedules">
+Meeting Scheduling and Announcements</h5>
+
+	Meeting announcements <em class="rfc2119">should</em> be sent to all appropriate group mailing lists,
+	i.e. those most relevant to the anticipated meeting participants.
+
+	The following table lists <em class="rfc2119">recommendations</em> for organizing a meeting:
+
+	<table class="data">
+	<thead>
+		<tr>
+			<td>
+			<th scope=col>Face-to-face meetings
+			<th scope=col>Distributed meetings
+
+	<tbody>
+		<tr>
+			<th scope=row>Meeting announcement (before)
+			<td><span class="time-interval">eight weeks<sup>*</sup></span>
+			<td><span class="time-interval">one week<sup>*</sup></span>
+		<tr>
+			<th scope=row>Agenda available (before)
+			<td><span class="time-interval">two weeks</span>
+			<td><span class="time-interval">24 hours</span> (or longer if a meeting is scheduled after a weekend or holiday)
+		<tr>
+			<th scope=row>Participation confirmed (before)
+			<td><span class="time-interval">three days</span>
+			<td><span class="time-interval">24 hours</span>
+		<tr>
+			<th scope=row>Action items available (after)
+			<td><span class="time-interval">three days</span>
+			<td><span class="time-interval">24 hours</span>
+		<tr>
+			<th scope=row>[=Minutes=] available (after)
+			<td><span class="time-interval">two weeks</span>
+			<td><span class="time-interval">48 hours</span>
+	</table>
+
+	<sup>*</sup> To allow proper planning (e.g., travel arrangements),
+	the Chair is responsible for giving sufficient advance notice
+	about the date and location of a meeting.
+	Shorter notice for a meeting is allowed
+	provided that there are no objections from group participants.
+
+<h5 id="meeting-minutes">
+Meeting Minutes</h5>
+
+	Groups <em class=rfc2119>should</em> take and retain <dfn>minutes</dfn> of their meetings,
+	and <em class="rfc2119">must</em> record
+	any official [=group decisions=] made during the meeting discussions.
+	Details of the discussion leading to such decisions are not required,
+	provided that the rationale for the [=group decision=] is nonetheless clear.
+
+<h5 id="meeting-recording">
+Meeting Recordings and Transcripts</h5>
+
+	No-one may take an audio or video recording of a meeting,
+	or retain an automated transcript,
+	unless the intent is announced at the start of the meeting,
+	and no-one participating in the recorded portion of the meeting withholds consent.
+	If consent is withheld by anyone, recording/retention <em class=rfc2119>must</em> not occur.
+	The announcement <em class=rfc2119>must</em> cover:
+	(a) who will have access to the recording or transcript and
+	(b) the purpose/use of it and
+	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.
+
+<h4 id="tooling">
+Tooling for Discussions and Publications</h4>
+
+	For [=W3C Groups=] operating under this Process,
+	a core operating principle is to allow access across disabilities,
+	across country borders,
+	and across time.
+	Thus in order to allow all would-be participants to effectively participate,
+	to allow future participants and observers to understand the rationale and origins of current decisions,
+	and to guarantee long-lived access to its publications,
+	W3C requires that:
+
+	<ul>
+		<li id=report-stability>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			(i.e. intended for use or reference outside its own membership)
+			<em class=rfc2119>should</em> be published and promoted at a W3C-controlled URL,
+			and backed up by W3C systems
+			such that if the underlying service is discontinued,
+			W3C can continue to serve such content without breaking incoming links
+			or other key functionality.
+
+		<li id=report-accessibility>
+			All reports, publications, or other deliverables
+			produced by the group for public consumption
+			<em class=rfc2119>should</em> follow best practices for internationalization
+			and for accessibility to people with disabilities.
+			Network access to W3C-controlled domains may be assumed.
+
+		<li id=discussion-archiving>
+			Official meeting minutes and other records of decisions made <em class=rfc2119>must</em>
+			be archived by W3C for future reference;
+			and other persistent text-based discussions
+			sponsored by the group,
+			pertaining to their work
+			and intended to be referenceable by all group members
+			<em class=rfc2119>should</em> be.
+			This includes discussions conducted over email lists
+			or in issue-tracking services
+			or any equivalent fora.
+
+			Note: The lack, or loss, of such archives does not by itself
+			invalidate an otherwise-valid decision.
+
+		<li id=tool-accessibility>
+			Any tooling used by the group
+			for producing its documentation and deliverables
+			or for official group discussions
+			<em class=rfc2119>should</em> be usable
+			without additional cost
+			by all who wish to participate,
+			to allow their effective participation.
+
+			Note: If a new participant joins who cannot use the tool,
+			this can require the [=Working Group=] to change its tooling
+			or operate some workaround.
+
+		<li id=where-is-your-stuff>
+			All tools and archives used by the group
+			for its discussions and recordkeeping
+			<em class=rfc2119>should</em> be documented
+			such that new participants and observers
+			can easily find the group’s tools and records.
+
+	</ul>
+
+	The [=Team=] is responsible for ensuring adherence to these rules
+	and for bringing any group not in compliance into compliance.
+
+<h4 id="resignation">
+Resignation from a Group</h4>
+
+	A W3C Member or Invited Expert <em class="rfc2119">may</em> resign from a group.
+	On written notification from an Advisory Committee representative
+	or Invited Expert
+	to the team,
+	the Member and their representatives
+	or the Invited Expert
+	will be deemed to have resigned from the relevant group.
+	The team <em class="rfc2119">must</em> record the notification.
+	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
+	for information about obligations remaining after resignation from certain groups.
+
+<h3 id="AC">
+The Advisory Committee (AC)</h3>
+
+	<p id=ReviewAppeal>
+	The [=Advisory Committee=] <a href="ACReview">reviews proposals</a> from the [=Director=]
+	and [=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
+	of a [=W3C decision=]
+	or [=Director=]'s decision.
+	See also the additional roles of [=Advisory Committee representatives=]
+	described in the W3C Patent Policy [[PATENT-POLICY]].
+
+<h4 id=ac-participation>
+Participation in the Advisory Committee</h4>
+
+	When an organization joins W3C
+	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
+	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
+	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
+	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
+	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
+	explains how to name a new [=Advisory Committee representative=],
+	and more.
+	[=Advisory Committee representatives=] <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a>
+	by disclosing information according to the mechanisms described in the New Member Orientation.
+
+	The AC representative may delegate any of their rights and responsibilities
+	to an <dfn export lt="alternate AC representative | alternate Advisory Committee representative | alt AC rep">alternate</dfn>
+	(except the ability to designate an alternate).
+
+<h4 id="ACCommunication">
+Advisory Committee Mailing Lists</h4>
+
+	The [=Team=] <em class="rfc2119">must</em> provide two mailing lists for use by the [=Advisory Committee=]:
+
+	<ol>
+		<li>
+			One for official announcements (e.g., those required by this document) from the [=Team=] to the [=Advisory Committee=].
+			This list is read-only for Advisory Committee representatives.
+
+		<li>
+			One for discussion among [=Advisory Committee representatives=].
+			Though this list is primarily for Advisory Committee representatives,
+			the [=Team=] <em class="rfc2119">must</em> monitor discussion
+			and <em class="rfc2119">should</em> participate in discussion when appropriate.
+			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
+			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
+	</ol>
+
+	An [=Advisory Committee representative=] <em class="rfc2119">may</em> request
+	that additional individuals from their organization be subscribed to these lists.
+	Failure to contain distribution internally
+	<em class="rfc2119">may</em> result in suspension of additional email addresses,
+	at the discretion of the Team.
+
+<h4 id="ACMeetings">
+Advisory Committee Meetings</h4>
+
+	The [=Team=] organizes a <a href="#ftf-meeting">face-to-face meeting</a> for the [=Advisory Committee=]
+	<span class="time-interval">twice a year</span>.
+	The [=Team=] appoints the Chair of these meetings (generally the CEO).
+	At each Advisory Committee meeting,
+	the Team <em class="rfc2119">should</em> provide an update to the Advisory Committee about:
+
+	<dl>
+		<dt><em>Resources</em>
+		<dd>
+			<ul>
+				<li>
+					The number of W3C Members at each level.
+
+				<li>
+					An overview of the financial status of W3C.
+			</ul>
+
+		<dt><em>Allocations</em>
+		<dd>
+			<ul>
+				<li>
+					The allocation of the annual budget, including size of the Team and their approximate deployment.
+
+				<li>
+					A list of all activities (including but not limited to Working and Interest Groups)
+					and brief status statement about each,
+					in particular those started or terminated since the previous Advisory Committee meeting.
+
+				<li>
+					The allocation of resources to pursuing <a href="#Liaisons">liaisons</a> with other organizations.
+			</ul>
+		</dd>
+	</dl>
+
+	Each Member organization <em class="rfc2119">should</em> send one <a href="#member-rep">representative</a>
+	to each Advisory Committee Meeting.
+	In exceptional circumstances
+	(e.g., during a period of transition between representatives from an organization),
+	the meeting Chair <em class="rfc2119">may</em> allow a Member organization to send two representatives to a meeting.
+
+	The [=Team=] <em class="rfc2119">must</em> announce the date and location of each Advisory Committee meeting
+	no later than at the end of the previous meeting;
+	<span class="time-interval">one year's</span> notice is preferred.
+	The Team <em class="rfc2119">must</em> announce the region of each Advisory Committee meeting
+	at least <span class="time-interval">one year</span> in advance.
+
+	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
+	is available at the Member Web site.
+
+<h3 id=elected-groups>
+Elected Groups: The AB and the TAG</h3>
+
+	The W3C Process defines two types of <dfn id=elected-group export>elected groups</dfn>:
+	the [=Advisory Board=] (AB) and
+	the [=Technical Architecture Group=] (TAG),
+	both elected by the [=Advisory Committee=].
+
+<h4 id="AB">
+Advisory Board (AB)</h4>
+
+<h5 id=ab-role>
+Role of the Advisory Board</h5>
 
 	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn> provides ongoing guidance to the Team
 	on issues of strategy,
@@ -558,22 +871,13 @@ Advisory Board (AB)</h3>
 	and has no decision-making authority within W3C;
 	its role is strictly advisory.
 
-	The [=Team=] <em class="rfc2119">must</em> make available a mailing list,
-	confidential to the Advisory Board and Team,
-	for the Advisory Board to use for its communication.
-
-	The [=Advisory Board=] <em class="rfc2119">should</em> send a summary of each of its meetings
-	to the Advisory Committee and other group Chairs.
-	The Advisory Board <em class="rfc2119">should</em> also report on its activities
-	at each <a href="#ACMeetings">Advisory Committee meeting</a>.
-
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
 	mailing list information, and summaries of Advisory Board meetings)
 	are available at the <a href="https://www.w3.org/2002/ab/">Advisory Board home page</a> [[AB-HP]].
 
-<h4 id="ABParticipation">
-Advisory Board Participation</h4>
+<h5 id="ABParticipation">
+Composition of the Advisory Board</h5>
 
 	The [=Advisory Board=] consists of nine to eleven elected participants and one Chair
 	(who <em class=rfc2119>may</em> be one of the elected participants).
@@ -598,8 +902,24 @@ Advisory Board Participation</h4>
 	that individual's term ends at the normal expiration date of that term.
 	Regular Advisory Board terms begin on 1 July and end on 30 June.</p>
 
-<h3 id="TAG">
-Technical Architecture Group (TAG)</h3>
+<h5 id=ab-comm>
+Communications of the Advisory Board</h5>
+
+	The [=Team=] <em class="rfc2119">must</em> make available a mailing list,
+	confidential to the Advisory Board and Team,
+	for the Advisory Board to use for its communication.
+
+	The [=Advisory Board=] <em class="rfc2119">should</em> send a summary of each of its meetings
+	to the Advisory Committee and other group Chairs.
+	The Advisory Board <em class="rfc2119">should</em> also report on its activities
+	at each <a href="#ACMeetings">Advisory Committee meeting</a>.
+
+
+<h4 id="TAG">
+Technical Architecture Group (TAG)</h4>
+
+<h5 id=tag-role>
+Role of the Technical Architecture Group</h5>
 
 	The mission of the <dfn export lt="Technical Architecture Group|TAG">TAG</dfn> is stewardship of the Web architecture.
 	There are three aspects to this mission:
@@ -633,27 +953,6 @@ Technical Architecture Group (TAG)</h3>
 	for more information about the background and scope of the TAG,
 	and the expected qualifications of TAG participants.
 
-	The [=Team=] <em class="rfc2119">must</em> make available two mailing lists for the TAG:
-
-	<ul>
-		<li>
-			a public discussion (not just input) list for issues of Web architecture.
-			The [=TAG=] will conduct its public business on this list.
-
-		<li>
-			a <a href="#Member-only">Member-only</a> list for discussions within the TAG
-			and for requests to the TAG that,
-			for whatever reason, cannot be made on the public list.
-	</ul>
-
-	The [=TAG=] <em class="rfc2119">may</em> also request the creation of additional topic-specific, public mailing lists.
-	For some TAG discussions (e.g.,  a <a href="#SubmissionNo">Submission Appeal</a>),
-	the TAG <em class="rfc2119">may</em> use a list that will be <a href="#Member-only">Member-only</a>.
-
-	The [=TAG=] <em class="rfc2119">should</em> send a summary of each of its <a href="#GeneralMeetings">meetings</a>
-	to the Advisory Committee and other group Chairs.
-	The [=TAG=] <em class="rfc2119">should</em> also report on its activities at each <a href="#ACMeetings">Advisory Committee meeting</a>.
-
 	When the [=TAG=] votes to resolve an issue,
 	each TAG participant
 	(whether appointed, elected, or the Chair)
@@ -665,8 +964,8 @@ Technical Architecture Group (TAG)</h3>
 	(e.g., the list of TAG participants, mailing list information, and summaries of TAG meetings)
 	are available at the <a href="https://www.w3.org/2001/tag/">TAG home page</a> [[TAG-HP]].
 
-<h4 id="tag-participation">
-Technical Architecture Group Participation</h4>
+<h5 id="tag-participation">
+Composition of the Technical Architecture Group</h5>
 
 	The [=TAG=] consists of:
 
@@ -701,8 +1000,35 @@ Technical Architecture Group Participation</h4>
 	The [=Director=] <em class="rfc2119">may</em> announce the appointed participants
 	after the results for the Advisory Committee election of participants have been announced.
 
-<h3 id="AB-TAG-participation">
-Advisory Board and Technical Architecture Group Participation</h3>
+<h5 id=tag-comm>
+Communications of the Technical Architecture Group</h5>
+
+	The [=Team=] <em class="rfc2119">must</em> make available two mailing lists for the TAG:
+
+	<ul>
+		<li>
+			a public discussion (not just input) list for issues of Web architecture.
+			The [=TAG=] will conduct its public business on this list.
+
+		<li>
+			a <a href="#Member-only">Member-only</a> list for discussions within the TAG
+			and for requests to the TAG that,
+			for whatever reason, cannot be made on the public list.
+	</ul>
+
+	The [=TAG=] <em class="rfc2119">may</em> also request the creation of additional topic-specific, public mailing lists.
+	For some TAG discussions (e.g.,  a <a href="#SubmissionNo">Submission Appeal</a>),
+	the TAG <em class="rfc2119">may</em> use a list that will be <a href="#Member-only">Member-only</a>.
+
+	The [=TAG=] <em class="rfc2119">should</em> send a summary of each of its <a href="#GeneralMeetings">meetings</a>
+	to the Advisory Committee and other group Chairs.
+	The [=TAG=] <em class="rfc2119">should</em> also report on its activities at each <a href="#ACMeetings">Advisory Committee meeting</a>.
+
+<h4 id="AB-TAG-participation">
+Participation in Elected Groups</h4>
+
+<h5 id=elected-expectations>
+Expectations for Elected Groups Participants</h5>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
 	they are elected by the Membership and appointed by the Director
@@ -733,8 +1059,8 @@ Advisory Board and Technical Architecture Group Participation</h3>
 	Participation in the TAG or AB is afforded to the specific individuals elected or appointed to those positions,
 	and a participant's seat <em class="rfc2119">must not</em> be delegated to any other person.
 
-<h4 id="AB-TAG-constraints">
-Advisory Board and Technical Architecture Group Participation Constraints</h4>
+<h5 id="AB-TAG-constraints">
+Elected Groups Participation Constraints</h5>
 
 	Given the few seats available on the [=Advisory Board=] and the [=TAG=],
 	and in order to ensure that the diversity of W3C Members is represented:
@@ -762,8 +1088,8 @@ Advisory Board and Technical Architecture Group Participation Constraints</h4>
 			An individual <em class="rfc2119">must not</em> participate on both the TAG and the AB.
 	</ul>
 
-<h4 id="AB-TAG-elections">
-Advisory Board and Technical Architecture Group Elections</h4>
+<h5 id="AB-TAG-elections">
+Advisory Board and Technical Architecture Group Elections</h5>
 
 	The [=Advisory Board=] and a portion of the [=Technical Architecture Group=] are elected by the [=Advisory Committee=],
 	using a Single Transferable Vote system.
@@ -899,8 +1225,8 @@ Verifiable Random Selection Procedure</h5>
 			The incomplete terms are assigned in result order.
 	</ol>
 
-<h4 id="AB-TAG-vacated">
-Advisory Board and Technical Architecture Group Vacated Seats</h4>
+<h5 id="AB-TAG-vacated">
+Elected Groups Vacated Seats</h5>
 
 	An [=Advisory Board=] or [=TAG=] participant's seat is vacated when:
 
@@ -961,775 +1287,44 @@ Advisory Board and Technical Architecture Group Vacated Seats</h4>
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
 	</ul>
 
-<h2 id="Policies">
-General Policies for W3C Groups</h2>
+<h3 id="GAGeneral" oldids="ChapterGroups, WG-and-IG">
+Chartered Groups: Working Groups and Interest Groups</h3>
 
-	For the purposes of this Process, a <dfn lt="W3C Group" local-lt="group">W3C Group</dfn> is one of W3C’s
-	<a href="#wgparticipant">Working Groups</a>,
-	<a href="#igparticipant">Interest Groups</a>,
-	<a href="#AC">Advisory Committee</a>,
-	<a href="#ABParticipation">Advisory Board</a>,
-	or <a href="#tag-participation">TAG</a>,
-	and a <dfn>participant</dfn> is a member of such a group
-	This section describes general policies for such groups regarding participation,
-	meeting requirements,
-	and decision-making.
-
-<h3 id="ParticipationCriteria">
-Individual Participation Criteria</h3>
-
-<h4 id="discipline">
-Expectations and Discipline</h4>
-
-	There are three qualities an individual is expected to demonstrate in order to participate in W3C:
-
-	<ol>
-		<li>
-			Technical competence in one's role;
-
-		<li>
-			The ability to act fairly;
-
-		<li>
-			Social competence in one's role.
-	</ol>
-
-	[=Advisory Committee representatives=] who nominate individuals from their organization for participation in W3C activities
-	are responsible for assessing and attesting to the qualities of those nominees.
-
-	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
-	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
-	and the participation requirements described in
-	“Disclosure”
-	in the W3C Patent Policy [[!PATENT-POLICY]].
-
-	The [=Director=] <em class="rfc2119">may</em> take disciplinary action,
-	including suspending or removing for cause
-	a participant in any group (including the [=AB=] and [=TAG=])
-	if serious and/or repeated violations,
-	such as failure to meet the requirements on individual behavior of
-	(a) this process
-	and in particular the CEPC, or
-	(b) the membership agreement, or
-	(c) applicable laws,
-	occur.
-	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
-
-<h4 id="coi">
-Conflict of Interest Policy</h4>
-
-	Individuals participating materially in W3C work <em class="rfc2119">must</em> disclose significant relationships
-	when those relationships might reasonably be perceived as creating a conflict of interest with the individual's role at W3C.
-	These disclosures <em class="rfc2119">must</em> be kept up-to-date
-	as the individual's affiliations change and W3C membership evolves
-	(since, for example, the individual might have a relationship with an organization that joins or leaves W3C).
-	Each section in this document that describes a W3C group
-	provides more detail about the disclosure mechanisms for that group.
-
-	The ability of an individual to fulfill a role within a group
-	without risking a conflict of interest depends on the individual's affiliations.
-	When these affiliations change,
-	the individual's assignment to the role <em class="rfc2119">must</em> be evaluated.
-	The role <em class="rfc2119">may</em> be reassigned according to the appropriate process.
-	For instance,
-	the [=Director=] <em class="rfc2119">may</em> appoint a new group [=Chair=]
-	when the current Chair changes affiliations
-	(e.g., if there is a risk of conflict of interest,
-	or if there is risk that the Chair's new employer will be over-represented within a W3C activity).
-
-	The following are some scenarios where disclosure is appropriate:
-
-	<ul>
-		<li>
-			Paid consulting for an organization whose activity is relevant to W3C,
-			or any consulting compensated with equity
-			(shares of stock, stock options, or other forms of corporate equity).
-
-		<li>
-			A decision-making role/responsibility
-			(such as participating on the Board) in other organizations relevant to W3C.
-
-		<li>
-			A position on a publicly visible advisory body,
-			even if no decision-making authority is involved.
-	</ul>
-
-	Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the [=Team=].
-
-	[=Team=] members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy">W3C Team conflict of interest policy</a> [[!CONFLICT-POLICY]].
-
-<h4 id="member-rep">
-Individuals Representing a Member Organization</h4>
-
-	Generally, individuals representing a Member in an official capacity within W3C
-	are employees of the Member organization.
-	However, an [=Advisory Committee representative=] <em class="rfc2119">may</em> designate a non-employee
-	to represent the Member.
-	Non-employee Member representatives <em class="rfc2119">must</em> disclose
-	relevant affiliations to the Team and to any group in which the individual participates.
-
-	In exceptional circumstances
-	(e.g., situations that might jeopardize the progress of a group or create a <a href="#coi">conflict of interest</a>),
-	the <a href="#def-Director">Director</a> <em class="rfc2119">may</em> decline
-	to allow an individual designated by an Advisory Committee representative to participate in a group.
-
-	A group charter <em class="rfc2119">may</em> limit
-	the number of individuals representing a W3C Member
-	(or group of <a href="#MemberRelated">related Members</a>).
-
-<h3 id="GeneralMeetings">
-Meetings</h3>
-
-	The requirements in this section apply to the official meetings of any [=W3C group=].
-
-	<p>W3C distinguishes two types of meetings:</p>
-
-	<ol>
-		<li>
-			A <dfn id="ftf-meeting">face-to-face meeting</dfn> is one
-			where most of the attendees are expected to participate in the same physical location.
-
-		<li>
-			A <dfn id="distributed-meeting">distributed meeting</dfn> is one
-			where most of the attendees are expected to participate from remote locations
-			(e.g., by telephone, video conferencing, or <abbr title="Internet Relay Chat">IRC</abbr>).
-	</ol>
-
-	A [=Chair=] <em class="rfc2119">may</em> invite an individual with a particular expertise
-	to attend a meeting on an exceptional basis.
-	This person is a meeting guest,
-	not a group [=participant=].
-	Meeting guests do not have <a href="#Votes">voting rights</a>.
-	It is the responsibility of the Chair to ensure
-	that all meeting guests respect the chartered <a href="#confidentiality-levels">level of confidentiality</a>
-	and other group requirements.
-
-<h4 id="meeting-schedules">
-Meeting Scheduling and Announcements</h4>
-
-	Meeting announcements <em class="rfc2119">should</em> be sent to all appropriate group mailing lists,
-	i.e. those most relevant to the anticipated meeting participants.
-
-	The following table lists <em class="rfc2119">recommendations</em> for organizing a meeting:
-
-	<table class="data">
-	<thead>
-		<tr>
-			<td>
-			<th scope=col>Face-to-face meetings
-			<th scope=col>Distributed meetings
-
-	<tbody>
-		<tr>
-			<th scope=row>Meeting announcement (before)
-			<td><span class="time-interval">eight weeks<sup>*</sup></span>
-			<td><span class="time-interval">one week<sup>*</sup></span>
-		<tr>
-			<th scope=row>Agenda available (before)
-			<td><span class="time-interval">two weeks</span>
-			<td><span class="time-interval">24 hours</span> (or longer if a meeting is scheduled after a weekend or holiday)
-		<tr>
-			<th scope=row>Participation confirmed (before)
-			<td><span class="time-interval">three days</span>
-			<td><span class="time-interval">24 hours</span>
-		<tr>
-			<th scope=row>Action items available (after)
-			<td><span class="time-interval">three days</span>
-			<td><span class="time-interval">24 hours</span>
-		<tr>
-			<th scope=row>[=Minutes=] available (after)
-			<td><span class="time-interval">two weeks</span>
-			<td><span class="time-interval">48 hours</span>
-	</table>
-
-	<sup>*</sup> To allow proper planning (e.g., travel arrangements),
-	the Chair is responsible for giving sufficient advance notice
-	about the date and location of a meeting.
-	Shorter notice for a meeting is allowed
-	provided that there are no objections from group participants.
-
-<h4 id="meeting-minutes">
-Meeting Minutes</h4>
-
-	Groups <em class=rfc2119>should</em> take and retain <dfn>minutes</dfn> of their meetings,
-	and <em class="rfc2119">must</em> record
-	any official [=group decisions=] made during the meeting discussions.
-	Details of the discussion leading to such decisions are not required,
-	provided that the rationale for the [=group decision=] is nonetheless clear.
-
-<h4 id="meeting-recording">
-Meeting Recordings and Transcripts</h4>
-
-	No-one may take an audio or video recording of a meeting,
-	or retain an automated transcript,
-	unless the intent is announced at the start of the meeting,
-	and no-one participating in the recorded portion of the meeting withholds consent.
-	If consent is withheld by anyone, recording/retention <em class=rfc2119>must</em> not occur.
-	The announcement <em class=rfc2119>must</em> cover:
-	(a) who will have access to the recording or transcript and
-	(b) the purpose/use of it and
-	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.
-
-<h3 id="Consensus">
-Consensus</h3>
-
-	Consensus is a core value of W3C.
-	To promote consensus,
-	the W3C process requires Chairs to ensure
-	that groups consider all legitimate views and objections,
-	and endeavor to resolve them,
-	whether these views and objections are expressed by the active participants of the group
-	or by others
-	(e.g., another W3C group,
-	a group in another organization,
-	or the general public).
-	Decisions <em class="rfc2119">may</em> be made during meetings
-	(<a href="#ftf-meeting">face-to-face</a>
-	or <a href="#distributed-meeting">distributed</a>)
-	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
-
-	Note: The Director, CEO, and COO have the role of
-	assessing consensus within the Advisory Committee.
-
-	The following terms are used in this document
-	to describe the level of support for a decision among a set of eligible individuals:
-
-	<dl>
-		<dt><dfn id="def-Consensus">Consensus</dfn>:
-		<dd>
-			A substantial number of individuals in the set
-			support the decision
-			and nobody in the set registers a <a href="#FormalObjection">Formal Objection</a>.
-			Individuals in the set <em class="rfc2119">may</em> abstain.
-			Abstention is either an explicit expression of no opinion
-			or silence by an individual in the set.
-
-		<dt><dfn id="def-Unanimity">Unanimity</dfn>:
-		<dd>
-			The particular case of [=consensus=]
-			where all individuals in the set support the decision
-			(i.e., no individual in the set abstains).
-
-		<dt><dfn id="def-Dissent">Dissent</dfn>:
-		<dd>
-			At least one individual in the set registers a <a href="#FormalObjection">Formal Objection</a>.
-	</dl>
-
-	By default, the set of individuals eligible to participate in a decision is the set of group participants.
-	The Process Document does not require a quorum for decisions
-	(i.e., the minimal number of eligible participants required to be present before the Chair can call a question).
-	A charter <em class="rfc2119">may</em> include a quorum requirement for consensus decisions.
-
-	Where [=unanimity=] is not possible,
-	a group <em class="rfc2119">should</em> strive to make [=consensus=] decisions
-	where there is significant support and few abstentions.
-	The Process Document does not require a particular percentage of eligible participants
-	to agree to a motion in order for a decision to be made.
-	To avoid decisions where there is widespread apathy,
-	(i.e., little support and many abstentions),
-	groups <em class="rfc2119">should</em> set minimum thresholds of active support before a decision can be recorded.
-	The appropriate percentage <em class="rfc2119">may</em> vary depending on the size of the group
-	and the nature of the decision.
-	A charter <em class="rfc2119">may</em> include threshold requirements for consensus decisions.
-	For instance, a charter might require a supermajority of eligible participants
-	(i.e., some established percentage above 50%)
-	to support certain types of consensus decisions.
-
-	<div class=note>
-	Note: Chairs have substantial flexibility
-	in how they obtain and assess consensus among their groups.
-	Unless otherwise constrained by charter,
-	they may use modes including but not limited to explicit calls for consensus,
-	polls of participants,
-	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
-	or they may also delegate and empower a document editor
-	to assess consensus on their behalf,
-	whether in general
-	or for specific pre-determined circumstances
-	(e.g. in non-controversial situations, for specific types of issues, etc.).
-
-	If questions or disagreements arise,
-	the final determination of consensus remains with the chair.
-	</div>
-
-<h4 id="managing-dissent">
-Managing Dissent</h4>
-
-	In some cases, even after careful consideration of all points of view,
-	a group might find itself unable to reach consensus.
-	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
-	(i.e., there is at least one <a href="#FormalObjection">Formal Objection</a>)
-	so that the group can make progress
-	(for example, to produce a deliverable in a timely manner).
-	Dissenters cannot stop a group's work
-	simply by saying that they cannot live with a decision.
-	When the Chair believes that the Group has duly considered
-	the legitimate concerns of dissenters as far as is possible and reasonable,
-	the group <em class="rfc2119">should</em> move on.
-
-	Groups <em class="rfc2119">should</em> favor proposals that create the weakest objections.
-	This is preferred over proposals that are supported by a large majority
-	but that cause strong objections from a few people.
-	As part of making a decision where there is [=dissent=],
-	the [=Chair=] is expected to be aware of which participants work for the same
-	(or <a href="#MemberRelated">related</a>)
-	Member organizations and weigh their input accordingly.
-
-<h4 id="WGArchiveMinorityViews">
-Recording and Reporting Formal Objections</h4>
-
-	In the W3C process,
-	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
-	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
-	is one that the reviewer requests that the Director consider
-	as part of evaluating the related decision
-	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
-
-	Note: In this document, the term “Formal Objection” is used to emphasize this process implication:
-	Formal Objections receive Director consideration.
-	The word “objection” used alone has ordinary English connotations.
-
-	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
-	and propose changes that would remove the [=Formal Objection=];
-	these proposals <em class="rfc2119">may</em> be vague or incomplete.
-	[=Formal Objections=] that do not provide substantive arguments
-	or rationale are unlikely to receive serious consideration.
-
-	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
-	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
-
-<h4 id="formal-address">
-Formally Addressing an Issue</h4>
-
-	In the context of this document,
-	a group has <dfn export>formally addressed</dfn> an issue when it has sent a public, substantive response
-	to the reviewer who raised the issue.
-	A substantive response is expected to include rationale for decisions
-	(e.g., a technical explanation, a pointer to charter scope, or a pointer to a requirements document).
-	The adequacy of a response is measured
-	against what a W3C reviewer would generally consider to be technically sound.
-	If a group believes that a reviewer's comments result from a misunderstanding,
-	the group <em class="rfc2119">should</em> seek clarification before reaching a decision.
-
-	As a courtesy,
-	both Chairs and reviewers <em class="rfc2119">should</em> set expectations
-	for the schedule of responses and acknowledgments.
-	The group <em class="rfc2119">should</em> reply to a reviewer's initial comments
-	in a timely manner.
-	The group <em class="rfc2119">should</em> set a time limit
-	for acknowledgment by a reviewer of the group's substantive response;
-	a reviewer cannot block a group's progress.
-	It is common for a reviewer to require a week or more
-	to acknowledge and comment on a substantive response.
-	The group's responsibility to respond to reviewers
-	does not end once a reasonable amount of time has elapsed.
-	However, reviewers <em class="rfc2119">should</em> realize
-	that their comments will carry less weight
-	if not sent to the group in a timely manner.
-
-	Substantive responses <em class="rfc2119">should</em> be recorded.
-	The group <em class="rfc2119">should</em> maintain an accurate summary
-	of all substantive issues and responses to them
-	(e.g., in the form of an issues list with links to mailing list archives).
-
-<h4 id="WGChairReopen">
-Reopening a Decision When Presented With New Information</h4>
-
-	The [=Chair=] <em class="rfc2119">may</em> reopen a decision
-	when presented with new information, including:
-
-	<ul>
-		<li>
-			additional technical information,
-		<li>
-			comments by email from participants who were unable to attend a scheduled meeting,
-
-		<li>
-			comments by email from meeting attendees
-			who chose not to speak out during a meeting
-			(e.g., so they could confer later with colleagues or for cultural reasons).
-	</ul>
-
-	The [=Chair=] <em class="rfc2119">should</em> record
-	that a decision has been reopened,
-	and <em class="rfc2119">must</em> do so upon request from a group participant.
-
-<h3 id="Votes">
-Votes</h3>
-
-	A group <em class="rfc2119">should</em> only conduct a vote to resolve a <em>substantive issue</em>
-	after the [=Chair=] has determined that all available means of <a href="#Consensus">reaching consensus</a>
-	through technical discussion and compromise have failed,
-	and that a vote is necessary to break a deadlock.
-	In this case the [=Chair=] <em class="rfc2119">must</em> record
-	(e.g., in the [=minutes=] of the meeting or in an archived email message):
-
-	<ul>
-		<li>
-			an explanation of the issue being voted on;
-
-		<li>
-			the decision to conduct a vote
-			(e.g., a simple majority vote) to resolve the issue;
-
-		<li>
-			the outcome of the vote;
-
-		<li>
-			any Formal Objections.
-	</ul>
-
-	In order to vote to resolve a substantive issue,
-	an individual <em class="rfc2119">must</em> be a group [=participant=].
-	Each organization represented in the group <em class="rfc2119">must</em> have at most one vote,
-	even when the organization is represented by several participants in the group
-	(including Invited Experts).
-	For the purposes of voting:
-
-	<ul>
-		<li>
-			A Member or group of <a href="#MemberRelated">related Members</a> is considered a single organization.
-
-		<li>
-			The <a href="#Team">Team</a> is considered an organization.
-	</ul>
-
-	Unless the charter states otherwise,
-	<a href="#invited-expert-wg">Invited Experts</a> <em class="rfc2119">may</em> vote.
-
-	If a participant is unable to attend a vote,
-	that individual <em class="rfc2119">may</em> authorize anyone at the meeting
-	to act as a <dfn id="proxy">proxy</dfn>.
-	The absent participant <em class="rfc2119">must</em> inform the Chair in writing
-	who is acting as proxy, with written instructions on the use of the proxy.
-	For a Working Group or Interest Group,
-	see the related requirements regarding an individual
-	who attends a meeting as a <a href="#mtg-substitute">substitute</a> for a participant.
-
-	A group <em class="rfc2119">may</em> vote for other purposes than to resolve a substantive issue.
-	For instance, the Chair often conducts a “straw poll” vote
-	as a means of determining whether there is consensus about a potential decision.
-
-	A group <em class="rfc2119">may</em> also vote to make a process decision.
-	For example,
-	it is appropriate to decide by simple majority
-	whether to hold a meeting in San Francisco or San Jose
-	(there's not much difference geographically).
-	When simple majority votes are used to decide minor issues,
-	voters are <em class="rfc2119">not required</em> to state the reasons for votes,
-	and the group is <em class="rfc2119">not required</em> to record individual votes.
-
-	A group charter <em class="rfc2119">may</em> include formal voting procedures
-	(e.g., quorum or threshold requirements)
-	for making decisions about substantive issues.
-
-	Procedures for <a href="#ACVotes">Advisory Committee votes</a> are described separately.
-
-<h3 id="decisions" oldids="WGAppeals">
-[=Chair Decisions=] and [=Group Decisions=]</h3>
-
-	Groups resolve issues through dialog.
-	Individuals who disagree strongly with a decision
-	<em class="rfc2119">should</em> register with the Chair any [=Formal Objections=]
-	(e.g., to a decision made as the result of a <a href="#Votes">vote</a>).
-
-	As detailed in other parts of this document,
-	the [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
-	to make certain decisions based on their own judgment.
-	Such decisions are called <dfn export>chair decisions</dfn>.
-	In contrast,
-	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
-	on the basis of having assessed the [=consensus=] of the group
-	or following a vote (see [[#Votes]])
-	are called <dfn export lt="group decision | resolution">group decisions</dfn>
-	(also known as group “resolutions”).
-
-	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
-	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
-	(for representatives of a Member organization, via their Advisory Committee representative)
-	to confirm or deny the decision.
-	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
-	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
-	The participants <em class="rfc2119">should</em> also make their requests known
-	to the <a href="#TeamContact">Team Contact</a>.
-	The Team Contact <em class="rfc2119">must</em> inform the Director
-	when a group participant has raised concerns about due process.
-
-	Any requests to the Director to confirm a decision
-	<em class="rfc2119">must</em> include a summary of
-	the issue (whether technical or procedural),
-	decision,
-	and rationale for the objection.
-	All counter-arguments,
-	rationales,
-	and decisions <em class="rfc2119">must</em> be recorded.
-
-	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
-
-<h3 id="resignation">
-Resignation from a Group</h3>
-
-	A W3C Member or Invited Expert <em class="rfc2119">may</em> resign from a group.
-	On written notification from an Advisory Committee representative
-	or Invited Expert
-	to the team,
-	the Member and their representatives
-	or the Invited Expert
-	will be deemed to have resigned from the relevant group.
-	The team <em class="rfc2119">must</em> record the notification.
-	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
-	for information about obligations remaining after resignation from certain groups.
-
-<h3 id="tooling">
-Tooling</h3>
-
-	For [=W3C Groups=] operating under this Process,
-	a core operating principle is to allow access across disabilities,
-	across country borders,
-	and across time.
-	Thus in order to allow all would-be participants to effectively participate,
-	to allow future participants and observers to understand the rationale and origins of current decisions,
-	and to guarantee long-lived access to its publications,
-	W3C requires that:
-
-	<ul>
-		<li id=report-stability>
-			All reports, publications, or other deliverables
-			produced by the group for public consumption
-			(i.e. intended for use or reference outside its own membership)
-			<em class=rfc2119>should</em> be published and promoted at a W3C-controlled URL,
-			and backed up by W3C systems
-			such that if the underlying service is discontinued,
-			W3C can continue to serve such content without breaking incoming links
-			or other key functionality.
-
-		<li id=report-accessibility>
-			All reports, publications, or other deliverables
-			produced by the group for public consumption
-			<em class=rfc2119>should</em> follow best practices for internationalization
-			and for accessibility to people with disabilities.
-			Network access to W3C-controlled domains may be assumed.
-
-		<li id=discussion-archiving>
-			Official meeting minutes and other records of decisions made <em class=rfc2119>must</em>
-			be archived by W3C for future reference;
-			and other persistent text-based discussions
-			sponsored by the group,
-			pertaining to their work
-			and intended to be referenceable by all group members
-			<em class=rfc2119>should</em> be.
-			This includes discussions conducted over email lists
-			or in issue-tracking services
-			or any equivalent fora.
-
-			Note: The lack, or loss, of such archives does not by itself
-			invalidate an otherwise-valid decision.
-
-		<li id=tool-accessibility>
-			Any tooling used by the group
-			for producing its documentation and deliverables
-			or for official group discussions
-			<em class=rfc2119>should</em> be usable
-			without additional cost
-			by all who wish to participate,
-			to allow their effective participation.
-
-			Note: If a new participant joins who cannot use the tool,
-			this can require the [=Working Group=] to change its tooling
-			or operate some workaround.
-
-		<li id=where-is-your-stuff>
-			All tools and archives used by the group
-			for its discussions and recordkeeping
-			<em class=rfc2119>should</em> be documented
-			such that new participants and observers
-			can easily find the group’s tools and records.
-
-	</ul>
-
-	The [=Team=] is responsible for ensuring adherence to these rules
-	and for bringing any group not in compliance into compliance.
-
-<h2 id="dissemination"> <span id="chapterDissemination"></span>
-Dissemination Policies</h2>
-
-<h3 id=pub-com>
-Public communication</h3>
-
-	The [=Team=] is responsible for managing communication within W3C
-	and with the general public
-	(e.g., news services, press releases, managing the Web site and access privileges, and managing calendars).
-	Members <em class="rfc2119">should</em> solicit review by the Team
-	prior to issuing press releases about their work within W3C.
-
-	The [=Team=] makes every effort to ensure the persistence and availability of the following public information:
-
-	<ul>
-		<li>
-			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
-			Per the Membership Agreement,
-			W3C technical reports (and software) are available free of charge to the general public;
-			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
-
-		<li>
-			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
-			that explains the purpose and mission of W3C,
-			the key benefits for Members,
-			and the organizational structure of W3C.
-
-		<li>
-			Legal documents,
-			including the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]]
-			and documentation of any legal commitments W3C has with other entities.
-
-		<li>
-			The Process Document.
-
-		<li>
-			Public results of W3C activities and <a href="#GAEvents">Workshops</a>.
-	</ul>
-
-	To keep the Members abreast of W3C meetings,
-	[=Workshops=],
-	and review deadlines,
-	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]] 
-	of official W3C events.
-	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
-
-<h3 id="confidentiality-levels">
-Confidentiality Levels</h3>
-
-	There are three principal levels of access to W3C information
-	(on the W3C Web site, in W3C meetings, etc.):
-	public,
-	Member-only,
-	and Team-only.
-
-	While much information made available by W3C is public,
-	“<dfn export id="Member-only" lt="Member-Only">Member-only</dfn>” information
-	is available to authorized parties only,
-	including representatives of Member organizations,
-	<a href="#invited-expert-wg">Invited Experts</a>,
-	the Advisory Board,
-	the TAG,
-	and the Team.
-	For example,
-	the <a href="#WGCharter">charter</a> of some Working Groups
-	<em class="rfc2119">may</em> specify a [=Member-only=] confidentiality level for group proceedings.
-
-	“<dfn export id="Team-only" lt="Team-Only">Team-only</dfn>” information
-	is available to the Team and other authorized parties.
-
-	Those authorized to access [=Member-only=] and [=Team-only=] information:
-
-	<ul>
-		<li>
-			<em class="rfc2119">must</em> treat the information as confidential within W3C,
-
-		<li>
-			<em class="rfc2119">must</em> use reasonable efforts to maintain the proper level of confidentiality, and
-
-		<li>
-			<em class="rfc2119">must not</em> release this information to the general public or press.
-	</ul>
-
-	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
-	to protect the confidentiality of [=Member-only=] information
-	and ensure that authorized parties have proper access to this information.
-	Documents <em class="rfc2119">should</em> clearly indicate
-	whether they require [=Member-only=] confidentiality.
-	Individuals uncertain of the confidentiality level of a piece of information
-	<em class="rfc2119">should</em> contact the Team.
-
-	[=Advisory Committee representatives=] <em class="rfc2119">may</em> authorize
-	[=Member-only=] access to <a href="#member-rep">Member representatives</a>
-	and other individuals employed by the Member
-	who are considered appropriate recipients.
-	For instance,
-	it is the responsibility of the [=Advisory Committee representative=]
-	and other employees
-	and official representatives of the organization
-	to ensure that Member-only news announcements
-	are distributed for internal use only within their organization.
-	Information about Member mailing lists is available
-	in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
-
-<h3 id="confidentiality-change">
-Changing Confidentiality Level</h3>
-
-	As a benefit of membership,
-	W3C provides some [=Team-only=] and [=Member-only=] channels
-	for certain types of communication.
-	For example, [=Advisory Committee representatives=]
-	can send <a href="#ACReview">reviews</a> to a [=Team-only=] channel.
-	However, for W3C processes with a significant public component,
-	such as the technical report development process,
-	it is also important for information that affects decision-making to be publicly available.
-	The Team <em class="rfc2119">may</em> need to communicate [=Team-only=] information to a Working Group or the public.
-	Similarly, a Working Group whose proceedings are [=Member-only=]
-	<em class="rfc2119">must</em> make public
-	information pertinent to the technical report development process.
-
-	This document clearly indicates which information <em class="rfc2119">must</em> be available to Members or the public,
-	even though that information was initially communicated on [=Team-only=] or [=Member-only=] channels.
-	Only the [=Team=] and parties authorized by the Team
-	may change the level of confidentiality of this information.
-	When doing so:
-
-	<ol>
-		<li>
-			The [=Team=] <em class="rfc2119">must</em> use a version of the information
-			that was expressly provided by the author for the new confidentiality level.
-			In Calls for Review and other similar messages,
-			the Team <em class="rfc2119">should</em> remind recipients to provide such alternatives.
-
-		<li>
-			The [=Team=] <em class="rfc2119">must not</em> attribute the version
-			for the new confidentiality level to the author without the author's consent.
-
-		<li>
-			If the author has not conveyed to the [=Team=] a version
-			that is suitable for another confidentiality level,
-			the Team <em class="rfc2119">may</em> make available a version that reasonably communicates what is required,
-			while respecting the original level of confidentiality,
-			and without attribution to the original author.
-	</ol>
-
-
-<h2 id="GAGeneral"> <span id="ChapterGroups"></span>
-Working Groups and Interest Groups</h2>
-
-	<p id="GAGroups">This document defines two types of groups:
+	<p id="GAGroups">This document defines two types of <dfn id=chartered-group export>chartered groups</dfn>:
 
 	<dl>
 		<dt>
-			<a href="#GroupsWG">Working Groups</a>.
+			<dfn export id="GroupsWG"><a href="#GroupsWG">Working Groups</a></dfn>.
 		<dd>
-			[=Working Groups=] typically produce deliverables
+			Working Groups typically produce deliverables
 			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
 			software,
 			test suites,
 			and reviews of the deliverables of other groups)
 			as defined in their <a href=#WGCharter>charter</a>.
-			There are additional participation requirements
-			described in the W3C Patent Policy [[!PATENT-POLICY]].
+
+			Working Groups have additional participation requirements
+			described in the W3C Patent Policy [[!PATENT-POLICY]],
+			see particularly the “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Obligations">Licensing Obligations of Working Group Participants</a>”
+			and the patent claim exclusion process
+			in “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">Exclusion From W3C RF Licensing Requirements</a>”.
+
 
 		<dt>
-			<a href="#GroupsIG">Interest Groups</a>.
+			<dfn export id="GroupsIG"><a href="#GroupsIG">Interest Groups</a></dfn>.
 		<dd>
-			The primary goal of an [=Interest Group=]
+			The primary goal of an Interest Group
 			is to bring together people who wish to evaluate potential Web technologies and policies.
 			An Interest Group is a forum for the exchange of ideas.
+
+			Interest Groups do not publish <a href="#RecsW3C">Recommendation Track technical reports</a>;
+			but can publish <a href="#WGNote">technical reports on the Note Track</a>.
 	</dl>
 
-	[=Interest Groups=] do not publish <a href="#RecsW3C">Recommendation Track technical reports</a>;
-	see information about <a href="#WGNote">maturity levels for Interest Groups</a>.
+<h4 id="ReqsAllGroups">
+Requirements for All Chartered Groups</h4>
 
-<h3 id="ReqsAllGroups">
-Requirements for All Working and Interest Groups</h3>
-
-	Each group <em class="rfc2119">must</em> have a charter.
+	Each group <em class="rfc2119">must</em> have a [=charter=].
 	Requirements for the charter depend on the group type.
 	All group charters <em class="rfc2119">must</em> be public
 	(even if other proceedings of the group are <a href="#Member-only">Member-only</a>).
@@ -1771,17 +1366,8 @@ Requirements for All Working and Interest Groups</h3>
 	Task forces do not publish <a href="#Reports">technical reports</a>;
 	the Working Group <em class="rfc2119">may</em> choose to publish their results as part of a technical report.
 
-<h3 id=WG-and-IG>
-Working Groups and Interest Groups</h3>
-
-	Although <dfn export id="GroupsWG">Working Groups</dfn>
-	and <dfn export id="GroupsIG">Interest Groups</dfn>
-	have different purposes,
-	they share some characteristics,
-	and so are defined together in the following sections.
-
 <h4 id="group-participation">
-Working Group and Interest Group Participation Requirements</h4>
+Participation in Chartered Groups</h4>
 
 	There are three types of individual <dfn id="wgparticipant">participants in a Working Group</dfn>:
 	<a href="#member-rep">Member representatives</a>,
@@ -1834,11 +1420,8 @@ Working Group and Interest Group Participation Requirements</h4>
 	and a much smaller Working Group
 	(a core group of highly dedicated participants).
 
-	See also the licensing obligations on Working Group participants
-	in “Licensing Obligations”
-	in the W3C Patent Policy [[!PATENT-POLICY]],
-	and the patent claim exclusion process
-	in “Exclusion From W3C RF Licensing Requirements” in the Patent Policy.
+<h4 id=chartered-group-participants>
+Types of Participants in Chartered Groups</h4>
 
 <h5 id="member-rep-wg">
 Member Representative in a Working Group</h5>
@@ -2035,10 +1618,14 @@ Team Representative in an Interest Group</h5>
 	When the participation requirements exceed <a href="#ig-mail-only">Interest Group mailing list subscription</a>,
 	an individual is a <dfn export>Team representative in an Interest Group</dfn> when so designated by W3C management.
 
-<h4 id="WGCharterDevelopment">
-Working Group and Interest Group Charter Development</h4>
+<h2 id=group-lifecyle>
+Lifecycle of Chartered Groups</h2>
 
-	W3C creates a charter based on interest from the Members and Team.
+<h3 id="WGCharterDevelopment">
+Initiating Charter Development</h3>
+
+	W3C creates charters for [=chartered groups=]
+	based on interest from the Members and Team.
 	The Team <em class="rfc2119">must</em> notify the Advisory Committee
 	when a charter for a new Working Group or Interest Group is in development.
 	This is intended to raise awareness,
@@ -2051,94 +1638,8 @@ Working Group and Interest Group Charter Development</h4>
 	on a Working Group or Interest Group charter
 	at any time.
 
-<h4 id="CharterReview">
-Advisory Committee Review of a Working Group or Interest Group Charter</h4>
-
-	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter,
-	except for either:
-	* a charter extension
-	* substantive changes to a charter that do not affect the way the group functions in any significant way.
-
-	The review period <em class="rfc2119">must</em> be at least 28 days.
-	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
-	the addition of an in-scope deliverable,
-	a change of [=Team Contact=],
-	or a change of [=Chair=].
-	Such changes must nonetheless be announced
-	to the [=Advisory Committee=]
-	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
-	and a rationale must be provided.
-
-	The Call for Review of a substantively modified charter
-	<em class="rfc2119">must</em> highlight important changes
-	(e.g., regarding deliverables or resource allocation)
-	and include rationale for the changes.
-
-	As part of the Advisory Committee review of any new or substantively modified Working Group charter,
-	any Advisory Committee representative <em class="rfc2119">may</em> request an extended review period.
-
-	Such a request must be submitted with a Member's comments
-	in response to the Call for Review.
-	Upon receipt of any such request,
-	the Director <em class="rfc2119">must</em> ensure
-	that the Call for Participation for the Working Group
-	occurs at least 60 days
-	after the Call for Review of the charter.
-
-<h4 id="cfp">
-Call for Participation in a Working Group or Interest Group</h4>
-
-	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
-	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
-	Charters <em class="rfc2119">may</em> be amended based on review comments
-	before the Call for Participation.
-
-	For a new group, this announcement officially creates the group.
-	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
-	the name(s) of the group's [=Chair=](s),
-	and the name(s) of the [=Team Contact=](s).
-
-	After a Call for Participation,
-	any <a href="#member-rep">Member representatives</a>
-	and <a href="#invited-expert-wg">Invited Experts</a>
-	<em class="rfc2119">must</em> be designated (or re-designated).
-	When a group is re-chartered,
-	individuals participating in the [=Working Group=] or [=Interest Group=] before the new Call for Participation
-	may attend any meetings held within forty-five (45) days of the Call for Participation
-	even if they have not yet formally rejoined the group
-	(i.e., committed to the terms of the charter and patent policy).
-
-	Advisory Committee representatives <em class="rfc2119">may</em> initiate
-	an <a href="#ACAppeal">Advisory Committee Appeal</a>
-	against the decision to create
-	or substantially modify
-	a Working Group or Interest Group charter.
-
-<h4 id="charter-extension">
-Working Group and Interest Group Charter Extension</h4>
-
-	To extend a Working Group or Interest Group charter
-	with no other substantive modifications,
-	the Director announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
-	The announcement <em class="rfc2119">must</em> indicate the new duration.
-	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
-	a reference to the <a href="#WGCharter">charter</a>,
-	the name(s) of the group's [=Chair=](s),
-	the name of the [=Team Contact=],
-	and instructions for joining the group.
-
-	After a charter extension,
-	Advisory Committee representatives
-	and the [=Chair=] are <em class="rfc2119">not required</em> to re-designate <a href="#member-rep">Member representatives</a>
-	and <a href="#invited-expert-wg">Invited Experts</a>.
-
-	Advisory Committee representatives <em class="rfc2119">may</em> initiate
-	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a Director's decision
-	regarding the extension of a Working Group or Interest Group charter.
-
-<h4 id="WGCharter">
-Working Group and Interest Group Charters</h4>
+<h3 id="WGCharter">
+Content of a Charter</h3>
 
 	A Working Group or Interest Group <dfn export>charter</dfn>
 	<em class="rfc2119">must</em> include all of the following information.
@@ -2146,43 +1647,43 @@ Working Group and Interest Group Charters</h4>
 	<ul>
 		<li>
 			The group's mission
-			(e.g., develop a technology or process, review the work of other groups);
+			(e.g., develop a technology or process, review the work of other groups).
 
 		<li>
-			The scope of the group's work and criteria for success;
+			The scope of the group's work and criteria for success.
 
 		<li>
-			The duration of the group (typically from six months to two years);
+			The duration of the group (typically from six months to two years).
 
 		<li>
-			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software);
+			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software).
 
 		<li>
 			Expected milestone dates where available.
 
 			Note: A charter is <em class="rfc2119">not required</em>
-			to include schedules for review of other group's deliverables;
+			to include schedules for review of other group's deliverables.
 
 		<li>
 			The process for the group to approve the release of deliverables
-			(including intermediate results);
+			(including intermediate results).
 
 		<li>
 			Any dependencies by groups within or outside of W3C on the deliverables of this group.
 			For any dependencies, the charter <em class="rfc2119">must</em> specify
-			the mechanisms for communication about the deliverables;
+			the mechanisms for communication about the deliverables.
 
 		<li>
 			Any dependencies of this group on other groups within or outside of W3C.
 			Such dependencies include interactions with
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]];
+			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]].
 
 		<li>
 			The <a href="#confidentiality-levels">level of confidentiality</a>
-			of the group's proceedings and deliverables;
+			of the group's proceedings and deliverables.
 
 		<li>
-			Meeting mechanisms and expected frequency;
+			Meeting mechanisms and expected frequency.
 
 		<li>
 			If known,
@@ -2194,14 +1695,14 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			Communication mechanisms to be employed within the group,
 			between the group and the rest of W3C,
-			and with the general public;
+			and with the general public.
 
 		<li>
 			Any voting procedures or requirements
-			other than those specified in <a href="#Votes"></a>;
+			other than those specified in <a href="#Votes"></a>.
 
 		<li>
-			An estimate of the expected time commitment from participants;
+			An estimate of the expected time commitment from participants.
 
 		<li>
 			The expected time commitment and level of involvement by the Team
@@ -2284,8 +1785,94 @@ Working Group and Interest Group Charters</h4>
 	(e.g., limits on the number of individuals in a Working Group
 	who represent the same Member organization or group of <a href="#MemberRelated">related Members</a>).
 
-<h4 id="GeneralTermination">
-Working Group and Interest Group Closure</h4>
+<h3 id="CharterReview">
+Advisory Committee Review of a Charter</h3>
+
+	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
+	of every new or substantively modified Working Group or Interest Group charter,
+	except for either:
+	* a charter extension
+	* substantive changes to a charter that do not affect the way the group functions in any significant way.
+
+	The review period <em class="rfc2119">must</em> be at least 28 days.
+	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+	Such changes must nonetheless be announced
+	to the [=Advisory Committee=]
+	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
+	and a rationale must be provided.
+
+	The Call for Review of a substantively modified charter
+	<em class="rfc2119">must</em> highlight important changes
+	(e.g., regarding deliverables or resource allocation)
+	and include rationale for the changes.
+
+	As part of the Advisory Committee review of any new or substantively modified Working Group charter,
+	any Advisory Committee representative <em class="rfc2119">may</em> request an extended review period.
+
+	Such a request must be submitted with a Member's comments
+	in response to the Call for Review.
+	Upon receipt of any such request,
+	the Director <em class="rfc2119">must</em> ensure
+	that the Call for Participation for the Working Group
+	occurs at least 60 days
+	after the Call for Review of the charter.
+
+<h3 id="cfp">
+Call for Participation in a Chartered Group</h3>
+
+	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
+	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
+	Charters <em class="rfc2119">may</em> be amended based on review comments
+	before the Call for Participation.
+
+	For a new group, this announcement officially creates the group.
+	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
+	the name(s) of the group's [=Chair=](s),
+	and the name(s) of the [=Team Contact=](s).
+
+	After a Call for Participation,
+	any <a href="#member-rep">Member representatives</a>
+	and <a href="#invited-expert-wg">Invited Experts</a>
+	<em class="rfc2119">must</em> be designated (or re-designated).
+	When a group is re-chartered,
+	individuals participating in the [=Working Group=] or [=Interest Group=] before the new Call for Participation
+	may attend any meetings held within forty-five (45) days of the Call for Participation
+	even if they have not yet formally rejoined the group
+	(i.e., committed to the terms of the charter and patent policy).
+
+	Advisory Committee representatives <em class="rfc2119">may</em> initiate
+	an <a href="#ACAppeal">Advisory Committee Appeal</a>
+	against the decision to create
+	or substantially modify
+	a Working Group or Interest Group charter.
+
+<h3 id="charter-extension">
+Charter Extension</h3>
+
+	To extend a Working Group or Interest Group charter
+	with no other substantive modifications,
+	the Director announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
+	The announcement <em class="rfc2119">must</em> indicate the new duration.
+	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
+	a reference to the <a href="#WGCharter">charter</a>,
+	the name(s) of the group's [=Chair=](s),
+	the name of the [=Team Contact=],
+	and instructions for joining the group.
+
+	After a charter extension,
+	Advisory Committee representatives
+	and the [=Chair=] are <em class="rfc2119">not required</em> to re-designate <a href="#member-rep">Member representatives</a>
+	and <a href="#invited-expert-wg">Invited Experts</a>.
+
+	Advisory Committee representatives <em class="rfc2119">may</em> initiate
+	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a Director's decision
+	regarding the extension of a Working Group or Interest Group charter.
+
+<h3 id="GeneralTermination">
+Chartered Group Closure</h3>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
 	The [=Director=] <em class="rfc2119">may</em> decide to close a group
@@ -2309,8 +1896,469 @@ Working Group and Interest Group Closure</h4>
 	Closing a Working Group has implications
 	with respect to the W3C Patent Policy [[!PATENT-POLICY]].
 
+<h2 id=decisions>
+Decisions</h2>
+
+	W3C attempts to resolve issues through dialog.
+	Individuals who disagree strongly with a decision
+	<em class="rfc2119">should</em> register with the Chair any [=Formal Objections=].
+
+<h3 id=decision-types>
+Types of Decisions</h3>
+
+	The [=Chair=] of a [=Working Group=] or [=Interest Group=] has the prerogative
+	to make certain decisions based on their own judgment.
+	Such decisions are called <dfn export>chair decisions</dfn>.
+
+	In contrast,
+	decisions taken by the [=Chair=] of a [=Working Group=] or [=Interest Group=]
+	on the basis of having assessed the [=consensus=] of the group
+	or following a vote (see [[#Votes]])
+	are called <dfn export lt="group decision | resolution">group decisions</dfn>
+	(also known as group “resolutions”).
+
+	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
+	where the [=Director=] decides,
+	after exercising the role of assessing consensus of the W3C Community after an [=Advisory Committee review=].
+
+<h3 id=consensus-building>
+Consensus Building</h3>
+
+<h4 id="Consensus">
+Consensus</h4>
+
+	Consensus is a core value of W3C.
+	To promote consensus,
+	the W3C process requires Chairs to ensure
+	that groups consider all legitimate views and objections,
+	and endeavor to resolve them,
+	whether these views and objections are expressed by the active participants of the group
+	or by others
+	(e.g., another W3C group,
+	a group in another organization,
+	or the general public).
+	Decisions <em class="rfc2119">may</em> be made during meetings
+	(<a href="#ftf-meeting">face-to-face</a>
+	or <a href="#distributed-meeting">distributed</a>)
+	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
+
+	Note: The Director, CEO, and COO have the role of
+	assessing consensus within the Advisory Committee.
+
+	The following terms are used in this document
+	to describe the level of support for a decision among a set of eligible individuals:
+
+	<dl>
+		<dt><dfn id="def-Consensus">Consensus</dfn>:
+		<dd>
+			A substantial number of individuals in the set
+			support the decision
+			and nobody in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+			Individuals in the set <em class="rfc2119">may</em> abstain.
+			Abstention is either an explicit expression of no opinion
+			or silence by an individual in the set.
+
+		<dt><dfn id="def-Unanimity">Unanimity</dfn>:
+		<dd>
+			The particular case of [=consensus=]
+			where all individuals in the set support the decision
+			(i.e., no individual in the set abstains).
+
+		<dt><dfn id="def-Dissent">Dissent</dfn>:
+		<dd>
+			At least one individual in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+	</dl>
+
+	By default, the set of individuals eligible to participate in a decision is the set of group participants.
+	The Process Document does not require a quorum for decisions
+	(i.e., the minimal number of eligible participants required to be present before the Chair can call a question).
+	A charter <em class="rfc2119">may</em> include a quorum requirement for consensus decisions.
+
+	Where [=unanimity=] is not possible,
+	a group <em class="rfc2119">should</em> strive to make [=consensus=] decisions
+	where there is significant support and few abstentions.
+	The Process Document does not require a particular percentage of eligible participants
+	to agree to a motion in order for a decision to be made.
+	To avoid decisions where there is widespread apathy,
+	(i.e., little support and many abstentions),
+	groups <em class="rfc2119">should</em> set minimum thresholds of active support before a decision can be recorded.
+	The appropriate percentage <em class="rfc2119">may</em> vary depending on the size of the group
+	and the nature of the decision.
+	A charter <em class="rfc2119">may</em> include threshold requirements for consensus decisions.
+	For instance, a charter might require a supermajority of eligible participants
+	(i.e., some established percentage above 50%)
+	to support certain types of consensus decisions.
+
+	<div class=note>
+	Note: Chairs have substantial flexibility
+	in how they obtain and assess consensus among their groups.
+	Unless otherwise constrained by charter,
+	they may use modes including but not limited to explicit calls for consensus,
+	polls of participants,
+	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
+	or they may also delegate and empower a document editor
+	to assess consensus on their behalf,
+	whether in general
+	or for specific pre-determined circumstances
+	(e.g. in non-controversial situations, for specific types of issues, etc.).
+
+	If questions or disagreements arise,
+	the final determination of consensus remains with the chair.
+	</div>
+
+<h4 id="managing-dissent">
+Managing Dissent</h4>
+
+	In some cases, even after careful consideration of all points of view,
+	a group might find itself unable to reach consensus.
+	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
+	(i.e., there is at least one <a href="#FormalObjection">Formal Objection</a>)
+	so that the group can make progress
+	(for example, to produce a deliverable in a timely manner).
+	Dissenters cannot stop a group's work
+	simply by saying that they cannot live with a decision.
+	When the Chair believes that the Group has duly considered
+	the legitimate concerns of dissenters as far as is possible and reasonable,
+	the group <em class="rfc2119">should</em> move on.
+
+	Groups <em class="rfc2119">should</em> favor proposals that create the weakest objections.
+	This is preferred over proposals that are supported by a large majority
+	but that cause strong objections from a few people.
+	As part of making a decision where there is [=dissent=],
+	the [=Chair=] is expected to be aware of which participants work for the same
+	(or <a href="#MemberRelated">related</a>)
+	Member organizations and weigh their input accordingly.
+
+<h4 id="Votes">
+Deciding by Vote</h4>
+
+	A group <em class="rfc2119">should</em> only conduct a vote to resolve a <em>substantive issue</em>
+	after the [=Chair=] has determined that all available means of <a href="#Consensus">reaching consensus</a>
+	through technical discussion and compromise have failed,
+	and that a vote is necessary to break a deadlock.
+	In this case the [=Chair=] <em class="rfc2119">must</em> record
+	(e.g., in the [=minutes=] of the meeting or in an archived email message):
+
+	<ul>
+		<li>
+			an explanation of the issue being voted on;
+
+		<li>
+			the decision to conduct a vote
+			(e.g., a simple majority vote) to resolve the issue;
+
+		<li>
+			the outcome of the vote;
+
+		<li>
+			any Formal Objections.
+	</ul>
+
+	In order to vote to resolve a substantive issue,
+	an individual <em class="rfc2119">must</em> be a group [=participant=].
+	Each organization represented in the group <em class="rfc2119">must</em> have at most one vote,
+	even when the organization is represented by several participants in the group
+	(including Invited Experts).
+	For the purposes of voting:
+
+	<ul>
+		<li>
+			A Member or group of <a href="#MemberRelated">related Members</a> is considered a single organization.
+
+		<li>
+			The <a href="#Team">Team</a> is considered an organization.
+	</ul>
+
+	Unless the charter states otherwise,
+	<a href="#invited-expert-wg">Invited Experts</a> <em class="rfc2119">may</em> vote.
+
+	If a participant is unable to attend a vote,
+	that individual <em class="rfc2119">may</em> authorize anyone at the meeting
+	to act as a <dfn id="proxy">proxy</dfn>.
+	The absent participant <em class="rfc2119">must</em> inform the Chair in writing
+	who is acting as proxy, with written instructions on the use of the proxy.
+	For a Working Group or Interest Group,
+	see the related requirements regarding an individual
+	who attends a meeting as a <a href="#mtg-substitute">substitute</a> for a participant.
+
+	A group <em class="rfc2119">may</em> vote for other purposes than to resolve a substantive issue.
+	For instance, the Chair often conducts a “straw poll” vote
+	as a means of determining whether there is consensus about a potential decision.
+
+	A group <em class="rfc2119">may</em> also vote to make a process decision.
+	For example,
+	it is appropriate to decide by simple majority
+	whether to hold a meeting in San Francisco or San Jose
+	(there's not much difference geographically).
+	When simple majority votes are used to decide minor issues,
+	voters are <em class="rfc2119">not required</em> to state the reasons for votes,
+	and the group is <em class="rfc2119">not required</em> to record individual votes.
+
+	A group charter <em class="rfc2119">may</em> include formal voting procedures
+	(e.g., quorum or threshold requirements)
+	for making decisions about substantive issues.
+
+<h3 id="formal-address">
+Formally Addressing an Issue</h3>
+
+	In the context of this document,
+	a group has <dfn export>formally addressed</dfn> an issue when it has sent a public, substantive response
+	to the reviewer who raised the issue.
+	A substantive response is expected to include rationale for decisions
+	(e.g., a technical explanation, a pointer to charter scope, or a pointer to a requirements document).
+	The adequacy of a response is measured
+	against what a W3C reviewer would generally consider to be technically sound.
+	If a group believes that a reviewer's comments result from a misunderstanding,
+	the group <em class="rfc2119">should</em> seek clarification before reaching a decision.
+
+	As a courtesy,
+	both Chairs and reviewers <em class="rfc2119">should</em> set expectations
+	for the schedule of responses and acknowledgments.
+	The group <em class="rfc2119">should</em> reply to a reviewer's initial comments
+	in a timely manner.
+	The group <em class="rfc2119">should</em> set a time limit
+	for acknowledgment by a reviewer of the group's substantive response;
+	a reviewer cannot block a group's progress.
+	It is common for a reviewer to require a week or more
+	to acknowledge and comment on a substantive response.
+	The group's responsibility to respond to reviewers
+	does not end once a reasonable amount of time has elapsed.
+	However, reviewers <em class="rfc2119">should</em> realize
+	that their comments will carry less weight
+	if not sent to the group in a timely manner.
+
+	Substantive responses <em class="rfc2119">should</em> be recorded.
+	The group <em class="rfc2119">should</em> maintain an accurate summary
+	of all substantive issues and responses to them
+	(e.g., in the form of an issues list with links to mailing list archives).
+
+<h3 id="WGChairReopen">
+Reopening a Decision When Presented With New Information</h3>
+
+	The [=Chair=] <em class="rfc2119">may</em> reopen a decision
+	when presented with new information, including:
+
+	<ul>
+		<li>
+			additional technical information,
+		<li>
+			comments by email from participants who were unable to attend a scheduled meeting,
+
+		<li>
+			comments by email from meeting attendees
+			who chose not to speak out during a meeting
+			(e.g., so they could confer later with colleagues or for cultural reasons).
+	</ul>
+
+	The [=Chair=] <em class="rfc2119">should</em> record
+	that a decision has been reopened,
+	and <em class="rfc2119">must</em> do so upon request from a group participant.
+
+<h3 id="WGAppeals">
+[=Chair Decision=] and [=Group Decision=] Appeals</h3>
+
+	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
+	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
+	(for representatives of a Member organization, via their Advisory Committee representative)
+	to confirm or deny the decision.
+	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
+	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
+	The participants <em class="rfc2119">should</em> also make their requests known
+	to the <a href="#TeamContact">Team Contact</a>.
+	The Team Contact <em class="rfc2119">must</em> inform the Director
+	when a group participant has raised concerns about due process.
+
+	Any requests to the Director to confirm a decision
+	<em class="rfc2119">must</em> include a summary of
+	the issue (whether technical or procedural),
+	decision,
+	and rationale for the objection.
+	All counter-arguments,
+	rationales,
+	and decisions <em class="rfc2119">must</em> be recorded.
+
+	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
+
+<h3 id="WGArchiveMinorityViews">
+Recording and Reporting Formal Objections</h3>
+
+	In the W3C process,
+	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
+	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
+	is one that the reviewer requests that the Director consider
+	as part of evaluating the related decision
+	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
+
+	Note: In this document, the term “Formal Objection” is used to emphasize this process implication:
+	Formal Objections receive Director consideration.
+	The word “objection” used alone has ordinary English connotations.
+
+	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
+	and propose changes that would remove the [=Formal Objection=];
+	these proposals <em class="rfc2119">may</em> be vague or incomplete.
+	[=Formal Objections=] that do not provide substantive arguments
+	or rationale are unlikely to receive serious consideration.
+
+	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
+	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
+
+<h3 id="ACReview">
+Advisory Committee Reviews</h3>
+
+	<dfn export lt="Advisory Committee review | AC Review"> Advisory Committee review</dfn> is the process
+	by which the [=Advisory Committee=] formally confers its approval
+	on [=charters=],
+	[=technical reports=],
+	and other matters.
+
+<h4 id="ACReviewStart">
+Start of a Review Period</h4>
+
+	Each [=Advisory Committee review=] period
+	begins with a Call for Review from the [=Team=] to the [=Advisory Committee=].
+	The <dfn id="reviewform">Call for Review</dfn> describes the proposal,
+	raises attention to deadlines,
+	estimates when the decision will be available,
+	and includes other practical information.
+	Each Member organization <em class="rfc2119">may</em> send one review,
+	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
+
+	The Team <em class="rfc2119">must</em> provide two channels for Advisory Committee review comments:
+
+	<ol>
+		<li>
+			an archived [=Team-only=] channel;
+
+		<li>
+			an archived [=Member-only=] channel.
+	</ol>
+
+	The [=Call for Review=] <em class="rfc2119">must</em> specify
+	which channel is the default for review comments on that Call.
+
+	Reviewers <em class="rfc2119">may</em> send information
+	to either or both channels.
+	A reviewer <em class="rfc2119">may</em> also share their own reviews
+	with other Members on the <a href="#ACCommunication">Advisory Committee discussion list</a>,
+	and <em class=rfc2119>may</em> also make it available to the public.
+
+	A Member organization <em class="rfc2119">may</em> modify its review
+	during a review period
+	(e.g., in light of comments from other Members).
+
+<h4 id="ACReviewAfter">
+After the Review Period</h4>
+
+	After the review period,
+	the [=Director=] <em class="rfc2119">must</em> announce
+	to the [=Advisory Committee=]
+	the level of support for the proposal
+	([=consensus=] or [=dissent=]).
+	The [=Director=] <em class="rfc2119">must</em> also indicate
+	whether there were any [=Formal Objections=],
+	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
+	This [=W3C decision=] is generally one of the following:
+
+	<ol>
+		<li>
+			The proposal is approved,
+			possibly with [=editorial changes=] integrated.
+
+		<li>
+			The proposal is approved,
+			possibly with [=substantive changes=] integrated.
+			In this case the announcement <em class="rfc2119">must</em> include rationale
+			for the decision to advance the document despite the proposal for a substantive change.
+
+		<li>The proposal is returned for additional work,
+			with a request to the initiator to [=formally address=] certain issues.
+
+		<li>
+			The proposal is rejected.
+	</ol>
+
+	This document does not specify
+	time intervals between the end of an [=Advisory Committee review=] period
+	and the [=W3C decision=].
+	This is to ensure that the Members and [=Team=]
+	have sufficient time to consider comments
+	gathered during the review.
+	The [=Advisory Committee=] <em class="rfc2119">should not</em> expect an announcement
+	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
+	If, after <span class="time-interval">three weeks</span>, the outcome has not been announced,
+	the [=Director=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
+
+<h3 id="ACVotes">
+Advisory Committee Votes</h3>
+
+	The [=Advisory Committee=] votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
+	and in the event of an [=Advisory Committee Appeal=]
+	achieving the required support to trigger an appeal vote.
+	Whenever the [=Advisory Committee=] votes,
+	each Member or group of [=related Members=] has one vote.
+
+<h3 id="ACAppeal">
+Appeal by Advisory Committee Representatives</h3>
+
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> appeal certain decisions,
+	though appeals are only expected to occur in extraordinary circumstances.
+
+	When a [=W3C decision=] is made following an [=Advisory Committee review=],
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
+	an <dfn export lt="Advisory Committee Appeal|AC Appeal| Appeal">Advisory Committee Appeal</dfn>.
+	These [=W3C decisions=] include those related to group creation and modification,
+	and transitions to new maturity levels for Recommendation Track documents
+	and the Process document.
+
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
+	for certain [=Director=]'s decisions that do not involve an [=Advisory Committee review=].
+	These cases are identified in the sections
+	which describe the requirements for the [=Director=]'s decision
+	and include
+	additional (non-reviewed) maturity levels of Recommendation Track documents,
+	group [=charter extensions=] and closures,
+	and [=Memoranda of Understanding=].
+
+	In all cases,
+	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
+
+	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=].
+	The request should say “I appeal this Director's Decision”
+	and identify the decision.
+	Within one week the [=Team=] <em class="rfc2119">must</em> announce the appeal process
+	to the [=Advisory Committee=]
+	and provide a mechanism for [=Advisory Committee representatives=]
+	to respond with a statement of positive support for this appeal.
+	The archive of these statements <em class="rfc2119">must</em> be [=member-only=].
+	If, within <span class="time-interval">one week</span> of the Team's announcement,
+	5% or more of the [=Advisory Committee=] support the appeal request,
+	the Team <em class="rfc2119">must</em> organize an appeal vote
+	asking the [=Advisory Committee=]
+	“Do you approve of the Director's Decision?”
+	together with links to the [=Director=]'s decision and the appeal support.
+
+	The ballot <em class="rfc2119">must</em> allow for three possible responses:
+	“Approve”,
+	“Reject”,
+	and “Abstain”,
+	together with Comments.
+
+	If the number of votes to reject
+	exceeds the number of votes to approve,
+	the decision is overturned.
+	In that case, there are the following possible next steps:
+
+	<ol>
+		<li>
+			The proposal is rejected.
+
+		<li>
+			The proposal is returned for additional work,
+			after which the applicable decision process is re-initiated.
+	</ol>
+
 <h2 id="Reports">
-W3C Technical Report Development Process</h2>
+W3C Technical Reports</h2>
 
 	The W3C technical report development process is the set of steps and requirements
 	followed by W3C [=Working Groups=] to standardize Web technology.
@@ -2339,12 +2387,8 @@ W3C Technical Report Development Process</h2>
 	See also “licensing goals for W3C Specifications”
 	in the W3C Patent Policy [[PATENT-POLICY]].
 
-<h3 id="rec-advance">
-W3C Technical Reports</h3>
-
-	<dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
-	refers to producing a version which is listed as a W3C <dfn export>Technical Report</dfn>
-	on its <a href="https://www.w3.org/TR/">Technical Reports page https://www.w3.org/TR</a> [[TR]].
+<h3 id="recs-and-notes">
+Types of Technical Reports</h3>
 
 	This chapter describes the formal requirements
 	for [=publishing=] and maintaining a [=W3C Recommendation=],
@@ -2386,18 +2430,22 @@ W3C Technical Reports</h3>
 			See [[#registries]] for details.
 	</dl>
 
-
 	Individual [=Working Groups=] and [=Interest Groups=]
 	<em class="rfc2119">should</em> adopt additional processes
 	for developing publications,
 	so long as they do not conflict with the requirements in this chapter.
 
-<h4 id="general-requirements">
-General requirements for Technical Reports</h3>
+<h3 id="general-requirements">
+General Requirements for Technical Reports</h3>
 
+<h4 id=publication>
+Publication of Technical Reports</h4>
+
+	<dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
+	refers to producing a version which is listed as a W3C <dfn export>Technical Report</dfn>
+	on its <a href="https://www.w3.org/TR/">Technical Reports index at https://www.w3.org/TR</a> [[TR]].
 	Every document published as part of the technical report development process
 	<em class="rfc2119 old">must</em> be a public document.
-	The <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]] is available at the W3C Web site.
 	W3C strives to make archival documents indefinitely available
 	at their original address in their original form.
 
@@ -2685,7 +2733,7 @@ License Grants from Non-Participants</h4>
 	on the terms specified in the “W3C Royalty-Free (RF) Licensing Requirements” section of the W3C Patent Policy [[PATENT-POLICY]].
 
 
-<h3 id=rec-track oldids="recs-and-notes">
+<h3 id=rec-track oldids="rec-advance">
 The W3C Recommendation Track</h3>
 
 	[=Working Groups=] create specifications and guidelines
@@ -3913,7 +3961,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
 
 <h3 id=note-track>
-The Note Track: Notes and Statements</h3>
+The Note Track (Notes and Statements)</h3>
 
 <h4 id="Note">
 Group Notes</h4>
@@ -4375,180 +4423,151 @@ Further reading</h3>
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
 	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
 
-<h2 id="ReviewAppeal">
-Advisory Committee Reviews, Appeals, and Votes</h2>
+<h2 id="dissemination"> <span id="chapterDissemination"></span>
+Dissemination Policies</h2>
 
-	This section describes how the [=Advisory Committee=] reviews proposals from the [=Director=]
-	and how [=Advisory Committee representatives=] initiate an [=Advisory Committee Appeal=]
-	of a [=W3C decision=]
-	or [=Director=]'s decision.
-	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
-	where the [=Director=] decides,
-	after exercising the role of assessing consensus of the W3C Community after an [=Advisory Committee review=].
+<h3 id=pub-com>
+Public Communication</h3>
 
-<h3 id="ACReview">
-Advisory Committee Reviews</h3>
+	The [=Team=] is responsible for managing communication within W3C
+	and with the general public
+	(e.g., news services, press releases, managing the Web site and access privileges, and managing calendars).
+	Members <em class="rfc2119">should</em> solicit review by the Team
+	prior to issuing press releases about their work within W3C.
 
-	The Advisory Committee reviews:
+	The [=Team=] makes every effort to ensure the persistence and availability of the following public information:
 
 	<ul>
 		<li>
-			<a href="#CharterReview">new and modified Working and Interest Groups</a>,
+			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
+			Per the Membership Agreement,
+			W3C technical reports (and software) are available free of charge to the general public;
+			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
 
 		<li>
-			[=Proposed Recommendations=],
-			<a href="#proposed-rescinded-rec">Proposals to Obsolete, Rescind, Supersede, or Restore Recommendations</a>,
-			and
+			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
+			that explains the purpose and mission of W3C,
+			the key benefits for Members,
+			and the organizational structure of W3C.
 
 		<li>
-			<a href="#GAProcess">Proposed changes to the W3C process</a>.
+			Legal documents,
+			including the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]]
+			and documentation of any legal commitments W3C has with other entities.
+
+		<li>
+			The Process Document.
+
+		<li>
+			Public results of W3C activities and <a href="#GAEvents">Workshops</a>.
 	</ul>
 
-<h4 id="ACReviewStart">
-Start of a Review Period</h4>
+	To keep the Members abreast of W3C meetings,
+	[=Workshops=],
+	and review deadlines,
+	the Team provides them with a regular (e.g., weekly) news service
+	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]
+	of official W3C events.
+	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
-	Each <dfn export lt="Advisory Committee review | AC Review"> Advisory Committee review</dfn> period
-	begins with a Call for Review from the [=Team=] to the [=Advisory Committee=].
-	The <dfn id="reviewform">Call for Review</dfn> describes the proposal,
-	raises attention to deadlines,
-	estimates when the decision will be available,
-	and includes other practical information.
-	Each Member organization <em class="rfc2119">may</em> send one review,
-	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
+<h3 id="confidentiality-levels">
+Confidentiality Levels</h3>
 
-	The Team <em class="rfc2119">must</em> provide two channels for Advisory Committee review comments:
+	There are three principal levels of access to W3C information
+	(on the W3C Web site, in W3C meetings, etc.):
+	public,
+	Member-only,
+	and Team-only.
+
+	While much information made available by W3C is public,
+	“<dfn export id="Member-only" lt="Member-Only">Member-only</dfn>” information
+	is available to authorized parties only,
+	including representatives of Member organizations,
+	<a href="#invited-expert-wg">Invited Experts</a>,
+	the Advisory Board,
+	the TAG,
+	and the Team.
+	For example,
+	the <a href="#WGCharter">charter</a> of some Working Groups
+	<em class="rfc2119">may</em> specify a [=Member-only=] confidentiality level for group proceedings.
+
+	“<dfn export id="Team-only" lt="Team-Only">Team-only</dfn>” information
+	is available to the Team and other authorized parties.
+
+	Those authorized to access [=Member-only=] and [=Team-only=] information:
+
+	<ul>
+		<li>
+			<em class="rfc2119">must</em> treat the information as confidential within W3C,
+
+		<li>
+			<em class="rfc2119">must</em> use reasonable efforts to maintain the proper level of confidentiality, and
+
+		<li>
+			<em class="rfc2119">must not</em> release this information to the general public or press.
+	</ul>
+
+	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
+	to protect the confidentiality of [=Member-only=] information
+	and ensure that authorized parties have proper access to this information.
+	Documents <em class="rfc2119">should</em> clearly indicate
+	whether they require [=Member-only=] confidentiality.
+	Individuals uncertain of the confidentiality level of a piece of information
+	<em class="rfc2119">should</em> contact the Team.
+
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> authorize
+	[=Member-only=] access to <a href="#member-rep">Member representatives</a>
+	and other individuals employed by the Member
+	who are considered appropriate recipients.
+	For instance,
+	it is the responsibility of the [=Advisory Committee representative=]
+	and other employees
+	and official representatives of the organization
+	to ensure that Member-only news announcements
+	are distributed for internal use only within their organization.
+	Information about Member mailing lists is available
+	in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
+
+<h3 id="confidentiality-change">
+Changing Confidentiality Level</h3>
+
+	As a benefit of membership,
+	W3C provides some [=Team-only=] and [=Member-only=] channels
+	for certain types of communication.
+	For example, [=Advisory Committee representatives=]
+	can send <a href="#ACReview">reviews</a> to a [=Team-only=] channel.
+	However, for W3C processes with a significant public component,
+	such as the technical report development process,
+	it is also important for information that affects decision-making to be publicly available.
+	The Team <em class="rfc2119">may</em> need to communicate [=Team-only=] information to a Working Group or the public.
+	Similarly, a Working Group whose proceedings are [=Member-only=]
+	<em class="rfc2119">must</em> make public
+	information pertinent to the technical report development process.
+
+	This document clearly indicates which information <em class="rfc2119">must</em> be available to Members or the public,
+	even though that information was initially communicated on [=Team-only=] or [=Member-only=] channels.
+	Only the [=Team=] and parties authorized by the Team
+	may change the level of confidentiality of this information.
+	When doing so:
 
 	<ol>
 		<li>
-			an archived [=Team-only=] channel;
+			The [=Team=] <em class="rfc2119">must</em> use a version of the information
+			that was expressly provided by the author for the new confidentiality level.
+			In Calls for Review and other similar messages,
+			the Team <em class="rfc2119">should</em> remind recipients to provide such alternatives.
 
 		<li>
-			an archived [=Member-only=] channel.
+			The [=Team=] <em class="rfc2119">must not</em> attribute the version
+			for the new confidentiality level to the author without the author's consent.
+
+		<li>
+			If the author has not conveyed to the [=Team=] a version
+			that is suitable for another confidentiality level,
+			the Team <em class="rfc2119">may</em> make available a version that reasonably communicates what is required,
+			while respecting the original level of confidentiality,
+			and without attribution to the original author.
 	</ol>
-
-	The [=Call for Review=] <em class="rfc2119">must</em> specify
-	which channel is the default for review comments on that Call.
-
-	Reviewers <em class="rfc2119">may</em> send information
-	to either or both channels.
-	A reviewer <em class="rfc2119">may</em> also share their own reviews
-	with other Members on the <a href="#ACCommunication">Advisory Committee discussion list</a>,
-	and <em class=rfc2119>may</em> also make it available to the public.
-
-	A Member organization <em class="rfc2119">may</em> modify its review
-	during a review period
-	(e.g., in light of comments from other Members).
-
-<h4 id="ACReviewAfter">
-After the Review Period</h4>
-
-	After the review period,
-	the [=Director=] <em class="rfc2119">must</em> announce
-	to the [=Advisory Committee=]
-	the level of support for the proposal
-	([=consensus=] or [=dissent=]).
-	The [=Director=] <em class="rfc2119">must</em> also indicate
-	whether there were any [=Formal Objections=],
-	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
-	This [=W3C decision=] is generally one of the following:
-
-	<ol>
-		<li>
-			The proposal is approved,
-			possibly with [=editorial changes=] integrated.
-
-		<li>
-			The proposal is approved,
-			possibly with [=substantive changes=] integrated.
-			In this case the announcement <em class="rfc2119">must</em> include rationale
-			for the decision to advance the document despite the proposal for a substantive change.
-
-		<li>The proposal is returned for additional work,
-			with a request to the initiator to [=formally address=] certain issues.
-
-		<li>
-			The proposal is rejected.
-	</ol>
-
-	This document does not specify
-	time intervals between the end of an [=Advisory Committee review=] period
-	and the [=W3C decision=].
-	This is to ensure that the Members and [=Team=]
-	have sufficient time to consider comments
-	gathered during the review.
-	The [=Advisory Committee=] <em class="rfc2119">should not</em> expect an announcement
-	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
-	If, after <span class="time-interval">three weeks</span>, the outcome has not been announced,
-	the [=Director=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
-
-<h3 id="ACAppeal">
-Appeal by Advisory Committee Representatives</h3>
-
-	[=Advisory Committee representatives=] <em class="rfc2119">may</em> appeal certain decisions,
-	though appeals are only expected to occur in extraordinary circumstances.
-
-	When a [=W3C decision=] is made following an [=Advisory Committee review=],
-	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
-	an <dfn export lt="Advisory Committee Appeal|AC Appeal| Appeal">Advisory Committee Appeal</dfn>.
-	These [=W3C decisions=] include those related to group creation and modification,
-	and transitions to new maturity levels for Recommendation Track documents
-	and the Process document.
-
-	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
-	for certain [=Director=]'s decisions that do not involve an [=Advisory Committee review=].
-	These cases are identified in the sections
-	which describe the requirements for the [=Director=]'s decision
-	and include
-	additional (non-reviewed) maturity levels of Recommendation Track documents,
-	group [=charter extensions=] and closures,
-	and [=Memoranda of Understanding=].
-
-	In all cases,
-	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
-
-	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=].
-	The request should say “I appeal this Director's Decision”
-	and identify the decision.
-	Within one week the [=Team=] <em class="rfc2119">must</em> announce the appeal process
-	to the [=Advisory Committee=]
-	and provide a mechanism for [=Advisory Committee representatives=]
-	to respond with a statement of positive support for this appeal.
-	The archive of these statements <em class="rfc2119">must</em> be [=member-only=].
-	If, within <span class="time-interval">one week</span> of the Team's announcement,
-	5% or more of the [=Advisory Committee=] support the appeal request,
-	the Team <em class="rfc2119">must</em> organize an appeal vote
-	asking the [=Advisory Committee=]
-	“Do you approve of the Director's Decision?”
-	together with links to the [=Director=]'s decision and the appeal support.
-
-	The ballot <em class="rfc2119">must</em> allow for three possible responses:
-	“Approve”,
-	“Reject”,
-	and “Abstain”,
-	together with Comments.
-
-	If the number of votes to reject
-	exceeds the number of votes to approve,
-	the decision is overturned.
-	In that case, there are the following possible next steps:
-
-	<ol>
-		<li>
-			The proposal is rejected.
-
-		<li>
-			The proposal is returned for additional work,
-			after which the applicable decision process is re-initiated.
-	</ol>
-
-<h3 id="ACVotes">
-Advisory Committee Votes</h3>
-
-	The [=Advisory Committee=] votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
-	and in the event of an [=Advisory Committee Appeal=]
-	achieving the required support to trigger an appeal vote.
-	Whenever the [=Advisory Committee=] votes,
-	each Member or group of [=related Members=] has one vote.
 
 <h2 id="GAEvents">
 Workshops and Symposia</h2>
