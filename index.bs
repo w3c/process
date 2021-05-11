@@ -1020,9 +1020,11 @@ Expectations and Discipline</h4>
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=])
 	if serious and/or repeated violations,
-	such as failure to meet the requirements of this process
-	(where repeated attempts to address these violations have not resolved the situation)
-	or violation of the membership agreement or applicable laws,
+	such as failure to meet the requirements on individual behavior of
+	(a) this process
+	and in particular the CEPC, or
+	(b) the membership agreement, or
+	(c) applicable laws,
 	occur.
 	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
 
