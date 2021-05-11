@@ -225,47 +225,25 @@ Members and the Team</h2>
 <h3 id="Members">
 Members</h3>
 
-	W3C Members are primarily represented in W3C processes as follows:
+	<dfn lt="W3C Member|Member">W3C Members</dfn> are
+	organizations subscribed according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
+	They are represented in W3C processes as follows:
 
 	<ol>
 		<li>
-			The <dfn export lt="Advisory Committee|AC">Advisory Committee</dfn>
-			is composed of one <dfn export lt="Advisory Committee representative| AC representative">representative</dfn>
-			from each Member organization
-			(refer to the [=Member-only=] list
-			of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
-			The Advisory Committee:
-
-			<ul>
-				<li>
-					reviews plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>;
-
-				<li>
-					reviews formal proposals from the W3C:
-					<a href="#CharterReview">Charter Proposals</a>,
-					<a href="#RecsPR">Proposed Recommendations</a>,
-					and <a href="#GAProcess">Proposed Process Documents</a>.
-
-				<li>
-					elects the <a href="#AB">Advisory Board</a> participants other than the Advisory Board Chair.
-
-				<li>
-					elects a majority (6) of the participants on the <a href="#TAG">Technical Architecture Group</a>.
-			</ul>
-
-			[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
-			an <a href="#ACAppeal">Advisory Committee Appeal</a> in some cases described in this document.
+			One representative per Member organization particiaptes
+			in the [=Advisory Committee=]
+			which oversees the work of the W3C.
 
 		<li>
-			  Representatives of Member organizations participate
-			  in <a href="#GAGeneral">Working Groups and Interest Groups</a> and
-			  author and review <a href="#Reports">technical reports</a>.
+			Representatives of Member organizations participate
+			in <a href="#GAGeneral">Working Groups and Interest Groups</a>,
+			where they author and review <a href="#Reports">technical reports</a>.
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
 	as described in “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]];
 	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List">current W3C Members</a> [[MEMBER-LIST]]).
-	Organizations subscribe according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
 	The <a href="#Team">Team</a> <em class="rfc2119">must</em> ensure
 	that Member participation agreements remain <a href="#Team-only">Team-only</a>
 	and that no Member receives preferential treatment within W3C.
@@ -734,16 +712,47 @@ Resignation from a Group</h4>
 <h3 id="AC">
 The Advisory Committee (AC)</h3>
 
+<h4 id=ac-role>
+Role of the Advisory Committee</h4>
+
 	<p id=ReviewAppeal>
-	The [=Advisory Committee=] <a href="ACReview">reviews proposals</a> from the [=Director=]
-	and [=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
+	The <dfn export lt="Advisory Committee|AC">Advisory Committee</dfn> represents
+	the [=Members=] of the W3C at large.
+	It is responsible for:
+
+	<ul>
+		<li>
+			reviewing plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>.
+
+		<li>
+			<a href="ACReview">reviewing formal proposals</a> of the W3C:
+			<a href="#CharterReview">Charter Proposals</a>,
+			<a href="#RecsPR">Proposed Recommendations</a>,
+			and <a href="#GAProcess">Proposed Process Documents</a>.
+
+		<li>
+			electing the <a href="#AB">Advisory Board</a> participants other than the Advisory Board Chair.
+
+		<li>
+			electing a majority (6) of the participants on the <a href="#TAG">Technical Architecture Group</a>.
+	</ul>
+
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
+	an <a href="#ACAppeal">Advisory Committee Appeal</a>
 	of a [=W3C decision=]
 	or [=Director=]'s decision.
+
 	See also the additional roles of [=Advisory Committee representatives=]
 	described in the W3C Patent Policy [[PATENT-POLICY]].
 
 <h4 id=ac-participation>
 Participation in the Advisory Committee</h4>
+
+	The [=Advisory Committee=]
+	is composed of one <dfn export lt="Advisory Committee representative| AC representative">representative</dfn>
+	from each Member organization
+	(refer to the [=Member-only=] list
+	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	When an organization joins W3C
 	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
