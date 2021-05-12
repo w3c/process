@@ -2052,7 +2052,8 @@ Working Group and Interest Group Charter Development</h4>
 	This is intended to raise awareness,
 	even if no formal proposal is yet available.
 	Advisory Committee representatives <em class="rfc2119">may</em> provide
-	feedback on the <a href="#ACCommunication">Advisory Committee discussion list</a>.
+	feedback on the <a href="#ACCommunication">Advisory Committee discussion list</a>
+	or via other designated channels.
 
 	W3C <em class="rfc2119">may</em> begin work
 	on a Working Group or Interest Group charter
@@ -4425,8 +4426,9 @@ Start of a Review Period</h4>
 
 	Reviewers <em class="rfc2119">may</em> send information
 	to either or both channels.
-	They <em class="rfc2119">may</em> also share their reviews
-	with other Members on the <a href="#ACCommunication">Advisory Committee discussion list</a>.
+	A reviewer <em class="rfc2119">may</em> also share their own reviews
+	with other Members on the <a href="#ACCommunication">Advisory Committee discussion list</a>,
+	and <em class=rfc2119>may</em> also make it available to the public.
 
 	A Member organization <em class="rfc2119">may</em> modify its review
 	during a review period
