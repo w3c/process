@@ -2259,7 +2259,7 @@ Working Group and Interest Group Charters</h4>
 		<li>
 			The stable URL of the Working Group charter
 			under which the Exclusion Draft was published
-			(labeled the “<dfn export id="other-charter">Other Charter</dfn>”).
+			(labeled the “<dfn export id=exclusion-draft-charter oldids="other-charter">Exclusion Draft Charter</dfn>”).
 	</ul>
 
 	All of the above data <em class=rfc2119>must</em> be identified
