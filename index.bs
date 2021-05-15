@@ -4548,8 +4548,6 @@ Advisory Committee Votes</h3>
 	achieving the required support to trigger an appeal vote.
 	Whenever the [=Advisory Committee=] votes,
 	each Member or group of [=related Members=] has one vote.
-	In the case of <a href="#AB-TAG-elections">Advisory Board and TAG elections</a>,
-	“one vote” means “one vote per available seat”.
 
 <h2 id="GAEvents">
 Workshops and Symposia</h2>
