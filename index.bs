@@ -418,8 +418,10 @@ Advisory Committee (AC)</h4>
 	by disclosing information according to the mechanisms described in the New Member Orientation.
 	See also the additional roles of [=Advisory Committee representatives=]
 	described in the W3C Patent Policy [[PATENT-POLICY]].
-	
-	The AC representative may delegate any of their rights and responsibilities to an alternate (except the ability to designate an alternate).
+
+	The AC representative may delegate any of their rights and responsibilities
+	to an <dfn export lt="alternate AC representative | alternate Advisory Committee representative | alt AC rep">alternate</dfn>
+	(except the ability to designate an alternate).
 
 	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
 
