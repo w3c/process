@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 5c7bc9381, updated Wed May 12 18:18:08 2021 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="6399622afa05b0c5a73675c21a9f4f2b7aa302bd" name="document-revision">
+  <meta content="c2748184209785a54864659729daebd5f1c6f00d" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -980,7 +980,7 @@ dfn > a.self-link::before      { content: "#"; }
 	and more. <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②">Advisory Committee representatives</a> <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a> by disclosing information according to the mechanisms described in the New Member Orientation.
 	See also the additional roles of <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③">Advisory Committee representatives</a> described in the W3C Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy">[PATENT-POLICY]</a>.</p>
    <p>The AC representative may delegate any of their rights and responsibilities
-	to an <dfn data-dfn-type="dfn" data-export data-lt="alternate AC representative | alternate Advisory Committee representative | alt AC rep" id="alternate-ac-representative">alternate<a class="self-link" href="#alternate-ac-representative"></a></dfn> (except the ability to designate an alternate).</p>
+	to an <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="alternate AC representative | alternate Advisory Committee representative | alt AC rep" id="alternate-ac-representative">alternate</dfn> (except the ability to designate an alternate).</p>
    <p>Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> <a data-link-type="biblio" href="#biblio-member-hp">[MEMBER-HP]</a>.</p>
    <h5 class="heading settled" data-level="2.1.3.1" id="ACCommunication"><span class="secno">2.1.3.1. </span><span class="content"> Advisory Committee Mailing Lists</span><a class="self-link" href="#ACCommunication"></a></h5>
    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①">Team</a> <em class="rfc2119">must</em> provide two mailing lists for use by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee">Advisory Committee</a>:</p>
@@ -2232,7 +2232,7 @@ dfn > a.self-link::before      { content: "#"; }
 			(labeled “<dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="exclusion-draft">Exclusion Draft</dfn>”); and 
     <li> The stable URL of the Working Group charter
 			under which the Exclusion Draft was published
-			(labeled the “<dfn data-dfn-type="dfn" data-export id="exclusion-draft-charter">Exclusion Draft Charter<span id="other-charter"></span><a class="self-link" href="#exclusion-draft-charter"></a></dfn>”). 
+			(labeled the “<dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="exclusion-draft-charter">Exclusion Draft Charter<span id="other-charter"></span></dfn>”). 
    </ul>
    <p>All of the above data <em class="rfc2119">must</em> be identified
 	in the adopting Working Group’s charter using the labels indicated.</p>
@@ -4442,18 +4442,17 @@ dfn > a.self-link::before      { content: "#"; }
     <dt>Governance and Operations 
     <dd>
      <ul>
-      <li> Defined requirements for <a href="#meeting-recording">recording of meetings</a>. 
+      <li> Allowed AC representatives to designate an <a data-link-type="dfn" href="#alternate-ac-representative" id="ref-for-alternate-ac-representative">alternate</a>. 
+      <li> Defined requirements for recording of <a href="#meeting-recording">meetings</a>, <a data-link-type="dfn" href="#minutes" id="ref-for-minutes④">minutes</a>, and <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑦">resolutions</a>. 
       <li> Defined expectations about <a href="#tooling">tooling</a> that may be used for publication
 					as well as for collaboration
 					in order to ensure long-lived access to publications,
 					and to enable effective and equitable participation by anyone. 
-      <li> Defined <a data-link-type="dfn" href="#minutes" id="ref-for-minutes④">minutes</a>,
-					partly to distinguish them from other recordings,
-					partly because other sections (including [[#tooling|tooling])
-					have requirements about them. 
       <li> Changed <a href="#ABParticipation">how the AB selects its chair</a>,
-					and make sure the CEO is invited to AB meetings
+					and made sure the CEO is invited to AB meetings
 					even if they are not the chair. 
+      <li> Acknowledged existence of public channels for charter comments
+					in <a href="#WGCharterDevelopment">§ 5.2.2 Working Group and Interest Group Charter Development</a> and <a href="#CharterReview">§ 5.2.3 Advisory Committee Review of a Working Group or Interest Group Charter</a>. 
      </ul>
     <dt>Miscellaneous editorial tweaks, clarifications, and simplifications 
     <dd>
@@ -4465,7 +4464,9 @@ dfn > a.self-link::before      { content: "#"; }
       <li> The various parts of the document that talked about discipline
 					have been consolidated into a <a href="#discipline">single section</a>. 
       <li> References to “short terms” and “incomplete terms” have been unified to “incomplete terms”. 
-      <li> Mentions of the Director which had no material effects on the Process have been removed 
+      <li> Mentions of the Director which had no material effects on the Process have been removed. 
+      <li> Replaced the vague “Other Charter” term with “<a data-link-type="dfn" href="#exclusion-draft-charter" id="ref-for-exclusion-draft-charter">Exclusion Draft Charter</a>”. 
+      <li> Remove stray sentence about the old voting system. 
      </ul>
    </dl>
    <h3 class="no-num heading settled" id="changes-previous"><span class="content"> Changes since earlier versions</span><span id="changes-2019"></span><span id="changes-2018"></span><span id="changes-2017"></span><a class="self-link" href="#changes-previous"></a></h3>
@@ -4845,6 +4846,12 @@ Advisory Committee Votes</a>
    <ul>
     <li><a href="#ref-for-subsidiary">2.1.2.2. 
 Related Members</a> <a href="#ref-for-subsidiary①">(2)</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="alternate-ac-representative">
+   <b><a href="#alternate-ac-representative">#alternate-ac-representative</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-alternate-ac-representative"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="team">
@@ -5247,6 +5254,7 @@ Revising W3C Statements</a>
 Registry Data Reports</a>
     <li><a href="#ref-for-group-decision⑥">6.5. 
 Switching Tracks</a>
+    <li><a href="#ref-for-group-decision⑦"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="wg-decision-appeal">
@@ -5552,6 +5560,12 @@ Working Group and Interest Group Charters</a>
    <ul>
     <li><a href="#ref-for-exclusion-draft">5.2.6. 
 Working Group and Interest Group Charters</a> <a href="#ref-for-exclusion-draft①">(2)</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="exclusion-draft-charter">
+   <b><a href="#exclusion-draft-charter">#exclusion-draft-charter</a></b><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-exclusion-draft-charter"> Changes since the 15 September 2020 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="publishing">
