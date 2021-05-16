@@ -5238,7 +5238,10 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 		<dd>
 			<ul>
 				<li>
-					Defined requirements for [[#meeting-recording|recording of meetings]].
+					Allowed AC representatives to designate an [=alt AC rep|alternate=].
+
+				<li>
+					Defined requirements for recording of [[#meeting-recording|meetings]], [=minutes=], and [=resolutions=].
 
 				<li>
 					Defined expectations about [[#tooling|tooling]] that may be used for publication
@@ -5247,15 +5250,13 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					and to enable effective and equitable participation by anyone.
 
 				<li>
-					Defined [=minutes=],
-					partly to distinguish them from other recordings,
-					partly because other sections (including [[#tooling|tooling])
-					have requirements about them.
+					Changed [[#ABParticipation|how the AB selects its chair]],
+					and made sure the CEO is invited to AB meetings
+					even if they are not the chair.
 
 				<li>
-					Changed [[#ABParticipation|how the AB selects its chair]],
-					and make sure the CEO is invited to AB meetings
-					even if they are not the chair.
+					Acknowledged existence of public channels for charter comments
+					in [[#WGCharterDevelopment]] and [[#CharterReview]].
 			</ul>
 
 		<dt>Miscellaneous editorial tweaks, clarifications, and simplifications
@@ -5274,7 +5275,13 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					References to “short terms” and “incomplete terms” have been unified to “incomplete terms”.
 
 				<li>
-					Mentions of the Director which had no material effects on the Process have been removed
+					Mentions of the Director which had no material effects on the Process have been removed.
+
+				<li>
+					Replaced the vague “Other Charter” term with “[=Exclusion Draft Charter=]”.
+
+				<li>
+					Remove stray sentence about the old voting system.
 			</ul>
 	</dl>
 
