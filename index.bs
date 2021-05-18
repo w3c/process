@@ -3959,6 +3959,12 @@ Group Notes</h4>
 	and they have no standing as a recommendation of W3C
 	but are simply documents preserved for historical reference.
 
+	Note: The W3C Patent Policy [[PATENT-POLICY]]
+	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
+
+<h4 id="publishing-notes">
+Publishing Notes</h4>
+
 	In order to publish a [=Note=] or [=Draft Note=],
 	the group:
 
@@ -3977,9 +3983,6 @@ Group Notes</h4>
 	as a [=Note=] or [=Draft Note=].
 	A [=technical report=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
-
-	Note: The W3C Patent Policy [[PATENT-POLICY]]
-	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
 
 <h4 id=memo>
 Elevating Group Notes to W3C Statement status</h4>
