@@ -2539,12 +2539,12 @@ Classes of Changes</h4>
 	and the last one <dfn lt="registry change">registry changes</dfn>.
 
 	<dl>
-		<dt>
+		<dt id=class-1>
 			1. No changes to text content
 		<dd>
 			These changes include fixing broken links, style sheets or invalid markup.
 
-		<dt>
+		<dt id=class-2>
 			2. Corrections that do not affect conformance
 		<dd>
 			Changes that reasonable implementers
@@ -2565,7 +2565,7 @@ Classes of Changes</h4>
 			as to whether requirements are changed,
 			such changes do not fall into this class.
 
-		<dt>
+		<dt id=class-3>
 			3. Corrections that do not add new features
 		<dd>
 			These changes <em class="rfc2119">may</em> affect conformance to the specification.
@@ -2587,12 +2587,12 @@ Classes of Changes</h4>
 					becomes clearly either conforming or non-conforming.
 			</ul>
 
-		<dt>
+		<dt id=class-4>
 			4. New features
 		<dd>
 			Changes that add a new functionality, element, etc.
 
-		<dt>
+		<dt id=class-5>
 			5. Changes to the contents of a [=registry table=]
 		<dd>
 			Changes that add, remove, or alter [=registry entries=] in a [=registry table=].
