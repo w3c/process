@@ -149,87 +149,70 @@ Conformance and specialized terms</h2>
 <h2 id="Intro">
 Introduction</h2>
 
-	Most W3C work revolves around the standardization of Web technologies.
+	W3C work revolves around the standardization of Web technologies.
 	To accomplish this work, W3C follows processes that promote the development of high-quality standards
 	based on the <a href="#Consensus">consensus</a> of the Membership, Team, and public.
 	W3C processes promote fairness, responsiveness, and progress:
 	all facets of the W3C mission.
 	This document describes the processes W3C follows in pursuit of its mission.
 
-	Here is a general overview of how W3C standardizes a Web technology.
-	In many cases, the goal of this work is a [=W3C Recommendation=]--
-	a Web standard.
+	The W3C Process promotes the goals of quality and fairness in technical decisions
+	by encouraging <a href="#Consensus">consensus</a>,
+	soliciting reviews (by both Members and public),
+	incorporating implementation and interoperability experience,
+	and requiring Membership-wide approval as part of the <a href="#Reports">technical report development process</a>.
+	[[#group-participation|Participants]] in W3C include
+	<a href="#member-rep">representatives of its Members</a> and the [=Team=],
+	as well as <a href="#invited-expert-wg">Invited Experts</a>
+	who can bring additional expertise or represent additional stakeholders.
+	[=Team=] representatives both contribute to the technical work
+	and help ensure the group's proper integration with the rest of W3C.
+
+	W3C’s technical standards, called [=W3C Recommendations=],
+	are developed by its [=Working Groups=];
+	W3C also has other types of publications,
+	all described in [[#Reports]].
+	W3C has various types of groups;
+	this document describes the formation and policies
+	of its chartered [=Working Groups=] and [=Interest Groups=],
+	see [[#Policies]] and [[#GAGeneral]].
+	W3C also operates Community and Business Groups,
+	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
+
+	In addition, several groups are formally established by the Consortium:
+	the <a href="#AC">W3C Advisory Committee</a>, which has a representative from each Member,
+	and two oversight groups elected by its membership:
+	the <a href="#AB">Advisory Board (AB)</a>,
+	which helps resolve Consortium-wide non-technical issues and manages the <a href="#GAProcess">evolution of the W3C process</a>;
+	and the <a href="#TAG">Technical Architecture Group (TAG)</a>,
+	which helps resolve Consortium-wide technical issues.
+
+	Here is a general overview of how W3C initiates standardization of a Web technology:
 
 	<ol>
 		<li>
 			People generate interest in a particular topic.
-			For instance, Members express interest in the form of <a href="#Submission">Member Submissions</a>,
-			and the <a href="#Team">Team</a> monitors work inside and outside of W3C for signs of interest.
-			Also, W3C is likely to organize a <a href="#GAEvents">Workshop</a> to bring people together
+			For instance, Members express interest by developing proposals in Community Groups
+			or proposing ideas in <a href="#Submission">Member Submissions</a>.
+			Also, the <a href="#Team">Team</a> monitors work inside and outside of W3C for signs of interest,
+			and helps organize <a href="#GAEvents">Workshops</a> to bring people together
 			to discuss topics that interest the W3C community.
 
 		<li>
-			When there is enough interest in a topic
-			(e.g., after a successful Workshop and/or discussion on an <a href="#ACCommunication">Advisory Committee mailing list</a>),
-			the [=Team=] announces the development of a proposal
-			for one or more new <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>,
-			depending on the breadth of the topic of interest.
-			W3C Members <a href="#CharterReview">review</a> the proposed charters.
-			When there is support within W3C for investing resources in the topic of interest,
-			the Director approves the group(s) and they begin their work.
-
-		<li>
-			There are three types of Working Group participants:
-			<a href="#member-rep">Member representatives</a>,
-			<a href="#invited-expert-wg">Invited Experts</a>,
-			and <a href="#Team">Team representatives</a>.
-			Team representatives both contribute to the technical work
-			and help ensure the group's proper integration with the rest of W3C.
-			The <a href="#WGCharter">Working Group charter</a> sets expectations about each group's deliverables
-			(e.g., <a href="#Reports">technical reports</a>, test suites, and tutorials).
-
-		<li>
-			Working Groups generally create specifications and guidelines
-			that undergo cycles of revision and review
-			as they <a href="#rec-advance">advance to W3C Recommendation</a> status.
-			The W3C process for producing these technical reports
-			includes significant review by the Members and public,
-			and requirements that the Working Group be able to show implementation and interoperability experience.
-			At the end of the process,
-			the Advisory Committee reviews the mature technical report,
-			and if there is support,
-			W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
+			When there is enough interest and an engaged community,
+			the [=Team=] works with the Membership
+			to draft proposed <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>.
+			W3C Members <a href="#CharterReview">review</a> the proposed charters,
+			and when there is support within W3C for investing resources in the topic of interest,
+			the W3C approves the group(s),
+			and they begin their work.
 	</ol>
 
-	The Process Document promotes the goals of quality and fairness in technical decisions
-	by encouraging <a href="#Consensus">consensus</a>,
-	requiring reviews (by both Members and public) as part of the <a href="#Reports">technical report development process</a>,
-	and through an <a href="#ACAppeal">Advisory Committee Appeal process</a>.
+	Further sections of this Process Document deal with topics including
+	liaisons ([[#Liaisons]]),
+	confidentiality ([[#dissemination]]),
+	and formal decisions and appeals ([[#ReviewAppeal]]).
 
-	The other sections of the Process Document:
-
-	<ol>
-		<li>
-			set forth <a href="#Policies">policies</a> for participation in W3C groups,
-
-		<li>
-			establish two permanent groups within W3C:
-			the <a href="#TAG">Technical Architecture Group (TAG)</a>,
-			to help resolve Consortium-wide technical issues;
-			and the <a href="#AB">Advisory Board (AB)</a>,
-			to help resolve Consortium-wide non-technical issues,
-			and to manage the <a href="#GAProcess">evolution of the W3C process</a>,
-			and
-
-		<li>
-			describe other interactions between the <a href="#Members">Members</a>
-			(as represented by the <a href="#AC">W3C Advisory Committee</a>),
-			the Team,
-			and the general public.
-	</ol>
-
-	W3C also operates Community and Business Groups,
-	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
 
 <h2 id="Organization">
 Members, Advisory Committee, Team, Advisory Board, Technical Architecture Group</h2>
@@ -1727,7 +1710,8 @@ Working Groups and Interest Groups</h2>
 			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
 			software,
 			test suites,
-			and reviews of the deliverables of other groups).
+			and reviews of the deliverables of other groups)
+			as defined in their <a href=#WGCharter>charter</a>.
 			There are additional participation requirements
 			described in the W3C Patent Policy [[!PATENT-POLICY]].
 
@@ -2025,6 +2009,8 @@ Team Representative in a Working Group</h5>
 
 	An individual is a <dfn export>Team representative in a Working Group</dfn>
 	when so designated by W3C management.
+	Team representatives both contribute to the technical work
+	and help ensure the group's proper integration with the rest of W3C.
 
 	A Team representative participates in a Working Group
 	from the moment the individual joins the group
@@ -2697,22 +2683,19 @@ License Grants from Non-Participants</h4>
 <h3 id=rec-track oldids="recs-and-notes">
 The W3C Recommendation Track</h3>
 
-	When advancing a technical report to Recommendation,
-	typically a series of [=Working Drafts=] are [=published=],
-	each of which refines a document under development
+	[=Working Groups=] create specifications and guidelines
 	to complete the scope of work envisioned by a [=Working Group=]'s [=charter=].
-	For a technical specification,
-	once review suggests the Working Group has met their requirements satisfactorily for a new standard,
-	there is a [=Candidate Recommendation=] phase.
-	This allows the entire W3C membership to provide feedback
-	on the specification,
-	while the [=Working Group=] formally collects <a href="implementation-experience">implementation experience</a>
+	These [=technical reports=] undergo cycles of revision and review
+	as they advance towards [=W3C Recommendation=] status.
+	Once review suggests the Working Group has met their requirements for a new standard,
+	including [=wide review=],
+	a [=Candidate Recommendation=] phase
+	allows the [=Working Group=] to formally collect <a href="implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
-	The next phase is a [=Proposed Recommendation=],
-	to finalize the review of W3C Members.
-	If the Director determines that W3C Member review
-	supports a specification becoming a standard,
-	W3C publishes it as a [=Recommendation=].
+	At the end of the process,
+	the Advisory Committee reviews the mature technical report,
+	and if there is support from its Membership,
+	W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
 
 	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track">W3C Recommendation Track</dfn> consists of:
 
