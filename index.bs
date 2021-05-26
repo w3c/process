@@ -5229,6 +5229,9 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 				<li>
 					Defined how technical reports can switch tracks
 					(other than by copy &amp; paste).
+
+				<li>
+					Enabled the Team to do limited maintenance on orphaned Notes.
 			</ul>
 
 		<dt>Governance and Operations
