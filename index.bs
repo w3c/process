@@ -3967,6 +3967,10 @@ Publishing Notes</h4>
 	A [=technical report=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
 
+	If a [=Note=] produced by a [=chartered group=] is no longer in scope for any group,
+	the [=Team=] <em class=rfc2119>may</em> republish the [=Note=] with [[#correction-classes|class 1]] changes incorporated,
+	as well as with [=errata=] and [=Team corrections=] annotated.
+
 <h4 id=memo>
 Elevating Group Notes to W3C Statement status</h4>
 
