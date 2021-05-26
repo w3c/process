@@ -5259,6 +5259,12 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 				<li>
 					Acknowledged existence of public channels for charter comments
 					in [[#WGCharterDevelopment]] and [[#CharterReview]].
+
+				<li>
+					Integrated <a href="https://www.w3.org/2003/12/22-pp-faq#start">language from the Patent Policy FAQ</a>
+					allowing prior participants of a group that was just rechartered
+					and who have not yet formally rejoined
+					to continue to attend meetings held within a 45 day window.
 			</ul>
 
 		<dt>Miscellaneous editorial tweaks, clarifications, and simplifications
