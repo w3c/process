@@ -5189,7 +5189,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 	than the one we had ended up with through many years of gradual accretion of content.
 	This reorganization was merged by the Process CG as the last change in the cycle,
 	prior to final review by the broader community.
-	This resulting document is the preferred on to read and review in general.
+	This resulting document is the preferred one to read and review in general.
 
 	Unfortunately, moving significant amounts of text around
 	means that the full <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2020 to this latest version</a> is largely unusable.
