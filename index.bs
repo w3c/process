@@ -4302,17 +4302,21 @@ Registry Data Reports</h4>
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
 
-	All rules and statements about implementations of [=registry entries=]
-	<em rfc=2119>must</em> be contained in the specifications or other documents that reference the registry,
+	Registries document values,
+	they do not define any architectural or interoperability requirements
+	related to those values.
+	All architectural and interoperability requirements
+	pertaining to [=registry entries=]
+	<em rfc=2119>must</em> be contained in the specifications that reference the registry,
 	and are therefore subject to the processes
 	(including approval and intellectual property provisions)
 	applicable to those referencing specifications.
 
-	It <em class=rfc2119>must not</em> be possible that a change to the [=registry entries=]
-	affect the conformance of implementations to the Referencing document;
-	if there are entries that must be implemented,
+	If there are entries that must be implemented,
 	or any other such restrictions,
-	they <em rfc=2119>must</em> be documented in the document without reference to the registry.
+	they <em rfc=2119>must</em> be defined or documented
+	in the referencing specification
+	without dependency on the registry.
 
 	<div class=example>
 		For example,
