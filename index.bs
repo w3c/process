@@ -2103,6 +2103,9 @@ Call for Participation in a Working Group or Interest Group</h4>
 	any <a href="#member-rep">Member representatives</a>
 	and <a href="#invited-expert-wg">Invited Experts</a>
 	<em class="rfc2119">must</em> be designated (or re-designated).
+	Individuals participating in the [=Working Group=] or [=Interest Group=] before that Call for Participation 
+	may attend any meetings held within forty-five (45) days of the Call for Participation even if they have 
+	not yet formally rejoined the group (i.e., committed to the terms of the charter and patent policy).
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>
