@@ -5182,27 +5182,10 @@ Changes</h2>
 Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a></h3>
 
 	<p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
-	In addition to the substantive changes detailed below,
-	it includes a large editorial reorganization of the structure of the document.
-	It rearranges various parts of the existing text
-	in order to create a more easily understandable and navigable table of contents
-	than the one we had ended up with through many years of gradual accretion of content.
-	This reorganization was merged by the Process CG as the last change in the cycle,
-	prior to final review by the broader community.
-	This resulting document is the preferred one to read and review in general.
-
-	Unfortunately, moving significant amounts of text around
-	means that the full <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2020 to this latest version</a> is largely unusable.
-	The <a href="https://www.w3.org/Consortium/Process/Drafts/p2021-before-reorg/">last state of the Process 2021 Draft prior to the reorganization</a>,
-	as well as a <a href="https://services.w3.org/htmldiff?doc1=&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fp2021-before-reorg%2F">diff between Process 2020 and that state of the document</a>
-	are also available for readers who would prefer to review those separately from the reorganization.
-	People interested in the details of the reorganization itself
-	are invited to consult the <a href="https://github.com/w3c/w3process/pull/529">corresponding issue in GitHub</a>.
-
 	A <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20200915/">Disposition of Comments</a>,
 	as well as
 	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a>
-	are available.
+	are available. See <a href="#changes-2020-diffs">below for diffs</a>.
 
 	The following is a summary of the main differences besides the reorganization:
 
@@ -5338,9 +5321,32 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 				<li>
 					The introduction to the document,
 					which had been neglected for some time,
-					has been updated and reorganized to better fulfil its role as an introduction.
+					has been updated and reorganized to better fulfill its role as an introduction.
 			</ul>
+
+		<dt>Major editorial reorganization
+		<dd>
+			In addition to the individual changes detailed above,
+			this update includes a large editorial reorganization of the structure of the document.
+			It rearranges various parts of the existing text
+			in order to create a more easily understandable and navigable table of contents
+			than the one we had ended up with through many years of gradual accretion of content.
+
+			Anyone interested in the details of this reorganization
+			is invited to consult the <a href="https://github.com/w3c/w3process/pull/529">corresponding pull request in GitHub</a>,
+			which outlines the changes at a high level in addition to providing a source diff.
 	</dl>
+
+	<p id="changes-2020-diffs">
+	The editorial reorganization was merged by the Process CG as the last change in the cycle,
+	prior to final review by the broader community.
+	Although this resulting document is the preferred one to read and review in general,
+	moving significant amounts of text around
+	means that the full <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2020 to this latest version</a> is largely unusable.
+	Therefore the <a href="https://www.w3.org/Consortium/Process/Drafts/p2021-before-reorg/">last state of the Process 2021 Draft prior to the reorganization</a>,
+	as well as a <a href="https://services.w3.org/htmldiff?doc1=&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fp2021-before-reorg%2F">diff between Process 2020 and the pre-reorg state of the document</a>
+	are also available,
+	to enable detailed review of the changes aside from the reorganization.
 
 <h3 id=changes-previous class=no-num oldids="changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
