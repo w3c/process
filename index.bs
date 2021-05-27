@@ -5187,7 +5187,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a>
 	are available. See <a href="#changes-2020-diffs">below for diffs</a>.
 
-	The following is a summary of the main differences besides the reorganization:
+	The following is a summary of the main differences:
 
 	<dl>
 		<dt>[[#registries|Registries Track]]
