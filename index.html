@@ -10,7 +10,7 @@
   <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 800b43329, updated Tue May 25 14:13:32 2021 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="bba008833b3d82ad009c003508df8909ae226cd9" name="document-revision">
+  <meta content="30a5ff5e731e6594035c2a0c0cdf3746b3623cfa" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -480,7 +480,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Draft Community Group Report, <time class="dt-updated" datetime="2021-05-26">26 May 2021</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Draft Community Group Report, <time class="dt-updated" datetime="2021-05-27">27 May 2021</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -526,7 +526,7 @@ dfn > a.self-link::before      { content: "#"; }
 
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">Revising W3C Process Community Group</a> (which anyone can join).
-	This is the 26 May 2021 Draft Community Group Report for the proposed next version of the W3C Process Document. 
+	This is the 27 May 2021 Draft Community Group Report for the proposed next version of the W3C Process Document. 
    <p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.</p>
     This draft has been prepared for review by the W3C Advisory Board,
 	to approve or change before proposing it to the W3C Advisory Committee for preliminary review.
@@ -4425,26 +4425,12 @@ dfn > a.self-link::before      { content: "#"; }
    <p><em>This section is non-normative.</em></p>
    <h3 class="no-num heading settled" id="changes-2020"><span class="content"> Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a></span><a class="self-link" href="#changes-2020"></a></h3>
    <p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
-	In addition to the substantive changes detailed below,
-	it includes a large editorial reorganization of the structure of the document.
-	It rearranges various parts of the existing text
-	in order to create a more easily understandable and navigable table of contents
-	than the one we had ended up with through many years of gradual accretion of content.
-	This reorganization was merged by the Process CG as the last change in the cycle,
-	prior to final review by the broader community.
-	This resulting document is the preferred one to read and review in general. </p>
-   <p>Unfortunately, moving significant amounts of text around
-	means that the full <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2020 to this latest version</a> is largely unusable.
-	The <a href="https://www.w3.org/Consortium/Process/Drafts/p2021-before-reorg/">last state of the Process 2021 Draft prior to the reorganization</a>,
-	as well as a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fp2021-before-reorg%2F">diff between Process 2020 and that state of the document</a> are also available for readers who would prefer to review those separately from the reorganization.
-	People interested in the details of the reorganization itself
-	are invited to consult the <a href="https://github.com/w3c/w3process/pull/529">corresponding issue in GitHub</a>.</p>
-   <p>A <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20200915/">Disposition of Comments</a>,
+	A <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20200915/">Disposition of Comments</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a> are available.</p>
+	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a> are available. See <a href="#changes-2020-diffs">below for diffs</a>. </p>
    <p>The following is a summary of the main differences besides the reorganization:</p>
    <dl>
-    <dt>Registries Track 
+    <dt><a href="#registries">Registries Track</a> 
     <dd> Introduced a new class of technical reports called <a href="#registries">registries</a>,
 			for documents that describe collections of values or other data
 			that have no normative implementation requirements,
@@ -4468,7 +4454,7 @@ dfn > a.self-link::before      { content: "#"; }
 					to the status section of unfinished technical reports
 					that get <a href="#abandon-draft">abandoned</a>. 
      </ul>
-    <dt>Note Track 
+    <dt><a href="#note-track">Note Track</a> 
     <dd>
       Disentangled the Note Track from the Recommendation Track,
 			and added a few capabilities: 
@@ -4481,7 +4467,7 @@ dfn > a.self-link::before      { content: "#"; }
 					and cannot be published by <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a>)
 					for that purpose. 
       <li> Allowed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑤">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②④">AB</a> to publish <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②②">Notes</a> (for the TAG, this was already an allowed practice,
-					against the letter of the Process). 
+					inconsistent with the letter of the Process). 
       <li> Created <a data-link-type="dfn" href="#statement" id="ref-for-statement①②">W3C Statements</a>,
 					which are <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②③">Notes</a> endorsed by the W3C as a whole,
 					through an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑨">AC Review</a>. 
@@ -4493,11 +4479,10 @@ dfn > a.self-link::before      { content: "#"; }
     <dd>
      <ul>
       <li> Allowed AC representatives to designate an <a data-link-type="dfn" href="#alternate-ac-representative" id="ref-for-alternate-ac-representative">alternate</a>. 
-      <li> Defined requirements for recording of <a href="#meeting-recording">meetings</a>, <a data-link-type="dfn" href="#minutes" id="ref-for-minutes④">minutes</a>, and <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑦">resolutions</a>. 
-      <li> Defined expectations about <a href="#tooling">tooling</a> that may be used for publication
-					as well as for collaboration
-					in order to ensure long-lived access to publications,
-					and to enable effective and equitable participation by anyone. 
+      <li> Defined requirements for <a href="#meeting-recording">recording of meetings</a>, <a data-link-type="dfn" href="#minutes" id="ref-for-minutes④">minutes</a>, and <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑦">resolutions</a>. 
+      <li> Defined <a href="#tooling">guidelines for any tooling</a> used for publication and collaboration
+					in order to ensure long-lived access to W3C publications,
+					and to enable access and effective participation by anyone. 
       <li> Changed <a href="#ABParticipation">how the AB selects its chair</a>,
 					and made sure the CEO is invited to AB meetings
 					even if they are not the chair. 
@@ -4505,7 +4490,8 @@ dfn > a.self-link::before      { content: "#"; }
 					in <a href="#WGCharterDevelopment">§ 4.1 Initiating Charter Development</a> and <a href="#CharterReview">§ 4.3 Advisory Committee Review of a Charter</a>. 
       <li> Integrated <a href="https://www.w3.org/2003/12/22-pp-faq#start">language from the Patent Policy FAQ</a> allowing prior participants of a group that was just rechartered
 					and who have not yet formally rejoined
-					to continue to attend meetings held within a 45 day window. 
+					to continue to attend meetings held within a 45-day window
+					of the <a href="#cfp">call for participation</a>. 
      </ul>
     <dt>Miscellaneous editorial tweaks, clarifications, and simplifications 
     <dd>
@@ -4515,16 +4501,36 @@ dfn > a.self-link::before      { content: "#"; }
 			Notably: 
      <ul>
       <li> The various parts of the document that talked about discipline
-					have been consolidated into a <a href="#discipline">single section</a>. 
-      <li> References to “short terms” and “incomplete terms” have been unified to “incomplete terms”. 
+					have been consolidated into a single section, <a href="#discipline">§ 3.1.1.1 Expectations and Discipline</a>. 
+      <li> References to “short terms” and “incomplete terms”
+					for serving on elected bodies
+					have been unified to “incomplete terms”. 
       <li> Mentions of the Director which had no material effects on the Process have been removed. 
       <li> Replaced the vague “Other Charter” term with “<a data-link-type="dfn" href="#exclusion-draft-charter" id="ref-for-exclusion-draft-charter">Exclusion Draft Charter</a>”. 
-      <li> Removed stray sentence about the old voting system. 
-      <li> The introduction to the document,
+      <li> Removed a stray sentence about the old voting system. 
+      <li> The <a href="#Intro">introduction</a> to the document,
 					which had been neglected for some time,
-					has been updated and reorganized to better fulfil its role as an introduction. 
+					has been updated and reorganized to better fulfill its role as an introduction. 
      </ul>
+    <dt>Major editorial reorganization 
+    <dd>
+      In addition to the individual changes detailed above,
+			this update includes a large editorial reorganization of the structure of the document.
+			It rearranges various parts of the existing text
+			in order to create a more easily understandable and navigable table of contents
+			than the one we had ended up with through many years of gradual accretion of content. 
+     <p>Anyone interested in the details of this reorganization
+			is invited to consult the <a href="https://github.com/w3c/w3process/pull/529">corresponding pull request in GitHub</a>,
+			which outlines the changes at a high level in addition to providing a source diff.</p>
    </dl>
+   <p id="changes-2020-diffs"> The editorial reorganization was merged by the Process CG as the last change in the cycle,
+	prior to final review by the broader community.
+	Although this resulting document is the preferred one to read and review in general,
+	moving significant amounts of text around
+	means that the full <a href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2F2020%2FProcess-20200915%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2020 to this latest version</a> is largely unusable.
+	Therefore the <a href="https://www.w3.org/Consortium/Process/Drafts/p2021-before-reorg/">last state of the Process 2021 Draft prior to the reorganization</a>,
+	as well as a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fp2021-before-reorg%2F">diff between Process 2020 and the pre-reorg state of the document</a> are also available,
+	to enable detailed review of the changes aside from the reorganization. </p>
    <h3 class="no-num heading settled" id="changes-previous"><span class="content"> Changes since earlier versions</span><span id="changes-2019"></span><span id="changes-2018"></span><span id="changes-2017"></span><a class="self-link" href="#changes-previous"></a></h3>
    <p>Changes since earlier versions of the Process are detailed
 	in the <a href="https://www.w3.org/2020/Process-20200915/#changes">changes section of the previous version</a> of the Process.</p>
