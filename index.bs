@@ -5190,7 +5190,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 	The following is a summary of the main differences besides the reorganization:
 
 	<dl>
-		<dt>Registries Track
+		<dt>[[#registries|Registries Track]]
 		<dd>
 			Introduced a new class of technical reports called [[#registries|registries]],
 			for documents that describe collections of values or other data
@@ -5227,7 +5227,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					that get [[#abandon-draft|abandoned]].
 			</ul>
 
-		<dt>Note Track
+		<dt>[[#note-track|Note Track]]
 		<dd>
 			Disentangled the Note Track from the Recommendation Track,
 			and added a few capabilities:
@@ -5248,7 +5248,7 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 				<li>
 					Allowed [=TAG=] and [=AB=] to publish [=Notes=]
 					(for the TAG, this was already an allowed practice,
-					against the letter of the Process).
+					inconsistent with the letter of the Process).
 
 				<li>
 					Created [=W3C Statements=],
@@ -5270,13 +5270,13 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					Allowed AC representatives to designate an [=alt AC rep|alternate=].
 
 				<li>
-					Defined requirements for recording of [[#meeting-recording|meetings]], [=minutes=], and [=resolutions=].
+					Defined requirements for [[#meeting-recording|recording of meetings]], [=minutes=], and [=resolutions=].
 
 				<li>
-					Defined expectations about [[#tooling|tooling]] that may be used for publication
-					as well as for collaboration
-					in order to ensure long-lived access to publications,
-					and to enable effective and equitable participation by anyone.
+					Defined [[#tooling|guidelines for any tooling]]
+					used for publication and collaboration
+					in order to ensure long-lived access to W3C publications,
+					and to enable access and effective participation by anyone.
 
 				<li>
 					Changed [[#ABParticipation|how the AB selects its chair]],
@@ -5291,7 +5291,8 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					Integrated <a href="https://www.w3.org/2003/12/22-pp-faq#start">language from the Patent Policy FAQ</a>
 					allowing prior participants of a group that was just rechartered
 					and who have not yet formally rejoined
-					to continue to attend meetings held within a 45 day window.
+					to continue to attend meetings held within a 45-day window
+					of the [[#cfp|call for participation]].
 			</ul>
 
 		<dt>Miscellaneous editorial tweaks, clarifications, and simplifications
@@ -5304,10 +5305,12 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 			<ul>
 				<li>
 					The various parts of the document that talked about discipline
-					have been consolidated into a [[#discipline|single section]].
+					have been consolidated into a single section, [[#discipline]].
 
 				<li>
-					References to “short terms” and “incomplete terms” have been unified to “incomplete terms”.
+					References to “short terms” and “incomplete terms”
+					for serving on elected bodies
+					have been unified to “incomplete terms”.
 
 				<li>
 					Mentions of the Director which had no material effects on the Process have been removed.
@@ -5316,10 +5319,10 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					Replaced the vague “Other Charter” term with “[=Exclusion Draft Charter=]”.
 
 				<li>
-					Removed stray sentence about the old voting system.
+					Removed a stray sentence about the old voting system.
 
 				<li>
-					The introduction to the document,
+					The [[#Intro|introduction]] to the document,
 					which had been neglected for some time,
 					has been updated and reorganized to better fulfill its role as an introduction.
 			</ul>
