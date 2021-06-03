@@ -2366,12 +2366,12 @@ W3C Technical Reports</h3>
 
 		<dt>Notes
 		<dd>
-			Groups can also publish documents as [=W3C Notes=],
+			Groups can also publish documents as [=W3C Notes=] and [=W3C Statements=],
 			typically either to document information
 			other than technical specifications,
 			such as use cases motivating a specification
 			and best practices for its use.
-			See [[#Note]] for details.
+			See [[#note-track]] for details.
 
 		<dt>Registries
 		<dd>
