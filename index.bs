@@ -674,19 +674,14 @@ Tooling for Discussions and Publications</h4>
 			Any tooling used by the group
 			for producing its documentation and deliverables
 			or for official group discussions
-			<em class=rfc2119>should</em> be accessible for people with disabilities
+			<em class=rfc2119>should</em> be accessible to people with disabilities.
 			
 		<li id=tool-nocost>	
 			Any tooling used by the group 
 			for producing its documentation and deliverables
 			or for official group discussions
 			<em class=rfc2119>should</em> be available at no additional cost
-			to all who wish to participate,
-			to allow their effective participation.
-
-			Note: If a new participant joins who cannot use the tool,
-			this can require the [=Working Group=] to change its tooling
-			or operate some workaround.
+			to all who wish to participate.
 
 		<li id=where-is-your-stuff>
 			All tools and archives used by the group
@@ -699,6 +694,9 @@ Tooling for Discussions and Publications</h4>
 
 	The [=Team=] is responsible for ensuring adherence to these rules
 	and for bringing any group not in compliance into compliance.
+	Note that if a new participant joins who cannot use some tool,
+	this can require the [=Working Group=] to change its tooling
+	or operate some workaround.
 
 <h4 id="resignation">
 Resignation from a Group</h4>
