@@ -675,8 +675,9 @@ Tooling for Discussions and Publications</h4>
 			for producing its documentation and deliverables
 			or for official group discussions
 			<em class=rfc2119>should</em> be usable
-			without additional cost
+			(without additional cost)
 			by all who wish to participate,
+			including people with disabilities,
 			to allow their effective participation.
 
 			Note: If a new participant joins who cannot use the tool,
