@@ -95,7 +95,7 @@ fi
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
 git add -A .
-git commit -m "Deploy to GitHub Pages: ${GITHUB_SHA} from branch \"${TRAVIS_BRANCH}\""
+git commit -m ":robot: Deploy to GitHub Pages: ${GITHUB_SHA} from branch \"${TRAVIS_BRANCH}\""
 
 
 # Now that we're all set up, we can push.
