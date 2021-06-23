@@ -98,4 +98,4 @@ git commit -m "Deploy to GitHub Pages: ${GITHUB_SHA} from branch \"${TRAVIS_BRAN
 
 
 # Now that we're all set up, we can push.
-git push $SSH_REPO $TARGET_BRANCH
+git push $REPO_URL $TARGET_BRANCH
