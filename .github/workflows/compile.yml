@@ -1,0 +1,34 @@
+name: Pull requests and commits to other branches just build to verify
+
+# Reference documentation: https://docs.github.com/en/actions/reference
+
+# See https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags
+on: [push, pull_request]
+
+jobs:
+
+# this is an example when combining use-scruipt and use-python
+  deploy:
+    runs-on: ubuntu-20.04
+    name: invoke deploy.sh
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_BRANCH: ${{ github.head_ref }}
+      GH_EVENT_NUMBER: ${{ github.event.number }}
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Setup python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+          architecture: x64
+      - name: Install bikeshed
+        run: |
+          pip install bikeshed
+          bikeshed update
+          echo Bikeshed is ready
+      - name: Run the script that invokes python
+      # don't forget: git update-index --chmod +x ./deploy.sh
+        run: ./deploy.sh
+        shell: bash
