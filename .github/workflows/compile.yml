@@ -21,14 +21,14 @@ jobs:
       - name: Setup python 3.7
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7
+          python-version: 3.8
           architecture: x64
       - name: Install bikeshed
         run: |
           pip install bikeshed
           bikeshed update
           echo Bikeshed is ready
-      - name: Run the script that invokes python
+      - name: Run deploy.sh
       # don't forget: git update-index --chmod +x ./deploy.sh
         run: ./deploy.sh
         shell: bash
