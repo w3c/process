@@ -34,11 +34,11 @@ set -x
 
 # set up the github credentials
 
-git config --global user.email noreply@unknown.w3.org
+git config --global user.email w3cbot-gh@w3.org
 git config --global user.name w3cbot
 git config --global user.password $GITHUB_TOKEN
 
-REPO_URL="https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+REPO_URL="https://w3cbot:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
 
 # set up old travis env
 
