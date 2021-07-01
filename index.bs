@@ -2503,7 +2503,7 @@ Wide Review</h5>
 	and the [=Working Group=]'s responses,
 	is generally a good practice which would often be considered positive evidence of wide review.
 	[=Working Groups=]
-	<em class="rfc2119">should</em> follow the <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a>’ review processes [[HREVIEW]],
+	<em class="rfc2119">should</em> follow the <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a>’ review processes,
 	and <em class="rfc2119">should</em> announce to other W3C Working Groups
 	as well as the general public,
 	especially those affected by this specification,
@@ -5487,11 +5487,6 @@ Changes since earlier versions</h3>
 	"TRANSITION": {
 		"href": "https://www.w3.org/Guide/transitions",
 		"title": "Organize a Technical Report Transition",
-		"publisher": "W3C"
-	},
-	"HREVIEW": {
-		"href": "https://www.w3.org/Guide/documentreview/",
-		"title": "How to do Wide Review",
 		"publisher": "W3C"
 	}
 }
