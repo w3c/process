@@ -2758,7 +2758,7 @@ The W3C Recommendation Track</h3>
 	and if there is support from its Membership,
 	W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
 
-	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track">W3C Recommendation Track</dfn> consists of:
+	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track">W3C Recommendation Track</dfn> consists of:
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
@@ -3788,10 +3788,10 @@ Retiring Recommendation Track Documents</h4>
 	if W3C or a [=Working Group=] determines
 	that it cannot productively carry the work any further.
 
-<h5 id=abandon-draft>
-Abandoning an Unfinished Technical Report</h5>
+	<h5 id=abandon-draft>
+Abandoning an Unfinished Recommendation</h5>
 
-	Any [=technical report=] no longer intended
+	Any [=Recommendation-track=] [=technical report=] no longer intended
 	to advance or to be maintained,
 	and that is not being rescinded,
 	<em class="rfc2119">should</em> be [=published=]
@@ -3810,7 +3810,7 @@ Abandoning an Unfinished Technical Report</h5>
 	an explanation of why it was discontinued.
 
 	A [=Working Group=] <em class="rfc2119">may</em> resume work
-	on a [=technical report=]
+	on such a [=technical report=]
 	within the scope of its charter
 	at any time,
 	by re-[=publishing=] it as a [=Working Draft=].
