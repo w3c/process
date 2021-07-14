@@ -5184,7 +5184,7 @@ Changes</h2>
 Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a></h3>
 
 	<p>This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
-	A <a href="https://www.w3.org/Consortium/Process/Drafts/issues-20200915/">Disposition of Comments</a>,
+	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2021%22">list of issues addressed</a>,
 	as well as
 	a <a href="https://github.com/w3c/w3process/compare/process-2020...main">detailed log of all changes since then</a>
 	are available. See <a href="#changes-2020-diffs">below for diffs</a>.
