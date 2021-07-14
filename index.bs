@@ -2559,7 +2559,9 @@ Wide Review</h5>
 	and tracking those comments
 	and the [=Working Group=]'s responses,
 	is generally a good practice which would often be considered positive evidence of wide review.
-	[=Working Groups=] <em class="rfc2119">should</em> announce to other W3C Working Groups
+	[=Working Groups=]
+	<em class="rfc2119">should</em> follow the <a href="https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review">W3C Horizontal Groups</a>’ review processes,
+	and <em class="rfc2119">should</em> announce to other W3C Working Groups
 	as well as the general public,
 	especially those affected by this specification,
 	a proposal to enter [=Candidate Recommendation=]
