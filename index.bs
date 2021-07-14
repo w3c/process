@@ -5326,6 +5326,11 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					The [[#Intro|introduction]] to the document,
 					which had been neglected for some time,
 					has been updated and reorganized to better fulfill its role as an introduction.
+
+				<li>
+					A reference to an external document
+					detailing how to work with Horizontal Review groups
+					has been added to [[#wide-review]].
 			</ul>
 
 		<dt>Major editorial reorganization
