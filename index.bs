@@ -51,7 +51,18 @@ Abstract:
 	For more information about the W3C mission and the history of W3C,
 	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
-	This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
+	This document,
+	which is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>,
+	is a work in progress
+	and further changes may occur before completion of this revision cycle.
+	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
+	once the W3C Advisory Board considers it ready for adoption,
+	it will be offered for W3C Advisory Committee Review.
+Local Boilerplate: status yes
+Issue Tracking: Github (prefered) https://github.com/w3c/w3process/issues/
+Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
+Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
+Boilerplate: repository-issue-tracking off
 </pre>
 <pre class=biblio>
 {
