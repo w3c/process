@@ -2547,7 +2547,7 @@ Wide Review</h5>
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
+	the [=Team=] will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -2788,7 +2788,8 @@ The W3C Recommendation Track</h3>
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
-	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
+	The [=Team=] <em class="rfc2119">may</em> [=Team Decision|decide=]
+	to decline a request to advance in maturity level,
 	requiring a [=Working Group=] to conduct further work,
 	and <em class="rfc2119">may</em> require
 	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
@@ -3023,7 +3024,7 @@ Implementation Experience</h4>
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
 	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
-	the [=Director=] will consider (though not be limited to):
+	the [=Team=] will consider (though not be limited to):
 
 	<ul>
 		<li>
@@ -3068,7 +3069,7 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval.
+			<em class="rfc2119">must </em> obtain [=Team=] approval.
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document all new features
@@ -3121,7 +3122,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	Certain requests to re-publish a specification
 	within its current maturity level
 	(called <dfn export>Update Requests</dfn>)
-	require [=Director=] approval.
+	require [=Team=] approval.
 	For such [=update requests=], the Working Group:
 
 	<ul>
@@ -3132,7 +3133,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval,
+			<em class="rfc2119">must </em> obtain [=Team=] approval,
 			or fulfill the criteria for [[#streamlined-update]].
 
 		<li>
@@ -3169,7 +3170,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	</ul>
 
 	There is usually a formal review meeting
-	to ensure the requirements have been met before [=Director=]'s approval is given.
+	to ensure the requirements have been met before [=Team=]'s approval is given.
 
 	Note: [=Update request=] approval is expected to be fairly simple
 	compared to getting approval for a [=transition request=].
@@ -3500,7 +3501,7 @@ Transitioning to Proposed Recommendation</h4>
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by the [=Director=],
+			except where an exception is approved by the [=Team=],
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
@@ -3524,7 +3525,7 @@ Transitioning to Proposed Recommendation</h4>
 			without republishing the specification as a [=Candidate Recommendation Snapshot=].
 	</ul>
 
-	The Director:
+	The [=Team=]:
 
 	<ul>
 		<li>
@@ -3537,7 +3538,9 @@ Transitioning to Proposed Recommendation</h4>
 			<em class="rfc2119">may</em> approve a [=Proposed Recommendation=]
 			with minimal <a href="#implementation-experience">implementation experience</a>
 			where there is a compelling reason to do so.
-			In such a case, the [=Director=] <em class="rfc2119">should</em> explain the reasons for that decision.
+			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that decision,
+			and that information <em class=rfc2119>must</em> be included in the [=Call for Review=]
+			proposing advancement to [=W3C Recommendation=].
 	</ul>
 
 	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
@@ -3595,7 +3598,7 @@ Transitioning to W3C Recommendation</h4>
 
 		<li>
 			If there was any [=dissent=] in Advisory Committee reviews,
-			the [=Director=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+			the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> [=formally address=] the comment
 			at least 14 days before publication as a [=W3C Recommendation=].
@@ -3878,7 +3881,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
-	either by a request from the [=Director=]
+	either by a request from the [=Team=]
 	or via a request from any of the following:
 
 	<ul>
@@ -3906,7 +3909,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	obsolete,
 	supersede,
 	or restore
-	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
+	a [=Recommendation=] the [=Team=] <em class="rfc2119">must</em>:
 
 	<ul>
 		<li>
@@ -3949,7 +3952,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	</ul>
 
 	If there was any [=dissent=] in the [=Advisory Committee review=],
-	the [=Director=] <em class="rfc2119">must</em> publish
+	the [=Team=] <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C
 	<strong>and the public</strong>,
 	and <em class="rfc2119">must</em> [=formally address=] the dissent
@@ -3957,7 +3960,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	before publication as an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=].
 
 	The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the [=Director=]'s decision.
+	of the [=Team=]'s decision.
 
 	W3C <em class="rfc2119">must</em> publish an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=]
 	with up to date status.
