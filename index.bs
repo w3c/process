@@ -4651,7 +4651,7 @@ Liaisons</h2>
 	confidentiality agreements;
 	and mutual membership agreements.
 
-	The [=W3C Director=] <em class="rfc2119">may</em> negotiate
+	The [=CEO=] <em class="rfc2119">may</em> negotiate
 	a Memorandum of Understanding with another organization.
 	For the purposes of the W3C Process a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
 	is a formal agreement or similar contractual framework between W3C and another party or parties,
@@ -4675,7 +4675,7 @@ Liaisons</h2>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to sign the [=MoU=].
 	Unless an [=appeal=] rejects the proposal to sign an MoU,
-	the [=Director=] may sign the [=MoU=] on behalf of W3C.
+	the [=CEO=] may sign the [=MoU=] on behalf of W3C.
 	A signed [=Memorandum of Understanding=] <em class="rfc2119">should</em> be made public.
 
 	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
