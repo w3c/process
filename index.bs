@@ -469,7 +469,7 @@ Expectations and Discipline</h5>
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-	The [=Director=] <em class="rfc2119">may</em> take disciplinary action,
+	The [=CEO=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=])
 	if serious and/or repeated violations,
@@ -1260,7 +1260,7 @@ Elected Groups Vacated Seats</h5>
 			or
 
 		<li>
-			the Director dismisses the participant
+			the [=CEO=] dismisses the participant
 			for failing to meet the criteria in section <a href="#ParticipationCriteria"></a>,
 			or
 
