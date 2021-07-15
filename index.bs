@@ -1800,7 +1800,7 @@ Content of a Charter</h3>
 <h3 id="CharterReview">
 Advisory Committee Review of a Charter</h3>
 
-	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
+	The [=Team=] <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
 	of every new or substantively modified Working Group or Interest Group charter,
 	except for either:
 	* a charter extension
@@ -1827,7 +1827,7 @@ Advisory Committee Review of a Charter</h3>
 	Such a request must be submitted with a Member's comments
 	in response to the Call for Review.
 	Upon receipt of any such request,
-	the Director <em class="rfc2119">must</em> ensure
+	the [=Team=] <em class="rfc2119">must</em> ensure
 	that the Call for Participation for the Working Group
 	occurs at least 60 days
 	after the Call for Review of the charter.
@@ -1835,11 +1835,14 @@ Advisory Committee Review of a Charter</h3>
 <h3 id="cfp">
 Call for Participation in a Chartered Group</h3>
 
-	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
-	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
+	Deciding whether to adopt a proposed [=Working Group=] or [=Interest Group=] [=charter=]
+	is a [=W3C Decision=].
 	Charters <em class="rfc2119">may</em> be amended based on review comments
+	per [[#ACReviewAfter]]
 	before the Call for Participation.
 
+	If the decision is to charter the group,
+	the [=Team=] <em class="rfc2119">must</em> issue a Call for Participation to the Advisory Committee.
 	For a new group, this announcement officially creates the group.
 	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
 	the name(s) of the group's [=Chair=](s),
@@ -1864,9 +1867,12 @@ Call for Participation in a Chartered Group</h3>
 <h3 id="charter-extension">
 Charter Extension</h3>
 
-	To extend a Working Group or Interest Group charter
-	with no other substantive modifications,
-	the Director announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
+	The [=Team=] <em class="rfc2119">may</em> decide
+	to extend a Working Group or Interest Group charter
+	with no other substantive modifications.
+	The [=Team=] <em class="rfc2119">must</em> announce
+	such <dfn id=dfn-charter-extension export lt="charter extension">extensions</dfn>
+	to the [=Advisory Committee=].
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
 	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
 	a reference to the <a href="#WGCharter">charter</a>,
@@ -1880,14 +1886,14 @@ Charter Extension</h3>
 	and <a href="#invited-expert-wg">Invited Experts</a>.
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
-	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a Director's decision
+	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a [=Team decision=]
 	regarding the extension of a Working Group or Interest Group charter.
 
 <h3 id="GeneralTermination">
 Chartered Group Closure</h3>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
-	The [=Director=] <em class="rfc2119">may</em> decide to close a group
+	The [=Team=] <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:
 
 	<ul>
@@ -1900,7 +1906,7 @@ Chartered Group Closure</h3>
 			The group produces chartered deliverables ahead of schedule.
 	</ul>
 
-	The [=Director=] closes a [=Working Group=] or [=Interest Group=]
+	The [=Team=] closes a [=Working Group=] or [=Interest Group=]
 	by announcement to the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
@@ -3805,7 +3811,7 @@ Abandoning an Unfinished Recommendation</h5>
 	This can happen if
 	the [=Working Group=] decided
 	to abandon work on the report,
-	or the [=Director=] required the [=Working Group=]
+	or the [=Team=] required the [=Working Group=]
 	to discontinue work on the technical report before completion.
 	If a [=Working Group=] is made to <a href="#GeneralTermination">close</a>,
 	W3C <em class="rfc2119">must</em> re-[=publish=] any unfinished [=technical report=]
