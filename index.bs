@@ -369,11 +369,10 @@ Related Members</h5>
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
 	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
-<h3 id="Team">
+<h3 id="Team" oldids="def-Director">
 The W3C Team</h3>
 
 	The <dfn export lt="Team | W3C Team">Team</dfn> consists of
-	the Director,
 	<dfn>CEO</dfn>,
 	W3C paid staff,
 	unpaid interns,
@@ -386,22 +385,11 @@ The W3C Team</h3>
 	and communicates with the Members and the public
 	about the Web and W3C technologies.
 
-	The [=Director=] and CEO <em class="rfc2119">may</em> delegate responsibility
+	The CEO <em class="rfc2119">may</em> delegate responsibility
 	(generally to other individuals in the Team)
-	for any of their roles described in this document,
-	except <a href="#tag-participation">participation in the TAG</a>.</p>
-	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
+	for any of their roles described in this document.
+	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
-
-	The <dfn id="def-Director" export lt="Director|W3C Director">Director</dfn> is the lead technical architect at W3C,
-	whose responsibilities are identified throughout this document in relevant places.
-	Some key ones include:
-	assessing <a href="#def-Consensus" id="DirectorDecision">consensus</a> within W3C for architectural choices,
-	publication of <a href="#Reports">technical reports</a>,
-	and chartering new Groups;
-	appointing group <a href="#GeneralChairs">Chairs</a>,
-	and deciding on the outcome of formal objections;
-	the Director is generally Chair of the <a href="#TAG">TAG</a>.
 
 	Team administrative information such as Team salaries,
 	detailed budgeting,
@@ -1997,7 +1985,7 @@ Consensus</h4>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
-	Note: The Director and CEO have the role of
+	Note: The CEO has the role of
 	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
