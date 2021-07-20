@@ -990,31 +990,25 @@ Composition of the Technical Architecture Group</h5>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			The [=Director=],
-			sitting <i>ex officio</i>;
-
-		<li>
-			Three participants appointed by the [=Director=];
+			Three participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
-	The [=Team=] appoints the Chair of the TAG,
-	who <em class="rfc2119">must</em> be one of the participants.
-	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
+	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
+	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
+	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
+	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
-	The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
+	The terms of TAG participants are for <span class="time-interval">two years</span>.
 	Terms are staggered so that each year three elected terms,
 	and either one or two appointed terms expire.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
-
-	The [=Director=] <em class="rfc2119">may</em> announce the appointed participants
-	after the results for the Advisory Committee election of participants have been announced.
 
 <h5 id=tag-comm>
 Communications of the Technical Architecture Group</h5>
@@ -1047,7 +1041,7 @@ Participation in Elected Groups</h4>
 Expectations for Elected Groups Participants</h5>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
-	they are elected by the Membership and appointed by the Director
+	they are elected by the Membership and appointed
 	with the expectation that they will use their best judgment
 	to find the best solutions for the Web,
 	not just for any particular network,
@@ -1116,8 +1110,10 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=Team=] <em class="rfc2119">should</em> announce appointments
-	no later than the start of a nomination period as part of the Call for Nominations.
+	The [=Team=] announces appointments
+	after the results of the election are known,
+	and before the start of the term,
+	as described in [[#TAG-appointments]].
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of available seats are the same:
@@ -1213,6 +1209,44 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
 
+<h5 id="TAG-appointments">
+Technical Architecture Group Appointments</h5>
+
+	The [=Team=] is responsible for appointing
+	3 of the participants to the [=Technical Architecture Group=].
+	This mechanism complements the election process.
+	The [=Team=] <em class=rfc2119>should</em> use its appointments to support
+	a diverse and well-balanced [=TAG=],
+	including diversity of technical background, knowledge, and skill sets.
+
+	The [=Team=] <em class=rfc2119>should</em> actively seek
+	candidates for appointment to the TAG,
+	and <em class=rfc2119>must</em> make available to
+	the W3C community at large
+	a means to propose candidates for consideration,
+	explicitly soliciting input from at least
+	current and incoming [=TAG=] members, the [=Advisory Committee=], and [=Working Group=] [=Chairs=].
+
+	The constraints for appointment to the [=TAG=] are
+	the same as for elected participants
+	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]).
+
+	The [=Team=]'s choice of appointee(s)
+	is subject to ratification by secret ballot
+	by two thirds of the [=TAG=].
+	In the case of regularly scheduled election,
+	ratification is by the [=TAG=] members of the upcoming term.
+
+	For regularly scheduled elections,
+	selection begins once the results of the elections are known,
+	and the [=Team=] <em class=rfc2119>should</em> announce the ratified appointment(s)
+	no later than the start of the regularly scheduled term.
+	When an appointed seat is vacated out of a regularly scheduled election,
+	the [=Team=] <em class=rfc2119>should</em> seek to appoint a replacement
+	unless a regular Call for Nominations is scheduled within 2 months,
+	and it <em class=rfc2119>must</em> announce the ratified appointment
+	no later than the Call for Nominations of the next scheduled election.
+
 <h5 id="random">
 Verifiable Random Selection Procedure</h5>
 
@@ -1273,8 +1307,7 @@ Elected Groups Vacated Seats</h5>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			the Director <em class="rfc2119">may</em> re-appoint someone immediately,
-			but no later than the next regularly scheduled election.
+			the [=Team=] [[#TAG-appointments|appoints]] a replacement.
 
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
