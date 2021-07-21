@@ -2379,6 +2379,8 @@ Council Participation, Dismissal, and Renunciation</h5>
 	When [=sustaining=] an objection,
 	it <em class=rfc2199>should</em> recommend a way forward.
 
+	The Council <em class=rfc2119>may</em> form subsets for deliberation and to return with a recommendation,
+	but the full Council issues the final decision.
 	Decision of the [=W3C Council=] should be unanimous.
 	If despite careful deliberation
 	the [=W3C Council=] is unable to reach consensus,
