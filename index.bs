@@ -2227,6 +2227,9 @@ Recording and Reporting Formal Objections</h3>
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
 
+<h4 id=team-fo-mediation>
+Investigation and Mediation by the Team</h4>
+
 	The [=Team=] considers the [=Formal objection=],
 	researches the question,
 	interviewes parties,
@@ -2242,6 +2245,9 @@ Addressing Formal Objections</h3>
 	within at most 45 days of the [=Formal Objection=] being registered,
 	the [=Team=] must present its conclusions (or lack thereof)
 	to the [=W3C Council=].
+
+<h4 id=council>
+The W3C Council</h4>
 
 	The <dfn>W3C Council</dfn> consists of the following,
 	with the exception of any who [=recuse=] themselves:
