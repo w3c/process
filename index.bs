@@ -2330,6 +2330,19 @@ The W3C Council</h4>
 	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
 
+	As the [=W3C Council=] is the body that adjudicates [=Formal Objections=],
+	it is not possible to [=Formal Objection|formally object=]
+	to its decisions.
+	Accordingly,
+	in this section,
+	the terms “consensus“, “unanimity”, and “dissent”
+	have slightly different meanings compared to the rest of this document:
+	dissent--
+	and therefore the lack of consensus--
+	occurs when a member of the [=W3C Council=]
+	opposes a tentative conclusion,
+	even though they cannot register a [=Formal Objection=].
+
 	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
 	of the [=W3C Council=]'s decision.
 
