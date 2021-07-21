@@ -2249,11 +2249,22 @@ Addressing Formal Objections</h3>
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
 
-	A <dfn lt="recusal | recuse | recuses">recusal</dfn> is required for any of these
-	directly involved in the matter of the [=Formal Objection=]
-	(e.g. that they are a chair, and it is their decision that is in question,
-	or they are the individual who registered the [=Formal Objection=]);
-	other members may recuse themselves if they feel there could be a reasonable perception that they are directly involved.
+	Participants in the [=W3C Council=] <em class=rfc2119>must</em> [=recuse=] themselves
+	if they are the person who issued the decision being objected to,
+	or if they are the person who registered the [=Formal Objection=].
+	Participants may also [=recuse=] themselves for any reason.
+	Any person who has <dfn lt="recusal | recuse | recuses | recused">recused</dfn> themself
+	does not take part in its deliberations,
+	determination of consensus,
+	or votes
+	on this matter.
+	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
+	as they can of anyone else in the W3C community.
+
+	Issue: It is still an open question whether someone who has recused themself
+	should still be allowed to participate in the deliberations of the Council
+	even if they are excluded from the consensus/vote.
+
 	The CEO appoints the <dfn>Chair of the W3C Council</dfn>,
 	with the advice of the rest of the Council.
 	This <em class=rfc2919>may</em> be the CEO themself,
