@@ -2249,16 +2249,26 @@ Investigation and Mediation by the Team</h4>
 <h4 id=council>
 The W3C Council</h4>
 
-	The <dfn>W3C Council</dfn> consists of the following,
+	The <dfn local-lt="Council">W3C Council</dfn> consists of the following members,
 	with the exception of any who [=recuse=] themselves:
 	* the [=CEO=]
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
 
-	Participants in the [=W3C Council=] <em class=rfc2119>must</em> [=recuse=] themselves
+	Participation in the [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
+
+	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
+	Membership of an instance the [=Council=] is be fixed at formation,
+	and is not changed by any [=AB=] or [=TAG=] elections
+	occurring before that Council has reached a conclusion.
+	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
+	the [=Chair of the Council=] <em class="rfc2119">should</em> dissolve the [=Council=]
+	and call for a new one to be convened.
+
+	Participants in a [=W3C Council=] <em class=rfc2119>must</em> [=recuse=] themselves
 	if they are the person who issued the decision being objected to,
 	or if they are the person who registered the [=Formal Objection=].
-	Participants may also [=recuse=] themselves for any reason.
+	Participants may also [=recuse=] themselves for any reason and at any time.
 	Any person who has <dfn lt="recusal | recuse | recuses | recused">recused</dfn> themself
 	does not take part in its deliberations,
 	determination of consensus,
@@ -2266,12 +2276,6 @@ The W3C Council</h4>
 	on this matter.
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
-
-	The CEO appoints the <dfn>Chair of the W3C Council</dfn>,
-	with the advice of the rest of the Council.
-	This <em class=rfc2919>may</em> be the CEO themself,
-	unless the CEO [=recuses=],
-	in which case they <em class=rfc2119>must</em> find an alternative chair.
 
 	Issue(w3c/w3process#278): Fuzzy criteria for recusal are problematic:
 	individual with only tangential involvement in the matter,
@@ -2284,6 +2288,11 @@ The W3C Council</h4>
 	For example, recusal could be required of (and only of):
 	a Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to,
 	and the CEO for objections against their own decisions and those of the Team
+
+	The <dfn local-lt="Chair of the Council">Chair of the W3C Council</dfn> for a particular topic is chosen by its members,
+	by consensus if possible,
+	falling back to a vote if that fails.
+	The chair must be a member of the [=W3C Council=].
 
 	Having reviewed the information gathered by the [=Team=] and its recommendation,
 	and after sufficient sufficient deliberation,
@@ -2312,6 +2321,11 @@ The W3C Council</h4>
 	may act as a disincentive to participants to try and reach consensus.
 	However, removing it would mean that failing to reach any decision
 	would be a possibility.
+
+	If the [=W3C Council=] is unable to come to a conclusion within 120 days of being initially convened for a particular topic,
+	the [=Chair of the W3C Council=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
+	and of the status of the discussions.
+	The [=Chair of the W3C Council=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
 
 	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
 	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> have the same level of confidenntiality
