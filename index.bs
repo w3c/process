@@ -2328,6 +2328,8 @@ Addressing Formal Objections</h3>
 	and after sufficient sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
+	When [=sustaining=] an objection,
+	it <em class=rfc2199>should</em> recommend a way forward.
 
 	Issue(w3c/w3process#279): Should the W3C Council
 	be able to do more than just sustain of overrule?
