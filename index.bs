@@ -2292,6 +2292,8 @@ Addressing Formal Objections</h3>
 	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
 	could it decide what to change the charter to and publish it?
 
+	The Council <em class=rfc2119>may</em> form subsets for deliberation and to return with a recommendation,
+	but the full Council issues the final decision.
 	Decision of the [=W3C Council=] should be unanimous.
 	If despite careful deliberation
 	the [=W3C Council=] is unable to reach consensus,
