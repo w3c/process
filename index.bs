@@ -2355,7 +2355,7 @@ The W3C Council</h4>
 	then their ballots count as a one vote,
 	not two.
 
-	If the [=W3C Council=] is unable to come to a conclusion within 120 days of being initially convened for a particular topic,
+	If the [=W3C Council=] is unable to come to a conclusion within 90 days of being initially convened for a particular topic,
 	the [=Chair of the W3C Council=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
 	and of the status of the discussions.
 	The [=Chair of the W3C Council=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
