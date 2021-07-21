@@ -2265,10 +2265,17 @@ The W3C Council</h4>
 	the [=Chair of the Council=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
 
-	Participants in a [=W3C Council=] <em class=rfc2119>must</em> [=recuse=] themselves
-	if they are the person who issued the decision being objected to,
-	or if they are the person who registered the [=Formal Objection=].
-	Participants may also [=recuse=] themselves for any reason and at any time.
+	No one shall be both a party and an adjudicator.
+	The person making either the decision being objected to or appealed,
+	and the person making the objection or appeal,
+	<em class=rfc2119>must</em> [=recuse=] themselves.
+	Participants <em rfc=2119>should</em> [=recuse=]
+	if they believe their participation would compromise the integrity of the Council decision,
+	and <em class=rfc2119>may</em> do so at any time.
+	However, recusal is disqualification from participation,
+	not abstention,
+	and <em class=rfc2119>should not</em> be used
+	to excuse an absence of participation.
 	Any person who has <dfn lt="recusal | recuse | recuses | recused">recused</dfn> themself
 	does not take part in its deliberations,
 	determination of consensus,
@@ -2276,6 +2283,9 @@ The W3C Council</h4>
 	on this matter.
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
+	[=Recusal=] is individual;
+	when the decision in question was made by the [=TAG=] or [=AB=] acting as a body,
+	the entire [=TAG=] or [=AB=] is not expected or required to recuse itself.
 
 	The <dfn local-lt="Chair of the Council">Chair of the W3C Council</dfn> for a particular topic is chosen by its members,
 	by consensus if possible,
