@@ -2385,6 +2385,8 @@ Council Participation, Dismissal, and Renunciation</h5>
 	and after sufficient sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
+	When [=sustaining=] an objection,
+	it <em class=rfc2199>should</em> recommend a way forward.
 
 	Decision of the [=W3C Council=] should be unanimous.
 	If despite careful deliberation
