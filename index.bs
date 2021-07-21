@@ -2227,27 +2227,20 @@ Recording and Reporting Formal Objections</h3>
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
 
-	The CEO forms an <dfn>Advisory Group</dfn>,
-	selected as they wish,
-	but typically from
-	the [=W3C Team=],
-	[=TAG=],
-	[=AB=],
-	and [=Chairs=],
-	who consider the [=Formal objection=],
-	research the question,
-	interview parties,
+	The [=Team=] considers the [=Formal objection=],
+	researches the question,
+	interviewes parties,
 	and so on,
 	to make sure the problem and the various viewpoints are well understood,
 	and to the extent possible,
 	to arrive at a recommended disposition.
-	If the [=Advisory Group=] can resolve the issue
+	If the [=Team=] can resolve the issue
 	to the satisfaction of the individual that filed the [=Formal Objection=],
 	the individual withdraws the objection and the disposition process terminates.
 
 	Otherwise,
 	within at most 45 days of the [=Formal Objection=] being registered,
-	the [=Advisory Group=] must present its conclusions (or lack thereof)
+	the [=Team=] must present its conclusions (or lack thereof)
 	to the [=W3C Council=].
 
 	The <dfn>W3C Council</dfn> consists of the following,
@@ -2282,7 +2275,7 @@ Addressing Formal Objections</h3>
 	a Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to,
 	and the CEO for objections against their own decisions and those of the Team
 
-	Having reviewed the information gathered by the [=Advisory Group=] and its recommendation,
+	Having reviewed the information gathered by the [=Team=] and its recommendation,
 	and after sufficient sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
