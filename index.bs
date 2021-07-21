@@ -2318,18 +2318,6 @@ The W3C Council</h4>
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
 
-	Issue(w3c/w3process#278): Fuzzy criteria for recusal are problematic:
-	individual with only tangential involvement in the matter,
-	or even with no real involvement at all in the matter,
-	could be pressured into recursing themselves.
-	Conversely, over-assertive individuals may fail to [=recuse=] themselves even when it would be appropriate.
-	We may instead want to make a strict and non ambiguous criteria.
-	It is also unclear how useful it is to require recusal from the person raising the objection,
-	since that can easily be circumvented by asking someone else to file the objection on one's behalf.
-	For example, recusal could be required of (and only of):
-	a Chair who issued the [=Chair Decision=] or [=Group Decision=] being objected to,
-	and the CEO for objections against their own decisions and those of the Team
-
 	The <dfn local-lt="Chair of the Council">Chair of the W3C Council</dfn> for a particular topic is chosen by its members,
 	by consensus if possible,
 	falling back to a vote if that fails.
@@ -2342,12 +2330,6 @@ The W3C Council</h4>
 	When [=sustaining=] an objection,
 	it <em class=rfc2199>should</em> recommend a way forward.
 
-	Issue(w3c/w3process#279): Should the W3C Council
-	be able to do more than just sustain of overrule?
-	For instance, when it sustains an objection,
-	in the case FO during charter reviews, instead of merely sending the charter sending for additional work,
-	could it decide what to change the charter to and publish it?
-
 	The Council <em class=rfc2119>may</em> form subsets for deliberation and to return with a recommendation,
 	but the full Council issues the final decision.
 	Decision of the [=W3C Council=] should be unanimous.
@@ -2357,11 +2339,6 @@ The W3C Council</h4>
 	In that case,
 	the decision is made by simple majority,
 	with the [=Chair of the W3C Council=] breaking ties.
-
-	Issue(w3c/w3process#280): The ability of the chair to call a vote
-	may act as a disincentive to participants to try and reach consensus.
-	However, removing it would mean that failing to reach any decision
-	would be a possibility.
 
 	If the [=W3C Council=] is unable to come to a conclusion within 120 days of being initially convened for a particular topic,
 	the [=Chair of the W3C Council=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
