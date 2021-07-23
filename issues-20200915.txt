@@ -51,7 +51,7 @@ Summary:  Ensure specs and standards have published user research
 From:     Daniel Appelquist
 Comment:  https://github.com/w3c/w3process/issues/551
 Response: https://github.com/w3c/w3process/issues/551#issuecomment-872610856
-Closed:   Deferred
+Closed:   Deferred (Out Of Scope)
 ----
 Issue 5.
 Summary:  Archiving discussion attachments
