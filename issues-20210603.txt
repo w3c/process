@@ -1,0 +1,64 @@
+Draft:    https://www.w3.org/Consortium/Process/Drafts/snapshots/2020-06-03
+ED:       https://www.w3.org/Consortium/Process/Drafts/
+Title:    W3C Process
+Date:     2021-07-23
+Status:   Proposed 2021 Process
+Intro:
+	<p>
+	This disposition of comments covers the issues submitted
+	during the <a href="https://lists.w3.org/Archives/Public/public-w3process/2021Jun/0000.html">AC informal review period announced on 3 June 2021</a>,
+	which ran through 2 July 2021.
+
+	<p>
+	For a more complete list of comments and issues
+	raised since the previous edition of the process was published,
+	please refer to Github:
+
+	<ul>
+		<li>
+			<a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2021%22+is%3Aclosed+">Issues closed during this cycle</a>
+		<li>
+			<a href="https://github.com/w3c/w3process/issues">All open issues</a>
+	</ul>
+
+There's an incomplete DoC in this format for the whole 2020 to 2021 cycle in issues-20200915.txt
+
+----
+Issue 1.
+Summary:  Clarify expectation of horizontal review as part of wide review
+From:     Judy Brewer
+Comment:  https://github.com/w3c/w3process/issues/535#issuecomment-854121607
+Response: https://github.com/w3c/w3process/issues/535#issuecomment-879943488
+Changes:  https://github.com/w3c/w3process/commit/af51456b9fbdaba7486329fd9efa8c44fcd1e9e9
+Closed:   Accepted
+----
+Issue 2.
+Summary:  Clarify that tooling must be accessible for people with disabilities
+From:     Judy Brewer
+Comment:  https://github.com/w3c/w3process/issues/537
+Response: https://github.com/w3c/w3process/issues/537#issuecomment-857879755
+Changes:  https://github.com/w3c/w3process/commit/0abef35f9630add41a6889d244467b530694396b
+Closed:   Accepted
+----
+Issue 3.
+Summary:  Editorial tweak to AB Composition
+From:     Philippe Le Hégaret
+Comment:  https://github.com/w3c/w3process/issues/540
+Response: https://github.com/w3c/w3process/issues/540#issuecomment-859224830
+Changes:  https://github.com/w3c/w3process/commit/c8e0872052b91fca0f8936f21f419e352a912a20
+Closed:   Accepted
+----
+Issue 4.
+Summary:  Ensure specs and standards have published user research
+From:     Daniel Appelquist
+Comment:  https://github.com/w3c/w3process/issues/551
+Response: https://github.com/w3c/w3process/issues/551#issuecomment-872610856
+Closed:   Deferred (Out Of Scope)
+----
+Issue 5.
+Summary:  Archiving discussion attachments
+From:     fantasai
+Comment:  https://github.com/w3c/w3process/issues/552
+Closed:   Deferred
+Verified: Reporter is editor
+----

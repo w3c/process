@@ -1,62 +1,113 @@
-Draft:    https://www.w3.org/Consortium/Process/Drafts/snapshots/2020-06-03
+Draft:    https://www.w3.org/2020/Process-20200915/
+Title:    W3C Process Document
+Date:     2020-09-15
+Status:   Version
 ED:       https://www.w3.org/Consortium/Process/Drafts/
-Title:    W3C Process
-Date:     2021-07-23
-Status:   Proposed 2021 Process
-Intro:
-	<p>
-	This disposition of comments covers the issues submitted
-	during the <a href="https://lists.w3.org/Archives/Public/public-w3process/2021Jun/0000.html">AC informal review period announced on 3 June 2021</a>,
-	which ran through 2 July 2021.
 
-	<p>
-	For a more complete list of comments and issues
-	raised since the previous edition of the process was published,
-	please refer to Github:
-
-	<ul>
-		<li>
-			<a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2021%22+is%3Aclosed+">Issues closed during this cycle</a>
-		<li>
-			<a href="https://github.com/w3c/w3process/issues">All open issues</a>
-	</ul>
+This DoC for the 2020 to 2021 cycle of the Process is not complete.
 
 ----
 Issue 1.
-Summary:  Clarify expectation of horizontal review as part of wide review
-From:     Judy Brewer
-Comment:  https://github.com/w3c/w3process/issues/535#issuecomment-854121607
-Response: https://github.com/w3c/w3process/issues/535#issuecomment-879943488
-Changes:  https://github.com/w3c/w3process/commit/af51456b9fbdaba7486329fd9efa8c44fcd1e9e9
+Summary:  "short term" is undefined
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/333
+Response: https://github.com/w3c/w3process/pull/431
 Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
 ----
 Issue 2.
-Summary:  Clarify that tooling must be accessible for people with disabilities
-From:     Judy Brewer
-Comment:  https://github.com/w3c/w3process/issues/537
-Response: https://github.com/w3c/w3process/issues/537#issuecomment-857879755
-Changes:  https://github.com/w3c/w3process/commit/0abef35f9630add41a6889d244467b530694396b
+Summary:  Editorial tweaks
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/376
 Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
 ----
 Issue 3.
-Summary:  Editorial tweak to AB Composition
-From:     Philippe Le Hégaret
-Comment:  https://github.com/w3c/w3process/issues/540
-Response: https://github.com/w3c/w3process/issues/540#issuecomment-859224830
-Changes:  https://github.com/w3c/w3process/commit/c8e0872052b91fca0f8936f21f419e352a912a20
+Summary:  Fix terminology mixup
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/430
 Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r02
 ----
 Issue 4.
-Summary:  Ensure specs and standards have published user research
-From:     Daniel Appelquist
-Comment:  https://github.com/w3c/w3process/issues/551
-Response: https://github.com/w3c/w3process/issues/551#issuecomment-872610856
-Closed:   Deferred (Out Of Scope)
+Summary:  Remove Gratuitous mentions of the Director
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/issues/254
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/08/12-w3process-minutes.html#r03
 ----
 Issue 5.
-Summary:  Archiving discussion attachments
-From:     fantasai
-Comment:  https://github.com/w3c/w3process/issues/552
-Closed:   Deferred
-Verified: Reporter is editor
+Summary:  Re-envisioning the CRUD/Snapshot split
+From:     Wendy Seltzer
+Comment:  https://github.com/w3c/w3process/issues/346
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/issues/346#issuecomment-658799591
+Verified: https://github.com/w3c/w3process/issues/346#issuecomment-658799591
 ----
+Issue 6.
+Summary:  Switch plural term to singular
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/386
+Closed:   Rejected
+Resolved: https://github.com/w3c/w3process/pull/386#issuecomment-658826867
+Verified: https://github.com/w3c/w3process/pull/386#issuecomment-658855009
+----
+Issue 7.
+Summary:  Remove mentions of when various groups were created
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/420
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/420#issuecomment-658813800
+----
+Issue 8.
+Summary:  Editorial tweak in Superseded Recommendation note
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/pull/445
+Closed:   Accepted
+Resolved: Editor's Discretion
+----
+Issue 9.
+Summary:  Reduce redundant text about how to substantively revise a REC
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/427
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/427#issuecomment-672912287
+----
+Issue 10.
+Summary:  Remove reference to stale document
+From:     Florian Rivoal
+Comment:  https://github.com/w3c/w3process/pull/274
+Closed:   Retracted
+Resolved: https://github.com/w3c/w3process/pull/274#issuecomment-673288144
+----
+Issue 11.
+Summary:  What does the document status "discontinued" mean?
+From:     rduerr
+Comment:  https://github.com/w3c/w3process/issues/262
+Response: https://github.com/w3c/w3process/issues/262#issuecomment-692918581
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x047
+----
+Issue 12.
+Summary:  Concerns about Amended Recommendations
+From:     Andreas
+Comment:  https://github.com/w3c/w3process/issues/137
+Response: https://github.com/w3c/w3process/pull/428
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x030
+----
+Issue 13.
+Summary:  Rename Candidate Change / Proposed Change to Candidate Amendment / Proposed Amendment
+From:     Elika J. Etemad
+Comment:  https://github.com/w3c/w3process/issues/449
+Response: https://github.com/w3c/w3process/pull/451
+Closed:   Accepted
+Resolved: https://www.w3.org/2020/09/16-w3process-minutes.html#x093
+----
+Issue 14.
+Summary:  Consolidate discipline-related text
+From:     Coralie Mercier
+Comment:  https://github.com/w3c/w3process/issues/418
+Comment:  https://github.com/w3c/w3process/pull/432
+Closed:   Accepted
+Resolved: https://github.com/w3c/w3process/pull/432#issuecomment-741839423
