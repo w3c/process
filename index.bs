@@ -3689,7 +3689,9 @@ Revising a Recommendation: Substantive Changes</h5>
 
 	Alternatively,
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
-	and <a href="#transition-cr">publish as a Candidate Recommendation</a>,
+	and <a href="#revising-wd">publish as a Working Draft</a>--
+	or, if the relevant criteria are fulfilled,
+	<a href="#transition-cr">publish as a Candidate Recommendation</a>--
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
 
