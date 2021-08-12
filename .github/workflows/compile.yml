@@ -1,4 +1,4 @@
-name: Build the Process (and deploy commits on the main branch and on topic branches to gh-pages)
+name: Process Builder
 
 # Reference documentation: https://docs.github.com/en/actions/reference
 on: [push, pull_request]
@@ -6,8 +6,8 @@ on: [push, pull_request]
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    name: Build and Deploy
-    if: ${{ github.repository == 'w3c/w3process' && github.event == 'push' }}
+    name: Build and deploy to gh-pages
+    if: ${{ github.repository == 'w3c/w3process' && github.event_name == 'push' }}
     env:
       GITHUB_TOKEN: ${{ secrets.W3CGRUNTBOT_TOKEN }}
       GH_BRANCH: ${{ github.head_ref }}
@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     name: Check that the Process builds cleanly
-    if: ${{ ( github.event == 'pull' ) || ( github.repository != 'w3c/w3process' ) }}
+    if: ${{ github.repository != 'w3c/w3process' || github.event_name == 'pull_request' }}
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
