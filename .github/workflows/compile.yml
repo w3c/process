@@ -1,12 +1,13 @@
-name: Deploy commits on the main branch and on topic branches to gh-pages
+name: Build the Process (and deploy commits on the main branch and on topic branches to gh-pages)
 
 # Reference documentation: https://docs.github.com/en/actions/reference
-on: push
+on: [push, pull_request]
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    name: invoke deploy.sh
+    name: Build and Deploy
+    if: ${{ github.repository == 'w3c/w3process' && github.event == 'push' }}
     env:
       GITHUB_TOKEN: ${{ secrets.W3CGRUNTBOT_TOKEN }}
       GH_BRANCH: ${{ github.head_ref }}
@@ -24,6 +25,26 @@ jobs:
           pip install bikeshed
           bikeshed update
           echo Bikeshed is ready
-      - name: Run deploy.sh
+      - name: invoke deploy.sh
         run: ./deploy.sh
+        shell: bash
+  build:
+    runs-on: ubuntu-20.04
+    name: Check that the Process builds cleanly
+    if: ${{ ( github.event == 'pull' ) || ( github.repository != 'w3c/w3process' ) }}
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+      - name: Setup python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          architecture: x64
+      - name: Install bikeshed
+        run: |
+          pip install bikeshed
+          bikeshed update
+          echo Bikeshed is ready
+      - name: invoke compile.sh
+        run: ./compile.sh
         shell: bash
