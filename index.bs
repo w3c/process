@@ -3515,8 +3515,6 @@ Transitioning to Proposed Recommendation</h4>
 		<li>
 			<em class="rfc2119">must</em> show that all issues
 			raised during the [=Candidate Recommendation=] review period
-			other than by [=Advisory Committee representatives=]
-			acting in their formal [=AC representative=] role
 			have been [=formally addressed=],
 
 		<li>
