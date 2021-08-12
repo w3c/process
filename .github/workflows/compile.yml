@@ -1,13 +1,9 @@
-name: Pull requests and commits to other branches just build to verify
+name: Deploy commits on the main branch and on topic branches to gh-pages
 
 # Reference documentation: https://docs.github.com/en/actions/reference
-
-# See https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags
-on: [push, pull_request]
+on: push
 
 jobs:
-
-# this is an example when combining use-scruipt and use-python
   deploy:
     runs-on: ubuntu-20.04
     name: invoke deploy.sh
@@ -29,6 +25,5 @@ jobs:
           bikeshed update
           echo Bikeshed is ready
       - name: Run deploy.sh
-      # don't forget: git update-index --chmod +x ./deploy.sh
         run: ./deploy.sh
         shell: bash
