@@ -3716,8 +3716,7 @@ Revising a Recommendation: New Features</h5>
 	as they have prior to the 2020 revision of this Process.
 
 	To make changes which introduce a new feature
-	to a [=Recommendation=]
-	that was not approved for accepting new features,
+	to a [=Recommendation=] that does not [=allow new features=],
 	W3C <em class="rfc2119">must</em> create a new [=technical report=],
 	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
