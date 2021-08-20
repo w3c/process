@@ -2424,8 +2424,8 @@ Types of Technical Reports</h3>
 			The [=Recommendation Track=] process incorporates requirements for [=wide review=],
 			[=adequate implementation experience=],
 			and [=consensus=]-building,
-			and is subject to the W3C Patent Policy [[PATENT-POLICY]]
-			which grants Royalty-Free IPR licenses to implementations.
+			and is subject to the W3C Patent Policy [[PATENT-POLICY]],
+			under which participants commit to Royalty-Free IPR licenses for implementations.
 			See [[#rec-track]] for details.
 
 		<dt>Notes
