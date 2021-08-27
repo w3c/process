@@ -66,7 +66,7 @@ Boilerplate: repository-issue-tracking off
 </pre>
 <pre class=biblio>
 {
-	"PATENT-POLICY": {
+	"PATENT-POLICY-2020": {
 		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
 		"title": "The W3C 2020 Patent Policy"
 	}
@@ -2790,9 +2790,9 @@ The W3C Recommendation Track</h3>
 
 	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
 	Under the 2004 (updated in 2017) Patent Policy,
-	these correspond to “Last Call Working Draft” in the Patent Policy [[!PATENT-POLICY-2017]];
+	these correspond to “Last Call Working Draft” in the Patent Policy [[!PATENT-POLICY-2004]];
 	Under the 2020 Patent Policy,
-	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY]].
+	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY-2020]].
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
@@ -5473,7 +5473,7 @@ Changes since earlier versions</h3>
 		"title": "The W3C Patent Policy",
 		"publisher": "W3C"
 	},
-	"PATENT-POLICY-2017": {
+	"PATENT-POLICY-2004": {
 		"href": "https://www.w3.org/Consortium/Patent-Policy-20170801/",
 		"title": "The W3C 2004 Patent Policy, Updated 2017",
 		"publisher": "W3C"
