@@ -120,6 +120,11 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 	and other policies
 	incorporated by normative reference as a part of the Process Document
 	are thus equally binding.
+	These policies are written with the intent that there be no conflict,
+	but in the event that one exists,
+	the Member Agreement takes precedence over the Patent Policy,
+	which takes precedence over this Process,
+	which takes precedence over any <a href="#normative">other normative references</a>.
 
 	The Patent Policy and CEPC place additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
