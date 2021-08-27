@@ -4974,6 +4974,7 @@ Process Evolution</h2>
 	* the W3C Process (this document)
 	* the W3C Patent Policy [[!PATENT-POLICY]]
 	* the W3C Code of Ethics and Professional Conduct [[!CEPC]]
+	* The W3C Document License [[!DOC-LICENSE]]
 
 	The [=Advisory Board=] initiates review as follows:
 
