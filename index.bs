@@ -2331,9 +2331,9 @@ Appeal by Advisory Committee Representatives</h3>
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
-	for certain [=Director=]'s decisions that do not involve an [=Advisory Committee review=].
+	for certain decisions that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
-	which describe the requirements for the [=Director=]'s decision
+	which describe the requirements for the decision
 	and include
 	additional (non-reviewed) maturity levels of Recommendation Track documents,
 	group [=charter extensions=] and closures,
