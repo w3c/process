@@ -5370,7 +5370,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"BG-CG": {
-		"href": "https://www.w3.org/community/about/agreements/",
+		"href": "https://www.w3.org/community/about/process/",
 		"title": "Community and Business Group Process",
 		"publisher": "W3C"
 	},
