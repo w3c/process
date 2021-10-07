@@ -5380,8 +5380,8 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"GROUP-MAIL": {
-		"href": "https://www.w3.org/Member/Groups",
-		"title": "Group mailing lists (Member-only access)",
+		"href": "https://www.w3.org/groups",
+		"title": "Group mailing lists",
 		"publisher": "W3C"
 	},
 	"INTRO": {
