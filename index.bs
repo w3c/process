@@ -729,7 +729,7 @@ Role of the Advisory Committee</h4>
 			reviewing plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
 		<li>
-			<a href="ACReview">reviewing formal proposals</a> of the W3C:
+			<a href="#ACReview">reviewing formal proposals</a> of the W3C:
 			<a href="#CharterReview">Charter Proposals</a>,
 			<a href="#RecsPR">Proposed Recommendations</a>,
 			and <a href="#GAProcess">Proposed Process Documents</a>.
@@ -899,7 +899,7 @@ Composition of the Advisory Board</h5>
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
 	The Chair(s) are subject to ratification by secret ballot
 	by two thirds of the AB upon appointment and at the start of each AB term.
-	The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a>,
+	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Team Contact have a standing invitation
 	to all regular Advisory Board sessions.
@@ -2757,7 +2757,7 @@ The W3C Recommendation Track</h3>
 	Once review suggests the Working Group has met their requirements for a new standard,
 	including [=wide review=],
 	a [=Candidate Recommendation=] phase
-	allows the [=Working Group=] to formally collect <a href="implementation-experience">implementation experience</a>
+	allows the [=Working Group=] to formally collect <a href="#implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
 	At the end of the process,
 	the Advisory Committee reviews the mature technical report,
