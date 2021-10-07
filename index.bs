@@ -4061,7 +4061,7 @@ Elevating Group Notes to W3C Statement status</h4>
 			provide public documentation of any [=Formal Objections=].
 	</ul>
 
-	A [=Note=] specifying implementable technology <em rfc=2119>should not</em> be elevated to [=W3C Statement=] status;
+	A [=Note=] specifying implementable technology <em class=rfc2119>should not</em> be elevated to [=W3C Statement=] status;
 	if it does,
 	the request to publish as a [=Statement=] <em class=rfc2119>must</em> include rationale
 	for why it should be elevated,
@@ -4377,14 +4377,14 @@ Specifications that Reference Registries</h4>
 	related to those values.
 	All architectural and interoperability requirements
 	pertaining to [=registry entries=]
-	<em rfc=2119>must</em> be contained in the specifications that reference the registry,
+	<em class=rfc2119>must</em> be contained in the specifications that reference the registry,
 	and are therefore subject to the processes
 	(including approval and intellectual property provisions)
 	applicable to those referencing specifications.
 
 	If there are entries that must be implemented,
 	or any other such restrictions,
-	they <em rfc=2119>must</em> be defined or documented
+	they <em class=rfc2119>must</em> be defined or documented
 	in the referencing specification
 	without dependency on the registry.
 
