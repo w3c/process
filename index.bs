@@ -34,7 +34,7 @@ Previous Version: https://www.w3.org/2020/Process-20200915/
 Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
-Editor: Elika J. Etemad / fantasai, Invited Expert, http://fantasai.inkedblade.net/contact
+Editor: Elika J. Etemad / fantasai, Invited Expert, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
@@ -59,7 +59,7 @@ Status Text:
 	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
-Issue Tracking: Github (prefered) https://github.com/w3c/w3process/issues/
+Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
@@ -729,7 +729,7 @@ Role of the Advisory Committee</h4>
 			reviewing plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
 		<li>
-			<a href="ACReview">reviewing formal proposals</a> of the W3C:
+			<a href="#ACReview">reviewing formal proposals</a> of the W3C:
 			<a href="#CharterReview">Charter Proposals</a>,
 			<a href="#RecsPR">Proposed Recommendations</a>,
 			and <a href="#GAProcess">Proposed Process Documents</a>.
@@ -899,7 +899,7 @@ Composition of the Advisory Board</h5>
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
 	The Chair(s) are subject to ratification by secret ballot
 	by two thirds of the AB upon appointment and at the start of each AB term.
-	The team also appoints a <a href="https://www.w3.org/Guide/staff-contact">Team Contact</a>,
+	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Team Contact have a standing invitation
 	to all regular Advisory Board sessions.
@@ -1366,7 +1366,7 @@ Requirements for All Chartered Groups</h4>
 	and [=Formal Objections=] to decisions).
 	It is the responsibility of the [=Chair=] and [=Team Contact=]
 	to ensure that new participants are subscribed to all relevant mailing lists.
-	Refer to the list of <a href="https://www.w3.org/Member/Groups">group mailing lists</a> [[GROUP-MAIL]].
+	Refer to the list of <a href="https://www.w3.org/groups/">group mailing lists</a> [[GROUP-MAIL]].
 
 	<p>A [=Chair=] <em class="rfc2119">may</em> form task forces
 	(composed of group participants)
@@ -2757,7 +2757,7 @@ The W3C Recommendation Track</h3>
 	Once review suggests the Working Group has met their requirements for a new standard,
 	including [=wide review=],
 	a [=Candidate Recommendation=] phase
-	allows the [=Working Group=] to formally collect <a href="implementation-experience">implementation experience</a>
+	allows the [=Working Group=] to formally collect <a href="#implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
 	At the end of the process,
 	the Advisory Committee reviews the mature technical report,
@@ -4061,7 +4061,7 @@ Elevating Group Notes to W3C Statement status</h4>
 			provide public documentation of any [=Formal Objections=].
 	</ul>
 
-	A [=Note=] specifying implementable technology <em rfc=2119>should not</em> be elevated to [=W3C Statement=] status;
+	A [=Note=] specifying implementable technology <em class=rfc2119>should not</em> be elevated to [=W3C Statement=] status;
 	if it does,
 	the request to publish as a [=Statement=] <em class=rfc2119>must</em> include rationale
 	for why it should be elevated,
@@ -4377,14 +4377,14 @@ Specifications that Reference Registries</h4>
 	related to those values.
 	All architectural and interoperability requirements
 	pertaining to [=registry entries=]
-	<em rfc=2119>must</em> be contained in the specifications that reference the registry,
+	<em class=rfc2119>must</em> be contained in the specifications that reference the registry,
 	and are therefore subject to the processes
 	(including approval and intellectual property provisions)
 	applicable to those referencing specifications.
 
 	If there are entries that must be implemented,
 	or any other such restrictions,
-	they <em rfc=2119>must</em> be defined or documented
+	they <em class=rfc2119>must</em> be defined or documented
 	in the referencing specification
 	without dependency on the registry.
 
@@ -5370,7 +5370,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"BG-CG": {
-		"href": "https://www.w3.org/community/about/agreements/",
+		"href": "https://www.w3.org/community/about/process/",
 		"title": "Community and Business Group Process",
 		"publisher": "W3C"
 	},
@@ -5380,8 +5380,8 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"GROUP-MAIL": {
-		"href": "https://www.w3.org/Member/Groups",
-		"title": "Group mailing lists (Member-only access)",
+		"href": "https://www.w3.org/groups/",
+		"title": "Group mailing lists",
 		"publisher": "W3C"
 	},
 	"INTRO": {
