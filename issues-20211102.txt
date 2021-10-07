@@ -1,0 +1,9 @@
+Draft:    https://www.w3.org/2021/Process-20211102/
+Title:    W3C Process Document
+Date:     2021-11-02
+Status:   Version
+ED:       https://www.w3.org/Consortium/Process/Drafts/
+
+This is the DoC for the 2021 to 2022 cycle of the Process. It is not complete.
+
+----
