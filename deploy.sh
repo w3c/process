@@ -19,8 +19,8 @@ TOPIC_BRANCHES=(
 	"evergreen"
 	"everblue"
 	"section-6-clean-up"
-	"maintenance-2020",
-	"p2021-before-reorg",
+	"maintenance-2020"
+	"p2021-before-reorg"
 	"p2021")
 
 containsElement () {
