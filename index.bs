@@ -5307,6 +5307,11 @@ Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 Septemb
 					and who have not yet formally rejoined
 					to continue to attend meetings held within a 45-day window
 					of the [[#cfp|call for participation]].
+
+				<li>
+					Make sure that normative references of the Process with requirements on members
+					are either made through (dated) references to documents that cannot change
+					or must go through [[#GAProcess|formal member approval for updates]].
 			</ul>
 
 		<dt>Miscellaneous editorial tweaks, clarifications, and simplifications
