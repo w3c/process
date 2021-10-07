@@ -1366,7 +1366,7 @@ Requirements for All Chartered Groups</h4>
 	and [=Formal Objections=] to decisions).
 	It is the responsibility of the [=Chair=] and [=Team Contact=]
 	to ensure that new participants are subscribed to all relevant mailing lists.
-	Refer to the list of <a href="https://www.w3.org/Member/Groups">group mailing lists</a> [[GROUP-MAIL]].
+	Refer to the list of <a href="https://www.w3.org/groups/">group mailing lists</a> [[GROUP-MAIL]].
 
 	<p>A [=Chair=] <em class="rfc2119">may</em> form task forces
 	(composed of group participants)
@@ -5380,7 +5380,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"GROUP-MAIL": {
-		"href": "https://www.w3.org/groups",
+		"href": "https://www.w3.org/groups/",
 		"title": "Group mailing lists",
 		"publisher": "W3C"
 	},
