@@ -65,14 +65,6 @@ Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
 </pre>
-<pre class=biblio>
-{
-	"PATENT-POLICY-2020": {
-		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
-		"title": "The W3C 2020 Patent Policy"
-	}
-}
-</pre>
 
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
@@ -5346,6 +5338,11 @@ Changes since earlier versions</h3>
 	"PATENT-POLICY-2004": {
 		"href": "https://www.w3.org/Consortium/Patent-Policy-20170801/",
 		"title": "The W3C 2004 Patent Policy, Updated 2017",
+		"publisher": "W3C"
+	},
+	"PATENT-POLICY-2020": {
+		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
+		"title": "The W3C 2020 Patent Policy",
 		"publisher": "W3C"
 	},
 	"REPUBLISHING": {
