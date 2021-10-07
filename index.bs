@@ -53,11 +53,9 @@ Abstract:
 Status Text:
 	This document,
 	which is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>,
-	is a work in progress
-	and further changes may occur before completion of this revision cycle.
-	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
-	once the W3C Advisory Board considers it ready for adoption,
-	it will be offered for W3C Advisory Committee Review.
+	has been approved by the AC and the W3C Director
+	as detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>.
+	It is expected to be adopted as the next iteration of the W3C Process in November 2021.
 Local Boilerplate: status yes
 Issue Tracking: Github (prefered) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
