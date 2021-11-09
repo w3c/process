@@ -169,7 +169,7 @@ Introduction</h2>
 	as well as <a href="#invited-expert-wg">Invited Experts</a>
 	who can bring additional expertise or represent additional stakeholders.
 	[=Team=] representatives both contribute to the technical work
-	and help ensure the group's proper integration with the rest of W3C.
+	and help ensure each group's proper integration with the rest of W3C.
 
 	W3C’s technical standards, called [=W3C Recommendations=],
 	are developed by its [=Working Groups=];
