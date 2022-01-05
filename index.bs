@@ -672,7 +672,7 @@ Tooling for Discussions and Publications</h4>
 			Materials referenced from discussions
 			and necessary to understand them
 			should be available at a stable URL
-			at the same level of confidentiality as the discussion minutes.
+			at a level of confidentiality no stricter than the discussion minutes.
 
 			Note: The lack, or loss, of such archives does not by itself
 			invalidate an otherwise-valid decision.
