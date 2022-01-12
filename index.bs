@@ -671,7 +671,7 @@ Tooling for Discussions and Publications</h4>
 			or any equivalent fora.
 			Materials referenced from discussions
 			and necessary to understand them
-			should be available at a stable URL
+			should be available at a stable URL,
 			at a level of confidentiality no stricter than the discussion minutes.
 
 			Note: The lack, or loss, of such archives does not by itself
