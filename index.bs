@@ -669,6 +669,10 @@ Tooling for Discussions and Publications</h4>
 			This includes discussions conducted over email lists
 			or in issue-tracking services
 			or any equivalent fora.
+			Materials referenced from discussions
+			and necessary to understand them
+			should be available at a stable URL,
+			at a level of confidentiality no stricter than the discussion minutes.
 
 			Note: The lack, or loss, of such archives does not by itself
 			invalidate an otherwise-valid decision.
