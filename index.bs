@@ -117,6 +117,10 @@ Relation of Process Document to Patent Policy</h2>
 	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	is incorporated by normative reference as a part of the Process Document,
 	and is thus equally binding.
+	These policies are written with the intent that there be no conflict, 
+	but in the event that one exists, the Member Agreement takes precedence over this Process, 
+	which takes precedence over any other normative references. 
+	In matters dealing with patents, the Patent Policy takes precedence.
 
 	The Patent Policy places additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
