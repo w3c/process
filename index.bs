@@ -1880,9 +1880,11 @@ Charter Extension</h3>
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
 	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
 	a reference to the <a href="#WGCharter">charter</a>,
+	and the Group homepage
+	(which includes at least
 	the name(s) of the group's [=Chair=](s),
 	the name of the [=Team Contact=],
-	and instructions for joining the group.
+	and instructions for joining the group).
 
 	After a charter extension,
 	Advisory Committee representatives
@@ -5226,6 +5228,13 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					while [[#transition-pr|transitioning to Proposed Recommendation]];
 					just because there will be an opportunity to address them later
 					doesn't mean they shouldn't be handled at the first opportunity.
+
+				<li>
+					Various bits of information that were so far required
+					to be included in announcements of charter extensions
+					are covered in the group's homepage,
+					making it sufficient to point to that page
+					rather than having to inline everything in the announcement.
 			</ul>
 	</dl>
 
