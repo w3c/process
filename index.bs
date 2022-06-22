@@ -2788,13 +2788,12 @@ The W3C Recommendation Track</h3>
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
-	The [=Team=] <em class="rfc2119">may</em> [=Team Decision|decide=]
+	As described in [[#transition-reqs]],
+	the [=Team=] <em class="rfc2119">may</em> [=Team Decision|decide=]
 	to decline a request to advance in maturity level,
-	requiring a [=Working Group=] to conduct further work.
-	The [=Team=] <em class="rfc2119">must</em> inform the <a href="#AC">Advisory Committee</a>
-	and [=Working Group=] [=Chairs=] when a [=Working Group=]'s request
-	for a specification to advance in maturity level is declined
-	and the specification is returned to a [=Working Group=] for further work.
+	and return the specification to a [=Working Group=] for further work,
+	if it determines that the requirements for advancement
+	have not been met.
 
 <h4 id="maturity-levels">
 Maturity Levels on the Recommendation Track</h4>
@@ -3068,6 +3067,12 @@ Advancement on the Recommendation Track</h4>
 
 		<li>
 			<em class="rfc2119">must </em> obtain [=Team=] approval.
+			[=Team=] approval (a [=Team decision=])
+			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
+			or if there remain any unresolved Formal Objections.
+			If the [=Team=] rejects a [=Transition Request=]
+			it <em class=rfc2119>must</em> indicate its rationale
+			to the [=Advisory Committee=] and the [=Working Group=].
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document all new features
@@ -3120,7 +3125,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	Certain requests to re-publish a specification
 	within its current maturity level
 	(called <dfn export>Update Requests</dfn>)
-	require [=Team=] approval.
+	require extra verification.
 	For such [=update requests=], the Working Group:
 
 	<ul>
@@ -3133,6 +3138,14 @@ Updating Mature Publications on the Recommendation Track</h4>
 		<li>
 			<em class="rfc2119">must </em> obtain [=Team=] approval,
 			or fulfill the criteria for [[#streamlined-update]].
+			[=Team=] approval (a [=Team decision=]),
+			<em>should</em> be withheld if any Process requirements are not met,
+			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections.
+			If the [=Team=] rejects an [=Update Request=],
+			it must indicate its rationale to the [=Working Group=].
+			If it waives any Process requirements,
+			it must indicate its rationale to the [=AC=].
+
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
@@ -3499,7 +3512,7 @@ Transitioning to Proposed Recommendation</h4>
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by the [=Team=],
+			except where an exception is approved by a [=Team Decision=],
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
