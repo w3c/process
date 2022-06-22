@@ -2791,9 +2791,7 @@ The W3C Recommendation Track</h3>
 
 	The [=Team=] <em class="rfc2119">may</em> [=Team Decision|decide=]
 	to decline a request to advance in maturity level,
-	requiring a [=Working Group=] to conduct further work,
-	and <em class="rfc2119">may</em> require
-	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
+	requiring a [=Working Group=] to conduct further work.
 	The [=Team=] <em class="rfc2119">must</em> inform the <a href="#AC">Advisory Committee</a>
 	and [=Working Group=] [=Chairs=] when a [=Working Group=]'s request
 	for a specification to advance in maturity level is declined
@@ -3788,6 +3786,18 @@ Incorporating Candidate Amendments</h5>
 	can be incorporated into the normative [=Recommendation=] text.
 	(Thus if incorporation of a [=proposed amendment=] is postponed,
 	it may need to be included in multiple Last Calls for Review of Proposed Amendments.)
+
+<h4 id=rec-track-regression>
+Regression on the Recommendation Track</h4>
+
+	A [=Working Group=] may republish a [=Recommendation-track=] [=technical report=] at a lower <a href="#maturity-levels">maturity level</a>
+	by fulfilling the requirements to transition to that maturity level,
+	as described above.
+
+	Additionally,
+	the [=Team=] <em class="rfc2119">may</em> return
+	the [=technical report=] to a lower <a href="#maturity-levels">maturity level</a>
+	in response to [=wide review=] or a [=formal objection=].
 
 <h4 id="tr-end">
 Retiring Recommendation Track Documents</h4>
