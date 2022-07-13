@@ -5234,11 +5234,16 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					The [=CEO=] rather than the [=Director=] is charged with [[#discipline|disciplinary questions]].
 
 				<li>
-
 					The [=Team=] rather than the [=Director=] is charged with handling [=Member Submission=] requests.
+
 				<li>
 					The [=Team=] rather than the [=Director=] is charged with handling various participation-related judgement calls
 					(see [[#MemberConsortia]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
+
+				<li>
+					The [=Team=] rather than the [=Director=] is charged with verification that the various expectations of the Process
+					have been fulfilled for [=Transition Requests=] and [=Update Requests=]
+
 			</ul>
 		<dt>
 			Other miscellaneous changes
