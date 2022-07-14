@@ -2282,12 +2282,16 @@ Investigation and Mediation by the Team</h4>
 	the individual withdraws the objection and the disposition process terminates.
 
 	Otherwise,
-	within at most 45 days of the [=Formal Objection=] being registered,
-	the [=Team=] must present its conclusions (or lack thereof)
-	to the [=W3C Council=].
+	within at most 45 days of a [=Formal Objection=] being registered,
+	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=]
+	and prepare a report of its findings
+	and attempts to find consensus.
 
 <h4 id=council>
 The W3C Council</h4>
+
+<h5 id=council-composition>
+Council Composition</h5>
 
 	The <dfn local-lt="Council">W3C Council</dfn> consists of the following members,
 	with the exception of any who are [=dismissed=] or who formally [=renounce=] their position:
@@ -2302,10 +2306,28 @@ The W3C Council</h4>
 	and is not changed by any [=AB=] or [=TAG=] elections
 	occurring before that Council has reached a conclusion.
 	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
-	the [=Chair of the Council=] <em class="rfc2119">should</em> dissolve the [=Council=]
+	the [=W3C Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
 
 	A [=Team=] member is assigned to support the Council.
+
+<h5 id=council-delegation>
+Extraordinary Delegation</h5>
+
+	In extraordinary cases,
+	if they feel the [=Council=] would not be the appropriate deciding body,
+	a member of the [=Team=] (particularly the Legal Counsel) or
+	any potential Council member
+	may suggest that the decision for that specific Formal Objection be delegated
+	to the W3C Board of Directors,
+	to an officer of its corporation (such as the Legal Counsel),
+	or to one or more specific individuals from the [=Team=].
+	The potential Council members then <em class=rfc2119>may</em> confidentially discuss
+	and <em class=rfc2119>must</em> vote
+	whether to delegate the decision for that specific [=Formal Objection=].
+	A decision to delegate <em class=rfc2119>must</em> be supported by a two-thirds supermajority vote
+	(i.e., at least twice as many votes in favor as against).
+	Delegation in such cases cannot be later revoked.
 
 <h5 id=council-participation>
 Council Participation, Dismissal, and Renunciation</h5>
@@ -2367,64 +2389,60 @@ Council Participation, Dismissal, and Renunciation</h5>
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
 
-	The <dfn local-lt="Chair of the Council">Chair of the W3C Council</dfn> for a particular topic is chosen by its members,
+<h5 id=council-chairing>
+Council Chairing</h5>
+
+	The <dfn lt="W3C Council Chair">Chair</dfn> of each W3C Council is chosen by its members,
 	by consensus if possible,
 	falling back to a vote if that fails.
-	The chair must be a member of the [=W3C Council=].
+	The chair must be a member of that [=W3C Council=].
 
-	In extraordinary cases,
-	if the [=Council=] determines that it would not be the appropriate body to handle a particular [=Formal Objection=],
-	it <em class=rfc2119>may</em> decide by a ⅔ supermajority vote
-	(i.e. twice as many votes in favor as against)
-	to delegate the decision for that specific [=Formal Objection=]
-	to the W3C Board of Directors,
-	to an officer of its corporation (such as the Legal Counsel),
-	or to one or more specific individuals from the [=Team=].
-	Delegation in such cases cannot be later revoked.
+	<p id=council-convention>
+	Upon appointment of the [=W3C Council Chair=],
+	the [=W3C Council=] is considered to be convened.
 
-	Otherwise, having reviewed the information gathered by the [=Team=] and its recommendation,
+<h5 id=council-deliberations>
+Council Deliberations</h5>
+
+	Having reviewed the information gathered by the [=Team=],
 	and after sufficient sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
 	When [=sustaining=] an objection,
 	it <em class=rfc2199>should</em> recommend a way forward.
 
-	The Council <em class=rfc2119>may</em> form subsets for deliberation and to return with a recommendation,
+	Individuals registering [=Formal Objections=] often support their reasoning
+	with several arguments.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
+	even if it agrees with some of the supportive arguments.
+
+	The Council <em class=rfc2119>may</em> form sub-groups for deliberation,
+	who may return with a recommendation,
 	but the full Council issues the final decision.
-	Decision of the [=W3C Council=] should be unanimous.
-	If despite careful deliberation
+	The decision of the [=W3C Council=] <em class=rfc2119>should</em> be unanimous,
+	and <em class=rfc2119>may</em> be issued under consensus.
+	However, if despite careful deliberation
 	the [=W3C Council=] is unable to reach consensus,
-	the [=Chair of the W3C Council=] may instead resort to voting.
+	the [=W3C Council Chair=] may instead resort to voting.
 	In that case,
 	the decision is made by simple majority,
-	with the [=Chair of the W3C Council=] breaking ties.
-
-	If the [=Council=] needs to resort to a vote,
-	and if two members of the council who share the same affiliation cast an identical ballot,
+	with the [=W3C Council Chair=] breaking any tie.
+	In case of a vote,
+	if two members of the Council who share the same affiliation cast an identical ballot,
 	then their ballots count as a one vote,
 	not two.
 
-	If the [=W3C Council=] is unable to come to a conclusion within 90 days of being initially convened for a particular topic,
-	the [=Chair of the W3C Council=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
-	and of the status of the discussions.
-	The [=Chair of the W3C Council=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
-
-	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
-	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> have the same level of confidenntiality
-	as the object of the [=Formal Objection=].
-	A rationale supporting the decision <em class=2119>must</em> be provided as well.
 	In the case of non-unanimous decisions,
 	members of the [=W3C Council=] who disagree with the decision
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
 	explaining the reason for their disagreement.
-	[=Minority Opinions=] <em class=rfc2119>must</em> be included in the announcement of the decision.
 
-	Individuals registering [=Formal Objections=] often support their reasoning
-	with several arguments.
-	In the rationale explaining its decision,
-	the [=W3C Council=] must address each point.
-	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
-	even if it agrees with some of the supportive arguments.
+	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
+
+	If the [=W3C Council=] is unable to come to a conclusion within 90 days of being <a href="#council-convention">convened</a>,
+	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
+	and of the status of the discussions.
+	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
 
 	Issue: the paragraph below is a workaround to make "consensus" work in this context.
 	It works, but it's a bit of a kludge, and wouldn't be needed if we adopted
@@ -2443,8 +2461,29 @@ Council Participation, Dismissal, and Renunciation</h5>
 	opposes a tentative conclusion,
 	even though they cannot register a [=Formal Objection=].
 
-	[=Advisory Committee representatives=] may initiate an [=Advisory Committee Appeal=]
-	of the [=W3C Council=]'s decision.
+<h5 id=council-decision>
+Council Decision Report</h5>
+
+	The [=Council=] terminates by issuing a <dfn>Council Report</dfn>,
+	which:
+	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection.
+	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
+		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
+	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
+	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
+	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
+	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
+	* <em class=rfc2119>must not</em> report individual votes or vote totals, if any vote was held.
+	* <em class=rfc2119>must not</em> attribute any point to any individual on the Council.
+
+	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> have the same level of confidentiality
+	as the object of the [=Formal Objection=].
+
+<h5 id=council-appeals>
+Appealing Council Decisions</h5>
+
+	[=Advisory Committee representatives=] <em class=rfc2119>may</em> initiate an [=Advisory Committee Appeal=]
+	of a Council decision issued in a [=Council Report=].
 
 <h3 id="ACReview">
 Advisory Committee Reviews</h3>
