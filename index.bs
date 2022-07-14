@@ -146,7 +146,7 @@ Conformance and specialized terms</h2>
 	and readers are reminded that the ordinary English definitions are insufficient
 	for the purpose of understanding this document.
 
-<nav data-fill-with="table-of-contents" id="toc"></nav>
+<nav data-fill-with="table-of-contents"></nav>
 <main>
 
 <h2 id="Intro">
