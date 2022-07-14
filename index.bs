@@ -2282,7 +2282,7 @@ Investigation and Mediation by the Team</h4>
 	the individual withdraws the objection and the disposition process terminates.
 
 	Otherwise,
-	within at most 45 days of a [=Formal Objection=] being registered,
+	within at most 90 days of a [=Formal Objection=] being registered,
 	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=]
 	and prepare a report of its findings
 	and attempts to find consensus.
@@ -2439,7 +2439,7 @@ Council Deliberations</h5>
 
 	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
 
-	If the [=W3C Council=] is unable to come to a conclusion within 90 days of being <a href="#council-convention">convened</a>,
+	If the [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
 	and of the status of the discussions.
 	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
