@@ -2306,6 +2306,13 @@ The W3C Council</h4>
 	the [=Chair of the Council=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
 
+Issue: The following text about recusals is does not relfect the latest thinking.
+However, the latest thinking isn't fully stabilized yet,
+and thus not ready to replace this.
+See <a href="https://github.com/w3c/w3process/issues/278">https://github.com/w3c/w3process/issues/278</a>
+and in particular <a href="https://github.com/w3c/w3process/issues/278#issuecomment-995868961">https://github.com/w3c/w3process/issues/278#issuecomment-995868961</a>,
+as well as <a href="https://docs.google.com/document/d/1lB8Q_pvqxfN204FQHZ8D2HObxfo36qnguif9mGpEJTU/edit#">https://github.com/w3c/w3process/issues/278#issuecomment-995868961</a>.
+
 	No one shall be both a party and an adjudicator.
 	The person making either the decision being objected to or appealed,
 	and the person making the objection or appeal,
