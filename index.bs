@@ -2877,7 +2877,7 @@ Maturity Levels on the Recommendation Track</h4>
 					in the W3C Patent Policy.
 
 					Publication as a [=Candidate Recommendation Snapshot=]
-					requires approval of either a [=Transition Request=]
+					requires verification of either a [=Transition Request=]
 					(for the first [=Candidate Recommendation=] publication from another maturity level)
 					or an [=Update Request=]
 					(for subsequent [=Candidate Recommendation Snapshots=]).
@@ -3066,8 +3066,8 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Team=] approval.
-			[=Team=] approval (a [=Team decision=])
+			<em class="rfc2119">must </em> obtain [=Team=] verification.
+			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections.
 			If the [=Team=] rejects a [=Transition Request=]
@@ -3107,11 +3107,11 @@ Advancement on the Recommendation Track</h4>
 
 	For a [=First Public Working Draft=] there is no “previous maturity level”,
 	so many requirements do not apply,
-	and approval is normally fairly automatic.
+	and verification is normally fairly straightforward.
 	For later stages,
 	especially transition to [=Candidate Recommendation|Candidate=] or [=Proposed Recommendation=],
 	there is usually a formal review meeting
-	to ensure the requirements have been met before approval is given.
+	to verify that the requirements have been met.
 
 	[=Transition Requests=] to [=First Public Working Draft=]
 	or [=Candidate Recommendation=]
@@ -3136,9 +3136,9 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Team=] approval,
+			<em class="rfc2119">must </em> obtain [=Team=] verification,
 			or fulfill the criteria for [[#streamlined-update]].
-			[=Team=] approval (a [=Team decision=]),
+			[=Team=] verification (a [=Team decision=]),
 			<em>should</em> be withheld if any Process requirements are not met,
 			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections.
 			If the [=Team=] rejects an [=Update Request=],
@@ -3181,10 +3181,10 @@ Updating Mature Publications on the Recommendation Track</h4>
 	</ul>
 
 	There is usually a formal review meeting
-	to ensure the requirements have been met before [=Team=]'s approval is given.
+	to verify that the requirements have been met.
 
-	Note: [=Update request=] approval is expected to be fairly simple
-	compared to getting approval for a [=transition request=].
+	Note: [=Update request=] verification is expected to be fairly simple
+	compared to verification of a [=transition request=].
 
 	The [=Team=] <em class="rfc2119">must</em> announce the publication
 	of the revised specification
@@ -3200,7 +3200,7 @@ Streamlined Publication Approval</h5>
 	and to make self-evaluation practical.
 
 	In order to streamline the publication process in non-controversial cases,
-	approval to an [=update request=] is automatically granted without formal review
+	verification of an [=update request=] is automatically granted without formal review
 	when the following <em>additional</em> criteria are fulfilled:
 
 	<ul>
@@ -3253,7 +3253,7 @@ Streamlined Publication Approval</h5>
 			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
 			as evidenced by passing tests of a test suite
 			providing extensive coverage of the changes,
-			or an alternative streamlined approval implementation requirement
+			or an alternative streamlined verification implementation requirement
 			described in the [=working Group=] charter has been met.
 
 			Note: This is stricter than the general criteria for [=adequate implementation experience=].
@@ -3367,7 +3367,7 @@ Transitioning to Candidate Recommendation</h4>
 	</ul>
 
 	The first Candidate Recommendation publication
-	after approval of a [=Transition Request=]
+	after verification of having met the requirements for a [=Transition Request=]
 	is always a [=Candidate Recommendation Snapshot=].
 	The [=Team=] <em class="rfc2119">must</em> announce
 	the publication of the [=Candidate Recommendation Snapshot=]
@@ -4343,7 +4343,7 @@ Updating Registry Tables</h4>
 	(not even Working Group consensus, unless this is required by the [=registry definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor Exclusion Opportunities,
-	and do not require approval via an [=update request=],
+	and do not require verification via an [=update request=],
 	even for [=technical reports=] at maturities where this would normally be expected.
 	Such publications can be made
 	even in the absence of a [=Working Group=] chartered to maintain the registry
