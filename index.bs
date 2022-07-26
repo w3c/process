@@ -2320,7 +2320,7 @@ Appeal by Advisory Committee Representatives</h3>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
 	an <dfn export lt="Advisory Committee Appeal|AC Appeal| Appeal">Advisory Committee Appeal</dfn>.
 	These [=W3C decisions=] include those related to group creation and modification,
-	and transitions to new maturity levels for Recommendation Track documents
+	and transitions to new maturity stages for Recommendation Track documents
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
@@ -2328,7 +2328,7 @@ Appeal by Advisory Committee Representatives</h3>
 	These cases are identified in the sections
 	which describe the requirements for the decision
 	and include
-	additional (non-reviewed) maturity levels of Recommendation Track documents,
+	additional (non-reviewed) maturity stages of Recommendation Track documents,
 	group [=charter extensions=] and closures,
 	and [=Memoranda of Understanding=].
 
@@ -2463,7 +2463,7 @@ Publication of Technical Reports</h4>
 	at their original address in their original form.
 
 	Every document published as part of the technical report development process
-	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-levels">maturity level</a>,
+	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-stages">maturity stage</a>,
 	and <em id="DocumentStatus" class="rfc2119">must</em> include information about the status of the document.
 	This status information:
 
@@ -2726,7 +2726,7 @@ Candidate Amendments</h4>
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
-	In addition to their actual [[#maturity-levels|maturity level]],
+	In addition to their actual [[#maturity-stages|maturity stage]],
 	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
 	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
@@ -2790,13 +2790,13 @@ The W3C Recommendation Track</h3>
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
 	As described in [[#transition-reqs]],
-	the [=Team=] will decline a request to advance in maturity level
+	the [=Team=] will decline a request to advance in maturity stage
 	and return the specification to a [=Working Group=] for further work
 	if it determines that the requirements for advancement
 	have not been met.
 
-<h4 id="maturity-levels">
-Maturity Levels on the Recommendation Track</h4>
+<h4 id="maturity-stages" oldids="maturity-levels">
+Maturity Stages on the Recommendation Track</h4>
 
 	<dl>
 		<dt>
@@ -2878,7 +2878,7 @@ Maturity Levels on the Recommendation Track</h4>
 
 					Publication as a [=Candidate Recommendation Snapshot=]
 					requires verification of either a [=Transition Request=]
-					(for the first [=Candidate Recommendation=] publication from another maturity level)
+					(for the first [=Candidate Recommendation=] publication from another maturity stage)
 					or an [=Update Request=]
 					(for subsequent [=Candidate Recommendation Snapshots=]).
 				<dt>
@@ -3057,7 +3057,7 @@ Implementation Experience</h4>
 Advancement on the Recommendation Track</h4>
 
 	For <em>all</em> requests to advance a specification
-	to a new maturity level
+	to a new maturity stage
 	(called <dfn id=trans-req export>Transition Requests</dfn>),
 	the Working Group:
 
@@ -3089,7 +3089,7 @@ Advancement on the Recommendation Track</h4>
 			and <em class="rfc2119">may</em> document the details of such changes.
 		<li>
 			<em class="rfc2119">must</em> [=formally address=] all issues
-			raised about the document since the previous <a href="#maturity-levels">maturity level</a>.
+			raised about the document since the previous <a href="#maturity-stages">maturity stage</a>.
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
@@ -3105,7 +3105,7 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">should</em> provide information about implementations known to the [=Working Group=].
 	</ul>
 
-	For a [=First Public Working Draft=] there is no “previous maturity level”,
+	For a [=First Public Working Draft=] there is no “previous maturity stage”,
 	so many requirements do not apply,
 	and verification is normally fairly straightforward.
 	For later stages,
@@ -3123,7 +3123,7 @@ Advancement on the Recommendation Track</h4>
 Updating Mature Publications on the Recommendation Track</h4>
 
 	Certain requests to re-publish a specification
-	within its current maturity level
+	within its current maturity stage
 	(called <dfn export>Update Requests</dfn>)
 	require extra verification.
 	For such [=update requests=], the Working Group:
@@ -3669,7 +3669,7 @@ Revising a Recommendation: Editorial Changes</h5>
 	A [=Working Group=],
 	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
-	to make this class of change without passing through earlier maturity levels.
+	to make this class of change without passing through earlier maturity stages.
 	(See <a href="#correction-classes">class 2 changes</a>.)
 
 	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
@@ -3802,14 +3802,14 @@ Incorporating Candidate Amendments</h5>
 <h4 id=rec-track-regression>
 Regression on the Recommendation Track</h4>
 
-	A [=Working Group=] may republish a [=Recommendation-track=] [=technical report=] at a lower <a href="#maturity-levels">maturity level</a>
-	by fulfilling the requirements to transition to that maturity level,
+	A [=Working Group=] may republish a [=Recommendation-track=] [=technical report=] at a lower <a href="#maturity-stages">maturity stage</a>
+	by fulfilling the requirements to transition to that maturity stage,
 	as described above.
 
 	Additionally,
 	with the approval of the [=TAG=] and the [=AB=]
 	the [=Team=] <em class="rfc2119">may</em> return
-	the [=technical report=] to a lower <a href="#maturity-levels">maturity level</a>
+	the [=technical report=] to a lower <a href="#maturity-stages">maturity stage</a>
 	in response to [=wide review=] or a [=formal objection=].
 
 <h4 id="tr-end">
@@ -4380,8 +4380,8 @@ Registry Data Reports</h4>
 			(Changes to these parts are deemed to be [=editorial changes=]).
 	</ul>
 
-	[=Registry Data Reports=] do not have maturity levels in and of themselves;
-	The maturity level of the [=registry=] whose [=registry data|data=] they record
+	[=Registry Data Reports=] do not have maturity stages in and of themselves;
+	The maturity stage of the [=registry=] whose [=registry data|data=] they record
 	is that of the [=technical report=] holding the [=registry definition=].
 
 	Anytime a change is made to a [=registry definition=],
@@ -4450,7 +4450,7 @@ Switching Tracks</h3>
 	</ul>
 
 	[=Technical reports=] that switch tracks start at
-	their new track’s initial maturity level,
+	their new track’s initial maturity stage,
 	while retaining any established identity (url, shortname, etc.).
 
 <h3 id="further-reading">
