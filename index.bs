@@ -1955,7 +1955,7 @@ Consensus</h4>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
-	Note: The Director, CEO, and COO have the role of
+	Note: The Director and CEO have the role of
 	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
