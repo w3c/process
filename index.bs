@@ -4687,10 +4687,18 @@ Liaisons</h2>
 	and something called a “Memorandum of Understanding”
 	might not be an [=MoU=] for the purposes of the Process.
 
-	Before signing the MoU,
-	the Team <em class="rfc2119">must</em> inform
-	the [=Advisory Committee=] of the intent to sign
-	and make the MoU available for [=Advisory Committee review=];
+	When considering an MoU
+	(before the decision to sign is made)
+	the Team <em class="rfc2119">should</em> provide
+	an explanation as to why W3C would benefit from signing this MoU,
+	along with a draft of the proposed MoU,
+	to the [=Advisory Committee=] for review and discussion.
+	After addressing any comments,
+	if the [=Team Decision|Team decides=] to proceed with signing the MoU,
+	the Team <em class="rfc2119">must</em> announce to
+	the [=Advisory Committee=] the intent to sign,
+	along with the final text of the MoU
+	and an explanation of rationale.
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to sign the [=MoU=].
 	Unless an [=appeal=] rejects the proposal to sign an MoU,
