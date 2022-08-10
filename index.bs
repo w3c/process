@@ -4685,7 +4685,7 @@ Liaisons</h2>
 	and/or considerations for confidentiality and specific IPR.
 	The agreement may be called something other than a “Memorandum of Understanding”,
 	and something called a “Memorandum of Understanding”
-	may not be an [=MoU=] for the purposes of the Process.
+	might not be an [=MoU=] for the purposes of the Process.
 
 	Before signing the MoU,
 	the Team <em class="rfc2119">must</em> inform
