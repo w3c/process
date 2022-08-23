@@ -4688,17 +4688,17 @@ Liaisons</h2>
 	might not be an [=MoU=] for the purposes of the Process.
 
 	When considering an MoU
-	(before the decision to sign is made)
+	(i.e., before the decision whether to sign is made),
 	the Team <em class="rfc2119">should</em> provide
-	an explanation as to why W3C would benefit from signing this MoU,
-	along with a draft of the proposed MoU,
-	to the [=Advisory Committee=] for review and discussion.
+	the [=Advisory Committee=] with a draft of the proposed MoU,
+	along with an explanation of how W3C would benefit from signing this MoU,
+	for their review and discussion.
 	After addressing any comments,
 	if the [=Team Decision|Team decides=] to proceed with signing the MoU,
-	the Team <em class="rfc2119">must</em> announce to
-	the [=Advisory Committee=] the intent to sign,
-	along with the final text of the MoU
-	and an explanation of rationale.
+	the Team <em class="rfc2119">must</em> announce the intent to sign,
+	and provide the final text of the MoU
+	with an explanation of signing rationale, to
+	the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to sign the [=MoU=].
 	Unless an [=appeal=] rejects the proposal to sign an MoU,
