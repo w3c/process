@@ -1003,9 +1003,9 @@ Composition of the Technical Architecture Group</h5>
 	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
-	The terms of TAG participants are for <span class="time-interval">two years</span>.
-	Terms are staggered so that each year three elected terms,
-	and either one or two appointed terms expire.
+	The terms of TAG participants last for <span class="time-interval">two years</span>.
+	Terms are staggered so that three elected terms
+	and either one or two appointed terms expire each year.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
@@ -1041,7 +1041,7 @@ Participation in Elected Groups</h4>
 Expectations for Elected Groups Participants</h5>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
-	they are elected by the Membership and appointed
+	they are elected by the Membership and appointed by the [=Team=]
 	with the expectation that they will use their best judgment
 	to find the best solutions for the Web,
 	not just for any particular network,
@@ -1249,7 +1249,7 @@ Technical Architecture Group Appointments</h5>
 	selection begins once the results of the elections are known,
 	and the [=Team=] <em class=rfc2119>should</em> announce the ratified appointment(s)
 	no later than the start of the regularly scheduled term.
-	When an appointed seat is vacated out of a regularly scheduled election,
+	When an appointed seat is vacated outside of a regularly scheduled election,
 	the [=Team=] <em class=rfc2119>should</em> seek to appoint a replacement
 	unless a regular Call for Nominations is scheduled within 2 months,
 	and it <em class=rfc2119>must</em> announce the ratified appointment
