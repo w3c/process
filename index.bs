@@ -2303,7 +2303,7 @@ as well as <a href="https://docs.google.com/document/d/1lB8Q_pvqxfN204FQHZ8D2HOb
 	if the [=Council=] determines that it would not be the appropriate body to handle a particular [=Formal Objection=],
 	it <em class=rfc2119>may</em> decide by a ⅔ supermajority vote
 	(i.e. twice as many votes in favor as against)
-	to defer the decision for that specific [=Formal Objection=]
+	to delegate the decision for that specific [=Formal Objection=]
 	to the W3C Board of Directors,
 	to an officer of its corporation (such as the Legal Counsel),
 	or to one or more specific individuals from the [=Team=].
