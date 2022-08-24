@@ -1229,7 +1229,15 @@ Technical Architecture Group Appointments</h5>
 
 	The constraints for appointment to the [=TAG=] are
 	the same as for elected participants
-	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]).
+	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]),
+	with the additional constraint that
+	a person <em class=rfc2119>must not</em> be appointed
+	for more than two <em>consecutive</em> terms.
+	(Partial terms used to fill a vacated seat do not count towards this limit.)
+
+	Note: Individuals who have reached the limit of two consecutive appointed terms
+	<em class=rfc2119>may</em> freely run for election
+	if they wish to continue serving on the [=TAG=].
 
 	The [=Team=]'s choice of appointee(s)
 	is subject to ratification by secret ballot
