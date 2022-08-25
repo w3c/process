@@ -2381,7 +2381,17 @@ Council Participation, Dismissal, and Renunciation</h5>
 	falling back to a vote if that fails.
 	The chair must be a member of the [=W3C Council=].
 
-	Having reviewed the information gathered by the [=Team=] and its recommendation,
+	In extraordinary cases,
+	if the [=Council=] determines that it would not be the appropriate body to handle a particular [=Formal Objection=],
+	it <em class=rfc2119>may</em> decide by a ⅔ supermajority vote
+	(i.e. twice as many votes in favor as against)
+	to delegate the decision for that specific [=Formal Objection=]
+	to the W3C Board of Directors,
+	to an officer of its corporation (such as the Legal Counsel),
+	or to one or more specific individuals from the [=Team=].
+	Delegation in such cases cannot be later revoked.
+
+	Otherwise, having reviewed the information gathered by the [=Team=] and its recommendation,
 	and after sufficient sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
