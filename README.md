@@ -13,10 +13,6 @@ Discussion happens in the context of the W3C Process Community Group
 [main](https://github.com/w3c/w3process/tree/main) branch:
 [Preview](https://www.w3.org/Consortium/Process/Drafts/)
 
-[director-free](https://github.com/w3c/w3process/tree/director-free) branch:
-[Preview](https://www.w3.org/Consortium/Process/Drafts/director-free/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fdirector-free)
-
 ----
 ## Useful searches
 
