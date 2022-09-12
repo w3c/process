@@ -5293,6 +5293,14 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					The [=Team=] rather than the [=Director=] is charged with verification that the various expectations of the Process
 					have been fulfilled for [=Transition Requests=] and [=Update Requests=]
 
+				<li>
+					The [=Team=] rather than the [=Director=] is charged with
+					[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
+					subject to ratification by the [=TAG=].
+
+				<li>
+					There is no longer an ex-officio seat for the Director on the [=TAG=],
+					but Tim Berners-Lee personnally does continue to hold one.
 			</ul>
 		<dt>
 			Other miscellaneous changes
@@ -5315,6 +5323,13 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					are covered in the group's homepage,
 					making it sufficient to point to that page
 					rather than having to inline everything in the announcement.
+
+				<li>
+					The [=TAG=] now picks its own chair(s).
+
+				<li>
+					Appointed [=TAG=] seats now have consecutive term limits.
+
 			</ul>
 	</dl>
 
