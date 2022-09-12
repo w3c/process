@@ -5300,7 +5300,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					There is no longer an ex-officio seat for the Director on the [=TAG=],
-					but Tim Berners-Lee personnally does continue to hold one.
+					but Tim Berners-Lee personally does continue to hold one.
 			</ul>
 		<dt>
 			Other miscellaneous changes
