@@ -400,7 +400,6 @@ The W3C Team</h3>
 	publication of <a href="#Reports">technical reports</a>,
 	and chartering new Groups;
 	appointing group <a href="#GeneralChairs">Chairs</a>,
-	adjudicating as "tie-breaker" for [=Group decision appeals=],
 	and deciding on the outcome of formal objections;
 	the Director is generally Chair of the <a href="#TAG">TAG</a>.
 
