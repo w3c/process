@@ -2006,7 +2006,7 @@ Consensus</h4>
 		<dd>
 			A substantial number of individuals in the set
 			support the decision
-			and nobody in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+			and there is no sustained objection from anybody in the set.
 			Individuals in the set <em class="rfc2119">may</em> abstain.
 			Abstention is either an explicit expression of no opinion
 			or silence by an individual in the set.
@@ -2019,8 +2019,15 @@ Consensus</h4>
 
 		<dt><dfn id="def-Dissent">Dissent</dfn>:
 		<dd>
-			At least one individual in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+			At least one individual in the set sustains an objection.
 	</dl>
+
+	Note: A [=Formal Objection=] always indicates sustained disagreement,
+	but isn't necessary to express [=dissent=].
+	Disagreement with a proposed decision,
+	however, does not always rise to the level of sustained objection,
+	as individuals could be willing to accept a decision
+	while expressing disagreement.
 
 	By default, the set of individuals eligible to participate in a decision is the set of group participants.
 	The Process Document does not require a quorum for decisions
@@ -2065,7 +2072,6 @@ Managing Dissent</h4>
 	In some cases, even after careful consideration of all points of view,
 	a group might find itself unable to reach consensus.
 	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
-	(i.e., there is at least one <a href="#FormalObjection">Formal Objection</a>)
 	so that the group can make progress
 	(for example, to produce a deliverable in a timely manner).
 	Dissenters cannot stop a group's work
@@ -2081,6 +2087,8 @@ Managing Dissent</h4>
 	the [=Chair=] is expected to be aware of which participants work for the same
 	(or <a href="#MemberRelated">related</a>)
 	Member organizations and weigh their input accordingly.
+
+	Note: Dissenters can escalate their sustained objection to a decision by registering a [=Formal Objection=].
 
 <h4 id="Votes">
 Deciding by Vote</h4>
@@ -2275,6 +2283,10 @@ Start of a Review Period</h4>
 	and includes other practical information.
 	Each Member organization <em class="rfc2119">may</em> send one review,
 	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
+
+	For clarity,
+	in the context of an [=AC Review=],
+	[=dissent=] <em class=rfc2119>must</em> be expressed as a [=Formal Objection=].
 
 	The Team <em class="rfc2119">must</em> provide two channels for Advisory Committee review comments:
 
