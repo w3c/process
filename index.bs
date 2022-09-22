@@ -2213,56 +2213,45 @@ Reopening a Decision When Presented With New Information</h3>
 	that a decision has been reopened,
 	and <em class="rfc2119">must</em> do so upon request from a group participant.
 
-<h3 id="WGAppeals">
-[=Chair Decision=] and [=Group Decision=] Appeals</h3>
-
-	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
-	they <em class="rfc2119">may</em> ask that the decision be confirmed or denied
-	(for representatives of a Member organization, via their Advisory Committee representative).
-	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
-	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
-	The participants <em class="rfc2119">should</em> also make their requests known
-	to the <a href="#TeamContact">Team Contact</a>.
-	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
-	when a group participant has also raised concerns about due process.
-
-	Any requests to confirm a decision
-	<em class="rfc2119">must</em> include a summary of
-	the issue (whether technical or procedural),
-	decision,
-	and rationale for the objection.
-	All counter-arguments,
-	rationales,
-	and decisions <em class="rfc2119">must</em> be recorded.
-
-	The procedure for handling [=Group Decision Appeals=]
-	and [=Chair Decision Appeals=]
-	is the same as for [=Formal Objections=].
-
-	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
-
-<h3 id="WGArchiveMinorityViews">
+<h3 id="registering-objections" oldids="WGArchiveMinorityViews, WGAppeals, wg-decision-appeal, chair-decision-appeal">
 Registering Formal Objections</h3>
 
 	In the W3C process,
-	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
-	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
-	is one that the reviewer requests that the W3C consider
-	as part of evaluating the related decision
-	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
+	any individual <em class="rfc2119">may</em> appeal a decision
+	by registering a <dfn id="FormalObjection">Formal Objection</dfn> with the [=Team=]
+	when they believe that their concerns are not being duly considered.
+	Group participants <em class="rfc2119">should</em> inform
+	their <a href="#TeamContact">Team Contact</a> as well as the group's Chair(s).
+	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
+	when a group participant has also raised concerns about due process.
 
 	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
 	Formal Objections receive formal consideration and a formal response.
-	The word “objection” used alone has ordinary English connotations.
+	The word “objection” used alone has its ordinary English connotations.
 
-	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
+	A [=Formal Objection=]
+	<em class="rfc2119">must</em> include a summary of
+	the issue (whether technical or procedural),
+	the decision being appealed,
+	and the rationale for the objection.
+	It <em class="rfc2119">should</em> cite technical arguments
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
 	[=Formal Objections=] that do not provide substantive arguments
 	or rationale are unlikely to receive serious consideration.
+	Counter-arguments,
+	rationales,
+	and decisions <em class="rfc2119">should</em> also be recorded.
 
-	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
-	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
+	A record of each [=Formal Objection=] regarding a publicly-available document
+	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>.
+	A Call for Review to the Advisory Committee
+	<em class="rfc2119">must</em> identify any [=Formal Objections=]
+	related to that review.
+
+	Note: [=Formal Objections=] against matter in a [=technical report=]
+	are required to be addressed before <a href="#rec-advance">requesting advancement</a>
+	of the [=technical report=].
 
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
