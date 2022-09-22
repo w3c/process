@@ -2482,8 +2482,12 @@ Council Decision Report</h5>
 	* <em class=rfc2119>must not</em> report individual votes or vote totals, if any vote was held.
 	* <em class=rfc2119>must not</em> attribute any point to any individual on the Council.
 
-	Decisions of the [=W3C Council=] <em class=rfc2119>must</em> have the same level of confidentiality
-	as the object of the [=Formal Objection=].
+	The [=Team=] <em class=rfc2119>must</em> maintain a public page on the W3C website
+	indexing all completed [=Council Reports=].
+	If a Council decision is later overturned by an [=AC Appeal=],
+	this <em class=rfc2119>must</em> also be mentioned.
+	[=Council Reports=] <em class=rfc2119>must</em> have the same level of confidentiality
+	as the [=Formal Objection=].
 
 <h5 id=council-appeals>
 Appealing Council Decisions</h5>
