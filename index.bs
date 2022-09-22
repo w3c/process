@@ -5142,16 +5142,16 @@ Member Submission Process</h2>
 
 	<ol>
 		<li>
-			One of the [=Submitters=] sends a request to the Team to acknowledge the Submission request.
+			One of the [=Submitters=] sends a request to the Team to accept the Submission request.
 			The Team and [=Submitter=](s) communicate to ensure that the [=Member Submission=] is complete.
 
 		<li>
 			After review, the [=Team=] <em class="rfc2119">must</em> either
-			acknowledge or reject the Submission request.
+			accept or reject the Submission request.
 
 			<ul>
 				<li>
-					If <a href="#SubmissionYes">acknowledged</a>,
+					If <a href="#SubmissionYes">accepted</a>,
 					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
 					at the public W3C Web site,
 					in addition to Team comments about the [=Member Submission=].
@@ -5179,7 +5179,7 @@ Member Submission Process</h2>
 
 			<li>
 				There is no requirement or guarantee
-				that technology which is part of an acknowledged Submission request
+				that technology which is part of an accepted Submission request
 				will receive further consideration by W3C
 				(e.g., by a W3C [=Working Group=]).
 		</ul>
@@ -5188,14 +5188,14 @@ Member Submission Process</h2>
 	Making a Member Submission available at the W3C Web site
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
-	The acknowledgment of a Submission request
+	The acceptance of a Submission request
 	does not imply that any action will be taken by W3C.
 	It merely records publicly
 	that the Submission request has been made by the Submitter.
 	A Member Submission made available by W3C
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
 
-	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
+	The list of <a href="https://www.w3.org/Submission/">accepted Member Submissions</a> [[SUBMISSION-LIST]]
 	is available at the W3C Web site.
 
 <h3 id="SubmissionRights">
@@ -5209,14 +5209,14 @@ Submitter Rights and Obligations</h3>
 	(by email to the Team)
 	their participation in the Submission request.
 
-	At any time prior to acknowledgment,
+	At any time prior to accepted,
 	any [=Submitter=] <em class="rfc2119">may</em> withdraw support for a Submission request
 	(described in "<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>" [[SUBMISSION-REQ]]).
 	A Submission request is “withdrawn” when no Submitter(s) support it.
 	The Team <em class="rfc2119">must not</em> make statements
 	about withdrawn Submission requests.
 
-	Prior to acknowledgment,
+	Prior to acceptance,
 	the [=Submitter=](s) <em class="rfc2119">must not</em>,
 	<strong>under any circumstances</strong>,
 	refer to a document as “submitted to the World Wide Web Consortium”
@@ -5226,10 +5226,10 @@ Submitter Rights and Obligations</h3>
 	in public or Member communication
 	that W3C is working (with the [=Submitter=](s)) on the material in the [=Member Submission=].
 	The [=Submitter=](s) <em class="rfc2119">may</em> release the documents in the Member Submission to the public
-	prior to acknowledgment
+	prior to acceptance
 	(without reference to the Submission request).
 
-	After acknowledgment,
+	After acceptance,
 	the [=Submitter=](s) <em class="rfc2119">must not</em>,
 	<strong>under any circumstances</strong>,
 	imply W3C investment in the Member Submission
@@ -5264,7 +5264,7 @@ Information Required in a Submission Request</h4>
 	The [=Submitter=](s)
 	and any other authors of the submitted material
 	<em class="rfc2119">must</em> agree that,
-	if the request is acknowledged,
+	if the request is accepted,
 	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]]
 	and will include a reference to it.
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
@@ -5288,7 +5288,7 @@ Information Required in a Submission Request</h4>
 			(e.g., a technical specification,
 			a position paper,
 			etc.)
-			If the Submission request is acknowledged,
+			If the Submission request is accepted,
 			these documents will be made available by W3C
 			and therefore <em class="rfc2119">must</em> satisfy the Team's
 			<a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
@@ -5310,18 +5310,18 @@ Information Required in a Submission Request</h4>
 		<li>
 			What resources, if any,
 			does the Submitter intend to make available
-			if W3C acknowledges the Submission request
+			if W3C accepts the Submission request
 			and takes action on it?
 
 		<li>
 			What action would the Submitter like W3C to take
-			if the Submission request is acknowledged?
+			if the Submission request is accepted?
 
 		<li>
 			What mechanisms are there to make changes to the specification being submitted?
 			This includes, but is not limited to,
 			stating where change control will reside
-			if the request is acknowledged.
+			if the request is accepted.
 	</ul>
 
 	For other administrative requirements related to Submission requests,
@@ -5339,7 +5339,7 @@ Team Rights and Obligations</h3>
 	once the Team has reviewed a Submission request
 	and judged it complete and correct.
 
-	Prior to a <a lt="Team Decision">decision</a> to <a href="#SubmissionYes">acknowledge</a>
+	Prior to a <a lt="Team Decision">decision</a> to <a href="#SubmissionYes">accept</a>
 	or <a href="#SubmissionNo">reject</a> the request,
 	the request is [=Team-only=],
 	and the [=Team=] <em class="rfc2119">must</em> hold it in the strictest confidentiality.
@@ -5348,9 +5348,9 @@ Team Rights and Obligations</h3>
 	about the Submission request.
 
 <h3 id="SubmissionYes">
-Acknowledgment of a Submission Request</h3>
+Acceptance of a Submission Request</h3>
 
-	The [=Team=] <a href="#SubmissionYes">acknowledges</a> a Submission request
+	The [=Team=] <a href="#SubmissionYes">accepts</a> a Submission request
 	by sending an announcement to the [=Advisory Committee=].
 	Though the announcement <em class="rfc2119">may</em> be made at any time,
 	the [=Submitter=](s) can expect an announcement between <span class="time-interval">four to six weeks</span>
@@ -5358,7 +5358,7 @@ Acknowledgment of a Submission Request</h3>
 	The [=Team=] <em class="rfc2119">must</em> keep the [=Submitter=](s) informed
 	of when an announcement is likely to be made.
 
-	Once a Submission request has been acknowledged,
+	Once a Submission request has been accepted,
 	the [=Team=] <em class="rfc2119">must</em>:
 
 	<ul>
@@ -5370,7 +5370,7 @@ Acknowledgment of a Submission Request</h3>
 	</ul>
 
 	If the [=Submitter=](s) wishes to modify
-	a document made available as the result of acknowledgment,
+	a document made available as the result of acceptance,
 	the Submitter(s) <em class="rfc2119">must</em> start the Submission process from the beginning,
 	even just to correct [=editorial changes=].
 
@@ -5385,7 +5385,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 		<li>
 			The ideas expressed in the request
 			overlap in scope with the work of a chartered Working Group,
-			and acknowledgment might jeopardize the progress of the group.
+			and acceptance might jeopardize the progress of the group.
 
 		<li>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
