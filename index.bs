@@ -2414,14 +2414,20 @@ Council Chairing</h5>
 Council Deliberations</h5>
 
 	Having reviewed the information gathered by the [=Team=],
-	and after sufficient sufficient deliberation,
+	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
+	or request additional information or interviews from anyone,
+	including the Team.
+
+	The Council <em class=rfc2119>may</em>
+	further attempt to broker consensus,
+	which, if successful, disposes the formal objection.
+
+	Otherwise,
+	after sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
 	When [=sustaining=] an objection,
 	it <em class=rfc2199>should</em> recommend a way forward.
-
-	Individuals registering [=Formal Objections=] often support their reasoning
-	with several arguments.
 	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
 
