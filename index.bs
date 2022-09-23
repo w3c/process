@@ -1972,9 +1972,9 @@ Types of Decisions</h3>
 	are called <dfn export lt="group decision | resolution">group decisions</dfn>
 	(also known as group “resolutions”).
 
-	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
-	where the [=Team=]
-	assesses consensus of the W3C Community after an [=Advisory Committee review=].
+	A <dfn id="def-w3c-decision">W3C decision</dfn> is
+	determined by the [=Team=] on behalf of the W3C community
+	by assessing the consensus of the W3C Community after an [=Advisory Committee review=].
 
 <h3 id=consensus-building>
 Consensus Building</h3>
@@ -2548,32 +2548,70 @@ Start of a Review Period</h4>
 After the Review Period</h4>
 
 	After the review period,
-	the [=Team=] <em class="rfc2119">must</em> announce
-	to the [=Advisory Committee=]
+	the [=Team=] determines the appropriate [=W3C Decision=],
+	which they <em class=rfc2119>must</em> announce to the [=Advisory Committee=].
+	The announcement <em class="rfc2119">must</em> indicate
 	the level of support for the proposal
-	([=consensus=] or [=dissent=]).
-	The [=Team=] <em class="rfc2119">must</em> also indicate
+	([=consensus=] or [=dissent=]),
+	and specifically
 	whether there were any [=Formal Objections=],
-	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
-	This [=W3C decision=] is generally one of the following:
+	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the [=Formal Objections=].
 
-	<ol>
+	If there is [=dissent=]
+	(i.e., there were [=Formal Objections=], at least some of which were sustained)
+	or if there is not [=consensus=] because of insufficient support,
+	[=W3C Decision=] <em class=rfc2119>must</em> be one of:
+
+	<ul>
 		<li>
-			The proposal is approved,
-			possibly with [=editorial changes=] integrated.
-
-		<li>
-			The proposal is approved,
-			possibly with [=substantive changes=] integrated.
-			In this case the announcement <em class="rfc2119">must</em> include rationale
-			for the decision to advance the document despite the proposal for a substantive change.
-
-		<li>The proposal is returned for additional work,
-			with a request to the initiator to [=formally address=] certain issues.
+			The proposal is returned for additional work,
+			with a request to the initiator to improve the proposal.
 
 		<li>
 			The proposal is rejected.
-	</ol>
+	</ul>
+
+	If the proposal has [=consensus=],
+	or if any [=Formal Objections=] are retracted or overruled
+	and the proposal otherwise has sufficient support to achieve [=consensus=],
+	this [=W3C Decision=] <em class=rfc2119>must</em> be one of:
+
+	<ul>
+		<li>
+			The proposal is adopted,
+			possibly with additional changes integrated
+			in order to address the comments of the [=AC=]
+			(see below).
+
+		<li>
+			The proposal is returned for additional work,
+			with a request to the initiator to make desirable changes identified during the review
+			and to resubmit.
+	</ul>
+
+	If the proposal is adopted with changes other than <a href="#class-1">class 1 (markup) changes</a>,
+	then those changes <em class=rfc2119>must</em> be announced to the [=AC=]
+	and to the [=Group=] that owns the document (if any).
+
+	Additionally, when adopting a proposal with [=substantive changes=] integrated,
+	the announcement <em class="rfc2119">must</em> include rationale
+	for the substantive changes,
+	and those changes must have the [=consensus=]
+	of the subset of the [=AC=] that voted on the proposal
+	(including anyone who explicitly abstained).
+	For publications which have conditions in addition to [=AC=] approval
+	for introducing [=substantive changes=]
+	(such as [=Group=] consensus or implementation experience),
+	those other conditions must also be re-fulfilled.
+
+	<div class="example">
+		For example, to make [=substantive changes=] to a [=Proposed Recommendations=],
+		the [=technical report=] could be returned to [=Candidate Recommendation=].
+		Alternatively, the desired changes can be introduced as non-substantive amendments
+		using the process for [[#revising-rec|revising a Recommendation]].
+		However, they cannot be directly integrated between [=PR=] and [=REC=],
+		because that would fail to trigger a patent exclusion opportunity.
+	</div>
 
 	This document does not specify
 	time intervals between the end of an [=Advisory Committee review=] period
