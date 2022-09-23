@@ -2338,6 +2338,11 @@ Extraordinary Delegation</h5>
 	(i.e., at least twice as many votes in favor as against).
 	Delegation in such cases cannot be later revoked.
 
+	The [=Team=] <em class=rfc2119>must</em> inform the [=Advisory Committee=]
+	when a [=Formal Objection=] has been delegated,
+	and to whom it has been delegated.
+
+
 <h5 id=council-participation>
 Council Participation, Dismissal, and Renunciation</h5>
 
