@@ -2295,10 +2295,14 @@ Investigation and Mediation by the Team</h4>
 <h4 id=council>
 The W3C Council</h4>
 
+	The <dfn export local-lt="Council">W3C Council</dfn> is the body convened to resolve [=Formal Objections=]
+	by combining the capabilities and perspectives of the [=AB=], the [=TAG=], and the [=Team=],
+	and is tasked with doing so in the best interests of the Web and W3C.
+
 <h5 id=council-composition>
 Council Composition</h5>
 
-	The <dfn local-lt="Council">W3C Council</dfn> consists of the following members,
+	The [=W3C Council=] consists of the following members,
 	with the exception of any who are [=dismissed=] or who formally [=renounce=] their position:
 	* the [=CEO=]
 	* the members of the [=Advisory Board=]
