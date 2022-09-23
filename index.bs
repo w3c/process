@@ -2264,6 +2264,9 @@ Registering Formal Objections</h3>
 	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
 	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
 
+	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
+	is considered registered at the close of the review period.
+
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
 
@@ -2282,10 +2285,12 @@ Investigation and Mediation by the Team</h4>
 	the individual withdraws the objection and the disposition process terminates.
 
 	Otherwise,
-	within at most 90 days of a [=Formal Objection=] being registered,
-	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=]
-	and prepare a report of its findings
-	and attempts to find consensus.
+	upon concluding that consensus cannot be found,
+	and within at most 90 days of the [=Formal Objection=] being registered,
+	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=],
+	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
+	Concurrently, it must prepare a report for the [=Council=]
+	documenting its findings and attempts to find consensus.
 
 <h4 id=council>
 The W3C Council</h4>
@@ -2402,12 +2407,14 @@ Council Chairing</h5>
 	falling back to a vote if that fails.
 	The chair must be a member of that [=W3C Council=].
 
-	<p id=council-convention>
-	Upon appointment of the [=W3C Council Chair=],
-	the [=W3C Council=] is considered to be convened.
-
 <h5 id=council-deliberations>
 Council Deliberations</h5>
+
+	<p id=council-convention>
+	Upon appointment of the [=W3C Council Chair=]
+	and delivery of the [=Team=]’s report,
+	the [=W3C Council=] is considered to be convened
+	and can start deliberations.
 
 	Having reviewed the information gathered by the [=Team=],
 	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
