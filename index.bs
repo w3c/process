@@ -2433,10 +2433,17 @@ Council Deliberations</h5>
 	after sufficient deliberation,
 	the [=W3C Council=] decides whether to
 	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
-	When [=sustaining=] an objection,
-	it <em class=rfc2199>should</em> recommend a way forward.
 	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
+
+	<p id=fo-mitigations>
+	When [=sustaining=] an objection,
+	it <em class=rfc2199>should</em> recommend a way forward.
+	If the overturned decision has already had consequences
+	(e.g., if the objection concerns material already in a published document)
+	the Council <em class=rfc2119>should</em> suggest how these consequences might be mitigated.
+	The [=Team=] is responsible for making sure that adequate mitigations are enacted in a timely fashion;
+	and the [=Formal Objection=] is not considered fully addressed until then.
 
 	The Council <em class=rfc2119>may</em> form sub-groups for deliberation,
 	who may return with a recommendation,
@@ -2492,6 +2499,7 @@ Council Decision Report</h5>
 	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
+	* if the [=Formal Objection=] has been sustained, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
 	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
@@ -3366,7 +3374,8 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
-			or if there remain any unresolved Formal Objections.
+			or if there remain any unresolved Formal Objections,
+			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects a [=Transition Request=]
 			it <em class=rfc2119>must</em> indicate its rationale
 			to the [=Advisory Committee=] and the [=Working Group=].
@@ -3437,7 +3446,8 @@ Updating Mature Publications on the Recommendation Track</h4>
 			or fulfill the criteria for [[#streamlined-update]].
 			[=Team=] verification (a [=Team decision=]),
 			<em>should</em> be withheld if any Process requirements are not met,
-			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections.
+			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
+			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects an [=Update Request=],
 			it must indicate its rationale to the [=Working Group=].
 			If it waives any Process requirements,
