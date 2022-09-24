@@ -2877,7 +2877,7 @@ Wide Review</h5>
 Classes of Changes</h4>
 
 
-	This document distinguishes the following 5 classes of changes to a specification.
+	This document distinguishes the following 5 classes of changes to a document.
 	The first two classes of change are considered <dfn lt="editorial change">editorial changes</dfn>,
 	the next two <dfn lt="substantive change">substantive changes</dfn>,
 	and the last one <dfn lt="registry change">registry changes</dfn>.
@@ -2886,12 +2886,14 @@ Classes of Changes</h4>
 		<dt id=class-1>
 			1. No changes to text content
 		<dd>
-			These changes include fixing broken links, style sheets or invalid markup.
+			These changes include fixing broken links, style sheets, or invalid markup.
 
 		<dt id=class-2>
-			2. Corrections that do not affect conformance
+			2. Changes that do not functionally affect interpretation of the document
 		<dd>
-			Changes that reasonable implementers
+			For [=Recommendation-track=] [=technical reports=] specifically,
+            this constitutes changes that do not affect conformance,
+            i.e. changes that reasonable implementers
 			would not interpret as changing architectural
 			or interoperability requirements
 			or their implementation.
@@ -2900,19 +2902,21 @@ Classes of Changes</h4>
 			and do not fall into this class.
 		<dd>
 			Examples of changes in this class include
-			correcting non-normative code examples
-			where the code clearly conflicts with normative requirements,
+			correcting non-normative examples
+			which clearly conflict with normative requirements,
 			clarifying informative use cases or other non-normative text,
 			fixing typos or grammatical errors
-			where the change does not change implementation requirements.
+			where the change does not change requirements.
+		<dd>
 			If there is any doubt or disagreement
-			as to whether requirements are changed,
-			such changes do not fall into this class.
+			as to whether a change functionally affects interpretation,
+			that change does not fall into this class.
 
 		<dt id=class-3>
-			3. Corrections that do not add new features
+			3. Other changes that do not add new features
 		<dd>
-			These changes <em class="rfc2119">may</em> affect conformance to the specification.
+			For [=Recommendation-track=] documents,
+            these changes <em class="rfc2119">may</em> affect conformance to the specification.
 			A change that affects conformance is one that:
 
 			<ul>
@@ -2934,7 +2938,8 @@ Classes of Changes</h4>
 		<dt id=class-4>
 			4. New features
 		<dd>
-			Changes that add a new functionality, element, etc.
+			Changes that add new functionality,
+			such as new elements, new APIs, new rules, etc.
 
 		<dt id=class-5>
 			5. Changes to the contents of a [=registry table=]
