@@ -395,16 +395,7 @@ The W3C Team</h3>
 	detailed budgeting,
 	and other business decisions
 	are <a href="#Team-only">Team-only</a>,
-	subject to oversight by the [=Host institutions=].
-
-	Note: W3C is not currently incorporated.
-	For legal contracts, W3C is represented by four <dfn id="hosts" lt="Hosts|Host institutions">“Host” institutions</dfn>:
-	Beihang University,
-	the European Research Consortium for Informatics and Mathematics (<abbr>ERCIM</abbr>),
-	Keio University,
-	and the Massachusetts Institute of Technology (<abbr>MIT</abbr>).
-	Within W3C, the Host institutions are governed by hosting agreements;
-	the [=Hosts=] themselves are not W3C Members.
+	subject to oversight by the W3C Board of Directors.
 
 <h2 id=groups>
 Groups and Participation</h2>
@@ -4998,13 +4989,12 @@ Liaisons</h2>
 
 	The [=CEO=] <em class="rfc2119">may</em> negotiate
 	a Memorandum of Understanding with another organization.
-	For the purposes of the W3C Process a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
+	For purposes of the W3C Process, a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
 	is a formal agreement or similar contractual framework between W3C and another party or parties,
-	other than agreements between the [=Hosts=]
-	or between [=Hosts=] and W3C members
-	for the purposes of membership
-	and agreements related to the ordinary provision of services
-	for the purposes of running W3C,
+	other than between W3C and W3C members
+	for the purposes of membership,
+	and other agreements related to the ordinary provision of services
+	for the purpose of running W3C,
 	that specifies rights and obligations of each party toward the others.
 	These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
 	an agreed share of technical responsibilities with due coordination,
