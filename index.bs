@@ -2295,7 +2295,7 @@ Investigation and Mediation by the Team</h4>
 
 	Otherwise,
 	upon concluding that consensus cannot be found,
-	and within at most 90 days of the [=Formal Objection=] being registered,
+	and no later than 90 days after the [=Formal Objection=] being registered,
 	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=],
 	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
 	Concurrently, it must prepare a report for the [=Council=]
