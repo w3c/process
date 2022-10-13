@@ -2023,7 +2023,8 @@ Consensus</h4>
 	</dl>
 
 	Note: A [=Formal Objection=] always indicates sustained disagreement,
-	but isn't necessary to express [=dissent=].
+	but isn't necessary to express it,
+	except in som formal contexts such as [=AC Reviews=].
 	Disagreement with a proposed decision,
 	however, does not always rise to the level of sustained objection,
 	as individuals could be willing to accept a decision
