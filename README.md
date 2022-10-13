@@ -10,12 +10,8 @@ Discussion happens in the context of the W3C Process Community Group
 ----
 ## Branches under development
 
-[main](https://github.com/w3c/w3process/tree/main) branch (current draft of the CG)
+[main](https://github.com/w3c/w3process/tree/main) branch (current draft of the CG):
 [Preview](https://www.w3.org/Consortium/Process/Drafts/)
-
-[director-free](https://github.com/w3c/w3process/tree/director-free) branch (includes changes related to the director-free project not yet approved by the CG):
-[Preview](https://www.w3.org/Consortium/Process/Drafts/director-free/) /
-[Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F&doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2Fdirector-free) (against the main branch)
 
 ----
 ## Useful searches
