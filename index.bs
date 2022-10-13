@@ -2746,7 +2746,7 @@ Errata Management</h4>
 Candidate Amendments</h4>
 
 	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
-	<dfn>candidate correction</dfn> approved by the consensus of the [=Working Group=].
+	<dfn>candidate correction</dfn> approved by [=group decision=].
 	When annotated inline,
 	errata--
 	including their [=candidate corrections=]--
