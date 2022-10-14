@@ -2425,7 +2425,15 @@ Council Deliberations</h5>
 	(e.g., if the objection concerns material already in a published document)
 	the Council <em class=rfc2119>should</em> suggest how these consequences might be mitigated.
 	The [=Team=] is responsible for making sure that adequate mitigations are enacted in a timely fashion;
-	and the [=Formal Objection=] is not considered fully addressed until then.
+	and the [=Formal Objection=] is not considered <dfn>fully addressed</dfn> until then.
+
+	Note: This does not create new powers for the [=Team=],
+	such as the ability to “unpublish” documents.
+	If something needs to be changed in an already published document,
+	the group where this document originated
+	would be typically responsible for drafting the necessary changes and getting them published,
+	following the usual rules of the Process.
+	The [=Team=]'s role would be to hold them to it.
 
 	The Council <em class=rfc2119>may</em> form sub-groups for deliberation,
 	who may return with a recommendation,
@@ -3386,7 +3394,8 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
-			or if there remain any unresolved Formal Objections,
+			or if there remain any unresolved Formal Objections
+			(including any [=sustained=] by the [=Council=] but not yet [=fully addressed=]),
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects a [=Transition Request=]
 			it <em class=rfc2119>must</em> indicate its rationale
@@ -3459,6 +3468,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=]),
 			<em>should</em> be withheld if any Process requirements are not met,
 			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
+			(including any [=sustained=] by the [=Council=] but not yet [=fully addressed=])
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects an [=Update Request=],
 			it must indicate its rationale to the [=Working Group=].
