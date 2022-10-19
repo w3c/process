@@ -3162,7 +3162,7 @@ Maturity Stages on the Recommendation Track</h4>
 
 			<dl>
 				<dt>
-					<dfn>Candidate Recommendation Snapshot</dfn>
+					<dfn export lt="Candidate Recommendation Snapshot | CRS">Candidate Recommendation Snapshot</dfn> (<abbr>CRS</abbr>)
 				<dd>
 					A Candidate Recommendation Snapshot
 					corresponds to a [=Patent Review Draft=]
@@ -3177,7 +3177,7 @@ Maturity Stages on the Recommendation Track</h4>
 					or an [=Update Request=]
 					(for subsequent [=Candidate Recommendation Snapshots=]).
 				<dt>
-					<dfn>Candidate Recommendation Draft</dfn>
+					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
 				<dd>
 					A Candidate Recommendation Draft
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]

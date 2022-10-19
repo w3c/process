@@ -57,9 +57,9 @@
 				<g role="listitem">
 					<a href="#pr-1">
 						<ellipse role="img" id="cr-1" ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff">
-						<title>Candidate Recommendation (CR) - Patent Policy exclusion opportunity</title>
+						<title>Candidate Recommendation Snapshot (CRS) - Patent Policy exclusion opportunity</title>
 						</ellipse>
-						<text aria-hidden="true" font-size="14" y="144" x="260" text-anchor="middle">CR</text>
+						<text aria-hidden="true" font-size="14" y="144" x="260" text-anchor="middle">CRS</text>
 					</a>
 					<a href="#crd-1">
 						<ellipse role="img" id="crd-1" ry="18" rx="38" cy="80" cx="260" stroke="black" fill="#fff">
