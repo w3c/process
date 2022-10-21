@@ -864,7 +864,7 @@ Role of the Advisory Board</h5>
 	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
-	The [=Advisory Board=] is <strong>not</strong> a board of directors
+	The [=Advisory Board=] is distinct from the [=Board of Directors=]
 	and has no decision-making authority within W3C;
 	its role is strictly advisory.
 
@@ -913,6 +913,22 @@ Communications of the Advisory Board</h5>
 	The Advisory Board <em class="rfc2119">should</em> also report on its activities
 	at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
+<h5 id=ab-bod-liaison>
+Liaisons between the Advisory Board and the Board of Directors</h5>
+
+	To ensure good communication between the [=AB=] and the [=Board of Directors=]
+	and facilitate operational and management consistency,
+	the [=AB=] <em class=rfc2119>may</em> appoint up to two of its participants as liaisons to the [=Board=].
+	Such appointees will have the right and duty to attend [=Board=] meetings and access [=Board=] materials,
+	but do not form part of the [=Board=]'s decision-making body.
+	They may be excluded from such participation
+	(only) by a decision of the [=Board of Directors=].
+
+	The [=Advisory Board=] <em class=rfc2119>should</em> reevaluate
+	who is assigned to this role
+	at least at the beginning of each term,
+	and <em class=rfc2119>may</em> swap its appointees more frequently
+	as they deem appropriate.
 
 <h4 id="TAG">
 Technical Architecture Group (TAG)</h4>
