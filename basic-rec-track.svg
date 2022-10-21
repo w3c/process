@@ -10,8 +10,8 @@
 						</rect>
 						<text font-size="8">
 							<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
-							<tspan x="0" y="152">WG decision</tspan>
-							<tspan x="0" y="162">Team's approval</tspan>
+							<tspan x="0" y="152">WG Decision</tspan>
+							<tspan x="0" y="162">Team Approval</tspan>
 						</text>
 						<path d="M0,140h53" fill="none" stroke="#000"></path>
 						<polygon points="47,136 57,140 47,144"></polygon>
@@ -33,8 +33,8 @@
 									<title>Publish a new Working Draft</title>
 								</g>
 								<text font-size="8">
-									<tspan x="30" y="92">WG Decision: review needed, or</tspan>
-									<tspan x="40" y="100">No change for 6 months</tspan>
+									<tspan x="30" y="90">WG Decision, such as "review needed"</tspan>
+									<tspan x="30" y="100">or "no change for 6 months"</tspan>
 								</text>
 								<path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
 								<polygon points="120,114 116,124 114,113"></polygon>
@@ -46,7 +46,7 @@
 								<g role="img">
 									<title>Advance to Candidate Recommendation</title>
 								</g>
-								<text x="138" y="134" font-size="8">Team's approval</text>
+								<text x="138" y="134" font-size="8">Team Approval</text>
 								<path stroke="#060" d="M135,140h81"></path>
 								<polygon points="211,136 221,140 211,144"></polygon>
 							</a>
@@ -101,8 +101,8 @@
 									<title>Publish revised Candidate Recommendation</title>
 								</g>
 								<text font-size="8">
-									<tspan x="288" y="104">WG Decision +</tspan>
-									<tspan x="288" y="112">Team’s approval</tspan>
+									<tspan x="290" y="102">WG Decision and</tspan>
+									<tspan x="290" y="112">Team Approval</tspan>
 								</text>
 								<path stroke="#000" d="M286,127v-34"></path>
 								<polygon points="286,128 282,118 290,118"></polygon>
@@ -116,7 +116,7 @@
 								</g>
 								<text font-size="8">
 									<tspan x="182" y="112">WG Decision</tspan>
-									<tspan x="288" y="112">Team’s approval</tspan>
+									<tspan x="288" y="112">Team Approval</tspan>
 								</text>
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
 								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
@@ -129,7 +129,7 @@
 							<g role="img">
 							<title>Advance to Proposed Recommendation</title>
 							</g>
-							<text x="300" y="134" font-size="8">Team's approval</text>
+							<text x="300" y="134" font-size="8">Team Approval</text>
 							<path d="M298,140h77" stroke="#060"></path>
 							<polygon points="374,136 384,140 374,144"></polygon>
 						</a>
@@ -141,8 +141,8 @@
 								<title>Return to Working Draft</title>
 								</g>
 								<text font-size="8">
-									<tspan x="142" y="160">WG or Team decision</tspan>
-									<tspan x="144" y="170">e.g. for further review</tspan>
+									<tspan x="142" y="160">WG or Team Decision,</tspan>
+									<tspan x="144" y="170">such as "returned for further review"</tspan>
 								</text>
 								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#600"></path>
 								<polygon points="140,145 133,147 140,149"></polygon>
@@ -154,7 +154,7 @@
 				<g role="listitem">
 					<a href="#rec-1">
 						<ellipse role="img" id="pr-1" ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff">
-						<title>Proposed Recommendation (PR) - Advisory Committee review</title>
+						<title>Proposed Recommendation (PR) — AC Review</title>
 						</ellipse>
 						<text aria-hidden="true" font-size="14" y="144" x="413" text-anchor="middle">PR</text>
 					</a>
@@ -166,8 +166,8 @@
 									<title>Advance to Recommendation</title>
 								</g>
 								<text x="300" y="138" font-size="8">
-									<tspan x="445" y="124">Advisory Committee Review</tspan>
-									<tspan x="445" y="134">Team's Decision</tspan>
+									<tspan x="445" y="124">AC Review</tspan>
+									<tspan x="445" y="134">Team Decision</tspan>
 								</text>
 								<path d="M441,140h100" stroke="#060"></path>
 								<polygon points="534,136 544,140 534,144"></polygon>
@@ -180,9 +180,9 @@
 									<title>Return to Candidate Recommendation</title>
 								</g>
 								<text font-size="8">
-									<tspan x="306" y="160">AC Review, </tspan>
-									<tspan x="302" y="170">Team Decision</tspan>
-									<tspan x="304" y="180">e.g. for editorial changes</tspan>
+									<tspan x="302" y="160">AC Review and/or </tspan>
+									<tspan x="302" y="170">Team Decision, such as</tspan>
+									<tspan x="302" y="180">"returned for editorial changes"</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="3 5" stroke="#600"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -195,7 +195,7 @@
 									<title>Return to Working Draft</title>
 								</g>
 								<text font-size="9">
-									<tspan x="90" y="202">Advisory Committee review and Team's Decision, e.g. for further work and review</tspan>
+									<tspan x="95" y="202">AC Review and/or Team Decision, such as "returned for further work and review"</tspan>
 								</text>
 								<path d="M413,158v32h-316v-26" stroke-dasharray="2 2" stroke="#c00" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
