@@ -879,9 +879,7 @@ Role of the Advisory Board</h5>
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
 	Together with the [=CEO=] and the members of the [=TAG=],
-	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>,
-	[=Chair Decision Appeals=],
-	[=Group Decision Appeals=],
+	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
 	The [=Advisory Board=] is <strong>not</strong> a board of directors
@@ -956,9 +954,7 @@ Role of the Technical Architecture Group</h5>
 	</ol>
 
 	Together with the [=CEO=] and members of the [=AB=],
-	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeal s</a>,
-	[=Chair Decision Appeals=],
-	[=Group Decision Appeals=],
+	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
 	The [=TAG=]'s scope is limited to technical issues about Web architecture.
