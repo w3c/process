@@ -395,7 +395,10 @@ The W3C Team</h3>
 	detailed budgeting,
 	and other business decisions
 	are <a href="#Team-only">Team-only</a>,
-	subject to oversight by the W3C Board of Directors.
+	subject to oversight by the <dfn export lt="BoD | Board | Board of Directors | W3C Board of Directors">W3C Board of Directors</dfn>.
+
+	Note: See the [[BYLAWS inline|W3C Bylaws]] for more details
+	on the [=Board=] and overall governance of W3C.
 
 <h2 id=groups>
 Groups and Participation</h2>
@@ -5802,6 +5805,10 @@ Changes since earlier versions</h3>
 		"href": "https://www.w3.org/Guide/transitions",
 		"title": "Organize a Technical Report Transition",
 		"publisher": "W3C"
+	},
+	"BYLAWS": {
+		"href": "https://www.w3.org/2022/10/w3c-bylaws-20221019.pdf",
+		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
 	}
 }
 </pre>
