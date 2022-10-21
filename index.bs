@@ -2384,7 +2384,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
 	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
 
-	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation | renounces">renounce</dfn> their seat on the Council, for strong reason,
+	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on the Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
 	their renunciation.
 	Renunciation is disqualification from participation,
