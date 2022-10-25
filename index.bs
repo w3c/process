@@ -2429,11 +2429,8 @@ Council Deliberations</h5>
 
 	Note: This does not create new powers for the [=Team=],
 	such as the ability to “unpublish” documents.
-	If something needs to be changed in an already published document,
-	the group where this document originated
-	would be typically responsible for drafting the necessary changes and getting them published,
-	following the usual rules of the Process.
-	The [=Team=]'s role would be to hold them to it.
+	The [=Team=]'s role is to ensure the responsible parties enact adequate mitigations,
+	by whatever means they already have at their disposal.
 
 	The Council <em class=rfc2119>may</em> form sub-groups for deliberation,
 	who may return with a recommendation,
