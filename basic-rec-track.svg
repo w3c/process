@@ -40,7 +40,7 @@
 								<polygon points="120,114 116,124 114,113"></polygon>
 							</a>
 						</g>
-					<!-- Advance to CR -->
+					<!-- Advance to CRS -->
 						<g role="listitem" fill="#060">
 							<a href="#cr-1">
 								<g role="img">
@@ -53,7 +53,7 @@
 						</g>
 					</g>
 				</g>
-			<!-- CR -->
+			<!-- CRS -->
 				<g role="listitem">
 					<a href="#pr-1">
 						<ellipse role="img" id="cr-1" ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff">
@@ -68,7 +68,7 @@
 						<text aria-hidden="true" font-size="14" y="84" x="260" text-anchor="middle">CRD</text>
 					</a>
 					<g role="list">
-					<!-- CR to CRD -->
+					<!-- CRS to CRD -->
 						<g role="listitem">
 							<a href="#crd-1">
 								<g role="img">
@@ -94,11 +94,11 @@
 								<polygon points="282,54 277,64 275,53"></polygon>
 							</a>
 						</g>
-					<!-- CRD to CR -->
+					<!-- CRD to CRS -->
 						<g role="listitem">
 							<a href="#cr-1">
 								<g role="img">
-									<title>Publish revised Candidate Recommendation</title>
+									<title>Publish revised Candidate Recommendation Snapshot</title>
 								</g>
 								<text font-size="8">
 									<tspan x="290" y="102">WG Decision and</tspan>
@@ -108,15 +108,15 @@
 								<polygon points="286,128 282,118 290,118"></polygon>
 							</a>
 						</g>
-					<!-- Update CR in place -->
+					<!-- Update CRS in place -->
 						<g role="listitem">
 							<a href="#cr-1">
 								<g role="img">
-									<title>Publish revised Candidate Recommendation</title>
+									<title>Publish revised Candidate Recommendation Snapshot</title>
 								</g>
 								<text font-size="8">
 									<tspan x="182" y="112">WG Decision</tspan>
-									<tspan x="288" y="112">Team Approval</tspan>
+									<tspan x="290" y="112">Team Approval</tspan>
 								</text>
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" fill="none"></path>
 								<path stroke="#060" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="5 11" stroke-dashoffset="8" fill="none"></path>
@@ -173,11 +173,11 @@
 								<polygon points="534,136 544,140 534,144"></polygon>
 							</a>
 						</g>
-					<!-- Return to CR -->
+					<!-- Return to CRS -->
 						<g role="listitem">
 							<a href="#cr-1">
 								<g role="img">
-									<title>Return to Candidate Recommendation</title>
+									<title>Return to Candidate Recommendation Snapshot</title>
 								</g>
 								<text font-size="8">
 									<tspan x="302" y="160">AC Review and/or </tspan>
