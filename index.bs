@@ -391,11 +391,11 @@ The W3C Team</h3>
 	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
 
-	Team administrative information such as Team salaries,
-	detailed budgeting,
-	and other business decisions
-	are <a href="#Team-only">Team-only</a>,
-	subject to oversight by the <dfn export lt="BoD | Board | Board of Directors | W3C Board of Directors">W3C Board of Directors</dfn>.
+	Oversight over the [=Team=],
+	budgeting,
+	and other business decisions,
+	is provided by the <dfn export lt="BoD | Board | Board of Directors | W3C Board of Directors">W3C Board of Directors</dfn>,
+	and not subject to the [=Process=].
 
 	Note: See the [[BYLAWS inline|W3C Bylaws]] for more details
 	on the [=Board=] and overall governance of W3C.
