@@ -5558,7 +5558,9 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 	a <a href="https://github.com/w3c/w3process/compare/process-2021...main">detailed log of all changes since then</a>
 	are available.
 
-	The following is a summary of the main differences:
+	In addition to a number of editorial adjustments
+	and minor teaks,
+	the following is a summary of the main differences:
 
 	<dl>
 		<dt>
@@ -5566,30 +5568,59 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 		<dd>
 			<ul>
 				<li>
-					The [=CEO=] rather than the [=Director=] is charged with negotiating [=MoUs=].
+					Rather than the Director, the [=W3C Council=],
+					which is composed of TAG+AB+CEO,
+					will now hear and resolve formal objections.
 
 				<li>
-					The [=CEO=] rather than the [=Director=] is charged with [[#discipline|disciplinary questions]].
+					The W3C Council will also hear [=Submission Appeals=],
+					which were previously handled separately by either the TAG or the AB,
+					depending on the grounds for the appeal.
 
 				<li>
-					The [=Team=] rather than the [=Director=] is charged with handling [=Member Submission=] requests.
+					<a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
+					but instead must be based on the content of the review,
+					with specific rules (based on current best practices)
+					about what can or cannot be adjusted post review,
+					and under what circumstances.
 
 				<li>
-					The [=Team=] rather than the [=Director=] is charged with handling various participation-related judgement calls
+					Require AB and TAG approval when the [=Team=] wants to
+					<a href="#rec-track-regression">lower the maturity stage</a>
+					of a technical report without a [=Group Decision=].
+
+				<li>
+					The [=Team=] rather than the Director is now responsible
+					for proposing group creation and forcible closure;
+					[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
+					(it already was for group creation).
+
+				<li>
+					The [=CEO=] rather than the Director is charged with negotiating [=MoUs=].
+
+				<li>
+					The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
+
+				<li>
+					The [=Team=] rather than the Director is charged with handling [=Member Submission=] requests.
+
+				<li>
+					The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
 					(see [[#MemberConsortia]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
 
 				<li>
-					The [=Team=] rather than the [=Director=] is charged with verification that the various expectations of the Process
-					have been fulfilled for [=Transition Requests=] and [=Update Requests=]
+					The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
+					have been fulfilled for [=Transition Requests=] and [=Update Requests=].
 
 				<li>
-					The [=Team=] rather than the [=Director=] is charged with
+					The [=Team=] rather than the Director is charged with
 					[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
 					subject to ratification by the [=TAG=].
 
 				<li>
 					There is no longer an ex-officio seat for the Director on the [=TAG=],
 					but Tim Berners-Lee personally does continue to hold one.
+
 			</ul>
 		<dt>
 			Other miscellaneous changes
@@ -5608,7 +5639,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					Various bits of information that were so far required
-					to be included in announcements of charter extensions
+					to be included in announcements of [=charter extensions=]
 					are covered in the group's homepage,
 					making it sufficient to point to that page
 					rather than having to inline everything in the announcement.
@@ -5618,6 +5649,32 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					Appointed [=TAG=] seats now have consecutive term limits.
+
+				<li>
+					Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a>
+					as this document, the CEPC, or the Patent Policy.
+
+				<li>
+					Be more rigorous in references to the Patent Policy,
+					using dated versions when appropriate.
+
+				<li>
+					Expect supporting material to meeting minutes to be archived as the minutes are.
+
+				<li>
+					Rename "maturity level" into "maturity stage"
+
+				<li>
+					Clarify how the advance notice period for [=MoU=] works.
+
+				<li>
+					Remove mentions of the Hosts,
+					add recognition of the existence of the W3C Inc. Board of Directors,
+					and adjust language for W3C being rooted in W3C Inc.
+
+				<li>
+					Codify that the AB is expected to pick up to two of its participants
+					as <a href="#ab-bod-liaison">liaisons for the board</a>.
 
 			</ul>
 	</dl>
