@@ -8,7 +8,7 @@
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
   <meta content="Bikeshed version 63e66730b, updated Tue Oct 25 12:35:05 2022 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="31bb96e83f990c43671d2ca9191552bcf4681256" name="document-revision">
+  <meta content="f31c29c64462ec017740e0a38ea4d6398721ea7f" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -502,7 +502,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2022-11-09">9 November 2022</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2022-11-15">15 November 2022</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -553,7 +553,7 @@ dfn > a.self-link::before      { content: "#"; }
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 9 November 2022 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 15 November 2022 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 
 which is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>,
@@ -4740,19 +4740,35 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2021 to this latest version</a>,
 	as well as
 	a <a href="https://github.com/w3c/w3process/compare/process-2021...main">detailed log of all changes since then</a> are available. </p>
-    <p>The following is a summary of the main differences:</p>
+    <p>In addition to a number of editorial adjustments
+	and minor teaks,
+	the following is a summary of the main differences:</p>
     <dl>
      <dt> Changes related to the role of the Director 
      <dd>
       <ul>
-       <li> The <a data-link-type="dfn" href="#ceo" id="ref-for-ceo①③">CEO</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director">Director</a> is charged with negotiating <a data-link-type="dfn" href="#mou" id="ref-for-mou⑤">MoUs</a>. 
-       <li> The <a data-link-type="dfn" href="#ceo" id="ref-for-ceo①④">CEO</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director①">Director</a> is charged with <a href="#discipline">disciplinary questions</a>. 
-       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑧">Team</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director②">Director</a> is charged with handling <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑦">Member Submission</a> requests. 
-       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑨">Team</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director③">Director</a> is charged with handling various participation-related judgement calls
+       <li> Rather than the Director, the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③⓪">W3C Council</a>,
+					which is composed of TAG+AB+CEO,
+					will now hear and resolve formal objections. 
+       <li> The W3C Council will also hear <a data-link-type="dfn" href="#submission-appeals" id="ref-for-submission-appeals①">Submission Appeals</a>,
+					which were previously handled separately by either the TAG or the AB,
+					depending on the grounds for the appeal. 
+       <li> <a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
+					but instead must be based on the content of the review,
+					with specific rules (based on current best practices)
+					about what can or cannot be adjusted post review,
+					and under what circumstances. 
+       <li> Require AB and TAG approval when the <a data-link-type="dfn" href="#team" id="ref-for-team①②⑧">Team</a> wants to <a href="#rec-track-regression">lower the maturity stage</a> of a technical report without a <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑦">Group Decision</a>. 
+       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑨">Team</a> rather than the Director is now responsible
+					for proposing group creation and forcible closure; <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②②">AC Review</a> is now required for forcible <a href="#GeneralTermination">group closure</a> (it already was for group creation). 
+       <li> The <a data-link-type="dfn" href="#ceo" id="ref-for-ceo①③">CEO</a> rather than the Director is charged with negotiating <a data-link-type="dfn" href="#mou" id="ref-for-mou⑤">MoUs</a>. 
+       <li> The <a data-link-type="dfn" href="#ceo" id="ref-for-ceo①④">CEO</a> rather than the Director is charged with <a href="#discipline">disciplinary questions</a>. 
+       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③⓪">Team</a> rather than the Director is charged with handling <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑦">Member Submission</a> requests. 
+       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a> rather than the Director is charged with handling various participation-related judgement calls
 					(see <a href="#MemberConsortia">§ 2.1.2.1 Membership Consortia</a>, <a href="#coi">§ 3.1.1.2 Conflict of Interest Policy</a>, <a href="#member-rep">§ 3.1.1.3 Individuals Representing a Member Organization</a>, <a href="#ReqsAllGroups">§ 3.4.1 Requirements for All Chartered Groups</a>, and <a href="#invited-expert-wg">§ 3.4.3.3 Invited Expert in a Working Group</a>). 
-       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③⓪">Team</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director④">Director</a> is charged with verification that the various expectations of the Process
-					have been fulfilled for <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req⑤">Transition Requests</a> and <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests①①">Update Requests</a> 
-       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a> rather than the <a data-link-type="dfn" href="https://www.w3.org/2021/Process-20211102/#def-Director" id="ref-for-def-Director⑤">Director</a> is charged with <a href="#TAG-appointments">appointing</a> the 3 non-elected <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⓪">TAG</a> members,
+       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③②">Team</a> rather than the Director is charged with verification that the various expectations of the Process
+					have been fulfilled for <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req⑤">Transition Requests</a> and <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests①①">Update Requests</a>. 
+       <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③③">Team</a> rather than the Director is charged with <a href="#TAG-appointments">appointing</a> the 3 non-elected <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⓪">TAG</a> members,
 					subject to ratification by the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④①">TAG</a>. 
        <li> There is no longer an ex-officio seat for the Director on the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④②">TAG</a>,
 					but Tim Berners-Lee personally does continue to hold one. 
@@ -4766,12 +4782,22 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 					just because there will be an opportunity to address them later
 					doesn’t mean they shouldn’t be handled at the first opportunity. 
        <li> Various bits of information that were so far required
-					to be included in announcements of charter extensions
-					are covered in the group’s homepage,
+					to be included in announcements of <a data-link-type="dfn" href="#dfn-charter-extension" id="ref-for-dfn-charter-extension①">charter extensions</a> are covered in the group’s homepage,
 					making it sufficient to point to that page
 					rather than having to inline everything in the announcement. 
        <li> The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④③">TAG</a> now picks its own chair(s). 
        <li> Appointed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④④">TAG</a> seats now have consecutive term limits. 
+       <li> Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a> as this document, the CEPC, or the Patent Policy. 
+       <li> Be more rigorous in references to the Patent Policy,
+					using dated versions when appropriate. 
+       <li> Expect supporting material to meeting minutes to be archived as the minutes are. 
+       <li> Rename "maturity level" into "maturity stage" 
+       <li> Clarify how the advance notice period for <a data-link-type="dfn" href="#mou" id="ref-for-mou⑥">MoU</a> works. 
+       <li> Remove mentions of the Hosts,
+					add recognition of the existence of the W3C Inc. Board of Directors,
+					and adjust language for W3C being rooted in W3C Inc. 
+       <li> Codify that the AB is expected to pick up to two of its participants
+					as <a href="#ab-bod-liaison">liaisons for the board</a>. 
       </ul>
     </dl>
     <h3 class="no-num heading settled" id="changes-previous"><span class="content"> Changes since earlier versions</span><span id="changes-2020"></span><span id="changes-2019"></span><span id="changes-2018"></span><span id="changes-2017"></span><a class="self-link" href="#changes-previous"></a></h3>
@@ -5019,12 +5045,6 @@ The W3C Team</a>
 Chartered Group Closure</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-def-Director">
-   <a href="https://www.w3.org/2021/Process-20211102/#def-Director">https://www.w3.org/2021/Process-20211102/#def-Director</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-def-Director"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-def-Director①">(2)</a> <a href="#ref-for-def-Director②">(3)</a> <a href="#ref-for-def-Director③">(4)</a> <a href="#ref-for-def-Director④">(5)</a> <a href="#ref-for-def-Director⑤">(6)</a>
-   </ul>
-  </aside>
   <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
@@ -5036,11 +5056,6 @@ Chartered Group Closure</a>
     <a data-link-type="biblio">[W3C-PATENT-POLICY]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-patent-advisory-group">patent advisory group</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[W3C-PROCESS]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-def-Director">director</span>
     </ul>
   </ul>
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -5070,8 +5085,6 @@ Chartered Group Closure</a>
    <dd>D. Eastlake 3rd. <a href="https://www.rfc-editor.org/rfc/rfc3797"><cite>Publicly Verifiable Nominations Committee (NomCom) Random Selection</cite></a>. June 2004. Informational. URL: <a href="https://www.rfc-editor.org/rfc/rfc3797">https://www.rfc-editor.org/rfc/rfc3797</a>
    <dt id="biblio-w3c-patent-policy">[W3C-PATENT-POLICY]
    <dd>Wendy Seltzer. <a href="https://www.w3.org/Consortium/Patent-Policy/"><cite>W3C Patent Policy</cite></a>. 15 September 2020. URL: <a href="https://www.w3.org/Consortium/Patent-Policy/">https://www.w3.org/Consortium/Patent-Policy/</a>
-   <dt id="biblio-w3c-process">[W3C-PROCESS]
-   <dd>Elika J. Etemad (fantasai); Florian Rivoal. <a href="https://www.w3.org/Consortium/Process/"><cite>W3C Process Document</cite></a>. 2 November 2021. URL: <a href="https://www.w3.org/Consortium/Process/">https://www.w3.org/Consortium/Process/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -5301,7 +5314,7 @@ Acknowledgment of a Submission Request</a> <a href="#ref-for-team①②①">(2)<
 Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-team①②④">(2)</a> <a href="#ref-for-team①②⑤">(3)</a> <a href="#ref-for-team①②⑥">(4)</a>
     <li><a href="#ref-for-team①②⑦">11. 
 Process Evolution</a>
-    <li><a href="#ref-for-team①②⑧"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-team①②⑨">(2)</a> <a href="#ref-for-team①③⓪">(3)</a> <a href="#ref-for-team①③①">(4)</a>
+    <li><a href="#ref-for-team①②⑧"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-team①②⑨">(2)</a> <a href="#ref-for-team①③⓪">(3)</a> <a href="#ref-for-team①③①">(4)</a> <a href="#ref-for-team①③②">(5)</a> <a href="#ref-for-team①③③">(6)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="ceo">
@@ -5906,6 +5919,7 @@ Content of a Charter</a> <a href="#ref-for-exclusion-draft①">(2)</a>
    <ul>
     <li><a href="#ref-for-dfn-charter-extension">5.9. 
 Appeal by Advisory Committee Representatives</a>
+    <li><a href="#ref-for-dfn-charter-extension①"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="group-decision">
@@ -5923,6 +5937,7 @@ Revising W3C Statements</a>
 Registry Data Reports</a>
     <li><a href="#ref-for-group-decision⑥">6.6. 
 Switching Tracks</a>
+    <li><a href="#ref-for-group-decision⑦"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="def-w3c-decision">
@@ -6091,6 +6106,7 @@ Appeal by Advisory Committee Representatives</a>
 Advancement on the Recommendation Track</a> <a href="#ref-for-w3c-council②⑦">(2)</a>
     <li><a href="#ref-for-w3c-council②⑧">6.3.4. 
 Updating Mature Publications on the Recommendation Track</a> <a href="#ref-for-w3c-council②⑨">(2)</a>
+    <li><a href="#ref-for-w3c-council③⓪"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="dismissed">
@@ -6210,6 +6226,7 @@ Publishing Registries</a>
 Updating Registry Tables</a>
     <li><a href="#ref-for-advisory-committee-review②①">11. 
 Process Evolution</a>
+    <li><a href="#ref-for-advisory-committee-review②②"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="reviewform">
@@ -7076,7 +7093,7 @@ Public Communication</a>
 Appeal by Advisory Committee Representatives</a>
     <li><a href="#ref-for-mou①">9. 
 Liaisons</a> <a href="#ref-for-mou②">(2)</a> <a href="#ref-for-mou③">(3)</a> <a href="#ref-for-mou④">(4)</a>
-    <li><a href="#ref-for-mou⑤"> Changes since the 2 November 2021 Process</a>
+    <li><a href="#ref-for-mou⑤"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-mou⑥">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="MemberSubmission">
@@ -7122,6 +7139,7 @@ Acknowledgment of a Submission Request</a>
    <ul>
     <li><a href="#ref-for-submission-appeals">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
+    <li><a href="#ref-for-submission-appeals①"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
 <script>/* script-dfn-panel */
