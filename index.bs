@@ -388,7 +388,7 @@ The W3C Team</h3>
 	The CEO <em class="rfc2119">may</em> delegate responsibility
 	(generally to other individuals in the Team)
 	for any of their roles described in this document.
-	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=CEO=]'s authority,
+	[=Team Decisions=] derive from the [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
 
 	Oversight over the [=Team=],
@@ -1973,7 +1973,13 @@ Types of Decisions</h3>
 	are called <dfn export lt="group decision | resolution">group decisions</dfn>
 	(also known as group “resolutions”).
 
-	A <dfn id="def-w3c-decision">W3C decision</dfn> is
+	Decisions made by members of the [=Team=]
+	in connection with this Process,
+	based on their own individual or collective judgement,
+	are called <dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn>.
+
+	In contrast,
+	a <dfn id="def-w3c-decision">W3C decision</dfn> is
 	determined by the [=Team=] on behalf of the W3C community
 	by assessing the consensus of the W3C Community after an [=Advisory Committee review=].
 
@@ -2222,10 +2228,11 @@ Reopening a Decision When Presented With New Information</h3>
 <h3 id="registering-objections" oldids="WGArchiveMinorityViews, WGAppeals, wg-decision-appeal, chair-decision-appeal">
 Registering Formal Objections</h3>
 
-	In the W3C process,
-	any individual <em class="rfc2119">may</em> appeal a decision
-	by registering a <dfn id="FormalObjection">Formal Objection</dfn> with the [=Team=]
-	when they believe that their concerns are not being duly considered.
+	Any individual
+	(regardless of whether they are associated with a Member)
+	<em class="rfc2119">may</em> appeal any decision made in connection with this Process
+	(except those having a different appeal process)
+	by registering a <dfn id="FormalObjection">Formal Objection</dfn> with the [=Team=].
 	Group participants <em class="rfc2119">should</em> inform
 	their <a href="#TeamContact">Team Contact</a> as well as the group's Chair(s).
 	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
