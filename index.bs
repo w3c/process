@@ -298,12 +298,12 @@ Rights of Members</h4>
 	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
 
 <h4 id="RelatedAndConsortiumMembers">
-Member Consortia and Related Members</h4>
+Member Associations and Related Members</h4>
 
 <h5 id="MemberConsortia">
 Membership Consortia</h5>
 
-	A “<dfn id=fdn-member-consortium lt="Member Consortium | Member Consortia">Member Consortium</dfn>” means a consortium,
+	A “<dfn id=fdn-member-consortium lt="Member Association | Member Associations">Member Association</dfn>” means a consortium,
 	user society,
 	or association of two or more individuals,
 	companies,
@@ -313,27 +313,27 @@ Membership Consortia</h5>
 	or pooling resources to achieve a common goal other than participation in,
 	or achieving certain goals in,
 	W3C.
-	A joint-stock corporation or similar entity is not a [=Member Consortium=]
+	A joint-stock corporation or similar entity is not a [=Member Association=]
 	merely because it has shareholders or stockholders.
-	If it is not clear whether a prospective Member qualifies as a [=Member Consortium=],
+	If it is not clear whether a prospective Member qualifies as a [=Member Association=],
 	the [=CEO=] may reasonably make the determination.
-	For a [=Member Consortium=], the rights and privileges of W3C Membership
-	described in the W3C Process Document extend to the [=Member Consortium=]'s paid staff
+	For a [=Member Association=], the rights and privileges of W3C Membership
+	described in the W3C Process Document extend to the [=Member Association=]'s paid staff
 	and Advisory Committee representative.
 
-	[=Member Consortia=] <em class="rfc2119">may</em> also designate
+	[=Member Associations=] <em class="rfc2119">may</em> also designate
 	up to four (or more at the Team's discretion) individuals
 	who, though not employed by the organization,
 	<em class="rfc2119">may</em> exercise the rights of <a href="#member-rep">Member representatives</a>.
 
-	For [=Member Consortia=] that have individual people as members,
+	For [=Member Associations=] that have individual people as members,
 	these individuals <em class="rfc2119">must</em> disclose their employment affiliation
 	when participating in W3C work.
 	Provisions for <a href="#MemberRelated">related Members</a> apply.
 	Furthermore, these individuals <em class="rfc2119">must</em> represent the broad interests of the W3C Member organization
 	and not the particular interests of their employers.
 
-	For Member Consortia that have organizations as Members,
+	For Member Associations that have organizations as Members,
 	all such designated representatives <em class="rfc2119">must</em> be an official representative of the Member organization
 	(e.g. a Committee or Task Force Chairperson)
 	and <em class="rfc2119">must</em> disclose their employment affiliation when participating in W3C work.
@@ -341,8 +341,8 @@ Membership Consortia</h5>
 	Furthermore, these individuals <em class="rfc2119">must</em> represent the broad interests of the W3C Member organization
 	and not the particular interests of their employers.
 
-	For all representatives of a Member Consortium,
-	IPR commitments are made on behalf of the Member Consortium,
+	For all representatives of a Member Association,
+	IPR commitments are made on behalf of the Member Association,
 	unless a further IPR commitment is made by the individuals' employers.
 
 <h5 id="MemberRelated">
@@ -5665,6 +5665,11 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					Rename “maturity level” into “maturity stage”.
+
+				<li>
+					Rename “Member Consortia” into [=Member Associations=]
+					to align with terminology in the Bylaws
+					(and to avoid confusion with W3C itself).
 
 				<li>
 					Clarify how the advance notice period for [=MoU=] works.
