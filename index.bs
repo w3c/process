@@ -885,7 +885,13 @@ Composition of the Advisory Board</h5>
 	the [=Team=] appoints the Chair,
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
 	The Chair(s) are subject to ratification by secret ballot
-	by two thirds of the AB upon appointment and at the start of each AB term.
+	by two thirds of the AB upon appointment.
+	Chair selection <em class=rfc2119>must</em> be run
+	at least at the start of each regular term,
+	as well as when a majority of the participants request it;
+	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
+	for example if a chair steps down or if a minority of the participants make such a request.
+
 	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Team Contact have a standing invitation
@@ -1001,6 +1007,12 @@ Composition of the Technical Architecture Group</h5>
 	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
 	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
 	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
+	Chair selection <em class=rfc2119>must</em> be run
+	at least at the start of each regular term,
+	as well as when a majority of the participants request it;
+	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
+	for example if a chair steps down or if a minority of the participants make such a request.
+
 	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
@@ -5647,7 +5659,8 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					rather than having to inline everything in the announcement.
 
 				<li>
-					The [=TAG=] now picks its own chair(s).
+					The [=TAG=] now picks its own chair(s),
+					and the timing of AB and TAG chair selection is clarified.
 
 				<li>
 					Appointed [=TAG=] seats now have consecutive term limits.
