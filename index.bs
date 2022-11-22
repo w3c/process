@@ -5664,7 +5664,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					Expect supporting material to meeting minutes to be archived as the minutes are.
 
 				<li>
-					Rename "maturity level" into "maturity stage"
+					Rename “maturity level” into “maturity stage”.
 
 				<li>
 					Clarify how the advance notice period for [=MoU=] works.
