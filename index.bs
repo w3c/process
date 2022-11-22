@@ -919,10 +919,12 @@ Liaisons between the Advisory Board and the Board of Directors</h5>
 	To ensure good communication between the [=AB=] and the [=Board of Directors=]
 	and facilitate operational and management consistency,
 	the [=AB=] <em class=rfc2119>may</em> appoint up to two of its participants as liaisons to the [=Board=].
-	Such appointees are expected to to attend [=Board=] meetings and access [=Board=] materials,
-	but do not form part of the [=Board=]'s decision-making body.
-	They may be excluded from such participation
-	by a decision of the [=Board of Directors=].
+	Such appointees are expected to attend and participate in [=Board=] meetings
+	and access [=Board=] materials
+	as Non-voting Observers. [[BYLAWS]]
+	They do not form part of the [=Board=]'s decision-making body,
+	and may be excluded from such participation
+	in accordance with applicable Board procedures.
 
 	The [=Advisory Board=] <em class=rfc2119>should</em> reevaluate
 	who is assigned to this role
