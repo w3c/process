@@ -2684,8 +2684,8 @@ Appeal by Advisory Committee Representatives</h3>
 	In all cases,
 	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
 
-	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=];
-	they may also share this request with the [=Advisory Committee=],
+	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=],
+	and may also share this request with the [=Advisory Committee=],
 	for example by CCing a Member-visible mailing list.
 	The request should say “I appeal this Decision”
 	and identify the decision,
