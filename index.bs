@@ -690,11 +690,11 @@ Resignation from a Group</h4>
 	A W3C Member or Invited Expert <em class="rfc2119">may</em> resign from a group.
 	On written notification from an Advisory Committee representative
 	or Invited Expert
-	to the team,
+	to the [=Team=],
 	the Member and their representatives
 	or the Invited Expert
 	will be deemed to have resigned from the relevant group.
-	The team <em class="rfc2119">must</em> record the notification.
+	The [=Team=] <em class="rfc2119">must</em> record the notification.
 	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
@@ -2026,7 +2026,7 @@ Consensus</h4>
 
 	Note: A [=Formal Objection=] always indicates sustained disagreement,
 	but isn't necessary to express it,
-	except in som formal contexts such as [=AC Reviews=].
+	except in some formal contexts such as [=AC Reviews=].
 	Disagreement with a proposed decision,
 	however, does not always rise to the level of sustained objection,
 	as individuals could be willing to accept a decision
