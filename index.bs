@@ -486,7 +486,8 @@ Conflict of Interest Policy</h5>
 
 		<li>
 			A decision-making role/responsibility
-			(such as participating on the Board) in other organizations relevant to W3C.
+			(such as participating on a Board)
+			in other organizations relevant to W3C.
 
 		<li>
 			A position on a publicly visible advisory body,
@@ -860,7 +861,7 @@ Role of the Advisory Board</h5>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	Together with the [=CEO=] and the members of the [=TAG=],
+	As part of the [=W3C Council=],
 	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
@@ -953,7 +954,7 @@ Role of the Technical Architecture Group</h5>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	Together with the [=CEO=] and members of the [=AB=],
+	As part of the [=W3C Council=],
 	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
