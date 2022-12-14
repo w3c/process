@@ -297,13 +297,13 @@ Rights of Members</h4>
 
 	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
 
-<h4 id="RelatedAndConsortiumMembers">
+<h4 id="RelatedAndAssociatedMembers" oldids="RelatedAndConsortiumMembers">
 Member Associations and Related Members</h4>
 
-<h5 id="MemberConsortia">
-Membership Consortia</h5>
+<h5 id="MemberAssoc" oldids="fdn-member-consortium, MemberConsortia">
+Membership Associations</h5>
 
-	A “<dfn id=fdn-member-consortium lt="Member Association | Member Associations">Member Association</dfn>” means a consortium,
+	A “<dfn lt="Member Association | Member Associations">Member Association</dfn>” means a consortium,
 	user society,
 	or association of two or more individuals,
 	companies,
@@ -5628,7 +5628,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
-					(see [[#MemberConsortia]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
+					(see [[#MemberAssoc]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
 
 				<li>
 					The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
