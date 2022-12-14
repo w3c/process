@@ -3726,6 +3726,7 @@ Transitioning to Candidate Recommendation</h4>
 
 		<li>
 			<em class="rfc2119">must</em> specify the deadline for comments,
+			delineating the <dfn>Candidate Recommendation review period</dfn>,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days after publication,
 			and <em class="rfc2119">should</em> be longer for complex documents,
 
@@ -3891,12 +3892,12 @@ Transitioning to Proposed Recommendation</h4>
 
 		<li>
 			<em class="rfc2119">must</em> show that all issues
-			raised during the [=Candidate Recommendation=] review period
+			raised during the [=Candidate Recommendation review period=]
 			have been [=formally addressed=],
 
 		<li>
 			<em class="rfc2119">must </em>identify any substantive issues
-			raised since the close of the [=Candidate Recommendation=] review period,
+			raised since the close of the [=Candidate Recommendation review period=],
 
 		<li>
 			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
