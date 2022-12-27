@@ -395,7 +395,7 @@ The W3C Team</h3>
 	budgeting,
 	and other business decisions,
 	is provided by the <dfn export lt="BoD | Board | Board of Directors | W3C Board of Directors">W3C Board of Directors</dfn>,
-	and not subject to the [=Process=].
+	and not subject to the Process.
 
 	Note: See the [[BYLAWS inline|W3C Bylaws]] for more details
 	on the [=Board=] and overall governance of W3C.
