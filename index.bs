@@ -1955,11 +1955,20 @@ Chartered Group Closure</h3>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
 
-	In exceptional circumstances,
-	The [=Team=] <em class="rfc2119">may</em> propose through an [=AC Review=]
-	to close a group prior to the date specified in the charter.
-	This may occur for instance
-	when a [=Patent Advisory Group=] concluded that the work <em class="rfc2119">should</em> be terminated.
+	The [=Team=], the [=TAG=], or the [=AB=] <em class=rfc2119>may</em> propose to close a group
+	prior to the date specified in the charter in any of the following circumstances:
+
+	* There are insufficient member resources to produce chartered deliverables
+		or to maintain the group,
+		according to priorities established within W3C.
+	* A [=Patent Advisory Group=] concluded that the work
+		<em class=rfc2119>should</em> be terminated.
+	* The [=TAG=] or [=AB=] determined that continuing operation of the chartered group or its work
+		would be detrimental to W3C or its mission.
+	* The group produces chartered deliverables ahead of schedule.
+
+	Such a proposal to close a group must be accompanied by rationale,
+	and the proposal must be confirmed by an [=AC Review=] as a [=W3C Decision=].
 
 	Closing a Working Group has implications
 	with respect to the W3C Patent Policy [[!PATENT-POLICY]].
