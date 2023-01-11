@@ -5710,6 +5710,11 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					Codify that the AB is expected to pick up to two of its participants
 					as <a href="#ab-bod-liaison">liaisons for the board</a>.
 
+				<li>
+					Encourage people requesting an [=AC Appeal=]
+					to share their requesti with the [=Advisory Committee=]
+					in addition to the [=Team=].
+
 			</ul>
 	</dl>
 
