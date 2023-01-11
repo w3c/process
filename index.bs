@@ -5627,7 +5627,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					of a technical report without a [=Group Decision=].
 
 				<li>
-					The [=Team=] rather than the Director is now responsible
+					The [=Team=], [=AB=], or [=TAG=] rather than the Director is now responsible
 					for proposing group creation and forcible closure;
 					[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
 					(it already was for group creation).
