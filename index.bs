@@ -5725,6 +5725,8 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					to share their requesti with the [=Advisory Committee=]
 					in addition to the [=Team=].
 
+				<li>
+					Clarify what the term [=Candidate Recommendation review period=] refers to.
 			</ul>
 	</dl>
 
