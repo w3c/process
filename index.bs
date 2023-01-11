@@ -1965,7 +1965,7 @@ Chartered Group Closure</h3>
 		<em class=rfc2119>should</em> be terminated.
 	* The [=TAG=] or [=AB=] determined that continuing operation of the chartered group or its work
 		would be detrimental to W3C or its mission.
-	* The group produces chartered deliverables ahead of schedule.
+	* The group produced all chartered deliverables ahead of schedule.
 
 	Such a proposal to close a group must be accompanied by rationale,
 	and the proposal must be confirmed by an [=AC Review=] as a [=W3C Decision=].
