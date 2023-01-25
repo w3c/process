@@ -4854,9 +4854,8 @@ Public Communication</h3>
 	<ul>
 		<li>
 			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
-			Per the Membership Agreement,
-			W3C technical reports (and software) are available free of charge to the general public;
-			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
+			Per [[W3C-IPR inline]],
+			W3C technical reports (and software) are available free of charge to the general public.
 
 		<li>
 			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
@@ -5938,6 +5937,11 @@ Changes since earlier versions</h3>
 	"BYLAWS": {
 		"href": "https://www.w3.org/2022/10/w3c-bylaws-20221019.pdf",
 		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
+	},
+	"W3C-IPR": {
+		"href": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231",
+		"title": "W3C IPR Policies"
 	}
+
 }
 </pre>
