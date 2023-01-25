@@ -2326,8 +2326,7 @@ The W3C Council</h4>
 <h5 id=council-composition>
 Council Composition</h5>
 
-	The [=W3C Council=] consists of the following members,
-	with the exception of any who are [=dismissed=] or who formally [=renounce=] their positions:
+	The [=W3C Council=] is composed from:
 	* the [=CEO=] or their chosen [=Team=] delegate
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
