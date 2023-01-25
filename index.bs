@@ -2262,6 +2262,7 @@ Registering Formal Objections</h3>
 	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
 	Formal Objections receive formal consideration and a formal response.
 	The word “objection” used alone has its ordinary English connotations.
+	See [[#consensus-building]].
 
 	A [=Formal Objection=]
 	<em class="rfc2119">must</em> include a summary of
