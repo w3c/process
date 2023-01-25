@@ -2426,6 +2426,23 @@ Council Participation, Dismissal, and Renunciation</h5>
 	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
 	as they can of anyone else in the W3C community.
 
+<h5 id=council-short-circuit>
+Unanimous Short Circuit</h5>
+
+
+	The full Council process <em class=rfc2119>may</em> be short-circuited if
+	the Team recommends a resolution
+	and every potential member of the Council who is not renouncing their seat
+	votes affirmatively (no abstentions) to adopt this resolution.
+
+	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
+	and prior to choosing a [=W3C Council Chair|Chair=].
+
+	Note: This is intended for exceptional cases
+	that seem to have an obvious resolution
+	and which are too trivial or repetitive
+	to warrant a full Council response.
+
 <h5 id=council-chairing>
 Council Chairing</h5>
 
