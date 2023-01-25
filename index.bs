@@ -2494,7 +2494,8 @@ Council Deliberations</h5>
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
 	explaining the reason for their disagreement.
 
-	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=].
+	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=]
+	and its [=Council Team Contact=].
 
 	If the [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
