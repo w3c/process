@@ -2341,9 +2341,9 @@ Council Composition</h5>
 	the [=W3C Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
 
-	A [=Team=] member,
-	the <dfn export>Council Team Contact</dfn>,
-	is assigned to support the Council
+	A [=Team=] member is assigned
+	to act as the <dfn export>Council Team Contact</dfn>,
+	to support this Council
 	and to facilitate adherence to this Process.
 
 <h5 id=council-delegation>
