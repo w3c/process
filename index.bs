@@ -2445,9 +2445,8 @@ Unanimous Short Circuit</h5>
 	and prior to choosing a [=W3C Council Chair|Chair=].
 
 	Note: This is intended for exceptional cases
-	that seem to have an obvious resolution
-	and which are too trivial or repetitive
-	to warrant a full Council response.
+	that don't seem to warrant a full Council response
+	because they are, for instance, too trivial, repetitive, absurd, etc.
 
 <h5 id=council-chairing>
 Council Chairing</h5>
