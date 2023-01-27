@@ -5465,6 +5465,7 @@ Acknowledgments</h2>
 	Sandro Hawke (W3C),
 	Shawn Lawton Henry,
 	Tantek Çelik (Mozilla),
+	Ted Thibodeau Jr (OpenLink Software),
 	Virginia Fournier (Apple),
 	Wendy Seltzer (W3C),
 	Yves Lafon (W3C).
