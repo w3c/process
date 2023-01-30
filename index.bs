@@ -5509,7 +5509,7 @@ Acknowledgments</h2>
 	Florian Rivoal,
 	Fuqiao Xue (W3C),
 	Geoffrey Creighton (Microsoft),
-	Geoffrey Snedden,
+	Geoffrey Sneddon,
 	Giri Mandyam (Qualcomm),
 	Gregg Kellogg,
 	Hadley Beeman,
