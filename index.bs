@@ -5726,7 +5726,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					Encourage people requesting an [=AC Appeal=]
-					to share their requesti with the [=Advisory Committee=]
+					to share their request with the [=Advisory Committee=]
 					in addition to the [=Team=].
 
 				<li>
