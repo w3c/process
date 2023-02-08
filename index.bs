@@ -2446,7 +2446,7 @@ Unanimous Short Circuit</h5>
 
 	Note: This is intended for exceptional cases
 	that don't seem to warrant a full Council response
-	because they are, for instance, too trivial, repetitive, absurd, etc.
+	because they are, for instance, too trivial, duplicative, etc.
 
 <h5 id=council-chairing>
 Council Chairing</h5>
