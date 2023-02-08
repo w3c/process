@@ -2438,7 +2438,7 @@ Council Chairing</h5>
 	The chair must be a member of that [=W3C Council=].
 	Chair selection happens during formation of each Council,
 	and <em class=rfc2119>must</em> be re-run
-	if requested by the [=Council Team Contact=]
+	if requested by the [=Council Team Contact=] or by the [=Chair=]
 	during the Council’s operation.
 
 <h5 id=council-deliberations>
