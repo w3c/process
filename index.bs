@@ -5045,40 +5045,46 @@ Liaisons</h2>
 	and mutual membership agreements.
 
 	W3C <em class="rfc2119">may</em> negotiate
-	a Memorandum of Understanding with another organization.
-	For purposes of the W3C Process, a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
-	is a formal agreement or similar contractual framework between W3C and another party or parties--
-	other than between W3C and W3C Members
-	for the purposes of membership,
-	between W3C and its Partners [[BYLAWS]],
-	and other agreements related to the ordinary provision of services
-	for the purpose of running W3C--
-	that specifies rights and obligations of each party toward the others.
+	[=technical agreements=] with another organization.
+	For purposes of the W3C Process,
+	a <dfn local-lt="agreement">technical agreement</dfn> is a formal contract,
+	or a Memorandum of Understanding (<abbr id=mou>MoU</abbr>),
+	or a similar document,
+	between W3C and another party or parties,
+	that relates to the technical activity of the Consortium
+	(e.g. its publications, groups, or liaisons).
+	It specifies rights and obligations of each party toward the others.
 	These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
 	an agreed share of technical responsibilities with due coordination,
 	and/or considerations for confidentiality and specific IPR.
-	The agreement may be called something other than a “Memorandum of Understanding”,
-	and something called a “Memorandum of Understanding”
-	might not be an [=MoU=] for the purposes of the Process.
 
-	When considering an MoU
+	Non-technical agreements, including
+	those between W3C and its [=Members=] for the purposes of membership,
+	between W3C and its Partners for the purposes of partnership [[BYLAWS]],
+	and other agreements related to the operation of the Consortium
+	or to the ordinary provision of services
+	are not subject to these Process provisions.
+
+	When considering a [=technical agreement=],
 	(i.e., before the decision whether to sign is made),
 	the Team <em class="rfc2119">should</em> provide
-	the [=Advisory Committee=] with a draft of the proposed MoU,
-	along with an explanation of how W3C would benefit from signing this MoU,
+	the [=Advisory Committee=] with a draft of the proposed [=agreement=],
+	along with an explanation of how W3C would benefit from signing this [=agreement=],
 	for their review and discussion.
 	After addressing any comments,
-	if the [=Team Decision|Team decides=] to proceed with signing the MoU,
+	and subject to any management or governance procedures that apply
+	(e.g. formal review of proposed contracts by legal counsel or by the [=Board=]),
+	if the [=Team Decision|Team decides=] to proceed with signing the [=agreement=],
 	the Team <em class="rfc2119">must</em> announce the intent to sign,
-	and provide the final text of the MoU
+	and provide the final text of the [=agreement=]
 	with an explanation of signing rationale, to
 	the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the decision to sign the [=MoU=].
+	of the decision to sign the [=agreement=].
 	If the [=appeal=] rejects the proposal,
-	the [=Team=] <em class=rfc2119>must not</em> sign the [=MoU=] on behalf of W3C
+	the [=Team=] <em class=rfc2119>must not</em> sign the [=agreement=] on behalf of W3C
 	unless directed to do so by the [=Board=].
-	A signed [=Memorandum of Understanding=] <em class="rfc2119">should</em> be made public.
+	A signed [=agreement=] <em class="rfc2119">should</em> be made public.
 
 	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
 	and the guidelines W3C follows when creating a liaison is available on the Web.
