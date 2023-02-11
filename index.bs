@@ -5081,7 +5081,7 @@ Liaisons</h2>
 	the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to sign the [=agreement=].
-	If the [=appeal=] rejects the proposal,
+	If the the proposal is rejected on [=appeal=],
 	the [=Team=] <em class=rfc2119>must not</em> sign the [=agreement=] on behalf of W3C
 	unless directed to do so by the [=Board=].
 	A signed [=agreement=] <em class="rfc2119">should</em> be made public.
