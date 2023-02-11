@@ -5052,7 +5052,7 @@ Liaisons</h2>
 	or a similar document,
 	between W3C and another party or parties,
 	that relates to the technical activity of the Consortium
-	(e.g. its publications, groups, or liaisons).
+	(e.g., its publications, groups, or liaisons).
 	It specifies rights and obligations of each party toward the others.
 	These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
 	an agreed share of technical responsibilities with due coordination,
