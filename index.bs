@@ -5062,7 +5062,7 @@ Liaisons</h2>
 	those between W3C and its [=Members=] for the purposes of membership,
 	between W3C and its Partners for the purposes of partnership [[BYLAWS]],
 	and other agreements related to the operation of the Consortium
-	or to the ordinary provision of services
+	or to the ordinary provision of services,
 	are not subject to these Process provisions.
 
 	When considering a [=technical agreement=],
