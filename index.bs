@@ -5065,7 +5065,7 @@ Liaisons</h2>
 	or to the ordinary provision of services,
 	are not subject to these Process provisions.
 
-	When considering a [=technical agreement=],
+	When considering a [=technical agreement=]
 	(i.e., before the decision whether to sign is made),
 	the Team <em class="rfc2119">should</em> provide
 	the [=Advisory Committee=] with a draft of the proposed [=agreement=],
