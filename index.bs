@@ -5076,7 +5076,7 @@ Liaisons</h2>
 	(e.g., formal review of proposed contracts by legal counsel or by the [=Board=]),
 	if the [=Team Decision|Team decides=] to proceed with signing the [=agreement=],
 	the Team <em class="rfc2119">must</em> announce the intent to sign,
-	and provide the final text of the [=agreement=]
+	and provide the final text of the [=agreement=],
 	with an explanation of signing rationale, to
 	the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
