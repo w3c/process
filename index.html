@@ -6,9 +6,9 @@
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="Bikeshed version 859efb4bd, updated Fri Jan 27 16:04:01 2023 -0800" name="generator">
+  <meta content="Bikeshed version f043d3484, updated Fri Feb 17 10:53:48 2023 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="2574b4002420bf73b86180345eed923a49321bcc" name="document-revision">
+  <meta content="861650d5eebc945f7335d43334f5476738c29b46" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -51,7 +51,6 @@ g g:hover text {
 
 </style>
 <style>/* style-autolinks */
-
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
     font-size: inherit;
@@ -111,7 +110,8 @@ pre .property::before, pre .property::after {
 
 [data-link-type=biblio] {
     white-space: pre;
-}</style>
+}
+</style>
 <style>/* style-colors */
 
 /* Any --*-text not paired with a --*-bg is assumed to have a transparent bg */
@@ -220,9 +220,9 @@ pre .property::before, pre .property::after {
     --outdated-shadow: red;
 
     --editedrec-bg: darkorange;
-}</style>
+}
+</style>
 <style>/* style-counters */
-
 body {
     counter-reset: example figure issue;
 }
@@ -249,9 +249,9 @@ figcaption {
 }
 figcaption:not(.no-marker)::before {
     content: "Figure " counter(figure) " ";
-}</style>
+}
+</style>
 <style>/* style-dfn-panel */
-
 :root {
     --dfnpanel-bg: #ddd;
     --dfnpanel-text: var(--text);
@@ -259,10 +259,10 @@ figcaption:not(.no-marker)::before {
 .dfn-panel {
     position: absolute;
     z-index: 35;
-    height: auto;
-    width: -webkit-fit-content;
-    width: fit-content;
+    width: 20em;
+    min-width: min-content;
     max-width: 300px;
+    height: auto;
     max-height: 500px;
     overflow: auto;
     padding: 0.5em 0.75em;
@@ -270,6 +270,7 @@ figcaption:not(.no-marker)::before {
     background: var(--dfnpanel-bg);
     color: var(--dfnpanel-text);
     border: outset 0.2em;
+    white-space: normal; /* in case it's moved into a pre */
 }
 .dfn-panel:not(.on) { display: none; }
 .dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
@@ -292,7 +293,6 @@ figcaption:not(.no-marker)::before {
 .dfn-paneled { cursor: pointer; }
 </style>
 <style>/* style-issues */
-
 a[href].issue-return {
     float: right;
     float: inline-end;
@@ -302,7 +302,6 @@ a[href].issue-return {
 }
 </style>
 <style>/* style-md-lists */
-
 /* This is a weird hack for me not yet following the commonmark spec
    regarding paragraph and lists. */
 [data-md] > :first-child {
@@ -310,7 +309,8 @@ a[href].issue-return {
 }
 [data-md] > :last-child {
     margin-bottom: 0;
-}</style>
+}
+</style>
 <style>/* style-selflinks */
 
 :root {
@@ -484,6 +484,7 @@ dfn > a.self-link::before      { content: "#"; }
        which is quite common in practice... */
     img { background: white; }
 }
+
 @media (prefers-color-scheme: dark) {
     :root {
         --selflink-text: black;
@@ -497,12 +498,13 @@ dfn > a.self-link::before      { content: "#"; }
         --dfnpanel-bg: #222;
         --dfnpanel-text: var(--text);
     }
-}</style>
+}
+</style>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-02-08">8 February 2023</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-02-22">22 February 2023</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -553,7 +555,7 @@ dfn > a.self-link::before      { content: "#"; }
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 8 February 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 22 February 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 
 which is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>,
@@ -810,7 +812,7 @@ it will be offered for W3C Advisory Committee Review.</p>
         <li><a href="#SubmissionReqs"><span class="secno">10.1.2</span> <span class="content"> Information Required in a Submission Request</span></a>
        </ol>
       <li><a href="#TeamSubmissionRights"><span class="secno">10.2</span> <span class="content"> Team Rights and Obligations</span></a>
-      <li><a href="#SubmissionYes"><span class="secno">10.3</span> <span class="content"> Acknowledgment of a Submission Request</span></a>
+      <li><a href="#SubmissionYes"><span class="secno">10.3</span> <span class="content"> Receipt of a Submission Request</span></a>
       <li><a href="#SubmissionNo"><span class="secno">10.4</span> <span class="content"> Rejection of a Submission Request, and Submission Appeals</span></a>
      </ol>
     <li><a href="#GAProcess"><span class="secno">11</span> <span class="content"> Process Evolution</span></a>
@@ -4422,13 +4424,13 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	Only W3C Members <em class="rfc2119">may</em> be listed as <a data-link-type="dfn" href="#submitter" id="ref-for-submitter">Submitters</a>.</p>
     <p>The Submission process consists of the following steps:</p>
     <ol>
-     <li> One of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①">Submitters</a> sends a request to the Team to acknowledge the Submission request.
+     <li> One of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①">Submitters</a> sends a request to the Team to receive the Submission request.
 			The Team and <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②">Submitter</a>(s) communicate to ensure that the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission">Member Submission</a> is complete. 
      <li>
        After review, the <a data-link-type="dfn" href="#team" id="ref-for-team①②⓪">Team</a> <em class="rfc2119">must</em> either
-			acknowledge or reject the Submission request. 
+			receive or reject the Submission request. 
       <ul>
-       <li> If <a href="#SubmissionYes">acknowledged</a>,
+       <li> If <a href="#SubmissionYes">received</a>,
 					the Team <em class="rfc2119">must</em> make the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission①">Member Submission</a> available
 					at the public W3C Web site,
 					in addition to Team comments about the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission②">Member Submission</a>. 
@@ -4445,7 +4447,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 				by which Members ask for “ratification” of these documents
 				as <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑦④">W3C Recommendations</a>. 
       <li> There is no requirement or guarantee
-				that technology which is part of an acknowledged Submission request
+				that technology which is part of a received Submission request
 				will receive further consideration by W3C
 				(e.g., by a W3C <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧⑨">Working Group</a>). 
      </ul>
@@ -4453,12 +4455,12 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <p>Making a Member Submission available at the W3C Web site
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
-	The acknowledgment of a Submission request
+	The receipt of a Submission request
 	does not imply that any action will be taken by W3C.
 	It merely records publicly
 	that the Submission request has been made by the Submitter.
 	A Member Submission made available by W3C <em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.</p>
-    <p>The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> <a data-link-type="biblio" href="#biblio-submission-list" title="The list of acknowledged Member Submissions">[SUBMISSION-LIST]</a> is available at the W3C Web site.</p>
+    <p>The list of <a href="https://www.w3.org/Submission/">received Member Submissions</a> <a data-link-type="biblio" href="#biblio-submission-list" title="The list of acknowledged Member Submissions">[SUBMISSION-LIST]</a> is available at the W3C Web site.</p>
     <h3 class="heading settled" data-level="10.1" id="SubmissionRights"><span class="secno">10.1. </span><span class="content"> Submitter Rights and Obligations</span><a class="self-link" href="#SubmissionRights"></a></h3>
     <p>When more than one Member jointly participates in a Submission request,
 	only one Member formally sends in the request.
@@ -4467,13 +4469,13 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	and each of those <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑨">Advisory Committee representatives</a> <em class="rfc2119">must</em> confirm
 	(by email to the Team)
 	their participation in the Submission request.</p>
-    <p>At any time prior to acknowledgment,
+    <p>At any time prior to receipt,
 	any <a data-link-type="dfn" href="#submitter" id="ref-for-submitter④">Submitter</a> <em class="rfc2119">may</em> withdraw support for a Submission request
 	(described in "<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>" <a data-link-type="biblio" href="#biblio-submission-req" title="Make or Withdraw a Member Submission Request (Member-only access)">[SUBMISSION-REQ]</a>).
 	A Submission request is “withdrawn” when no Submitter(s) support it.
 	The Team <em class="rfc2119">must not</em> make statements
 	about withdrawn Submission requests.</p>
-    <p>Prior to acknowledgment,
+    <p>Prior to receipt,
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑤">Submitter</a>(s) <em class="rfc2119">must not</em>, <strong>under any circumstances</strong>,
 	refer to a document as “submitted to the World Wide Web Consortium”
 	or “under consideration by W3C” or any similar phrase
@@ -4482,9 +4484,9 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	in public or Member communication
 	that W3C is working (with the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑦">Submitter</a>(s)) on the material in the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission④">Member Submission</a>.
 	The <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑧">Submitter</a>(s) <em class="rfc2119">may</em> release the documents in the Member Submission to the public
-	prior to acknowledgment
+	prior to receipt
 	(without reference to the Submission request).</p>
-    <p>After acknowledgment,
+    <p>After receipt,
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑨">Submitter</a>(s) <em class="rfc2119">must not</em>, <strong>under any circumstances</strong>,
 	imply W3C investment in the Member Submission
 	until, and unless, the material has been adopted as a deliverable
@@ -4507,7 +4509,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <h4 class="heading settled" data-level="10.1.2" id="SubmissionReqs"><span class="secno">10.1.2. </span><span class="content"> Information Required in a Submission Request</span><a class="self-link" href="#SubmissionReqs"></a></h4>
     <p>The <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⓪">Submitter</a>(s)
 	and any other authors of the submitted material <em class="rfc2119">must</em> agree that,
-	if the request is acknowledged,
+	if the request is received,
 	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> <a data-link-type="biblio" href="#biblio-doc-license" title="W3C Document License">[DOC-LICENSE]</a> and will include a reference to it.
 	The <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①①">Submitter</a>(s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.</p>
     <p>The request <em class="rfc2119">must</em> satisfy the Member Submission licensing commitments
@@ -4522,7 +4524,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 			(e.g., a technical specification,
 			a position paper,
 			etc.)
-			If the Submission request is acknowledged,
+			If the Submission request is received,
 			these documents will be made available by W3C
 			and therefore <em class="rfc2119">must</em> satisfy the Team’s <a href="https://www.w3.org/pubrules/">Publication Rules</a> <a data-link-type="biblio" href="#biblio-pubrules" title="Publication Rules">[PUBRULES]</a>. <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①③">Submitters</a> <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
 			but when made available by W3C,
@@ -4537,14 +4539,14 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 			but the specific answer will affect the <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑥">Team’s Decision</a>. 
      <li> What resources, if any,
 			does the Submitter intend to make available
-			if W3C acknowledges the Submission request
+			if W3C receives the Submission request
 			and takes action on it? 
      <li> What action would the Submitter like W3C to take
-			if the Submission request is acknowledged? 
+			if the Submission request is received? 
      <li> What mechanisms are there to make changes to the specification being submitted?
 			This includes, but is not limited to,
 			stating where change control will reside
-			if the request is acknowledged. 
+			if the request is received. 
     </ul>
     <p>For other administrative requirements related to Submission requests,
 	see “<a href="https://www.w3.org/2000/09/submission">How to send a Submission request</a>” <a data-link-type="biblio" href="#biblio-member-sub" title="How to send a Submission request">[MEMBER-SUB]</a>.</p>
@@ -4555,27 +4557,27 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②②">Team</a> sends a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="validation-notice">validation notice</dfn> to the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①④">Submitter</a>(s)
 	once the Team has reviewed a Submission request
 	and judged it complete and correct.</p>
-    <p>Prior to a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑦">decision</a> to <a href="#SubmissionYes">acknowledge</a> or <a href="#SubmissionNo">reject</a> the request,
+    <p>Prior to a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑦">decision</a> to <a href="#SubmissionYes">receive</a> or <a href="#SubmissionNo">reject</a> the request,
 	the request is <a data-link-type="dfn" href="#Team-only" id="ref-for-Team-only⑥">Team-only</a>,
 	and the <a data-link-type="dfn" href="#team" id="ref-for-team①②③">Team</a> <em class="rfc2119">must</em> hold it in the strictest confidentiality.
 	In particular,
 	the Team <em class="rfc2119">must not</em> comment to the media
 	about the Submission request.</p>
-    <h3 class="heading settled" data-level="10.3" id="SubmissionYes"><span class="secno">10.3. </span><span class="content"> Acknowledgment of a Submission Request</span><a class="self-link" href="#SubmissionYes"></a></h3>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②④">Team</a> <a href="#SubmissionYes">acknowledges</a> a Submission request
+    <h3 class="heading settled" data-level="10.3" id="SubmissionYes"><span class="secno">10.3. </span><span class="content"> Receipt of a Submission Request</span><a class="self-link" href="#SubmissionYes"></a></h3>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②④">Team</a> <a href="#SubmissionYes">receives</a> a Submission request
 	by sending an announcement to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee④①">Advisory Committee</a>.
 	Though the announcement <em class="rfc2119">may</em> be made at any time,
 	the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑤">Submitter</a>(s) can expect an announcement between <span class="time-interval">four to six weeks</span> after the <a data-link-type="dfn" href="#validation-notice" id="ref-for-validation-notice">validation notice</a>.
 	The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑤">Team</a> <em class="rfc2119">must</em> keep the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑥">Submitter</a>(s) informed
 	of when an announcement is likely to be made.</p>
-    <p>Once a Submission request has been acknowledged,
+    <p>Once a Submission request has been received,
 	the <a data-link-type="dfn" href="#team" id="ref-for-team①②⑥">Team</a> <em class="rfc2119">must</em>:</p>
     <ul>
      <li> Make the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission⑥">Member Submission</a> available at the W3C Web site. 
      <li> Make the Team comments about the Submission request available at the W3C Web site. 
     </ul>
     <p>If the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑦">Submitter</a>(s) wishes to modify
-	a document made available as the result of acknowledgment,
+	a document made available as the result of receipt,
 	the Submitter(s) <em class="rfc2119">must</em> start the Submission process from the beginning,
 	even just to correct <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑧">editorial changes</a>.</p>
     <h3 class="heading settled" data-level="10.4" id="SubmissionNo"><span class="secno">10.4. </span><span class="content"> Rejection of a Submission Request, and Submission Appeals</span><a class="self-link" href="#SubmissionNo"></a></h3>
@@ -4585,7 +4587,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <ul>
      <li> The ideas expressed in the request
 			overlap in scope with the work of a chartered Working Group,
-			and acknowledgment might jeopardize the progress of the group. 
+			and receipt might jeopardize the progress of the group. 
      <li> The IPR statement made by the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①⑧">Submitter</a>(s) is inconsistent with the W3C’s
 			Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy" title="The W3C Patent Policy">[PATENT-POLICY]</a> and in particular the “Licensing Commitments in W3C Submissions”, <a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> <a data-link-type="biblio" href="#biblio-doc-license" title="W3C Document License">[DOC-LICENSE]</a>,
 			or other IPR policies. 
@@ -5089,8 +5091,8 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
    <li><a href="#GroupsWG">Working Groups</a><span>, in § 3.4</span>
    <li><a href="#EventsW">Workshops</a><span>, in § 8</span>
   </ul>
-  <aside class="dfn-panel" data-for="term-for-patent-advisory-group">
-   <a href="https://www.w3.org/Consortium/Patent-Policy/#patent-advisory-group">https://www.w3.org/Consortium/Patent-Policy/#patent-advisory-group</a><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-1ca71759dd21cfdcf5b822146c51526c" class="dfn-panel" data-for="1ca71759dd21cfdcf5b822146c51526c" id="infopanel-for-1ca71759dd21cfdcf5b822146c51526c">
+   <span id="infopaneltitle-for-1ca71759dd21cfdcf5b822146c51526c" style="display:none">Info about the 'patent advisory group' external reference.</span><a href="https://www.w3.org/Consortium/Patent-Policy/#patent-advisory-group">https://www.w3.org/Consortium/Patent-Policy/#patent-advisory-group</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-patent-advisory-group">4.6. 
 Chartered Group Closure</a>
@@ -5101,7 +5103,7 @@ Chartered Group Closure</a>
    <li>
     <a data-link-type="biblio">[W3C-PATENT-POLICY]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-patent-advisory-group">patent advisory group</span>
+     <li><span class="dfn-paneled" id="1ca71759dd21cfdcf5b822146c51526c">patent advisory group</span>
     </ul>
   </ul>
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -5199,23 +5201,23 @@ Chartered Group Closure</a>
    <dt id="biblio-w3c-ipr">[W3C-IPR]
    <dd><a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231"><cite>W3C IPR Policies</cite></a>. URL: <a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231</a>
   </dl>
-  <aside class="dfn-panel" data-for="w3c-member">
-   <b><a href="#w3c-member">#w3c-member</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-member" class="dfn-panel" data-for="w3c-member" id="infopanel-for-w3c-member">
+   <span id="infopaneltitle-for-w3c-member" style="display:none">Info about the 'W3C Members' definition.</span><b><a href="#w3c-member">#w3c-member</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-member">3.2.1. 
 Role of the Advisory Committee</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="member-association">
-   <b><a href="#member-association">#member-association</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-member-association" class="dfn-panel" data-for="member-association" id="infopanel-for-member-association">
+   <span id="infopaneltitle-for-member-association" style="display:none">Info about the 'Member Association' definition.</span><b><a href="#member-association">#member-association</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-member-association">2.1.2.1. 
 Membership Associations</a> <a href="#ref-for-member-association①">(2)</a> <a href="#ref-for-member-association②">(3)</a> <a href="#ref-for-member-association③">(4)</a> <a href="#ref-for-member-association④">(5)</a> <a href="#ref-for-member-association⑤">(6)</a>
     <li><a href="#ref-for-member-association⑥"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="related-member">
-   <b><a href="#related-member">#related-member</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-related-member" class="dfn-panel" data-for="related-member" id="infopanel-for-related-member">
+   <span id="infopaneltitle-for-related-member" style="display:none">Info about the 'related' definition.</span><b><a href="#related-member">#related-member</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-related-member">2.1.2.2. 
 Related Members</a>
@@ -5225,15 +5227,15 @@ Advisory Board and Technical Architecture Group Elections</a> <a href="#ref-for-
 Advisory Committee Votes</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="subsidiary">
-   <b><a href="#subsidiary">#subsidiary</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-subsidiary" class="dfn-panel" data-for="subsidiary" id="infopanel-for-subsidiary">
+   <span id="infopaneltitle-for-subsidiary" style="display:none">Info about the 'subsidiary' definition.</span><b><a href="#subsidiary">#subsidiary</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-subsidiary">2.1.2.2. 
 Related Members</a> <a href="#ref-for-subsidiary①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="team">
-   <b><a href="#team">#team</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-team" class="dfn-panel" data-for="team" id="infopanel-for-team">
+   <span id="infopaneltitle-for-team" style="display:none">Info about the 'Team' definition.</span><b><a href="#team">#team</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-team">1. 
 Introduction</a> <a href="#ref-for-team①">(2)</a> <a href="#ref-for-team②">(3)</a>
@@ -5360,7 +5362,7 @@ Member Submission Process</a> <a href="#ref-for-team①①⑧">(2)</a> <a href="
     <li><a href="#ref-for-team①②①">10.2. 
 Team Rights and Obligations</a> <a href="#ref-for-team①②②">(2)</a> <a href="#ref-for-team①②③">(3)</a>
     <li><a href="#ref-for-team①②④">10.3. 
-Acknowledgment of a Submission Request</a> <a href="#ref-for-team①②⑤">(2)</a> <a href="#ref-for-team①②⑥">(3)</a>
+Receipt of a Submission Request</a> <a href="#ref-for-team①②⑤">(2)</a> <a href="#ref-for-team①②⑥">(3)</a>
     <li><a href="#ref-for-team①②⑦">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-team①②⑧">(2)</a> <a href="#ref-for-team①②⑨">(3)</a> <a href="#ref-for-team①③⓪">(4)</a>
     <li><a href="#ref-for-team①③①">11. 
@@ -5368,8 +5370,8 @@ Process Evolution</a>
     <li><a href="#ref-for-team①③②"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-team①③③">(2)</a> <a href="#ref-for-team①③④">(3)</a> <a href="#ref-for-team①③⑤">(4)</a> <a href="#ref-for-team①③⑥">(5)</a> <a href="#ref-for-team①③⑦">(6)</a> <a href="#ref-for-team①③⑧">(7)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="ceo">
-   <b><a href="#ceo">#ceo</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-ceo" class="dfn-panel" data-for="ceo" id="infopanel-for-ceo">
+   <span id="infopaneltitle-for-ceo" style="display:none">Info about the 'CEO' definition.</span><b><a href="#ceo">#ceo</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-ceo">2.1.2.1. 
 Membership Associations</a>
@@ -5392,8 +5394,8 @@ Liaisons</a> <a href="#ref-for-ceo①⓪">(2)</a>
     <li><a href="#ref-for-ceo①①"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-ceo①②">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="fellows">
-   <b><a href="#fellows">#fellows</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-fellows" class="dfn-panel" data-for="fellows" id="infopanel-for-fellows">
+   <span id="infopaneltitle-for-fellows" style="display:none">Info about the 'W3C Fellows' definition.</span><b><a href="#fellows">#fellows</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-fellows">2.1.1. 
 Rights of Members</a>
@@ -5401,8 +5403,8 @@ Rights of Members</a>
 Advisory Board and Technical Architecture Group Elections</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="bod">
-   <b><a href="#bod">#bod</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-bod" class="dfn-panel" data-for="bod" id="infopanel-for-bod">
+   <span id="infopaneltitle-for-bod" style="display:none">Info about the 'W3C Board of Directors' definition.</span><b><a href="#bod">#bod</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-bod">2.2. 
 The W3C Team</a>
@@ -5412,8 +5414,8 @@ Role of the Advisory Board</a>
 Liaisons between the Advisory Board and the Board of Directors</a> <a href="#ref-for-bod③">(2)</a> <a href="#ref-for-bod④">(3)</a> <a href="#ref-for-bod⑤">(4)</a> <a href="#ref-for-bod⑥">(5)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="w3c-group">
-   <b><a href="#w3c-group">#w3c-group</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-group" class="dfn-panel" data-for="w3c-group" id="infopanel-for-w3c-group">
+   <span id="infopaneltitle-for-w3c-group" style="display:none">Info about the 'W3C Group' definition.</span><b><a href="#w3c-group">#w3c-group</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-group">3.1.2. 
 Meetings</a>
@@ -5423,8 +5425,8 @@ Tooling for Discussions and Publications</a>
 After the Review Period</a> <a href="#ref-for-w3c-group③">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="participant">
-   <b><a href="#participant">#participant</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-participant" class="dfn-panel" data-for="participant" id="infopanel-for-participant">
+   <span id="infopaneltitle-for-participant" style="display:none">Info about the 'participant' definition.</span><b><a href="#participant">#participant</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-participant">3.1.2. 
 Meetings</a>
@@ -5432,8 +5434,8 @@ Meetings</a>
 Deciding by Vote</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="ftf-meeting">
-   <b><a href="#ftf-meeting">#ftf-meeting</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-ftf-meeting" class="dfn-panel" data-for="ftf-meeting" id="infopanel-for-ftf-meeting">
+   <span id="infopaneltitle-for-ftf-meeting" style="display:none">Info about the 'face-to-face meeting' definition.</span><b><a href="#ftf-meeting">#ftf-meeting</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-ftf-meeting">3.2.4. 
 Advisory Committee Meetings</a>
@@ -5445,15 +5447,15 @@ Consensus</a>
 Council Composition</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="distributed-meeting">
-   <b><a href="#distributed-meeting">#distributed-meeting</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-distributed-meeting" class="dfn-panel" data-for="distributed-meeting" id="infopanel-for-distributed-meeting">
+   <span id="infopaneltitle-for-distributed-meeting" style="display:none">Info about the 'distributed meeting' definition.</span><b><a href="#distributed-meeting">#distributed-meeting</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-distributed-meeting">5.2.1. 
 Consensus</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="minutes">
-   <b><a href="#minutes">#minutes</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-minutes" class="dfn-panel" data-for="minutes" id="infopanel-for-minutes">
+   <span id="infopaneltitle-for-minutes" style="display:none">Info about the 'minutes' definition.</span><b><a href="#minutes">#minutes</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-minutes">3.1.2.1. 
 Meeting Scheduling and Announcements</a>
@@ -5465,8 +5467,8 @@ Deciding by Vote</a>
 Workshops and Symposia</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="advisory-committee">
-   <b><a href="#advisory-committee">#advisory-committee</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-advisory-committee" class="dfn-panel" data-for="advisory-committee" id="infopanel-for-advisory-committee">
+   <span id="infopaneltitle-for-advisory-committee" style="display:none">Info about the 'Advisory Committee' definition.</span><b><a href="#advisory-committee">#advisory-committee</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-advisory-committee">2.1. 
 Members</a>
@@ -5523,14 +5525,14 @@ Elevating Group Notes to W3C Statement status</a>
     <li><a href="#ref-for-advisory-committee③⑨">9. 
 Liaisons</a> <a href="#ref-for-advisory-committee④⓪">(2)</a>
     <li><a href="#ref-for-advisory-committee④①">10.3. 
-Acknowledgment of a Submission Request</a>
+Receipt of a Submission Request</a>
     <li><a href="#ref-for-advisory-committee④②">11. 
 Process Evolution</a> <a href="#ref-for-advisory-committee④③">(2)</a>
     <li><a href="#ref-for-advisory-committee④④"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="advisory-committee-representative">
-   <b><a href="#advisory-committee-representative">#advisory-committee-representative</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-advisory-committee-representative" class="dfn-panel" data-for="advisory-committee-representative" id="infopanel-for-advisory-committee-representative">
+   <span id="infopaneltitle-for-advisory-committee-representative" style="display:none">Info about the 'representative' definition.</span><b><a href="#advisory-committee-representative">#advisory-committee-representative</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-advisory-committee-representative">3.1.1.1. 
 Expectations and Discipline</a>
@@ -5574,8 +5576,8 @@ Submitter Rights and Obligations</a> <a href="#ref-for-advisory-committee-repres
 Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-advisory-committee-representative③①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="advisory-board">
-   <b><a href="#advisory-board">#advisory-board</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-advisory-board" class="dfn-panel" data-for="advisory-board" id="infopanel-for-advisory-board">
+   <span id="infopaneltitle-for-advisory-board" style="display:none">Info about the 'Advisory Board' definition.</span><b><a href="#advisory-board">#advisory-board</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-advisory-board">3.1.1.1. 
 Expectations and Discipline</a>
@@ -5620,8 +5622,8 @@ Process Evolution</a> <a href="#ref-for-advisory-board③④">(2)</a> <a href="#
     <li><a href="#ref-for-advisory-board③⑦"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="technical-architecture-group">
-   <b><a href="#technical-architecture-group">#technical-architecture-group</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-technical-architecture-group" class="dfn-panel" data-for="technical-architecture-group" id="infopanel-for-technical-architecture-group">
+   <span id="infopaneltitle-for-technical-architecture-group" style="display:none">Info about the 'TAG' definition.</span><b><a href="#technical-architecture-group">#technical-architecture-group</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-technical-architecture-group">3.1.1.1. 
 Expectations and Discipline</a>
@@ -5666,8 +5668,8 @@ Rejection of a Submission Request, and Submission Appeals</a>
     <li><a href="#ref-for-technical-architecture-group④①"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-technical-architecture-group④②">(2)</a> <a href="#ref-for-technical-architecture-group④③">(3)</a> <a href="#ref-for-technical-architecture-group④④">(4)</a> <a href="#ref-for-technical-architecture-group④⑤">(5)</a> <a href="#ref-for-technical-architecture-group④⑥">(6)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="primary-affiliation">
-   <b><a href="#primary-affiliation">#primary-affiliation</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-primary-affiliation" class="dfn-panel" data-for="primary-affiliation" id="infopanel-for-primary-affiliation">
+   <span id="infopaneltitle-for-primary-affiliation" style="display:none">Info about the 'primary affiliation' definition.</span><b><a href="#primary-affiliation">#primary-affiliation</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-primary-affiliation">3.3.3.2. 
 Elected Groups Participation Constraints</a> <a href="#ref-for-primary-affiliation①">(2)</a>
@@ -5675,8 +5677,8 @@ Elected Groups Participation Constraints</a> <a href="#ref-for-primary-affiliati
 Advisory Board and Technical Architecture Group Elections</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="chartered-group">
-   <b><a href="#chartered-group">#chartered-group</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-chartered-group" class="dfn-panel" data-for="chartered-group" id="infopanel-for-chartered-group">
+   <span id="infopaneltitle-for-chartered-group" style="display:none">Info about the 'chartered groups' definition.</span><b><a href="#chartered-group">#chartered-group</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-chartered-group">4.1. 
 Initiating Charter Development</a>
@@ -5684,8 +5686,8 @@ Initiating Charter Development</a>
 Publishing Notes</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="GroupsWG">
-   <b><a href="#GroupsWG">#GroupsWG</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-GroupsWG" class="dfn-panel" data-for="GroupsWG" id="infopanel-for-GroupsWG">
+   <span id="infopaneltitle-for-GroupsWG" style="display:none">Info about the 'Working Groups' definition.</span><b><a href="#GroupsWG">#GroupsWG</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-GroupsWG">1. 
 Introduction</a> <a href="#ref-for-GroupsWG①">(2)</a>
@@ -5777,8 +5779,8 @@ Scope of Member Submissions</a>
 Process Evolution</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="GroupsIG">
-   <b><a href="#GroupsIG">#GroupsIG</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-GroupsIG" class="dfn-panel" data-for="GroupsIG" id="infopanel-for-GroupsIG">
+   <span id="infopaneltitle-for-GroupsIG" style="display:none">Info about the 'Interest Groups' definition.</span><b><a href="#GroupsIG">#GroupsIG</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-GroupsIG">1. 
 Introduction</a>
@@ -5800,8 +5802,8 @@ Maturity Stages on the Recommendation Track</a> <a href="#ref-for-GroupsIG⑨">(
 Group Notes</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="GeneralChairs">
-   <b><a href="#GeneralChairs">#GeneralChairs</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-GeneralChairs" class="dfn-panel" data-for="GeneralChairs" id="infopanel-for-GeneralChairs">
+   <span id="infopaneltitle-for-GeneralChairs" style="display:none">Info about the 'Chair' definition.</span><b><a href="#GeneralChairs">#GeneralChairs</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-GeneralChairs">3.1.1.2. 
 Conflict of Interest Policy</a>
@@ -5839,8 +5841,8 @@ Publication of Technical Reports</a> <a href="#ref-for-GeneralChairs②⑧">(2)<
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="TeamContact">
-   <b><a href="#TeamContact">#TeamContact</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-TeamContact" class="dfn-panel" data-for="TeamContact" id="infopanel-for-TeamContact">
+   <span id="infopaneltitle-for-TeamContact" style="display:none">Info about the 'Team Contact' definition.</span><b><a href="#TeamContact">#TeamContact</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-TeamContact">3.4.1. 
 Requirements for All Chartered Groups</a> <a href="#ref-for-TeamContact①">(2)</a>
@@ -5860,8 +5862,8 @@ Charter Extension</a>
 Registering Formal Objections</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="wgparticipant">
-   <b><a href="#wgparticipant">#wgparticipant</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-wgparticipant" class="dfn-panel" data-for="wgparticipant" id="infopanel-for-wgparticipant">
+   <span id="infopaneltitle-for-wgparticipant" style="display:none">Info about the 'participants in a Working Group' definition.</span><b><a href="#wgparticipant">#wgparticipant</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-wgparticipant">3. 
 Groups and Participation</a>
@@ -5869,8 +5871,8 @@ Groups and Participation</a>
 Advisory Committee Review of a Charter</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="igparticipant">
-   <b><a href="#igparticipant">#igparticipant</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-igparticipant" class="dfn-panel" data-for="igparticipant" id="infopanel-for-igparticipant">
+   <span id="infopaneltitle-for-igparticipant" style="display:none">Info about the 'participants in an Interest Group' definition.</span><b><a href="#igparticipant">#igparticipant</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-igparticipant">3. 
 Groups and Participation</a>
@@ -5878,29 +5880,29 @@ Groups and Participation</a>
 Advisory Committee Review of a Charter</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="public-participant-ig">
-   <b><a href="#public-participant-ig">#public-participant-ig</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-public-participant-ig" class="dfn-panel" data-for="public-participant-ig" id="infopanel-for-public-participant-ig">
+   <span id="infopaneltitle-for-public-participant-ig" style="display:none">Info about the 'public participants' definition.</span><b><a href="#public-participant-ig">#public-participant-ig</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-public-participant-ig">4.2. 
 Content of a Charter</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="mtg-substitute">
-   <b><a href="#mtg-substitute">#mtg-substitute</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-mtg-substitute" class="dfn-panel" data-for="mtg-substitute" id="infopanel-for-mtg-substitute">
+   <span id="infopaneltitle-for-mtg-substitute" style="display:none">Info about the 'substitute' definition.</span><b><a href="#mtg-substitute">#mtg-substitute</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-mtg-substitute">5.2.3. 
 Deciding by Vote</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="member-representative-in-an-interest-group">
-   <b><a href="#member-representative-in-an-interest-group">#member-representative-in-an-interest-group</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-member-representative-in-an-interest-group" class="dfn-panel" data-for="member-representative-in-an-interest-group" id="infopanel-for-member-representative-in-an-interest-group">
+   <span id="infopaneltitle-for-member-representative-in-an-interest-group" style="display:none">Info about the 'Member representative in an Interest Group' definition.</span><b><a href="#member-representative-in-an-interest-group">#member-representative-in-an-interest-group</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-member-representative-in-an-interest-group">3.4.3.2. 
 Member Representative in an Interest Group</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="invited-expert-in-a-working-group">
-   <b><a href="#invited-expert-in-a-working-group">#invited-expert-in-a-working-group</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-invited-expert-in-a-working-group" class="dfn-panel" data-for="invited-expert-in-a-working-group" id="infopanel-for-invited-expert-in-a-working-group">
+   <span id="infopaneltitle-for-invited-expert-in-a-working-group" style="display:none">Info about the 'Invited Expert in a Working Group' definition.</span><b><a href="#invited-expert-in-a-working-group">#invited-expert-in-a-working-group</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-invited-expert-in-a-working-group">3.4.3.3. 
 Invited Expert in a Working Group</a>
@@ -5908,8 +5910,8 @@ Invited Expert in a Working Group</a>
 Invited Expert in an Interest Group</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="inv-expert-info">
-   <b><a href="#inv-expert-info">#inv-expert-info</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-inv-expert-info" class="dfn-panel" data-for="inv-expert-info" id="infopanel-for-inv-expert-info">
+   <span id="infopaneltitle-for-inv-expert-info" style="display:none">Info about the 'participate in a Working Group as an Invited Expert' definition.</span><b><a href="#inv-expert-info">#inv-expert-info</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-inv-expert-info">3.3.3.3. 
 Advisory Board and Technical Architecture Group Elections</a>
@@ -5917,8 +5919,8 @@ Advisory Board and Technical Architecture Group Elections</a>
 Invited Expert in a Working Group</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="charter">
-   <b><a href="#charter">#charter</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-charter" class="dfn-panel" data-for="charter" id="infopanel-for-charter">
+   <span id="infopaneltitle-for-charter" style="display:none">Info about the 'charter' definition.</span><b><a href="#charter">#charter</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-charter">3.4.1. 
 Requirements for All Chartered Groups</a>
@@ -5932,30 +5934,30 @@ The W3C Recommendation Track</a>
 Advancement on the Recommendation Track</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="adopted-draft">
-   <b><a href="#adopted-draft">#adopted-draft</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-adopted-draft" class="dfn-panel" data-for="adopted-draft" id="infopanel-for-adopted-draft">
+   <span id="infopaneltitle-for-adopted-draft" style="display:none">Info about the 'Adopted Draft' definition.</span><b><a href="#adopted-draft">#adopted-draft</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-adopted-draft">4.2. 
 Content of a Charter</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="exclusion-draft">
-   <b><a href="#exclusion-draft">#exclusion-draft</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-exclusion-draft" class="dfn-panel" data-for="exclusion-draft" id="infopanel-for-exclusion-draft">
+   <span id="infopaneltitle-for-exclusion-draft" style="display:none">Info about the 'Exclusion Draft' definition.</span><b><a href="#exclusion-draft">#exclusion-draft</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-exclusion-draft">4.2. 
 Content of a Charter</a> <a href="#ref-for-exclusion-draft①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="dfn-charter-extension">
-   <b><a href="#dfn-charter-extension">#dfn-charter-extension</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-dfn-charter-extension" class="dfn-panel" data-for="dfn-charter-extension" id="infopanel-for-dfn-charter-extension">
+   <span id="infopaneltitle-for-dfn-charter-extension" style="display:none">Info about the 'extensions' definition.</span><b><a href="#dfn-charter-extension">#dfn-charter-extension</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dfn-charter-extension">5.9. 
 Appeal by Advisory Committee Representatives</a>
     <li><a href="#ref-for-dfn-charter-extension①"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="group-decision">
-   <b><a href="#group-decision">#group-decision</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-group-decision" class="dfn-panel" data-for="group-decision" id="infopanel-for-group-decision">
+   <span id="infopaneltitle-for-group-decision" style="display:none">Info about the 'group decisions' definition.</span><b><a href="#group-decision">#group-decision</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-group-decision">3.1.2.2. 
 Meeting Minutes</a> <a href="#ref-for-group-decision①">(2)</a>
@@ -5972,8 +5974,8 @@ Switching Tracks</a>
     <li><a href="#ref-for-group-decision⑦"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="team-decision">
-   <b><a href="#team-decision">#team-decision</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-team-decision" class="dfn-panel" data-for="team-decision" id="infopanel-for-team-decision">
+   <span id="infopaneltitle-for-team-decision" style="display:none">Info about the 'Team Decisions' definition.</span><b><a href="#team-decision">#team-decision</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-team-decision">2.2. 
 The W3C Team</a>
@@ -5993,8 +5995,8 @@ Information Required in a Submission Request</a>
 Team Rights and Obligations</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="def-w3c-decision">
-   <b><a href="#def-w3c-decision">#def-w3c-decision</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-def-w3c-decision" class="dfn-panel" data-for="def-w3c-decision" id="infopanel-for-def-w3c-decision">
+   <span id="infopaneltitle-for-def-w3c-decision" style="display:none">Info about the 'W3C decision' definition.</span><b><a href="#def-w3c-decision">#def-w3c-decision</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-def-w3c-decision">3.2.1. 
 Role of the Advisory Committee</a>
@@ -6018,8 +6020,8 @@ Revising W3C Statements</a>
 Process Evolution</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="def-Consensus">
-   <b><a href="#def-Consensus">#def-Consensus</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-def-Consensus" class="dfn-panel" data-for="def-Consensus" id="infopanel-for-def-Consensus">
+   <span id="infopaneltitle-for-def-Consensus" style="display:none">Info about the 'Consensus' definition.</span><b><a href="#def-Consensus">#def-Consensus</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-def-Consensus">5.1. 
 Types of Decisions</a>
@@ -6039,15 +6041,15 @@ Revising a Working Draft</a>
 Process Evolution</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="def-Unanimity">
-   <b><a href="#def-Unanimity">#def-Unanimity</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-def-Unanimity" class="dfn-panel" data-for="def-Unanimity" id="infopanel-for-def-Unanimity">
+   <span id="infopaneltitle-for-def-Unanimity" style="display:none">Info about the 'Unanimity' definition.</span><b><a href="#def-Unanimity">#def-Unanimity</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-def-Unanimity">5.2.1. 
 Consensus</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="def-Dissent">
-   <b><a href="#def-Dissent">#def-Dissent</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-def-Dissent" class="dfn-panel" data-for="def-Dissent" id="infopanel-for-def-Dissent">
+   <span id="infopaneltitle-for-def-Dissent" style="display:none">Info about the 'Dissent' definition.</span><b><a href="#def-Dissent">#def-Dissent</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-def-Dissent">5.2.2. 
 Managing Dissent</a> <a href="#ref-for-def-Dissent①">(2)</a>
@@ -6061,15 +6063,15 @@ Transitioning to W3C Recommendation</a>
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="proxy">
-   <b><a href="#proxy">#proxy</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-proxy" class="dfn-panel" data-for="proxy" id="infopanel-for-proxy">
+   <span id="infopaneltitle-for-proxy" style="display:none">Info about the 'proxy' definition.</span><b><a href="#proxy">#proxy</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-proxy">3.4.2. 
 Participation in Chartered Groups</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="formally-addressed">
-   <b><a href="#formally-addressed">#formally-addressed</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-formally-addressed" class="dfn-panel" data-for="formally-addressed" id="infopanel-for-formally-addressed">
+   <span id="infopaneltitle-for-formally-addressed" style="display:none">Info about the 'formally addressed' definition.</span><b><a href="#formally-addressed">#formally-addressed</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-formally-addressed">6.2.2. 
 Reviews and Review Responsibilities</a>
@@ -6091,8 +6093,8 @@ Elevating Group Notes to W3C Statement status</a>
 Process Evolution</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="FormalObjection">
-   <b><a href="#FormalObjection">#FormalObjection</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-FormalObjection" class="dfn-panel" data-for="FormalObjection" id="infopanel-for-FormalObjection">
+   <span id="infopaneltitle-for-FormalObjection" style="display:none">Info about the 'Formal Objection' definition.</span><b><a href="#FormalObjection">#FormalObjection</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-FormalObjection">3.3.1.1. 
 Role of the Advisory Board</a>
@@ -6136,8 +6138,8 @@ Elevating Group Notes to W3C Statement status</a>
 Rejection of a Submission Request, and Submission Appeals</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="w3c-council">
-   <b><a href="#w3c-council">#w3c-council</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-council" class="dfn-panel" data-for="w3c-council" id="infopanel-for-w3c-council">
+   <span id="infopaneltitle-for-w3c-council" style="display:none">Info about the 'W3C Council' definition.</span><b><a href="#w3c-council">#w3c-council</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-council">3.3.1.1. 
 Role of the Advisory Board</a> <a href="#ref-for-w3c-council①">(2)</a>
@@ -6166,8 +6168,8 @@ Updating Mature Publications on the Recommendation Track</a> <a href="#ref-for-w
     <li><a href="#ref-for-w3c-council③②"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="council-team-contact">
-   <b><a href="#council-team-contact">#council-team-contact</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-council-team-contact" class="dfn-panel" data-for="council-team-contact" id="infopanel-for-council-team-contact">
+   <span id="infopaneltitle-for-council-team-contact" style="display:none">Info about the 'Council Team Contact' definition.</span><b><a href="#council-team-contact">#council-team-contact</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-council-team-contact">5.6.2.5. 
 Council Chairing</a>
@@ -6175,8 +6177,8 @@ Council Chairing</a>
 Council Deliberations</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="dismissed">
-   <b><a href="#dismissed">#dismissed</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-dismissed" class="dfn-panel" data-for="dismissed" id="infopanel-for-dismissed">
+   <span id="infopaneltitle-for-dismissed" style="display:none">Info about the 'dismissed' definition.</span><b><a href="#dismissed">#dismissed</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dismissed">5.6.2.1. 
 Council Composition</a>
@@ -6186,8 +6188,8 @@ Council Participation, Dismissal, and Renunciation</a> <a href="#ref-for-dismiss
 Council Decision Report</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="renounce">
-   <b><a href="#renounce">#renounce</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-renounce" class="dfn-panel" data-for="renounce" id="infopanel-for-renounce">
+   <span id="infopaneltitle-for-renounce" style="display:none">Info about the 'renounce' definition.</span><b><a href="#renounce">#renounce</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-renounce">5.6.2.1. 
 Council Composition</a>
@@ -6197,8 +6199,8 @@ Council Participation, Dismissal, and Renunciation</a>
 Council Decision Report</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="w3c-council-chair">
-   <b><a href="#w3c-council-chair">#w3c-council-chair</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-council-chair" class="dfn-panel" data-for="w3c-council-chair" id="infopanel-for-w3c-council-chair">
+   <span id="infopaneltitle-for-w3c-council-chair" style="display:none">Info about the 'Chair' definition.</span><b><a href="#w3c-council-chair">#w3c-council-chair</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-council-chair">5.6.2.1. 
 Council Composition</a>
@@ -6208,8 +6210,8 @@ Unanimous Short Circuit</a>
 Council Deliberations</a> <a href="#ref-for-w3c-council-chair③">(2)</a> <a href="#ref-for-w3c-council-chair④">(3)</a> <a href="#ref-for-w3c-council-chair⑤">(4)</a> <a href="#ref-for-w3c-council-chair⑥">(5)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="sustain">
-   <b><a href="#sustain">#sustain</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-sustain" class="dfn-panel" data-for="sustain" id="infopanel-for-sustain">
+   <span id="infopaneltitle-for-sustain" style="display:none">Info about the 'sustain' definition.</span><b><a href="#sustain">#sustain</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-sustain">5.6.2.6. 
 Council Deliberations</a>
@@ -6221,8 +6223,8 @@ Advancement on the Recommendation Track</a>
 Updating Mature Publications on the Recommendation Track</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="overrule">
-   <b><a href="#overrule">#overrule</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-overrule" class="dfn-panel" data-for="overrule" id="infopanel-for-overrule">
+   <span id="infopaneltitle-for-overrule" style="display:none">Info about the 'overrule' definition.</span><b><a href="#overrule">#overrule</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-overrule">5.6.2.6. 
 Council Deliberations</a>
@@ -6230,8 +6232,8 @@ Council Deliberations</a>
 Council Decision Report</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="fully-addressed">
-   <b><a href="#fully-addressed">#fully-addressed</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-fully-addressed" class="dfn-panel" data-for="fully-addressed" id="infopanel-for-fully-addressed">
+   <span id="infopaneltitle-for-fully-addressed" style="display:none">Info about the 'fully addressed' definition.</span><b><a href="#fully-addressed">#fully-addressed</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-fully-addressed">6.3.3. 
 Advancement on the Recommendation Track</a>
@@ -6239,15 +6241,15 @@ Advancement on the Recommendation Track</a>
 Updating Mature Publications on the Recommendation Track</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="minority-opinion">
-   <b><a href="#minority-opinion">#minority-opinion</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-minority-opinion" class="dfn-panel" data-for="minority-opinion" id="infopanel-for-minority-opinion">
+   <span id="infopaneltitle-for-minority-opinion" style="display:none">Info about the 'Minority Opinion' definition.</span><b><a href="#minority-opinion">#minority-opinion</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-minority-opinion">5.6.2.7. 
 Council Decision Report</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="council-report">
-   <b><a href="#council-report">#council-report</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-council-report" class="dfn-panel" data-for="council-report" id="infopanel-for-council-report">
+   <span id="infopaneltitle-for-council-report" style="display:none">Info about the 'Council Report' definition.</span><b><a href="#council-report">#council-report</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-council-report">5.6.2.7. 
 Council Decision Report</a> <a href="#ref-for-council-report①">(2)</a>
@@ -6257,8 +6259,8 @@ Appealing Council Decisions</a>
 Rejection of a Submission Request, and Submission Appeals</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="advisory-committee-review">
-   <b><a href="#advisory-committee-review">#advisory-committee-review</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-advisory-committee-review" class="dfn-panel" data-for="advisory-committee-review" id="infopanel-for-advisory-committee-review">
+   <span id="infopaneltitle-for-advisory-committee-review" style="display:none">Info about the ' Advisory Committee review' definition.</span><b><a href="#advisory-committee-review">#advisory-committee-review</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-advisory-committee-review">4.3. 
 Advisory Committee Review of a Charter</a>
@@ -6297,8 +6299,8 @@ Process Evolution</a>
     <li><a href="#ref-for-advisory-committee-review②②"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="reviewform">
-   <b><a href="#reviewform">#reviewform</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-reviewform" class="dfn-panel" data-for="reviewform" id="infopanel-for-reviewform">
+   <span id="infopaneltitle-for-reviewform" style="display:none">Info about the 'Call for Review' definition.</span><b><a href="#reviewform">#reviewform</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-reviewform">5.7.1. 
 Start of a Review Period</a>
@@ -6306,8 +6308,8 @@ Start of a Review Period</a>
 Transitioning to Proposed Recommendation</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="advisory-committee-appeal">
-   <b><a href="#advisory-committee-appeal">#advisory-committee-appeal</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-advisory-committee-appeal" class="dfn-panel" data-for="advisory-committee-appeal" id="infopanel-for-advisory-committee-appeal">
+   <span id="infopaneltitle-for-advisory-committee-appeal" style="display:none">Info about the 'Advisory Committee Appeal' definition.</span><b><a href="#advisory-committee-appeal">#advisory-committee-appeal</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-advisory-committee-appeal">5.6.2.7. 
 Council Decision Report</a>
@@ -6336,8 +6338,8 @@ Process Evolution</a>
     <li><a href="#ref-for-advisory-committee-appeal①④"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="publishing">
-   <b><a href="#publishing">#publishing</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-publishing" class="dfn-panel" data-for="publishing" id="infopanel-for-publishing">
+   <span id="infopaneltitle-for-publishing" style="display:none">Info about the 'Publishing' definition.</span><b><a href="#publishing">#publishing</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-publishing">6.1. 
 Types of Technical Reports</a>
@@ -6361,8 +6363,8 @@ Abandoning an Unfinished Recommendation</a> <a href="#ref-for-publishing①①">
 Group Notes</a> <a href="#ref-for-publishing①④">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="technical-report">
-   <b><a href="#technical-report">#technical-report</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-technical-report" class="dfn-panel" data-for="technical-report" id="infopanel-for-technical-report">
+   <span id="infopaneltitle-for-technical-report" style="display:none">Info about the 'Technical Report' definition.</span><b><a href="#technical-report">#technical-report</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-technical-report">4.2. 
 Content of a Charter</a>
@@ -6406,8 +6408,8 @@ Switching Tracks</a> <a href="#ref-for-technical-report③⑤">(2)</a> <a href="
 Process Evolution</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="dfn-wide-review">
-   <b><a href="#dfn-wide-review">#dfn-wide-review</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-dfn-wide-review" class="dfn-panel" data-for="dfn-wide-review" id="infopanel-for-dfn-wide-review">
+   <span id="infopaneltitle-for-dfn-wide-review" style="display:none">Info about the 'wide review' definition.</span><b><a href="#dfn-wide-review">#dfn-wide-review</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dfn-wide-review">6.1. 
 Types of Technical Reports</a> <a href="#ref-for-dfn-wide-review①">(2)</a>
@@ -6429,8 +6431,8 @@ Regression on the Recommendation Track</a>
 Elevating Group Notes to W3C Statement status</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="editorial-change">
-   <b><a href="#editorial-change">#editorial-change</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-editorial-change" class="dfn-panel" data-for="editorial-change" id="infopanel-for-editorial-change">
+   <span id="infopaneltitle-for-editorial-change" style="display:none">Info about the 'editorial changes' definition.</span><b><a href="#editorial-change">#editorial-change</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-editorial-change">6.3.3. 
 Advancement on the Recommendation Track</a>
@@ -6447,11 +6449,11 @@ Revising W3C Statements</a>
     <li><a href="#ref-for-editorial-change⑥">6.5.4. 
 Registry Data Reports</a> <a href="#ref-for-editorial-change⑦">(2)</a>
     <li><a href="#ref-for-editorial-change⑧">10.3. 
-Acknowledgment of a Submission Request</a>
+Receipt of a Submission Request</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="substantive-change">
-   <b><a href="#substantive-change">#substantive-change</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-substantive-change" class="dfn-panel" data-for="substantive-change" id="infopanel-for-substantive-change">
+   <span id="infopaneltitle-for-substantive-change" style="display:none">Info about the 'substantive changes' definition.</span><b><a href="#substantive-change">#substantive-change</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-substantive-change">5.7.2. 
 After the Review Period</a> <a href="#ref-for-substantive-change①">(2)</a> <a href="#ref-for-substantive-change②">(3)</a>
@@ -6473,8 +6475,8 @@ Transitioning to W3C Recommendation</a>
 Abandoning an Unfinished Recommendation</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-change">
-   <b><a href="#registry-change">#registry-change</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-change" class="dfn-panel" data-for="registry-change" id="infopanel-for-registry-change">
+   <span id="infopaneltitle-for-registry-change" style="display:none">Info about the 'registry changes' definition.</span><b><a href="#registry-change">#registry-change</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-change">6.5.1. 
 Registry Definitions</a>
@@ -6484,8 +6486,8 @@ Publishing Registries</a> <a href="#ref-for-registry-change②">(2)</a>
 Updating Registry Tables</a> <a href="#ref-for-registry-change④">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="erratum">
-   <b><a href="#erratum">#erratum</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-erratum" class="dfn-panel" data-for="erratum" id="infopanel-for-erratum">
+   <span id="infopaneltitle-for-erratum" style="display:none">Info about the 'erratum' definition.</span><b><a href="#erratum">#erratum</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-erratum">6.2.5. 
 Candidate Amendments</a> <a href="#ref-for-erratum①">(2)</a>
@@ -6497,8 +6499,8 @@ Revising a Recommendation: Substantive Changes</a>
 Publishing Notes</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-correction">
-   <b><a href="#candidate-correction">#candidate-correction</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-correction" class="dfn-panel" data-for="candidate-correction" id="infopanel-for-candidate-correction">
+   <span id="infopaneltitle-for-candidate-correction" style="display:none">Info about the 'candidate correction' definition.</span><b><a href="#candidate-correction">#candidate-correction</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-correction">6.2.5. 
 Candidate Amendments</a> <a href="#ref-for-candidate-correction①">(2)</a> <a href="#ref-for-candidate-correction②">(3)</a> <a href="#ref-for-candidate-correction③">(4)</a>
@@ -6506,8 +6508,8 @@ Candidate Amendments</a> <a href="#ref-for-candidate-correction①">(2)</a> <a h
 Revising a Recommendation: Substantive Changes</a> <a href="#ref-for-candidate-correction⑤">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-addition">
-   <b><a href="#candidate-addition">#candidate-addition</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-addition" class="dfn-panel" data-for="candidate-addition" id="infopanel-for-candidate-addition">
+   <span id="infopaneltitle-for-candidate-addition" style="display:none">Info about the 'candidate addition' definition.</span><b><a href="#candidate-addition">#candidate-addition</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-addition">6.2.5. 
 Candidate Amendments</a>
@@ -6515,8 +6517,8 @@ Candidate Amendments</a>
 Revising a Recommendation: New Features</a> <a href="#ref-for-candidate-addition②">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="team-correction">
-   <b><a href="#team-correction">#team-correction</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-team-correction" class="dfn-panel" data-for="team-correction" id="infopanel-for-team-correction">
+   <span id="infopaneltitle-for-team-correction" style="display:none">Info about the 'Team correction' definition.</span><b><a href="#team-correction">#team-correction</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-team-correction">6.2.5. 
 Candidate Amendments</a>
@@ -6526,8 +6528,8 @@ Revising a Recommendation: Editorial Changes</a>
 Publishing Notes</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-amendment">
-   <b><a href="#candidate-amendment">#candidate-amendment</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-amendment" class="dfn-panel" data-for="candidate-amendment" id="infopanel-for-candidate-amendment">
+   <span id="infopaneltitle-for-candidate-amendment" style="display:none">Info about the 'candidate amendments' definition.</span><b><a href="#candidate-amendment">#candidate-amendment</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-amendment">6.2.5. 
 Candidate Amendments</a> <a href="#ref-for-candidate-amendment①">(2)</a> <a href="#ref-for-candidate-amendment②">(3)</a>
@@ -6543,8 +6545,8 @@ Revising W3C Statements</a> <a href="#ref-for-candidate-amendment⑧">(2)</a> <a
 Updating Registry Tables</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="w3c-recommendation-track">
-   <b><a href="#w3c-recommendation-track">#w3c-recommendation-track</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-recommendation-track" class="dfn-panel" data-for="w3c-recommendation-track" id="infopanel-for-w3c-recommendation-track">
+   <span id="infopaneltitle-for-w3c-recommendation-track" style="display:none">Info about the 'W3C Recommendation Track' definition.</span><b><a href="#w3c-recommendation-track">#w3c-recommendation-track</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-recommendation-track">6.1. 
 Types of Technical Reports</a> <a href="#ref-for-w3c-recommendation-track①">(2)</a> <a href="#ref-for-w3c-recommendation-track②">(3)</a>
@@ -6566,8 +6568,8 @@ Publishing Registries</a> <a href="#ref-for-w3c-recommendation-track①①">(2)<
 Switching Tracks</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="patent-review-drafts">
-   <b><a href="#patent-review-drafts">#patent-review-drafts</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-patent-review-drafts" class="dfn-panel" data-for="patent-review-drafts" id="infopanel-for-patent-review-drafts">
+   <span id="infopaneltitle-for-patent-review-drafts" style="display:none">Info about the 'Patent Review Drafts' definition.</span><b><a href="#patent-review-drafts">#patent-review-drafts</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-patent-review-drafts">6.3.1. 
 Maturity Stages on the Recommendation Track</a> <a href="#ref-for-patent-review-drafts①">(2)</a>
@@ -6579,8 +6581,8 @@ Publishing Registries</a>
 Switching Tracks</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsWD">
-   <b><a href="#RecsWD">#RecsWD</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsWD" class="dfn-panel" data-for="RecsWD" id="infopanel-for-RecsWD">
+   <span id="infopaneltitle-for-RecsWD" style="display:none">Info about the 'Working Draft' definition.</span><b><a href="#RecsWD">#RecsWD</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsWD">4.2. 
 Content of a Charter</a>
@@ -6601,8 +6603,8 @@ Publishing Registries</a> <a href="#ref-for-RecsWD①④">(2)</a>
     <li><a href="#ref-for-RecsWD①⑤"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="fpwd">
-   <b><a href="#fpwd">#fpwd</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-fpwd" class="dfn-panel" data-for="fpwd" id="infopanel-for-fpwd">
+   <span id="infopaneltitle-for-fpwd" style="display:none">Info about the 'First Public Working Draft' definition.</span><b><a href="#fpwd">#fpwd</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-fpwd">4.2. 
 Content of a Charter</a>
@@ -6618,8 +6620,8 @@ Revising a Recommendation: New Features</a>
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsCR">
-   <b><a href="#RecsCR">#RecsCR</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsCR" class="dfn-panel" data-for="RecsCR" id="infopanel-for-RecsCR">
+   <span id="infopaneltitle-for-RecsCR" style="display:none">Info about the 'Candidate Recommendation' definition.</span><b><a href="#RecsCR">#RecsCR</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsCR">5.7.2. 
 After the Review Period</a>
@@ -6646,8 +6648,8 @@ Publishing Registries</a>
     <li><a href="#ref-for-RecsCR②②"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-recommendation-snapshot">
-   <b><a href="#candidate-recommendation-snapshot">#candidate-recommendation-snapshot</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-recommendation-snapshot" class="dfn-panel" data-for="candidate-recommendation-snapshot" id="infopanel-for-candidate-recommendation-snapshot">
+   <span id="infopaneltitle-for-candidate-recommendation-snapshot" style="display:none">Info about the 'Candidate Recommendation Snapshot' definition.</span><b><a href="#candidate-recommendation-snapshot">#candidate-recommendation-snapshot</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-recommendation-snapshot">6.3.1. 
 Maturity Stages on the Recommendation Track</a> <a href="#ref-for-candidate-recommendation-snapshot①">(2)</a> <a href="#ref-for-candidate-recommendation-snapshot②">(3)</a> <a href="#ref-for-candidate-recommendation-snapshot③">(4)</a> <a href="#ref-for-candidate-recommendation-snapshot④">(5)</a>
@@ -6663,8 +6665,8 @@ Transitioning to Proposed Recommendation</a> <a href="#ref-for-candidate-recomme
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-recommendation-draft">
-   <b><a href="#candidate-recommendation-draft">#candidate-recommendation-draft</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-recommendation-draft" class="dfn-panel" data-for="candidate-recommendation-draft" id="infopanel-for-candidate-recommendation-draft">
+   <span id="infopaneltitle-for-candidate-recommendation-draft" style="display:none">Info about the 'Candidate Recommendation Draft' definition.</span><b><a href="#candidate-recommendation-draft">#candidate-recommendation-draft</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-recommendation-draft">6.3.1. 
 Maturity Stages on the Recommendation Track</a> <a href="#ref-for-candidate-recommendation-draft①">(2)</a>
@@ -6674,8 +6676,8 @@ Publishing a Candidate Recommendation Draft</a> <a href="#ref-for-candidate-reco
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="rescinded-candidate-recommendation">
-   <b><a href="#rescinded-candidate-recommendation">#rescinded-candidate-recommendation</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-rescinded-candidate-recommendation" class="dfn-panel" data-for="rescinded-candidate-recommendation" id="infopanel-for-rescinded-candidate-recommendation">
+   <span id="infopaneltitle-for-rescinded-candidate-recommendation" style="display:none">Info about the 'Rescinded Candidate Recommendation' definition.</span><b><a href="#rescinded-candidate-recommendation">#rescinded-candidate-recommendation</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-rescinded-candidate-recommendation">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
@@ -6683,8 +6685,8 @@ Maturity Stages on the Recommendation Track</a>
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsPR">
-   <b><a href="#RecsPR">#RecsPR</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsPR" class="dfn-panel" data-for="RecsPR" id="infopanel-for-RecsPR">
+   <span id="infopaneltitle-for-RecsPR" style="display:none">Info about the 'Proposed Recommendation' definition.</span><b><a href="#RecsPR">#RecsPR</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsPR">3.2.1. 
 Role of the Advisory Committee</a>
@@ -6706,8 +6708,8 @@ Transitioning to Proposed Recommendation</a> <a href="#ref-for-RecsPR⑧">(2)</a
 Transitioning to W3C Recommendation</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsW3C">
-   <b><a href="#RecsW3C">#RecsW3C</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsW3C" class="dfn-panel" data-for="RecsW3C" id="infopanel-for-RecsW3C">
+   <span id="infopaneltitle-for-RecsW3C" style="display:none">Info about the 'W3C Recommendation' definition.</span><b><a href="#RecsW3C">#RecsW3C</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsW3C">1. 
 Introduction</a>
@@ -6760,8 +6762,8 @@ Member Submission Process</a>
     <li><a href="#ref-for-RecsW3C⑦⑤"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsSup">
-   <b><a href="#RecsSup">#RecsSup</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsSup" class="dfn-panel" data-for="RecsSup" id="infopanel-for-RecsSup">
+   <span id="infopaneltitle-for-RecsSup" style="display:none">Info about the 'Superseded Recommendation' definition.</span><b><a href="#RecsSup">#RecsSup</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsSup">6.3.13.3. 
 Abandoning a W3C Recommendation</a>
@@ -6769,8 +6771,8 @@ Abandoning a W3C Recommendation</a>
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RecsObs">
-   <b><a href="#RecsObs">#RecsObs</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RecsObs" class="dfn-panel" data-for="RecsObs" id="infopanel-for-RecsObs">
+   <span id="infopaneltitle-for-RecsObs" style="display:none">Info about the 'Obsolete Recommendation' definition.</span><b><a href="#RecsObs">#RecsObs</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RecsObs">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
@@ -6782,8 +6784,8 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> 
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="RescindedRec">
-   <b><a href="#RescindedRec">#RescindedRec</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-RescindedRec" class="dfn-panel" data-for="RescindedRec" id="infopanel-for-RescindedRec">
+   <span id="infopaneltitle-for-RescindedRec" style="display:none">Info about the 'Rescinded Recommendation' definition.</span><b><a href="#RescindedRec">#RescindedRec</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-RescindedRec">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
@@ -6795,22 +6797,22 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> 
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="discontinuedREC">
-   <b><a href="#discontinuedREC">#discontinuedREC</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-discontinuedREC" class="dfn-panel" data-for="discontinuedREC" id="infopanel-for-discontinuedREC">
+   <span id="infopaneltitle-for-discontinuedREC" style="display:none">Info about the 'Discontinued Draft' definition.</span><b><a href="#discontinuedREC">#discontinuedREC</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-discontinuedREC">6.3.13.1. 
 Abandoning an Unfinished Recommendation</a> <a href="#ref-for-discontinuedREC①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="editors-draft">
-   <b><a href="#editors-draft">#editors-draft</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-editors-draft" class="dfn-panel" data-for="editors-draft" id="infopanel-for-editors-draft">
+   <span id="infopaneltitle-for-editors-draft" style="display:none">Info about the 'Editor’s drafts' definition.</span><b><a href="#editors-draft">#editors-draft</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-editors-draft">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="adequate-implementation">
-   <b><a href="#adequate-implementation">#adequate-implementation</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-adequate-implementation" class="dfn-panel" data-for="adequate-implementation" id="infopanel-for-adequate-implementation">
+   <span id="infopaneltitle-for-adequate-implementation" style="display:none">Info about the 'adequate implementation experience' definition.</span><b><a href="#adequate-implementation">#adequate-implementation</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-adequate-implementation">6.1. 
 Types of Technical Reports</a>
@@ -6824,8 +6826,8 @@ Transitioning to Proposed Recommendation</a>
 Incorporating Candidate Amendments</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="trans-req">
-   <b><a href="#trans-req">#trans-req</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-trans-req" class="dfn-panel" data-for="trans-req" id="infopanel-for-trans-req">
+   <span id="infopaneltitle-for-trans-req" style="display:none">Info about the 'Transition Requests' definition.</span><b><a href="#trans-req">#trans-req</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-trans-req">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
@@ -6838,8 +6840,8 @@ Transitioning to Candidate Recommendation</a>
     <li><a href="#ref-for-trans-req⑤"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="update-requests">
-   <b><a href="#update-requests">#update-requests</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-update-requests" class="dfn-panel" data-for="update-requests" id="infopanel-for-update-requests">
+   <span id="infopaneltitle-for-update-requests" style="display:none">Info about the 'Update Requests' definition.</span><b><a href="#update-requests">#update-requests</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-update-requests">6.3.1. 
 Maturity Stages on the Recommendation Track</a>
@@ -6860,16 +6862,16 @@ Updating Registry Tables</a>
     <li><a href="#ref-for-update-requests①①"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-recommendation-review-period">
-   <b><a href="#candidate-recommendation-review-period">#candidate-recommendation-review-period</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-recommendation-review-period" class="dfn-panel" data-for="candidate-recommendation-review-period" id="infopanel-for-candidate-recommendation-review-period">
+   <span id="infopaneltitle-for-candidate-recommendation-review-period" style="display:none">Info about the 'Candidate Recommendation review period' definition.</span><b><a href="#candidate-recommendation-review-period">#candidate-recommendation-review-period</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-recommendation-review-period">6.3.9. 
 Transitioning to Proposed Recommendation</a> <a href="#ref-for-candidate-recommendation-review-period①">(2)</a>
     <li><a href="#ref-for-candidate-recommendation-review-period②"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="at-risk">
-   <b><a href="#at-risk">#at-risk</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-at-risk" class="dfn-panel" data-for="at-risk" id="infopanel-for-at-risk">
+   <span id="infopaneltitle-for-at-risk" style="display:none">Info about the 'at risk' definition.</span><b><a href="#at-risk">#at-risk</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-at-risk">6.3.8.1. 
 Publishing a Candidate Recommendation Snapshot</a> <a href="#ref-for-at-risk①">(2)</a>
@@ -6879,8 +6881,8 @@ Publishing a Candidate Recommendation Draft</a>
 Transitioning to Proposed Recommendation</a> <a href="#ref-for-at-risk④">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="allow-new-features">
-   <b><a href="#allow-new-features">#allow-new-features</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-allow-new-features" class="dfn-panel" data-for="allow-new-features" id="infopanel-for-allow-new-features">
+   <span id="infopaneltitle-for-allow-new-features" style="display:none">Info about the 'allow new features' definition.</span><b><a href="#allow-new-features">#allow-new-features</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-allow-new-features">6.3.4.1. 
 Streamlined Publication Approval</a>
@@ -6890,8 +6892,8 @@ Revising a Recommendation: New Features</a> <a href="#ref-for-allow-new-features
 Incorporating Candidate Amendments</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="last-call-review">
-   <b><a href="#last-call-review">#last-call-review</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-last-call-review" class="dfn-panel" data-for="last-call-review" id="infopanel-for-last-call-review">
+   <span id="infopaneltitle-for-last-call-review" style="display:none">Info about the 'Last Call for Review of Proposed Amendments' definition.</span><b><a href="#last-call-review">#last-call-review</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-last-call-review">6.3.11.3. 
 Revising a Recommendation: Substantive Changes</a>
@@ -6899,8 +6901,8 @@ Revising a Recommendation: Substantive Changes</a>
 Incorporating Candidate Amendments</a> <a href="#ref-for-last-call-review②">(2)</a> <a href="#ref-for-last-call-review③">(3)</a> <a href="#ref-for-last-call-review④">(4)</a> <a href="#ref-for-last-call-review⑤">(5)</a> <a href="#ref-for-last-call-review⑥">(6)</a> <a href="#ref-for-last-call-review⑦">(7)</a> <a href="#ref-for-last-call-review⑧">(8)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="last-call-for-review-of-proposed-corrections">
-   <b><a href="#last-call-for-review-of-proposed-corrections">#last-call-for-review-of-proposed-corrections</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-last-call-for-review-of-proposed-corrections" class="dfn-panel" data-for="last-call-for-review-of-proposed-corrections" id="infopanel-for-last-call-for-review-of-proposed-corrections">
+   <span id="infopaneltitle-for-last-call-for-review-of-proposed-corrections" style="display:none">Info about the 'Last Call for Review of Proposed Corrections' definition.</span><b><a href="#last-call-for-review-of-proposed-corrections">#last-call-for-review-of-proposed-corrections</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-last-call-for-review-of-proposed-corrections">6.3.4.1. 
 Streamlined Publication Approval</a>
@@ -6908,8 +6910,8 @@ Streamlined Publication Approval</a>
 Revising W3C Statements</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="last-call-for-review-of-proposed-additions">
-   <b><a href="#last-call-for-review-of-proposed-additions">#last-call-for-review-of-proposed-additions</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-last-call-for-review-of-proposed-additions" class="dfn-panel" data-for="last-call-for-review-of-proposed-additions" id="infopanel-for-last-call-for-review-of-proposed-additions">
+   <span id="infopaneltitle-for-last-call-for-review-of-proposed-additions" style="display:none">Info about the 'Last Call for Review of Proposed Additions' definition.</span><b><a href="#last-call-for-review-of-proposed-additions">#last-call-for-review-of-proposed-additions</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-last-call-for-review-of-proposed-additions">6.3.4.1. 
 Streamlined Publication Approval</a>
@@ -6917,15 +6919,15 @@ Streamlined Publication Approval</a>
 Incorporating Candidate Amendments</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="last-call-for-review-of-proposed-corrections-and-additions">
-   <b><a href="#last-call-for-review-of-proposed-corrections-and-additions">#last-call-for-review-of-proposed-corrections-and-additions</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-last-call-for-review-of-proposed-corrections-and-additions" class="dfn-panel" data-for="last-call-for-review-of-proposed-corrections-and-additions" id="infopanel-for-last-call-for-review-of-proposed-corrections-and-additions">
+   <span id="infopaneltitle-for-last-call-for-review-of-proposed-corrections-and-additions" style="display:none">Info about the 'Last Call for Review of Proposed Corrections and Additions' definition.</span><b><a href="#last-call-for-review-of-proposed-corrections-and-additions">#last-call-for-review-of-proposed-corrections-and-additions</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-last-call-for-review-of-proposed-corrections-and-additions">6.3.11.5. 
 Incorporating Candidate Amendments</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="proposed-amendments">
-   <b><a href="#proposed-amendments">#proposed-amendments</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-proposed-amendments" class="dfn-panel" data-for="proposed-amendments" id="infopanel-for-proposed-amendments">
+   <span id="infopaneltitle-for-proposed-amendments" style="display:none">Info about the 'proposed amendments' definition.</span><b><a href="#proposed-amendments">#proposed-amendments</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-proposed-amendments">6.3.11.5. 
 Incorporating Candidate Amendments</a> <a href="#ref-for-proposed-amendments①">(2)</a> <a href="#ref-for-proposed-amendments②">(3)</a> <a href="#ref-for-proposed-amendments③">(4)</a> <a href="#ref-for-proposed-amendments④">(5)</a> <a href="#ref-for-proposed-amendments⑤">(6)</a> <a href="#ref-for-proposed-amendments⑥">(7)</a> <a href="#ref-for-proposed-amendments⑦">(8)</a> <a href="#ref-for-proposed-amendments⑧">(9)</a> <a href="#ref-for-proposed-amendments⑨">(10)</a>
@@ -6935,22 +6937,22 @@ Revising W3C Statements</a> <a href="#ref-for-proposed-amendments①①">(2)</a>
 Updating Registry Tables</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="proposed-corrections">
-   <b><a href="#proposed-corrections">#proposed-corrections</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-proposed-corrections" class="dfn-panel" data-for="proposed-corrections" id="infopanel-for-proposed-corrections">
+   <span id="infopaneltitle-for-proposed-corrections" style="display:none">Info about the 'proposed corrections' definition.</span><b><a href="#proposed-corrections">#proposed-corrections</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-proposed-corrections">6.3.4.1. 
 Streamlined Publication Approval</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="proposed-additions">
-   <b><a href="#proposed-additions">#proposed-additions</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-proposed-additions" class="dfn-panel" data-for="proposed-additions" id="infopanel-for-proposed-additions">
+   <span id="infopaneltitle-for-proposed-additions" style="display:none">Info about the 'proposed additions' definition.</span><b><a href="#proposed-additions">#proposed-additions</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-proposed-additions">6.3.4.1. 
 Streamlined Publication Approval</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="WGNote">
-   <b><a href="#WGNote">#WGNote</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-WGNote" class="dfn-panel" data-for="WGNote" id="infopanel-for-WGNote">
+   <span id="infopaneltitle-for-WGNote" style="display:none">Info about the 'Group Note' definition.</span><b><a href="#WGNote">#WGNote</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-WGNote">3.4. 
 Chartered Groups: Working Groups and Interest Groups</a>
@@ -6966,8 +6968,8 @@ Elevating Group Notes to W3C Statement status</a> <a href="#ref-for-WGNote①⑥
 Scope of Member Submissions</a> <a href="#ref-for-WGNote②①">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="draft-note">
-   <b><a href="#draft-note">#draft-note</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-draft-note" class="dfn-panel" data-for="draft-note" id="infopanel-for-draft-note">
+   <span id="infopaneltitle-for-draft-note" style="display:none">Info about the 'Draft Notes' definition.</span><b><a href="#draft-note">#draft-note</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-draft-note">6.4.1. 
 Group Notes</a> <a href="#ref-for-draft-note①">(2)</a>
@@ -6975,8 +6977,8 @@ Group Notes</a> <a href="#ref-for-draft-note①">(2)</a>
 Publishing Notes</a> <a href="#ref-for-draft-note③">(2)</a> <a href="#ref-for-draft-note④">(3)</a> <a href="#ref-for-draft-note⑤">(4)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="statement">
-   <b><a href="#statement">#statement</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-statement" class="dfn-panel" data-for="statement" id="infopanel-for-statement">
+   <span id="infopaneltitle-for-statement" style="display:none">Info about the 'W3C Statement' definition.</span><b><a href="#statement">#statement</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-statement">6.1. 
 Types of Technical Reports</a>
@@ -6988,8 +6990,8 @@ Revising W3C Statements</a> <a href="#ref-for-statement⑨">(2)</a> <a href="#re
 Switching Tracks</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry">
-   <b><a href="#registry">#registry</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry" class="dfn-panel" data-for="registry" id="infopanel-for-registry">
+   <span id="infopaneltitle-for-registry" style="display:none">Info about the 'registry' definition.</span><b><a href="#registry">#registry</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry">6.1. 
 Types of Technical Reports</a>
@@ -7003,8 +7005,8 @@ Publishing Registries</a> <a href="#ref-for-registry⑦">(2)</a>
 Registry Data Reports</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-table">
-   <b><a href="#registry-table">#registry-table</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-table" class="dfn-panel" data-for="registry-table" id="infopanel-for-registry-table">
+   <span id="infopaneltitle-for-registry-table" style="display:none">Info about the 'registry tables' definition.</span><b><a href="#registry-table">#registry-table</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-table">6.2.3. 
 Classes of Changes</a> <a href="#ref-for-registry-table①">(2)</a>
@@ -7020,8 +7022,8 @@ Updating Registry Tables</a> <a href="#ref-for-registry-table①⑧">(2)</a>
 Registry Data Reports</a> <a href="#ref-for-registry-table②⓪">(2)</a> <a href="#ref-for-registry-table②①">(3)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-entry">
-   <b><a href="#registry-entry">#registry-entry</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-entry" class="dfn-panel" data-for="registry-entry" id="infopanel-for-registry-entry">
+   <span id="infopaneltitle-for-registry-entry" style="display:none">Info about the 'registry entries' definition.</span><b><a href="#registry-entry">#registry-entry</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-entry">6.2.3. 
 Classes of Changes</a>
@@ -7033,8 +7035,8 @@ Registry Data Reports</a>
 Specifications that Reference Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-data">
-   <b><a href="#registry-data">#registry-data</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-data" class="dfn-panel" data-for="registry-data" id="infopanel-for-registry-data">
+   <span id="infopaneltitle-for-registry-data" style="display:none">Info about the 'registry data' definition.</span><b><a href="#registry-data">#registry-data</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-data">6.5.2. 
 Publishing Registries</a>
@@ -7042,8 +7044,8 @@ Publishing Registries</a>
 Registry Data Reports</a> <a href="#ref-for-registry-data②">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-definition">
-   <b><a href="#registry-definition">#registry-definition</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-definition" class="dfn-panel" data-for="registry-definition" id="infopanel-for-registry-definition">
+   <span id="infopaneltitle-for-registry-definition" style="display:none">Info about the 'registry definition' definition.</span><b><a href="#registry-definition">#registry-definition</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-definition">6.1. 
 Types of Technical Reports</a>
@@ -7059,8 +7061,8 @@ Updating Registry Tables</a> <a href="#ref-for-registry-definition⑦">(2)</a> <
 Registry Data Reports</a> <a href="#ref-for-registry-definition①①">(2)</a> <a href="#ref-for-registry-definition①②">(3)</a> <a href="#ref-for-registry-definition①③">(4)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="custodian">
-   <b><a href="#custodian">#custodian</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-custodian" class="dfn-panel" data-for="custodian" id="infopanel-for-custodian">
+   <span id="infopaneltitle-for-custodian" style="display:none">Info about the 'custodian' definition.</span><b><a href="#custodian">#custodian</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-custodian">6.5. 
 The Registry Track</a>
@@ -7072,8 +7074,8 @@ Publishing Registries</a>
 Updating Registry Tables</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-report">
-   <b><a href="#registry-report">#registry-report</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-report" class="dfn-panel" data-for="registry-report" id="infopanel-for-registry-report">
+   <span id="infopaneltitle-for-registry-report" style="display:none">Info about the 'registry report' definition.</span><b><a href="#registry-report">#registry-report</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-report">6.1. 
 Types of Technical Reports</a> <a href="#ref-for-registry-report①">(2)</a>
@@ -7081,8 +7083,8 @@ Types of Technical Reports</a> <a href="#ref-for-registry-report①">(2)</a>
 Publishing Registries</a> <a href="#ref-for-registry-report③">(2)</a> <a href="#ref-for-registry-report④">(3)</a> <a href="#ref-for-registry-report⑤">(4)</a> <a href="#ref-for-registry-report⑥">(5)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-section">
-   <b><a href="#registry-section">#registry-section</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-section" class="dfn-panel" data-for="registry-section" id="infopanel-for-registry-section">
+   <span id="infopaneltitle-for-registry-section" style="display:none">Info about the 'registry section' definition.</span><b><a href="#registry-section">#registry-section</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-section">6.1. 
 Types of Technical Reports</a>
@@ -7090,29 +7092,29 @@ Types of Technical Reports</a>
 Publishing Registries</a> <a href="#ref-for-registry-section②">(2)</a> <a href="#ref-for-registry-section③">(3)</a> <a href="#ref-for-registry-section④">(4)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-track">
-   <b><a href="#registry-track">#registry-track</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-track" class="dfn-panel" data-for="registry-track" id="infopanel-for-registry-track">
+   <span id="infopaneltitle-for-registry-track" style="display:none">Info about the 'Registry Track' definition.</span><b><a href="#registry-track">#registry-track</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-track">6.5.2. 
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="candidate-registry-snapshot">
-   <b><a href="#candidate-registry-snapshot">#candidate-registry-snapshot</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-candidate-registry-snapshot" class="dfn-panel" data-for="candidate-registry-snapshot" id="infopanel-for-candidate-registry-snapshot">
+   <span id="infopaneltitle-for-candidate-registry-snapshot" style="display:none">Info about the 'Candidate Registry Snapshot' definition.</span><b><a href="#candidate-registry-snapshot">#candidate-registry-snapshot</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-candidate-registry-snapshot">6.5.2. 
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="w3c-registry">
-   <b><a href="#w3c-registry">#w3c-registry</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-w3c-registry" class="dfn-panel" data-for="w3c-registry" id="infopanel-for-w3c-registry">
+   <span id="infopaneltitle-for-w3c-registry" style="display:none">Info about the 'W3C Registry' definition.</span><b><a href="#w3c-registry">#w3c-registry</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-w3c-registry">6.5.2. 
 Publishing Registries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="registry-data-report">
-   <b><a href="#registry-data-report">#registry-data-report</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-registry-data-report" class="dfn-panel" data-for="registry-data-report" id="infopanel-for-registry-data-report">
+   <span id="infopaneltitle-for-registry-data-report" style="display:none">Info about the 'Registry Data Report' definition.</span><b><a href="#registry-data-report">#registry-data-report</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-registry-data-report">6.5.2. 
 Publishing Registries</a>
@@ -7120,8 +7122,8 @@ Publishing Registries</a>
 Registry Data Reports</a> <a href="#ref-for-registry-data-report②">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="Member-only">
-   <b><a href="#Member-only">#Member-only</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-Member-only" class="dfn-panel" data-for="Member-only" id="infopanel-for-Member-only">
+   <span id="infopaneltitle-for-Member-only" style="display:none">Info about the 'Member-only' definition.</span><b><a href="#Member-only">#Member-only</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-Member-only">2.1.1. 
 Rights of Members</a>
@@ -7141,8 +7143,8 @@ Confidentiality Levels</a> <a href="#ref-for-Member-only④">(2)</a> <a href="#r
 Changing Confidentiality Level</a> <a href="#ref-for-Member-only⑨">(2)</a> <a href="#ref-for-Member-only①⓪">(3)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="Team-only">
-   <b><a href="#Team-only">#Team-only</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-Team-only" class="dfn-panel" data-for="Team-only" id="infopanel-for-Team-only">
+   <span id="infopaneltitle-for-Team-only" style="display:none">Info about the 'Team-only' definition.</span><b><a href="#Team-only">#Team-only</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-Team-only">2.1. 
 Members</a>
@@ -7156,15 +7158,15 @@ Changing Confidentiality Level</a> <a href="#ref-for-Team-only③">(2)</a> <a hr
 Team Rights and Obligations</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="EventsW">
-   <b><a href="#EventsW">#EventsW</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-EventsW" class="dfn-panel" data-for="EventsW" id="infopanel-for-EventsW">
+   <span id="infopaneltitle-for-EventsW" style="display:none">Info about the 'Workshops' definition.</span><b><a href="#EventsW">#EventsW</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-EventsW">7.1. 
 Public Communication</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="mou">
-   <b><a href="#mou">#mou</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-mou" class="dfn-panel" data-for="mou" id="infopanel-for-mou">
+   <span id="infopaneltitle-for-mou" style="display:none">Info about the 'Memorandum of Understanding' definition.</span><b><a href="#mou">#mou</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-mou">5.9. 
 Appeal by Advisory Committee Representatives</a>
@@ -7173,8 +7175,8 @@ Liaisons</a> <a href="#ref-for-mou②">(2)</a> <a href="#ref-for-mou③">(3)</a>
     <li><a href="#ref-for-mou⑤"> Changes since the 2 November 2021 Process</a> <a href="#ref-for-mou⑥">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="MemberSubmission">
-   <b><a href="#MemberSubmission">#MemberSubmission</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-MemberSubmission" class="dfn-panel" data-for="MemberSubmission" id="infopanel-for-MemberSubmission">
+   <span id="infopaneltitle-for-MemberSubmission" style="display:none">Info about the 'Member Submission' definition.</span><b><a href="#MemberSubmission">#MemberSubmission</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-MemberSubmission">10. 
 Member Submission Process</a> <a href="#ref-for-MemberSubmission①">(2)</a> <a href="#ref-for-MemberSubmission②">(3)</a> <a href="#ref-for-MemberSubmission③">(4)</a>
@@ -7183,12 +7185,12 @@ Submitter Rights and Obligations</a>
     <li><a href="#ref-for-MemberSubmission⑤">10.2. 
 Team Rights and Obligations</a>
     <li><a href="#ref-for-MemberSubmission⑥">10.3. 
-Acknowledgment of a Submission Request</a>
+Receipt of a Submission Request</a>
     <li><a href="#ref-for-MemberSubmission⑦"> Changes since the 2 November 2021 Process</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="submitter">
-   <b><a href="#submitter">#submitter</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-submitter" class="dfn-panel" data-for="submitter" id="infopanel-for-submitter">
+   <span id="infopaneltitle-for-submitter" style="display:none">Info about the 'Submitter(s)' definition.</span><b><a href="#submitter">#submitter</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-submitter">10. 
 Member Submission Process</a> <a href="#ref-for-submitter①">(2)</a> <a href="#ref-for-submitter②">(3)</a> <a href="#ref-for-submitter③">(4)</a>
@@ -7199,20 +7201,20 @@ Information Required in a Submission Request</a> <a href="#ref-for-submitter①�
     <li><a href="#ref-for-submitter①④">10.2. 
 Team Rights and Obligations</a>
     <li><a href="#ref-for-submitter①⑤">10.3. 
-Acknowledgment of a Submission Request</a> <a href="#ref-for-submitter①⑥">(2)</a> <a href="#ref-for-submitter①⑦">(3)</a>
+Receipt of a Submission Request</a> <a href="#ref-for-submitter①⑥">(2)</a> <a href="#ref-for-submitter①⑦">(3)</a>
     <li><a href="#ref-for-submitter①⑧">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a> <a href="#ref-for-submitter①⑨">(2)</a> <a href="#ref-for-submitter②⓪">(3)</a> <a href="#ref-for-submitter②①">(4)</a> <a href="#ref-for-submitter②②">(5)</a> <a href="#ref-for-submitter②③">(6)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="validation-notice">
-   <b><a href="#validation-notice">#validation-notice</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-validation-notice" class="dfn-panel" data-for="validation-notice" id="infopanel-for-validation-notice">
+   <span id="infopaneltitle-for-validation-notice" style="display:none">Info about the 'validation notice' definition.</span><b><a href="#validation-notice">#validation-notice</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-validation-notice">10.3. 
-Acknowledgment of a Submission Request</a>
+Receipt of a Submission Request</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="submission-appeals">
-   <b><a href="#submission-appeals">#submission-appeals</a></b><b>Referenced in:</b>
+  <aside aria-labelledby="infopaneltitle-for-submission-appeals" class="dfn-panel" data-for="submission-appeals" id="infopanel-for-submission-appeals">
+   <span id="infopaneltitle-for-submission-appeals" style="display:none">Info about the 'Submission Appeals' definition.</span><b><a href="#submission-appeals">#submission-appeals</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-submission-appeals">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
@@ -7220,58 +7222,112 @@ Rejection of a Submission Request, and Submission Appeals</a>
    </ul>
   </aside>
 <script>/* script-dfn-panel */
-
-document.body.addEventListener("click", function(e) {
-    var queryAll = function(sel) { return [].slice.call(document.querySelectorAll(sel)); }
-    // Find the dfn element or panel, if any, that was clicked on.
-    var el = e.target;
-    var target;
-    var hitALink = false;
-    while(el.parentElement) {
-        if(el.tagName == "A") {
-            // Clicking on a link in a <dfn> shouldn't summon the panel
-            hitALink = true;
-        }
-        if(el.classList.contains("dfn-paneled")) {
-            target = "dfn";
-            break;
-        }
-        if(el.classList.contains("dfn-panel")) {
-            target = "dfn-panel";
-            break;
-        }
-        el = el.parentElement;
+"use strict";
+{
+    function queryAll(sel) {
+        return [].slice.call(document.querySelectorAll(sel));
     }
-    if(target != "dfn-panel") {
+
+    // Add popup behavior to all dfns to show the corresponding dfn-panel.
+    var dfns = document.querySelectorAll('.dfn-paneled');
+    for (let dfn of dfns) { insertDfnPopupAction(dfn); }
+
+    document.body.addEventListener("click", (e) => {
+        // If not handled already, just hide all dfn panels.
+        hideAllDfnPanels();
+    });
+
+    function hideAllDfnPanels() {
         // Turn off any currently "on" or "activated" panels.
-        queryAll(".dfn-panel.on, .dfn-panel.activated").forEach(function(el){
-            el.classList.remove("on");
-            el.classList.remove("activated");
-        });
-    }
-    if(target == "dfn" && !hitALink) {
-        // open the panel
-        var dfnPanel = document.querySelector(".dfn-panel[data-for='" + el.id + "']");
-        if(dfnPanel) {
-            dfnPanel.classList.add("on");
-            var rect = el.getBoundingClientRect();
-            dfnPanel.style.left = window.scrollX + rect.right + 5 + "px";
-            dfnPanel.style.top = window.scrollY + rect.top + "px";
-            var panelRect = dfnPanel.getBoundingClientRect();
-            var panelWidth = panelRect.right - panelRect.left;
-            if(panelRect.right > document.body.scrollWidth && (rect.left - (panelWidth + 5)) > 0) {
-                // Reposition, because the panel is overflowing
-                dfnPanel.style.left = window.scrollX + rect.left - (panelWidth + 5) + "px";
-            }
-        } else {
-            console.log("Couldn't find .dfn-panel[data-for='" + el.id + "']");
-        }
-    } else if(target == "dfn-panel") {
-        // Switch it to "activated" state, which pins it.
-        el.classList.add("activated");
-        el.style.left = null;
-        el.style.top = null;
+        queryAll(".dfn-panel.on, .dfn-panel.activated").forEach(el=>hideDfnPanel(el));
     }
 
-});
+    function showDfnPanel(dfnPanel, dfn) {
+        hideAllDfnPanels(); // Only display one at this time.
+        dfn.setAttribute("aria-expanded", "true");
+        dfnPanel.classList.add("on");
+        dfnPanel.style.left = "5px";
+        dfnPanel.style.top = "0px";
+        const panelRect = dfnPanel.getBoundingClientRect();
+        const panelWidth = panelRect.right - panelRect.left;
+        if (panelRect.right > document.body.scrollWidth) {
+            // Panel's overflowing the screen.
+            // Just drop it below the dfn and flip it rightward instead.
+            // This still wont' fix things if the screen is *really* wide,
+            // but fixing that's a lot harder without 'anchor()'.
+            dfnPanel.style.top = "1.5em";
+            dfnPanel.style.left = "auto";
+            dfnPanel.style.right = "0px";
+        }
+    }
+
+    function pinDfnPanel(dfnPanel) {
+        // Switch it to "activated" state, which pins it.
+        dfnPanel.classList.add("activated");
+        dfnPanel.style.left = null;
+        dfnPanel.style.top = null;
+    }
+
+    function hideDfnPanel(dfnPanel, dfn) {
+        if(!dfn) {
+            dfn = document.getElementById(dfnPanel.getAttribute("data-for"));
+        }
+        dfn.setAttribute("aria-expanded", "false")
+        dfnPanel.classList.remove("on");
+        dfnPanel.classList.remove("activated");
+    }
+
+    function toggleDfnPanel(dfnPanel, dfn) {
+        if(dfnPanel.classList.contains("on")) {
+            hideDfnPanel(dfnPanel, dfn);
+        } else {
+            showDfnPanel(dfnPanel, dfn);
+        }
+    }
+
+    function insertDfnPopupAction(dfn) {
+        // Find dfn panel
+        const dfnPanel = document.querySelector(`.dfn-panel[data-for='${dfn.id}']`);
+        if (dfnPanel) {
+            const panelWrapper = document.createElement('span');
+            panelWrapper.appendChild(dfnPanel);
+            panelWrapper.style.position = "relative";
+            panelWrapper.style.height = "0px";
+            dfn.insertAdjacentElement("afterend", panelWrapper);
+            dfn.setAttribute('role', 'button');
+            dfn.setAttribute('aria-expanded', 'false')
+            dfn.tabIndex = 0;
+            dfn.classList.add('has-dfn-panel');
+            dfn.addEventListener('click', (event) => {
+                showDfnPanel(dfnPanel, dfn);
+                event.stopPropagation();
+            });
+            dfn.addEventListener('keypress', (event) => {
+                const kc = event.keyCode;
+                // 32->Space, 13->Enter
+                if(kc == 32 || kc == 13) {
+                    toggleDfnPanel(dfnPanel, dfn);
+                    event.stopPropagation();
+                    event.preventDefault();
+                }
+            });
+
+            dfnPanel.addEventListener('click', (event) => {
+                pinDfnPanel(dfnPanel);
+                event.stopPropagation();
+            });
+
+            dfnPanel.addEventListener('keydown', (event) => {
+                if(event.keyCode == 27) { // Escape key
+                    hideDfnPanel(dfnPanel, dfn);
+                    event.stopPropagation();
+                    event.preventDefault();
+                }
+            })
+
+        } else {
+            console.log("Couldn't find .dfn-panel[data-for='" + dfn.id + "']");
+        }
+    }
+}
 </script>
