@@ -5669,7 +5669,8 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					(it already was for group creation).
 
 				<li>
-					The [=CEO=] rather than the Director is charged with negotiating [=MoUs=].
+					The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
+					and other agreements related to the technical program.
 
 				<li>
 					The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
