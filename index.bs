@@ -119,7 +119,7 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	and other policies
 	incorporated by normative reference as a part of the Process Document
-	are thus equally binding.
+	are equally binding.
 
 	The Patent Policy and CEPC place additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
