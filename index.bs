@@ -4533,10 +4533,10 @@ Revising W3C Statements</h4>
 <h3 id="registries">
 The Registry Track</h3>
 
-	A <dfn>registry</dfn> documents a data set
-	consisting of one or more associated <dfn lt="registry table">registry tables</dfn>,
+	A <dfn export>registry</dfn> documents a data set
+	consisting of one or more associated <dfn export lt="registry table">registry tables</dfn>,
 	each table representing an updatable collection
-	of logically independent, consistently-structured <dfn lt="registry entry">registry entries</dfn>.
+	of logically independent, consistently-structured <dfn export lt="registry entry">registry entries</dfn>.
 	A registry has three associated components:
 	<ul>
 		<li>the [=registry definition=], defining how the [=registry tables=] are structured and maintained
@@ -4590,7 +4590,7 @@ The Registry Track</h3>
 <h4 id=reg-def>
 Registry Definitions</h4>
 
-	A <dfn>registry definition</dfn>
+	A <dfn export>registry definition</dfn>
 	defines what each [=registry table=] is and how it is maintained.
 	It <em class=rfc2119>must</em>:
 
@@ -4621,7 +4621,7 @@ Registry Definitions</h4>
 			or that they do or do not need to be approved by any member of a particular Working Group.)
 
 		<li>
-			Identify the <dfn>custodian</dfn> of the [=registry table=]:
+			Identify the <dfn export>custodian</dfn> of the [=registry table=]:
 			the entity to which requests for [=registry changes=] must be sent,
 			and which is responsible for evaluating whether such requests
 			satisfy the criteria defined in the [=registry definition=].
