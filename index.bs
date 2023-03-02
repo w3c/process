@@ -5748,6 +5748,9 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					Clarify how the advance notice period for [=MoU=] works.
 
 				<li>
+					Clarify interactions between AC / Team / Board about MoUs.
+
+				<li>
 					Remove mentions of the Hosts,
 					add recognition of the existence of the W3C Inc. Board of Directors,
 					and adjust language for W3C being rooted in W3C Inc.
@@ -5763,6 +5766,21 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 
 				<li>
 					Clarify what the term [=Candidate Recommendation review period=] refers to.
+
+				<li>
+					Define editorial vs substantive changes for non-REC-track documents.
+
+				<li>
+					Merge Group Decision Appeal and Formal Object;
+					clarify what can be objected to.
+
+				<li>
+					Improve the definition of consensus
+					to make the notion usable even in contexts
+					where Formal Objections would be inappropriate
+					(such as inside a W3C Council,
+					or when the TAG or AB pick their chair),
+					and to avoid circular definitions.
 			</ul>
 	</dl>
 
