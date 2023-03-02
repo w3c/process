@@ -4465,7 +4465,7 @@ Publishing Notes</h4>
 	the [=Team=] <em class=rfc2119>may</em> republish the [=Note=] with [[#correction-classes|class 1]] changes incorporated,
 	as well as with [=errata=] and [=Team corrections=] annotated.
 
-<h4 id=memo>
+<h4 id=w3c-statement oldids=memo>
 Elevating Group Notes to W3C Statement status</h4>
 
 	A <dfn lt="Statement | W3C Statement">W3C Statement</dfn> is a [=Note=]
