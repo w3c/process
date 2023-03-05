@@ -68,7 +68,7 @@ if containsElement "$TRAVIS_BRANCH" "${TOPIC_BRANCHES[@]}" ; then
     find -maxdepth 1 ! -name . | xargs rm -rf
     cd ../..
 
-    ./compile.sh "out/$TRAVIS_BRANCH"
+    ./compile.sh "$TRAVIS_BRANCH"
 else
     # Delete all existing contents except .git and topic branches (we will re-create them)
     for i in "${TOPIC_BRANCHES[@]}"; do
