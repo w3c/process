@@ -7,7 +7,12 @@ set -x
 set -e
 
 # Run bikeshed.  If there are errors, exit with a non-zero code
-bikeshed --print=plain -f spec
+# Include a warning in the status for topic branches
+if [ $1 ] ; then
+	bikeshed --print=plain -f spec index.bs index.html --md-status-text='<details class=annoying-warning open><summary>This is not the latest Editor’s Draft of the W3C Process.</summary><p>Check the URL, and make sure this is indeed the version you’re looking for. If not, the current Editor’s Draft can be found at <a href="https://www.w3.org/Consortium/Process/Drafts/">https://www.w3.org/Consortium/Process/Drafts/</a></details>'
+else
+	bikeshed --print=plain -f spec
+fi
 
 # Bikeshed the DoCs as well
 for i in issues-*.txt; do
