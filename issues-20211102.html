@@ -1,0 +1,481 @@
+<!doctype html>
+<!--
+Run the following command in the browser console of github issue page to extract the issue list:
+document.querySelectorAll("a.Link--primary").forEach(l=>console.log("<li><a href="+l.href+">"+l.innerText+"</a>"))
+
+regexp to clean the line endings of debug info
+s/a>.*/a>
+
+vi macro to add the issue number:
+^f>f>byt>f>pa: j
+-->
+<html lang=en>
+<meta charset=utf-8>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+<link href="https://www.w3.org/StyleSheets/TR/2021/base.css" rel=stylesheet>
+<style>
+code {
+	border: solid 2px gray;
+	border-radius: 4px;
+	padding: 0 2px;
+	background: lightgray;
+	white-space: nowrap;
+}
+</style>
+
+
+
+<title>Disposition of Comments for the 2023 cycle of the W3C Process</title>
+
+<div class="head">
+	<p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72" height="48"> </a>
+	<h1>Disposition of Comments for the 2023 cycle of the W3C Process</h1>
+	<p id="w3c-state"><time class="dt-updated" datetime="2023-03-16">16 March 2023</time>
+	<p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2023 <a href="https://www.w3.org/">World Wide Web Consortium</a>. <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup> <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply.
+	<hr title="Separator for header">
+</div>
+
+	<h2 id=intro>Introduction</h2>
+
+	<p>
+	This documents the way issues filed and resolved during the revision cycle of the W3C Process
+	starting from the publication of the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 version</a>
+	leading to the proposed 2023 edition.
+
+	<p>
+	All issues were tracked in <a href="https://github.com/w3c/w3process/issues">GitHub</a>.
+	Closed issues and pull requests were given labels to characterize the way they were closed:
+
+	<dl>
+		<dt><code>Closed: Accepted</code>
+		<dd>
+			A proposition was made or a problem was raised,
+			and the group accepted the proposition
+			or some alternative solution that addresses the problem.
+
+		<dt><code>Closed: Retracted</code>
+		<dd>
+			A proposition was made or a problem was raised,
+			but he person who had done so eventually changed their mind
+			or otherwise decided no longer to pursue the question.
+
+		<dt><code>Closed: Question answered</code>
+		<dd>
+			An issue was open which was more of a request for information
+			than a problem statement or a suggestion for change,
+			and the question asked was given an answer.
+
+		<dt><code>Closed: Duplicate</code>
+		<dd>
+			The issue or pull request is redundant with another one.
+
+		<dt><code>Closed: Out of scope</code>
+		<dd>
+			The issue is not about the W3C Process.
+
+		<dt><code>Closed: Invalid</code>
+		<dd>
+			The issue is as stated is inapplicable.
+			It may for instance raise a problem with a piece of text
+			which is no longer present in the current version of the Process.
+
+		<dt><code>Closed: Rejected</code>
+		<dd>
+			The Group decided to close the issue
+			without making any change to the Process.
+	</dl>
+
+	<p>
+	Further, for all issues classified as <code>Closed: Rejected</code>,
+	<code>Closed: Invalid</code>,
+	<code>Closed: Out of scope</code>,
+	or <code>Closed: Duplicate</code>,
+	the group sought to confirm with the person who raised the issue
+	if they were willing to accept the conclusions of the group,
+	which was documented by additional labels:
+	<dl>
+		<dt><code>Commenter satisfied/accepting </code>
+		<dd>
+			The conclusion was confirmed as accepted by the commenter,
+			even if it may not be their preferred choice.
+
+		<dt><code>Commenter Timed Out (Assumed Satisfied)</code>
+		<dd>
+			The commenter was explicitly asked whether they were willing to accept the conclusion,
+			given ample time do answer,
+			and did not respond.
+			In the absence of negative feedback,
+			it is assumed they are OK with the conclusion.
+
+		<dt><code>Commenter Response Pending</code>
+		<dd>
+			The commenter was explicitly asked whether they were willing to accept the conclusion,
+			and has not yet responded.
+			Not enough time has elapsed yet
+			to draw any conclusion
+			as to their satisfaction.
+
+		<dt><code>Commenter Not Satisfied</code>
+		<dd>
+			The commenter has explicitly indicated
+			that the Group’s conclusion was not acceptable to them.
+	</dl>
+
+<h2>Open issues</h2>
+
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+milestone%3ADeferred">
+	61 issues</a> reported during this cycle or earlier remain open,
+	but were deferred by the group to be handled during
+	a subsequent revision of the W3C Process.
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/714>714: Rename Acknowledgement (for Member submission requests)</a>
+			<li><a href=https://github.com/w3c/w3process/issues/712>712: Are Statements fit for purpose?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/700>700: Clarify and simplify the sections regarding publication and process 2021</a>
+			<li><a href=https://github.com/w3c/w3process/issues/699>699: Mandate default custodianship for Registries if the specified custodian is no longer available</a>
+			<li><a href=https://github.com/w3c/w3process/issues/698>698: Votes transparency</a>
+			<li><a href=https://github.com/w3c/w3process/issues/697>697: Incumbent bias in elections / impose term limits?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/694>694: Incomplete Term Assignment Choices</a>
+			<li><a href=https://github.com/w3c/w3process/issues/689>689: Should we create an Emeritus status for prior AB/TAG/BoD members</a>
+			<li><a href=https://github.com/w3c/w3process/issues/661>661: editorial: textual inconsistencies in basic-rec-track.svg</a>
+			<li><a href=https://github.com/w3c/w3process/issues/651>651: Charter Approval</a>
+			<li><a href=https://github.com/w3c/w3process/issues/650>650: Charter creation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/649>649: Who convenes Workshops?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/648>648: Should member submissions be removed from the Process?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/639>639: Member submissions: can anyone else object, and if so, can they object to acceptance?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/638>638: REC track diagram does not reflect normative text</a>
+			<li><a href=https://github.com/w3c/w3process/issues/625>625: Favoring weakest objections</a>
+			<li><a href=https://github.com/w3c/w3process/issues/615>615: a role should be a role, not a task</a>
+			<li><a href=https://github.com/w3c/w3process/issues/604>604: Consider making thresholds relative to active participation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/597>597: Require registries to include "enough" standardized entries</a>
+			<li><a href=https://github.com/w3c/w3process/issues/596>596: Recommendation track diagram does not show Rec maintenance</a>
+			<li><a href=https://github.com/w3c/w3process/issues/590>590: Simplify Process 2021 (candidate|proposed) (change|addition|correction) terminology</a>
+			<li><a href=https://github.com/w3c/w3process/issues/589>589: The 2021 "Revising a Recommendation Process" is painful for WGs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/582>582: Representing the W3C </a>
+			<li><a href=https://github.com/w3c/w3process/issues/580>580: Charter review process</a>
+			<li><a href=https://github.com/w3c/w3process/issues/568>568: More clarity on where a "candidate addition" lives</a>
+			<li><a href=https://github.com/w3c/w3process/issues/561>561: Is a Community Group the right place to develop our own Process?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/560>560: Who can initiate and prepare a Charter?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/555>555: Introduction text</a>
+			<li><a href=https://github.com/w3c/w3process/issues/554>554: Organisation of 3.4 "Chartered Groups: Working Groups and Interest Groups"</a>
+			<li><a href=https://github.com/w3c/w3process/issues/553>553: Guidance for removing features in continuously-updated CRs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/522>522: Single implementations and interoperability: showing implementation experience with fewer implementations</a>
+			<li><a href=https://github.com/w3c/w3process/issues/521>521: Approval Vote Experiment Questions</a>
+			<li><a href=https://github.com/w3c/w3process/issues/518>518: [patent policy] Exclusion opportunity when work leaves a Working Group</a>
+			<li><a href=https://github.com/w3c/w3process/issues/517>517: Related Members</a>
+			<li><a href=https://github.com/w3c/w3process/issues/484>484: reconsider STV</a>
+			<li><a href=https://github.com/w3c/w3process/issues/481>481: Whistle blower</a>
+			<li><a href=https://github.com/w3c/w3process/issues/475>475: Ensure each proposal fulfils the goals of the W3C</a>
+			<li><a href=https://github.com/w3c/w3process/issues/469>469: Anonymous input for offline debate</a>
+			<li><a href=https://github.com/w3c/w3process/issues/465>465: Increase size of the TAG?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/464>464: Clarify deadline for nominations</a>
+			<li><a href=https://github.com/w3c/w3process/issues/460>460: Do we need a procedural track for "disclosure" documents?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/456>456: Identify and (explain or change) W3C jargon words</a>
+			<li><a href=https://github.com/w3c/w3process/issues/450>450: CRD may be followed by a Proposed Recommendation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/442>442: Need for Policy for Submission Requests</a>
+			<li><a href=https://github.com/w3c/w3process/issues/425>425: Have the normal, default, decision policy for charters in the process</a>
+			<li><a href=https://github.com/w3c/w3process/issues/422>422: What's the point of what the Process has to say about Liasons</a>
+			<li><a href=https://github.com/w3c/w3process/issues/421>421: Simplify member submissions</a>
+			<li><a href=https://github.com/w3c/w3process/issues/419>419: Remove section of the Process on Workshop and Symposia</a>
+			<li><a href=https://github.com/w3c/w3process/issues/414>414: Tighten the Scope for definition of Working Groups</a>
+			<li><a href=https://github.com/w3c/w3process/issues/409>409: Community Groups and Business Groups should be incorporated into the Process</a>
+			<li><a href=https://github.com/w3c/w3process/issues/373>373: ambiguous statement for proxy in WG/IG</a>
+			<li><a href=https://github.com/w3c/w3process/issues/329>329: Guidance for registry creation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/328>328: TAG and AB should be able to formally review charters</a>
+			<li><a href=https://github.com/w3c/w3process/issues/326>326: Community and Business Groups</a>
+			<li><a href=https://github.com/w3c/w3process/issues/281>281: Chair appointment community involvement, transparency, enabling objections and handling them</a>
+			<li><a href=https://github.com/w3c/w3process/issues/251>251: First meeting of a WG allowed too soon</a>
+			<li><a href=https://github.com/w3c/w3process/issues/182>182: Define charter review process to require addressing comments as in CR transitions</a>
+			<li><a href=https://github.com/w3c/w3process/issues/167>167: define "independent"</a>
+			<li><a href=https://github.com/w3c/w3process/issues/157>157: Should the process include something about Testing?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/120>120: Process should say how W3T can update NOTES</a>
+			<li><a href=https://github.com/w3c/w3process/issues/115>115: We need to consider equal-preference voting</a>
+		</ul>
+	</details>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+-milestone%3ADeferred">
+	4 issues</a> remain open and have not yet been addressed nor deferred.
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/717>717: Should a team-confidential formal objection lead to a team-confidential council report?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/715>715: Ratification of TAG appointments</a>
+			<li><a href=https://github.com/w3c/w3process/issues/710>710: "The W3C Council" should often be "A W3C Council"</a>
+			<li><a href=https://github.com/w3c/w3process/issues/574>574: Order of precedence of Membership Agreement, Process document and normative references</a>
+		</ul>
+	</details>
+
+<h2>Issues Resolved</h2>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+label%3A%22Closed%3A+Accepted%22%2C%22Closed%3A+Retracted%22%2C%22Closed%3A+Question+answered%22+milestone%3A%22Process+2023%22">116 issues or pull requests</a> were  closed as
+	<code>Closed: Accepted</code>,
+	<code>Closed: Retracted</code>,
+	or <code>Closed: Question answered</code>.
+
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/713>713: export registry-related terms for ease of reference</a>
+			<li><a href=https://github.com/w3c/w3process/pull/711>711: Editorial cleanup regarding normative dependencies of the Process</a>
+			<li><a href=https://github.com/w3c/w3process/pull/709>709: Enable changes of chair in a Council</a>
+			<li><a href=https://github.com/w3c/w3process/pull/706>706: Simplify phrasing about council composition</a>
+			<li><a href=https://github.com/w3c/w3process/pull/705>705: Correct reference to W3C Document / Software licensing</a>
+			<li><a href=https://github.com/w3c/w3process/pull/704>704: Clarify interactions between AC / Team / Board about MoUs</a>
+			<li><a href=https://github.com/w3c/w3process/pull/703>703: Introduce path to shortcut the Council</a>
+			<li><a href=https://github.com/w3c/w3process/pull/702>702: Include Council Team Contact in the confidence of the Council</a>
+			<li><a href=https://github.com/w3c/w3process/pull/701>701: Clarify role of Council Team Contact (and define the term)</a>
+			<li><a href=https://github.com/w3c/w3process/pull/696>696: Update conditions for proposing closure of a group</a>
+			<li><a href=https://github.com/w3c/w3process/pull/691>691: Clarify what the CR review period is</a>
+			<li><a href=https://github.com/w3c/w3process/issues/688>688: Should W3C continue to stagger AB/TAG elections ?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/685>685: Reintroduce the conditions for closure of a group</a>
+			<li><a href=https://github.com/w3c/w3process/issues/684>684: Broken link to suspension guidelines.</a>
+			<li><a href=https://github.com/w3c/w3process/issues/681>681: [Editorial] Adjust grounding of RF distribution of specifications</a>
+			<li><a href=https://github.com/w3c/w3process/issues/680>680: [Editorial] Where Formal Objection is defined, identify milder ways to express disagreement</a>
+			<li><a href=https://github.com/w3c/w3process/issues/679>679: [editorial] Council composition statement spends too much time on exceptions</a>
+			<li><a href=https://github.com/w3c/w3process/issues/678>678: Possibly dismissing a Formal Objection before it goes to full Council?</a>
+			<li><a href=https://github.com/w3c/w3process/pull/677>677: Rename Member Consortia to Member Associations</a>
+			<li><a href=https://github.com/w3c/w3process/pull/676>676: Clarify that AC appeal requests and rationale can be shared with the Membership</a>
+			<li><a href=https://github.com/w3c/w3process/pull/675>675: Clarify timing of TAG and AB chair selection</a>
+			<li><a href=https://github.com/w3c/w3process/pull/674>674: Clarify what can be formally objected to</a>
+			<li><a href=https://github.com/w3c/w3process/issues/670>670: Clarify AC and BoD priority when signing MoUs and similar contracts</a>
+			<li><a href=https://github.com/w3c/w3process/pull/669>669: Set up AB-BoD liaisons</a>
+			<li><a href=https://github.com/w3c/w3process/issues/668>668: AB liaisons to the Board</a>
+			<li><a href=https://github.com/w3c/w3process/issues/666>666: “Member Consortium” vs “Member Association”—Synchronize with the Bylaws</a>
+			<li><a href=https://github.com/w3c/w3process/pull/665>665: The council may report vote totals</a>
+			<li><a href=https://github.com/w3c/w3process/pull/664>664: Allow the CEO to delegate their seat on the Council</a>
+			<li><a href=https://github.com/w3c/w3process/pull/660>660: Broaden who may propose group closure</a>
+			<li><a href=https://github.com/w3c/w3process/pull/659>659: Clarify expectations about FO mitigations</a>
+			<li><a href=https://github.com/w3c/w3process/pull/658>658: Remove references to the Hosts, replace with BoD</a>
+			<li><a href=https://github.com/w3c/w3process/pull/654>654: Define CRS/CRD abbreviations, fixes #636</a>
+			<li><a href=https://github.com/w3c/w3process/issues/653>653: Closing Groups</a>
+			<li><a href=https://github.com/w3c/w3process/issues/652>652: Chair appointments</a>
+			<li><a href=https://github.com/w3c/w3process/pull/647>647: Define editorial vs substantive changes for non-REC-track documents.</a>
+			<li><a href=https://github.com/w3c/w3process/pull/646>646: Replace the role of the Director in concluding AC Review</a>
+			<li><a href=https://github.com/w3c/w3process/pull/645>645: Address necessary mitigations for sustained objections</a>
+			<li><a href=https://github.com/w3c/w3process/pull/644>644: Remove the Director</a>
+			<li><a href=https://github.com/w3c/w3process/pull/643>643: Refactor Group/Chair Decision Appeal and Formal Objection sections</a>
+			<li><a href=https://github.com/w3c/w3process/pull/642>642: Adopt the W3C Council for handing Formal objections and related matters</a>
+			<li><a href=https://github.com/w3c/w3process/issues/641>641: Mid-term Chair Appointment for TAG and AB</a>
+			<li><a href=https://github.com/w3c/w3process/issues/637>637: What is the CR Review Period?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/636>636: Clarify usage of types of CR in Rec Track Diagram</a>
+			<li><a href=https://github.com/w3c/w3process/pull/635>635: Improving the definition of consensus</a>
+			<li><a href=https://github.com/w3c/w3process/issues/634>634: Improving the definition of consensus</a>
+			<li><a href=https://github.com/w3c/w3process/issues/633>633: Allow CEO to delegate position on the Council</a>
+			<li><a href=https://github.com/w3c/w3process/issues/624>624: Inconsistency in managing dissent</a>
+			<li><a href=https://github.com/w3c/w3process/pull/621>621: Enable the Council to delegate ruling of specific FOs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/620>620: Ensuring charters fit the mission and values of W3C</a>
+			<li><a href=https://github.com/w3c/w3process/pull/619>619: Provide an explicit advance notice period for MoUs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/618>618: Does the Council need the ability to defer decisions to someone else under some (rare) circumstances?</a>
+			<li><a href=https://github.com/w3c/w3process/pull/614>614: editorial: rm undefined COO from informal Note</a>
+			<li><a href=https://github.com/w3c/w3process/issues/613>613: Continuity of TAG appointments</a>
+			<li><a href=https://github.com/w3c/w3process/pull/612>612: Rename "maturity level" into "maturity stage"</a>
+			<li><a href=https://github.com/w3c/w3process/pull/611>611: Director-free TAG</a>
+			<li><a href=https://github.com/w3c/w3process/pull/610>610: Use "verification" rather than "approval"</a>
+			<li><a href=https://github.com/w3c/w3process/issues/609>609: "approval" vs "verification"</a>
+			<li><a href=https://github.com/w3c/w3process/issues/606>606: Include Membership input ahead of MoU decision</a>
+			<li><a href=https://github.com/w3c/w3process/issues/605>605: Recording council disagreements</a>
+			<li><a href=https://github.com/w3c/w3process/issues/603>603: Should appeal request be shared with the Membership?</a>
+			<li><a href=https://github.com/w3c/w3process/pull/602>602: Simplify announcements of charter extensions</a>
+			<li><a href=https://github.com/w3c/w3process/issues/601>601: What is and can be Member-Confidential</a>
+			<li><a href=https://github.com/w3c/w3process/issues/598>598: Superfluous information requirement in 4.5 “Charter extension”</a>
+			<li><a href=https://github.com/w3c/w3process/pull/591>591: Expect supporting materials to be archived</a>
+			<li><a href=https://github.com/w3c/w3process/pull/586>586: Let the Team rather than the Director handle progression on TR</a>
+			<li><a href=https://github.com/w3c/w3process/pull/585>585: Make the Team responsible for Group creation and Closure</a>
+			<li><a href=https://github.com/w3c/w3process/issues/584>584: Moving from Draft Registry to Candidate Registry</a>
+			<li><a href=https://github.com/w3c/w3process/issues/583>583: Unintentional definitite article "the group"</a>
+			<li><a href=https://github.com/w3c/w3process/pull/579>579: Minor editorial fixes from Process 2021</a>
+			<li><a href=https://github.com/w3c/w3process/issues/578>578: Director responsibilities in the technical development process</a>
+			<li><a href=https://github.com/w3c/w3process/issues/577>577: All previews are 404</a>
+			<li><a href=https://github.com/w3c/w3process/pull/567>567: Use "allow new features" terminology consistently</a>
+			<li><a href=https://github.com/w3c/w3process/pull/566>566: Fix build scripts</a>
+			<li><a href=https://github.com/w3c/w3process/pull/565>565: Build the process without deploying in forks and pull requests</a>
+			<li><a href=https://github.com/w3c/w3process/pull/564>564: Don't attempt to deploy Pull Requests</a>
+			<li><a href=https://github.com/w3c/w3process/pull/563>563: Stop excluding AC rep comments from those that have to be addressed</a>
+			<li><a href=https://github.com/w3c/w3process/pull/562>562: Make it possible to transition from REC to WD</a>
+			<li><a href=https://github.com/w3c/w3process/pull/559>559: Make the Team handle various participation-related judgement calls</a>
+			<li><a href=https://github.com/w3c/w3process/pull/558>558: Move disciplinary authority and power from the Director to the CEO</a>
+			<li><a href=https://github.com/w3c/w3process/pull/557>557: Let the Team handle Member Submissions</a>
+			<li><a href=https://github.com/w3c/w3process/pull/556>556: Make the CEO rather than the Director responsible for MoUs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/552>552: Archiving discussion attachments</a>
+			<li><a href=https://github.com/w3c/w3process/issues/523>523: Speed of resolving formal objections for new charters</a>
+			<li><a href=https://github.com/w3c/w3process/issues/498>498: TAG appointment committee should exclude those also up for re-appointment</a>
+			<li><a href=https://github.com/w3c/w3process/issues/497>497: Anonymous formal objections</a>
+			<li><a href=https://github.com/w3c/w3process/issues/496>496: Requirements for advancement to Recommendation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/492>492: Should we make it explicit that participation in the Council does not require travel?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/491>491: Deadline for the council to process FOs</a>
+			<li><a href=https://github.com/w3c/w3process/issues/467>467: External facilitation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/458>458: Who handles discipline when it isn't the Director?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/455>455: Maturity Level is a weird term</a>
+			<li><a href=https://github.com/w3c/w3process/pull/433>433: Simplify the text on liaisons</a>
+			<li><a href=https://github.com/w3c/w3process/issues/394>394: Formalise HRG as mandatory by default</a>
+			<li><a href=https://github.com/w3c/w3process/issues/393>393: [meta] Eliminate role of The Director and redistribute authority from The Team to W3C members & community</a>
+			<li><a href=https://github.com/w3c/w3process/issues/392>392: Process details that should NOT be owned by W3M/Team/CEO</a>
+			<li><a href=https://github.com/w3c/w3process/issues/368>368: TAG appointed participants announcement by Director</a>
+			<li><a href=https://github.com/w3c/w3process/issues/360>360: Director-less issues</a>
+			<li><a href=https://github.com/w3c/w3process/issues/356>356: Streamlining the Process Document</a>
+			<li><a href=https://github.com/w3c/w3process/issues/339>339: Why can AC comments on CR be ignored?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/327>327: W3C Council should be limited to one vote per member organization</a>
+			<li><a href=https://github.com/w3c/w3process/issues/316>316: The Elephant in the Director-free Room</a>
+			<li><a href=https://github.com/w3c/w3process/issues/314>314: Consensus in the TAG Appointment Committee - Formal Objections</a>
+			<li><a href=https://github.com/w3c/w3process/issues/310>310: TAG chair selection timing</a>
+			<li><a href=https://github.com/w3c/w3process/pull/299>299: Make it clear than any decision can be objected to</a>
+			<li><a href=https://github.com/w3c/w3process/issues/293>293: [director-free] Should the Council be all TAG+AB, or smaller and separately elected?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/291>291: "W3C Council" may have to hear information in confidence</a>
+			<li><a href=https://github.com/w3c/w3process/issues/290>290: How does W3C Council handle membership turnover?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/284>284: CEO is part of the AB, and ex-officio participant in Objection Decision Committee</a>
+			<li><a href=https://github.com/w3c/w3process/issues/280>280: What to do when there's no consensus in the Council</a>
+			<li><a href=https://github.com/w3c/w3process/issues/279>279: What can the Objection Decision Committee actually decide?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/278>278: Recusal from FO handling</a>
+			<li><a href=https://github.com/w3c/w3process/issues/276>276: Generalize FO-handling</a>
+			<li><a href=https://github.com/w3c/w3process/issues/275>275: discipline and CEO recusal</a>
+			<li><a href=https://github.com/w3c/w3process/issues/103>103: Should the process allow REC->WD transition directly?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/76>76: Should there be good standing / supermajority criteria in authoritative ballots?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/28>28: Substantive changes undefined for Charter, Process reviews, and things other than specifications</a>
+		</ul>
+	</details>
+
+<h2>Invalid, Duplicate, Out-of-scope</h2>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22">17 issues or pull requests</a> were closed as
+	<code>Closed: Invalid</code>,
+	<code>Closed: Out of scope</code>,
+	or <code>Closed: Duplicate</code>,
+	and tagged as either
+	<code>Commenter satisfied/accepting </code>
+	or <code>Commenter Timed Out (Assumed Satisfied)</code>.
+
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/695>695: TAG charter needs revision for Director-free alignment</a>
+			<li><a href=https://github.com/w3c/w3process/issues/673>673: MoUs need splitting between formal contractual relationships, and true memoranda of understanding</a>
+			<li><a href=https://github.com/w3c/w3process/issues/672>672: Grace period for contributing to specifications?</a>
+			<li><a href=https://github.com/w3c/w3process/pull/663>663: Mo u notice</a>
+			<li><a href=https://github.com/w3c/w3process/pull/657>657: Host-free</a>
+			<li><a href=https://github.com/w3c/w3process/pull/640>640: Rename Acknowledgement to Acceptance (for Member submission requests)</a>
+			<li><a href=https://github.com/w3c/w3process/issues/631>631: Sustaining an FO should always require super-majority support</a>
+			<li><a href=https://github.com/w3c/w3process/issues/630>630: FO Council should not be allowed to delegate its responsibility</a>
+			<li><a href=https://github.com/w3c/w3process/pull/623>623: Change from recusal to dismissal/renunciation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/622>622: Should potential appointees to the TAG be required to stand for election, to be eligible for another term?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/592>592: Allow Chairs to suspend an individual temporarily</a>
+			<li><a href=https://github.com/w3c/w3process/issues/587>587: Cite Horizontal Review in Sec. 6.4.3</a>
+			<li><a href=https://github.com/w3c/w3process/issues/536>536: Editorial Changes are ill-defined outside of REC-track documents</a>
+			<li><a href=https://github.com/w3c/w3process/issues/447>447: Horizontal/Wide review for IG/CG/BGs?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/337>337: Link to document on formal objection processing</a>
+			<li><a href=https://github.com/w3c/w3process/issues/311>311: Filling appointed TAG seats that have been vacated</a>
+			<li><a href=https://github.com/w3c/w3process/issues/277>277: CEO recusal while handling FOs</a>
+		</ul>
+	</details>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Response+Pending%22">3 issues or pull requests</a> were closed as
+	<code>Closed: Invalid</code>,
+	<code>Closed: Out of scope</code>,
+	or <code>Closed: Duplicate</code>,
+	and tagged as
+	<code>Commenter Response Pending</code>.
+
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+			<li><a href=https://github.com/w3c/w3process/issues/588>588: Terminology for team support of the W3C Council</a>
+			<li><a href=https://github.com/w3c/w3process/issues/366>366: Setup document management for director-free matters</a>
+			<li><a href=https://github.com/w3c/w3process/issues/315>315: TAG Appointment Committee composition</a>
+		</ul>
+	</details>
+
+<p>
+<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">No issues or pull requests</a> were closed as
+	<code>Closed: Invalid</code>,
+	<code>Closed: Out of scope</code>,
+	or <code>Closed: Duplicate</code>,
+	and tagged as
+	<code>Commenter Not Satisfied</code>.
+
+<h2>Rejected Issues</h2>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22+">11 issues or pull requests</a> were closed as
+	<code>Closed: Rejected</code>
+	and tagged as either
+	<code>Commenter satisfied/accepting </code>
+	or <code>Commenter Timed Out (Assumed Satisfied)</code>.
+
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/629>629: The team should not be expected to recommend a disposition of an FO</a>
+			<li><a href=https://github.com/w3c/w3process/issues/608>608: Simplifying TAG Appointment Committee</a>
+			<li><a href=https://github.com/w3c/w3process/issues/581>581: Sufficient time for Council Members to give decisions their full attention</a>
+			<li><a href=https://github.com/w3c/w3process/issues/551>551: Ensure all specs & standards have published user research? [from TAG process repo]</a>
+			<li><a href=https://github.com/w3c/w3process/issues/495>495: Are certain (categories of) members entitled to AB/TAG representation?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/462>462: Process should ask or maybe require folks requesting a document transition to CR to describe why/how they think the document is likely to exit CR</a>
+			<li><a href=https://github.com/w3c/w3process/issues/457>457: Proposal for a Directorate</a>
+			<li><a href=https://github.com/w3c/w3process/issues/447>447: Horizontal/Wide review for IG/CG/BGs?</a>
+			<li><a href=https://github.com/w3c/w3process/issues/331>331: Please reconsider director-free formal objection handling</a>
+			<li><a href=https://github.com/w3c/w3process/issues/313>313: Team-Appointed TAG Chair(s)</a>
+			<li><a href=https://github.com/w3c/w3process/issues/141>141: provide clearer/common wording for transitions to Obsolete/Superseded status</a>
+		</ul>
+	</details>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+Response+Pending%22">
+	3 issues or pull requests</a> were closed as
+	<code>Closed: Rejected</code>
+	and tagged as
+	<code>Commenter Response Pending</code>.
+
+	<details>
+		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<ul>
+			<li><a href=https://github.com/w3c/w3process/issues/478>478: Appeal process for proposals </a>
+			<li><a href=https://github.com/w3c/w3process/issues/443>443: Stronger emphasis on reaching Recommendation</a>
+			<li><a href=https://github.com/w3c/w3process/issues/230>230: TAG appointment should be via IETF style nomcom</a>
+		</ul>
+	</details>
+
+	<p>
+	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">
+	One issue</a> was closed as
+	<code>Closed: Rejected</code>
+	and tagged as
+	<code>Commenter Not Satisfied</code>.
+
+	<dl class=issue>
+		<dt>Number:
+		<dd>
+			<a href="https://github.com/w3c/w3process/issues/628">Issue 628</a>
+
+		<dt>Title:
+		<dd>
+			Limit the scope of FO Council deliberations
+
+		<dt>From:
+		<dd>
+			Pierre-Anthony Lemieux
+
+		<dt>Summary:
+		<dd>
+			The FO Council should sustain an FO only if rejecting the FO would necessarily result in a violation of the W3C process.
+			As it stands, there are no limitations to what folks can file as FO and what the Council will consider.
+
+		<dt>Resolution to close:
+		<dd>
+			<a href="https://github.com/w3c/w3process/issues/628#issuecomment-1308964438">RESOLVED: Close 628 no change, flag Commenter Not Satisfied</a>
+
+		<dt>Summary of rationale to close:
+		<dd>
+			W3C normally makes decisions by consensus.
+			Formal objections happen when we fail to reach consensus
+			(regardless of why)
+			but try to move forward anyway.
+			The Council is there to determine the best way forward
+			in the face of irreconcilable differences of opinion,
+			not to adjudicate right vs wrong in terms of rules being followed.
+			Simple process violations typically result in the team handling them, not FOs.
+			Focusing the Council solely on process violations would make the Council mostly useless.
