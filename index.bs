@@ -237,7 +237,7 @@ Members</h3>
 
 	<ol>
 		<li>
-			One representative per Member organization particiaptes
+			One representative per Member organization participates
 			in the [=Advisory Committee=]
 			which oversees the work of the W3C.
 
@@ -4753,7 +4753,7 @@ Updating Registry Tables</h4>
 	Note: The custodian is only empowered to make [=registry changes=].
 	If the Working Group establishing the registry wishes
 	to empower the custodian to add commentary on individual entries,
-	this needs to be part of the registry table’s defintion.
+	this needs to be part of the registry table’s definition.
 	If other changes are desired,
 	they must be requested of the responsible Working Group--
 	or in the absence of a Working Group, of the Team.
@@ -5340,7 +5340,7 @@ Team Rights and Obligations</h3>
 
 	Although they are not technical reports,
 	the documents in a [=Member Submission=]
-	<em class="rfc2119">must</em> fulfil the requirements established by the [=Team=],
+	<em class="rfc2119">must</em> fulfill the requirements established by the [=Team=],
 	including the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 
 	The [=Team=] sends a <dfn id="validation-notice">validation notice</dfn> to the [=Submitter=](s)
