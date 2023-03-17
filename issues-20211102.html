@@ -14,14 +14,29 @@ vi macro to add the issue number:
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 <link href="https://www.w3.org/StyleSheets/TR/2021/base.css" rel=stylesheet>
 <style>
+details {
+	padding-left: 8px;
+	border-left: 8px transparent solid;
+}
+details[open] {
+	border-color: lightgray;
+}
+details summary {
+	font-weight: normal;
+}
+details:not([open]) summary::after {
+	content: " (Expand for details.)";
+	font-weight: normal;
+	font-style: italic;
+}
 code {
 	border-radius: 1em;
 	padding: 2px 5px;
 	background: lightgray;
 	white-space: nowrap;
 }
-p+details {
-	margin-top: -1em;
+details {
+	margin-top: 1em;
 }
 .acc, .qa, .ret {
 	background: #0e8a16;
@@ -53,8 +68,6 @@ p+details {
 }
 </style>
 
-
-
 <title>Disposition of Comments for the 2023 cycle of the W3C Process</title>
 
 <div class="head">
@@ -80,13 +93,16 @@ p+details {
 <h2>Open issues</h2>
 
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+milestone%3ADeferred">
-	61 issues</a> reported during this cycle or earlier remain open,
-	but were deferred by the group to be handled during
-	a subsequent revision of the W3C Process.
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>61 issues</strong> reported during this cycle or earlier remain open,
+			but were deferred by the group to be handled during
+			a subsequent revision of the W3C Process.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+milestone%3ADeferred">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/714>714: Rename Acknowledgement (for Member submission requests)</a>
 			<li><a href=https://github.com/w3c/w3process/issues/712>712: Are Statements fit for purpose?</a>
@@ -152,11 +168,14 @@ p+details {
 		</ul>
 	</details>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+-milestone%3ADeferred">
-	4 issues</a> remain open and have not yet been addressed nor deferred.
-	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+	<details open>
+		<summary>
+			<strong>4 issues</strong> remain open and have not yet been addressed nor deferred.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aopen+is%3Aissue+-milestone%3ADeferred">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/717>717: Should a team-confidential formal objection lead to a team-confidential council report?</a>
 			<li><a href=https://github.com/w3c/w3process/issues/715>715: Ratification of TAG appointments</a>
@@ -167,14 +186,18 @@ p+details {
 
 <h2>Issues Resolved</h2>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+label%3A%22Closed%3A+Accepted%22%2C%22Closed%3A+Retracted%22%2C%22Closed%3A+Question+answered%22+milestone%3A%22Process+2023%22">116 issues or pull requests</a> were  closed as
-	<code class=acc>Closed: Accepted</code>,
-	<code class=ret>Closed: Retracted</code>,
-	or <code class=qa>Closed: Question answered</code>.
 
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>116 issues or pull requests</strong> were  closed as
+			<code class=acc>Closed: Accepted</code>,
+			<code class=ret>Closed: Retracted</code>,
+			or <code class=qa>Closed: Question answered</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+label%3A%22Closed%3A+Accepted%22%2C%22Closed%3A+Retracted%22%2C%22Closed%3A+Question+answered%22+milestone%3A%22Process+2023%22">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/713>713: export registry-related terms for ease of reference</a>
 			<li><a href=https://github.com/w3c/w3process/pull/711>711: Editorial cleanup regarding normative dependencies of the Process</a>
@@ -297,18 +320,20 @@ p+details {
 
 <h2>Invalid, Duplicate, Out-of-scope</h2>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22">
-	19 issues or pull requests</a> were closed as
-	<code class=inv>Closed: Invalid</code>,
-	<code class=oos>Closed: Out of scope</code>,
-	or <code class=dup>Closed: Duplicate</code>,
-	and tagged as either
-	<code class=sat>Commenter sattisfied/accepting </code>
-	or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
-
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>19 issues or pull requests</strong> were closed as
+			<code class=inv>Closed: Invalid</code>,
+			<code class=oos>Closed: Out of scope</code>,
+			or <code class=dup>Closed: Duplicate</code>,
+			and tagged as either
+			<code class=sat>Commenter sattisfied/accepting</code>
+			or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/695>695: TAG charter needs revision for Director-free alignment</a>
 			<li><a href=https://github.com/w3c/w3process/issues/673>673: MoUs need splitting between formal contractual relationships, and true memoranda of understanding</a>
@@ -332,40 +357,52 @@ p+details {
 		</ul>
 	</details>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Response+Pending%22">
-	1 issues or pull requests</a> were closed as
-	<code class=inv>Closed: Invalid</code>,
-	<code class=oos>Closed: Out of scope</code>,
-	or <code class=dup>Closed: Duplicate</code>,
-	and tagged as
-	<code class=pend>Commenter Response Pending</code>.
-
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>1 issues or pull requests</strong> was closed as
+			<code class=inv>Closed: Invalid</code>,
+			<code class=oos>Closed: Out of scope</code>,
+			or <code class=dup>Closed: Duplicate</code>,
+			and tagged as
+			<code class=pend>Commenter Response Pending</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Response+Pending%22">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
+		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/588>588: Terminology for team support of the W3C Council</a>
 		</ul>
 	</details>
 
-<p>
-<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">No issues or pull requests</a> were closed as
-	<code class=inv>Closed: Invalid</code>,
-	<code class=oos>Closed: Out of scope</code>,
-	or <code class=dup>Closed: Duplicate</code>,
-	and tagged as
-	<code class=not>Commenter Not Satisfied</code>.
+	<details>
+		<summary>
+			<strong>No issues or pull requests</strong> were closed as
+			<code class=inv>Closed: Invalid</code>,
+			<code class=oos>Closed: Out of scope</code>,
+			or <code class=dup>Closed: Duplicate</code>,
+			and tagged as
+			<code class=not>Commenter Not Satisfied</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">
+			Live list from GitHub.</a>
+	</details>
 
 <h2>Rejected Issues</h2>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22+">11 issues or pull requests</a> were closed as
-	<code class=rej>Closed: Rejected</code>
-	and tagged as either
-	<code class=sat>Commenter sattisfied/accepting </code>
-	or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
-
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>11 issues or pull requests</strong> were closed as
+			<code class=rej>Closed: Rejected</code>
+			and tagged as either
+			<code class=sat>Commenter sattisfied/accepting</code>
+			or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22+">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/629>629: The team should not be expected to recommend a disposition of an FO</a>
 			<li><a href=https://github.com/w3c/w3process/issues/608>608: Simplifying TAG Appointment Committee</a>
@@ -381,15 +418,17 @@ p+details {
 		</ul>
 	</details>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+Response+Pending%22">
-	3 issues or pull requests</a> were closed as
-	<code class=rej>Closed: Rejected</code>
-	and tagged as
-	<code class=pend>Commenter Response Pending</code>.
-
 	<details>
-		<summary>Expand to see a static copy of this list at the time of writing.</summary>
+		<summary>
+			<strong>3 issues or pull requests</strong> were closed as
+			<code class=rej>Closed: Rejected</code>
+			and tagged as
+			<code class=pend>Commenter Response Pending</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+Response+Pending%22">
+			Live list from GitHub.</a>
+		<p>Static copy of this list at the time of writing:
 		<ul>
 			<li><a href=https://github.com/w3c/w3process/issues/478>478: Appeal process for proposals </a>
 			<li><a href=https://github.com/w3c/w3process/issues/443>443: Stronger emphasis on reaching Recommendation</a>
@@ -397,50 +436,59 @@ p+details {
 		</ul>
 	</details>
 
-	<p>
-	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">
-	One issue</a> was closed as
-	<code class=rej>Closed: Rejected</code>
-	and tagged as
-	<code class=not>Commenter Not Satisfied</code>.
+	<details open>
+		<summary>
+			<strong>One issue</strong> was closed as
+			<code class=rej>Closed: Rejected</code>
+			and tagged as
+			<code class=not>Commenter Not Satisfied</code>.
+		</summary>
+		<p>
+		<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">
+			Live list from Github</a>.
+		<dl class=issue>
+			<dt>Number:
+			<dd>
+				<a href="https://github.com/w3c/w3process/issues/628">Issue 628</a>
 
-	<dl class=issue>
-		<dt>Number:
-		<dd>
-			<a href="https://github.com/w3c/w3process/issues/628">Issue 628</a>
+			<dt>Title:
+			<dd>
+				Limit the scope of FO Council deliberations
 
-		<dt>Title:
-		<dd>
-			Limit the scope of FO Council deliberations
+			<dt>From:
+			<dd>
+				Pierre-Anthony Lemieux
 
-		<dt>From:
-		<dd>
-			Pierre-Anthony Lemieux
+			<dt>Summary:
+			<dd>
+				The FO Council should sustain an FO only if rejecting the FO would necessarily result in a violation of the W3C process.
+				As it stands, there are no limitations to what folks can file as FO and what the Council will consider.
 
-		<dt>Summary:
-		<dd>
-			The FO Council should sustain an FO only if rejecting the FO would necessarily result in a violation of the W3C process.
-			As it stands, there are no limitations to what folks can file as FO and what the Council will consider.
+			<dt>Resolution to close:
+			<dd>
+				<a href="https://github.com/w3c/w3process/issues/628#issuecomment-1308964438">RESOLVED: Close 628 no change, flag Commenter Not Satisfied</a>
 
-		<dt>Resolution to close:
-		<dd>
-			<a href="https://github.com/w3c/w3process/issues/628#issuecomment-1308964438">RESOLVED: Close 628 no change, flag Commenter Not Satisfied</a>
-
-		<dt>Summary of rationale to close:
-		<dd>
-			W3C normally makes decisions by consensus.
-			Formal objections happen when we fail to reach consensus
-			(regardless of why)
-			but try to move forward anyway.
-			The Council is there to determine the best way forward
-			in the face of irreconcilable differences of opinion,
-			not to adjudicate right vs wrong in terms of rules being followed.
-			Simple process violations typically result in the team handling them, not FOs.
-			Focusing the Council solely on process violations would make the Council mostly useless.
+			<dt>Summary of rationale to close:
+			<dd>
+				W3C normally makes decisions by consensus.
+				Formal objections happen when we fail to reach consensus
+				(regardless of why)
+				but try to move forward anyway.
+				The Council is there to determine the best way forward
+				in the face of irreconcilable differences of opinion,
+				not to adjudicate right vs wrong in terms of rules being followed.
+				Simple process violations typically result in the team handling them, not FOs.
+				Focusing the Council solely on process violations would make the Council mostly useless.
 		</dl>
+	</details>
+
+	<hr>
 
 <h2 id=glossary>
 Gloassary</h2>
+
+	<p>
+	All closed issues were given one of the following label:
 
 	<dl>
 		<dt><code class=acc>Closed: Accepted</code>
@@ -490,7 +538,7 @@ Gloassary</h2>
 	if they were willing to accept the conclusions of the group,
 	which was documented by additional labels:
 	<dl>
-		<dt><code class=sat>Commenter sattisfied/accepting </code>
+		<dt><code class=sat>Commenter sattisfied/accepting</code>
 		<dd>
 			The conclusion was confirmed as accepted by the commenter,
 			even if it may not be their preferred choice.
