@@ -15,14 +15,41 @@ vi macro to add the issue number:
 <link href="https://www.w3.org/StyleSheets/TR/2021/base.css" rel=stylesheet>
 <style>
 code {
-	border: solid 2px gray;
-	border-radius: 4px;
-	padding: 0 2px;
+	border-radius: 1em;
+	padding: 2px 5px;
 	background: lightgray;
 	white-space: nowrap;
 }
 p+details {
 	margin-top: -1em;
+}
+.acc, .qa, .ret {
+	background: #0e8a16;
+	color: white;
+}
+.dup, .inv, .oos {
+	background: #cccccc;
+	color: black;
+}
+.rej {
+	background: #f9d0c4;
+	color: black;
+}
+.sat {
+	background: #00ff00;
+	color: black;
+}
+.to {
+	background: #99ff99;
+	color: black;
+}
+.pend {
+	background: #fbca04;
+	color: black;
+}
+.not {
+	background: #b60205;
+	color: white;
 }
 </style>
 
@@ -142,9 +169,9 @@ p+details {
 
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+label%3A%22Closed%3A+Accepted%22%2C%22Closed%3A+Retracted%22%2C%22Closed%3A+Question+answered%22+milestone%3A%22Process+2023%22">116 issues or pull requests</a> were  closed as
-	<code>Closed: Accepted</code>,
-	<code>Closed: Retracted</code>,
-	or <code>Closed: Question answered</code>.
+	<code class=acc>Closed: Accepted</code>,
+	<code class=ret>Closed: Retracted</code>,
+	or <code class=qa>Closed: Question answered</code>.
 
 	<details>
 		<summary>Expand to see a static copy of this list at the time of writing.</summary>
@@ -272,12 +299,12 @@ p+details {
 
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22">17 issues or pull requests</a> were closed as
-	<code>Closed: Invalid</code>,
-	<code>Closed: Out of scope</code>,
-	or <code>Closed: Duplicate</code>,
+	<code class=inv>Closed: Invalid</code>,
+	<code class=oos>Closed: Out of scope</code>,
+	or <code class=dup>Closed: Duplicate</code>,
 	and tagged as either
-	<code>Commenter satisfied/accepting </code>
-	or <code>Commenter Timed Out (Assumed Satisfied)</code>.
+	<code class=sat>Commenter sattisfied/accepting </code>
+	or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
 
 	<details>
 		<summary>Expand to see a static copy of this list at the time of writing.</summary>
@@ -304,11 +331,11 @@ p+details {
 
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Response+Pending%22">3 issues or pull requests</a> were closed as
-	<code>Closed: Invalid</code>,
-	<code>Closed: Out of scope</code>,
-	or <code>Closed: Duplicate</code>,
+	<code class=inv>Closed: Invalid</code>,
+	<code class=oos>Closed: Out of scope</code>,
+	or <code class=dup>Closed: Duplicate</code>,
 	and tagged as
-	<code>Commenter Response Pending</code>.
+	<code class=pend>Commenter Response Pending</code>.
 
 	<details>
 		<summary>Expand to see a static copy of this list at the time of writing.</summary>
@@ -320,20 +347,20 @@ p+details {
 
 <p>
 <a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Out+of+Scope%22%2C%22Closed%3A+Duplicate%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">No issues or pull requests</a> were closed as
-	<code>Closed: Invalid</code>,
-	<code>Closed: Out of scope</code>,
-	or <code>Closed: Duplicate</code>,
+	<code class=inv>Closed: Invalid</code>,
+	<code class=oos>Closed: Out of scope</code>,
+	or <code class=dup>Closed: Duplicate</code>,
 	and tagged as
-	<code>Commenter Not Satisfied</code>.
+	<code class=not>Commenter Not Satisfied</code>.
 
 <h2>Rejected Issues</h2>
 
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+satisfied%2Faccepting%22%2C%22Commenter+Timed+Out+%28Assumed+Satisfied%29%22+">11 issues or pull requests</a> were closed as
-	<code>Closed: Rejected</code>
+	<code class=rej>Closed: Rejected</code>
 	and tagged as either
-	<code>Commenter satisfied/accepting </code>
-	or <code>Commenter Timed Out (Assumed Satisfied)</code>.
+	<code class=sat>Commenter sattisfied/accepting </code>
+	or <code class=to>Commenter Timed Out (Assumed Satisfied)</code>.
 
 	<details>
 		<summary>Expand to see a static copy of this list at the time of writing.</summary>
@@ -355,9 +382,9 @@ p+details {
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22+label%3A%22Commenter+Response+Pending%22">
 	3 issues or pull requests</a> were closed as
-	<code>Closed: Rejected</code>
+	<code class=rej>Closed: Rejected</code>
 	and tagged as
-	<code>Commenter Response Pending</code>.
+	<code class=pend>Commenter Response Pending</code>.
 
 	<details>
 		<summary>Expand to see a static copy of this list at the time of writing.</summary>
@@ -371,9 +398,9 @@ p+details {
 	<p>
 	<a href="https://github.com/w3c/w3process/issues?q=is%3Aclosed+milestone%3A%22Process+2023%22+label%3A%22Closed%3A+Rejected%22%2C%22Closed%3A+Invalid%22+label%3A%22Commenter+Not+Satisfied%22">
 	One issue</a> was closed as
-	<code>Closed: Rejected</code>
+	<code class=rej>Closed: Rejected</code>
 	and tagged as
-	<code>Commenter Not Satisfied</code>.
+	<code class=not>Commenter Not Satisfied</code>.
 
 	<dl class=issue>
 		<dt>Number:
@@ -414,59 +441,59 @@ p+details {
 Gloassary</h2>
 
 	<dl>
-		<dt><code>Closed: Accepted</code>
+		<dt><code class=acc>Closed: Accepted</code>
 		<dd>
 			A proposition was made or a problem was raised,
 			and the group accepted the proposition
 			or some alternative solution that addresses the problem.
 
-		<dt><code>Closed: Retracted</code>
+		<dt><code class=ret>Closed: Retracted</code>
 		<dd>
 			A proposition was made or a problem was raised,
 			but he person who had done so eventually changed their mind
 			or otherwise decided no longer to pursue the question.
 
-		<dt><code>Closed: Question answered</code>
+		<dt><code class=qa>Closed: Question answered</code>
 		<dd>
 			An issue was open which was more of a request for information
 			than a problem statement or a suggestion for change,
 			and the question asked was given an answer.
 
-		<dt><code>Closed: Duplicate</code>
+		<dt><code class=dup>Closed: Duplicate</code>
 		<dd>
 			The issue or pull request is redundant with another one.
 
-		<dt><code>Closed: Out of scope</code>
+		<dt><code class=oos>Closed: Out of scope</code>
 		<dd>
 			The issue is not about the W3C Process.
 
-		<dt><code>Closed: Invalid</code>
+		<dt><code class=inv>Closed: Invalid</code>
 		<dd>
 			The issue is as stated is inapplicable.
 			It may for instance raise a problem with a piece of text
 			which is no longer present in the current version of the Process.
 
-		<dt><code>Closed: Rejected</code>
+		<dt><code class=rej>Closed: Rejected</code>
 		<dd>
 			The Group decided to close the issue
 			without making any change to the Process.
 	</dl>
 
 	<p>
-	Further, for all issues classified as <code>Closed: Rejected</code>,
-	<code>Closed: Invalid</code>,
-	<code>Closed: Out of scope</code>,
-	or <code>Closed: Duplicate</code>,
+	Further, for all issues classified as <code class=rej>Closed: Rejected</code>,
+	<code class=inv>Closed: Invalid</code>,
+	<code class=oos>Closed: Out of scope</code>,
+	or <code class=dup>Closed: Duplicate</code>,
 	the group sought to confirm with the person who raised the issue
 	if they were willing to accept the conclusions of the group,
 	which was documented by additional labels:
 	<dl>
-		<dt><code>Commenter satisfied/accepting </code>
+		<dt><code class=sat>Commenter sattisfied/accepting </code>
 		<dd>
 			The conclusion was confirmed as accepted by the commenter,
 			even if it may not be their preferred choice.
 
-		<dt><code>Commenter Timed Out (Assumed Satisfied)</code>
+		<dt><code class=to>Commenter Timed Out (Assumed Satisfied)</code>
 		<dd>
 			The commenter was explicitly asked whether they were willing to accept the conclusion,
 			given ample time do answer,
@@ -474,7 +501,7 @@ Gloassary</h2>
 			In the absence of negative feedback,
 			it is assumed they are OK with the conclusion.
 
-		<dt><code>Commenter Response Pending</code>
+		<dt><code class=pend>Commenter Response Pending</code>
 		<dd>
 			The commenter was explicitly asked whether they were willing to accept the conclusion,
 			and has not yet responded.
@@ -482,7 +509,7 @@ Gloassary</h2>
 			to draw any conclusion
 			as to their satisfaction.
 
-		<dt><code>Commenter Not Satisfied</code>
+		<dt><code class=not>Commenter Not Satisfied</code>
 		<dd>
 			The commenter has explicitly indicated
 			that the Group’s conclusion was not acceptable to them.
