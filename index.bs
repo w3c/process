@@ -873,7 +873,7 @@ Role of the Advisory Board</h5>
 	its role is strictly advisory.
 
 	Note: While the [=AB=] as such does not have decision-making authority,
-	its members do when seating as part of a [=W3C Council=].
+	its members do when sitting as part of a [=W3C Council=].
 
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
