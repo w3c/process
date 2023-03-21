@@ -2474,6 +2474,7 @@ Council Deliberations</h5>
 	or request additional information or interviews from anyone,
 	including the Team.
 
+	<p id=broker-consensus>
 	The Council <em class=rfc2119>may</em>
 	further attempt to broker consensus,
 	which, if successful, disposes the formal objection.
