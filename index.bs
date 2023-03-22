@@ -864,7 +864,7 @@ Role of the Advisory Board</h5>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	As part of the [=W3C Council=],
+	As part of a [=W3C Council=],
 	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
@@ -873,7 +873,7 @@ Role of the Advisory Board</h5>
 	its role is strictly advisory.
 
 	Note: While the [=AB=] as such does not have decision-making authority,
-	its members do when seating as part of the [=W3C Council=].
+	its members do when sitting as part of a [=W3C Council=].
 
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
@@ -963,7 +963,7 @@ Role of the Technical Architecture Group</h5>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	As part of the [=W3C Council=],
+	As part of a [=W3C Council=],
 	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
 	and [=Formal Objections=].
 
@@ -2316,15 +2316,15 @@ Investigation and Mediation by the Team</h4>
 	Otherwise,
 	upon concluding that consensus cannot be found,
 	and no later than 90 days after the [=Formal Objection=] being registered,
-	the [=Team=] <em class=rfc2119>must</em> initiate formation of the [=W3C Council=],
+	the [=Team=] <em class=rfc2119>must</em> initiate formation of a [=W3C Council=],
 	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
 	Concurrently, it must prepare a report for the [=Council=]
 	documenting its findings and attempts to find consensus.
 
 <h4 id=council>
-The W3C Council</h4>
+W3C Council</h4>
 
-	The <dfn export local-lt="Council">W3C Council</dfn> is the body convened to resolve [=Formal Objections=]
+	A <dfn export local-lt="Council">W3C Council</dfn> is the body convened to resolve [=Formal Objections=]
 	by combining the capabilities and perspectives of the [=AB=], the [=TAG=], and the [=Team=],
 	and is tasked with doing so in the best interests of the Web and W3C.
 
@@ -2336,7 +2336,7 @@ Council Composition</h5>
 	* the members of the [=Advisory Board=]
 	* the members of the [=Technical Architecture Group=]
 
-	Participation in the [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
+	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
 
 	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
 	Membership of an instance the [=Council=] is be fixed at formation,
@@ -2355,7 +2355,7 @@ Council Composition</h5>
 Extraordinary Delegation</h5>
 
 	In extraordinary cases,
-	if they feel the [=Council=] would not be the appropriate deciding body,
+	if they feel a [=Council=] would not be the appropriate deciding body,
 	a member of the [=Team=] (particularly the Legal Counsel) or
 	any potential Council member
 	may suggest that the decision for that specific Formal Objection be delegated
@@ -2386,7 +2386,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	[=Dismissal=] applies to an individual person in the context of a specific Council,
 	and should be used rarely in order to preserve the greatest diversity on the Council.
 
-	Note: The Council is a deliberative body whose purpose is
+	Note: A W3C Council is a deliberative body whose purpose is
 	to find the best way forward for the Web and for W3C.
 	It is not a judicial body tasked with determining right or wrong.
 
@@ -2402,7 +2402,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	they may also elide inappropriate comments,
 	such as any that violate applicable laws or the [[CEPC]].
 
-	Before the Council forms,
+	Before a Council forms,
 	the [=Team=] presents the entire list of potential members
 	and collected reasons and responses
 	to the potential Council members.
@@ -2417,7 +2417,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
 	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
 
-	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on the Council, for strong reason,
+	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
 	their renunciation.
 	Renunciation is disqualification from participation,
@@ -2440,7 +2440,7 @@ Unanimous Short Circuit</h5>
 
 	The full Council process <em class=rfc2119>may</em> be short-circuited if
 	the Team recommends a resolution
-	and every potential member of the Council who is not renouncing their seat
+	and every potential member of a Council who is not renouncing their seat
 	votes affirmatively (no abstentions) to adopt this resolution.
 
 	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
@@ -2502,31 +2502,31 @@ Council Deliberations</h5>
 	The [=Team=]'s role is to ensure the responsible parties enact adequate mitigations,
 	by whatever means they already have at their disposal.
 
-	The Council <em class=rfc2119>may</em> form sub-groups for deliberation,
+	A Council <em class=rfc2119>may</em> form sub-groups for deliberation,
 	who may return with a recommendation,
 	but the full Council issues the final decision.
 	The decision of the [=W3C Council=] <em class=rfc2119>should</em> be unanimous,
 	and <em class=rfc2119>may</em> be issued under consensus.
 	However, if despite careful deliberation
-	the [=W3C Council=] is unable to reach consensus,
+	a [=W3C Council=] is unable to reach consensus,
 	the [=W3C Council Chair=] may instead resort to voting.
 	In that case,
 	the decision is made by simple majority,
 	with the [=W3C Council Chair=] breaking any tie.
 	In case of a vote,
-	if two members of the Council who share the same affiliation cast an identical ballot,
+	if two members of a Council who share the same affiliation cast an identical ballot,
 	then their ballots count as a one vote,
 	not two.
 
 	In the case of non-unanimous decisions,
-	members of the [=W3C Council=] who disagree with the decision
+	members of a [=W3C Council=] who disagree with the decision
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
 	explaining the reason for their disagreement.
 
-	The deliberations of the [=W3C Council=] are confidential to the [=W3C Council=]
+	The deliberations of a [=W3C Council=] are confidential to that [=W3C Council=]
 	and its [=Council Team Contact=].
 
-	If the [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
+	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
 	and of the status of the discussions.
 	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
@@ -2534,7 +2534,7 @@ Council Deliberations</h5>
 <h5 id=council-decision>
 Council Decision Report</h5>
 
-	The [=Council=] terminates by issuing a <dfn>Council Report</dfn>,
+	A [=Council=] terminates by issuing a <dfn>Council Report</dfn>,
 	which:
 	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection.
 	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
@@ -2711,7 +2711,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
-	for decisions of the [=W3C Council=], and
+	for decisions of a [=W3C Council=], and
 	for certain decisions that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
 	which describe the requirements for the decision
@@ -3469,7 +3469,7 @@ Advancement on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections
-			(including any [=sustained=] by the [=Council=] but not yet [=fully addressed=]),
+			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=]),
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects a [=Transition Request=]
 			it <em class=rfc2119>must</em> indicate its rationale
@@ -3542,7 +3542,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=]),
 			<em>should</em> be withheld if any Process requirements are not met,
 			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
-			(including any [=sustained=] by the [=Council=] but not yet [=fully addressed=])
+			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=])
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects an [=Update Request=],
 			it must indicate its rationale to the [=Working Group=].
