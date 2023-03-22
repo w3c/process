@@ -5793,6 +5793,12 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 					(such as inside a W3C Council,
 					or when the TAG or AB pick their chair),
 					and to avoid circular definitions.
+
+				<li>
+					Similarly to the pre-existing requirement that a public record be made
+					about confidential Formal Objections about public things,
+					added a requirement that a member visible record be made
+					about confidential Formal Objections about member-visible things.
 			</ul>
 	</dl>
 
