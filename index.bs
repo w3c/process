@@ -2283,8 +2283,10 @@ Registering Formal Objections</h3>
 	rationales,
 	and decisions <em class="rfc2119">should</em> also be recorded.
 
-	A record of each [=Formal Objection=] regarding a publicly-available document
-	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>.
+	A record of each [=Formal Objection=] against a decision regarding a publicly-available document
+	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>;
+	likewise, a record of each [=Formal Objection=] against a [=Member-only|Member-visible=] decision
+	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">available to Members</a>.
 	A Call for Review to the Advisory Committee
 	<em class="rfc2119">must</em> identify any [=Formal Objections=]
 	related to that review.
@@ -2534,9 +2536,9 @@ Council Deliberations</h5>
 <h5 id=council-decision>
 Council Decision Report</h5>
 
-	A [=Council=] terminates by issuing a <dfn>Council Report</dfn>,
+	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
 	which:
-	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection.
+	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection(s).
 	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
@@ -2551,8 +2553,15 @@ Council Decision Report</h5>
 	indexing all completed [=Council Reports=].
 	If a Council decision is later overturned by an [=AC Appeal=],
 	this <em class=rfc2119>must</em> also be mentioned.
-	[=Council Reports=] <em class=rfc2119>must</em> have the same level of confidentiality
-	as the [=Formal Objection=].
+	[=Council Reports=] <em class=rfc2119>must</em> be no more confidential
+	than the decision or document being objected to.
+
+	The [=Council=] <em class=rfc2119>may</em> also issue a <dfn export>Supplemental Confidential Council Report</dfn>
+	with a more restricted <a href="#confidentiality-levels">level of confidentiality</a> than its main report
+	when it believes that additional commentary on confidential aspects of the case
+	would be informative.
+	However, the main [=Council Report=] <em class=rfc2119>should</em> be self-sufficient
+	and understandable without reference to Supplemental Confidential Council Reports.
 
 <h5 id=council-appeals>
 Appealing Council Decisions</h5>
