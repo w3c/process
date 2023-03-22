@@ -5692,7 +5692,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 				<li>
 					The [=Team=] rather than the Director is charged with
 					[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
-					subject to ratification by the [=TAG=].
+					subject to ratification by the [=TAG=] and [=AB=].
 
 				<li>
 					There is no longer an ex-officio seat for the Director on the [=TAG=],
