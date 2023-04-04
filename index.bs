@@ -5647,160 +5647,164 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 	and minor teaks,
 	the following is a summary of the main differences:
 
-	<dl>
-		<dt>
-			Changes related to the role of the Director
-		<dd>
-			<ul>
-				<li>
-					Rather than the Director, the [=W3C Council=],
-					which is composed of TAG+AB+CEO,
-					will now hear and resolve formal objections.
+<h4 id=dirfree-changes>
+Changes related to the role of the Director</h4>
 
-				<li>
-					The W3C Council will also hear [=Submission Appeals=],
-					which were previously handled separately by either the TAG or the AB,
-					depending on the grounds for the appeal.
+	<ul>
+		<li>
+			<a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
+			but instead must be based on the content of the review,
+			with specific rules (based on current best practices)
+			about what can or cannot be adjusted post review,
+			and under what circumstances.
 
-				<li>
-					<a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
-					but instead must be based on the content of the review,
-					with specific rules (based on current best practices)
-					about what can or cannot be adjusted post review,
-					and under what circumstances.
+		<li>
+			Rather than the Director, the [=W3C Council=],
+			which is composed of TAG+AB+CEO,
+			will now hear and resolve formal objections.
 
-				<li>
-					Require AB and TAG approval when the [=Team=] wants to
-					<a href="#rec-track-regression">lower the maturity stage</a>
-					of a technical report without a [=Group Decision=].
+		<li>
+			The W3C Council will also hear [=Submission Appeals=],
+			which were previously handled separately by either the TAG or the AB,
+			depending on the grounds for the appeal.
 
-				<li>
-					The [=Team=], [=AB=], or [=TAG=] rather than the Director is now responsible
-					for proposing group creation and forcible closure;
-					[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
-					(it already was for group creation).
+		<li>
+			The [=Team=] rather than the Director is charged with
+			[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
+			subject to ratification by the [=TAG=] and [=AB=].
 
-				<li>
-					The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
-					and other agreements related to the technical program.
+		<li>
+			There is no longer an ex-officio seat for the Director on the [=TAG=],
+			but Tim Berners-Lee personally does continue to hold one.
 
-				<li>
-					The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
+		<li>
+			The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
+			have been fulfilled for [=Transition Requests=] and [=Update Requests=].
 
-				<li>
-					The [=Team=] rather than the Director is charged with handling [=Member Submission=] requests.
+		<li>
+			Require AB and TAG approval when the [=Team=] wants to
+			<a href="#rec-track-regression">lower the maturity stage</a>
+			of a technical report without a [=Group Decision=].
 
-				<li>
-					The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
-					(see [[#MemberAssoc]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
+		<li>
+			The [=Team=], [=AB=], or [=TAG=] rather than the Director is now responsible
+			for proposing group creation and forcible closure;
+			[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
+			(it already was for group creation).
 
-				<li>
-					The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
-					have been fulfilled for [=Transition Requests=] and [=Update Requests=].
+		<li>
+			The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
 
-				<li>
-					The [=Team=] rather than the Director is charged with
-					[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
-					subject to ratification by the [=TAG=] and [=AB=].
+		<li>
+			The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
+			and other agreements related to the technical program.
 
-				<li>
-					There is no longer an ex-officio seat for the Director on the [=TAG=],
-					but Tim Berners-Lee personally does continue to hold one.
+		<li>
+			The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
+			(see [[#MemberAssoc]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
 
-			</ul>
-		<dt>
-			Other miscellaneous changes
-		<dd>
-			<ul>
-				<li>
-					Allow [=Recommendations=] to transition directly to [=Working Draft=]
-					without having to go through [=Candidate Recommendation=]
-					when making [[#revised-rec-substantive|substantive changes]].
+		<li>
+			The [=Team=] rather than the Director is charged with handling [=Member Submission=] requests
+			(but see also [=Submission Appeals=]).
+	</ul>
 
-				<li>
-					Stop excluding comments from AC Reps from those that have to be addressed
-					while [[#transition-pr|transitioning to Proposed Recommendation]];
-					just because there will be an opportunity to address them later
-					doesn't mean they shouldn't be handled at the first opportunity.
+<h4 id=other-gov-changes>
+Other Governance Changes</h4>
 
-				<li>
-					Various bits of information that were so far required
-					to be included in announcements of [=charter extensions=]
-					are covered in the group's homepage,
-					making it sufficient to point to that page
-					rather than having to inline everything in the announcement.
+	<ul>
+		<li>
+			The [=TAG=] now picks its own chair(s),
+			and the timing of AB and TAG chair selection is clarified.
 
-				<li>
-					The [=TAG=] now picks its own chair(s),
-					and the timing of AB and TAG chair selection is clarified.
+		<li>
+			Appointed [=TAG=] seats now have consecutive term limits.
 
-				<li>
-					Appointed [=TAG=] seats now have consecutive term limits.
+		<li>
+			Remove mentions of the Hosts,
+			add recognition of the existence of the W3C Inc. Board of Directors,
+			and adjust language for W3C being rooted in W3C Inc.
 
-				<li>
-					Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a>
-					as this document, the CEPC, or the Patent Policy.
+		<li>
+			Codify that the AB is expected to pick up to two of its participants
+			as <a href="#ab-bod-liaison">liaisons for the board</a>.
 
-				<li>
-					Be more rigorous in references to the Patent Policy,
-					using dated versions when appropriate.
+		<li>
+			Clarify interactions between AC / Team / Board about MoUs.
+	</ul>
 
-				<li>
-					Expect supporting material to meeting minutes to be archived as the minutes are.
+<h4 id=misc-changes>
+Other miscellaneous changes</h4>
 
-				<li>
-					Rename “maturity level” into “maturity stage”.
+	<ul>
+		<li>
+			Improve the definition of consensus
+			to make the notion usable even in contexts
+			where Formal Objections would be inappropriate
+			(such as inside a W3C Council,
+			or when the TAG or AB pick their chair),
+			and to avoid circular definitions.
 
-				<li>
-					Rename “Member Consortia” into [=Member Associations=]
-					to align with terminology in the Bylaws
-					(and to avoid confusion with W3C itself).
+		<li>
+			Merge Group Decision Appeal and Formal Object;
+			clarify what can be objected to.
 
-				<li>
-					Clarify how the advance notice period for [=MoU=] works.
+		<li>
+			Define editorial vs substantive changes for non-REC-track documents.
 
-				<li>
-					Clarify interactions between AC / Team / Board about MoUs.
+		<li>
+			Expect supporting material to meeting minutes to be archived as the minutes are.
 
-				<li>
-					Remove mentions of the Hosts,
-					add recognition of the existence of the W3C Inc. Board of Directors,
-					and adjust language for W3C being rooted in W3C Inc.
+		<li>
+			Encourage people requesting an [=AC Appeal=]
+			to share their request with the [=Advisory Committee=]
+			in addition to the [=Team=].
 
-				<li>
-					Codify that the AB is expected to pick up to two of its participants
-					as <a href="#ab-bod-liaison">liaisons for the board</a>.
+		<li>
+			Allow [=Recommendations=] to transition directly to [=Working Draft=]
+			without having to go through [=Candidate Recommendation=]
+			when making [[#revised-rec-substantive|substantive changes]].
 
-				<li>
-					Encourage people requesting an [=AC Appeal=]
-					to share their request with the [=Advisory Committee=]
-					in addition to the [=Team=].
+		<li>
+			Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a>
+			as this document, the CEPC, or the Patent Policy.
 
-				<li>
-					Clarify what the term [=Candidate Recommendation review period=] refers to.
+		<li>
+			Similarly to the pre-existing requirement that a public record be made
+			about confidential Formal Objections about public things,
+			added a requirement that a member visible record be made
+			about confidential Formal Objections about member-visible things.
 
-				<li>
-					Define editorial vs substantive changes for non-REC-track documents.
+		<li>
+			Stop excluding comments from AC Reps from those that have to be addressed
+			while [[#transition-pr|transitioning to Proposed Recommendation]];
+			just because there will be an opportunity to address them later
+			doesn't mean they shouldn't be handled at the first opportunity.
 
-				<li>
-					Merge Group Decision Appeal and Formal Object;
-					clarify what can be objected to.
+		<li>
+			Clarify what the term [=Candidate Recommendation review period=] refers to.
 
-				<li>
-					Improve the definition of consensus
-					to make the notion usable even in contexts
-					where Formal Objections would be inappropriate
-					(such as inside a W3C Council,
-					or when the TAG or AB pick their chair),
-					and to avoid circular definitions.
+		<li>
+			Clarify how the advance notice period for [=MoU=] works.
 
-				<li>
-					Similarly to the pre-existing requirement that a public record be made
-					about confidential Formal Objections about public things,
-					added a requirement that a member visible record be made
-					about confidential Formal Objections about member-visible things.
-			</ul>
-	</dl>
+		<li>
+			Various bits of information that were so far required
+			to be included in announcements of [=charter extensions=]
+			are covered in the group's homepage,
+			making it sufficient to point to that page
+			rather than having to inline everything in the announcement.
+
+		<li>
+			Be more rigorous in references to the Patent Policy,
+			using dated versions when appropriate.
+
+		<li>
+			Rename “Member Consortia” into [=Member Associations=]
+			to align with terminology in the Bylaws
+			(and to avoid confusion with W3C itself).
+
+		<li>
+			Rename “maturity level” into “maturity stage”.
+	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2020, changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
