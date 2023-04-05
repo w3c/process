@@ -45,7 +45,7 @@ Shortname: w3process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
 	by developing common protocols that promote its evolution and ensure its interoperability.
-	The W3C Process Document describes the organizational structure of the W3C and processes,
+	The W3C Process Document describes the organizational structure of W3C and processes,
 	responsibilities and functions that enable W3C to accomplish its mission.
 	This document does not describe the internal workings of the Team.
 
@@ -210,7 +210,7 @@ Introduction</h2>
 			to draft proposed <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>.
 			W3C Members <a href="#CharterReview">review</a> the proposed charters,
 			and when there is support within W3C for investing resources in the topic of interest,
-			the W3C approves the group(s),
+			W3C approves the group(s),
 			and they begin their work.
 	</ol>
 
@@ -239,7 +239,7 @@ Members</h3>
 		<li>
 			One representative per Member organization participates
 			in the [=Advisory Committee=]
-			which oversees the work of the W3C.
+			which oversees the work of W3C.
 
 		<li>
 			Representatives of Member organizations participate
@@ -710,7 +710,7 @@ Role of the Advisory Committee</h4>
 
 	<p id=ReviewAppeal>
 	The <dfn export lt="Advisory Committee|AC">Advisory Committee</dfn> represents
-	the [=Members=] of the W3C at large.
+	the [=Members=] of W3C at large.
 	It is responsible for:
 
 	<ul>
@@ -718,7 +718,7 @@ Role of the Advisory Committee</h4>
 			reviewing plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
 		<li>
-			<a href="#ACReview">reviewing formal proposals</a> of the W3C:
+			<a href="#ACReview">reviewing formal proposals</a> of W3C:
 			<a href="#CharterReview">Charter Proposals</a>,
 			<a href="#RecsPR">Proposed Recommendations</a>,
 			and <a href="#GAProcess">Proposed Process Documents</a>.
@@ -4858,7 +4858,7 @@ Switching Tracks</h3>
 		<li>
 			A [=technical report=] should not switch away from the [=Recommendation Track=]
 			without due consideration of the Patent Policy implications
-			and approval of the W3C’s legal counsel
+			and approval of W3C’s legal counsel
 			if the [=Working Group=] envisions a likelihood of returning to it later.
 	</ul>
 
@@ -5408,7 +5408,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 			and acknowledgment might jeopardize the progress of the group.
 
 		<li>
-			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
+			The IPR statement made by the [=Submitter=](s) is inconsistent with W3C's
 			Patent Policy [[!PATENT-POLICY]]
 			and in particular the “Licensing Commitments in W3C Submissions”,
 			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
