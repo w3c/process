@@ -298,7 +298,7 @@ Rights of Members</h4>
 	are contingent upon conformance to the processes described in this document.
 	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
 
-	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
+	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member website</a> [[MEMBER-HP]].
 
 <h4 id="RelatedAndAssociatedMembers" oldids="RelatedAndConsortiumMembers">
 Member Associations and Related Members</h4>
@@ -837,7 +837,7 @@ Advisory Committee Meetings</h4>
 	at least <span class="time-interval">one year</span> in advance.
 
 	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
-	is available at the Member Web site.
+	is available at the Member website.
 
 <h3 id=elected-groups>
 Elected Groups: The AB and the TAG</h3>
@@ -2919,7 +2919,7 @@ Publication of Technical Reports</h4>
 	The primary language for W3C [=Technical Reports=] is English.
 	W3C encourages the translation of its [=Technical Reports=].
 	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
-	is available at the W3C Web site.
+	is available at the W3C website.
 
 <h4 id="doc-reviews">
 Reviews and Review Responsibilities</h4>
@@ -4884,7 +4884,7 @@ Public Communication</h3>
 
 	The [=Team=] is responsible for managing communication within W3C
 	and with the general public
-	(e.g., news services, press releases, managing the Web site and access privileges, and managing calendars).
+	(e.g., news services, press releases, managing the website and access privileges, and managing calendars).
 	Members <em class="rfc2119">should</em> solicit review by the Team
 	prior to issuing press releases about their work within W3C.
 
@@ -4926,7 +4926,7 @@ Public Communication</h3>
 Confidentiality Levels</h3>
 
 	There are three principal levels of access to W3C information
-	(on the W3C Web site, in W3C meetings, etc.):
+	(on the W3C website, in W3C meetings, etc.):
 	public,
 	Member-only,
 	and Team-only.
@@ -5135,7 +5135,7 @@ Member Submission Process</h2>
 	or other ideas
 	for consideration by the [=Team=].
 	After review,
-	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C Web site.
+	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C website.
 	The formal process affords Members a record of their contribution
 	and gives them a mechanism for disclosing the details of the transaction with the Team
 	(including IPR claims).
@@ -5173,7 +5173,7 @@ Member Submission Process</h2>
 				<li>
 					If <a href="#SubmissionYes">acknowledged</a>,
 					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
-					at the public W3C Web site,
+					at the public W3C website,
 					in addition to Team comments about the [=Member Submission=].
 
 				<li>If <a href="#SubmissionNo">rejected</a>,
@@ -5205,7 +5205,7 @@ Member Submission Process</h2>
 		</ul>
 	</div>
 
-	Making a Member Submission available at the W3C Web site
+	Making a Member Submission available at the W3C website
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
 	The acknowledgment of a Submission request
@@ -5216,7 +5216,7 @@ Member Submission Process</h2>
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
 
 	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
-	is available at the W3C Web site.
+	is available at the W3C website.
 
 <h3 id="SubmissionRights">
 Submitter Rights and Obligations</h3>
@@ -5383,10 +5383,10 @@ Acknowledgment of a Submission Request</h3>
 
 	<ul>
 		<li>
-			Make the [=Member Submission=] available at the W3C Web site.
+			Make the [=Member Submission=] available at the W3C website.
 
 		<li>
-			Make the Team comments about the Submission request available at the W3C Web site.
+			Make the Team comments about the Submission request available at the W3C website.
 	</ul>
 
 	If the [=Submitter=](s) wishes to modify
@@ -5972,7 +5972,7 @@ Changes since earlier versions</h3>
 	},
 	"MEMBER-HP": {
 		"href": "https://www.w3.org/Member/",
-		"title": "Member Web site (Member-only access)",
+		"title": "Member website (Member-only access)",
 		"publisher": "W3C"
 	},
 	"MEMBER-SUB": {
