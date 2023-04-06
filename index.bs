@@ -2549,7 +2549,7 @@ Council Decision Report</h5>
 	* <em class=rfc2119>may</em> report vote totals, if any vote was held.
 	* <em class=rfc2119>must not</em> attribute any position to any individual on the Council.
 
-	The [=Team=] <em class=rfc2119>must</em> maintain a public page on the W3C website
+	The [=Team=] <em class=rfc2119>must</em> maintain a [[COUNCIL-REPORT-INDEX inline|public page on the W3C website]]
 	indexing all completed [=Council Reports=].
 	If a Council decision is later overturned by an [=AC Appeal=],
 	this <em class=rfc2119>must</em> also be mentioned.
@@ -6018,6 +6018,10 @@ Changes since earlier versions</h3>
 	"W3C-IPR": {
 		"href": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231",
 		"title": "W3C IPR Policies"
+	},
+	"COUNCIL-REPORT-INDEX": {
+		"href": "https://www.w3.org/Consortium/Councils",
+		"title": "Council Report Index"
 	}
 
 }
