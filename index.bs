@@ -5697,6 +5697,7 @@ Changes related to the role of the Director</h4>
 
 		<li>
 			The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
+			(now called [=technical agreements=])
 			and other agreements related to the technical program.
 
 		<li>
@@ -5729,7 +5730,8 @@ Other Governance Changes</h4>
 			as <a href="#ab-bod-liaison">liaisons for the board</a>.
 
 		<li>
-			Clarify interactions between AC / Team / Board about MoUs.
+			Clarify interactions between AC / Team / Board about MoUs
+			(now called [=technical agreements=]).
 	</ul>
 
 <h4 id=misc-changes>
