@@ -59,6 +59,8 @@ Status Text:
 	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
+	A <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">7 April snapshot</a> was created
+	and sent for W3C Advisory Committee Review on 12 April 2023.
 Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
