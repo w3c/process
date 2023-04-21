@@ -1003,10 +1003,10 @@ Composition of the Technical Architecture Group</h5>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			Three participants [[#TAG-appointments|appointed by the Team]];
+			Four participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
-			Six participants elected by the [=Advisory Committee=]
+			Eight participants elected by the [=Advisory Committee=]
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
@@ -1023,8 +1023,8 @@ Composition of the Technical Architecture Group</h5>
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
-	Terms are staggered so that three elected terms
-	and either one or two appointed terms expire each year.
+	Terms are staggered so that four elected terms
+	and two appointed terms expire each year.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
@@ -1136,7 +1136,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of available seats are the same:
-	the 3 seats of the terms expiring that year,
+	the 4 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.
 
 	In the case of regularly scheduled elections of the [=AB=],
@@ -1232,7 +1232,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 Technical Architecture Group Appointments</h5>
 
 	The [=Team=] is responsible for appointing
-	3 of the participants to the [=Technical Architecture Group=].
+	4 of the participants to the [=Technical Architecture Group=].
 	This mechanism complements the election process.
 	The [=Team=] <em class=rfc2119>should</em> use its appointments to support
 	a diverse and well-balanced [=TAG=],
@@ -1359,7 +1359,7 @@ Elected Groups Vacated Seats</h5>
 			the minimum number of available seats is such that
 			when added to the number of continuing participants,
 			the minimum total number of elected seats is met
-			(6 for the [=TAG=], 9 for the [=AB=]);
+			(8 for the [=TAG=], 9 for the [=AB=]);
 			and the maximum number corresponds to all unoccupied seats.
 			Except for the number of available seats and the length of the terms,
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
