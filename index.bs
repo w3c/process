@@ -5671,8 +5671,12 @@ Changes related to the role of the Director</h4>
 			depending on the grounds for the appeal.
 
 		<li>
+			Expand the TAG from 6 elected and 3 appointed to 8 and 4,
+			to deal with the increased workload.
+
+		<li>
 			The [=Team=] rather than the Director is charged with
-			[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
+			[[#TAG-appointments|appointing]] the 4 non-elected [=TAG=] members,
 			subject to ratification by the [=TAG=] and [=AB=].
 
 		<li>
