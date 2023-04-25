@@ -2632,8 +2632,7 @@ After the Review Period</h4>
 	whether there were any [=Formal Objections=],
 	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the [=Formal Objections=].
 
-	If there is [=dissent=]
-	(i.e., there were [=Formal Objections=], at least some of which were sustained)
+	If there were [=Formal Objections=], at least some of which were sustained,
 	or if there is not [=consensus=] because of insufficient support,
 	[=W3C Decision=] <em class=rfc2119>must</em> be one of:
 
@@ -4316,7 +4315,7 @@ Abandoning a W3C Recommendation</h5>
 <h5 id="deactivation">
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
-	The process of rescinding, obsoleting, 
+	The process of rescinding, obsoleting,
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
@@ -5609,7 +5608,7 @@ Acknowledgments</h2>
 	Robin Berjon (W3C),
 	Sally Khudairi (W3C),
 	Sam Ruby (IBM),
-	Sam Sneddon,		
+	Sam Sneddon,
 	Sandro Hawke (W3C),
 	Sangwhan Moon (Odd Concepts),
 	Scott Peterson (Google),
