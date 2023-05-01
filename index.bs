@@ -5749,7 +5749,7 @@ Other miscellaneous changes</h4>
 			and to avoid circular definitions.
 
 		<li>
-			Merge Group Decision Appeal and Formal Object;
+			Merge Chair Decision Appeal, Group Decision Appeal, and Formal Object;
 			clarify what can be objected to.
 
 		<li>
