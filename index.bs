@@ -5179,9 +5179,7 @@ Member Submission Process</h2>
 					in addition to Team comments about the [=Member Submission=].
 
 				<li>If <a href="#SubmissionNo">rejected</a>,
-					the [=Submitter=](s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a>
-					to either the [=TAG=]
-					or the [=Advisory Board=].
+					the [=Submitter=](s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a>.
 			</ul>
 	</ol>
 
