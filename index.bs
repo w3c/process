@@ -2381,10 +2381,11 @@ Extraordinary Delegation</h5>
 <h5 id=council-participation>
 Council Participation, Dismissal, and Renunciation</h5>
 
+	A potential Council member may be <dfn lt="dismissed | dismiss | dismissal">dismissed</dfn> from the Council.
 	In order to apply consistent criteria,
 	the potential Council members decide collectively
 	which reasons against service
-	rise to a sufficient level for a potential member to be <dfn lt="dismissed | dismiss | dismissal">dismissed</dfn>.
+	rise to a sufficient level for a potential member to be [=dismissed=].
 	No-one is automatically dismissed,
 	and individual recusal is not used in the Council.
 	[=Dismissal=] applies to an individual person in the context of a specific Council,
