@@ -2410,8 +2410,8 @@ Council Participation, Dismissal, and Renunciation</h5>
 	Before a Council forms,
 	the [=Team=] presents the entire list of potential members
 	and collected reasons and responses
-	to the potential Council members.
-	They then consider for each potential member
+	to the potential Council members,
+	who then consider for each potential member
 	whether that individual's participation
 	would compromise the integrity of the Council decision,
 	and vote whether to dismiss that potential member.
