@@ -616,7 +616,7 @@ Meeting Recordings and Transcripts</h5>
 	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.
 
 <h4 id="tooling">
-Tooling for Discussions and Publications</h4>
+Tooling and Archiving for Discussions and Publications</h4>
 
 	For [=W3C Groups=] operating under this Process,
 	a core operating principle is to allow access across disabilities,
