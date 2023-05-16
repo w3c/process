@@ -2343,7 +2343,7 @@ Council Composition</h5>
 	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
 
 	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
-	Membership of an instance the [=Council=] is be fixed at formation,
+	Membership of an instance the [=Council=] is fixed at formation,
 	and is not changed by any [=AB=] or [=TAG=] elections
 	occurring before that Council has reached a conclusion.
 	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
