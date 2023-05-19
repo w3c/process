@@ -2517,6 +2517,11 @@ Council Deliberations</h5>
 	In that case,
 	the decision is made by simple majority,
 	with the [=W3C Council Chair=] breaking any tie.
+	However,
+	if the decision or proposal being objected to
+	originated with the TAG or AB,
+	then members of that group [at the time the decision or proposal was made]
+	must abstain in such a vote.
 	In case of a vote,
 	if two members of a Council who share the same affiliation cast an identical ballot,
 	then their ballots count as a one vote,
