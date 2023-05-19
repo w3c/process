@@ -1003,7 +1003,7 @@ Composition of the Technical Architecture Group</h5>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			Four participants [[#TAG-appointments|appointed by the Team]];
+			Three participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
 			Eight participants elected by the [=Advisory Committee=]
@@ -1024,7 +1024,7 @@ Composition of the Technical Architecture Group</h5>
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
 	Terms are staggered so that four elected terms
-	and two appointed terms expire each year.
+	and either one or two appointed terms expire each year.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
@@ -1232,7 +1232,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 Technical Architecture Group Appointments</h5>
 
 	The [=Team=] is responsible for appointing
-	4 of the participants to the [=Technical Architecture Group=].
+	3 of the participants to the [=Technical Architecture Group=].
 	This mechanism complements the election process.
 	The [=Team=] <em class=rfc2119>should</em> use its appointments to support
 	a diverse and well-balanced [=TAG=],
@@ -5671,12 +5671,12 @@ Changes related to the role of the Director</h4>
 			depending on the grounds for the appeal.
 
 		<li>
-			Expand the TAG from 6 elected and 3 appointed to 8 and 4,
+			Expand the TAG from 6 elected and 3 appointed to 8 and 3,
 			to deal with the increased workload.
 
 		<li>
 			The [=Team=] rather than the Director is charged with
-			[[#TAG-appointments|appointing]] the 4 non-elected [=TAG=] members,
+			[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
 			subject to ratification by the [=TAG=] and [=AB=].
 
 		<li>
