@@ -2548,7 +2548,8 @@ Council Decision Report</h5>
 	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
-	* <em class=rfc2119>may</em> report vote totals, if any vote was held.
+	* <em class=rfc2119>must</em> report the number of votes for/against dismissing each participant.
+	* <em class=rfc2119>may</em> report vote totals for the Council’s decision, if a formal vote was held.
 	* <em class=rfc2119>must not</em> attribute any position to any individual on the Council.
 
 	The [=Team=] <em class=rfc2119>must</em> maintain a [[COUNCIL-REPORT-INDEX inline|public page on the W3C website]]
