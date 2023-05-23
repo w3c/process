@@ -2061,7 +2061,7 @@ Consensus</h4>
 
 	Note: A [=Formal Objection=] always indicates a sustained objection,
 	but isn't necessary to express it
-	(except in some formal contexts such as [=AC Reviews=]).
+	(except in the context of formal [=AC Reviews=]).
 	Disagreement with a proposed decision,
 	however, does not always rise to the level of sustained objection,
 	as individuals could be willing to accept a decision
