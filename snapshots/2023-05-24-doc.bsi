@@ -1,0 +1,247 @@
+Draft:    https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04
+Title:    W3C Process Document 2023 (AC Review)
+
+<style>
+.metadata { border: solid 1px silver; padding: 0.2em; }
+</style>
+
+<p>This Disposition of Comments addresses all comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.
+
+<h2>Substantive Changes</h2>
+
+<p>Several review comments received during the AC Review period were substantive: [LIST HERE]
+
+
+<p>These comments resulted in the following changes requested by the Advisory Board for Process 2023.
+
+<h3>Increasing the size of the TAG</h3>
+
+<h3>Excluding TAG/AB from Council Decision votes on their own Decisions</h3>
+
+<h3>Require reporting of dismissal vote countes</h3>
+
+<p class="metadata">
+<a href="#issue-15">Issue #15</a>, <a href="#issue-16">Issue #16</a>
+
+<p>In reviewing various concerns raised about the dismissal process,
+the Advisory Board concluded that the Process as proposed had an appropriate voting threshold,
+but that reporting the total number of Council votes for/against dismissing any individual
+would provide better assurances to the community about these decisions
+by showing how many Council members have confidence in or are concerned about
+the participation of each of their colleagues in that Council.
+
+<blockquote>
+  <p>A Council terminates by issuing a <dfn>Council Report</dfn>, which:
+  <ul>
+    <li>...
+    <li><del><em>may</em> report vote totals, if any vote was held.</del>
+    <li><ins><em>must</em> report the number of votes for/against dismissing each participant.</ins>
+    <li><ins><em>may</em> report vote totals for the Council’s decision, if a formal vote was held.</ins>
+  </ul>
+</blockquote>
+
+<h2>Editorial Changes</h2>
+
+<p>AC Review raised a number of suggestions for clarification,
+which are summarized below. [EDIT HERE]
+
+----
+Issue 1.
+Summary:  Timeline for publishing formal objections
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/735
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/735
+----
+Issue 2.
+Summary:  Mention Archiving in Tooling section title
+From:     fantasai
+Comment:  https://github.com/w3c/w3process/issues/736
+Changes:  https://github.com/w3c/w3process/commit/14f4644c9008bf10021628d78c3238a39b139e58
+Closed:   Accepted
+Verified: Reporter is editor
+Resolved: Editorial
+----
+Issue 3.
+Summary:  Improve wording of note about addressing FOs before advancement
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/737
+Open:     =CG= Review
+----
+Issue 4.
+Summary:  AC Review questionnaire option to express disagreement
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/738
+Response: https://github.com/w3c/w3process/issues/738#issuecomment-1525644054
+Response: https://github.com/w3c/w3process/issues/738#issuecomment-1544643945
+Closed:   Invalid
+Verified: https://github.com/w3c/w3process/issues/738#issuecomment-1544662439
+----
+Issue 5.
+Summary:  FO resolution isn't explicitly invoked
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/739
+Open:     =CG= Draft PR or defer?
+----
+Issue 6.
+Summary:  Clarify that AB/TAG approval uses their normal decision policy
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/741
+Open:     =CG= Draft PR or defer?
+----
+Issue 7.
+Summary:  Clarify where Submission Appeals go
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/742
+Response: https://github.com/w3c/w3process/issues/742#issuecomment-1544656020
+Changes:  https://github.com/w3c/w3process/commit/189b5ec060b46094c70a3ff343cc0ddb7968e0de
+Closed:   Accepted
+Verified: [reporter thumbs up on response]
+Resolved: Bugfix
+----
+Issue 8.
+Summary:  Remove normative keywords from non-normative notes
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/745
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/745
+----
+Issue 9.
+Summary:  Avoid two different meanings for “sustain”
+From:     Jeffrey Yasskin
+Comment:  https://github.com/w3c/w3process/issues/746
+Changes:  https://github.com/w3c/w3process/pull/762
+Open:     =CG= Review
+----
+Issue 10.
+Summary:  Clarify which formal contexts require FO for dissent
+From:     Chris Needham
+Comment:  https://github.com/w3c/w3process/issues/746#issuecomment-1549991610
+Response: https://github.com/w3c/w3process/issues/746#issuecomment-1553935933
+Changes:  https://github.com/w3c/w3process/pull/763
+Closed:   Accepted
+Verified: Reporter is change author
+Resolved: Editorial
+----
+Issue 11.
+Summary:  Clarify purpose of dismissal
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/747
+Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
+Changes:  https://github.com/w3c/w3process/pull/757/commits/4f20cd1b0ebb44b07987e8ceedbda4b8db382fb7
+Open:     =CG= Review
+----
+Issue 12.
+Summary:  “potential Council member” phrasing is wordy
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/747
+Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
+Response: https://github.com/w3c/w3process/issues/747#issuecomment-1545309505
+Open:     Rejected =CG= Review
+Resolved: Editorial
+----
+Issue 13.
+Summary:  Note wrt nature of Council is oddly placed
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/747#issuecomment-1529019322
+Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
+Open:     Rejected =CG= Review
+Resolved: Editorial
+----
+Issue 14.
+Summary:  Unclear antecedent for “they”
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/747#issuecomment-1529019871
+Changes:  https://github.com/w3c/w3process/pull/757/commits/e23a195b5775231ea33ca169ec204217cf33948d
+Closed:   Accepted
+Resolved: Editorial
+----
+Issue 15.
+Summary:  Use supermajority for dismissal voting
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/748
+Comment:  https://github.com/w3c/w3process/issues/748#issuecomment-1529728892
+Response: https://github.com/w3c/w3process/issues/748#issuecomment-1529464611
+Response: https://github.com/w3c/w3process/issues/748#issuecomment-1530089344
+Response: https://github.com/w3c/w3process/issues/748#issuecomment-1545665413
+Changes:  https://github.com/w3c/w3process/pull/760
+Closed:   Rejected
+Note:     The AB resolved not to change the voting threshold,
+          but did resolve to make the dismissal vote counts public.
+----
+Issue 16.
+Summary:  Use single-person veto for dismissal
+From:     Nigel Megitt
+Comment:  https://github.com/w3c/w3process/issues/748#issuecomment-1531724271
+Response: https://github.com/w3c/w3process/issues/748#issuecomment-1545665413
+Changes:  https://github.com/w3c/w3process/pull/760
+Closed:   Rejected
+Note:     The AB resolved not to change the voting threshold,
+          but did resolve to make the dismissal vote counts public.
+----
+Issue 17.
+Summary:  AB/TAG Decisions and Council Conflict of Interest
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/749
+Response: https://github.com/w3c/w3process/issues/749#issuecomment-1551892219
+Changes:  https://github.com/w3c/w3process/pull/761
+Closed:   Accepted
+Note:     The AB resolved not to remove the TAG/AB from the Council,
+          but to exclude them from a Council Decision vote (if any)
+          if the decision/proposal in question came from the TAG/AB.
+          They may still participate in a consensus Council Decision.
+          Note the Council can delegate in cases where it feels that
+          would provide a more legitimate decision; and the AC still
+          retains the ability to appeal a Council Decision if necessary.
+----
+Issue 18.
+Summary:  Expressing disagreement in AC review without Formal Objection
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/750
+Response: https://github.com/w3c/w3process/issues/750#issuecomment-1529053389
+Closed:   Retracted
+----
+Issue 19.
+Summary:  Council/Team Powers of Mitigation
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/751
+Response: https://github.com/w3c/w3process/issues/751#issuecomment-1529453863
+Comment:  https://github.com/w3c/w3process/issues/751#issuecomment-1554703461
+Response: https://github.com/w3c/w3process/issues/751#issuecomment-1559068321
+Open:     Invalid =CG= Review
+----
+Issue 20.
+Summary:  Publication of Minority opinions
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/752
+Response: https://github.com/w3c/w3process/issues/752#issuecomment-1529175671
+Closed:   Retracted
+----
+Issue 21.
+Summary:  Why is AC review of MoU appeal-based rather than approval-based?
+From:     Mark Nottingham
+Comment:  https://github.com/w3c/w3process/issues/753
+Response: https://github.com/w3c/w3process/issues/753#issuecomment-1529194913
+Response: https://github.com/w3c/w3process/issues/753#issuecomment-1530815822
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/753#issuecomment-1530815822
+----
+Issue 22.
+Summary:  Define “joint deliverables”
+From:     Eric Siow
+Comment:  https://github.com/w3c/w3process/issues/754
+Response: https://github.com/w3c/w3process/issues/754#issuecomment-1532480890
+Closed:   Deferred
+Verified: https://github.com/w3c/w3process/issues/754
+----
+Issue 23.
+Summary:  What to do in case of non-responsiveness during FO resolution
+From:     Philippe Le Hegaret
+Comment:  https://github.com/w3c/w3process/issues/755
+Response: https://github.com/w3c/w3process/issues/755#issuecomment-1551893751
+Closed:   OutOfScope
+Note:     The AB resolved that /Guide should advise the Team to spin up
+          the Council after a reasonable timeout when the objector or
+          decider is non-responsive while trying to broker consensus or
+          clarify their position.
+----
