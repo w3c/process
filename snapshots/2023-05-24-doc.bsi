@@ -220,7 +220,8 @@ Issue 3.
 Summary:  Improve wording of note about addressing FOs before advancement
 From:     Jeffrey Yasskin
 Comment:  https://github.com/w3c/w3process/issues/737
-Open:     =CG= Review
+Closed:   Deferred
+Verified: By AC comment
 ----
 Issue 4.
 Summary:  AC Review questionnaire option to express disagreement
@@ -235,13 +236,15 @@ Issue 5.
 Summary:  FO resolution isn't explicitly invoked
 From:     Jeffrey Yasskin
 Comment:  https://github.com/w3c/w3process/issues/739
-Open:     =CG= Draft PR or defer?
+Closed:   Deferred
+Verified: By AC comment
 ----
 Issue 6.
 Summary:  Clarify that AB/TAG approval uses their normal decision policy
 From:     Jeffrey Yasskin
 Comment:  https://github.com/w3c/w3process/issues/741
-Open:     =CG= Draft PR or defer?
+Closed:   Deferred
+Verified: By AC comment
 ----
 Issue 7.
 Summary:  Clarify where Submission Appeals go
@@ -402,6 +405,7 @@ Note:     The AB resolved that /Guide should advise the Team to spin up
           the Council after a reasonable timeout when the objector or
           decider is non-responsive while trying to broker consensus or
           clarify their position.
+Verified: Reporter is co-chair
 Resolved: AB May 2023 F2F
 ----
 Issue 24.
