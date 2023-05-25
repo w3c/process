@@ -2,6 +2,14 @@ Draft:    https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04
 Title:    W3C Process Document 2023 (AC Review)
 
 <style>
+html {
+  margin: 1em;
+  background: white;
+  color: black;
+}
+h1, h2, h3 {
+  color: rgb(0, 90, 156);
+}
 blockquote {
   border-inline-start: solid thick silver;
   padding-inline-start: 0.5em;
@@ -28,23 +36,46 @@ ul.details li {
 
 <h2>Substantive Changes</h2>
 
-<p>Several review comments received during the AC Review period were substantive: [LIST HERE]
+<p>Several review comments received during the AC Review period generated proposals for substantive changes.
 
-<p>These comments resulted in the following changes requested by the Advisory Board for Process 2023.
+<p>These comments resulted in the following change proposals:
 
 <ul class="details substantive">
   <li><details id="tag-size">
     <summary>Increasing the size of the TAG</summary>
 
     <p class="metadata">
-    See <a href="#issue-24">Issue #24</a>
+    See key discussion points in <a href="#issue-24">Issue #24</a>
 
     <p>At its April 2023 F2F, the TAG asked the AB to increase its size by 2 elected seats (1 per election cycle) and 1 appointed seat (resulting in an even 2 appointments per cycle).
     Theresa O’Connor, commenting as Apple’s AC rep on behalf of the TAG, requested the change for the 2023 election.
 
-    <p>The AB agreed with increasing the elected seats, but wanted to gain experience with the appointment process before increasing the appointed seats, and proposes only to add those seats in Process 2023.
+    <p>At its May 2023 F2F, the AB agreed with increasing the elected seats, but wanted to gain experience with the appointment process before increasing the appointed seats, and proposes only to add those seats in Process 2023.
 
-    <p>Process changes proposed:
+    <p>There were arguments both for and against this change.
+    In agreeing to the change, the AB considered:
+    <ul>
+      <li>That request represented the consensus of the TAG about itself,
+        and the AB might give the TAG some deference in defining itself.
+      <li>That the TAG is currently smaller than the AB,
+        and this change makes them more equal.
+      <li>That the TAG feels its workload would be better distributed among more people.
+      <li>That the workload of the non-governance roles the TAG has adopted (reviewing specs)
+        could be spread to people outside the TAG.
+      <li>That there were some concerns raised about the TAG’s ability
+        to form consensus in a larger group,
+        particularly in consideration of their increased role in technical governance and leadership.
+      <li>That there were some concerns raised that the level of representation
+        and support each TAG member has would be decreased if the number of elected seats were increased.
+      <li>That the newintroduction of term limits on the appointed seats
+        (which are currently used to seat the two co-chairs, for example)
+        would push those members to enter the elections also,
+        and it might be good to have more open seats,
+        to more easily accommodate them as elected participants
+        without reducing the number available for other TAG members.
+    </ul>
+
+    <p><a href="https://github.com/w3c/w3process/pull/733">Process changes proposed</a>:
 
     <blockquote>
       … <del>Six</del> <ins>Eight</ins> participants elected by the Advisory Committee …
@@ -72,7 +103,7 @@ ul.details li {
     <summary>Excluding TAG/AB from Council Decision votes on their own Decisions</summary>
 
     <p class="metadata">
-    See <a href="#issue-17">Issue #17</a>
+    See key discussion points in <a href="#issue-17">Issue #17</a>
 
     <p>Mark Nottingham raised a concern about conflicts of interest
     when the Council rules on decisions of the TAG or AB.
@@ -81,9 +112,16 @@ ul.details li {
 
     <p>Instead, the AB concluded that both the TAG and AB should participate in a Council Decision formed by consensus, but if there is dissent the group originating the decision or proposal must abstain from a Council Decision by vote.
 
-    <p>In cases where this safeguard would not be enough, Council retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-delegation">delegate</a> the Council Decision if necessary; and the AC retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-appeals">appeal</a> a Council Decision.
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
 
-    <p>Process changes proposed:
+    <p>Note that n cases where this safeguard would not be enough,
+    Council retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-delegation">delegate</a> the Council Decision if necessary;
+    and the AC retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-appeals">appeal</a> a Council Decision.
+
+    <p><a href="https://github.com/w3c/w3process/pull/761">Process changes that would implement abstention as a requirement</a>:
 
     <blockquote>
       In that case,
@@ -113,7 +151,12 @@ ul.details li {
     by showing how many Council members have confidence in or are concerned about
     the participation of each of their colleagues in that Council.
 
-    <p>Process changes:
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
+
+    <p><a href="https://github.com/w3c/w3process/pull/760">Process changes that would implement dismissal vote count reporting as a requirement</a>:
 
     <blockquote>
       <p>A Council terminates by issuing a <dfn>Council Report</dfn>, which:
@@ -194,7 +237,7 @@ which are summarized below:
       <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn> or <dfn>overrule</dfn> the objection.
     </blockquote>
 
-  <li>Simplified labelling, fixed colors, and improved spacing in the REC track diagram. [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; New]
+  <li>Simplified labelling, fixed colors, and improved spacing in the REC track diagram. [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>]
  </ul>
 
 <h2>Index of Comments and Responses</h2>
@@ -268,7 +311,7 @@ Summary:  Avoid two different meanings for “sustain”
 From:     Jeffrey Yasskin
 Comment:  https://github.com/w3c/w3process/issues/746
 Changes:  https://github.com/w3c/w3process/pull/762
-Open:     =CG= Review
+Closed:   Accepted
 Resolved: Editorial
 ----
 Issue 10.
@@ -287,7 +330,8 @@ From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/747
 Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
 Changes:  https://github.com/w3c/w3process/pull/757/commits/4f20cd1b0ebb44b07987e8ceedbda4b8db382fb7
-Open:     =CG= Review
+Closed:   Accepted
+Verified: https://github.com/w3c/w3process/issues/747#issuecomment-1562212194
 ----
 Issue 12.
 Summary:  “potential Council member” phrasing is wordy
@@ -295,7 +339,8 @@ From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/747
 Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
 Response: https://github.com/w3c/w3process/issues/747#issuecomment-1545309505
-Open:     Rejected =CG= Review
+Closed:   Rejected
+Verified: https://github.com/w3c/w3process/issues/747#issuecomment-1562212194
 Resolved: Editorial
 ----
 Issue 13.
@@ -303,7 +348,8 @@ Summary:  Note wrt nature of Council is oddly placed
 From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/747#issuecomment-1529019322
 Response: https://github.com/w3c/w3process/issues/747#issuecomment-1544708674
-Open:     Rejected =CG= Review
+Closed:   Rejected
+Verified: https://github.com/w3c/w3process/issues/747#issuecomment-1562212194
 Resolved: Editorial
 ----
 Issue 14.
@@ -312,9 +358,10 @@ From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/747#issuecomment-1529019871
 Changes:  https://github.com/w3c/w3process/pull/757/commits/e23a195b5775231ea33ca169ec204217cf33948d
 Closed:   Accepted
+Verified: https://github.com/w3c/w3process/issues/747#issuecomment-1562212194
 Resolved: Editorial
 ----
-Issue 15.
+Issue 15A.
 Summary:  Use supermajority for dismissal voting (instead of majority)
 From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/748
@@ -328,7 +375,7 @@ Note:     The AB resolved not to change the voting threshold,
           but did resolve to make the dismissal vote counts public.
 Resolved: AB May 2023 F2F
 ----
-Issue 16.
+Issue 15B.
 Summary:  Use single-person veto for dismissal (instead of majority)
 From:     Nigel Megitt
 Comment:  https://github.com/w3c/w3process/issues/748#issuecomment-1531724271
@@ -339,18 +386,30 @@ Note:     The AB resolved not to change the voting threshold,
           but did resolve to make the dismissal vote counts public.
 Resolved: AB May 2023 F2F
 ----
+Issue 16.
+Summary:  Improve transparency of dismissal process
+From:     Advisory Board
+Comment   https://github.com/w3c/w3process/issues/748
+Response: https://github.com/w3c/w3process/issues/748#issuecomment-1545665413
+Changes:  https://github.com/w3c/w3process/pull/760
+Open:     Accepted by AB, proposed to the Director for either Process or /Guide
+Note:     As a result of the discussion in GitHub issue 748 (see above)
+          the AB resolved to require reporting dismissal vote counts,
+          to show the level of support or concern for the participation
+          of each member of the Council.
+----
 Issue 17.
 Summary:  AB/TAG Decisions and Council Conflict of Interest
 From:     Mark Nottingham
 Comment:  https://github.com/w3c/w3process/issues/749
 Response: https://github.com/w3c/w3process/issues/749#issuecomment-1551892219
 Changes:  https://github.com/w3c/w3process/pull/761
-Closed:   Accepted
+Open:     Accepted by AB, recommended to adopt into practice by CG
 Note:     The AB resolved not to remove the TAG/AB from the Council,
           but to exclude them from a Council Decision vote (if any)
           if the decision/proposal in question came from the TAG/AB.
           They may still participate in a consensus Council Decision.
-          Note the Council can delegate in cases where it feels that
+Note:     The Council can always delegate in cases where it feels that
           would provide a more legitimate decision; and the AC still
           retains the ability to appeal a Council Decision if necessary.
 Resolved: AB May 2023 F2F
@@ -369,7 +428,7 @@ Comment:  https://github.com/w3c/w3process/issues/751
 Response: https://github.com/w3c/w3process/issues/751#issuecomment-1529453863
 Comment:  https://github.com/w3c/w3process/issues/751#issuecomment-1554703461
 Response: https://github.com/w3c/w3process/issues/751#issuecomment-1559068321
-Open:     Invalid =CG= Review
+Closed:   Invalid
 ----
 Issue 20.
 Summary:  Publication of Minority opinions
@@ -417,6 +476,13 @@ Comment:  https://github.com/w3c/AB-memberonly/issues/171#issuecomment-151711015
 Comment:  https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1517166312
 Response: https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1551895803
 Changes:  https://github.com/w3c/w3process/pull/733
-Open:     =CG= Review
+Open:     Accepted by AB, proposed to Director
 Resolved: AB May 2023 F2F
+----
+Issue 25.
+Summary:  Council composition is broken due to “member” vs “participant”
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/issues/764
+Response: https://github.com/w3c/w3process/issues/764#issuecomment-1562177663
+Closed:   Invalid
 ----
