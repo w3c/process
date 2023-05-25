@@ -32,13 +32,11 @@ ul.details li {
 }
 </style>
 
-<p>This Disposition of Comments addresses all comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.
+<p>This Disposition of Comments covers comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.
 
 <h2>Substantive Changes</h2>
 
-<p>Several review comments received during the AC Review period generated proposals for substantive changes.
-
-<p>These comments resulted in the following change proposals:
+<p>Several review comments received during the AC Review period generated proposals for substantive changes:
 
 <ul class="details substantive">
   <li><details id="tag-size">
@@ -173,7 +171,7 @@ ul.details li {
 <h2>Editorial Changes</h2>
 
 <p>AC Review raised a number of suggestions for clarification,
-which are summarized below:
+which the Process CG accepted and are summarized below:
 
 <ul class="details">
   <li><details>
@@ -485,4 +483,16 @@ From:     Tantek Çelik
 Comment:  https://github.com/w3c/w3process/issues/764
 Response: https://github.com/w3c/w3process/issues/764#issuecomment-1562177663
 Closed:   Invalid
+----
+Issue 26.
+Summary:  Various Objections
+From:     James Rosewell
+Comment:  See https://www.w3.org/2002/09/wbs/33280/Process-2023/results
+Open:     Formal Objection; deferred to the Director
+----
+Issue 27.
+Summary:  Various Concerns
+From:     Jon Andrieu
+Comment:  See https://www.w3.org/2002/09/wbs/33280/Process-2023/results
+Open:     Deferred; needs specific issues / discussion to be actionable
 ----
