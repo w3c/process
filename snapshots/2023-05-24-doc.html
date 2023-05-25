@@ -34,7 +34,207 @@
   <dt>Editor's Draft: <dd><a href="http://drafts.csswg.org//">http://drafts.csswg.org//</a>
 </dl>
 
-<style>html {  margin: 1em;  background: white;  color: black;}h1, h2, h3 {  color: rgb(0, 90, 156);}blockquote {  border-inline-start: solid thick silver;  padding-inline-start: 0.5em;  margin-inline-start: 1em;}dfn, .substantive summary {  font-weight: bold;}ul.details {  list-style: none;}ul.details summary {  margin-inline-start: -1em;}ul.details summary::before {  content: counter(list-item) ". "}ul.details li {  margin: 1em 0;}</style><p>This Disposition of Comments covers comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.<h2>Substantive Changes</h2><p>Several review comments received during the AC Review period generated proposals for substantive changes:<ul class="details substantive">  <li><details id="tag-size">    <summary>Increasing the size of the TAG</summary>    <p class="metadata">    See key discussion points in <a href="#issue-24">Issue #24</a>    <p>At its April 2023 F2F, the TAG asked the AB to increase its size by 2 elected seats (1 per election cycle) and 1 appointed seat (resulting in an even 2 appointments per cycle).    Theresa O’Connor, commenting as Apple’s AC rep on behalf of the TAG, requested the change for the 2023 election.    <p>At its May 2023 F2F, the AB agreed with increasing the elected seats, but wanted to gain experience with the appointment process before increasing the appointed seats, and proposes only to add those seats in Process 2023.    <p>There were arguments both for and against this change.    In agreeing to the change, the AB considered:    <ul>      <li>That request represented the consensus of the TAG about itself,        and the AB might give the TAG some deference in defining itself.      <li>That the TAG is currently smaller than the AB,        and this change makes them more equal.      <li>That the TAG feels its workload would be better distributed among more people.      <li>That the workload of the non-governance roles the TAG has adopted (reviewing specs)        could be spread to people outside the TAG.      <li>That there were some concerns raised about the TAG’s ability        to form consensus in a larger group,        particularly in consideration of their increased role in technical governance and leadership.      <li>That there were some concerns raised that the level of representation        and support each TAG member has would be decreased if the number of elected seats were increased.      <li>That the newintroduction of term limits on the appointed seats        (which are currently used to seat the two co-chairs, for example)        would push those members to enter the elections also,        and it might be good to have more open seats,        to more easily accommodate them as elected participants        without reducing the number available for other TAG members.    </ul>    <p><a href="https://github.com/w3c/w3process/pull/733">Process changes proposed</a>:    <blockquote>      … <del>Six</del> <ins>Eight</ins> participants elected by the Advisory Committee …    </blockquote>    <blockquote>      … Terms are staggered so that <del>three</del> <ins>four</ins> elected terms      and either one or two appointed terms expire each year. …    </blockquote>    <blockquote>      … the minimum and maximum number of available seats are the same:      the <del>3</del> <ins>4</ins> seats of the terms expiring that year …    </blockquote>    <blockquote>      … the minimum number of available seats is such that      when added to the number of continuing participants,      the minimum total number of elected seats is met      (<del>6</del> <ins>8</ins> for the TAG, 9 for the AB) …    </blockquote>  </details>  <li><details>    <summary>Excluding TAG/AB from Council Decision votes on their own Decisions</summary>    <p class="metadata">    See key discussion points in <a href="#issue-17">Issue #17</a>    <p>Mark Nottingham raised a concern about conflicts of interest    when the Council rules on decisions of the TAG or AB.    The AB didn’t feel that excluding the entire group from deliberations    would result in better decisions, as doing so would remove almost all technical expertise (in the case of the TAG) or all process/governance expertise (in the case of the AB) from the Council deliberations.    <p>Instead, the AB concluded that both the TAG and AB should participate in a Council Decision formed by consensus, but if there is dissent the group originating the decision or proposal must abstain from a Council Decision by vote.    <p>The AB’s recommendation could be implemented by changes to the Process,      which would provide the AC some assurances that it is required;      it could also be implemented merely in practice      and possibly defined as a recommendation in /Guide.    <p>Note that n cases where this safeguard would not be enough,    Council retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-delegation">delegate</a> the Council Decision if necessary;    and the AC retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-appeals">appeal</a> a Council Decision.    <p><a href="https://github.com/w3c/w3process/pull/761">Process changes that would implement abstention as a requirement</a>:    <blockquote>      In that case,      the decision is made by simple majority,      with the W3C Council Chair breaking any tie.      <ins>However,      if the decision or proposal being objected to      originated with the TAG or AB,      then members of that group      must abstain in such a vote.</ins>      In case of a vote,      if two members of a Council who share the same affiliation cast an identical ballot,      then their ballots count as a one vote,    </blockquote>  </details>  <li><details>    <summary>Require reporting of dismissal vote countes</summary>    <p class="metadata">    See <a href="#issue-15">Issue #15</a>, <a href="#issue-16">Issue #16</a>    <p>In reviewing various concerns raised about the dismissal process,    the Advisory Board concluded that the Process as proposed had an appropriate voting threshold,    but that reporting the total number of Council votes for/against dismissing any individual    would provide better assurances to the community about these decisions    by showing how many Council members have confidence in or are concerned about    the participation of each of their colleagues in that Council.    <p>The AB’s recommendation could be implemented by changes to the Process,      which would provide the AC some assurances that it is required;      it could also be implemented merely in practice      and possibly defined as a recommendation in /Guide.    <p><a href="https://github.com/w3c/w3process/pull/760">Process changes that would implement dismissal vote count reporting as a requirement</a>:    <blockquote>      <p>A Council terminates by issuing a <dfn>Council Report</dfn>, which:      <ul>        <li>...        <li><del><em>may</em> report vote totals, if any vote was held.</del>        <li><ins><em>must</em> report the number of votes for/against dismissing each participant.</ins>        <li><ins><em>may</em> report vote totals for the Council’s decision, if a formal vote was held.</ins>      </ul>    </blockquote>  </details></ul><h2>Editorial Changes</h2><p>AC Review raised a number of suggestions for clarification,which the Process CG accepted and are summarized below:<ul class="details">  <li><details>    <summary>Clarified that “Tooling for Discussions and Publications” section also addresses archiving requirements.    (<a href="#issue-2">Issue #2</a>)</summary>    <blockquote>      <h4>Tooling <ins>and Archiving</ins> for Discussions and Publications</h4>    </blockquote>  </details>  <li><details>    <summary>Removed stray text referring to the previous Process for Submission Appeals: the previous Process sent Submission Appeals to either the TAG or AB; the new Process simply re-uses the newly-defined Council.    (<a href="#issue-7">Issue #7</a>)</summary>    <blockquote>      <p>If rejected, the Submitter(s) may initiate a Submission appeal      <del>to either the TAG or the Advisory Board</del>.    </blockquote>  </details>  <li><details>    <summary>Fixed typos and improved wording regarding Council membership stability.</summary>    <blockquote>      <p>Membership of <del>an instance the Council is be</del> <ins>each Council instance is</ins> fixed at formation    </blockquote>  </details>  <li><details>    <summary>Simplified indirect reference to formal objections in AC Reviews.</summary>    <blockquote>      <p>If there <del>is dissent (i.e., there</del> were Formal Objections, at least some of which were sustained<del>),    </blockquote>  </details>  <li><details>    <summary>Clarified that formal AC Reviews are the only context in which dissent <em>must</em> be expressed as a Formal Objection.</summary>    <blockquote>      <p>A Formal Objection=] always indicates a sustained objection,      but isn't necessary to express it      (except in <del>some formal contexts such as</del>      <ins>the context of formal</ins> AC Reviews).    </blockquote>  </details>  <li><details>    <summary>Improved defining instance of “dismissal”.</summary>    <blockquote>      <ins>A potential Council member may be <dfn>dismissed</dfn> from the Council.</ins>      In order to apply consistent criteria,      the potential Council members decide collectively      which reasons against service      rise to a sufficient level for a potential member to be      <del><dfn>dismissed</dfn></del> <ins>dismissed</ins>.    </blockquote>  </details>  <li><details>    <summary>Replaced the verb “sustain” with “uphold” when describing Council Decisions (throughout),    to avoid confusion with the concept of an objector sustaining their objection.</summary>    <blockquote>      Otherwise, after sufficient deliberation, the [=W3C Council=] decides whether to      <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn> or <dfn>overrule</dfn> the objection.    </blockquote>  <li>Simplified labelling, fixed colors, and improved spacing in the REC track diagram. [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>] </ul><h2>Index of Comments and Responses</h2>
+<style>
+html {
+  margin: 1em;
+  background: white;
+  color: black;
+}
+h1, h2, h3 {
+  color: rgb(0, 90, 156);
+}
+blockquote {
+  border-inline-start: solid thick silver;
+  padding-inline-start: 0.5em;
+  margin-inline-start: 1em;
+}
+dfn, .substantive summary {
+  font-weight: bold;
+}
+ul.details {
+  list-style: none;
+}
+ul.details summary {
+  margin-inline-start: -1em;
+}
+ul.details summary::before {
+  content: counter(list-item) ". "
+}
+ul.details li {
+  margin: 1em 0;
+}
+</style>
+<p>This Disposition of Comments covers comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.
+<h2>Substantive Changes</h2>
+<p>Several review comments received during the AC Review period generated proposals for substantive changes:
+<ul class="details substantive">
+  <li><details id="tag-size">
+    <summary>Increasing the size of the TAG</summary>
+    <p class="metadata">
+    See key discussion points in <a href="#issue-24">Issue #24</a>
+    <p>At its April 2023 F2F, the TAG asked the AB to increase its size by 2 elected seats (1 per election cycle) and 1 appointed seat (resulting in an even 2 appointments per cycle).
+    Theresa O’Connor, commenting as Apple’s AC rep on behalf of the TAG, requested the change for the 2023 election.
+    <p>At its May 2023 F2F, the AB agreed with increasing the elected seats, but wanted to gain experience with the appointment process before increasing the appointed seats, and proposes only to add those seats in Process 2023.
+    <p>There were arguments both for and against this change.
+    In agreeing to the change, the AB considered:
+    <ul>
+      <li>That request represented the consensus of the TAG about itself,
+        and the AB might give the TAG some deference in defining itself.
+      <li>That the TAG is currently smaller than the AB,
+        and this change makes them more equal.
+      <li>That the TAG feels its workload would be better distributed among more people.
+      <li>That the workload of the non-governance roles the TAG has adopted (reviewing specs)
+        could be spread to people outside the TAG.
+      <li>That there were some concerns raised about the TAG’s ability
+        to form consensus in a larger group,
+        particularly in consideration of their increased role in technical governance and leadership.
+      <li>That there were some concerns raised that the level of representation
+        and support each TAG member has would be decreased if the number of elected seats were increased.
+      <li>That the newintroduction of term limits on the appointed seats
+        (which are currently used to seat the two co-chairs, for example)
+        would push those members to enter the elections also,
+        and it might be good to have more open seats,
+        to more easily accommodate them as elected participants
+        without reducing the number available for other TAG members.
+    </ul>
+    <p><a href="https://github.com/w3c/w3process/pull/733">Process changes proposed</a>:
+    <blockquote>
+      … <del>Six</del> <ins>Eight</ins> participants elected by the Advisory Committee …
+    </blockquote>
+    <blockquote>
+      … Terms are staggered so that <del>three</del> <ins>four</ins> elected terms
+      and either one or two appointed terms expire each year. …
+    </blockquote>
+    <blockquote>
+      … the minimum and maximum number of available seats are the same:
+      the <del>3</del> <ins>4</ins> seats of the terms expiring that year …
+    </blockquote>
+    <blockquote>
+      … the minimum number of available seats is such that
+      when added to the number of continuing participants,
+      the minimum total number of elected seats is met
+      (<del>6</del> <ins>8</ins> for the TAG, 9 for the AB) …
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Excluding TAG/AB from Council Decision votes on their own Decisions</summary>
+    <p class="metadata">
+    See key discussion points in <a href="#issue-17">Issue #17</a>
+    <p>Mark Nottingham raised a concern about conflicts of interest
+    when the Council rules on decisions of the TAG or AB.
+    The AB didn’t feel that excluding the entire group from deliberations
+    would result in better decisions, as doing so would remove almost all technical expertise (in the case of the TAG) or all process/governance expertise (in the case of the AB) from the Council deliberations.
+    <p>Instead, the AB concluded that both the TAG and AB should participate in a Council Decision formed by consensus, but if there is dissent the group originating the decision or proposal must abstain from a Council Decision by vote.
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
+    <p>Note that n cases where this safeguard would not be enough,
+    Council retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-delegation">delegate</a> the Council Decision if necessary;
+    and the AC retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-appeals">appeal</a> a Council Decision.
+    <p><a href="https://github.com/w3c/w3process/pull/761">Process changes that would implement abstention as a requirement</a>:
+    <blockquote>
+      In that case,
+      the decision is made by simple majority,
+      with the W3C Council Chair breaking any tie.
+      <ins>However,
+      if the decision or proposal being objected to
+      originated with the TAG or AB,
+      then members of that group
+      must abstain in such a vote.</ins>
+      In case of a vote,
+      if two members of a Council who share the same affiliation cast an identical ballot,
+      then their ballots count as a one vote,
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Require reporting of dismissal vote countes</summary>
+    <p class="metadata">
+    See <a href="#issue-15">Issue #15</a>, <a href="#issue-16">Issue #16</a>
+    <p>In reviewing various concerns raised about the dismissal process,
+    the Advisory Board concluded that the Process as proposed had an appropriate voting threshold,
+    but that reporting the total number of Council votes for/against dismissing any individual
+    would provide better assurances to the community about these decisions
+    by showing how many Council members have confidence in or are concerned about
+    the participation of each of their colleagues in that Council.
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
+    <p><a href="https://github.com/w3c/w3process/pull/760">Process changes that would implement dismissal vote count reporting as a requirement</a>:
+    <blockquote>
+      <p>A Council terminates by issuing a <dfn>Council Report</dfn>, which:
+      <ul>
+        <li>...
+        <li><del><em>may</em> report vote totals, if any vote was held.</del>
+        <li><ins><em>must</em> report the number of votes for/against dismissing each participant.</ins>
+        <li><ins><em>may</em> report vote totals for the Council’s decision, if a formal vote was held.</ins>
+      </ul>
+    </blockquote>
+  </details>
+</ul>
+<h2>Editorial Changes</h2>
+<p>AC Review raised a number of suggestions for clarification,
+which the Process CG accepted and are summarized below:
+<ul class="details">
+  <li><details>
+    <summary>Clarified that “Tooling for Discussions and Publications” section also addresses archiving requirements.
+    (<a href="#issue-2">Issue #2</a>)</summary>
+    <blockquote>
+      <h4>Tooling <ins>and Archiving</ins> for Discussions and Publications</h4>
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Removed stray text referring to the previous Process for Submission Appeals: the previous Process sent Submission Appeals to either the TAG or AB; the new Process simply re-uses the newly-defined Council.
+    (<a href="#issue-7">Issue #7</a>)</summary>
+    <blockquote>
+      <p>If rejected, the Submitter(s) may initiate a Submission appeal
+      <del>to either the TAG or the Advisory Board</del>.
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Fixed typos and improved wording regarding Council membership stability.</summary>
+    <blockquote>
+      <p>Membership of <del>an instance the Council is be</del> <ins>each Council instance is</ins> fixed at formation
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Simplified indirect reference to formal objections in AC Reviews.</summary>
+    <blockquote>
+      <p>If there <del>is dissent (i.e., there</del> were Formal Objections, at least some of which were sustained<del>),
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Clarified that formal AC Reviews are the only context in which dissent <em>must</em> be expressed as a Formal Objection.</summary>
+    <blockquote>
+      <p>A Formal Objection=] always indicates a sustained objection,
+      but isn't necessary to express it
+      (except in <del>some formal contexts such as</del>
+      <ins>the context of formal</ins> AC Reviews).
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Improved defining instance of “dismissal”.</summary>
+    <blockquote>
+      <ins>A potential Council member may be <dfn>dismissed</dfn> from the Council.</ins>
+      In order to apply consistent criteria,
+      the potential Council members decide collectively
+      which reasons against service
+      rise to a sufficient level for a potential member to be
+      <del><dfn>dismissed</dfn></del> <ins>dismissed</ins>.
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Replaced the verb “sustain” with “uphold” when describing Council Decisions (throughout),
+    to avoid confusion with the concept of an objector sustaining their objection.</summary>
+    <blockquote>
+      Otherwise, after sufficient deliberation, the [=W3C Council=] decides whether to
+      <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn> or <dfn>overrule</dfn> the objection.
+    </blockquote>
+  <li>Simplified labelling, fixed colors, and improved spacing in the REC track diagram. [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>]
+ </ul>
+<h2>Index of Comments and Responses</h2>
+
 
 <details class="legend">
   <summary>Disposition Status Legend and Filters</summary>
