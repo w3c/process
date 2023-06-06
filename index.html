@@ -6,9 +6,9 @@
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="Bikeshed version 3383f409d, updated Fri Apr 28 15:49:22 2023 -0700" name="generator">
+  <meta content="Bikeshed version 5fcd28d6d, updated Tue May 30 13:12:11 2023 -0700" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="ea3525245689a0f4cd304efcd5d2fcd590bb5154" name="document-revision">
+  <meta content="4fe6ac5c078f6ff537ecbabd86261dd3886976ff" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -50,7 +50,7 @@ g g:hover text {
 }
 
 </style>
-<style>/* style-autolinks */
+<style>/* Boilerplate: style-autolinks */
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
     font-size: inherit;
@@ -111,8 +111,16 @@ pre .property::before, pre .property::after {
 [data-link-type=biblio] {
     white-space: pre;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --selflink-text: black;
+        --selflink-bg: silver;
+        --selflink-hover-text: white;
+    }
+}
 </style>
-<style>/* style-colors */
+<style>/* Boilerplate: style-colors */
 
 /* Any --*-text not paired with a --*-bg is assumed to have a transparent bg */
 :root {
@@ -221,163 +229,6 @@ pre .property::before, pre .property::after {
 
     --editedrec-bg: darkorange;
 }
-</style>
-<style>/* style-counters */
-body {
-    counter-reset: example figure issue;
-}
-.issue {
-    counter-increment: issue;
-}
-.issue:not(.no-marker)::before {
-    content: "Issue " counter(issue);
-}
-
-.example {
-    counter-increment: example;
-}
-.example:not(.no-marker)::before {
-    content: "Example " counter(example);
-}
-.invalid.example:not(.no-marker)::before,
-.illegal.example:not(.no-marker)::before {
-    content: "Invalid Example" counter(example);
-}
-
-figcaption {
-    counter-increment: figure;
-}
-figcaption:not(.no-marker)::before {
-    content: "Figure " counter(figure) " ";
-}
-</style>
-<style>/* style-dfn-panel */
-:root {
-    --dfnpanel-bg: #ddd;
-    --dfnpanel-text: var(--text);
-}
-.dfn-panel {
-    position: absolute;
-    z-index: 35;
-    width: 20em;
-    width: 300px;
-    height: auto;
-    max-height: 500px;
-    overflow: auto;
-    padding: 0.5em 0.75em;
-    font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
-    background: var(--dfnpanel-bg);
-    color: var(--dfnpanel-text);
-    border: outset 0.2em;
-    white-space: normal; /* in case it's moved into a pre */
-}
-.dfn-panel:not(.on) { display: none; }
-.dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
-.dfn-panel > b { display: block; }
-.dfn-panel a { color: var(--dfnpanel-text); }
-.dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
-.dfn-panel > b + b { margin-top: 0.25em; }
-.dfn-panel ul { padding: 0 0 0 1em; list-style: none; }
-.dfn-panel li a {
-    white-space: pre;
-    display: inline-block;
-    max-width: calc(300px - 1.5em - 1em);
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.dfn-panel.activated {
-    display: inline-block;
-    position: fixed;
-    left: .5em;
-    bottom: 2em;
-    margin: 0 auto;
-    max-width: calc(100vw - 1.5em - .4em - .5em);
-    max-height: 30vh;
-}
-
-.dfn-paneled[role="button"] { cursor: pointer; }
-</style>
-<style>/* style-issues */
-a[href].issue-return {
-    float: right;
-    float: inline-end;
-    color: var(--issueheading-text);
-    font-weight: bold;
-    text-decoration: none;
-}
-</style>
-<style>/* style-md-lists */
-/* This is a weird hack for me not yet following the commonmark spec
-   regarding paragraph and lists. */
-[data-md] > :first-child {
-    margin-top: 0;
-}
-[data-md] > :last-child {
-    margin-bottom: 0;
-}
-</style>
-<style>/* style-selflinks */
-
-:root {
-    --selflink-text: white;
-    --selflink-bg: gray;
-    --selflink-hover-text: black;
-}
-.heading, .issue, .note, .example, li, dt {
-    position: relative;
-}
-a.self-link {
-    position: absolute;
-    top: 0;
-    left: calc(-1 * (3.5rem - 26px));
-    width: calc(3.5rem - 26px);
-    height: 2em;
-    text-align: center;
-    border: none;
-    transition: opacity .2s;
-    opacity: .5;
-}
-a.self-link:hover {
-    opacity: 1;
-}
-.heading > a.self-link {
-    font-size: 83%;
-}
-.example > a.self-link,
-.note > a.self-link,
-.issue > a.self-link {
-    /* These blocks are overflow:auto, so positioning outside
-       doesn't work. */
-    left: auto;
-    right: 0;
-}
-li > a.self-link {
-    left: calc(-1 * (3.5rem - 26px) - 2em);
-}
-dfn > a.self-link {
-    top: auto;
-    left: auto;
-    opacity: 0;
-    width: 1.5em;
-    height: 1.5em;
-    background: var(--selflink-bg);
-    color: var(--selflink-text);
-    font-style: normal;
-    transition: opacity .2s, background-color .2s, color .2s;
-}
-dfn:hover > a.self-link {
-    opacity: 1;
-}
-dfn > a.self-link:hover {
-    color: var(--selflink-hover-text);
-}
-
-a.self-link::before            { content: "¶"; }
-.heading > a.self-link::before { content: "§"; }
-dfn > a.self-link::before      { content: "#"; }
-</style>
-<style>/* style-darkmode */
 
 @media (prefers-color-scheme: dark) {
     :root {
@@ -490,27 +341,226 @@ dfn > a.self-link::before      { content: "#"; }
        which is quite common in practice... */
     img { background: white; }
 }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --selflink-text: black;
-        --selflink-bg: silver;
-        --selflink-hover-text: white;
-    }
+</style>
+<style>/* Boilerplate: style-counters */
+body {
+    counter-reset: example figure issue;
+}
+.issue {
+    counter-increment: issue;
+}
+.issue:not(.no-marker)::before {
+    content: "Issue " counter(issue);
 }
 
+.example {
+    counter-increment: example;
+}
+.example:not(.no-marker)::before {
+    content: "Example " counter(example);
+}
+.invalid.example:not(.no-marker)::before,
+.illegal.example:not(.no-marker)::before {
+    content: "Invalid Example" counter(example);
+}
+
+figcaption {
+    counter-increment: figure;
+}
+figcaption:not(.no-marker)::before {
+    content: "Figure " counter(figure) " ";
+}
+</style>
+<style>/* Boilerplate: style-dfn-panel */
+:root {
+    --dfnpanel-bg: #ddd;
+    --dfnpanel-text: var(--text);
+}
 @media (prefers-color-scheme: dark) {
     :root {
         --dfnpanel-bg: #222;
         --dfnpanel-text: var(--text);
     }
 }
+.dfn-panel {
+    position: absolute;
+    z-index: 35;
+    width: 20em;
+    width: 300px;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+    padding: 0.5em 0.75em;
+    font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
+    background: var(--dfnpanel-bg);
+    color: var(--dfnpanel-text);
+    border: outset 0.2em;
+    white-space: normal; /* in case it's moved into a pre */
+}
+.dfn-panel:not(.on) { display: none; }
+.dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
+.dfn-panel > b { display: block; }
+.dfn-panel a { color: var(--dfnpanel-text); }
+.dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
+.dfn-panel > b + b { margin-top: 0.25em; }
+.dfn-panel ul { padding: 0 0 0 1em; list-style: none; }
+.dfn-panel li a {
+    white-space: pre;
+    display: inline-block;
+    max-width: calc(300px - 1.5em - 1em);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dfn-panel.activated {
+    display: inline-block;
+    position: fixed;
+    left: .5em;
+    bottom: 2em;
+    margin: 0 auto;
+    max-width: calc(100vw - 1.5em - .4em - .5em);
+    max-height: 30vh;
+}
+
+.dfn-paneled[role="button"] { cursor: pointer; }
+</style>
+<style>/* Boilerplate: style-dfn-panel */
+:root {
+    --dfnpanel-bg: #ddd;
+    --dfnpanel-text: var(--text);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dfnpanel-bg: #222;
+        --dfnpanel-text: var(--text);
+    }
+}
+.dfn-panel {
+    position: absolute;
+    z-index: 35;
+    width: 20em;
+    width: 300px;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+    padding: 0.5em 0.75em;
+    font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
+    background: var(--dfnpanel-bg);
+    color: var(--dfnpanel-text);
+    border: outset 0.2em;
+    white-space: normal; /* in case it's moved into a pre */
+}
+.dfn-panel:not(.on) { display: none; }
+.dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
+.dfn-panel > b { display: block; }
+.dfn-panel a { color: var(--dfnpanel-text); }
+.dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
+.dfn-panel > b + b { margin-top: 0.25em; }
+.dfn-panel ul { padding: 0 0 0 1em; list-style: none; }
+.dfn-panel li a {
+    white-space: pre;
+    display: inline-block;
+    max-width: calc(300px - 1.5em - 1em);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dfn-panel.activated {
+    display: inline-block;
+    position: fixed;
+    left: .5em;
+    bottom: 2em;
+    margin: 0 auto;
+    max-width: calc(100vw - 1.5em - .4em - .5em);
+    max-height: 30vh;
+}
+
+.dfn-paneled[role="button"] { cursor: pointer; }
+</style>
+<style>/* Boilerplate: style-issues */
+a[href].issue-return {
+    float: right;
+    float: inline-end;
+    color: var(--issueheading-text);
+    font-weight: bold;
+    text-decoration: none;
+}
+</style>
+<style>/* Boilerplate: style-md-lists */
+/* This is a weird hack for me not yet following the commonmark spec
+   regarding paragraph and lists. */
+[data-md] > :first-child {
+    margin-top: 0;
+}
+[data-md] > :last-child {
+    margin-bottom: 0;
+}
+</style>
+<style>/* Boilerplate: style-selflinks */
+
+:root {
+    --selflink-text: white;
+    --selflink-bg: gray;
+    --selflink-hover-text: black;
+}
+.heading, .issue, .note, .example, li, dt {
+    position: relative;
+}
+a.self-link {
+    position: absolute;
+    top: 0;
+    left: calc(-1 * (3.5rem - 26px));
+    width: calc(3.5rem - 26px);
+    height: 2em;
+    text-align: center;
+    border: none;
+    transition: opacity .2s;
+    opacity: .5;
+}
+a.self-link:hover {
+    opacity: 1;
+}
+.heading > a.self-link {
+    font-size: 83%;
+}
+.example > a.self-link,
+.note > a.self-link,
+.issue > a.self-link {
+    /* These blocks are overflow:auto, so positioning outside
+       doesn't work. */
+    left: auto;
+    right: 0;
+}
+li > a.self-link {
+    left: calc(-1 * (3.5rem - 26px) - 2em);
+}
+dfn > a.self-link {
+    top: auto;
+    left: auto;
+    opacity: 0;
+    width: 1.5em;
+    height: 1.5em;
+    background: var(--selflink-bg);
+    color: var(--selflink-text);
+    font-style: normal;
+    transition: opacity .2s, background-color .2s, color .2s;
+}
+dfn:hover > a.self-link {
+    opacity: 1;
+}
+dfn > a.self-link:hover {
+    color: var(--selflink-hover-text);
+}
+
+a.self-link::before            { content: "¶"; }
+.heading > a.self-link::before { content: "§"; }
+dfn > a.self-link::before      { content: "#"; }
 </style>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-05-30">30 May 2023</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-06-06">6 June 2023</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -561,7 +611,7 @@ dfn > a.self-link::before      { content: "#"; }
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 30 May 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 6 June 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 
 which is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>,
@@ -1740,15 +1790,15 @@ and sent for W3C Advisory Committee Review on 12 April 2023.</p>
 	a <a href="#Team">Team representative</a>,
 	or an <a href="#invited-expert-wg">Invited Expert</a>,
 	(invited by the <a data-link-type="dfn" href="#team" id="ref-for-team③⑧">Team</a>).
-	The requirements of this document that apply to those types of participants apply to Chairs as well.
-	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> <a data-link-type="biblio" href="#biblio-chair" title="W3C Working/Interest Group Chair">[CHAIR]</a> is described
+	The requirements of this document that apply to those types of participants apply to Chairs as well.</p>
+    <p class="note" role="note"><span class="marker">Note:</span> The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> <a data-link-type="biblio" href="#biblio-chair" title="W3C Working/Interest Group Chair">[CHAIR]</a> is described
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>.</p>
     <p>Each group <em class="rfc2119">must</em> have a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="TeamContact">Team Contact</dfn>,
 	who acts as the interface between the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs③">Chair</a>,
 	group participants,
-	and the rest of the Team.
-	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> <a data-link-type="biblio" href="#biblio-team-contact" title="Role of the Team Contact">[TEAM-CONTACT]</a> is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>.
-	The <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs④">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact">Team Contact</a> of a group <em class="rfc2119">should not</em> be the same individual.</p>
+	and the rest of the Team.</p>
+    <p class="note" role="note"><span class="marker">Note:</span> The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> <a data-link-type="biblio" href="#biblio-team-contact" title="Role of the Team Contact">[TEAM-CONTACT]</a> is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>.</p>
+    <p>The <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs④">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact">Team Contact</a> of a group <em class="rfc2119">should not</em> be the same individual.</p>
     <p>Each group <em class="rfc2119">must</em> have an archived mailing list
 	for formal group communication
 	(e.g., for meeting announcements and <a data-link-type="dfn" href="#minutes" id="ref-for-minutes①">minutes</a>,
@@ -5237,7 +5287,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
    <dt id="biblio-w3c-ipr">[W3C-IPR]
    <dd><a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231"><cite>W3C IPR Policies</cite></a>. URL: <a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231</a>
   </dl>
-<script>/* script-dfn-panel */
+<script>/* Boilerplate: script-dfn-panel */
 "use strict";
 {
     const dfnsJson = window.dfnsJson || {};
@@ -5390,7 +5440,160 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     }
 }
 </script>
-<script>/* script-dfn-panel-json */
+<script>/* Boilerplate: script-dfn-panel */
+"use strict";
+{
+    const dfnsJson = window.dfnsJson || {};
+
+    function genDfnPanel({dfnID, url, dfnText, refSections, external}) {
+        return mk.aside({
+            class: "dfn-panel",
+            id: `infopanel-for-${dfnID}`,
+            "data-for": dfnID,
+            "aria-labelled-by":`infopaneltitle-for-${dfnID}`,
+            },
+            mk.span({id:`infopaneltitle-for-${dfnID}`, style:"display:none"},
+                `Info about the '${dfnText}' ${external?"external":""} reference.`),
+            mk.a({href:url}, url),
+            mk.b({}, "Referenced in:"),
+            mk.ul({},
+                ...refSections.map(section=>
+                    mk.li({},
+                        ...section.refs.map((ref, refI)=>
+                            [
+                                mk.a({
+                                    href: `#${ref.id}`
+                                    },
+                                    (refI == 0) ? section.title : `(${refI + 1})`
+                                ),
+                                " ",
+                            ]
+                        ),
+                    ),
+                ),
+            ),
+        );
+    }
+
+    function genAllDfnPanels() {
+        for(const panelData of Object.values(window.dfnpanelData)) {
+            const dfnID = panelData.dfnID;
+            const dfn = document.getElementById(dfnID);
+            if(!dfn) {
+                console.log(`Can't find dfn#${dfnID}.`, panelData);
+            } else {
+                const panel = genDfnPanel(panelData);
+                append(document.body, panel);
+                insertDfnPopupAction(dfn, panel)
+            }
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", ()=>{
+        genAllDfnPanels();
+
+        // Add popup behavior to all dfns to show the corresponding dfn-panel.
+        var dfns = queryAll('.dfn-paneled');
+        for(let dfn of dfns) { ; }
+
+        document.body.addEventListener("click", (e) => {
+            // If not handled already, just hide all dfn panels.
+            hideAllDfnPanels();
+        });
+    })
+
+
+    function hideAllDfnPanels() {
+        // Turn off any currently "on" or "activated" panels.
+        queryAll(".dfn-panel.on, .dfn-panel.activated").forEach(el=>hideDfnPanel(el));
+    }
+
+    function showDfnPanel(dfnPanel, dfn) {
+        hideAllDfnPanels(); // Only display one at this time.
+        dfn.setAttribute("aria-expanded", "true");
+        dfnPanel.classList.add("on");
+        dfnPanel.style.left = "5px";
+        dfnPanel.style.top = "0px";
+        const panelRect = dfnPanel.getBoundingClientRect();
+        const panelWidth = panelRect.right - panelRect.left;
+        if (panelRect.right > document.body.scrollWidth) {
+            // Panel's overflowing the screen.
+            // Just drop it below the dfn and flip it rightward instead.
+            // This still wont' fix things if the screen is *really* wide,
+            // but fixing that's a lot harder without 'anchor()'.
+            dfnPanel.style.top = "1.5em";
+            dfnPanel.style.left = "auto";
+            dfnPanel.style.right = "0px";
+        }
+    }
+
+    function pinDfnPanel(dfnPanel) {
+        // Switch it to "activated" state, which pins it.
+        dfnPanel.classList.add("activated");
+        dfnPanel.style.left = null;
+        dfnPanel.style.top = null;
+    }
+
+    function hideDfnPanel(dfnPanel, dfn) {
+        if(!dfn) {
+            dfn = document.getElementById(dfnPanel.getAttribute("data-for"));
+        }
+        dfn.setAttribute("aria-expanded", "false")
+        dfnPanel.classList.remove("on");
+        dfnPanel.classList.remove("activated");
+    }
+
+    function toggleDfnPanel(dfnPanel, dfn) {
+        if(dfnPanel.classList.contains("on")) {
+            hideDfnPanel(dfnPanel, dfn);
+        } else {
+            showDfnPanel(dfnPanel, dfn);
+        }
+    }
+
+    function insertDfnPopupAction(dfn, dfnPanel) {
+        // Find dfn panel
+        const panelWrapper = document.createElement('span');
+        panelWrapper.appendChild(dfnPanel);
+        panelWrapper.style.position = "relative";
+        panelWrapper.style.height = "0px";
+        dfn.insertAdjacentElement("afterend", panelWrapper);
+        dfn.setAttribute('role', 'button');
+        dfn.setAttribute('aria-expanded', 'false')
+        dfn.tabIndex = 0;
+        dfn.classList.add('has-dfn-panel');
+        dfn.addEventListener('click', (event) => {
+            showDfnPanel(dfnPanel, dfn);
+            event.stopPropagation();
+        });
+        dfn.addEventListener('keypress', (event) => {
+            const kc = event.keyCode;
+            // 32->Space, 13->Enter
+            if(kc == 32 || kc == 13) {
+                toggleDfnPanel(dfnPanel, dfn);
+                event.stopPropagation();
+                event.preventDefault();
+            }
+        });
+
+        dfnPanel.addEventListener('click', (event) => {
+            if (event.target.nodeName == 'A') {
+                pinDfnPanel(dfnPanel);
+            }
+            event.stopPropagation();
+        });
+
+        dfnPanel.addEventListener('keydown', (event) => {
+            if(event.keyCode == 27) { // Escape key
+                hideDfnPanel(dfnPanel, dfn);
+                event.stopPropagation();
+                event.preventDefault();
+            }
+        })
+    }
+}
+</script>
+<script>/* Boilerplate: script-dfn-panel-json */
 window.dfnpanelData = {};
 window.dfnpanelData['b923fc87'] = {"dfnID": "b923fc87", "url": "https://www.w3.org/Consortium/Patent-Policy/#patent-advisory-group", "dfnText": "patent advisory group", "refSections": [{"refs": [{"id": "ref-for-patent-advisory-group"}], "title": "4.6. \nChartered Group Closure"}], "external": true};
 window.dfnpanelData['e98dab1b'] = {"dfnID": "e98dab1b", "url": "https://www.w3.org/Consortium/Process/#mou", "dfnText": "memoranda of understanding", "refSections": [{"refs": [{"id": "ref-for-mou"}], "title": "5.9. \nAppeal by Advisory Committee Representatives"}, {"refs": [{"id": "ref-for-mou\u2460"}], "title": "\nChanges related to the role of the Director"}, {"refs": [{"id": "ref-for-mou\u2461"}], "title": "\nOther miscellaneous changes"}], "external": true};
@@ -5512,8 +5715,9 @@ window.dfnpanelData['technical-agreement'] = {"dfnID": "technical-agreement", "u
 window.dfnpanelData['MemberSubmission'] = {"dfnID": "MemberSubmission", "url": "#MemberSubmission", "dfnText": "Member Submission", "refSections": [{"refs": [{"id": "ref-for-MemberSubmission"}, {"id": "ref-for-MemberSubmission\u2460"}, {"id": "ref-for-MemberSubmission\u2461"}, {"id": "ref-for-MemberSubmission\u2462"}], "title": "10. \nMember Submission Process"}, {"refs": [{"id": "ref-for-MemberSubmission\u2463"}], "title": "10.1. \nSubmitter Rights and Obligations"}, {"refs": [{"id": "ref-for-MemberSubmission\u2464"}], "title": "10.2. \nTeam Rights and Obligations"}, {"refs": [{"id": "ref-for-MemberSubmission\u2465"}], "title": "10.3. \nAcknowledgment of a Submission Request"}, {"refs": [{"id": "ref-for-MemberSubmission\u2466"}], "title": "\nChanges related to the role of the Director"}], "external": false};
 window.dfnpanelData['submitter'] = {"dfnID": "submitter", "url": "#submitter", "dfnText": "Submitter(s)", "refSections": [{"refs": [{"id": "ref-for-submitter"}, {"id": "ref-for-submitter\u2460"}, {"id": "ref-for-submitter\u2461"}, {"id": "ref-for-submitter\u2462"}], "title": "10. \nMember Submission Process"}, {"refs": [{"id": "ref-for-submitter\u2463"}, {"id": "ref-for-submitter\u2464"}, {"id": "ref-for-submitter\u2465"}, {"id": "ref-for-submitter\u2466"}, {"id": "ref-for-submitter\u2467"}, {"id": "ref-for-submitter\u2468"}], "title": "10.1. \nSubmitter Rights and Obligations"}, {"refs": [{"id": "ref-for-submitter\u2460\u24ea"}, {"id": "ref-for-submitter\u2460\u2460"}, {"id": "ref-for-submitter\u2460\u2461"}, {"id": "ref-for-submitter\u2460\u2462"}], "title": "10.1.2. \nInformation Required in a Submission Request"}, {"refs": [{"id": "ref-for-submitter\u2460\u2463"}], "title": "10.2. \nTeam Rights and Obligations"}, {"refs": [{"id": "ref-for-submitter\u2460\u2464"}, {"id": "ref-for-submitter\u2460\u2465"}, {"id": "ref-for-submitter\u2460\u2466"}], "title": "10.3. \nAcknowledgment of a Submission Request"}, {"refs": [{"id": "ref-for-submitter\u2460\u2467"}, {"id": "ref-for-submitter\u2460\u2468"}, {"id": "ref-for-submitter\u2461\u24ea"}, {"id": "ref-for-submitter\u2461\u2460"}, {"id": "ref-for-submitter\u2461\u2461"}, {"id": "ref-for-submitter\u2461\u2462"}], "title": "10.4. \nRejection of a Submission Request, and Submission Appeals"}], "external": false};
 window.dfnpanelData['validation-notice'] = {"dfnID": "validation-notice", "url": "#validation-notice", "dfnText": "validation notice", "refSections": [{"refs": [{"id": "ref-for-validation-notice"}], "title": "10.3. \nAcknowledgment of a Submission Request"}], "external": false};
-window.dfnpanelData['submission-appeals'] = {"dfnID": "submission-appeals", "url": "#submission-appeals", "dfnText": "Submission Appeals", "refSections": [{"refs": [{"id": "ref-for-submission-appeals"}], "title": "10.4. \nRejection of a Submission Request, and Submission Appeals"}, {"refs": [{"id": "ref-for-submission-appeals\u2460"}, {"id": "ref-for-submission-appeals\u2461"}], "title": "\nChanges related to the role of the Director"}], "external": false};</script>
-<script>/* script-dom-helper */
+window.dfnpanelData['submission-appeals'] = {"dfnID": "submission-appeals", "url": "#submission-appeals", "dfnText": "Submission Appeals", "refSections": [{"refs": [{"id": "ref-for-submission-appeals"}], "title": "10.4. \nRejection of a Submission Request, and Submission Appeals"}, {"refs": [{"id": "ref-for-submission-appeals\u2460"}, {"id": "ref-for-submission-appeals\u2461"}], "title": "\nChanges related to the role of the Director"}], "external": false};
+</script>
+<script>/* Boilerplate: script-dom-helper */
 function query(sel) { return document.querySelector(sel); }
 
 function queryAll(sel) { return [...document.querySelectorAll(sel)]; }
@@ -5707,4 +5911,5 @@ function parseHTML(markup) {
 		el.innerHTML = markup;
 		return el.content;
 	}
-}</script>
+}
+</script>
