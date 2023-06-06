@@ -232,10 +232,26 @@ which the Process CG accepted and are summarized below:
     to avoid confusion with the concept of an objector sustaining their objection.</summary>
     <blockquote>
       Otherwise, after sufficient deliberation, the [=W3C Council=] decides whether to
-      <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn> or <dfn>overrule</dfn> the objection.
+     <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn></ins> or <dfn>overrule</dfn> the objection.
     </blockquote>
+  </details>
 
-  <li>Simplified labelling, fixed colors, and improved spacing in the REC track diagram. [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>]
+  <li><details>
+    <summary>Mark role of chair / team contact sentences as informative notes to be consistent with their informative references to the Guide which is referenced as describing those roles.</summary>
+    <blockquote>
+      <ins>Note: </ins>The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
+      in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+    </blockquote>
+    <blockquote>
+      <ins>Note: </ins>The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]]
+      is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+    </blockquote>
+  </details>
+
+  <li><details>
+    <summary>Simplified labelling, fixed colors, and improved spacing in the REC track diagram.</summary>
+    [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>]
+  </details>
  </ul>
 
 <h2>Index of Comments and Responses</h2>
@@ -506,4 +522,11 @@ From:     Jon Andrieu
 Comment:  See https://www.w3.org/2002/09/wbs/33280/Process-2023/results
 Note:     Needs specific issues / discussion to be actionable
 Open:     Deferred ; needs Team response
+----
+Issue 28.
+Summary:  Clarify informative nature of references
+From:     Tantek Çelik
+Comment:  https://github.com/w3c/w3process/issues/765
+Response: https://github.com/w3c/w3process/pull/766
+Closed:   Approved by the Director
 ----
