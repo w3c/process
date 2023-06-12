@@ -5651,7 +5651,7 @@ Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November
 	are available.
 
 	In addition to a number of editorial adjustments
-	and minor teaks,
+	and minor tweaks,
 	the following is a summary of the main differences:
 
 <h4 id=dirfree-changes>
