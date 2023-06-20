@@ -6029,7 +6029,7 @@ Changes since earlier versions</h3>
 		"title": "W3C IPR Policies"
 	},
 	"COUNCIL-REPORT-INDEX": {
-		"href": "https://beta.w3.org/about/council/",
+		"href": "https://www.w3.org/about/council/",
 		"title": "Council Report Index"
 	}
 
