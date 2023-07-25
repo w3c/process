@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>W3C Process Document 2023 (AC Review) Disposition of Comments for 2023-05-24- Draft</title>
+<style type="text/css">
+  pre, .legend { border: solid thin silver; padding: 0.2em; white-space: normal; }
+  .legend summary { font-weight: bold; }
+  summary { cursor: pointer; }
+  pre > span { display: block; white-space: pre; }
+  .a  { background: #52E052    }
+  .d  { background: #8CCBF2    }
+  .oi { background: #E0CB52    }
+  .r  { background: orange     }
+  .fo { background: #f66       }
+  pre.a  { background: #E9FBE9 }
+  pre.d  { background: #DEF    }
+  pre.oi { background: #FCFAEE }
+  pre.r  { background: #FFEECC }
+  pre.fo { background: #FBE9E9 }
+  .open   { border: solid red; }
+  :target { box-shadow: 0.25em 0.25em 0.25em;  }
+  a[href^=mid], a[href~=flatten] { text-decoration: none; }
+  abbr, dt { font-weight: bold; }
+  dl.compact { display: grid; grid-template-columns: auto 1fr; }
+  dt { grid-column: 1 }
+  dd { grid-column: 2 }
+  ins { color: green; }
+  del { color: #A00; }
+</style>
+
+<h1>W3C Process Document 2023 (AC Review) Disposition of Comments for 2023-05-24- Draft</h1>
+
+<dl class="compact">
+  <dt>Dated Draft: <dd><a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04</a>
+  <dt>Editor's Draft: <dd><a href="https://www.w3.org/Consortium/Process/Drafts/">https://www.w3.org/Consortium/Process/Drafts/</a>
+</dl>
+
+<style>
+html {
+  margin: 1em;
+  background: white;
+  color: black;
+}
+h1, h2, h3 {
+  color: rgb(0, 90, 156);
+}
+blockquote {
+  border-inline-start: solid thick silver;
+  padding-inline-start: 0.5em;
+  margin-inline-start: 1em;
+}
+dfn, .substantive summary {
+  font-weight: bold;
+}
+ul.details {
+  list-style: none;
+}
+ul.details summary {
+  margin-inline-start: -1em;
+}
+ul.details summary::before {
+  content: counter(list-item) ". "
+}
+ul.details li {
+  margin: 1em 0;
+}
+</style>
+<p>This Disposition of Comments covers comments received during the formal <a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2023AprJun/0008.html">AC Review period for Process 2023</a>.
+<h2>Substantive Changes</h2>
+<p>Several review comments received during the AC Review period generated proposals for substantive changes:
+<ul class="details substantive">
+  <li><details id="tag-size">
+    <summary>Increasing the size of the TAG</summary>
+    <p class="metadata">
+    See key discussion points in <a href="#issue-24">Issue #24</a>
+    <p>At its April 2023 F2F, the TAG asked the AB to increase its size by 2 elected seats (1 per election cycle) and 1 appointed seat (resulting in an even 2 appointments per cycle).
+    Theresa O’Connor, commenting as Apple’s AC rep on behalf of the TAG, requested the change for the 2023 election.
+    <p>At its May 2023 F2F, the AB agreed with increasing the elected seats, but wanted to gain experience with the appointment process before increasing the appointed seats, and proposes only to add those seats in Process 2023.
+    <p>There were arguments both for and against this change.
+    In agreeing to the change, the AB considered:
+    <ul>
+      <li>That request represented the consensus of the TAG about itself,
+        and the AB might give the TAG some deference in defining itself.
+      <li>That the TAG is currently smaller than the AB,
+        and this change makes them more equal.
+      <li>That the TAG feels its workload would be better distributed among more people.
+      <li>That the workload of the non-governance roles the TAG has adopted (reviewing specs)
+        could be spread to people outside the TAG.
+      <li>That there were some concerns raised about the TAG’s ability
+        to form consensus in a larger group,
+        particularly in consideration of their increased role in technical governance and leadership.
+      <li>That there were some concerns raised that the level of representation
+        and support each TAG member has would be decreased if the number of elected seats were increased.
+      <li>That the newintroduction of term limits on the appointed seats
+        (which are currently used to seat the two co-chairs, for example)
+        would push those members to enter the elections also,
+        and it might be good to have more open seats,
+        to more easily accommodate them as elected participants
+        without reducing the number available for other TAG members.
+    </ul>
+    <p><a href="https://github.com/w3c/w3process/pull/733">Process changes proposed</a>:
+    <blockquote>
+      … <del>Six</del> <ins>Eight</ins> participants elected by the Advisory Committee …
+    </blockquote>
+    <blockquote>
+      … Terms are staggered so that <del>three</del> <ins>four</ins> elected terms
+      and either one or two appointed terms expire each year. …
+    </blockquote>
+    <blockquote>
+      … the minimum and maximum number of available seats are the same:
+      the <del>3</del> <ins>4</ins> seats of the terms expiring that year …
+    </blockquote>
+    <blockquote>
+      … the minimum number of available seats is such that
+      when added to the number of continuing participants,
+      the minimum total number of elected seats is met
+      (<del>6</del> <ins>8</ins> for the TAG, 9 for the AB) …
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Excluding TAG/AB from Council Decision votes on their own Decisions</summary>
+    <p class="metadata">
+    See key discussion points in <a href="#issue-17">Issue #17</a>
+    <p>Mark Nottingham raised a concern about conflicts of interest
+    when the Council rules on decisions of the TAG or AB.
+    The AB didn’t feel that excluding the entire group from deliberations
+    would result in better decisions, as doing so would remove almost all technical expertise (in the case of the TAG) or all process/governance expertise (in the case of the AB) from the Council deliberations.
+    <p>Instead, the AB concluded that both the TAG and AB should participate in a Council Decision formed by consensus, but if there is dissent the group originating the decision or proposal must abstain from a Council Decision by vote.
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
+    <p>Note that n cases where this safeguard would not be enough,
+    Council retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-delegation">delegate</a> the Council Decision if necessary;
+    and the AC retains the ability to <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#council-appeals">appeal</a> a Council Decision.
+    <p><a href="https://github.com/w3c/w3process/pull/761">Process changes that would implement abstention as a requirement</a>:
+    <blockquote>
+      In that case,
+      the decision is made by simple majority,
+      with the W3C Council Chair breaking any tie.
+      <ins>However,
+      if the decision or proposal being objected to
+      originated with the TAG or AB,
+      then members of that group
+      must abstain in such a vote.</ins>
+      In case of a vote,
+      if two members of a Council who share the same affiliation cast an identical ballot,
+      then their ballots count as a one vote,
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Require reporting of dismissal vote countes</summary>
+    <p class="metadata">
+    See <a href="#issue-15">Issue #15</a>, <a href="#issue-16">Issue #16</a>
+    <p>In reviewing various concerns raised about the dismissal process,
+    the Advisory Board concluded that the Process as proposed had an appropriate voting threshold,
+    but that reporting the total number of Council votes for/against dismissing any individual
+    would provide better assurances to the community about these decisions
+    by showing how many Council members have confidence in or are concerned about
+    the participation of each of their colleagues in that Council.
+    <p>The AB’s recommendation could be implemented by changes to the Process,
+      which would provide the AC some assurances that it is required;
+      it could also be implemented merely in practice
+      and possibly defined as a recommendation in /Guide.
+    <p><a href="https://github.com/w3c/w3process/pull/760">Process changes that would implement dismissal vote count reporting as a requirement</a>:
+    <blockquote>
+      <p>A Council terminates by issuing a <dfn>Council Report</dfn>, which:
+      <ul>
+        <li>...
+        <li><del><em>may</em> report vote totals, if any vote was held.</del>
+        <li><ins><em>must</em> report the number of votes for/against dismissing each participant.</ins>
+        <li><ins><em>may</em> report vote totals for the Council’s decision, if a formal vote was held.</ins>
+      </ul>
+    </blockquote>
+  </details>
+</ul>
+<h2>Editorial Changes</h2>
+<p>AC Review raised a number of suggestions for clarification,
+which the Process CG accepted and are summarized below:
+<ul class="details">
+  <li><details>
+    <summary>Clarified that “Tooling for Discussions and Publications” section also addresses archiving requirements.
+    (<a href="#issue-2">Issue #2</a>)</summary>
+    <blockquote>
+      <h4>Tooling <ins>and Archiving</ins> for Discussions and Publications</h4>
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Removed stray text referring to the previous Process for Submission Appeals: the previous Process sent Submission Appeals to either the TAG or AB; the new Process simply re-uses the newly-defined Council.
+    (<a href="#issue-7">Issue #7</a>)</summary>
+    <blockquote>
+      <p>If rejected, the Submitter(s) may initiate a Submission appeal
+      <del>to either the TAG or the Advisory Board</del>.
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Fixed typos and improved wording regarding Council membership stability.</summary>
+    <blockquote>
+      <p>Membership of <del>an instance the Council is be</del> <ins>each Council instance is</ins> fixed at formation
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Simplified indirect reference to formal objections in AC Reviews.</summary>
+    <blockquote>
+      <p>If there <del>is dissent (i.e., there</del> were Formal Objections, at least some of which were sustained<del>),
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Clarified that formal AC Reviews are the only context in which dissent <em>must</em> be expressed as a Formal Objection.</summary>
+    <blockquote>
+      <p>A Formal Objection=] always indicates a sustained objection,
+      but isn't necessary to express it
+      (except in <del>some formal contexts such as</del>
+      <ins>the context of formal</ins> AC Reviews).
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Improved defining instance of “dismissal”.</summary>
+    <blockquote>
+      <ins>A potential Council member may be <dfn>dismissed</dfn> from the Council.</ins>
+      In order to apply consistent criteria,
+      the potential Council members decide collectively
+      which reasons against service
+      rise to a sufficient level for a potential member to be
+      <del><dfn>dismissed</dfn></del> <ins>dismissed</ins>.
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Replaced the verb “sustain” with “uphold” when describing Council Decisions (throughout),
+    to avoid confusion with the concept of an objector sustaining their objection.</summary>
+    <blockquote>
+      Otherwise, after sufficient deliberation, the [=W3C Council=] decides whether to
+     <del><dfn>sustain</dfn></del> <ins><dfn>uphold</dfn></ins> or <dfn>overrule</dfn> the objection.
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Mark role of chair / team contact sentences as informative notes to be consistent with their informative references to the Guide which is referenced as describing those roles.</summary>
+    <blockquote>
+      <ins>Note: </ins>The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
+      in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+    </blockquote>
+    <blockquote>
+      <ins>Note: </ins>The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]]
+      is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+    </blockquote>
+  </details>
+  <li><details>
+    <summary>Simplified labelling, fixed colors, and improved spacing in the REC track diagram.</summary>
+    [<a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04#rec-track">Old</a> &rarr; <a href="https://www.w3.org/Consortium/Process/Drafts/#rec-track">New</a>]
+  </details>
+ </ul>
+<h2>Index of Comments and Responses</h2>
+
+
+<details class="legend">
+  <summary>Disposition Status Legend and Filters</summary>
+  <p>The following color coding convention is used for comments:</p>
+
+  <ul>
+   <li class="a">Accepted or Rejected and positive response
+   <li class="r">Rejected and no response
+   <li class="fo">Rejected and negative response
+   <li class="d">Deferred
+   <li class="oi">Out-of-Scope or Invalid and not verified
+  </ul>
+
+  <p class=open>Open issues are marked like this</p>
+
+  <p>An issue can be closed as <code>Accepted</code>, <code>OutOfScope</code>,
+  <code>Invalid</code>, <code>Rejected</code>, or <code>Retracted</code>.
+  <code>Verified</code> indicates commentor's acceptance of the response.</p>
+</details>
+<pre class=' a' id='issue-1'>
+<span>Issue 1. <a href='#issue-1'>#</a></span>
+<span>Summary:  Timeline for publishing formal objections</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/735'>https://github.com/w3c/w3process/issues/735</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/735'>https://github.com/w3c/w3process/issues/735</a></span></pre>
+<pre class=' a' id='issue-2'>
+<span>Issue 2. <a href='#issue-2'>#</a></span>
+<span>Summary:  Mention Archiving in Tooling section title</span>
+<span>From:     fantasai</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/736'>https://github.com/w3c/w3process/issues/736</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/commit/14f4644c9008bf10021628d78c3238a39b139e58'>https://github.com/w3c/w3process/commit/14f4644c9008bf10021628d78c3238a39b139e58</a></span>
+<span class="a">Closed:   Accepted</span>
+<span class="a">Verified: Reporter is editor</span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' a' id='issue-3'>
+<span>Issue 3. <a href='#issue-3'>#</a></span>
+<span>Summary:  Improve wording of note about addressing FOs before advancement</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/737'>https://github.com/w3c/w3process/issues/737</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: By AC comment</span></pre>
+<pre class=' a' id='issue-4'>
+<span>Issue 4. <a href='#issue-4'>#</a></span>
+<span>Summary:  AC Review questionnaire option to express disagreement</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/738'>https://github.com/w3c/w3process/issues/738</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/738#issuecomment-1525644054'>https://github.com/w3c/w3process/issues/738#issuecomment-1525644054</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/738#issuecomment-1544643945'>https://github.com/w3c/w3process/issues/738#issuecomment-1544643945</a></span>
+<span class="oi">Closed:   Invalid</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/738#issuecomment-1544662439'>https://github.com/w3c/w3process/issues/738#issuecomment-1544662439</a></span></pre>
+<pre class=' a' id='issue-5'>
+<span>Issue 5. <a href='#issue-5'>#</a></span>
+<span>Summary:  FO resolution isn't explicitly invoked</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/739'>https://github.com/w3c/w3process/issues/739</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: By AC comment</span></pre>
+<pre class=' a' id='issue-6'>
+<span>Issue 6. <a href='#issue-6'>#</a></span>
+<span>Summary:  Clarify that AB/TAG approval uses their normal decision policy</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/741'>https://github.com/w3c/w3process/issues/741</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: By AC comment</span></pre>
+<pre class=' a' id='issue-7'>
+<span>Issue 7. <a href='#issue-7'>#</a></span>
+<span>Summary:  Clarify where Submission Appeals go</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/742'>https://github.com/w3c/w3process/issues/742</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/742#issuecomment-1544656020'>https://github.com/w3c/w3process/issues/742#issuecomment-1544656020</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/commit/189b5ec060b46094c70a3ff343cc0ddb7968e0de'>https://github.com/w3c/w3process/commit/189b5ec060b46094c70a3ff343cc0ddb7968e0de</a></span>
+<span class="a">Closed:   Accepted</span>
+<span class="a">Verified: [reporter thumbs up on response]</span>
+<span>Resolved: Bugfix</span></pre>
+<pre class=' a' id='issue-8'>
+<span>Issue 8. <a href='#issue-8'>#</a></span>
+<span>Summary:  Remove normative keywords from non-normative notes</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/745'>https://github.com/w3c/w3process/issues/745</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/745'>https://github.com/w3c/w3process/issues/745</a></span></pre>
+<pre class=' a' id='issue-9'>
+<span>Issue 9. <a href='#issue-9'>#</a></span>
+<span>Summary:  Avoid two different meanings for “sustain”</span>
+<span>From:     Jeffrey Yasskin</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/746'>https://github.com/w3c/w3process/issues/746</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/762'>https://github.com/w3c/w3process/pull/762</a></span>
+<span class="a">Closed:   Accepted</span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' a' id='issue-10'>
+<span>Issue 10. <a href='#issue-10'>#</a></span>
+<span>Summary:  Clarify which formal contexts require FO for dissent</span>
+<span>From:     Chris Needham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/746#issuecomment-1549991610'>https://github.com/w3c/w3process/issues/746#issuecomment-1549991610</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/746#issuecomment-1553935933'>https://github.com/w3c/w3process/issues/746#issuecomment-1553935933</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/763'>https://github.com/w3c/w3process/pull/763</a></span>
+<span class="a">Closed:   Accepted</span>
+<span class="a">Verified: Reporter is change author</span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' a' id='issue-11'>
+<span>Issue 11. <a href='#issue-11'>#</a></span>
+<span>Summary:  Clarify purpose of dismissal</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/747'>https://github.com/w3c/w3process/issues/747</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1544708674'>https://github.com/w3c/w3process/issues/747#issuecomment-1544708674</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/757/commits/4f20cd1b0ebb44b07987e8ceedbda4b8db382fb7'>https://github.com/w3c/w3process/pull/757/commits/4f20cd1b0ebb44b07987e8ceedbda4b8db382fb7</a></span>
+<span class="a">Closed:   Accepted</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1562212194'>https://github.com/w3c/w3process/issues/747#issuecomment-1562212194</a></span></pre>
+<pre class=' a' id='issue-12'>
+<span>Issue 12. <a href='#issue-12'>#</a></span>
+<span>Summary:  “potential Council member” phrasing is wordy</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/747'>https://github.com/w3c/w3process/issues/747</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1544708674'>https://github.com/w3c/w3process/issues/747#issuecomment-1544708674</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1545309505'>https://github.com/w3c/w3process/issues/747#issuecomment-1545309505</a></span>
+<span class="r">Closed:   Rejected</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1562212194'>https://github.com/w3c/w3process/issues/747#issuecomment-1562212194</a></span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' a' id='issue-13'>
+<span>Issue 13. <a href='#issue-13'>#</a></span>
+<span>Summary:  Note wrt nature of Council is oddly placed</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1529019322'>https://github.com/w3c/w3process/issues/747#issuecomment-1529019322</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1544708674'>https://github.com/w3c/w3process/issues/747#issuecomment-1544708674</a></span>
+<span class="r">Closed:   Rejected</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1562212194'>https://github.com/w3c/w3process/issues/747#issuecomment-1562212194</a></span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' a' id='issue-14'>
+<span>Issue 14. <a href='#issue-14'>#</a></span>
+<span>Summary:  Unclear antecedent for “they”</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1529019871'>https://github.com/w3c/w3process/issues/747#issuecomment-1529019871</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/757/commits/e23a195b5775231ea33ca169ec204217cf33948d'>https://github.com/w3c/w3process/pull/757/commits/e23a195b5775231ea33ca169ec204217cf33948d</a></span>
+<span class="a">Closed:   Accepted</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/747#issuecomment-1562212194'>https://github.com/w3c/w3process/issues/747#issuecomment-1562212194</a></span>
+<span>Resolved: Editorial</span></pre>
+<pre class=' r' id='issue-15A'>
+<span>Issue 15A. <a href='#issue-15A'>#</a></span>
+<span>Summary:  Use supermajority for dismissal voting (instead of majority)</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/748'>https://github.com/w3c/w3process/issues/748</a></span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1529728892'>https://github.com/w3c/w3process/issues/748#issuecomment-1529728892</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1529464611'>https://github.com/w3c/w3process/issues/748#issuecomment-1529464611</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1530089344'>https://github.com/w3c/w3process/issues/748#issuecomment-1530089344</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1545665413'>https://github.com/w3c/w3process/issues/748#issuecomment-1545665413</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/760'>https://github.com/w3c/w3process/pull/760</a></span>
+<span class="r">Closed:   Rejected</span>
+<span>Note:     The AB resolved not to change the voting threshold,</span>
+<span>          but did resolve to make the dismissal vote counts public.</span>
+<span>Resolved: AB May 2023 F2F</span></pre>
+<pre class=' r' id='issue-15B'>
+<span>Issue 15B. <a href='#issue-15B'>#</a></span>
+<span>Summary:  Use single-person veto for dismissal (instead of majority)</span>
+<span>From:     Nigel Megitt</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1531724271'>https://github.com/w3c/w3process/issues/748#issuecomment-1531724271</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1545665413'>https://github.com/w3c/w3process/issues/748#issuecomment-1545665413</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/760'>https://github.com/w3c/w3process/pull/760</a></span>
+<span class="r">Closed:   Rejected</span>
+<span>Note:     The AB resolved not to change the voting threshold,</span>
+<span>          but did resolve to make the dismissal vote counts public.</span>
+<span>Resolved: AB May 2023 F2F</span></pre>
+<pre class='open a' id='issue-16'>
+<span>Issue 16. <a href='#issue-16'>#</a></span>
+<span>Summary:  Improve transparency of dismissal process</span>
+<span>From:     Advisory Board</span>
+<span>Comment   <a href='https://github.com/w3c/w3process/issues/748'>https://github.com/w3c/w3process/issues/748</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/748#issuecomment-1545665413'>https://github.com/w3c/w3process/issues/748#issuecomment-1545665413</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/760'>https://github.com/w3c/w3process/pull/760</a></span>
+<span class="a">Open:     Accepted by AB, proposed to the Director for either Process or /Guide</span>
+<span>Note:     As a result of the discussion in GitHub issue 748 (see above)</span>
+<span>          the AB resolved to require reporting dismissal vote counts,</span>
+<span>          to show the level of support or concern for the participation</span>
+<span>          of each member of the Council.</span></pre>
+<pre class='open a' id='issue-17'>
+<span>Issue 17. <a href='#issue-17'>#</a></span>
+<span>Summary:  AB/TAG Decisions and Council Conflict of Interest</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/749'>https://github.com/w3c/w3process/issues/749</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/749#issuecomment-1551892219'>https://github.com/w3c/w3process/issues/749#issuecomment-1551892219</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/761'>https://github.com/w3c/w3process/pull/761</a></span>
+<span class="a">Open:     Accepted by AB, recommended to adopt into practice by CG</span>
+<span>Note:     The AB resolved not to remove the TAG/AB from the Council,</span>
+<span>          but to exclude them from a Council Decision vote (if any)</span>
+<span>          if the decision/proposal in question came from the TAG/AB.</span>
+<span>          They may still participate in a consensus Council Decision.</span>
+<span>Note:     The Council can always delegate in cases where it feels that</span>
+<span>          would provide a more legitimate decision; and the AC still</span>
+<span>          retains the ability to appeal a Council Decision if necessary.</span>
+<span>Resolved: AB May 2023 F2F</span></pre>
+<pre class=' a' id='issue-18'>
+<span>Issue 18. <a href='#issue-18'>#</a></span>
+<span>Summary:  Expressing disagreement in AC review without Formal Objection</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/750'>https://github.com/w3c/w3process/issues/750</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/750#issuecomment-1529053389'>https://github.com/w3c/w3process/issues/750#issuecomment-1529053389</a></span>
+<span class="a">Closed:   Retracted</span></pre>
+<pre class=' a' id='issue-19A'>
+<span>Issue 19A. <a href='#issue-19A'>#</a></span>
+<span>Summary:  Council/Team Powers of Mitigation too broad</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/751'>https://github.com/w3c/w3process/issues/751</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1529453863'>https://github.com/w3c/w3process/issues/751#issuecomment-1529453863</a></span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1554703461'>https://github.com/w3c/w3process/issues/751#issuecomment-1554703461</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1559068321'>https://github.com/w3c/w3process/issues/751#issuecomment-1559068321</a></span>
+<span class="oi">Closed:   Invalid</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1563685512'>https://github.com/w3c/w3process/issues/751#issuecomment-1563685512</a></span></pre>
+<pre class=' a' id='issue-19B'>
+<span>Issue 19B. <a href='#issue-19B'>#</a></span>
+<span>Summary:  Limits on Council/Team Powers of Mitigation hard to understand</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1560306816'>https://github.com/w3c/w3process/issues/751#issuecomment-1560306816</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1560492526'>https://github.com/w3c/w3process/issues/751#issuecomment-1560492526</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/751#issuecomment-1563685512'>https://github.com/w3c/w3process/issues/751#issuecomment-1563685512</a></span></pre>
+<pre class=' a' id='issue-20'>
+<span>Issue 20. <a href='#issue-20'>#</a></span>
+<span>Summary:  Publication of Minority opinions</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/752'>https://github.com/w3c/w3process/issues/752</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/752#issuecomment-1529175671'>https://github.com/w3c/w3process/issues/752#issuecomment-1529175671</a></span>
+<span class="a">Closed:   Retracted</span></pre>
+<pre class=' a' id='issue-21'>
+<span>Issue 21. <a href='#issue-21'>#</a></span>
+<span>Summary:  Why is AC review of MoU appeal-based rather than approval-based?</span>
+<span>From:     Mark Nottingham</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/753'>https://github.com/w3c/w3process/issues/753</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/753#issuecomment-1529194913'>https://github.com/w3c/w3process/issues/753#issuecomment-1529194913</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/753#issuecomment-1530815822'>https://github.com/w3c/w3process/issues/753#issuecomment-1530815822</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/753#issuecomment-1530815822'>https://github.com/w3c/w3process/issues/753#issuecomment-1530815822</a></span></pre>
+<pre class=' a' id='issue-22'>
+<span>Issue 22. <a href='#issue-22'>#</a></span>
+<span>Summary:  Define “joint deliverables”</span>
+<span>From:     Eric Siow</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/754'>https://github.com/w3c/w3process/issues/754</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/754#issuecomment-1532480890'>https://github.com/w3c/w3process/issues/754#issuecomment-1532480890</a></span>
+<span class="d">Closed:   Deferred</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/754'>https://github.com/w3c/w3process/issues/754</a></span></pre>
+<pre class=' a' id='issue-23'>
+<span>Issue 23. <a href='#issue-23'>#</a></span>
+<span>Summary:  What to do in case of non-responsiveness during FO resolution</span>
+<span>From:     Philippe Le Hegaret</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/755'>https://github.com/w3c/w3process/issues/755</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/755#issuecomment-1551893751'>https://github.com/w3c/w3process/issues/755#issuecomment-1551893751</a></span>
+<span class="oi">Closed:   OutOfScope</span>
+<span>Note:     The AB resolved that /Guide should advise the Team to spin up</span>
+<span>          the Council after a reasonable timeout when the objector or</span>
+<span>          decider is non-responsive while trying to broker consensus or</span>
+<span>          clarify their position.</span>
+<span class="a">Verified: Reporter is co-chair</span>
+<span>Resolved: AB May 2023 F2F</span></pre>
+<pre class='open a' id='issue-24'>
+<span>Issue 24. <a href='#issue-24'>#</a></span>
+<span>Summary:  Increase size of TAG</span>
+<span>From:     Theresa O'Connor</span>
+<span>Comment:  <a href='https://github.com/w3c/AB-memberonly/issues/171'>https://github.com/w3c/AB-memberonly/issues/171</a></span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/465'>https://github.com/w3c/w3process/issues/465</a></span>
+<span>Comment:  <a href='https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1517110155'>https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1517110155</a></span>
+<span>Comment:  <a href='https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1517166312'>https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1517166312</a></span>
+<span>Response: <a href='https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1551895803'>https://github.com/w3c/AB-memberonly/issues/171#issuecomment-1551895803</a></span>
+<span>Changes:  <a href='https://github.com/w3c/w3process/pull/733'>https://github.com/w3c/w3process/pull/733</a></span>
+<span class="a">Open:     Accepted by AB, proposed to Director</span>
+<span>Resolved: AB May 2023 F2F</span></pre>
+<pre class=' a' id='issue-25'>
+<span>Issue 25. <a href='#issue-25'>#</a></span>
+<span>Summary:  Council composition is broken due to “member” vs “participant”</span>
+<span>From:     Tantek Çelik</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/764'>https://github.com/w3c/w3process/issues/764</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/issues/764#issuecomment-1562177663'>https://github.com/w3c/w3process/issues/764#issuecomment-1562177663</a></span>
+<span class="oi">Closed:   Invalid</span>
+<span class="a">Verified: <a href='https://github.com/w3c/w3process/issues/764#issuecomment-1562300254'>https://github.com/w3c/w3process/issues/764#issuecomment-1562300254</a></span></pre>
+<pre class='open ' id='issue-26'>
+<span>Issue 26. <a href='#issue-26'>#</a></span>
+<span>Summary:  Various Objections</span>
+<span>From:     James Rosewell</span>
+<span>Comment:  See <a href='https://www.w3.org/2002/09/wbs/33280/Process-2023/results'>https://www.w3.org/2002/09/wbs/33280/Process-2023/results</a></span>
+<span class="">Open:     Formal Objection; deferred to the Director</span></pre>
+<pre class='open d' id='issue-27'>
+<span>Issue 27. <a href='#issue-27'>#</a></span>
+<span>Summary:  Various Concerns</span>
+<span>From:     Jon Andrieu</span>
+<span>Comment:  See <a href='https://www.w3.org/2002/09/wbs/33280/Process-2023/results'>https://www.w3.org/2002/09/wbs/33280/Process-2023/results</a></span>
+<span>Note:     Needs specific issues / discussion to be actionable</span>
+<span class="d">Open:     Deferred ; needs Team response</span></pre>
+<pre class=' ' id='issue-28'>
+<span>Issue 28. <a href='#issue-28'>#</a></span>
+<span>Summary:  Clarify informative nature of references</span>
+<span>From:     Tantek Çelik</span>
+<span>Comment:  <a href='https://github.com/w3c/w3process/issues/765'>https://github.com/w3c/w3process/issues/765</a></span>
+<span>Response: <a href='https://github.com/w3c/w3process/pull/766'>https://github.com/w3c/w3process/pull/766</a></span>
+<span class="">Closed:   Approved by the Director</span></pre>
+<script>
+(function () {
+	var sheet = document.styleSheets[0];
+	function addCheckbox(className) {
+		var element = document.querySelector('*.' + className);
+		var span = document.createElement('span');
+		span.innerHTML = element.innerHTML;
+		element.innerHTML = null;
+		var check = document.createElement('input');
+		check.type = 'checkbox';
+		if (className == 'open') {
+			check.checked = false;
+			sheet.insertRule('pre:not(.open)' + '{}', sheet.cssRules.length);
+			check.onchange = function (e) {
+				rule.style.display = this.checked ? 'none' : 'block';
+			}
+		}
+		else {
+			check.checked = true;
+			sheet.insertRule('pre.' + className + '{}', sheet.cssRules.length);
+			check.onchange = function (e) {
+				rule.style.display = this.checked ? 'block' : 'none';
+			}
+		}
+		var rule = sheet.cssRules[sheet.cssRules.length - 1];
+		element.appendChild(check);
+		element.appendChild(span);
+	}
+	['a', 'd', 'fo', 'oi', 'r', 'open'].forEach(addCheckbox);
+}());
+</script>

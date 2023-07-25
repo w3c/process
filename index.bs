@@ -29,6 +29,7 @@ Group: processcg
 Status: CG-DRAFT
 ED: https://www.w3.org/Consortium/Process/Drafts/
 TR: https://www.w3.org/Consortium/Process/
+Previous Version: https://www.w3.org/2023/Process-20230612/
 Previous Version: https://www.w3.org/2021/Process-20211102/
 Previous Version: https://www.w3.org/2020/Process-20200915/
 Previous Version: https://www.w3.org/2019/Process-20190301/
@@ -53,14 +54,12 @@ Abstract:
 	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
 	This document,
-	which is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>,
+	which is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>,
 	is a work in progress
 	and further changes may occur before completion of this revision cycle.
 	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
-	A <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">7 April snapshot</a> was created
-	and sent for W3C Advisory Committee Review on 12 April 2023.
 Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
@@ -616,7 +615,7 @@ Meeting Recordings and Transcripts</h5>
 	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.
 
 <h4 id="tooling">
-Tooling for Discussions and Publications</h4>
+Tooling and Archiving for Discussions and Publications</h4>
 
 	For [=W3C Groups=] operating under this Process,
 	a core operating principle is to allow access across disabilities,
@@ -1415,14 +1414,18 @@ Requirements for All Chartered Groups</h4>
 	or an <a href="#invited-expert-wg">Invited Expert</a>,
 	(invited by the [=Team=]).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
-	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
+	
+	Note: The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
 
 	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Team Contact</dfn>,
 	who acts as the interface between the [=Chair=],
 	group participants,
 	and the rest of the Team.
-	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+	
+	Note: The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] 
+	is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+				
 	The [=Chair=] and the [=Team Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
 
 	Each group <em class="rfc2119">must</em> have an archived mailing list
@@ -2061,7 +2064,7 @@ Consensus</h4>
 
 	Note: A [=Formal Objection=] always indicates a sustained objection,
 	but isn't necessary to express it
-	(except in some formal contexts such as [=AC Reviews=]).
+	(except in the context of formal [=AC Reviews=]).
 	Disagreement with a proposed decision,
 	however, does not always rise to the level of sustained objection,
 	as individuals could be willing to accept a decision
@@ -2343,7 +2346,7 @@ Council Composition</h5>
 	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
 
 	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
-	Membership of an instance the [=Council=] is be fixed at formation,
+	Membership of each [=Council=] instance is fixed at formation,
 	and is not changed by any [=AB=] or [=TAG=] elections
 	occurring before that Council has reached a conclusion.
 	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
@@ -2381,10 +2384,11 @@ Extraordinary Delegation</h5>
 <h5 id=council-participation>
 Council Participation, Dismissal, and Renunciation</h5>
 
+	A potential Council member may be <dfn lt="dismissed | dismiss | dismissal">dismissed</dfn> from the Council.
 	In order to apply consistent criteria,
 	the potential Council members decide collectively
 	which reasons against service
-	rise to a sufficient level for a potential member to be <dfn lt="dismissed | dismiss | dismissal">dismissed</dfn>.
+	rise to a sufficient level for a potential member to be [=dismissed=].
 	No-one is automatically dismissed,
 	and individual recusal is not used in the Council.
 	[=Dismissal=] applies to an individual person in the context of a specific Council,
@@ -2409,8 +2413,8 @@ Council Participation, Dismissal, and Renunciation</h5>
 	Before a Council forms,
 	the [=Team=] presents the entire list of potential members
 	and collected reasons and responses
-	to the potential Council members.
-	They then consider for each potential member
+	to the potential Council members,
+	who then consider for each potential member
 	whether that individual's participation
 	would compromise the integrity of the Council decision,
 	and vote whether to dismiss that potential member.
@@ -2488,12 +2492,12 @@ Council Deliberations</h5>
 	Otherwise,
 	after sufficient deliberation,
 	the [=W3C Council=] decides whether to
-	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
+	<dfn lt="uphold | upholds | upheld | upholding">uphold</dfn> or <dfn>overrule</dfn> the objection.
 	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
 	even if it agrees with some of the supportive arguments.
 
 	<p id=fo-mitigations>
-	When [=sustaining=] an objection,
+	When [=upholding=] an objection,
 	it <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	(e.g., if the objection concerns material already in a published document)
@@ -2540,11 +2544,11 @@ Council Decision Report</h5>
 
 	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
 	which:
-	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection(s).
+	* <em class=rfc2119>must</em> state whether the Council [=upholds=] or [=overrules=] the objection(s).
 	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
-	* if the [=Formal Objection=] has been sustained, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
+	* if the [=Formal Objection=] has been upheld, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
 	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
@@ -2632,8 +2636,7 @@ After the Review Period</h4>
 	whether there were any [=Formal Objections=],
 	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the [=Formal Objections=].
 
-	If there is [=dissent=]
-	(i.e., there were [=Formal Objections=], at least some of which were sustained)
+	If there were [=Formal Objections=], at least some of which were [=upheld=],
 	or if there is not [=consensus=] because of insufficient support,
 	[=W3C Decision=] <em class=rfc2119>must</em> be one of:
 
@@ -3480,7 +3483,7 @@ Advancement on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections
-			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=]),
+			(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects a [=Transition Request=]
 			it <em class=rfc2119>must</em> indicate its rationale
@@ -3553,7 +3556,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=]),
 			<em>should</em> be withheld if any Process requirements are not met,
 			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
-			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=])
+			(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=])
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects an [=Update Request=],
 			it must indicate its rationale to the [=Working Group=].
@@ -4316,7 +4319,7 @@ Abandoning a W3C Recommendation</h5>
 <h5 id="deactivation">
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 
-	The process of rescinding, obsoleting, 
+	The process of rescinding, obsoleting,
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
@@ -5179,9 +5182,7 @@ Member Submission Process</h2>
 					in addition to Team comments about the [=Member Submission=].
 
 				<li>If <a href="#SubmissionNo">rejected</a>,
-					the [=Submitter=](s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a>
-					to either the [=TAG=]
-					or the [=Advisory Board=].
+					the [=Submitter=](s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a>.
 			</ul>
 	</ol>
 
@@ -5493,6 +5494,7 @@ Acknowledgments</h2>
 	Brian Kardell,
 	Carine Bournez (W3C),
 	Charles McCathie Nevile (ConsenSys),
+	Chris Needham (BBC),
 	Chris Wilson (Google),
 	David Singer (Apple),
 	Delfí Ramírez,
@@ -5500,8 +5502,10 @@ Acknowledgments</h2>
 	Elika J. Etemad <abbr title="also known as">aka</abbr> fantasai,
 	Fuqiao Xue (W3C),
 	Jeff Jaffe (W3C),
+	Jeffrey Yasskin (Google),
 	Kevin Fleming (Bloomberg),
 	Léonie Watson (The Paciello Group),
+	Mark Nottingham (Cloudflare),
 	Michael Champion (Microsoft),
 	Nigel Megitt (BBC),
 	Philippe Le Hégaret (W3C),
@@ -5609,7 +5613,7 @@ Acknowledgments</h2>
 	Robin Berjon (W3C),
 	Sally Khudairi (W3C),
 	Sam Ruby (IBM),
-	Sam Sneddon,		
+	Sam Sneddon,
 	Sandro Hawke (W3C),
 	Sangwhan Moon (Odd Concepts),
 	Scott Peterson (Google),
@@ -5635,186 +5639,28 @@ Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2021 class=no-num>
-Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a></h3>
+<h3 id=changes-2023 class=no-num>
+Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a></h3>
 
-	<p>This document is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>.
-	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2022%22+is%3Aclosed">list of issues addressed</a>,
-	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2021 to this latest version</a>,
+	<p>This document is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>.
+	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2023-1%22+is%3Aclosed">list of issues addressed</a>,
+	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2023 to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2021...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/p2023...main">detailed log of all changes since then</a>
 	are available.
 
 	In addition to a number of editorial adjustments
-	and minor teaks,
+	and minor tweaks,
 	the following is a summary of the main differences:
 
-<h4 id=dirfree-changes>
-Changes related to the role of the Director</h4>
-
 	<ul>
-		<li>
-			<a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
-			but instead must be based on the content of the review,
-			with specific rules (based on current best practices)
-			about what can or cannot be adjusted post review,
-			and under what circumstances.
-
-		<li>
-			Rather than the Director, the [=W3C Council=],
-			which is composed of TAG+AB+CEO,
-			will now hear and resolve formal objections.
-
-		<li>
-			The W3C Council will also hear [=Submission Appeals=],
-			which were previously handled separately by either the TAG or the AB,
-			depending on the grounds for the appeal.
-
-		<li>
+  		<li>  
 			Expand the TAG from 6 elected and 3 appointed to 8 and 3,
 			to deal with the increased workload.
-
-		<li>
-			The [=Team=] rather than the Director is charged with
-			[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
-			subject to ratification by the [=TAG=] and [=AB=].
-
-		<li>
-			There is no longer an ex-officio seat for the Director on the [=TAG=],
-			but Tim Berners-Lee personally does continue to hold one.
-
-		<li>
-			The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
-			have been fulfilled for [=Transition Requests=] and [=Update Requests=].
-
-		<li>
-			Require AB and TAG approval when the [=Team=] wants to
-			<a href="#rec-track-regression">lower the maturity stage</a>
-			of a technical report without a [=Group Decision=].
-
-		<li>
-			The [=Team=], [=AB=], or [=TAG=] rather than the Director is now responsible
-			for proposing group creation and forcible closure;
-			[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
-			(it already was for group creation).
-
-		<li>
-			The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
-
-		<li>
-			The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
-			(now called [=technical agreements=])
-			and other agreements related to the technical program.
-
-		<li>
-			The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
-			(see [[#MemberAssoc]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
-
-		<li>
-			The [=Team=] rather than the Director is charged with handling [=Member Submission=] requests
-			(but see also [=Submission Appeals=]).
 	</ul>
 
-<h4 id=other-gov-changes>
-Other Governance Changes</h4>
 
-	<ul>
-		<li>
-			The [=TAG=] now picks its own chair(s),
-			and the timing of AB and TAG chair selection is clarified.
-
-		<li>
-			Appointed [=TAG=] seats now have consecutive term limits.
-
-		<li>
-			Remove mentions of the Hosts,
-			add recognition of the existence of the W3C Inc. Board of Directors,
-			and adjust language for W3C being rooted in W3C Inc.
-
-		<li>
-			Codify that the AB is expected to pick up to two of its participants
-			as <a href="#ab-bod-liaison">liaisons for the board</a>.
-
-		<li>
-			Clarify interactions between AC / Team / Board about MoUs
-			(now called [=technical agreements=]).
-	</ul>
-
-<h4 id=misc-changes>
-Other miscellaneous changes</h4>
-
-	<ul>
-		<li>
-			Improve the definition of consensus
-			to make the notion usable even in contexts
-			where Formal Objections would be inappropriate
-			(such as inside a W3C Council,
-			or when the TAG or AB pick their chair),
-			and to avoid circular definitions.
-
-		<li>
-			Merge Group Decision Appeal and Formal Object;
-			clarify what can be objected to.
-
-		<li>
-			Define editorial vs substantive changes for non-REC-track documents.
-
-		<li>
-			Expect supporting material to meeting minutes to be archived as the minutes are.
-
-		<li>
-			Encourage people requesting an [=AC Appeal=]
-			to share their request with the [=Advisory Committee=]
-			in addition to the [=Team=].
-
-		<li>
-			Allow [=Recommendations=] to transition directly to [=Working Draft=]
-			without having to go through [=Candidate Recommendation=]
-			when making [[#revised-rec-substantive|substantive changes]].
-
-		<li>
-			Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a>
-			as this document, the CEPC, or the Patent Policy.
-
-		<li>
-			Similarly to the pre-existing requirement that a public record be made
-			about confidential Formal Objections about public things,
-			added a requirement that a member visible record be made
-			about confidential Formal Objections about member-visible things.
-
-		<li>
-			Stop excluding comments from AC Reps from those that have to be addressed
-			while [[#transition-pr|transitioning to Proposed Recommendation]];
-			just because there will be an opportunity to address them later
-			doesn't mean they shouldn't be handled at the first opportunity.
-
-		<li>
-			Clarify what the term [=Candidate Recommendation review period=] refers to.
-
-		<li>
-			Clarify how the advance notice period for [=MoU=] works.
-
-		<li>
-			Various bits of information that were so far required
-			to be included in announcements of [=charter extensions=]
-			are covered in the group's homepage,
-			making it sufficient to point to that page
-			rather than having to inline everything in the announcement.
-
-		<li>
-			Be more rigorous in references to the Patent Policy,
-			using dated versions when appropriate.
-
-		<li>
-			Rename “Member Consortia” into [=Member Associations=]
-			to align with terminology in the Bylaws
-			(and to avoid confusion with W3C itself).
-
-		<li>
-			Rename “maturity level” into “maturity stage”.
-	</ul>
-
-<h3 id=changes-previous class=no-num oldids="changes-2020, changes-2019, changes-2018, changes-2017">
+<h3 id=changes-previous class=no-num oldids="changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
 
 	Changes since earlier versions of the Process are detailed
@@ -6028,7 +5874,7 @@ Changes since earlier versions</h3>
 		"title": "W3C IPR Policies"
 	},
 	"COUNCIL-REPORT-INDEX": {
-		"href": "https://beta.w3.org/about/council/",
+		"href": "https://www.w3.org/about/council/",
 		"title": "Council Report Index"
 	}
 

@@ -3,12 +3,13 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>W3C Process Document</title>
-  <meta content="CG-DRAFT" name="w3c-status">
-  <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
+  <link href="https://www.w3.org/StyleSheets/TR/2021/base" rel="stylesheet">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
+  <meta content="W3C Process, Team, Recommendation, Advisory Committee, Advisory Board, TAG, Working Group, Interest Group, Workshop, charter, Working Draft, Process Document, Candidate Recommendation, Director, Proposed Recommendation, Submission request" name="keywords">
+  <meta content="  	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential  	by developing common protocols that promote its evolution and ensure its interoperability.  	The W3C Process Document describes the organizational structure of the W3C and processes,  	responsibilities and functions that enable W3C to accomplish its mission.  	This document does not describe the internal workings of the Team.    	For more information about the W3C mission and the history of W3C,  	please refer to <a href=&quot;https://www.w3.org/Consortium/&quot;>About W3C</a>." name="abstract">
   <meta content="Bikeshed version 2e3c4c68b, updated Fri Jan 14 14:49:00 2022 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="95e6c7d33efdf992bfb642e72b424822861c9ef9" name="document-revision">
+  <meta content="3c7788f8420ffe30d4582e75dc9d3d28f7e02adc" name="document-revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -114,113 +115,6 @@ pre .property::before, pre .property::after {
 }</style>
 <style>/* style-colors */
 
-/* Any --*-text not paired with a --*-bg is assumed to have a transparent bg */
-:root {
-    color-scheme: light dark;
-
-    --text: black;
-    --bg: white;
-
-    --unofficial-watermark: url(https://www.w3.org/StyleSheets/TR/2016/logos/UD-watermark);
-
-    --logo-bg: #1a5e9a;
-    --logo-active-bg: #c00;
-    --logo-text: white;
-
-    --tocnav-normal-text: #707070;
-    --tocnav-normal-bg: var(--bg);
-    --tocnav-hover-text: var(--tocnav-normal-text);
-    --tocnav-hover-bg: #f8f8f8;
-    --tocnav-active-text: #c00;
-    --tocnav-active-bg: var(--tocnav-normal-bg);
-
-    --tocsidebar-text: var(--text);
-    --tocsidebar-bg: #f7f8f9;
-    --tocsidebar-shadow: rgba(0,0,0,.1);
-    --tocsidebar-heading-text: hsla(203,20%,40%,.7);
-
-    --toclink-text: var(--text);
-    --toclink-underline: #3980b5;
-    --toclink-visited-text: var(--toclink-text);
-    --toclink-visited-underline: #054572;
-
-    --heading-text: #005a9c;
-
-    --hr-text: var(--text);
-
-    --algo-border: #def;
-
-    --del-text: red;
-    --del-bg: transparent;
-    --ins-text: #080;
-    --ins-bg: transparent;
-
-    --a-normal-text: #034575;
-    --a-normal-underline: #bbb;
-    --a-visited-text: var(--a-normal-text);
-    --a-visited-underline: #707070;
-    --a-hover-bg: rgba(75%, 75%, 75%, .25);
-    --a-active-text: #c00;
-    --a-active-underline: #c00;
-
-    --blockquote-border: silver;
-    --blockquote-bg: transparent;
-    --blockquote-text: currentcolor;
-
-    --issue-border: #e05252;
-    --issue-bg: #fbe9e9;
-    --issue-text: var(--text);
-    --issueheading-text: #831616;
-
-    --example-border: #e0cb52;
-    --example-bg: #fcfaee;
-    --example-text: var(--text);
-    --exampleheading-text: #574b0f;
-
-    --note-border: #52e052;
-    --note-bg: #e9fbe9;
-    --note-text: var(--text);
-    --noteheading-text: hsl(120, 70%, 30%);
-    --notesummary-underline: silver;
-
-    --assertion-border: #aaa;
-    --assertion-bg: #eee;
-    --assertion-text: black;
-
-    --advisement-border: orange;
-    --advisement-bg: #fec;
-    --advisement-text: var(--text);
-    --advisementheading-text: #b35f00;
-
-    --warning-border: red;
-    --warning-bg: hsla(40,100%,50%,0.95);
-    --warning-text: var(--text);
-
-    --amendment-border: #330099;
-    --amendment-bg: #F5F0FF;
-    --amendment-text: var(--text);
-    --amendmentheading-text: #220066;
-
-    --def-border: #8ccbf2;
-    --def-bg: #def;
-    --def-text: var(--text);
-    --defrow-border: #bbd7e9;
-
-    --datacell-border: silver;
-
-    --indexinfo-text: #707070;
-
-    --indextable-hover-text: black;
-    --indextable-hover-bg: #f7f8f9;
-
-    --outdatedspec-bg: rgba(0, 0, 0, .5);
-    --outdatedspec-text: black;
-    --outdated-bg: maroon;
-    --outdated-text: white;
-    --outdated-shadow: red;
-
-    --editedrec-bg: darkorange;
-}</style>
 <style>/* style-counters */
 
 body {
@@ -363,146 +257,19 @@ a.self-link::before            { content: "¶"; }
 .heading > a.self-link::before { content: "§"; }
 dfn > a.self-link::before      { content: "#"; }
 </style>
-<style>/* style-darkmode */
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: #ddd;
-        --bg: black;
-
-        --unofficial-watermark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='%23100808' transform='translate(200 200) rotate(-45) translate(-200 -200)' stroke='%23100808' stroke-width='3'%3E%3Ctext x='50%25' y='220' style='font: bold 70px sans-serif; text-anchor: middle; letter-spacing: 6px;'%3EUNOFFICIAL%3C/text%3E%3Ctext x='50%25' y='305' style='font: bold 70px sans-serif; text-anchor: middle; letter-spacing: 6px;'%3EDRAFT%3C/text%3E%3C/g%3E%3C/svg%3E");
-
-        --logo-bg: #1a5e9a;
-        --logo-active-bg: #c00;
-        --logo-text: white;
-
-        --tocnav-normal-text: #999;
-        --tocnav-normal-bg: var(--bg);
-        --tocnav-hover-text: var(--tocnav-normal-text);
-        --tocnav-hover-bg: #080808;
-        --tocnav-active-text: #f44;
-        --tocnav-active-bg: var(--tocnav-normal-bg);
-
-        --tocsidebar-text: var(--text);
-        --tocsidebar-bg: #080808;
-        --tocsidebar-shadow: rgba(255,255,255,.1);
-        --tocsidebar-heading-text: hsla(203,20%,40%,.7);
-
-        --toclink-text: var(--text);
-        --toclink-underline: #6af;
-        --toclink-visited-text: var(--toclink-text);
-        --toclink-visited-underline: #054572;
-
-        --heading-text: #8af;
-
-        --hr-text: var(--text);
-
-        --algo-border: #456;
-
-        --del-text: #f44;
-        --del-bg: transparent;
-        --ins-text: #4a4;
-        --ins-bg: transparent;
-
-        --a-normal-text: #6af;
-        --a-normal-underline: #555;
-        --a-visited-text: var(--a-normal-text);
-        --a-visited-underline: var(--a-normal-underline);
-        --a-hover-bg: rgba(25%, 25%, 25%, .2);
-        --a-active-text: #f44;
-        --a-active-underline: var(--a-active-text);
-
-        --borderedblock-bg: rgba(255, 255, 255, .05);
-
-        --blockquote-border: silver;
-        --blockquote-bg: var(--borderedblock-bg);
-        --blockquote-text: currentcolor;
-
-        --issue-border: #e05252;
-        --issue-bg: var(--borderedblock-bg);
-        --issue-text: var(--text);
-        --issueheading-text: hsl(0deg, 70%, 70%);
-
-        --example-border: hsl(50deg, 90%, 60%);
-        --example-bg: var(--borderedblock-bg);
-        --example-text: var(--text);
-        --exampleheading-text: hsl(50deg, 70%, 70%);
-
-        --note-border: hsl(120deg, 100%, 35%);
-        --note-bg: var(--borderedblock-bg);
-        --note-text: var(--text);
-        --noteheading-text: hsl(120, 70%, 70%);
-        --notesummary-underline: silver;
-
-        --assertion-border: #444;
-        --assertion-bg: var(--borderedblock-bg);
-        --assertion-text: var(--text);
-
-        --advisement-border: orange;
-        --advisement-bg: #222218;
-        --advisement-text: var(--text);
-        --advisementheading-text: #f84;
-
-        --warning-border: red;
-        --warning-bg: hsla(40,100%,20%,0.95);
-        --warning-text: var(--text);
-
-        --amendment-border: #330099;
-        --amendment-bg: #080010;
-        --amendment-text: var(--text);
-        --amendmentheading-text: #cc00ff;
-
-        --def-border: #8ccbf2;
-        --def-bg: #080818;
-        --def-text: var(--text);
-        --defrow-border: #136;
-
-        --datacell-border: silver;
-
-        --indexinfo-text: #aaa;
-
-        --indextable-hover-text: var(--text);
-        --indextable-hover-bg: #181818;
-
-        --outdatedspec-bg: rgba(255, 255, 255, .5);
-        --outdatedspec-text: black;
-        --outdated-bg: maroon;
-        --outdated-text: white;
-        --outdated-shadow: red;
-
-        --editedrec-bg: darkorange;
-    }
-    /* In case a transparent-bg image doesn't expect to be on a dark bg,
-       which is quite common in practice... */
-    img { background: white; }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --selflink-text: black;
-        --selflink-bg: silver;
-        --selflink-hover-text: white;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --dfnpanel-bg: #222;
-        --dfnpanel-text: var(--text);
-    }
-}</style>
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-04-07">7 April 2023</time></p>
-   <details open>
-    <summary>More details about this document</summary>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2023-06-12">12 June 2023</time></p>
     <div data-fill-with="spec-metadata">
      <dl>
       <dt>This version:
-      <dd><a class="u-url" href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04</a>
+      <dd><a class="u-url" href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-06-12">https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-06-12</a>
       <dt>Latest published version:
       <dd><a href="https://www.w3.org/Consortium/Process/">https://www.w3.org/Consortium/Process/</a>
+      <dt>Editor's Draft:
+      <dd><a class="u-url" href="https://www.w3.org/Consortium/Process/Drafts/">https://www.w3.org/Consortium/Process/Drafts/</a>
       <dt>Previous Versions:
       <dd><a href="https://www.w3.org/2021/Process-20211102/" rel="prev">https://www.w3.org/2021/Process-20211102/</a>
       <dd><a href="https://www.w3.org/2020/Process-20200915/" rel="prev">https://www.w3.org/2020/Process-20200915/</a>
@@ -522,7 +289,6 @@ dfn > a.self-link::before      { content: "#"; }
       <dd class="editor p-author h-card vcard"><a class="p-name fn u-url url" href="https://www.w3.org/">Ian Jacobs</a> (<span class="p-org org">W3C</span>)
      </dl>
     </div>
-   </details>
    <div data-fill-with="warning"></div>
    <p class="copyright" data-fill-with="copyright"><a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2023 <a href="https://www.w3.org/">World Wide Web Consortium</a>. <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup> <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" rel="license">permissive document license</a> rules apply. </p>
    <hr title="Separator for header">
@@ -545,14 +311,17 @@ dfn > a.self-link::before      { content: "#"; }
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 7 April 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 12 June 2023 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 
 which is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>,
-is offered for W3C Advisory Committee Review of the proposal to adopt this
-as the new operative Process document
-per <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>.</p>
-   <p></p>
+is a work in progress
+and further changes may occur before completion of this revision cycle.
+As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
+once the W3C Advisory Board considers it ready for adoption,
+it will be offered for W3C Advisory Committee Review.
+A <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">7 April snapshot</a> was created
+and sent for W3C Advisory Committee Review on 12 April 2023.</p>
    <p> A <a href="#changes">history of substantial changes</a> from previous versions of the Process Document is provided. </p>
   </div>
   <div data-fill-with="at-risk"></div>
@@ -596,7 +365,7 @@ per <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Proces
           <li><a href="#meeting-minutes"><span class="secno">3.1.2.2</span> <span class="content"> Meeting Minutes</span></a>
           <li><a href="#meeting-recording"><span class="secno">3.1.2.3</span> <span class="content"> Meeting Recordings and Transcripts</span></a>
          </ol>
-        <li><a href="#tooling"><span class="secno">3.1.3</span> <span class="content"> Tooling for Discussions and Publications</span></a>
+        <li><a href="#tooling"><span class="secno">3.1.3</span> <span class="content"> Tooling and Archiving for Discussions and Publications</span></a>
         <li><a href="#resignation"><span class="secno">3.1.4</span> <span class="content"> Resignation from a Group</span></a>
        </ol>
       <li>
@@ -1172,7 +941,7 @@ per <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Proces
 	(a) who will have access to the recording or transcript and
 	(b) the purpose/use of it and
 	(c) how it will be retained (e.g. privately, in a cloud service) and for how long.</p>
-    <h4 class="heading settled" data-level="3.1.3" id="tooling"><span class="secno">3.1.3. </span><span class="content"> Tooling for Discussions and Publications</span><a class="self-link" href="#tooling"></a></h4>
+    <h4 class="heading settled" data-level="3.1.3" id="tooling"><span class="secno">3.1.3. </span><span class="content"> Tooling and Archiving for Discussions and Publications</span><a class="self-link" href="#tooling"></a></h4>
     <p>For <a data-link-type="dfn" href="#w3c-group" id="ref-for-w3c-group①">W3C Groups</a> operating under this Process,
 	a core operating principle is to allow access across disabilities,
 	across country borders,
@@ -1721,15 +1490,15 @@ per <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Proces
 	a <a href="#Team">Team representative</a>,
 	or an <a href="#invited-expert-wg">Invited Expert</a>,
 	(invited by the <a data-link-type="dfn" href="#team" id="ref-for-team③⑧">Team</a>).
-	The requirements of this document that apply to those types of participants apply to Chairs as well.
-	The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> <a data-link-type="biblio" href="#biblio-chair">[CHAIR]</a> is described
+	The requirements of this document that apply to those types of participants apply to Chairs as well.</p>
+    <p class="note" role="note"><span>Note:</span> The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> <a data-link-type="biblio" href="#biblio-chair">[CHAIR]</a> is described
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide">[GUIDE]</a>.</p>
     <p>Each group <em class="rfc2119">must</em> have a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="TeamContact">Team Contact</dfn>,
 	who acts as the interface between the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs③">Chair</a>,
 	group participants,
-	and the rest of the Team.
-	The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> <a data-link-type="biblio" href="#biblio-team-contact">[TEAM-CONTACT]</a> is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide">[GUIDE]</a>.
-	The <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs④">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact">Team Contact</a> of a group <em class="rfc2119">should not</em> be the same individual.</p>
+	and the rest of the Team.</p>
+    <p class="note" role="note"><span>Note:</span> The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> <a data-link-type="biblio" href="#biblio-team-contact">[TEAM-CONTACT]</a> is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide">[GUIDE]</a>.</p>
+    <p>The <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs④">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact">Team Contact</a> of a group <em class="rfc2119">should not</em> be the same individual.</p>
     <p>Each group <em class="rfc2119">must</em> have an archived mailing list
 	for formal group communication
 	(e.g., for meeting announcements and <a data-link-type="dfn" href="#minutes" id="ref-for-minutes①">minutes</a>,
@@ -2137,7 +1906,7 @@ would be detrimental to W3C or its mission.</p>
     </dl>
     <p class="note" role="note"><span>Note:</span> A <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection④">Formal Objection</a> always indicates a sustained objection,
 	but isn’t necessary to express it
-	(except in some formal contexts such as <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③">AC Reviews</a>).
+	(except in the context of formal <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③">AC Reviews</a>).
 	Disagreement with a proposed decision,
 	however, does not always rise to the level of sustained objection,
 	as individuals could be willing to accept a decision
@@ -2341,7 +2110,7 @@ would be detrimental to W3C or its mission.</p>
     </ul>
     <p>Participation in a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑥">W3C Council</a> <em class="rfc2119">must not</em> require attendance of <a data-link-type="dfn" href="#ftf-meeting" id="ref-for-ftf-meeting③">face-to-face meetings</a>.</p>
     <p>A distinct instance of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑦">W3C Council</a> is convened for each decision being appealed or objected to.
-	Membership of an instance the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑧">Council</a> is be fixed at formation,
+	Membership of each <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑧">Council</a> instance is fixed at formation,
 	and is not changed by any <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑦">AB</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③②">TAG</a> elections
 	occurring before that Council has reached a conclusion.
 	However, if participation in a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑨">Council</a> falls so low as to hinder effective and balanced deliberations,
@@ -2368,12 +2137,13 @@ would be detrimental to W3C or its mission.</p>
     <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑥">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①③">Advisory Committee</a> when a <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⓪">Formal Objection</a> has been delegated,
 	and to whom it has been delegated.</p>
     <h5 class="heading settled" data-level="5.6.2.3" id="council-participation"><span class="secno">5.6.2.3. </span><span class="content"> Council Participation, Dismissal, and Renunciation</span><a class="self-link" href="#council-participation"></a></h5>
-    <p>In order to apply consistent criteria,
+    <p>A potential Council member may be <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="dismissed | dismiss | dismissal" data-noexport id="dismissed">dismissed</dfn> from the Council.
+	In order to apply consistent criteria,
 	the potential Council members decide collectively
 	which reasons against service
-	rise to a sufficient level for a potential member to be <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="dismissed | dismiss | dismissal" data-noexport id="dismissed">dismissed</dfn>.
+	rise to a sufficient level for a potential member to be <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed">dismissed</a>.
 	No-one is automatically dismissed,
-	and individual recusal is not used in the Council. <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed">Dismissal</a> applies to an individual person in the context of a specific Council,
+	and individual recusal is not used in the Council. <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed①">Dismissal</a> applies to an individual person in the context of a specific Council,
 	and should be used rarely in order to preserve the greatest diversity on the Council.</p>
     <p class="note" role="note"><span>Note:</span> A W3C Council is a deliberative body whose purpose is
 	to find the best way forward for the Web and for W3C.
@@ -2391,8 +2161,8 @@ would be detrimental to W3C or its mission.</p>
     <p>Before a Council forms,
 	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑨">Team</a> presents the entire list of potential members
 	and collected reasons and responses
-	to the potential Council members.
-	They then consider for each potential member
+	to the potential Council members,
+	who then consider for each potential member
 	whether that individual’s participation
 	would compromise the integrity of the Council decision,
 	and vote whether to dismiss that potential member.
@@ -2408,7 +2178,7 @@ would be detrimental to W3C or its mission.</p>
 	not abstention,
 	and <em class="rfc2119">should not</em> be used
 	to excuse an absence of participation.</p>
-    <p>Any person who has been <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed①">dismissed</a> or who <a data-link-type="dfn" href="#renounce" id="ref-for-renounce">renounces</a> their seat
+    <p>Any person who has been <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed②">dismissed</a> or who <a data-link-type="dfn" href="#renounce" id="ref-for-renounce">renounces</a> their seat
 	does not receive <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①③">Council</a> materials,
 	take part in its deliberations,
 	help in the determination of consensus,
@@ -2444,9 +2214,9 @@ would be detrimental to W3C or its mission.</p>
 	which, if successful, disposes the formal objection. </p>
     <p>Otherwise,
 	after sufficient deliberation,
-	the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⑦">W3C Council</a> decides whether to <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="sustain">sustain</dfn> or <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="overrule">overrule</dfn> the objection.
+	the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⑦">W3C Council</a> decides whether to <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="uphold | upholds | upheld | upholding" data-noexport id="uphold">uphold</dfn> or <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="overrule">overrule</dfn> the objection.
 	The <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⑧">W3C Council</a> <em class="rfc2119">may</em> <a data-link-type="dfn" href="#overrule" id="ref-for-overrule">overrule</a> the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②①">Formal Objection</a> even if it agrees with some of the supportive arguments.</p>
-    <p id="fo-mitigations"> When <a data-link-type="dfn" href="#sustain" id="ref-for-sustain">sustaining</a> an objection,
+    <p id="fo-mitigations"> When <a data-link-type="dfn" href="#uphold" id="ref-for-uphold">upholding</a> an objection,
 	it <em class="rfc2199">should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	(e.g., if the objection concerns material already in a published document)
@@ -2484,18 +2254,18 @@ would be detrimental to W3C or its mission.</p>
 	which:</p>
     <ul>
      <li data-md>
-      <p><em class="rfc2119">must</em> state whether the Council <a data-link-type="dfn" href="#sustain" id="ref-for-sustain①">sustains</a> or <a data-link-type="dfn" href="#overrule" id="ref-for-overrule①">overrules</a> the objection(s).</p>
+      <p><em class="rfc2119">must</em> state whether the Council <a data-link-type="dfn" href="#uphold" id="ref-for-uphold①">upholds</a> or <a data-link-type="dfn" href="#overrule" id="ref-for-overrule①">overrules</a> the objection(s).</p>
      <li data-md>
       <p><em class="rfc2119">must</em> provide a rationale supporting the decision,
 which <em class="rfc2119">should</em> address each argument raised in the Formal Objection(s).</p>
      <li data-md>
       <p><em class="rfc2119">must</em> include any recommendation decided by the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council②⑥">Council</a>.</p>
      <li data-md>
-      <p>if the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②③">Formal Objection</a> has been sustained, <em class="rfc2119">should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.</p>
+      <p>if the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②③">Formal Objection</a> has been upheld, <em class="rfc2119">should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.</p>
      <li data-md>
       <p><em class="rfc2119">must</em> include the <a data-link-type="dfn" href="#minority-opinion" id="ref-for-minority-opinion">Minority Opinion</a>(s), if any.</p>
      <li data-md>
-      <p><em class="rfc2119">must</em> report the names of those who were <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed②">dismissed</a> or <a data-link-type="dfn" href="#renounce" id="ref-for-renounce①">renounced</a> their seat as well as those who were qualified to serve.</p>
+      <p><em class="rfc2119">must</em> report the names of those who were <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed③">dismissed</a> or <a data-link-type="dfn" href="#renounce" id="ref-for-renounce①">renounced</a> their seat as well as those who were qualified to serve.</p>
      <li data-md>
       <p><em class="rfc2119">must</em> report the names of the individuals who participated in the final decision.</p>
      <li data-md>
@@ -2555,7 +2325,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	and specifically
 	whether there were any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⑤">Formal Objections</a>,
 	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⑥">Formal Objections</a>.</p>
-    <p>If there is <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> (i.e., there were <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⑦">Formal Objections</a>, at least some of which were sustained)
+    <p>If there were <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⑦">Formal Objections</a>, at least some of which were <a data-link-type="dfn" href="#uphold" id="ref-for-uphold②">upheld</a>,
 	or if there is not <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus④">consensus</a> because of insufficient support, <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision④">W3C Decision</a> <em class="rfc2119">must</em> be one of:</p>
     <ul>
      <li> The proposal is returned for additional work,
@@ -2955,17 +2725,17 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <svg viewBox="-5 40 630 180" width="100%" xmlns="http://www.w3.org/2000/svg">
       <title>Basic W3C Recommendation Track</title>
       <g role="list">
-       <g role="listitem">
+       <g fill="#060" role="listitem">
         <a href="#wd-1">
          <rect fill="white" height="45" role="img" width="57" y="122">
           <title>First Public Working Draft (FPWD) - Exclusion opportunity</title>
          </rect>
          <text font-size="8">
           <tspan aria-hidden="true" x="0" y="132">First Public WD</tspan>
-          <tspan x="0" y="152">WG decision</tspan>
-          <tspan x="0" y="162">Team's approval</tspan>
+          <tspan x="0" y="152">WG Decision +</tspan>
+          <tspan x="0" y="160">Team Approval</tspan>
          </text>
-         <path d="M0,140h53" fill="none" stroke="#000"></path>
+         <path d="M0,140h53" fill="none" stroke="#060"></path>
          <polygon points="47,136 57,140 47,144"></polygon>
         </a>
        </g>
@@ -2974,7 +2744,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
          <ellipse cx="97" cy="140" fill="#fff" id="wd-1" role="img" rx="38" ry="18" stroke="black">
           <title>Working Draft (WD)</title>
          </ellipse>
-         <text aria-hidden="true" font-size="14" text-anchor="middle" x="97" y="144">WD</text>
+         <text aria-hidden="true" font-size="14" font-weight="bold" text-anchor="middle" x="97" y="144">WD</text>
         </a>
         <g role="list">
          <g role="listitem">
@@ -2983,10 +2753,9 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
             <title>Publish a new Working Draft</title>
            </g>
            <text font-size="8">
-            <tspan x="30" y="92">WG Decision: review needed, or</tspan>
-            <tspan x="40" y="100">No change for 6 months</tspan>
+            <tspan x="70" y="100">WG Decision</tspan>
            </text>
-           <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
+           <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 2"></path>
            <polygon points="120,114 116,124 114,113"></polygon>
           </a>
          </g>
@@ -2995,7 +2764,8 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
            <g role="img">
             <title>Advance to Candidate Recommendation</title>
            </g>
-           <text font-size="8" x="138" y="134">Team's approval</text>
+           <text font-size="8" x="138" y="126">WG Decision +</text>
+           <text font-size="8" x="138" y="134">Team Approval</text>
            <path d="M135,140h81" stroke="#060"></path>
            <polygon points="211,136 221,140 211,144"></polygon>
           </a>
@@ -3007,13 +2777,13 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
          <ellipse cx="260" cy="140" fill="#fff" id="cr-1" role="img" rx="38" ry="18" stroke="black">
           <title>Candidate Recommendation Snapshot (CRS) - Patent Policy exclusion opportunity</title>
          </ellipse>
-         <text aria-hidden="true" font-size="14" text-anchor="middle" x="260" y="144">CRS</text>
+         <text aria-hidden="true" font-size="14" font-weight="bold" text-anchor="middle" x="260" y="144">CRS</text>
         </a>
         <a href="#crd-1">
          <ellipse cx="260" cy="80" fill="#fff" id="crd-1" role="img" rx="38" ry="18" stroke="black">
           <title>Candidate Recommendation Draft (CRD)</title>
          </ellipse>
-         <text aria-hidden="true" font-size="14" text-anchor="middle" x="260" y="84">CRD</text>
+         <text aria-hidden="true" font-size="14" font-weight="bold" text-anchor="middle" x="260" y="84">CRD</text>
         </a>
         <g role="list">
          <g role="listitem">
@@ -3022,7 +2792,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
             <title>Publish revised Candidate Recommendation Draft</title>
            </g>
            <text font-size="8">
-            <tspan x="182" y="112">WG Decision</tspan>
+            <tspan x="182" y="110">WG Decision</tspan>
            </text>
            <path d="M234,127v-34" stroke="#000"></path>
            <polygon points="234,92 230,102 238,102"></polygon>
@@ -3036,18 +2806,18 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
            <text font-size="8">
             <tspan x="282" y="52">WG Decision</tspan>
            </text>
-           <path d="M242,64C238,54 244,44 260,44 271,44 277,48 279,54" fill="none" stroke="#000"></path>
+           <path d="M242,64C238,54 244,44 260,44 271,44 277,48 279,54" fill="none" stroke="#000" stroke-dasharray="6 2"></path>
            <polygon points="282,54 277,64 275,53"></polygon>
           </a>
          </g>
          <g role="listitem">
           <a href="#cr-1">
            <g role="img">
-            <title>Publish revised Candidate Recommendation</title>
+            <title>Publish revised Candidate Recommendation Snapshot</title>
            </g>
            <text font-size="8">
-            <tspan x="288" y="104">WG Decision +</tspan>
-            <tspan x="288" y="112">Team’s approval</tspan>
+            <tspan x="290" y="102">WG Decision +</tspan>
+            <tspan x="290" y="110">Team Approval</tspan>
            </text>
            <path d="M286,127v-34" stroke="#000"></path>
            <polygon points="286,128 282,118 290,118"></polygon>
@@ -3056,37 +2826,38 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
          <g role="listitem">
           <a href="#cr-1">
            <g role="img">
-            <title>Publish revised Candidate Recommendation</title>
+            <title>Publish revised Candidate Recommendation Snapshot</title>
            </g>
            <text font-size="8">
-            <tspan x="182" y="112">WG Decision</tspan>
-            <tspan x="288" y="112">Team’s approval</tspan>
+            <tspan x="290" y="102">WG Decision</tspan>
+            <tspan x="290" y="110">Team Approval</tspan>
            </text>
-           <path d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" fill="none" stroke="#000" stroke-dasharray="5 11"></path>
-           <path d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" fill="none" stroke="#060" stroke-dasharray="5 11" stroke-dashoffset="8"></path>
+           <path d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" fill="none" stroke="#000" stroke-dasharray="6 10"></path>
+           <path d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" fill="none" stroke="#000" stroke-dasharray="6 10" stroke-dashoffset="8"></path>
            <polygon points="282,114 277,124 275,113"></polygon>
           </a>
          </g>
-         <g role="listitem">
+         <g fill="#060" role="listitem">
           <a href="#pr-1">
            <g role="img">
             <title>Advance to Proposed Recommendation</title>
            </g>
-           <text font-size="8" x="300" y="134">Team's approval</text>
+           <text font-size="8" x="300" y="126">WG Decision +</text>
+           <text font-size="8" x="300" y="134">Team Approval</text>
            <path d="M298,140h77" stroke="#060"></path>
            <polygon points="374,136 384,140 374,144"></polygon>
           </a>
          </g>
-         <g role="listitem">
+         <g fill="#900" role="listitem">
           <a href="#wd-1">
            <g role="img">
             <title>Return to Working Draft</title>
            </g>
-           <text font-size="8">
-            <tspan x="142" y="160">WG or Team decision</tspan>
-            <tspan x="144" y="170">e.g. for further review</tspan>
+           <text font-size="8" text-anchor="end">
+            <tspan x="230" y="160">WG Decision</tspan>
+            <tspan font-size="6" x="230" y="168">(or Team Decision with AB+TAG Approval)</tspan>
            </text>
-           <path d="M140,147h84" stroke="#600" stroke-dasharray="4 4"></path>
+           <path d="M140,147h84" stroke="#900" stroke-dasharray="4 4"></path>
            <polygon points="140,145 133,147 140,149"></polygon>
           </a>
          </g>
@@ -3095,47 +2866,45 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
        <g role="listitem">
         <a href="#rec-1">
          <ellipse cx="413" cy="140" fill="#fff" id="pr-1" role="img" rx="28" ry="18" stroke="black">
-          <title>Proposed Recommendation (PR) - Advisory Committee review</title>
+          <title>Proposed Recommendation (PR) — AC Review</title>
          </ellipse>
-         <text aria-hidden="true" font-size="14" text-anchor="middle" x="413" y="144">PR</text>
+         <text aria-hidden="true" font-size="14" font-weight="bold" text-anchor="middle" x="413" y="144">PR</text>
+         <text area-hidden="true" font-size="6" text-anchor="middle" x="413" y="150">AC Review</text>
         </a>
         <g role="list">
-         <g role="listitem">
+         <g fill="#060" role="listitem">
           <a href="#rec-1">
            <g role="img">
             <title>Advance to Recommendation</title>
            </g>
            <text font-size="8" x="300" y="138">
-            <tspan x="445" y="124">Advisory Committee Review</tspan>
-            <tspan x="445" y="134">Team's Decision</tspan>
+            <tspan x="445" y="134">W3C Decision</tspan>
            </text>
            <path d="M441,140h100" stroke="#060"></path>
            <polygon points="534,136 544,140 534,144"></polygon>
           </a>
          </g>
-         <g role="listitem">
+         <g fill="#900" role="listitem">
           <a href="#cr-1">
            <g role="img">
-            <title>Return to Candidate Recommendation</title>
+            <title>Return to Candidate Recommendation Snapshot</title>
            </g>
-           <text font-size="8">
-            <tspan x="306" y="160">AC Review, </tspan>
-            <tspan x="302" y="170">Team Decision</tspan>
-            <tspan x="304" y="180">e.g. for editorial changes</tspan>
+           <text font-size="8" text-anchor="end">
+            <tspan x="385" y="160">W3C Decision</tspan>
            </text>
-           <path d="M301,147h88" stroke="#600" stroke-dasharray="3 5"></path>
+           <path d="M301,147h88" stroke="#900" stroke-dasharray="4 4"></path>
            <polygon points="301,145 296,147 301,149"></polygon>
           </a>
          </g>
-         <g role="listitem">
+         <g fill="#900" role="listitem">
           <a href="#wd-1">
            <g role="img">
             <title>Return to Working Draft</title>
            </g>
-           <text font-size="9">
-            <tspan x="90" y="202">Advisory Committee review and Team's Decision, e.g. for further work and review</tspan>
+           <text font-size="8" text-anchor="end">
+            <tspan x="410" y="185">W3C Decision</tspan>
            </text>
-           <path d="M413,158v32h-316v-26" fill="none" stroke="#c00" stroke-dasharray="2 2"></path>
+           <path d="M413,158v32h-316v-26" fill="none" stroke="#900" stroke-dasharray="4 4"></path>
            <polygon points="95,164 97,159 99,164"></polygon>
           </a>
          </g>
@@ -3145,7 +2914,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
         <ellipse cx="573" cy="140" fill="#fff" id="rec-1" role="img" rx="28" ry="18" stroke="black" stroke-width="2">
          <title>Recommendation (Rec)</title>
         </ellipse>
-        <text aria-hidden="true" font-size="16" stroke-width=".3" text-anchor="middle" x="573" y="144">REC</text>
+        <text aria-hidden="true" font-size="16" font-weight="bold" stroke-width=".3" text-anchor="middle" x="573" y="144">REC</text>
        </g>
       </g>
      </svg>
@@ -3340,7 +3109,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <li> <em class="rfc2119">must</em> record the group’s decision to request advancement. 
      <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑨">Team</a> verification. <a data-link-type="dfn" href="#team" id="ref-for-team⑧⓪">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision②">Team decision</a>) <em class="rfc2119">must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections
-			(including any <a data-link-type="dfn" href="#sustain" id="ref-for-sustain②">sustained</a> by a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council②⑨">Council</a> but not yet <a data-link-type="dfn" href="#fully-addressed" id="ref-for-fully-addressed">fully addressed</a>),
+			(including any <a data-link-type="dfn" href="#uphold" id="ref-for-uphold③">upheld</a> by a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council②⑨">Council</a> but not yet <a data-link-type="dfn" href="#fully-addressed" id="ref-for-fully-addressed">fully addressed</a>),
 			or if the document does not adequately reflect all relevant decisions of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③⓪">W3C Council</a> (or its delegates).
 			If the <a data-link-type="dfn" href="#team" id="ref-for-team⑧①">Team</a> rejects a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req①">Transition Request</a> it <em class="rfc2119">must</em> indicate its rationale
 			to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee③③">Advisory Committee</a> and the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑧">Working Group</a>. 
@@ -3383,7 +3152,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <li> <em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team⑧②">Team</a> verification,
 			or fulfill the criteria for <a href="#streamlined-update">§ 6.3.4.1 Streamlined Publication Approval</a>. <a data-link-type="dfn" href="#team" id="ref-for-team⑧③">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision③">Team decision</a>), <em>should</em> be withheld if any Process requirements are not met,
 			and <em class="rfc2119">may</em> be withheld in consideration of unresolved Formal Objections
-			(including any <a data-link-type="dfn" href="#sustain" id="ref-for-sustain③">sustained</a> by a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③①">Council</a> but not yet <a data-link-type="dfn" href="#fully-addressed" id="ref-for-fully-addressed①">fully addressed</a>)
+			(including any <a data-link-type="dfn" href="#uphold" id="ref-for-uphold④">upheld</a> by a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③①">Council</a> but not yet <a data-link-type="dfn" href="#fully-addressed" id="ref-for-fully-addressed①">fully addressed</a>)
 			or if the document does not adequately reflect all relevant decisions of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③②">W3C Council</a> (or its delegates).
 			If the <a data-link-type="dfn" href="#team" id="ref-for-team⑧④">Team</a> rejects an <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests②">Update Request</a>,
 			it must indicate its rationale to the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④②">Working Group</a>.
@@ -3655,7 +3424,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <ul>
      <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③①">Recommendation</a> <em class="rfc2119">must</em> identify where errata are tracked, and 
      <li> A <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③②">Recommendation</a> <em class="rfc2119">must not</em> include any <a data-link-type="dfn" href="#substantive-change" id="ref-for-substantive-change①③">substantive changes</a> from the <a data-link-type="dfn" href="#RecsPR" id="ref-for-RecsPR①③">Proposed Recommendation</a> on which it is based. 
-     <li> If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a> in Advisory Committee reviews,
+     <li> If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> in Advisory Committee reviews,
 			the <a data-link-type="dfn" href="#team" id="ref-for-team⑨②">Team</a> <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed④">formally address</a> the comment
@@ -3935,7 +3704,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <ul>
      <li> identify known implementations. 
     </ul>
-    <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑥">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑦">Advisory Committee review</a>,
+    <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑦">Advisory Committee review</a>,
 	the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪①">Team</a> <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C <strong>and the public</strong>,
 	and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑦">formally address</a> the dissent
@@ -4441,7 +4210,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 					at the public W3C website,
 					in addition to Team comments about the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission②">Member Submission</a>. 
        <li>If <a href="#SubmissionNo">rejected</a>,
-					the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter③">Submitter</a>(s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a> to either the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑨">TAG</a> or the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③②">Advisory Board</a>. 
+					the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter③">Submitter</a>(s) <em class="rfc2119">may</em> initiate a <a href="#SubmissionNo">Submission Appeal</a>. 
       </ul>
     </ol>
     <div class="note" role="note">
@@ -4613,11 +4382,11 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     <p>The <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③①">Advisory Committee representative</a>(s) of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②③">Submitters</a>(s) <em class="rfc2119">may</em> initiate a <a data-link-type="dfn" href="#submission-appeals" id="ref-for-submission-appeals">Submission Appeal</a>.
 	The procedure for handling <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="submission-appeals">Submission Appeals</dfn> is the same as for <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection③④">Formal Objections</a>,
 	except that an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal①②">AC Appeal</a> is not possible
-	and both the Formal Objection and the <a data-link-type="dfn" href="#council-report" id="ref-for-council-report④">Council Report</a> are confidential to the <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a>, <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⓪">TAG</a>, and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③③">AB</a>.</p>
+	and both the Formal Objection and the <a data-link-type="dfn" href="#council-report" id="ref-for-council-report④">Council Report</a> are confidential to the <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a>, <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑨">TAG</a>, and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③②">AB</a>.</p>
     <h2 class="heading settled" data-level="11" id="GAProcess"><span class="secno">11. </span><span class="content"> Process Evolution</span><a class="self-link" href="#GAProcess"></a></h2>
     <p>Revision of the W3C Process and related documents (see below) undergoes similar <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①④">consensus</a>-building processes as for <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report③⑧">technical reports</a>,
-	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③④">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨②">Working Group</a>.
-	The documents may be developed by the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑤">AB</a> or by another group to whom the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑥">AB</a> has delegated development.
+	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③③">Advisory Board</a>—<wbr>acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑨②">Working Group</a>.
+	The documents may be developed by the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③④">AB</a> or by another group to whom the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑤">AB</a> has delegated development.
 	Review includes
 	soliciting input from the W3C community,
 	and in particular the Team.</p>
@@ -4632,7 +4401,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <li data-md>
       <p>The W3C Document License <a data-link-type="biblio" href="#biblio-doc-license">[DOC-LICENSE]</a></p>
     </ul>
-    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑦">Advisory Board</a> initiates review as follows:</p>
+    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑥">Advisory Board</a> initiates review as follows:</p>
     <ol>
      <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③②">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee④②">Advisory Committee</a> and other W3C groups. 
      <li> After comments have been <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑨">formally addressed</a> and the document possibly modified,
@@ -4657,6 +4426,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	Brian Kardell,
 	Carine Bournez (W3C),
 	Charles McCathie Nevile (ConsenSys),
+	Chris Needham (BBC),
 	Chris Wilson (Google),
 	David Singer (Apple),
 	Delfí Ramírez,
@@ -4664,8 +4434,10 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	Elika J. Etemad <abbr title="also known as">aka</abbr> fantasai,
 	Fuqiao Xue (W3C),
 	Jeff Jaffe (W3C),
+	Jeffrey Yasskin (Google),
 	Kevin Fleming (Bloomberg),
 	Léonie Watson (The Paciello Group),
+	Mark Nottingham (Cloudflare),
 	Michael Champion (Microsoft),
 	Nigel Megitt (BBC),
 	Philippe Le Hégaret (W3C),
@@ -4771,7 +4543,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
 	Robin Berjon (W3C),
 	Sally Khudairi (W3C),
 	Sam Ruby (IBM),
-	Sam Sneddon,		
+	Sam Sneddon,
 	Sandro Hawke (W3C),
 	Sangwhan Moon (Odd Concepts),
 	Scott Peterson (Google),
@@ -4815,14 +4587,14 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <li> The W3C Council will also hear <a data-link-type="dfn" href="#submission-appeals" id="ref-for-submission-appeals①">Submission Appeals</a>,
 			which were previously handled separately by either the TAG or the AB,
 			depending on the grounds for the appeal. 
-     <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③③">Team</a> rather than the Director is charged with <a href="#TAG-appointments">appointing</a> the 3 non-elected <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④①">TAG</a> members,
-			subject to ratification by the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④②">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑧">AB</a>. 
-     <li> There is no longer an ex-officio seat for the Director on the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④③">TAG</a>,
+     <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③③">Team</a> rather than the Director is charged with <a href="#TAG-appointments">appointing</a> the 3 non-elected <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⓪">TAG</a> members,
+			subject to ratification by the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④①">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑦">AB</a>. 
+     <li> There is no longer an ex-officio seat for the Director on the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④②">TAG</a>,
 			but Tim Berners-Lee personally does continue to hold one. 
      <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③④">Team</a> rather than the Director is charged with verification that the various expectations of the Process
 			have been fulfilled for <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req⑤">Transition Requests</a> and <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests①①">Update Requests</a>. 
      <li> Require AB and TAG approval when the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑤">Team</a> wants to <a href="#rec-track-regression">lower the maturity stage</a> of a technical report without a <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑦">Group Decision</a>. 
-     <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③⑥">Team</a>, <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑨">AB</a>, or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④④">TAG</a> rather than the Director is now responsible
+     <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③⑥">Team</a>, <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑧">AB</a>, or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④③">TAG</a> rather than the Director is now responsible
 			for proposing group creation and forcible closure; <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②②">AC Review</a> is now required for forcible <a href="#GeneralTermination">group closure</a> (it already was for group creation). 
      <li> The <a data-link-type="dfn" href="#ceo" id="ref-for-ceo⑨">CEO</a> rather than the Director is charged with <a href="#discipline">disciplinary questions</a>. 
      <li> The <a data-link-type="dfn" href="#team" id="ref-for-team①③⑦">Team</a> rather than the Director is charged with negotiating <a data-link-type="dfn" href="https://www.w3.org/Consortium/Process/#mou" id="ref-for-mou①">MoUs</a> (now called <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement⑨">technical agreements</a>)
@@ -4834,9 +4606,9 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
     </ul>
     <h4 class="heading settled" id="other-gov-changes"><span class="content"> Other Governance Changes</span><a class="self-link" href="#other-gov-changes"></a></h4>
     <ul>
-     <li> The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⑤">TAG</a> now picks its own chair(s),
+     <li> The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④④">TAG</a> now picks its own chair(s),
 			and the timing of AB and TAG chair selection is clarified. 
-     <li> Appointed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⑥">TAG</a> seats now have consecutive term limits. 
+     <li> Appointed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group④⑤">TAG</a> seats now have consecutive term limits. 
      <li> Remove mentions of the Hosts,
 			add recognition of the existence of the W3C Inc. Board of Directors,
 			and adjust language for W3C being rooted in W3C Inc. 
@@ -5056,7 +4828,6 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
    <li><a href="#RecsSup">Superseded Recommendation</a><span>, in § 6.3.1</span>
    <li><a href="#superseded-registry">Superseded Registry</a><span>, in § 6.5.2</span>
    <li><a href="#supplemental-confidential-council-report">Supplemental Confidential Council Report</a><span>, in § 5.6.2.7</span>
-   <li><a href="#sustain">sustain</a><span>, in § 5.6.2.6</span>
    <li><a href="#EventsS">Symposia</a><span>, in § 8</span>
    <li><a href="#EventsS">Symposium</a><span>, in § 8</span>
    <li><a href="#technical-architecture-group">TAG</a><span>, in § 3.3.2.1</span>
@@ -5075,6 +4846,10 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
    <li><a href="#trans-req">Transition Requests</a><span>, in § 6.3.3</span>
    <li><a href="#def-Unanimity">Unanimity</a><span>, in § 5.2.1</span>
    <li><a href="#update-requests">Update Requests</a><span>, in § 6.3.4</span>
+   <li><a href="#uphold">upheld</a><span>, in § 5.6.2.6</span>
+   <li><a href="#uphold">uphold</a><span>, in § 5.6.2.6</span>
+   <li><a href="#uphold">upholding</a><span>, in § 5.6.2.6</span>
+   <li><a href="#uphold">upholds</a><span>, in § 5.6.2.6</span>
    <li><a href="#validation-notice">validation notice</a><span>, in § 10.2</span>
    <li><a href="#bod">W3C Board of Directors</a><span>, in § 2.2</span>
    <li><a href="#RecsCR">W3C Candidate Recommendation</a><span>, in § 6.3.1</span>
@@ -5282,7 +5057,7 @@ The W3C Team</a> <a href="#ref-for-team④">(2)</a>
     <li><a href="#ref-for-team⑤">3.1.1.2. 
 Conflict of Interest Policy</a> <a href="#ref-for-team⑥">(2)</a> <a href="#ref-for-team⑦">(3)</a>
     <li><a href="#ref-for-team⑧">3.1.3. 
-Tooling for Discussions and Publications</a>
+Tooling and Archiving for Discussions and Publications</a>
     <li><a href="#ref-for-team⑨">3.1.4. 
 Resignation from a Group</a> <a href="#ref-for-team①⓪">(2)</a>
     <li><a href="#ref-for-team①①">3.2.1. 
@@ -5459,7 +5234,7 @@ Liaisons</a> <a href="#ref-for-bod⑧">(2)</a>
     <li><a href="#ref-for-w3c-group">3.1.2. 
 Meetings</a>
     <li><a href="#ref-for-w3c-group①">3.1.3. 
-Tooling for Discussions and Publications</a>
+Tooling and Archiving for Discussions and Publications</a>
     <li><a href="#ref-for-w3c-group②">5.7.2. 
 After the Review Period</a> <a href="#ref-for-w3c-group③">(2)</a>
    </ul>
@@ -5654,13 +5429,11 @@ Council Participation, Dismissal, and Renunciation</a> <a href="#ref-for-advisor
 Regression on the Recommendation Track</a>
     <li><a href="#ref-for-advisory-board③①">6.4.1. 
 Group Notes</a>
-    <li><a href="#ref-for-advisory-board③②">10. 
-Member Submission Process</a>
-    <li><a href="#ref-for-advisory-board③③">10.4. 
+    <li><a href="#ref-for-advisory-board③②">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
-    <li><a href="#ref-for-advisory-board③④">11. 
-Process Evolution</a> <a href="#ref-for-advisory-board③⑤">(2)</a> <a href="#ref-for-advisory-board③⑥">(3)</a> <a href="#ref-for-advisory-board③⑦">(4)</a>
-    <li><a href="#ref-for-advisory-board③⑧"> Changes related to the role of the Director</a> <a href="#ref-for-advisory-board③⑨">(2)</a>
+    <li><a href="#ref-for-advisory-board③③">11. 
+Process Evolution</a> <a href="#ref-for-advisory-board③④">(2)</a> <a href="#ref-for-advisory-board③⑤">(3)</a> <a href="#ref-for-advisory-board③⑥">(4)</a>
+    <li><a href="#ref-for-advisory-board③⑦"> Changes related to the role of the Director</a> <a href="#ref-for-advisory-board③⑧">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="technical-architecture-group">
@@ -5702,12 +5475,10 @@ Regression on the Recommendation Track</a>
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a> <a href="#ref-for-technical-architecture-group③⑦">(2)</a>
     <li><a href="#ref-for-technical-architecture-group③⑧">6.4.1. 
 Group Notes</a>
-    <li><a href="#ref-for-technical-architecture-group③⑨">10. 
-Member Submission Process</a>
-    <li><a href="#ref-for-technical-architecture-group④⓪">10.4. 
+    <li><a href="#ref-for-technical-architecture-group③⑨">10.4. 
 Rejection of a Submission Request, and Submission Appeals</a>
-    <li><a href="#ref-for-technical-architecture-group④①"> Changes related to the role of the Director</a> <a href="#ref-for-technical-architecture-group④②">(2)</a> <a href="#ref-for-technical-architecture-group④③">(3)</a> <a href="#ref-for-technical-architecture-group④④">(4)</a>
-    <li><a href="#ref-for-technical-architecture-group④⑤"> Other Governance Changes</a> <a href="#ref-for-technical-architecture-group④⑥">(2)</a>
+    <li><a href="#ref-for-technical-architecture-group④⓪"> Changes related to the role of the Director</a> <a href="#ref-for-technical-architecture-group④①">(2)</a> <a href="#ref-for-technical-architecture-group④②">(3)</a> <a href="#ref-for-technical-architecture-group④③">(4)</a>
+    <li><a href="#ref-for-technical-architecture-group④④"> Other Governance Changes</a> <a href="#ref-for-technical-architecture-group④⑤">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="primary-affiliation">
@@ -5734,7 +5505,7 @@ Publishing Notes</a>
     <li><a href="#ref-for-GroupsWG">1. 
 Introduction</a> <a href="#ref-for-GroupsWG①">(2)</a>
     <li><a href="#ref-for-GroupsWG②">3.1.3. 
-Tooling for Discussions and Publications</a>
+Tooling and Archiving for Discussions and Publications</a>
     <li><a href="#ref-for-GroupsWG③">3.3.3.4. 
 Technical Architecture Group Appointments</a>
     <li><a href="#ref-for-GroupsWG">3.4. 
@@ -6098,10 +5869,10 @@ Managing Dissent</a> <a href="#ref-for-def-Dissent①">(2)</a>
     <li><a href="#ref-for-def-Dissent②">5.7.1. 
 Start of a Review Period</a>
     <li><a href="#ref-for-def-Dissent③">5.7.2. 
-After the Review Period</a> <a href="#ref-for-def-Dissent④">(2)</a>
-    <li><a href="#ref-for-def-Dissent⑤">6.3.10. 
+After the Review Period</a>
+    <li><a href="#ref-for-def-Dissent④">6.3.10. 
 Transitioning to W3C Recommendation</a>
-    <li><a href="#ref-for-def-Dissent⑥">6.3.13.4. 
+    <li><a href="#ref-for-def-Dissent⑤">6.3.13.4. 
 Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</a>
    </ul>
   </aside>
@@ -6223,8 +5994,8 @@ Council Deliberations</a>
    <b><a href="#dismissed">#dismissed</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dismissed">5.6.2.3. 
-Council Participation, Dismissal, and Renunciation</a> <a href="#ref-for-dismissed①">(2)</a>
-    <li><a href="#ref-for-dismissed②">5.6.2.7. 
+Council Participation, Dismissal, and Renunciation</a> <a href="#ref-for-dismissed①">(2)</a> <a href="#ref-for-dismissed②">(3)</a>
+    <li><a href="#ref-for-dismissed③">5.6.2.7. 
 Council Decision Report</a>
    </ul>
   </aside>
@@ -6248,16 +6019,18 @@ Unanimous Short Circuit</a>
 Council Deliberations</a> <a href="#ref-for-w3c-council-chair③">(2)</a> <a href="#ref-for-w3c-council-chair④">(3)</a> <a href="#ref-for-w3c-council-chair⑤">(4)</a> <a href="#ref-for-w3c-council-chair⑥">(5)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="sustain">
-   <b><a href="#sustain">#sustain</a></b><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="uphold">
+   <b><a href="#uphold">#uphold</a></b><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-sustain">5.6.2.6. 
+    <li><a href="#ref-for-uphold">5.6.2.6. 
 Council Deliberations</a>
-    <li><a href="#ref-for-sustain①">5.6.2.7. 
+    <li><a href="#ref-for-uphold①">5.6.2.7. 
 Council Decision Report</a>
-    <li><a href="#ref-for-sustain②">6.3.3. 
+    <li><a href="#ref-for-uphold②">5.7.2. 
+After the Review Period</a>
+    <li><a href="#ref-for-uphold③">6.3.3. 
 Advancement on the Recommendation Track</a>
-    <li><a href="#ref-for-sustain③">6.3.4. 
+    <li><a href="#ref-for-uphold④">6.3.4. 
 Updating Mature Publications on the Recommendation Track</a>
    </ul>
   </aside>
