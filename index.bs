@@ -1005,7 +1005,7 @@ Composition of the Technical Architecture Group</h5>
 			Three participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
-			Six participants elected by the [=Advisory Committee=]
+			Eight participants elected by the [=Advisory Committee=]
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
@@ -1022,7 +1022,7 @@ Composition of the Technical Architecture Group</h5>
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
-	Terms are staggered so that three elected terms
+	Terms are staggered so that four elected terms
 	and either one or two appointed terms expire each year.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
@@ -1135,7 +1135,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of available seats are the same:
-	the 3 seats of the terms expiring that year,
+	the 4 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.
 
 	In the case of regularly scheduled elections of the [=AB=],
@@ -1358,7 +1358,7 @@ Elected Groups Vacated Seats</h5>
 			the minimum number of available seats is such that
 			when added to the number of continuing participants,
 			the minimum total number of elected seats is met
-			(6 for the [=TAG=], 9 for the [=AB=]);
+			(8 for the [=TAG=], 9 for the [=AB=]);
 			and the maximum number corresponds to all unoccupied seats.
 			Except for the number of available seats and the length of the terms,
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
@@ -5654,7 +5654,9 @@ Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 20
 	the following is a summary of the main differences:
 
 	<ul>
-		<li><em>None yet</em>
+  		<li>  
+			Expand the TAG from 6 elected and 3 appointed to 8 and 3,
+			to deal with the increased workload.
 	</ul>
 
 
