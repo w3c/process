@@ -35,7 +35,7 @@ Previous Version: https://www.w3.org/2020/Process-20200915/
 Previous Version: https://www.w3.org/2019/Process-20190301/
 Previous Version: https://www.w3.org/2018/Process-20180201/
 Previous Version: https://www.w3.org/2017/Process-20170301/
-Editor: Elika J. Etemad / fantasai, Invited Expert, https://fantasai.inkedblade.net/contact
+Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
