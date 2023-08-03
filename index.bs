@@ -111,7 +111,7 @@ g g:hover text {
 <h2 class="no-num no-toc no-ref" id="pp">
 Relation of Process Document to Patent Policy and Other Policies</h2>
 
-	<!-- DO NOT REMOVE THIS SECTION OR ITS REFERNCE TO THE PATENT POLICY WITHOUT DISCUSSING WITH PSIG / COUNSEL. -->
+	<!-- DO NOT REMOVE THIS SECTION OR ITS REFERENCE TO THE PATENT POLICY WITHOUT DISCUSSING WITH PSIG / COUNSEL. -->
 
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
