@@ -3010,8 +3010,8 @@ Classes of Changes</h4>
 			2. Changes that do not functionally affect interpretation of the document
 		<dd>
 			For [=Recommendation-track=] [=technical reports=] specifically,
-            this constitutes changes that do not affect conformance,
-            i.e. changes that reasonable implementers
+			this constitutes changes that do not affect conformance,
+			i.e. changes that reasonable implementers
 			would not interpret as changing architectural
 			or interoperability requirements
 			or their implementation.
@@ -3034,7 +3034,7 @@ Classes of Changes</h4>
 			3. Other changes that do not add new features
 		<dd>
 			For [=Recommendation-track=] documents,
-            these changes <em class="rfc2119">may</em> affect conformance to the specification.
+			these changes <em class="rfc2119">may</em> affect conformance to the specification.
 			A change that affects conformance is one that:
 
 			<ul>
@@ -5658,7 +5658,7 @@ Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 20
 	The only change is:
 
 	<ul>
-  		<li>  
+		<li>
 			Expand the TAG from 6 elected and 3 appointed to 8 and 3,
 			to deal with the increased workload.
 	</ul>
