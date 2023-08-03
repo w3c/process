@@ -5659,8 +5659,8 @@ Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 20
 
 	<ul>
 		<li>
-			Expand the TAG from 6 elected and 3 appointed to 8 and 3,
-			to deal with the increased workload.
+			Expand the TAG from 6 elected and 3 appointed to 8 and 3.
+			See <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-05-24-doc#tag-size">the 2023-05-24 Disposition of Comments</a> for rationale.
 	</ul>
 
 
