@@ -5218,7 +5218,7 @@ Member Submission Process</h2>
 	A Member Submission made available by W3C
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
 
-	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
+	The list of <a href="https://www.w3.org/submissions/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
 	is available at the W3C website.
 
 <h3 id="SubmissionRights">
@@ -5689,7 +5689,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"SUBMISSION-LIST": {
-		"href": "https://www.w3.org/Submission/",
+		"href": "https://www.w3.org/submissions/",
 		"title": "The list of acknowledged Member Submissions",
 		"publisher": "W3C"
 	},
