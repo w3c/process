@@ -4225,7 +4225,7 @@ Regression on the Recommendation Track</h4>
 	as described above.
 
 	Additionally,
-	with the approvals (by [=group decision=]) of the [=TAG=] and the [=AB=]
+	with the approvals (by [=group decision=]) of each of the [=TAG=] and the [=AB=]
 	the [=Team=] <em class="rfc2119">may</em> return
 	the [=technical report=] to a lower <a href="#maturity-stages">maturity stage</a>
 	in response to [=wide review=] or a [=formal objection=].
