@@ -2303,6 +2303,9 @@ Registering Formal Objections</h3>
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
 	is considered registered at the close of the review period.
 
+	Registering a [=Formal Objection=] initiates the process of
+	[[#addressing-fo|addressing the Formal Objection]].
+
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
 
