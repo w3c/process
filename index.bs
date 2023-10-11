@@ -2732,7 +2732,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and include
 	additional (non-reviewed) maturity stages of Recommendation Track documents,
 	group [=charter extensions=] and closures,
-	and [=Memoranda of Understanding=].
+	and [=technical agreements=].
 
 	In all cases,
 	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
