@@ -3563,7 +3563,10 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em>should</em> be withheld if any Process requirements are not met,
 			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
 			(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=])
-			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
+			if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates),
+			or if the [=Team=] believes the [=Group=] is
+			not making reasonable progress
+			on addressing issues raised by individuals external to the [=Group=].
 			If the [=Team=] rejects an [=Update Request=],
 			it must indicate its rationale to the [=Working Group=].
 			If it waives any Process requirements,
