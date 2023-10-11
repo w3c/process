@@ -4648,7 +4648,7 @@ Registry Definitions</h4>
 			<em class=rfc2119>should</em> generally be the same entity.
 
 			If a [=custodian=] of a [=registry=] becomes defunct
-			(e.g. the relevant group is disbanded),
+			(e.g., the relevant group is disbanded),
 			and the [=Working Group=] that owns the [=registry definition=] is itself also defunct,
 			the [=Team=] <em class=rfc2119>should</em> propose replacing the [=custodian=],
 			which <em class=rfc2119>must</em> be confirmed
