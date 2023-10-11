@@ -3561,7 +3561,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 				(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
 			* <em class=rfc2119>may</em> be withheld
 				if the document does not adequately reflect
-				all relevant decisions of the [=W3C Council=] (or its delegates),
+				all relevant decisions of a [=W3C Council=] (or its delegates),
 			* <em class=rfc2119>may</em> be withheld
 				if the Team believes the Group is not making reasonable progress
 				on addressing issues raised by individuals external to the Group.
