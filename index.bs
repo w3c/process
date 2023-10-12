@@ -999,9 +999,6 @@ Composition of the Technical Architecture Group</h5>
 
 	<ul>
 		<li>
-			Tim Berners-Lee, who is a life member;
-
-		<li>
 			Three participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
@@ -1017,6 +1014,11 @@ Composition of the Technical Architecture Group</h5>
 	as well as when a majority of the participants request it;
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
+
+	As <dfn export>Director Emeritus</dfn>,
+	Tim Berners-Lee has a permanent standing invitation
+	to all regular sessions of the Technical Architecture Group,
+	and access to the [=TAG=]'s [[#tag-comm|means of communication]].
 
 	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
