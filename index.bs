@@ -2453,6 +2453,8 @@ Unanimous Short Circuit</h5>
 	the Team recommends a resolution
 	and every potential member of a Council who is not renouncing their seat
 	votes affirmatively (no abstentions) to adopt this resolution.
+	As an exception, Tim Berners Lee <em class=rfc2119>may</em> abstain
+	without blocking the adoption of the resolution.
 
 	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
 	and prior to choosing a [=W3C Council Chair|Chair=].
