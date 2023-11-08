@@ -4663,6 +4663,17 @@ Registry Definitions</h4>
 			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
+
+			If the [=custodian=] of a [=registry table=]
+			ceases to exist or to operate as a custodian
+			(e.g., the relevant group is disbanded, or 
+			the custodian is unresponsive to repeated attempts to make contact),
+			and the [=Working Group=] that owns the [=registry definition=] 
+			is itself <a href="#GeneralTermination">closed</a> or 
+			unresponsive,
+			the [=Team=] <em class=rfc2119>should</em> propose replacing the [=custodian=],
+			which <em class=rfc2119>must</em> be confirmed
+			by an [=AC Review=] as a [=W3C Decision=].
 	</ul>
 
 <h4 id=reg-pub>
