@@ -29,12 +29,7 @@ Group: processcg
 Status: CG-DRAFT
 ED: https://www.w3.org/Consortium/Process/Drafts/
 TR: https://www.w3.org/Consortium/Process/
-Previous Version: https://www.w3.org/2023/Process-20230612/
-Previous Version: https://www.w3.org/2021/Process-20211102/
-Previous Version: https://www.w3.org/2020/Process-20200915/
-Previous Version: https://www.w3.org/2019/Process-20190301/
-Previous Version: https://www.w3.org/2018/Process-20180201/
-Previous Version: https://www.w3.org/2017/Process-20170301/
+Previous Version: https://www.w3.org/2023/Process-20231103/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
@@ -54,7 +49,7 @@ Abstract:
 	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
 Status Text:
 	This document,
-	which is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>,
+	which is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>,
 	is a work in progress
 	and further changes may occur before completion of this revision cycle.
 	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
@@ -5667,14 +5662,14 @@ Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2023-1 class=no-num>
-Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a></h3>
+<h3 id=changes-2024 class=no-num>
+Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a></h3>
 
-	<p>This document is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>.
-	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2023-1%22+is%3Aclosed">list of issues addressed</a>,
+	<p>This document is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>.
+	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2024%22+is%3Aclosed">list of issues addressed</a>,
 	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2023 to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/p2023...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/p2023_1...main">detailed log of all changes since then</a>
 	are available.
 
 	<!--
@@ -5683,20 +5678,32 @@ Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 20
 	the following is a summary of the main differences:
 	-->
 
-	The only change is:
+	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
 
 	<ul>
 		<li>
-			Expand the TAG from 6 elected and 3 appointed to 8 and 3.
-			See <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-05-24-doc#tag-size">the 2023-05-24 Disposition of Comments</a> for rationale.
+			Council dismissal vote counts must be reported.
+			(See <a href="https://github.com/w3c/w3process/issues/748">Issue 748</a>)
+
+		<li>
+			Exclude TAG/AB from voting on their own decisions/proposals.
+			(See <a href="https://github.com/w3c/w3process/issues/749">Issue 749</a>)
+
+		<li>
+			Add a requirement to make progress on external issues for update requests
+			(See <a href="https://github.com/w3c/w3process/issues/781">Issue 781</a>)
+
+		<li>
+			Enable Team to replace defunct registry custodians when no-one else can.
+			(See <a href="https://github.com/w3c/w3process/issues/699">Issue 699</a>)
 	</ul>
 
 
-<h3 id=changes-previous class=no-num oldids="changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
+<h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
 
 	Changes since earlier versions of the Process are detailed
-	in the <a href="https://www.w3.org/2023/Process-20230612/#changes">changes section of the previous version</a>
+	in the <a href="https://www.w3.org/2023/Process-20231103/#changes">changes section of the previous version</a>
 	of the Process.
 
 <pre class=biblio>
