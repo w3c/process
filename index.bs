@@ -972,16 +972,12 @@ Role of the Technical Architecture Group</h5>
 	the W3C Advisory Committee,
 	Advisory Board,
 	and Team.
-	Please refer to the <a href="https://www.w3.org/2004/10/27-tag-charter.html">TAG charter</a> [[TAG-CHARTER]]
-	for more information about the background and scope of the TAG,
-	and the expected qualifications of TAG participants.
 
 	When the [=TAG=] votes to resolve an issue,
 	each TAG participant
 	(whether appointed, elected, or the Chair)
 	has one vote;
-	see also the section on <a href="https://www.w3.org/2004/10/27-tag-charter.html#Voting">voting in the TAG charter</a> [[TAG-CHARTER]]
-	and the general section on <a href="#Votes">votes</a> in this Process Document.
+	see also the general section on <a href="#Votes">votes</a> in this Process Document.
 
 	Details about the [=TAG=]
 	(e.g., the list of TAG participants, mailing list information, and summaries of TAG meetings)
@@ -5696,6 +5692,10 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 		<li>
 			Enable Team to replace defunct registry custodians when no-one else can.
 			(See <a href="https://github.com/w3c/w3process/issues/699">Issue 699</a>)
+
+		<li>
+			Stop citing the superseded TAG charter.
+			(See <a href="https://github.com/w3c/w3process/issues/794">Issue 794</a>)
 	</ul>
 
 
@@ -5761,11 +5761,6 @@ Changes since earlier versions</h3>
 	"CONFLICT-POLICY": {
 		"href": "https://www.w3.org/2000/09/06-conflictpolicy",
 		"title": "Conflict of Interest Policy for W3C Team Members Engaged in Outside Professional Activities",
-		"publisher": "W3C"
-	},
-	"TAG-CHARTER": {
-		"href": "https://www.w3.org/2004/10/27-tag-charter.html",
-		"title": "Technical Architecture Group (TAG) Charter",
 		"publisher": "W3C"
 	},
 	"TAG-HP": {
