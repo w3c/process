@@ -2003,7 +2003,7 @@ Types of Decisions</h3>
 	In contrast,
 	a <dfn id="def-w3c-decision">W3C decision</dfn> is
 	determined by the [=Team=] on behalf of the W3C community
-	by assessing the consensus of the W3C Community after an [=Advisory Committee review=].
+	by <a href="#ACReviewAfter">assessing the consensus of the W3C Community</a> after an <a href="#ACReview">Advisory Committee review</a>.
 
 <h3 id=consensus-building>
 Consensus Building</h3>
