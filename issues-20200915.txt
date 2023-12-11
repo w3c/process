@@ -4,6 +4,8 @@ Date:     2020-09-15
 Status:   Version
 ED:       https://www.w3.org/Consortium/Process/Drafts/
 
+This DoC for the 2020 to 2021 cycle of the Process is not complete.
+
 ----
 Issue 1.
 Summary:  "short term" is undefined
