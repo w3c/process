@@ -2838,8 +2838,18 @@ Types of Technical Reports</h3>
 			and best practices for its use.
 			See [[#note-track]] for details.
 
-		<dt>Registries
-		<dd>
+		<dt>
+			[=Working Groups=] can also publish registries
+			in order to document collections of values or other data
+			that have no normative implementation requirements.
+			Registries are generally companion to [=Recommendation Track=] documents
+			which contain the related normative requirements,
+			and are typically published in a separate [=registry report=],
+			although they can also be directly embedded in [=Recommendation Track=] documents.
+			The registry track requires [=wide review=] and [=consensus=]
+			on what the registry will contain and how it will be managed.
+			Once set up, changes to registry entries are lightweight
+
 			[=Working Groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
 			These are typically published in a separate [=registry report=],
@@ -2847,6 +2857,7 @@ Types of Technical Reports</h3>
 			as a [=registry section=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
+
 			and can even be done without a [=Working Group=].
 			See [[#registries]] for details.
 	</dl>
@@ -2992,10 +3003,11 @@ Wide Review</h5>
 	from a small segment of the relevant stakeholder community.
 
 <h4 id="correction-classes">
-Classes of Changes</h4>
-
+Classes 
+	This document distinguishes the following 5 classes of changes to a specification.
 
 	This document distinguishes the following 5 classes of changes to a document.
+
 	The first two classes of change are considered <dfn lt="editorial change">editorial changes</dfn>,
 	the next two <dfn lt="substantive change">substantive changes</dfn>,
 	and the last one <dfn lt="registry change">registry changes</dfn>.
@@ -3056,10 +3068,16 @@ Classes of Changes</h4>
 		<dt id=class-4>
 			4. New features
 		<dd>
+
+			Changes that add a new functionality, element, etc.
+
+		<dt>
+
 			Changes that add new functionality,
 			such as new elements, new APIs, new rules, etc.
 
 		<dt id=class-5>
+
 			5. Changes to the contents of a [=registry table=]
 		<dd>
 			Changes that add, remove, or alter [=registry entries=] in a [=registry table=].
@@ -4889,6 +4907,246 @@ Switching Tracks</h3>
 	[=Technical reports=] that switch tracks start at
 	their new track’s initial maturity stage,
 	while retaining any established identity (url, shortname, etc.).
+
+<h3 id="registries">
+Registries</h3>
+
+	A <dfn>registry</dfn> documents a data set
+	consisting of one or more associated <dfn lt="registry table">registry tables</dfn>,
+	each table representing an updatable collection
+	of logically independent, consistently-structured <dfn lt="registry entry">registry entries</dfn>.
+	A registry has three associated components:
+	<ul>
+		<li>the [=Registry Definition=], defining how the [=registry tables=] are structured and maintained
+		<li>one or more [=registry tables=], holding the data set represented by the [=registry=]
+		<li>one or more referencing specifications, which make use of the [=registry=]
+	</ul>
+
+	The purposes of maintaining a [=registry=] can include:
+
+	<dl>
+		<dt>non-collision
+		<dd>
+			Avoiding the problem
+			of two entities using the same value with different semantics.
+
+		<dt>non-duplication
+		<dd>
+			Avoiding the problem
+			of having two or more different values in use with the same semantics.
+
+		<dt>information
+		<dd>
+			Providing a central index
+			where anyone can find out
+			what a value means
+			and what its formal definition is
+			(and where it is).
+
+		<dt>submission
+		<dd>
+			Ease of adding new terms,
+			including by stakeholders external to the [=custodian=] organization.
+
+		<dt>consensus
+		<dd>
+			Promoting a clear consensus of the community on the terms.
+	</dl>
+
+	This section of the W3C Process provides a specialized process
+	facilitating the publication and maintenance of such [=registry tables=],
+	particularly those required by or closely related to [=W3C Recommendations=].
+
+	Note: Not every table in a specification is a potential registry.
+	If the intent or effect is that the table enumerates
+	all the possibilities the authors of the specification expect or envisage,
+	then the table by itself is enough.
+	Similarly, if the table is managed by the Working Group
+	and only updated as part of specification update,
+	then the complexities of registry management are not needed.
+
+<h4 id=reg-def>
+Registry Definitions</h4>
+
+	A <dfn>Registry Definition</dfn>
+	defines what each [=registry table=] is and how it is maintained.
+	It <em class=rfc2119>must</em>:
+
+	<ul>
+		<li>
+			Define the scope and purpose of each [=registry table=].
+
+		<li>
+			Define the fields of each [=registry table=]
+			and their constraints
+			(e.g. values must be drawn from a defined set, or be unique,
+			or only reference publicly available resources,
+			etc.)
+
+		<li>
+			 Define the policy for changes to existing entries, such as
+			<ul>
+				<li>whether entries can be deleted or deprecated
+				<li>whether entries be changed after being published, and what kinds of changes are allowed
+				<li>whether previously-deleted unique identifiers can be re-used, or are reserved indefinitely
+			</ul>
+
+		<li>
+			Define the method and criteria by which changes are proposed, approved, and incorporated.
+			(For example, a [=registry=] could define
+			that changes to [=registry entries=] can be proposed using a particular web form or email address,
+			that they must be accompanied by certain background information,
+			or that they do or do not need to be approved by any member of a particular Working Group.)
+
+		<li>
+			Identify the <dfn>custodian</dfn> of the [=registry table=]:
+			the entity to which requests for [=registry changes=] must be sent,
+			and which is responsible for evaluating whether such requests
+			satisfy the criteria defined in the [=Registry Definition=].
+
+			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
+			The [=custodian=] for all [=registry tables=] in a single [=registry=]
+			<em class=rfc2119>should</em> generally be the same entity.
+
+	</ul>
+
+<h4 id=reg-pub>
+Publishing Registries</h4>
+
+	[=Registries=] can be published either as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
+	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
+
+	A [=registry report=] or [=registry section=],
+	is purely documentational,
+	<em class=rfc2119>must not</em> contain any requirements on implementations,
+	and is not subject to the W3C Patent Policy.
+
+	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
+	<ul>
+		<li>
+			Clearly label the [=registry report=]/[=registry section|section=],
+			its [=registry tables|tables=],
+			and its [=Registry Definitions=] as such,
+			including a link to [[#registries]] in this Process.
+
+		<li>
+			Include the [=Registry Definition=] for each of its [=registry tables=].
+
+		<li>
+			Include the entire contents of each [=registry table=],
+			either inline in the report
+			(e.g. formatted as a table, or list, or other appropriate representation),
+			or in a machine-readable file published as part of the [=technical report=],
+			or (preferably) both.
+
+		<li>
+			Include, if the [=registry table=] is provided in a machine-readable file,
+			a definition of the format of that file.
+	</ul>
+
+	The [=Team=] <em class="rfc2119">must</em> make available
+	a means for interested parties to be notified of any updates to a [=registry table=].
+
+	Note: Since the Process does not impose requirements
+	on changes to the contents of a [=registry table=]
+	other than those imposed by the [=Registry Definition=],
+	acceptance of proposed [=registry changes=] on behalf of the [=custodian=] and
+	publication of an updated [=registry report=] that contains
+	only [=registry changes=] since the previous publication
+	can be automated
+	if satisfaction of those rules can be automatically verified.
+
+	Rules for publication and advancement on the <dfn>Registry Track</dfn>
+	are identical to that of the [=Recommendation Track=]
+	with the following exceptions:
+
+	<ul>
+		<li>
+			Since [=Registry Reports=] are not subject to the [[Patent Policy]],
+			none of their publications correspond,
+			to [=First Public Working Draft=],
+			[=Working Draft=],
+			or [=Patent Review Draft=]
+			for the purposes of the [[Patent Policy]].
+
+		<li>
+			The equivalent of [=Working Draft=] is called <dfn export>Draft Registry</dfn>.
+
+		<li>
+			The equivalent of [=Candidate Recommendation=] is called <dfn export>Candidate Registry</dfn>,
+			with [=Candidate Recommendation Snapshot=] and [=Candidate Recommendation Draft=] corresponding to
+			<dfn export>Candidate Registry Snapshot</dfn> and <dfn export>Candidate Registry Draft</dfn>.
+
+		<li>
+			The equivalent of [=W3C Recommendation=] is called <dfn export>W3C Registry</dfn>.
+
+		<li>
+			The [=Proposed Recommendation=] phase is eliminated. Instead:
+			<ul>
+				<li>
+					An [=Advisory Committee Review=] is started
+					upon publication of each [=Candidate Registry Snapshot=].
+
+				<li>
+					To transition to [=W3C Registry=],
+					the [=Working Group=] must also show [=adequate implementation experience=].
+			</ul>
+
+		<li>
+			Changes that add new features (i.e. class 4) are allowed
+			in all [=W3C Registries=],
+			without needing the to explicitly indicate that this is allowed.
+	</ul>
+
+	For [=Registries=],
+	[=adequate implementation experience=] is evaluated on the basis of
+	successful operation of the processes in the registry definition
+	and meaningful usage of the contents of the registry
+	outside the registry itself.
+
+<h4 id=reg-ref-specifications>
+Specifications that Reference Registries</h4>
+
+	All rules and statements about implementations of [=registries=]
+	<em rfc=2119>must</em> be contained in the specifications or other documents that reference the registry,
+	and are therefore subject to the processes
+	(including approval and intellectual property provisions)
+	applicable to those referencing specifications.
+
+	It <em class=rfc2119>must not</em> be possible that a change to the [=registry entries=]
+	affect the conformance of implementations to the Referencing document;
+	if there are entries that must be implemented,
+	or any other such restrictions,
+	they <em rfc=2119>must</em> be documented in the document without reference to the registry.
+
+	<div class=example>
+		For example,
+		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
+		is not acceptable;
+		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
+		Instead, the requirement must be complete in the specification,
+		directly or by reference to another specification.
+		For example
+		“All implementations must recognize the name <code>Basic-Method</code>,
+		and implement it as defined by section yy of IETF RFC xxxx”.
+		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
+	</div>
+
+<h4 id=reg-table-update>
+Updating Registry Tables</h4>
+
+	Changes to the contents of a [=registry table=] that are in accordance with the [=Registry Definition=],
+	(i.e. [[#correction-classes|Class 5 changes]])
+	can be made by re-publishing the [=technical report=] that contains the affected table,
+	without needing to satisfy any other requirements for the publication
+	(not even Working Group consensus, unless this is required by the [=Registry Definition=]).
+	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
+	nor Exclusion Opportunities,
+	and do not require approval via an [=update request=],
+	even for [=technical reports=] at maturities where this would normally be expected.
+	Such publications can be made
+	even in the absence of a [=Working Group=] chartered to maintain the registry
+	when the [=custodian=] is another entity.
 
 <h3 id="further-reading">
 Further reading</h3>
