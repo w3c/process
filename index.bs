@@ -59,6 +59,7 @@ Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
+Complain About: accidental-2119 yes
 </pre>
 
 <style>
@@ -1245,7 +1246,7 @@ Technical Architecture Group Appointments</h5>
 	(Partial terms used to fill a vacated seat do not count towards this limit.)
 
 	Note: Individuals who have reached the limit of two consecutive appointed terms
-	<em class=rfc2119>may</em> freely run for election
+	can freely run for election
 	if they wish to continue serving on the [=TAG=].
 
 	The [=Team=]'s choice of appointee(s)
@@ -1733,7 +1734,7 @@ Content of a Charter</h3>
 		<li>
 			Expected milestone dates where available.
 
-			Note: A charter is <em class="rfc2119">not required</em>
+			Note: A charter does not have
 			to include schedules for review of other group's deliverables.
 
 		<li>
@@ -2085,10 +2086,10 @@ Consensus</h4>
 	Note: Chairs have substantial flexibility
 	in how they obtain and assess consensus among their groups.
 	Unless otherwise constrained by charter,
-	they may use modes including but not limited to explicit calls for consensus,
+	they can use modes including but not limited to explicit calls for consensus,
 	polls of participants,
 	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
-	or they may also delegate and empower a document editor
+	or they can also delegate and empower a document editor
 	to assess consensus on their behalf,
 	whether in general
 	or for specific pre-determined circumstances
@@ -2288,7 +2289,7 @@ Registering Formal Objections</h3>
 	related to that review.
 
 	Note: [=Formal Objections=] against matter in a [=technical report=]
-	are required to be addressed before <a href="#rec-advance">requesting advancement</a>
+	have to be addressed before <a href="#rec-advance">requesting advancement</a>
 	of the [=technical report=].
 
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
@@ -3267,7 +3268,7 @@ Maturity Stages on the Recommendation Track</h4>
 			that the document is considered complete and fit for purpose,
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
-			additional features in a later revision may however be expected.
+			additional features in a later revision could however be expected.
 			A [=Candidate Recommendation=] is expected to be as well-written,
 			detailed,
 			self-consistent,
@@ -4791,7 +4792,7 @@ Updating Registry Tables</h4>
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
-	they must be requested of the responsible Working Group--
+	they need to be requested of the responsible Working Group--
 	or in the absence of a Working Group, of the Team.
 
 	Changes to the [=registry tables=]
@@ -4854,15 +4855,15 @@ Specifications that Reference Registries</h4>
 
 	<div class=example>
 		For example,
-		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
+		 <span class=allow-2119>“All implementations must implement the <code>Basic-Method</code> as defined in the registry”</span>
 		is not acceptable;
 		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
-		Instead, the requirement must be complete in the specification,
+		Instead, the requirement has to be complete in the specification,
 		directly or by reference to another specification.
 		For example
-		“All implementations must recognize the name <code>Basic-Method</code>,
+		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,</span>
 		and implement it as defined by section yy of IETF RFC xxxx”.
-		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
+		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
 	</div>
 
 <h3 id="switching-tracks">
