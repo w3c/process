@@ -2419,7 +2419,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 
 	Note: Since dismissal is individual,
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
-	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
+	the entire [=TAG=] or [=AB=] is not expected to be dismissed.
 
 	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
