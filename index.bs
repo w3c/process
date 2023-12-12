@@ -2576,16 +2576,17 @@ Appealing Council Decisions</h5>
 	of a Council decision issued in a [=Council Report=].
 
 <h3 id="ACReview">
-Advisory Committee Reviews</h3>
+AC Reviews and W3C Decisions</h3>
 
-	<dfn export lt="Advisory Committee review | AC Review"> Advisory Committee review</dfn> is the process
-	by which the [=Advisory Committee=] formally confers its approval
+	The [=Advisory Committee=] formally confers its approval
 	on [=charters=],
 	[=technical reports=],
-	and other matters.
+	and other matters
+	through an <dfn export lt="Advisory Committee review | AC Review">Advisory Committee review</dfn>
+	and its resulting [=W3C Decision=].
 
 <h4 id="ACReviewStart">
-Start of a Review Period</h4>
+Initiating an Advisory Committee Review</h4>
 
 	Each [=Advisory Committee review=] period
 	begins with a Call for Review from the [=Team=] to the [=Advisory Committee=].
@@ -2624,7 +2625,7 @@ Start of a Review Period</h4>
 	(e.g., in light of comments from other Members).
 
 <h4 id="ACReviewAfter">
-After the Review Period</h4>
+Determining the W3C Decision</h4>
 
 	After the review period,
 	the [=Team=] determines the appropriate [=W3C Decision=],
