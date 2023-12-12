@@ -2279,7 +2279,8 @@ Registering Formal Objections</h3>
 	rationales,
 	and decisions <em class="rfc2119">should</em> also be recorded.
 
-	A record of each [=Formal Objection=] against a decision regarding a publicly-available document
+	Upon registration with the [=Team=],
+	a record of each [=Formal Objection=] against a decision regarding a publicly-available document
 	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>;
 	likewise, a record of each [=Formal Objection=] against a [=Member-only|Member-visible=] decision
 	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">available to Members</a>.
