@@ -4856,7 +4856,7 @@ Specifications that Reference Registries</h4>
 	<div class=example>
 		For example,
 		 <span class=allow-2119>“All implementations must implement the <code>Basic-Method</code> as defined in the registry”</span>
-		is not acceptable;
+		is not acceptable because
 		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
 		Instead, the requirement has to be complete in the specification,
 		directly or by reference to another specification.
