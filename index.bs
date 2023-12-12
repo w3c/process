@@ -1245,9 +1245,10 @@ Technical Architecture Group Appointments</h5>
 	for more than two <em>consecutive</em> terms.
 	(Partial terms used to fill a vacated seat do not count towards this limit.)
 
-	Note: Individuals who have reached the limit of two consecutive appointed terms
-	can freely run for election
-	if they wish to continue serving on the [=TAG=].
+	Note: Since there are no limits on elected terms,
+	this limit on appointed terms does not constrain
+	term-limited appointees
+	from running for election at any time.
 
 	The [=Team=]'s choice of appointee(s)
 	is subject to ratification by secret ballot
@@ -1734,8 +1735,8 @@ Content of a Charter</h3>
 		<li>
 			Expected milestone dates where available.
 
-			Note: A charter does not have
-			to include schedules for review of other group's deliverables.
+			Note: A charter does not need to include
+			schedules for review of other group's deliverables.
 
 		<li>
 			The process for the group to approve the release of deliverables
@@ -2089,7 +2090,7 @@ Consensus</h4>
 	they can use modes including but not limited to explicit calls for consensus,
 	polls of participants,
 	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
-	or they can also delegate and empower a document editor
+	they can also delegate and empower a document editor
 	to assess consensus on their behalf,
 	whether in general
 	or for specific pre-determined circumstances
@@ -2289,7 +2290,7 @@ Registering Formal Objections</h3>
 	related to that review.
 
 	Note: [=Formal Objections=] against matter in a [=technical report=]
-	have to be addressed before <a href="#rec-advance">requesting advancement</a>
+	<a href="#adv-verif-reqs">are expected to be fully addressed</a> before <a href="#rec-advance">requesting advancement</a>
 	of the [=technical report=].
 
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
@@ -3479,7 +3480,7 @@ Advancement on the Recommendation Track</h4>
 		<li>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
-		<li>
+		<li id=adv-verif-reqs>
 			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
