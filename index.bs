@@ -3268,7 +3268,7 @@ Maturity Stages on the Recommendation Track</h4>
 			that the document is considered complete and fit for purpose,
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
-			additional features in a later revision could however be expected.
+			however, additional features might be expected in a later revision.
 			A [=Candidate Recommendation=] is expected to be as well-written,
 			detailed,
 			self-consistent,
