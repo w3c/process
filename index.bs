@@ -4862,8 +4862,8 @@ Specifications that Reference Registries</h4>
 		Instead, the requirement has to be complete in the specification,
 		directly or by reference to another specification.
 		For example
-		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,</span>
-		and implement it as defined by section yy of IETF RFC xxxx”.
+		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,
+		and implement it as defined by section yy of IETF RFC xxxx”</span>.
 		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
 	</div>
 
