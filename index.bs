@@ -4672,7 +4672,7 @@ Publishing Registries</h4>
 
 	[=Registries=] can be published either
 	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
-	or incorporated as part of a [=Recommendation=] as a <dfn oldids="registry-section">embedded registry</dfn>.
+	or incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
 
 	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
