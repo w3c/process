@@ -4677,7 +4677,7 @@ Publishing Registries</h4>
 	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
 		<li>
-			Clearly label the [=registry report=]/[=embedded registry=],
+			Clearly label the [=registry report=] or [=embedded registry=],
 			its [=registry tables|tables=],
 			and its [=registry definitions=] as such,
 			including a link to [[#registries]] in this Process.
