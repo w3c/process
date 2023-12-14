@@ -59,6 +59,7 @@ Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
+Complain About: accidental-2119 yes
 </pre>
 
 <style>
@@ -1244,9 +1245,10 @@ Technical Architecture Group Appointments</h5>
 	for more than two <em>consecutive</em> terms.
 	(Partial terms used to fill a vacated seat do not count towards this limit.)
 
-	Note: Individuals who have reached the limit of two consecutive appointed terms
-	<em class=rfc2119>may</em> freely run for election
-	if they wish to continue serving on the [=TAG=].
+	Note: Since there are no limits on elected terms,
+	this limit on appointed terms does not constrain
+	term-limited appointees
+	from running for election at any time.
 
 	The [=Team=]'s choice of appointee(s)
 	is subject to ratification by secret ballot
@@ -1733,8 +1735,8 @@ Content of a Charter</h3>
 		<li>
 			Expected milestone dates where available.
 
-			Note: A charter is <em class="rfc2119">not required</em>
-			to include schedules for review of other group's deliverables.
+			Note: A charter does not need to include
+			schedules for review of other group's deliverables.
 
 		<li>
 			The process for the group to approve the release of deliverables
@@ -2085,10 +2087,10 @@ Consensus</h4>
 	Note: Chairs have substantial flexibility
 	in how they obtain and assess consensus among their groups.
 	Unless otherwise constrained by charter,
-	they may use modes including but not limited to explicit calls for consensus,
+	they can use modes including but not limited to explicit calls for consensus,
 	polls of participants,
 	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
-	or they may also delegate and empower a document editor
+	they can also delegate and empower a document editor
 	to assess consensus on their behalf,
 	whether in general
 	or for specific pre-determined circumstances
@@ -2288,7 +2290,7 @@ Registering Formal Objections</h3>
 	related to that review.
 
 	Note: [=Formal Objections=] against matter in a [=technical report=]
-	are required to be addressed before <a href="#rec-advance">requesting advancement</a>
+	<a href="#adv-verif-reqs">are expected to be fully addressed</a> before <a href="#rec-advance">requesting advancement</a>
 	of the [=technical report=].
 
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
@@ -2417,7 +2419,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 
 	Note: Since dismissal is individual,
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
-	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
+	the entire [=TAG=] or [=AB=] is not expected to be dismissed.
 
 	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
@@ -3268,7 +3270,7 @@ Maturity Stages on the Recommendation Track</h4>
 			that the document is considered complete and fit for purpose,
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
-			additional features in a later revision may however be expected.
+			however, additional features might be expected in a later revision.
 			A [=Candidate Recommendation=] is expected to be as well-written,
 			detailed,
 			self-consistent,
@@ -3479,7 +3481,7 @@ Advancement on the Recommendation Track</h4>
 		<li>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
-		<li>
+		<li id=adv-verif-reqs>
 			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
@@ -4312,10 +4314,10 @@ Abandoning a W3C Recommendation</h5>
 	W3C follows the process for <a href="#revising-rec">modifying a Recommendation</a>.
 
 
-	Note: For the purposes of the W3C Patent Policy
+	Note: For the purposes of the W3C Patent Policy,
 	[[PATENT-POLICY]]
 	an [=Obsolete Recommendation|Obsolete=] or [=Superseded Recommendation=] has the status of an active [=Recommendation=],
-	although it is not recommended for future implementation;
+	although it is not advised for future implementation;
 	a [=Rescinded Recommendation=] ceases to be in effect
 	and no new licenses are granted under the Patent Policy.
 
@@ -4792,7 +4794,7 @@ Updating Registry Tables</h4>
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
-	they must be requested of the responsible Working Group--
+	they need to be requested of the responsible Working Group--
 	or in the absence of a Working Group, of the Team.
 
 	Changes to the [=registry tables=]
@@ -4855,15 +4857,15 @@ Specifications that Reference Registries</h4>
 
 	<div class=example>
 		For example,
-		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
-		is not acceptable;
+		 <span class=allow-2119>“All implementations must implement the <code>Basic-Method</code> as defined in the registry”</span>
+		is not acceptable because
 		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
-		Instead, the requirement must be complete in the specification,
+		Instead, the requirement has to be complete in the specification,
 		directly or by reference to another specification.
 		For example
-		“All implementations must recognize the name <code>Basic-Method</code>,
-		and implement it as defined by section yy of IETF RFC xxxx”.
-		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
+		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,
+		and implement it as defined by section yy of IETF RFC xxxx”</span>.
+		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
 	</div>
 
 <h3 id="switching-tracks">
