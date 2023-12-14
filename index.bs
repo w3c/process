@@ -4313,10 +4313,10 @@ Abandoning a W3C Recommendation</h5>
 	W3C follows the process for <a href="#revising-rec">modifying a Recommendation</a>.
 
 
-	Note: For the purposes of the W3C Patent Policy
+	Note: For the purposes of the W3C Patent Policy,
 	[[PATENT-POLICY]]
 	an [=Obsolete Recommendation|Obsolete=] or [=Superseded Recommendation=] has the status of an active [=Recommendation=],
-	although it is not recommended for future implementation;
+	although it is not advised for future implementation;
 	a [=Rescinded Recommendation=] ceases to be in effect
 	and no new licenses are granted under the Patent Policy.
 
