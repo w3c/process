@@ -2576,7 +2576,7 @@ Appealing Council Decisions</h5>
 	of a Council decision issued in a [=Council Report=].
 
 <h3 id="ACReview">
-AC Reviews and W3C Decisions</h3>
+Advisory Committee Reviews and W3C Decisions</h3>
 
 	The [=Advisory Committee=] formally confers its approval
 	on [=charters=],
