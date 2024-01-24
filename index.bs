@@ -2849,9 +2849,9 @@ Types of Technical Reports</h3>
 		<dd>
 			[=Working Groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
-			These are typically published in a separate [=registry report=],
-			although they can also be directly embedded in [=Recommendation Track=] documents
-			as a [=registry section=].
+			A registry can be published either as a distinct [=registry report=],
+			or directly within [=Recommendation Track=] a document
+			as an [=embedded registry=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
@@ -4679,20 +4679,12 @@ Publishing Registries</h4>
 
 	[=Registries=] can be published either
 	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
-	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
+	or incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
 
-	A [=registry report=] or [=registry section=]
-	is purely documentational,
-	is not subject to the W3C Patent Policy,
-	and <em class=rfc2119>must not</em> contain any requirements on implementations.
-	For the purposes of the Patent Policy [[PATENT-POLICY]],
-	any [=registry section=] in a [=Recommendation track=] document
-	is not a normative portion of that specification.
-
-	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
+	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
 		<li>
-			Clearly label the [=registry report=]/[=registry section|section=],
+			Clearly label the [=registry report=] or [=embedded registry=],
 			its [=registry tables|tables=],
 			and its [=registry definitions=] as such,
 			including a link to [[#registries]] in this Process.
@@ -4871,6 +4863,16 @@ Specifications that Reference Registries</h4>
 		and implement it as defined by section yy of IETF RFC xxxx”</span>.
 		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
 	</div>
+
+<h4 id=reg-pat>
+Registries and Patents</h4>
+
+	A [=registry report=] or [=embedded registry=]
+	is not subject to the W3C Patent Policy,
+	and <em class=rfc2119>must not</em> define any requirements on implementations.
+	For the purposes of the Patent Policy [[PATENT-POLICY]] (only),
+	any [=embedded registry=] in a [=Recommendation track=] document
+	is not a normative portion of that specification.
 
 <h3 id="switching-tracks">
 Switching Tracks</h3>
@@ -5703,6 +5705,11 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 		<li>
 			Stop citing the superseded TAG charter.
 			(See <a href="https://github.com/w3c/w3process/issues/794">Issue 794</a>)
+
+		<li>
+			Rename “registry sections” to [=embedded registries=]
+			to avoid confusion over whether they can be split across multiple sections of a [=Recommendation=].
+			(See <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
 	</ul>
 
 
