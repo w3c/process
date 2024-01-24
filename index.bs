@@ -2842,8 +2842,8 @@ Types of Technical Reports</h3>
 		<dd>
 			[=Working Groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
-			These can either be published in a [=registry report=],
-			or directly embedded in [=Recommendation Track=] documents
+			A registry can be published either as a distinct [=registry report=],
+			or directly within [=Recommendation Track=] a document
 			as an [=embedded registry=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
