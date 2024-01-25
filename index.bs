@@ -4569,11 +4569,10 @@ The Registry Track</h3>
 	consisting of one or more associated <dfn export lt="registry table">registry tables</dfn>,
 	each table representing an updatable collection
 	of logically independent, consistently-structured <dfn export lt="registry entry">registry entries</dfn>.
-	A registry has three associated components:
+	It consists of:
 	<ul>
 		<li>the [=registry definition=], defining how the [=registry tables=] are structured and maintained
 		<li>one or more [=registry tables=], holding the data set represented by the [=registry=] (the <dfn>registry data</dfn>)
-		<li>one or more referencing specifications, which make use of the [=registry=]
 	</ul>
 
 	The purposes of maintaining a [=registry=] can include:
