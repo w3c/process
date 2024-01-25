@@ -5710,6 +5710,10 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			Rename “registry sections” to [=embedded registries=]
 			to avoid confusion over whether they can be split across multiple sections of a [=Recommendation=].
 			(See <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
+
+		<li>
+			Put constraints on the timing of making Formal Objections public.
+			(See <a href="https://github.com/w3c/w3process/issues/735">Issue 735</a>)
 	</ul>
 
 
