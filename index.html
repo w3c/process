@@ -5,9 +5,9 @@
   <title>W3C Process Document</title>
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
-  <meta content="Bikeshed version 4416b18d5, updated Tue Jan 2 15:52:39 2024 -0800" name="generator">
+  <meta content="Bikeshed version e20e08949, updated Wed Jan 24 11:50:28 2024 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="15cd932e886181de3e1b4f747bb1822f8549da44" name="revision">
+  <meta content="590846729cf6510f2c7670f0e3ffb5d005db3d63" name="revision">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -608,7 +608,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-01-24">24 January 2024</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-01-25">25 January 2024</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -653,7 +653,7 @@ please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.</p>
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 24 January 2024 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 25 January 2024 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 which is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>,
 is a work in progress
@@ -2806,7 +2806,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <dt>Registries 
      <dd> <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG①⑤">Working Groups</a> can also publish <a data-link-type="dfn" href="#registry" id="ref-for-registry">registries</a> in order to document collections of values or other data.
 			A registry can be published either as a distinct <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report①">registry report</a>,
-			or directly within <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track②">Recommendation Track</a> a document
+			or directly within a <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track②">Recommendation Track</a> document
 			as an <a data-link-type="dfn" href="#embedded-registry" id="ref-for-embedded-registry">embedded registry</a>. <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition">Defining a registry</a> requires <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review①">wide review</a> and <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①⓪">consensus</a>,
 			but once set up, changes to registry entries are lightweight
 			and can even be done without a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG①⑥">Working Group</a>.
@@ -6313,20 +6313,33 @@ function getRootLevelAbsolutePosition(el) {
     };
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("mouseover", e=>{
-        let link = e.target.closest("a");
-        if(link) showRefHint(link);
-    });
-    document.body.addEventListener("focus", e=>{
-        let link = e.target.closest("a");
-        if(link) showRefHint(link);
-    });
+function showRefHintListener(e) {
+    // If the target isn't in a link (or is a link),
+    // just ignore it.
+    let link = e.target.closest("a");
+    if(!link) return;
 
-    document.body.addEventListener("click", (e) => {
-        // If not handled already, just hide all link panels.
-        hideAllRefHints();
-    });
+    // If the target is in a ref-hint panel
+    // (aka a link in the already-open one),
+    // also just ignore it.
+    if(link.closest(".ref-hint")) return;
+
+    // Otherwise, show the panel for the link.
+    showRefHint(link);
+}
+
+function hideAllHintsListener(e) {
+    // If the click is inside a ref-hint panel, ignore it.
+    if(e.target.closest(".ref-hint")) return;
+    // Otherwise, close all the current panels.
+    hideAllRefHints();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("mouseover", showRefHintListener);
+    document.body.addEventListener("focus", showRefHintListener);
+
+    document.body.addEventListener("click", hideAllHintsListener);
 });
 
 window.addEventListener("resize", () => {
