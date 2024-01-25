@@ -4461,26 +4461,26 @@ Group Notes</h4>
 			non-normative guides to good practices
 	</ul>
 
-	Some [=Notes=] are developed through successive <dfn lt="Draft Note">Draft Notes</dfn>
+	Some [=Notes=] are developed through successive <dfn oldids="draft-note" lt="Note Draft">Note Drafts</dfn>
 	before publication as a full [=Notes=],
 	while others are [=published=] directly as a [=Note=].
-	There are few formal requirements to [=publish=] a document as a [=Note=] or [=Draft Note=],
+	There are few formal requirements to [=publish=] a document as a [=Note=] or [=Note Draft=],
 	and they have no standing as a recommendation of W3C
 	but are simply documents preserved for historical reference.
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
-	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
+	does not apply any licensing requirements or commitments for [=Notes=] or [=Note Drafts=].
 
 <h4 id="publishing-notes">
 Publishing Notes</h4>
 
-	In order to publish a [=Note=] or [=Draft Note=],
+	In order to publish a [=Note=] or [=Note Draft=],
 	the group:
 
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> record their decision
-			to request publication as a [=Note=] or [=Draft Note=], and
+			to request publication as a [=Note=] or [=Note Draft=], and
 
 		<li>
 			<em class="rfc2119">should</em> publish documentation
@@ -4488,8 +4488,8 @@ Publishing Notes</h4>
 			since any previous publication.
 	</ul>
 
-	Both [=Notes=] and [=Draft Notes=] can be updated by republishing
-	as a [=Note=] or [=Draft Note=].
+	Both [=Notes=] and [=Note Drafts=] can be updated by republishing
+	as a [=Note=] or [=Note Draft=].
 	A [=technical report=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
 
@@ -4745,7 +4745,7 @@ Publishing Registries</h4>
 			nor to [=Rescinded Candidate Recommendation=] for [=Registries=].
 
 		<li>
-			The equivalent of [=Working Draft=] is called <dfn export>Draft Registry</dfn>.
+			The equivalent of [=Working Draft=] is called <dfn oldids="draft-registry" export>Registry Draft</dfn>.
 
 		<li>
 			The equivalent of [=Candidate Recommendation=] is called <dfn export>Candidate Registry</dfn>,
@@ -5714,6 +5714,13 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 		<li>
 			Put constraints on the timing of making Formal Objections public.
 			(See <a href="https://github.com/w3c/w3process/issues/735">Issue 735</a>)
+
+		<li>
+			Rename "Draft Note" into "Note Draft",
+			and "Draft Registry" into "Registry Draft"
+			to be consistent with other statuses that uses the word "Draft",
+			and to make that word stand out more.
+			(See <a href="https://github.com/w3c/w3process/issues/779">Issue 779</a>)
 	</ul>
 
 
