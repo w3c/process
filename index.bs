@@ -4566,7 +4566,7 @@ Revising W3C Statements</h4>
 The Registry Track</h3>
 
 	A <dfn export>registry</dfn> documents a data set
-	consisting of one or more associated <dfn export lt="registry table">registry tables</dfn>,
+	consisting of one or more <dfn export lt="registry table">registry tables</dfn>,
 	each table representing an updatable collection
 	of logically independent, consistently-structured <dfn export lt="registry entry">registry entries</dfn>.
 	It consists of:
