@@ -5,9 +5,11 @@
   <title>W3C Process Document</title>
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
-  <meta content="Bikeshed version e20e08949, updated Wed Jan 24 11:50:28 2024 -0800" name="generator">
+  <meta content="Bikeshed version d765c696b, updated Fri Mar 8 15:58:52 2024 -0800" name="generator">
   <link href="https://www.w3.org/Consortium/Process/" rel="canonical">
-  <meta content="84977720eeec1ed5d968efc441074404f4b646c0" name="revision">
+  <meta content="70971f92c9888250f03b61f749ffb7fcf013ae7d" name="revision">
+  <meta content="dark light" name="color-scheme">
+  <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
 .about { margin-left: 3em; margin-right: 3em; font-size: .83em}
 table { margin-left: auto; margin-right: auto }
@@ -608,7 +610,7 @@ dfn > a.self-link::before      { content: "#"; }
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">W3C Process Document</h1>
-   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-01-25">25 January 2024</time></p>
+   <p id="w3c-state"><a href="https://www.w3.org/standards/types#CG-DRAFT">Draft Community Group Report</a>, <time class="dt-updated" datetime="2024-03-13">13 March 2024</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -653,7 +655,7 @@ please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.</p>
 	follows the <a href="https://www.w3.org/Consortium/Process/">most recent operative Process Document</a> announced to the Membership. </p>
    <p> This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a> (which anyone can join).
-	This is the 25 January 2024 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
+	This is the 13 March 2024 Draft Community Group Report for the proposed next version of the W3C Process Document. </p>
    <p>This document,
 which is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>,
 is a work in progress
@@ -4158,16 +4160,15 @@ on addressing issues raised by individuals external to the Group.</p>
     <p>The decision to incorporate <a data-link-type="dfn" href="#proposed-amendments" id="ref-for-proposed-amendments①①">proposed amendments</a> into <a data-link-type="dfn" href="#statement" id="ref-for-statement①①">W3C Statement</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①④">W3C Decision</a>. <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②③">Advisory Committee representatives</a> may initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑨">Advisory Committee Appeal</a> of the decision.</p>
     <h3 class="heading settled" data-level="6.5" id="registries"><span class="secno">6.5. </span><span class="content"> The Registry Track</span><a class="self-link" href="#registries"></a></h3>
     <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="registry">registry</dfn> documents a data set
-	consisting of one or more associated <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="registry table" id="registry-table">registry tables</dfn>,
+	consisting of one or more <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="registry table" id="registry-table">registry tables</dfn>,
 	each table representing an updatable collection
 	of logically independent, consistently-structured <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="registry entry" id="registry-entry">registry entries</dfn>.
-	A registry has three associated components:</p>
+	A registry consists of:</p>
     <ul>
      <li>the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①">registry definition</a>, defining how the <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table②">registry tables</a> are structured and maintained 
      <li>one or more <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table③">registry tables</a>, holding the data set represented by the <a data-link-type="dfn" href="#registry" id="ref-for-registry①">registry</a> (the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-data">registry data</dfn>) 
-     <li>one or more referencing specifications, which make use of the <a data-link-type="dfn" href="#registry" id="ref-for-registry②">registry</a> 
     </ul>
-    <p>The purposes of maintaining a <a data-link-type="dfn" href="#registry" id="ref-for-registry③">registry</a> can include:</p>
+    <p>The purposes of maintaining a <a data-link-type="dfn" href="#registry" id="ref-for-registry②">registry</a> can include:</p>
     <dl>
      <dt>non-collision 
      <dd> Avoiding the problem
@@ -4214,7 +4215,7 @@ on addressing issues raised by individuals external to the Group.</p>
        <li>whether previously-deleted unique identifiers can be re-used, or are reserved indefinitely 
       </ul>
      <li> Define the method and criteria by which changes are proposed, approved, and incorporated.
-			(For example, a <a data-link-type="dfn" href="#registry" id="ref-for-registry④">registry</a> could define
+			(For example, a <a data-link-type="dfn" href="#registry" id="ref-for-registry③">registry</a> could define
 			that changes to <a data-link-type="dfn" href="#registry-entry" id="ref-for-registry-entry①">registry entries</a> can be proposed using a particular web form or email address,
 			that they must be accompanied by certain background information,
 			or that they do or do not need to be approved by any member of a particular Working Group.) 
@@ -4224,7 +4225,7 @@ on addressing issues raised by individuals external to the Group.</p>
 			and which is responsible for evaluating whether such requests
 			satisfy the criteria defined in the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition②">registry definition</a>. 
       <p>The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian①">custodian</a> may be the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑧③">Working Group</a>, the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑥">Team</a>, or a delegated entity.
-			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry tables</a> in a single <a data-link-type="dfn" href="#registry" id="ref-for-registry⑤">registry</a> <em class="rfc2119">should</em> generally be the same entity.</p>
+			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry tables</a> in a single <a data-link-type="dfn" href="#registry" id="ref-for-registry④">registry</a> <em class="rfc2119">should</em> generally be the same entity.</p>
       <p>If the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian③">custodian</a> of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">registry table</a> ceases to exist or to operate as a custodian
 			(e.g., the relevant group is disbanded, or 
 			the custodian is unresponsive to repeated attempts to make contact),
@@ -4235,7 +4236,7 @@ on addressing issues raised by individuals external to the Group.</p>
 			by an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑧">AC Review</a> as a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①⑤">W3C Decision</a>.</p>
     </ul>
     <h4 class="heading settled" data-level="6.5.2" id="reg-pub"><span class="secno">6.5.2. </span><span class="content"> Publishing Registries</span><a class="self-link" href="#reg-pub"></a></h4>
-    <p><a data-link-type="dfn" href="#registry" id="ref-for-registry⑥">Registries</a> can be published either
+    <p><a data-link-type="dfn" href="#registry" id="ref-for-registry⑤">Registries</a> can be published either
 	as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②⑥">technical report</a> on the <a data-link-type="dfn" href="#registry-track" id="ref-for-registry-track">Registry Track</a> called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>,
 	or incorporated as part of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑦①">Recommendation</a> as an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="embedded-registry">embedded registry<span id="registry-section"></span></dfn>.</p>
     <p>The <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report②">registry report</a> or <a data-link-type="dfn" href="#embedded-registry" id="ref-for-embedded-registry①">embedded registry</a> <em class="rfc2119">must</em>:</p>
@@ -4275,7 +4276,7 @@ on addressing issues raised by individuals external to the Group.</p>
 			to <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd⑦">First Public Working Draft</a>, <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①③">Working Draft</a>,
 			or <a data-link-type="dfn" href="#patent-review-drafts" id="ref-for-patent-review-drafts③">Patent Review Draft</a> for the purposes of the <a data-link-type="biblio" href="#biblio-patent-policy" title="The W3C Patent Policy">[PATENT-POLICY]</a>. 
      <li> For the same reason,
-			there is no equivalent to <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec④">Rescinded Recommendation</a> nor to <a data-link-type="dfn" href="#rescinded-candidate-recommendation" id="ref-for-rescinded-candidate-recommendation①">Rescinded Candidate Recommendation</a> for <a data-link-type="dfn" href="#registry" id="ref-for-registry⑦">Registries</a>. 
+			there is no equivalent to <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec④">Rescinded Recommendation</a> nor to <a data-link-type="dfn" href="#rescinded-candidate-recommendation" id="ref-for-rescinded-candidate-recommendation①">Rescinded Candidate Recommendation</a> for <a data-link-type="dfn" href="#registry" id="ref-for-registry⑥">Registries</a>. 
      <li> The equivalent of <a data-link-type="dfn" href="#RecsWD" id="ref-for-RecsWD①④">Working Draft</a> is called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="draft-registry">Draft Registry</dfn>. 
      <li> The equivalent of <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②①">Candidate Recommendation</a> is called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="candidate-registry">Candidate Registry</dfn>,
 			with <a data-link-type="dfn" href="#candidate-recommendation-snapshot" id="ref-for-candidate-recommendation-snapshot①⑨">Candidate Recommendation Snapshot</a> and <a data-link-type="dfn" href="#candidate-recommendation-draft" id="ref-for-candidate-recommendation-draft⑦">Candidate Recommendation Draft</a> corresponding to <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="candidate-registry-snapshot">Candidate Registry Snapshot</dfn> and <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="candidate-registry-draft">Candidate Registry Draft</dfn>. 
@@ -4319,7 +4320,7 @@ on addressing issues raised by individuals external to the Group.</p>
 			(Changes to these parts are deemed to be <a data-link-type="dfn" href="#editorial-change" id="ref-for-editorial-change⑥">editorial changes</a>). 
     </ul>
     <p><a data-link-type="dfn" href="#registry-data-report" id="ref-for-registry-data-report①">Registry Data Reports</a> do not have maturity stages in and of themselves;
-	The maturity stage of the <a data-link-type="dfn" href="#registry" id="ref-for-registry⑧">registry</a> whose <a data-link-type="dfn" href="#registry-data" id="ref-for-registry-data②">data</a> they record
+	The maturity stage of the <a data-link-type="dfn" href="#registry" id="ref-for-registry⑦">registry</a> whose <a data-link-type="dfn" href="#registry-data" id="ref-for-registry-data②">data</a> they record
 	is that of the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report③③">technical report</a> holding the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①③">registry definition</a>.</p>
     <p>Anytime a change is made to a <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition①④">registry definition</a>,
 	the Working Group <em class="rfc2119">must</em> update and republish
@@ -4986,7 +4987,7 @@ on addressing issues raised by individuals external to the Group.</p>
     like this: </p>
     <p class="note" role="note">Note, this is an informative note.</p>
    </div>
-<script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script>
+   <script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script>
   </main>
   <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
   <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span><a class="self-link" href="#index-defined-here"></a></h3>
@@ -5577,7 +5578,7 @@ let dfnPanelData = {
 "proxy": {"dfnID":"proxy","dfnText":"proxy","external":false,"refSections":[{"refs":[{"id":"ref-for-proxy"}],"title":"3.4.2. \nParticipation in Chartered Groups"}],"url":"#proxy"},
 "public-participant-ig": {"dfnID":"public-participant-ig","dfnText":"public participants","external":false,"refSections":[{"refs":[{"id":"ref-for-public-participant-ig"}],"title":"4.2. \nContent of a Charter"}],"url":"#public-participant-ig"},
 "publishing": {"dfnID":"publishing","dfnText":"Publishing","external":false,"refSections":[{"refs":[{"id":"ref-for-publishing"}],"title":"6.1. \nTypes of Technical Reports"},{"refs":[{"id":"ref-for-publishing\u2460"}],"title":"6.2.1. \nPublication of Technical Reports"},{"refs":[{"id":"ref-for-publishing\u2461"}],"title":"6.2.2. \nReviews and Review Responsibilities"},{"refs":[{"id":"ref-for-publishing\u2462"}],"title":"6.2.5. \nCandidate Amendments"},{"refs":[{"id":"ref-for-publishing\u2463"},{"id":"ref-for-publishing\u2464"},{"id":"ref-for-publishing\u2465"}],"title":"6.3.1. \nMaturity Stages on the Recommendation Track"},{"refs":[{"id":"ref-for-publishing\u2466"}],"title":"6.3.6. \nRevising a Working Draft"},{"refs":[{"id":"ref-for-publishing\u2467"}],"title":"6.3.8.2. \nPublishing a Candidate Recommendation Draft"},{"refs":[{"id":"ref-for-publishing\u2468"}],"title":"6.3.9. \nTransitioning to Proposed Recommendation"},{"refs":[{"id":"ref-for-publishing\u2460\u24ea"},{"id":"ref-for-publishing\u2460\u2460"},{"id":"ref-for-publishing\u2460\u2461"}],"title":"6.3.13.1. \nAbandoning an Unfinished Recommendation"},{"refs":[{"id":"ref-for-publishing\u2460\u2462"},{"id":"ref-for-publishing\u2460\u2463"}],"title":"6.4.1. \nGroup Notes"}],"url":"#publishing"},
-"registry": {"dfnID":"registry","dfnText":"registry","external":false,"refSections":[{"refs":[{"id":"ref-for-registry"}],"title":"6.1. \nTypes of Technical Reports"},{"refs":[{"id":"ref-for-registry\u2460"},{"id":"ref-for-registry\u2461"},{"id":"ref-for-registry\u2462"}],"title":"6.5. \nThe Registry Track"},{"refs":[{"id":"ref-for-registry\u2463"},{"id":"ref-for-registry\u2464"}],"title":"6.5.1. \nRegistry Definitions"},{"refs":[{"id":"ref-for-registry\u2465"},{"id":"ref-for-registry\u2466"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-registry\u2467"}],"title":"6.5.4. \nRegistry Data Reports"}],"url":"#registry"},
+"registry": {"dfnID":"registry","dfnText":"registry","external":false,"refSections":[{"refs":[{"id":"ref-for-registry"}],"title":"6.1. \nTypes of Technical Reports"},{"refs":[{"id":"ref-for-registry\u2460"},{"id":"ref-for-registry\u2461"}],"title":"6.5. \nThe Registry Track"},{"refs":[{"id":"ref-for-registry\u2462"},{"id":"ref-for-registry\u2463"}],"title":"6.5.1. \nRegistry Definitions"},{"refs":[{"id":"ref-for-registry\u2464"},{"id":"ref-for-registry\u2465"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-registry\u2466"}],"title":"6.5.4. \nRegistry Data Reports"}],"url":"#registry"},
 "registry-change": {"dfnID":"registry-change","dfnText":"registry changes","external":false,"refSections":[{"refs":[{"id":"ref-for-registry-change"}],"title":"6.5.1. \nRegistry Definitions"},{"refs":[{"id":"ref-for-registry-change\u2460"},{"id":"ref-for-registry-change\u2461"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-registry-change\u2462"},{"id":"ref-for-registry-change\u2463"}],"title":"6.5.3. \nUpdating Registry Tables"}],"url":"#registry-change"},
 "registry-data": {"dfnID":"registry-data","dfnText":"registry data","external":false,"refSections":[{"refs":[{"id":"ref-for-registry-data"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-registry-data\u2460"},{"id":"ref-for-registry-data\u2461"}],"title":"6.5.4. \nRegistry Data Reports"}],"url":"#registry-data"},
 "registry-data-report": {"dfnID":"registry-data-report","dfnText":"Registry Data Report","external":false,"refSections":[{"refs":[{"id":"ref-for-registry-data-report"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-registry-data-report\u2460"},{"id":"ref-for-registry-data-report\u2461"}],"title":"6.5.4. \nRegistry Data Reports"}],"url":"#registry-data-report"},
@@ -5724,7 +5725,7 @@ function showDfnPanel(dfn) {
 
 function positionDfnPanel(dfnPanel) {
     const dfn = dfnPanel.dfn;
-    const dfnPos = getRootLevelAbsolutePosition(dfn);
+    const dfnPos = getBounds(dfn);
     dfnPanel.style.top = dfnPos.bottom + "px";
     dfnPanel.style.left = dfnPos.left + "px";
 
@@ -5793,40 +5794,19 @@ function refocusOnTarget(event) {
     });
 }
 
+// TODO: shared util
 // Returns the root-level absolute position {left and top} of element.
-function getRootLevelAbsolutePosition(el) {
-    const boundsRect = el.getBoundingClientRect();
-    let xPos = 0;
-    let yPos = 0;
-
-    while (el) {
-        let xScroll = el.scrollLeft;
-        let yScroll = el.scrollTop;
-
-        // Ignore scrolling of body.
-        if (el.tagName === "BODY") {
-            xScroll = 0;
-            yScroll = 0;
-        }
-        xPos += (el.offsetLeft - xScroll + el.clientLeft);
-        yPos += (el.offsetTop - yScroll + el.clientTop);
-
-        el = el.offsetParent;
-    }
+function getBounds(el, relativeTo=document.body) {
+    const relativeRect = relativeTo.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+    const top = elRect.top - relativeRect.top;
+    const left = elRect.left - relativeRect.left;
     return {
-        left: xPos,
-        top: yPos,
-        right: xPos + boundsRect.width,
-        bottom: yPos + boundsRect.height,
-    };
-}
-
-function scrolledIntoView(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top > 0 &&
-        rect.bottom < window.innerHeight
-    );
+        top,
+        left,
+        bottom: top + elRect.height,
+        right: left + elRect.width,
+    }
 }
 
 function scrollToTargetAndHighlight(event) {
@@ -5835,10 +5815,6 @@ function scrollToTargetAndHighlight(event) {
         hash = decodeURIComponent(hash.substring(1));
         const dest = document.getElementById(hash);
         if (dest) {
-            // Maybe prevent default scroll.
-            if (scrolledIntoView(dest)) {
-                event.preventDefault();
-            }
             dest.classList.add('highlighted');
             setTimeout(() => dest.classList.remove('highlighted'), 1000);
         }
@@ -6272,7 +6248,7 @@ function setupRefHintEventListeners(link, refHint) {
 
 function positionRefHint(refHint) {
     const link = refHint.forLink;
-    const linkPos = getRootLevelAbsolutePosition(link);
+    const linkPos = getBounds(link);
     refHint.style.top = linkPos.bottom + "px";
     refHint.style.left = linkPos.left + "px";
 
@@ -6288,31 +6264,17 @@ function positionRefHint(refHint) {
 
 // TODO: shared util
 // Returns the root-level absolute position {left and top} of element.
-function getRootLevelAbsolutePosition(el) {
-    const boundsRect = el.getBoundingClientRect();
-    let xPos = 0;
-    let yPos = 0;
-
-    while (el) {
-        let xScroll = el.scrollLeft;
-        let yScroll = el.scrollTop;
-
-        // Ignore scrolling of body.
-        if (el.tagName === "BODY") {
-            xScroll = 0;
-            yScroll = 0;
-        }
-        xPos += (el.offsetLeft - xScroll + el.clientLeft);
-        yPos += (el.offsetTop - yScroll + el.clientTop);
-
-        el = el.offsetParent;
-    }
+function getBounds(el, relativeTo=document.body) {
+    const relativeRect = relativeTo.getBoundingClientRect();
+    const elRect = el.getBoundingClientRect();
+    const top = elRect.top - relativeRect.top;
+    const left = elRect.left - relativeRect.left;
     return {
-        left: xPos,
-        top: yPos,
-        right: xPos + boundsRect.width,
-        bottom: yPos + boundsRect.height,
-    };
+        top,
+        left,
+        bottom: top + elRect.height,
+        right: left + elRect.width,
+    }
 }
 
 function showRefHintListener(e) {
@@ -6338,7 +6300,7 @@ function hideAllHintsListener(e) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("mouseover", showRefHintListener);
+    document.body.addEventListener("mousedown", showRefHintListener);
     document.body.addEventListener("focus", showRefHintListener);
 
     document.body.addEventListener("click", hideAllHintsListener);
