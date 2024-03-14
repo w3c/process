@@ -1,4 +1,4 @@
-name: Process Builder
+https://github.com/w3c/w3process/actions/workflows/compile.yml/badge.svg name: Process Builder
 
 # Reference documentation: https://docs.github.com/en/actions/reference
 on: [push, pull_request]
