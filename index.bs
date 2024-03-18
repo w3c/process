@@ -118,9 +118,9 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 	incorporated by normative reference as a part of the Process Document
 	are equally binding.
 
-	The Patent Policy and CEPC place additional obligations on Members, Team, and other participants in W3C.
+	The Patent Policy and Code of Conduct place additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
-	The Process Document, Patent Policy, and CEPC have been designed to allow each to evolve independently.
+	The Process Document, Patent Policy, and Code of Conduct have been designed to allow each to evolve independently.
 
 	In the Process Document, the term “participant” refers to an individual, not an organization.
 
@@ -437,7 +437,7 @@ Expectations and Discipline</h5>
 	are responsible for assessing and attesting to the qualities of those nominees.
 
 	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
-	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
+	by the terms and spirit of the <a href="https://www.w3.org/policies/code-of-conduct/">W3C Code of Conduct</a> [[!COC]]
 	and the participation requirements described in
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
@@ -448,7 +448,7 @@ Expectations and Discipline</h5>
 	if serious and/or repeated violations,
 	such as failure to meet the requirements on individual behavior of
 	(a) this process
-	and in particular the CEPC, or
+	and in particular the Code of Conduct, or
 	(b) the membership agreement, or
 	(c) applicable laws,
 	occur.
@@ -2408,7 +2408,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	The [=Team=] may report comments verbatim
 	or may paraphrase them while preserving their intent;
 	they may also elide inappropriate comments,
-	such as any that violate applicable laws or the [[CEPC]].
+	such as any that violate applicable laws or the [[COC]].
 
 	Before a Council forms,
 	the [=Team=] presents the entire list of potential members
@@ -5483,7 +5483,7 @@ Process Evolution</h2>
 	The documents covered by this section are:
 	* the W3C Process (this document)
 	* the W3C Patent Policy [[!PATENT-POLICY]]
-	* the W3C Code of Ethics and Professional Conduct [[!CEPC]]
+	* the W3C Code of Conduct [[!COC]]
 	* The W3C Document License [[!DOC-LICENSE]]
 
 	The [=Advisory Board=] initiates review as follows:
@@ -5508,7 +5508,7 @@ Process Evolution</h2>
 
 	Note: As of June 2020,
 	the [[PATENT-POLICY|Patent Policy]] is developed in the <a href="https://www.w3.org/2004/pp/psig/">Patents and Standards Interest Group</a>,
-	the [[CEPC|Code of Ethics and Professional Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
+	the [[COC|Code of Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
 	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
 <h2 id="acks" class=non-normative>
@@ -5841,9 +5841,9 @@ Changes since earlier versions</h3>
 		"title": "The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators",
 		"publisher": "W3C"
 	},
-	"CEPC": {
-		"href": "https://www.w3.org/Consortium/cepc/",
-		"title": "W3C Code of Ethics and Professional Conduct",
+	"COC": {
+		"href": "https://www.w3.org/policies/code-of-conduct/",
+		"title": "W3C Code of Conduct",
 		"publisher": "W3C"
 	},
 	"OBS-RESC": {
