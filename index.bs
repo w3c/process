@@ -33,7 +33,7 @@ Previous Version: https://www.w3.org/2023/Process-20231103/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
-Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
+Former Editor: Charles McCathie Nevile, Yandex, https://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
 Repository: w3c/w3process
@@ -46,7 +46,7 @@ Abstract:
 	This document does not describe the internal workings of the Team.
 
 	For more information about the W3C mission and the history of W3C,
-	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
+	please refer to <a href="https://www.w3.org/about/">About W3C</a>.
 Status Text:
 	This document,
 	which is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>,
@@ -180,7 +180,7 @@ Introduction</h2>
 	of its chartered [=Working Groups=] and [=Interest Groups=],
 	see [[#Policies]] and [[#GAGeneral]].
 	W3C also operates Community and Business Groups,
-	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
+	which are separately described in <a href="https://www.w3.org/community/about/process/">their own process document</a> [[BG-CG]].
 
 	In addition, several groups are formally established by the Consortium:
 	the <a href="#AC">W3C Advisory Committee</a>, which has a representative from each Member,
@@ -245,8 +245,8 @@ Members</h3>
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
-	as described in “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]];
-	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List">current W3C Members</a> [[MEMBER-LIST]]).
+	as described in “<a href="https://www.w3.org/Consortium/join/">How to Join W3C</a>” [[JOIN]];
+	(refer to the public list of <a href="https://www.w3.org/membership/list/">current W3C Members</a> [[MEMBER-LIST]]).
 	The <a href="#Team">Team</a> <em class="rfc2119">must</em> ensure
 	that Member participation agreements remain <a href="#Team-only">Team-only</a>
 	and that no Member receives preferential treatment within W3C.
@@ -378,7 +378,7 @@ The W3C Team</h3>
 	unpaid interns,
 	and W3C Fellows.
 	<dfn id="fellows">W3C Fellows</dfn> are Member employees working as part of the Team;
-	see the <a href="https://www.w3.org/Consortium/Recruitment/Fellows">W3C Fellows Program</a> [[FELLOWS]].
+	see the <a href="https://www.w3.org/careers/fellows/">W3C Fellows Program</a> [[FELLOWS]].
 	The Team provides technical leadership about Web technologies,
 	organizes and manages W3C activities to reach goals
 	within practical constraints (such as resources available),
@@ -452,7 +452,7 @@ Expectations and Discipline</h5>
 	(b) the membership agreement, or
 	(c) applicable laws,
 	occur.
-	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
+	Refer to the <a href="https://www.w3.org/Guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
 
 <h5 id="coi">
 Conflict of Interest Policy</h5>
@@ -745,7 +745,7 @@ Participation in the Advisory Committee</h4>
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	When an organization joins W3C
-	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
+	(see “<a href="https://www.w3.org/Consortium/join/">How to Join W3C</a>” [[JOIN]]),
 	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
@@ -833,7 +833,7 @@ Advisory Committee Meetings</h4>
 	The Team <em class="rfc2119">must</em> announce the region of each Advisory Committee meeting
 	at least <span class="time-interval">one year</span> in advance.
 
-	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
+	More information about <a href="https://www.w3.org/events/ac/">Advisory Committee meetings</a> [[AC-MEETING]]
 	is available at the Member website.
 
 <h3 id=elected-groups>
@@ -1606,7 +1606,7 @@ Invited Expert in a Working Group</h5>
 
 		<li>
 			agree to the terms of the
-			<a href="https://www.w3.org/Consortium/Legal/collaborators-agreement">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
+			<a href="https://www.w3.org/invited-experts/agreement-2023/">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
 
 		<li>
 			accept the participation terms set forth in the charter,
@@ -2970,7 +2970,7 @@ Wide Review</h5>
 	the record of requests to and responses from reviewers,
 	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
 	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
+	or identified as <a href="https://www.w3.org/liaisons/">liaisons</a> [[LIAISON]],
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
@@ -4424,7 +4424,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
 	The Status of this Document section <em class="rfc2119">should</em> link
-	to the explanation of <a href="https://www.w3.org/2016/11/obsoleting-rescinding/">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
+	to the explanation of <a href="https://www.w3.org/Guide/process/obsolete-rescinded-supserseded">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
 
 	Once W3C has published a Rescinded Recommendation,
 	future W3C technical reports <em class="rfc2119">must not</em> include normative references
@@ -4902,7 +4902,7 @@ Switching Tracks</h3>
 <h3 id="further-reading">
 Further reading</h3>
 
-	Refer to <a href="https://www.w3.org/Guide/transitions">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
+	Refer to <a href="https://www.w3.org/Guide/transitions/">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
@@ -4930,7 +4930,7 @@ Public Communication</h3>
 			W3C technical reports (and software) are available free of charge to the general public.
 
 		<li>
-			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
+			A <a href="https://www.w3.org/mission/">mission statement</a> [[MISSION]]
 			that explains the purpose and mission of W3C,
 			the key benefits for Members,
 			and the organizational structure of W3C.
@@ -4951,7 +4951,7 @@ Public Communication</h3>
 	[=Workshops=],
 	and review deadlines,
 	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]
+	and maintains a <a href="https://www.w3.org/events/">calendar</a> [[CALENDAR]]
 	of official W3C events.
 	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
@@ -5157,7 +5157,7 @@ Liaisons</h2>
 	unless directed to do so by the [=Board=].
 	A signed [=agreement=] <em class="rfc2119">should</em> be made public.
 
-	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
+	Information about <a href="https://www.w3.org/liaisons/">W3C liaisons with other organizations</a> [[LIAISON]]
 	and the guidelines W3C follows when creating a liaison is available on the Web.
 
 <h2 id="Submission">
@@ -5307,7 +5307,7 @@ Scope of Member Submissions</h4>
 	to build consensus around concrete proposals for new work.
 
 	Members <em class="rfc2119">should not</em> submit materials
-	covering topics well outside the scope of <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
+	covering topics well outside the scope of <a href="https://www.w3.org/mission/">W3C's mission</a> [[MISSION]].
 
 <h4 id="SubmissionReqs">
 Information Required in a Submission Request</h4>
@@ -5316,7 +5316,7 @@ Information Required in a Submission Request</h4>
 	and any other authors of the submitted material
 	<em class="rfc2119">must</em> agree that,
 	if the request is acknowledged,
-	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]]
+	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]]
 	and will include a reference to it.
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
@@ -5448,7 +5448,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 		<li>
 			The ideas expressed in the request are poor,
 			might harm the Web,
-			or run counter to <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
+			or run counter to <a href="https://www.w3.org/mission/">W3C's mission</a> [[MISSION]].
 
 		<li>
 			The ideas expressed in the request lie well outside the scope of W3C's mission.
@@ -5727,7 +5727,7 @@ Changes since earlier versions</h3>
 <pre class=biblio>
 {
 	"JOIN": {
-		"href": "https://www.w3.org/Consortium/join",
+		"href": "https://www.w3.org/Consortium/join/",
 		"title": "How to Join W3C",
 		"publisher": "W3C"
 		},
@@ -5757,12 +5757,12 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MISSION": {
-		"href": "https://www.w3.org/Consortium/mission",
+		"href": "https://www.w3.org/mission/",
 		"title": "The W3C Mission statement",
 		"publisher": "W3C"
 	},
 	"COLLABORATORS-AGREEMENT": {
-		"href": "https://www.w3.org/Consortium/Legal/collaborators-agreement",
+		"href": "https://www.w3.org/invited-experts/agreement-2023/",
 		"title": "Invited expert and collaborators agreement",
 		"publisher": "W3C"
 	},
@@ -5792,7 +5792,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"LIAISON": {
-		"href": "https://www.w3.org/2001/11/StdLiaison",
+		"href": "https://www.w3.org/liaisons/",
 		"title": "W3C liaisons with other organizations",
 		"publisher": "W3C"
 	},
@@ -5807,7 +5807,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"FELLOWS": {
-		"href": "https://www.w3.org/Consortium/Recruitment/Fellows",
+		"href": "https://www.w3.org/careers/fellows/",
 		"title": "W3C Fellows Program",
 		"publisher": "W3C"
 	},
@@ -5832,7 +5832,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"CALENDAR": {
-		"href": "https://www.w3.org/participate/eventscal",
+		"href": "https://www.w3.org/events/",
 		"title": "Calendar of all scheduled official W3C events",
 		"publisher": "W3C"
 	},
@@ -5847,7 +5847,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"OBS-RESC": {
-		"href": "https://www.w3.org/2016/11/obsoleting-rescinding/",
+		"href": "https://www.w3.org/Guide/process/obsolete-rescinded-supserseded",
 		"title": "Obsoleting and Rescinding W3C Specifications",
 		"publisher": "W3C"
 	},
@@ -5872,7 +5872,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"AC-MEETING": {
-		"href": "https://www.w3.org/Member/Meeting/",
+		"href": "https://www.w3.org/event/ac/",
 		"title": "Advisory Committee meetings (Member-only access)",
 		"publisher": "W3C"
 	},
@@ -5908,7 +5908,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"TRANSITION": {
-		"href": "https://www.w3.org/Guide/transitions",
+		"href": "https://www.w3.org/Guide/transitions/",
 		"title": "Organize a Technical Report Transition",
 		"publisher": "W3C"
 	},
@@ -5922,7 +5922,7 @@ Changes since earlier versions</h3>
 		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
 	},
 	"W3C-IPR": {
-		"href": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231",
+		"href": "https://www.w3.org/policies/",
 		"title": "W3C IPR Policies"
 	},
 	"COUNCIL-REPORT-INDEX": {
