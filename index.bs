@@ -5737,7 +5737,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MEMBER-LIST": {
-		"href": "https://www.w3.org/Consortium/membership/list/",
+		"href": "https://www.w3.org/membership/list/",
 		"title": "The list of current W3C Members",
 		"publisher": "W3C"
 	},
