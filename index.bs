@@ -5346,7 +5346,7 @@ Information Required in a Submission Request</h4>
 			[=Submitters=] <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
 			but when made available by W3C,
 			these documents <em class="rfc2119">must</em> be subject to the provisions
-			of the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]].
+			of the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]].
 	</ul>
 
 	The request <em class="rfc2119">must</em> also answer the following questions.
@@ -5442,7 +5442,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with W3C's
 			Patent Policy [[!PATENT-POLICY]]
 			and in particular the “Licensing Commitments in W3C Submissions”,
-			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
+			<a href="https://www.w3.org/copyright/document-license-2023/">Document License</a> [[!DOC-LICENSE]],
 			or other IPR policies.
 
 		<li>
@@ -5737,7 +5737,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MEMBER-LIST": {
-		"href": "https://www.w3.org/Consortium/Member/List",
+		"href": "https://www.w3.org/Consortium/membership/list/",
 		"title": "The list of current W3C Members",
 		"publisher": "W3C"
 	},
@@ -5767,7 +5767,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"DOC-LICENSE": {
-		"href": "https://www.w3.org/Consortium/Legal/copyright-documents",
+		"href": "https://www.w3.org/copyright/document-license-2023/",
 		"title": "W3C Document License",
 		"publisher": "W3C"
 	},
