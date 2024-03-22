@@ -245,7 +245,7 @@ Members</h3>
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
-	as described in “<a href="https://www.w3.org/Consortium/join/">How to Join W3C</a>” [[JOIN]];
+	as described in “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]];
 	(refer to the public list of <a href="https://www.w3.org/membership/list/">current W3C Members</a> [[MEMBER-LIST]]).
 	The <a href="#Team">Team</a> <em class="rfc2119">must</em> ensure
 	that Member participation agreements remain <a href="#Team-only">Team-only</a>
@@ -745,7 +745,7 @@ Participation in the Advisory Committee</h4>
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	When an organization joins W3C
-	(see “<a href="https://www.w3.org/Consortium/join/">How to Join W3C</a>” [[JOIN]]),
+	(see “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]]),
 	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
@@ -5727,7 +5727,7 @@ Changes since earlier versions</h3>
 <pre class=biblio>
 {
 	"JOIN": {
-		"href": "https://www.w3.org/Consortium/join/",
+		"href": "https://www.w3.org/membership/join/",
 		"title": "How to Join W3C",
 		"publisher": "W3C"
 		},
@@ -5872,7 +5872,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"AC-MEETING": {
-		"href": "https://www.w3.org/event/ac/",
+		"href": "https://www.w3.org/events/ac/",
 		"title": "Advisory Committee meetings (Member-only access)",
 		"publisher": "W3C"
 	},
