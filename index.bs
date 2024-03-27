@@ -3186,7 +3186,7 @@ The W3C Recommendation Track</h3>
 	and if there is support from its Membership,
 	W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
 
-	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track">W3C Recommendation Track</dfn> contains:
+	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track">W3C Recommendation Track</dfn> consists of:
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
