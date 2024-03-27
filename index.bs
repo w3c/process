@@ -4989,10 +4989,11 @@ Confidentiality Levels</h3>
 			<em class="rfc2119">must</em> treat the information as confidential within W3C,
 
 		<li>
-			<em class="rfc2119">must</em> use reasonable efforts to maintain the proper level of confidentiality, and
+			<em class="rfc2119">must</em> use reasonable efforts to preserve that confidentiality, and
 
 		<li>
-			<em class="rfc2119">must not</em> release this information to the general public or press.
+			<em class="rfc2119">must not</em> release this information to the general public or press,
+			nor beyond the proper level of access.
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
