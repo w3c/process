@@ -5682,12 +5682,6 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 	a <a href="https://github.com/w3c/w3process/compare/p2023_1...main">detailed log of all changes since then</a>
 	are available.
 
-	<!--
-	In addition to a number of editorial adjustments
-	and minor tweaks,
-	the following is a summary of the main differences:
-	-->
-
 	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
 
 	<ul>
@@ -5719,6 +5713,14 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 		<li>
 			Put constraints on the timing of making Formal Objections public.
 			(See <a href="https://github.com/w3c/w3process/issues/735">Issue 735</a>)
+
+		<li>
+			Clarify the defition of a Registry (see <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
+			and of Recommendation Track Documents (see <a href="https://github.com/w3c/w3process/pull/831">Pull Request 831</a>).
+
+		<li>
+			Clarify how the outcome of certain ballots are determined.
+			(See <a href="https://github.com/w3c/w3process/issues/838">Issue 838</a>)
 	</ul>
 
 
