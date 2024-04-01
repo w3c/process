@@ -2420,7 +2420,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	would compromise the integrity of the Council decision,
 	and vote whether to dismiss that potential member.
 	No one is allowed to vote on their own dismissal;
-	each dismissal is decided by simple majority of those not abstaining.
+	each dismissal is enacted if there are at least as many ballots for as against.
 
 	Note: Since dismissal is individual,
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
