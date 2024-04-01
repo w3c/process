@@ -885,8 +885,9 @@ Composition of the Advisory Board</h5>
 	With the input of the [=AB=],
 	the [=Team=] appoints the Chair,
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
-	The Chair(s) are subject to ratification by secret ballot
-	by two thirds of the AB upon appointment.
+	Upon appointment,
+	the Chair(s) are subject to ratification by secret ballot,
+	requiring approval by two thirds of the elected participants.
 	Chair selection <em class=rfc2119>must</em> be run
 	at least at the start of each regular term,
 	as well as when a majority of the participants request it;
