@@ -3197,7 +3197,7 @@ The W3C Recommendation Track</h3>
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
 
-	A <dfn lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
+	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
 	is any document whose current status is one of the five in the numbered list above.
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
