@@ -1889,15 +1889,17 @@ Minor Changes to Active Charters</h4>
 
 	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
 	that do not affect the way the group functions in any significant way
-	<em class=rfc2119>may</em> be approved by a [=Team Decision=].
-	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
+	<em class=rfc2119>may</em> be approved by a [=Team Decision=]
+	and would not require an [=Advisory Committee Review=].
+	The following are examples of such changes:
 	the addition of an in-scope deliverable,
 	a change of [=Team Contact=],
 	or a change of [=Chair=].
 
-	Such changes must be announced
-	to the [=Advisory Committee=]
-	and to <a href="#wgparticipant">participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
+	Though [=Advisory Committee Review=] is not required,
+	such changes must still be announced
+	to the [=Advisory Committee=],
+	and to participants in the <a href="#wgparticipant">Working</a> or <a href="#igparticipant">Interest</a> Group,
 	and a rationale must be provided.
 
 <h3 id="cfp">
