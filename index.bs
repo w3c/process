@@ -1897,7 +1897,7 @@ Minor Changes to Active Charters</h4>
 	or a change of [=Chair=].
 
 	Though [=Advisory Committee Review=] is not required,
-	such changes must still be announced
+	such changes <em class=rfc2119>must</em> still be announced
 	to the [=Advisory Committee=],
 	and to participants in the <a href="#wgparticipant">Working</a> or <a href="#igparticipant">Interest</a> Group,
 	and a rationale must be provided.
