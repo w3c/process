@@ -2772,13 +2772,31 @@ Determining the W3C Decision</h4>
 	If the proposal is adopted with changes other than <a href="#class-1">class 1 (markup) changes</a>,
 	then those changes <em class=rfc2119>must</em> be announced to the [=AC=]
 	and to the [=Group=] that owns the document (if any).
-
 	Additionally, when adopting a proposal with [=substantive changes=] integrated,
 	the announcement <em class="rfc2119">must</em> include rationale
-	for the substantive changes,
-	and those changes must have the [=consensus=]
-	of the subset of the [=AC=] that voted on the proposal
-	(including anyone who explicitly abstained).
+	for the substantive changes.
+
+	[=Substantive changes=] to the proposal <em class=rfc2119>may</em> only be adopted
+	if the revised proposal has [=consensus=]
+	of the subset of the [=AC=] that voted on the initial proposal
+	(including anyone who explicitly abstained),
+	or if any [=Formal Objections=] against the revised proposal are retracted or [=overruled=]
+	and the revised proposal otherwise has sufficient support to achieve [=consensus=].
+	For clarity,
+	the [=Team=] <em class=rfc2119>should</em> seek a response from this subset of the [=AC=]
+	using the same tooling and degree of formality as it did for the [=AC Review=];
+	and as is the case during [=AC Reviews=],
+	[=dissent=] in this context <em class=rfc2119>must</em> be expressed as a [=Formal Objection=].
+
+	Any [=Formal Objection=] raised at this stage against the revised proposal
+	is handled by the same [=Council=] responsible for [=Formal Objections=] raised against the initial proposal,
+	if any.
+
+	Note: Such a [=Council=] has the ability to
+	clear either the original or the revised proposal for advancement
+	by [=overruling=] all [=Formal Objections=] against the original or revised proposal,
+	respectively.
+
 	For publications which have conditions in addition to [=AC=] approval
 	for introducing [=substantive changes=]
 	(such as [=Group=] consensus or implementation experience),
@@ -2797,6 +2815,13 @@ Determining the W3C Decision</h4>
 		they cannot be directly integrated between [=CRS=] and [=REC=],
 		because that would fail to trigger a patent exclusion opportunity.
 	</div>
+
+	In the case of [=charters=],
+	substantive changes from the initial proposal that underwent [=AC Review=]
+	<em class=rfc2119>must not</em> include any increase to the scope.
+	If any such change is desired,
+	it <em class=rfc2119>must</em> be returned for additional work
+	and go through a complete new [=AC Review=].
 
 	This document does not specify
 	time intervals between the end of an [=Advisory Committee review=] period
