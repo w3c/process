@@ -2639,6 +2639,27 @@ Council Deliberations</h5>
 	and of the status of the discussions.
 	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
 
+<h5 id=procedural-disagreements>
+Procedural Disagreement Within the Council</h5>
+
+	<dfn for="W3C Council">Procedural disagreement</dfn> occurs
+	when there is [=dissent=] between members of a [=Council=]
+	about the meaning of those sections of the Process
+	that govern the [=Council=] itself,
+	the handling of [=Formal Objections=],
+	or the interaction with [=AC Reviews=],
+	in a way that it interfers with the [=Council=]'s ability to deliberate.
+
+	In such cases,
+	the [=W3C Council Chair|Chair=] <em class=rfc2119>may</em> conduct a vote
+	to resolve the matter.
+	The vote passes if there are more ballots for than against.
+
+	The nature of the disagreement,
+	vote totals,
+	and resulting decision
+	<em class=rfc2119>must</em> be included in the [=Council report=].
+
 <h5 id=council-decision>
 Council Decision Report</h5>
 
@@ -2654,6 +2675,7 @@ Council Decision Report</h5>
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
 	* <em class=rfc2119>must</em> report the number of votes for/against dismissing each participant.
 	* <em class=rfc2119>may</em> report vote totals for the Council’s decision, if a formal vote was held.
+	* <em class=rfc2119>must</em> report on any [=procedural disagreement=] resolved by a vote.
 	* <em class=rfc2119>must not</em> attribute any position to any individual on the Council.
 
 	The [=Team=] <em class=rfc2119>must</em> maintain a [[COUNCIL-REPORT-INDEX inline|public page on the W3C website]]
