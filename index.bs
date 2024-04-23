@@ -1889,8 +1889,8 @@ Minor Changes to Active Charters</h4>
 
 	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
 	that do not affect the way the group functions in any significant way
-	<em class=rfc2119>may</em> be approved by a [=Team Decision=]
-	and would not require an [=Advisory Committee Review=].
+	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
+	in which case they do not require an [=Advisory Committee Review=].
 	The following are examples of such changes:
 	the addition of an in-scope deliverable,
 	a change of [=Team Contact=],
