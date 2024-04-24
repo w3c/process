@@ -1861,39 +1861,46 @@ Content of a Charter</h3>
 	who represent the same Member organization or group of <a href="#MemberRelated">related Members</a>).
 
 <h3 id="CharterReview">
-Advisory Committee Review of a Charter</h3>
+Charter Review and Approval</h3>
 
-	The [=Team=] <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter,
-	except for either:
-	* a charter extension
-	* substantive changes to a charter that do not affect the way the group functions in any significant way.
+<h4 id="charter-major-changes">
+New Charters and Major Changes</h4>
 
-	The review period <em class="rfc2119">must</em> be at least 28 days.
-	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
-	the addition of an in-scope deliverable,
-	a change of [=Team Contact=],
-	or a change of [=Chair=].
-	Such changes must nonetheless be announced
-	to the [=Advisory Committee=]
-	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
-	and a rationale must be provided.
+	Any new [=charter=] (including re-chartering of existing [=chartered groups=])
+	and most substantive changes to an already-approved [=charter=]
+	of a [=Working Group=] or [=Interest Group=]
+	<em class=rfc2119>must</em> be approved by a [=W3C Decision=] following an [=AC Review=] of that [=charter=].
+	(See [[#charter-minor-changes]] for minor changes that can be approved by a [=Team Decision=].)
+
+	The review period <em class=rfc2119>must</em> be at least 28 days.
+	Any [=Advisory Committee representative=] <em class=rfc2119>may</em> request an extended review period
+	in response to the Call for Review;
+	upon receipt of any such request,
+	the [=Team=] <em class=rfc2119>must</em> extend the review period
+	to at least 60 days.
 
 	The Call for Review of a substantively modified charter
-	<em class="rfc2119">must</em> highlight important changes
+	<em class=rfc2119>must</em> highlight important changes
 	(e.g., regarding deliverables or resource allocation)
 	and include rationale for the changes.
 
-	As part of the Advisory Committee review of any new or substantively modified Working Group charter,
-	any Advisory Committee representative <em class="rfc2119">may</em> request an extended review period.
+<h4 id="charter-minor-changes">
+Minor Changes to Active Charters</h4>
 
-	Such a request must be submitted with a Member's comments
-	in response to the Call for Review.
-	Upon receipt of any such request,
-	the [=Team=] <em class="rfc2119">must</em> ensure
-	that the Call for Participation for the Working Group
-	occurs at least 60 days
-	after the Call for Review of the charter.
+	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
+	that do not affect the way the group functions in any significant way
+	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
+	in which case they do not require an [=Advisory Committee Review=].
+	The following are examples of such changes:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+
+	Though [=Advisory Committee Review=] is not required,
+	such changes <em class=rfc2119>must</em> still be announced
+	to the [=Advisory Committee=],
+	and to participants in the <a href="#wgparticipant">Working</a> or <a href="#igparticipant">Interest</a> Group,
+	and a rationale must be provided.
 
 <h3 id="cfp">
 Call for Participation in a Chartered Group</h3>
