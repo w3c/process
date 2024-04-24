@@ -4534,7 +4534,7 @@ Elevating Group Notes to W3C Statement status</h4>
 
 	Once these conditions are fulfilled,
 	the [=Team=] <em class=rfc2119>must</em> then
-	begin an Advisory Committee Review on the question of
+	begin an [=Advisory Committee Review=] on the question of
 	whether the document is appropriate to publish as a [=W3C Statement=].
 	During this review period,
 	the [=Note=] <em class=rfc2119>must not</em> be updated.
