@@ -5660,7 +5660,7 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			This change, while moderate in size, is purely editorial.
 			(See <a href="https://github.com/w3c/w3process/pull/850">Pull Request 850</a>)
 
-		<li oldids="streamlined-update">
+		<li id="streamlined-update">
 			Retire “<a href="https://www.w3.org/2023/Process-20231103/#streamlined-update">Streamlined Publication Approval</a>”.
 			This was meant to enable REC track publication with fewer/faster approval steps
 			when some stricter than usual criteria were fulfilled.
