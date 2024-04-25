@@ -2527,8 +2527,9 @@ Council Deliberations</h5>
 	a [=W3C Council=] is unable to reach consensus,
 	the [=W3C Council Chair=] may instead resort to voting.
 	In that case,
-	the decision is made by simple majority,
-	with the [=W3C Council Chair=] breaking any tie.
+	the decision is adopted if there are more ballots for than against;
+	in case of a tie,
+	the [=W3C Council Chair=] determines the outcome.
 	However,
 	if the decision or proposal being objected to
 	originated with the TAG or AB,
