@@ -3570,8 +3570,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Team=] verification,
-			or fulfill the criteria for [[#streamlined-update]].
+			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=]):
 			* <em class=rfc2119>should</em> be withheld
 				if any Process requirements are not met,
@@ -3633,88 +3632,6 @@ Updating Mature Publications on the Recommendation Track</h4>
 	The [=Team=] <em class="rfc2119">must</em> announce the publication
 	of the revised specification
 	to other W3C groups and the Public.
-
-
-<h5 id="streamlined-update">
-Streamlined Publication Approval</h5>
-
-	Note: These criteria are intentionally stricter than
-	the general requirements for an [=update request=].
-	This is in order to minimize ambiguities and the need for expert judgment,
-	and to make self-evaluation practical.
-
-	In order to streamline the publication process in non-controversial cases,
-	verification of an [=update request=] is automatically granted without formal review
-	when the following <em>additional</em> criteria are fulfilled:
-
-	<ul>
-		<li>
-			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
-
-		<li>
-			For each of the
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
-			if the Horizontal Review Group has made available a set criteria
-			under which their review is not necessary,
-			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
-			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
-			that review from that group has been solicited and received.
-
-		<li>
-			No [=Formal Objection=] has been registered against the document.
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em>
-			have [=formally addressed=]:
-			* all issues raised against the document that resulted in changes since the previous publication
-			* all issues raised against changes since the previous publication
-			* all issues raised against the document that were closed since the previous publication with no change to the document
-
-			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
-			of the person who raised it:
-			their proposal has been accepted,
-			or a compromise has been found,
-			or they accepted the Working Group's rationale for rejecting it.
-
-			Note: This is stricter than the general Transition Request criteria.
-	</ul>
-
-	Additionally, for updates to [=Recommendations=]
-	with <a href="#revised-rec-substantive">substantive changes</a>
-	or <a href="#revised-rec-features">with new features</a>:
-
-	<ul>
-
-		<li>
-			Changes to the document are limited to
-			[=proposed corrections=] that were included in a [=Last Call for Review of Proposed Corrections=]
-			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>,
-			and/or (in the case of a [=Recommendation=] that [=allow new feature|allows new features=])
-			[=proposed additions=] that were included in a [=Last Call for Review of Proposed Additions=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
-			as evidenced by passing tests of a test suite
-			providing extensive coverage of the changes,
-			or an alternative streamlined verification implementation requirement
-			described in the [=working Group=] charter has been met.
-
-			Note: This is stricter than the general criteria for [=adequate implementation experience=].
-	</ul>
-
-	The [=Working Group=] must provide written evidence for these claims,
-	and the [=Team=] must make these answers publicly and permanently available.
-
-	After publication,
-	if an AC Representative
-	or Team member
-	doubts that the evidence presented supports the claims,
-	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
-	If that review finds that the requirements were not fulfilled,
-	the Team <em class=rfc2119>may</em> revert the changes
-	by updating in place the status section to indicate that it has been reverted,
-	and by republishing the previously approved version of the technical report.
 
 <h4 id="first-wd">
 Publishing a First Public Working Draft</h4>
@@ -4192,7 +4109,7 @@ Incorporating Candidate Amendments</h5>
 		<li>
 			Identify the specific [=candidate amendments=] under review
 			as <dfn>proposed amendments</dfn>
-			(<dfn>proposed corrections</dfn>/<dfn oldids="proposed-addition">proposed additions</dfn>).
+			(<dfn export>proposed corrections</dfn>/<dfn oldids="proposed-addition" export>proposed additions</dfn>).
 
 		<li>
 			Specify the deadline for review comments,
