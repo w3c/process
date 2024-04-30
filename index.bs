@@ -3177,7 +3177,7 @@ Maintenance Without a Group</h4>
 	[=Team corrections=] do not constitute
 	a normative portion of the Recommendation,
 	as defined in the Patent Policy [[PATENT-POLICY]]
-	(i.e. they are not covered by the Patent Policy).
+	(i.e., they are not covered by the Patent Policy).
 	For [=Candidate Recommendations=],
 	[=Proposed Recommendations=],
 	[=W3C Recommendations=],
