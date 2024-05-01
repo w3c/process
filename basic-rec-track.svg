@@ -176,7 +176,9 @@
 								</g>
 								<text font-size="8" text-anchor="start">
 									<tspan x="342" y="157">WG Decision</tspan>
-									<tspan x="342" y="165" font-size="6">(or Team Decision with AB+TAG Approval)</tspan>
+									<tspan x="342" y="165" font-size="6">(or Team Decision</tspan>
+									<tspan x="342" y="173" font-size="6">with AB+TAG</tspan>
+									<tspan x="342" y="181" font-size="6">Approval)</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="4 4" stroke="#900"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -190,10 +192,42 @@
 								</g>
 								<text font-size="8" text-anchor="start">
 									<tspan x="342" y="157">WG Decision</tspan>
-									<tspan x="342" y="165" font-size="6">(or Team Decision with AB+TAG Approval)</tspan>
+									<tspan x="342" y="165" font-size="6">(or Team Decision</tspan>
+									<tspan x="342" y="173" font-size="6">with AB+TAG</tspan>
+									<tspan x="342" y="181" font-size="6">Approval)</tspan>
 								</text>
 								<path d="M339,147v41h-242v-26" stroke-dasharray="4 4" stroke="#900" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
+							</a>
+						</g>
+					<!-- Update REC in place, editorial -->
+						<g role="listitem">
+							<a href="#rec-1" fill="#000">
+								<g role="img">
+									<title>Publish revised Recommendation with editorial changes</title>
+								</g>
+								<text font-size="8" text-anchor="middle">
+									<tspan x="413" y="103">WG Decision</tspan>
+									<tspan x="413" y="116" font-size="6">(editorial)</tspan>
+								</text>
+								<path stroke="#000" d="M395,127C391,117 397,107 413,107 424,107 430,111 432,117" fill="none" stroke-dasharray="6 2"></path>
+								<polygon points="435,117 430,127 428,116"></polygon>
+							</a>
+						</g>
+					<!-- Update REC in place, substantive -->
+						<g role="listitem">
+							<a href="#rec-1" fill="#000">
+								<g role="img">
+									<title>Publish revised Recommendation with substantive changes</title>
+								</g>
+								<text font-size="8" text-anchor="middle">
+									<tspan x="413" y="184">WG Decision +</tspan>
+									<tspan x="413" y="192">Team Approval +</tspan>
+									<tspan x="413" y="200">AC Review</tspan>
+									<tspan x="413" y="169" font-size="6">(substantive)</tspan>
+								</text>
+								<path stroke="#000" d="M395,155C391,166 397,176 413,176 424,176 431,173 431,165" fill="none" stroke-dasharray="6 2"></path>
+								<polygon points="435,164 430,155 428,165"></polygon>
 							</a>
 						</g>
 					</g>
