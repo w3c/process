@@ -75,13 +75,15 @@ table { margin-left: auto; margin-right: auto }
 
 :focus path,
 :focus polygon,
+:focus rect,
 :focus ellipse {
-	stroke-width: 4px;
+	stroke-width: 3px;
 }
 g g:hover path,
 g g:hover polygon,
+g g:hover rect,
 g g:hover ellipse {
-	stroke-width: 4px;
+	stroke-width: 3px;
 }
 :focus text,
 g g:hover text {
