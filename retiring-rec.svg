@@ -46,21 +46,21 @@
 
 						<g role="listitem"><!-- Superseded -->
 							<g role="img">
-								<path d="M40,71v29s0,5 5,5h153" stroke="black" fill="none"/>
-								<polygon points="199,105 195,102 195,108"/>
+								<path d="M40,71v29s0,5 5,5h140" stroke="black" fill="none"/>
+								<polygon points="189,105 185,102 185,108"/>
 								<text x="115" y="102" text-anchor="middle" font-size="8">Replaced by a new version, AC review</text>
-								<rect role="img" id="superseded" rx="3" y="100" x="200" height="30" width="80" stroke="#600" fill="#fff" stroke-width="2">
+								<rect role="img" id="superseded" rx="3" y="100" x="190" height="30" width="90" stroke="#600" fill="#fff" stroke-width="2">
 									<title>Superseded Recommendation</title>
 								</rect>
-								<text aria-hidden="true" font-size="16" y="119" x="240" text-anchor="middle" stroke-width=".3">Superseded</text>
+								<text aria-hidden="true" font-size="16" y="119" x="235" text-anchor="middle" stroke-width=".3">Superseded</text>
 							</g>
 							<g role="list">
 								<g role="listitem"><!-- Whoops! Not superseded! -->
 									<g role="img">
 										<title>A Superseded Recommendation can become a normal Recommendation with AC review</title>
-										<path d="M199,125h-164s-5,0 -5,-5v-52" stroke-dasharray="1 4" fill="none" stroke="black"/>
+										<path d="M189,125h-154s-5,0 -5,-5v-52" stroke-dasharray="1 4" fill="none" stroke="black"/>
 										<polygon points="30,70 27,74 33,74"/>
-										<text aria-hidden="true" x="115" y="122" text-anchor="middle" font-size="8">Oops! The Web still needs this, AC review</text>
+										<text aria-hidden="true" x="110" y="122" text-anchor="middle" font-size="8">Oops! The Web still needs this, AC review</text>
 									</g>
 								</g>
 							</g>
