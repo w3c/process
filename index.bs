@@ -3956,7 +3956,7 @@ Transitioning to Proposed Recommendation</h4>
 	as intending to <dfn>allow new features</dfn>
 	(<a href="#correction-classes">class 4 changes</a>)
 	after its initial publication as a [=Recommendation=],
-	as described in [[#revised-rec-features]].
+	as described in [[#revised-rec-substantive]].
 	Such an allowance cannot be added
 	to a [=technical report=] previously published as a [=Recommendation=]
 	that did not allow such changes.
@@ -4039,17 +4039,7 @@ Transitioning to W3C Recommendation</h4>
 <h4 id=revising-rec oldids="rec-modify, revised-rec">
 Revising a W3C Recommendation</h4>
 
-	This section details the process for making changes to a [=Recommendation=].
-
-<h5 id="revised-rec-markup">
-Revising a Recommendation: Markup Changes</h5>
-
-	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=]
-	to make corrections that do not result
-	in any changes to the text of the specification.
-	(See <a href="#correction-classes">class 1 changes</a>.)
-
-<h5 id="revised-rec-editorial">
+<h5 id="revised-rec-editorial" oldids="revised-rec-markup">
 Revising a Recommendation: Editorial Changes</h5>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the intended changes.
@@ -4057,20 +4047,35 @@ Revising a Recommendation: Editorial Changes</h5>
 	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
 	to make this class of change without passing through earlier maturity stages.
-	(See <a href="#correction-classes">class 2 changes</a>.)
+	(See <a href="#class-1">class 1</a> and <a href="#class-2">class 2 changes</a>.)
 
-<h5 id="revised-rec-substantive">
+<h5 id="revised-rec-substantive" oldids="revised-rec-features">
 Revising a Recommendation: Substantive Changes</h5>
 
 	Tentative corrections (see <a href="#class-3">class 3 changes</a>)
 	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
 	using [=candidate corrections=].
 
-	Note: [=Candidate corrections=] do not normatively modify the document;
+	Tentative new features (see <a href="#correction-classes">class 4 changes</a>)
+	<em class=rfc2119>may</em> only be annotated into a [=Recommendation=]
+	explicitly identified as [=allow new features|allowing new features=]
+	using [=candidate additions=].
+
+	Note: [=Candidate amendments=] ([=candidate correction|corrections=] and [=candidate addition|additions=]) do not normatively modify the document;
 	they editorially indicate how one might do so.
 	They are therefore published following the provisions of [[#revised-rec-editorial]].
 
-	A [=candidate correction=] can be made normative
+	To make changes which introduce a new feature
+	to a [=Recommendation=] that does not [=allow new features=],
+	W3C <em class="rfc2119">must</em> create a new [=technical report=],
+	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
+	beginning with a new [=First Public Working Draft=].
+
+	Note: This prohibition against new features unless explicitly allowed
+	enables third parties to depend on Recommendations having a stable feature-set,
+	as they have prior to the 2020 revision of this Process.
+
+	A [=candidate amendment=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
@@ -4088,33 +4093,6 @@ Revising a Recommendation: Substantive Changes</h5>
 	<a href="#transition-cr">publish as a Candidate Recommendation</a>--
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
-
-<h5 id="revised-rec-features">
-Revising a Recommendation: New Features</h5>
-
-	Tentative new features (see <a href="#correction-classes">class 4 changes</a>)
-	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
-	explicitly identified as [=allow new features|allowing new features=]
-	using [=candidate additions=].
-
-	Note: [=Candidate additions=] do not normatively modify the document;
-	they editorially indicate how one might do so.
-	They are therefore published following the provisions of [[#revised-rec-editorial]].
-
-	A [=candidate addition=] can be made normative
-	and be folded into the main text of the [=Recommendation=]
-	using the same process as for [=candidate corrections=],
-	as detailed in [[#revised-rec-substantive]].
-
-	Note: This prohibition against new features unless explicitly allowed
-	enables third parties to depend on Recommendations having a stable feature-set,
-	as they have prior to the 2020 revision of this Process.
-
-	To make changes which introduce a new feature
-	to a [=Recommendation=] that does not [=allow new features=],
-	W3C <em class="rfc2119">must</em> create a new [=technical report=],
-	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
-	beginning with a new [=First Public Working Draft=].
 
 <h5 id=change-review>
 Incorporating Candidate Amendments</h5>
