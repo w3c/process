@@ -4051,7 +4051,7 @@ Revising a Recommendation: Substantive Changes</h5>
 
 	Note: [=Candidate corrections=] do not normatively modify the document;
 	they editorially indicate how one might do so.
-	They are therefore be published following the provisions of [[#revised-rec-editorial]].
+	They are therefore published following the provisions of [[#revised-rec-editorial]].
 
 	A [=candidate correction=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
