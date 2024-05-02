@@ -4088,7 +4088,7 @@ Revising a Recommendation: New Features</h5>
 
 	Note: [=Candidate additions=] do not normatively modify the document;
 	they editorially indicate how one might do so.
-	They are therefore be published following the provisions of [[#revised-rec-editorial]].
+	They are therefore published following the provisions of [[#revised-rec-editorial]].
 
 	A [=candidate addition=] can be made normative
 	and be folded into the main text of the [=Recommendation=]
