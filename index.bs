@@ -4058,7 +4058,7 @@ Revising a Recommendation: Substantive Changes</h5>
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness.
+	its technical and editorial soundness.
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Amendments=],
 	followed by an [=update request=].
