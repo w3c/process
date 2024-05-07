@@ -1702,17 +1702,19 @@ Lifecycle of Chartered Groups</h2>
 	<dfn>charter drafts</dfn> go through a public [=charter refinement=] phase
 	during which the [=charter=] receives [=wide review=]
 	and the [=Chartering Facilitator=] attempts to find [=consensus=] on the charter.
+	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
+	when starting development of a new charter prior to the [=charter refinement=] phase.
 
 <h3 id="charter-initiation">
 Initiating Charter Refinement</h3>
 
-	[=Charter refinement=] (see below) is initiated
-	by the [=Team=] sending an [=charter/Advance Review Notice=]
+	Formal [=charter refinement=] (see below) is initiated
+	by the [=Team=] sending an [=charter review notice=]
 	to the [=Advisory Committee=],
 	to the public,
 	and, in the case of rechartering, to the affected [=Group=].
 
-	This <dfn for=charter>Advance Review Notice</dfn> must indicate:
+	This <dfn>charter review notice</dfn> must indicate:
 	* A short summary of the proposal.
 	* The location of the [=charter draft=], which must be public.
 	* How to participate in the discussion of this [=charter draft=] and where to file issues.
@@ -1763,7 +1765,7 @@ Charter Refinement</h3>
 	that the [=Team=] is failing to address
 	to be processed immediately.
 
-	If the discussions have not concluded within the time frame announced in the [=charter/Advance Review Notice=],
+	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
 	the [=Chartering Facilitator=] must inform the AC
 	(and, in the case of rechartering, the affected [=Group=])
 	of this delay, of the status of the discussions, and of the revised expected duration of [=Charter Refinement=].
