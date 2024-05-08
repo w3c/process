@@ -4045,12 +4045,20 @@ Revising a Recommendation: Editorial Changes</h5>
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
 
+	Tentative corrections (see <a href="#class-3">class 3 changes</a>)
+	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
+	using [=candidate corrections=].
+
+	Note: [=Candidate corrections=] do not normatively modify the document;
+	they editorially indicate how one might do so.
+	They are therefore published following the provisions of [[#revised-rec-editorial]].
+
 	A [=candidate correction=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the [=candidate amendments=].
+	its technical and editorial soundness.
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Amendments=],
 	followed by an [=update request=].
@@ -4073,13 +4081,18 @@ Revising a Recommendation: Substantive Changes</h5>
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
-	New features (see <a href="#correction-classes">class 4 changes</a>)
-	may be incorporated into a [=Recommendation=]
+	Tentative new features (see <a href="#correction-classes">class 4 changes</a>)
+	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
 	explicitly identified as [=allow new features|allowing new features=]
 	using [=candidate additions=].
+
+	Note: [=Candidate additions=] do not normatively modify the document;
+	they editorially indicate how one might do so.
+	They are therefore published following the provisions of [[#revised-rec-editorial]].
+
 	A [=candidate addition=] can be made normative
 	and be folded into the main text of the [=Recommendation=]
-	using the same process as for [=candidate amendments=],
+	using the same process as for [=candidate corrections=],
 	as detailed in [[#revised-rec-substantive]].
 
 	Note: This prohibition against new features unless explicitly allowed
