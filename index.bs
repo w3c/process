@@ -1737,8 +1737,8 @@ Charter Refinement</h3>
 	During <dfn>charter refinement</dfn>,
 	the W3C community further develops the [=charter draft=]
 	with the goal of achieving [=consensus=] on the proposal.
-	This process is chaired by the <dfn>Chartering Facilitator</dfn>,
-	who acts as [=Chair=] for [=charter refinement=].
+	The <dfn>Chartering Facilitator</dfn>
+	acts as [=Chair=] for the [=charter refinement=] process.
 
 	Note: The [=Chartering Facilitator=] is not necessarily (and often is not) the [=Chair=] of the [=chartered group|group=] being chartered.
 
