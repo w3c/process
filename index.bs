@@ -1714,7 +1714,7 @@ Initiating Charter Refinement</h3>
 	to the public,
 	and, in the case of rechartering, to the affected [=Group=].
 
-	This <dfn>charter review notice</dfn> must indicate:
+	This <dfn>charter review notice</dfn> must include:
 	* A short summary of the proposal.
 	* The location of the [=charter draft=], which must be public.
 	* How to participate in the discussion of this [=charter draft=] and where to file issues.
