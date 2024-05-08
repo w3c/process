@@ -1709,7 +1709,7 @@ Lifecycle of Chartered Groups</h2>
 Initiating Charter Refinement</h3>
 
 	Formal [=charter refinement=] (see below) is initiated
-	by the [=Team=] sending an [=charter review notice=]
+	by the [=Team=] sending a [=charter review notice=]
 	to the [=Advisory Committee=],
 	to the public,
 	and, in the case of rechartering, to the affected [=Group=].
