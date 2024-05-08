@@ -5668,7 +5668,7 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			(See <a href="https://github.com/w3c/w3process/issues/779">Issue 779</a>)
 
 		<li>
-			Clarify the defition of a Registry (see <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
+			Clarify the definition of a Registry (see <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
 			and of Recommendation Track Documents (see <a href="https://github.com/w3c/w3process/pull/831">Pull Request 831</a>).
 
 		<li>
@@ -5689,6 +5689,12 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			and nobody was using it.
 			(See <a href="https://github.com/w3c/w3process/issues/856">Issue 856</a>)
 
+		<li>
+			Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
+			the various parts of the Process
+			that described whether and how the Team can maintain technical reports
+			that no longer have a Group chartered to maintain them.
+			(See <a href="https://github.com/w3c/w3process/pull/860">Pull Request 860</a>)
 	</ul>
 
 
