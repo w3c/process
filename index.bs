@@ -3143,18 +3143,6 @@ Candidate Amendments</h4>
 	except that it proposes a new feature
 	rather than an error correction.
 
-	If there is no group chartered to maintain a [=technical report=],
-	the [=Team=] <em class="rfc2119">may</em> maintain its [=errata=]
-	and associated [=candidate corrections=].
-	Such corrections <em class=rfc2119>must</em> be marked
-	as <dfn>Team correction</dfn>,
-	and do not constitute
-	a normative portion of the Recommendation,
-	as defined in the Patent Policy [[PATENT-POLICY]]
-	(i.e. they are not covered by the Patent Policy).
-	The [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
-	on [=Team corrections=] that it produces.
-
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
@@ -3162,6 +3150,44 @@ Candidate Amendments</h4>
 	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
 	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
+
+<h4 id=no-group-maintenance>
+Maintenance Without a Group</h4>
+
+	For all [[#recs-and-notes|types of technical reports]] and all [[#maturity-stages|maturity stages]],
+	if there is no [=chartered group|group=] chartered to maintain a [=technical report=],
+	the [=Team=] <em class="rfc2119">may</em> republish it
+	at the same [[#maturity-stages|maturity stage]],
+	integrating as needed:
+	<ol>
+		<li><a href="#correction-classes">class 1 changes</a>;
+		<li>inline [=errata=];
+		<li>[=candidate corrections=],
+			which <em class=rfc2119>must</em> be marked as <dfn>Team correction</dfn>;
+		<li><a href="#correction-classes">class 2 changes</a> other than inline [=errata=] and [=Team corrections=].
+	</ol>
+
+	To avoid any potential doubt or disagreement
+	about whether changes really do fall into <a href="#correction-classes">class 2</a>,
+	the [=Team=] <em class=rfc2119>should</em> be conservative,
+	limiting itself to obvious and limited fixes,
+	and <em class=rfc2119>must</em> avoid substantial rephrasing,
+	even of non-normative examples and notes.
+	If any such change is desired,
+	the [=Team=] <em class=rfc2119>must</em> mark it as a [=Team correction=].
+
+	[=Team corrections=] do not constitute
+	a normative portion of the Recommendation,
+	as defined in the Patent Policy [[PATENT-POLICY]]
+	(i.e., they are not covered by the Patent Policy).
+	For [=Candidate Recommendations=],
+	[=Proposed Recommendations=],
+	[=W3C Recommendations=],
+	[=Candidate Registries=],
+	[=W3C Registries=],
+	as well as [=W3C Statements=],
+	the [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
+	on [=Team corrections=] that it produces.
 
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
@@ -4023,10 +4049,6 @@ Revising a Recommendation: Markup Changes</h5>
 	in any changes to the text of the specification.
 	(See <a href="#correction-classes">class 1 changes</a>.)
 
-	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
-	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
-	with such changes incorporated.
-
 <h5 id="revised-rec-editorial">
 Revising a Recommendation: Editorial Changes</h5>
 
@@ -4036,11 +4058,6 @@ Revising a Recommendation: Editorial Changes</h5>
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
 	to make this class of change without passing through earlier maturity stages.
 	(See <a href="#correction-classes">class 2 changes</a>.)
-
-	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
-	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
-	with such changes incorporated,
-	including [=errata=] and [=Team corrections=].
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
@@ -4071,12 +4088,6 @@ Revising a Recommendation: Substantive Changes</h5>
 	<a href="#transition-cr">publish as a Candidate Recommendation</a>--
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
-
-	Note: If there is no [=Working Group=] chartered to maintain a [=Recommendation=]
-	the [=Team=] cannot make substantive changes and republish the [=Recommendation=].
-	It can, however, informatively highlight problems and desirable changes
-	using [=errata=] and [=candidate corrections=]
-	and republish as described in [[#revised-rec-editorial|the previous section]].
 
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
@@ -4438,10 +4449,6 @@ Publishing Notes</h4>
 	A [=technical report=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
 
-	If a [=Note=] produced by a [=chartered group=] is no longer in scope for any group,
-	the [=Team=] <em class=rfc2119>may</em> republish the [=Note=] with [[#correction-classes|class 1]] changes incorporated,
-	as well as with [=errata=] and [=Team corrections=] annotated.
-
 <h4 id=w3c-statement oldids=memo>
 Elevating Group Notes to W3C Statement status</h4>
 
@@ -4773,8 +4780,6 @@ Registry Data Reports</h4>
 	the [=Working Group=]
 	<em class=rfc2119>may</em> republish the [=Registry Data Report=] to incorporate
 	[=editorial changes=].
-	If there is no [=Working Group=] chartered to maintain this registry,
-	the [=Team=] <em class=rfc2119>may</em> do so instead.
 
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
