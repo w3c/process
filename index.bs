@@ -4039,17 +4039,7 @@ Transitioning to W3C Recommendation</h4>
 <h4 id=revising-rec oldids="rec-modify, revised-rec">
 Revising a W3C Recommendation</h4>
 
-	This section details the process for making changes to a [=Recommendation=].
-
-<h5 id="revised-rec-markup">
-Revising a Recommendation: Markup Changes</h5>
-
-	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=]
-	to make corrections that do not result
-	in any changes to the text of the specification.
-	(See <a href="#correction-classes">class 1 changes</a>.)
-
-<h5 id="revised-rec-editorial">
+<h5 id="revised-rec-editorial" oldids="revised-rec-markup">
 Revising a Recommendation: Editorial Changes</h5>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the intended changes.
@@ -4057,7 +4047,7 @@ Revising a Recommendation: Editorial Changes</h5>
 	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
 	to make this class of change without passing through earlier maturity stages.
-	(See <a href="#correction-classes">class 2 changes</a>.)
+	(See <a href="#class-1">class 1</a> and <a href="#class-2">class 2 changes</a>.)
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
@@ -4092,19 +4082,11 @@ Revising a Recommendation: Substantive Changes</h5>
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
-	Tentative new features (see <a href="#correction-classes">class 4 changes</a>)
-	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
-	explicitly identified as [=allow new features|allowing new features=]
-	using [=candidate additions=].
-
-	Note: [=Candidate additions=] do not normatively modify the document;
-	they editorially indicate how one might do so.
-	They are therefore published following the provisions of [[#revised-rec-editorial]].
-
-	A [=candidate addition=] can be made normative
-	and be folded into the main text of the [=Recommendation=]
-	using the same process as for [=candidate corrections=],
-	as detailed in [[#revised-rec-substantive]].
+	For [=Recommendations=] explicitly identified as  [=allow new features|allowing new features=],
+	tentative new features (see <a href="#correction-classes">class 4 changes</a>)
+	<em class=rfc2119>may</em> be annotated in as [=candidate additions=],
+	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
+	as for <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
 
 	Note: This prohibition against new features unless explicitly allowed
 	enables third parties to depend on Recommendations having a stable feature-set,
