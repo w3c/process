@@ -3346,10 +3346,9 @@ Maturity Stages on the Recommendation Track</h4>
 					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
 				<dd>
 					A Candidate Recommendation Draft
-					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
-					to integrate changes from the previous [=Candidate Recommendation Snapshot=]
-					that the Working Group intends to include
-					in a subsequent [=Candidate Recommendation Snapshot=].
+					A Candidate Recommendation Draft
+					is published
+					to solicit review of intended changes from the previous [=Candidate Recommendation Snapshot=].
 					This allows for wider review of the changes
 					and for ease of reference to the integrated specification.
 
