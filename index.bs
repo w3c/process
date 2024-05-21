@@ -287,7 +287,13 @@ Rights of Members</h4>
 			In <a href="#GAGeneral">Working Groups and Interest Groups</a>.
 
 		<li>
-			In <a href="#GAEvents">Workshops and Symposia</a>;
+			In [=Workshops=].
+
+			A <dfn id=EventsW>Workshop</dfn> is an event whose goal is usually
+			either to convene experts and other interested parties
+			for an exchange of ideas about a technology or policy,
+			or to address the pressing concerns of W3C Members.
+			(See <a href="https://www.w3.org/Guide/meetings/workshops">Workshops</a> in [[GUIDE]])
 
 		<li>
 			On the Team, as <a href="#fellows">W3C Fellows</a>.
@@ -519,10 +525,12 @@ Individuals Representing a Member Organization</h5>
 	the number of individuals representing a W3C Member
 	(or group of <a href="#MemberRelated">related Members</a>).
 
-<h4 id="GeneralMeetings">
+<h4 id="GeneralMeetings" oldids="GAEvents, EventsS">
 Meetings</h4>
 
-	The requirements in this section apply to the official meetings of any [=W3C group=].
+	The requirements in this section apply to the official meetings of any [=W3C group=],
+	as well as to official W3C meetings with open-ended participation from the Membership and/or the public,
+	such as [=Workshops=] or other events open to the whole [=Member|Membership=] or to the public.
 
 	<p>W3C distinguishes two types of meetings:</p>
 
@@ -589,6 +597,10 @@ Meeting Scheduling and Announcements</h5>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
+	In the case of meetings
+	whose participation is not tied to any pre-existing [=Group=],
+	such as [=Workshops=],
+	shorter notice is not allowed.
 
 <h5 id="meeting-minutes">
 Meeting Minutes</h5>
@@ -5003,46 +5015,6 @@ Changing Confidentiality Level</h3>
 			while respecting the original level of confidentiality,
 			and without attribution to the original author.
 	</ol>
-
-<h2 id="GAEvents">
-Workshops and Symposia</h2>
-
-	The Team organizes <dfn id="EventsW" export>Workshops</dfn>
-	and <dfn id="EventsS" export lt="Symposium | Symposia">Symposia</dfn>
-	to promote early involvement in the development of W3C activities
-	from Members and the public.
-
-	The goal of a Workshop is usually
-	either to convene experts and other interested parties for an exchange of ideas
-	about a technology or policy,
-	or to address the pressing concerns of W3C Members.
-	Organizers of the first type of Workshop
-	<em class="rfc2119">may</em> solicit position papers for the Workshop program
-	and <em class="rfc2119">may</em> use those papers
-	to choose attendees and/or presenters.
-
-	The goal of a Symposium is usually
-	to educate interested parties about a particular subject.
-
-	The Call for Participation in a Workshop or Symposium
-	<em class="rfc2119">may</em> indicate participation requirements or limits,
-	and expected deliverables
-	(e.g., reports and [=minutes=]).
-	Organization of an event does not guarantee
-	further investment by W3C in a particular topic,
-	but <em class="rfc2119">may</em> lead to proposals for new activities or groups.
-
-	Workshops and Symposia generally last one to three days.
-	If a Workshop is being organized to address the pressing concerns of Members,
-	the Team <em class="rfc2119">must</em> issue the Call for Participation
-	no later than <span class="time-interval">six weeks</span>
-	prior to the Workshop's scheduled start date.
-	For other Workshops and Symposia,
-	the Team <em class="rfc2119">must</em> issue a Call for Participation
-	no later than <span class="time-interval">eight weeks</span>
-	prior to the meeting's scheduled start date.
-	This helps ensure that speakers and authors
-	have adequate time to prepare position papers and talks.
 
 <h2 id="Liaisons">
 Liaisons</h2>
