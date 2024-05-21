@@ -1760,7 +1760,7 @@ Content of a Charter</h3>
 			of the group's proceedings and deliverables.
 
 		<li>
-			The identity of the [=Chair=] or co-Chairs.
+			The name and affiliation of the [=Chair=] or co-Chairs.
 
 		<li>
 			Meeting mechanisms and expected frequency.
