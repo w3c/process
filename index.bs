@@ -530,7 +530,7 @@ Meetings</h4>
 
 	The requirements in this section apply to the official meetings of any [=W3C group=],
 	as well as to official W3C meetings with open-ended participation from the Membership and/or the public,
-	such as [=Workshops=] or other events open to the whole [=Member|Membership=] or to the public.
+	such as [=Workshops=].
 
 	<p>W3C distinguishes two types of meetings:</p>
 
