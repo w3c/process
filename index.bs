@@ -4088,9 +4088,9 @@ Revising a Recommendation: New Features</h5>
 	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
 	as for <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
 
-	Note: This prohibition against new features unless explicitly allowed
-	enables third parties to depend on Recommendations having a stable feature-set,
-	as they have prior to the 2020 revision of this Process.
+	Note: Limiting the addition of new features to [=Recommendations=] that explicitly allow them
+	enables third parties to depend on a stable feature-set for [=Recommendations=] that do not advertise that ability,
+	as was the case for all [=Recommendations=] prior to the 2020 revision of this Process.
 
 	To make changes which introduce a new feature
 	to a [=Recommendation=] that does not [=allow new features=],
