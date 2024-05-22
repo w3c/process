@@ -597,9 +597,7 @@ Meeting Scheduling and Announcements</h5>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
-	In the case of meetings
-	whose participation is not tied to any pre-existing [=Group=],
-	such as [=Workshops=],
+	In the case of [=Workshops=],
 	shorter notice is not allowed.
 
 <h5 id="meeting-minutes">
