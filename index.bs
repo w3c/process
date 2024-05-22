@@ -3346,7 +3346,6 @@ Maturity Stages on the Recommendation Track</h4>
 					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
 				<dd>
 					A Candidate Recommendation Draft
-					A Candidate Recommendation Draft
 					is published
 					to solicit review of intended changes from the previous [=Candidate Recommendation Snapshot=].
 					This allows for wider review of the changes
