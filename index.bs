@@ -5685,6 +5685,10 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			that described whether and how the Team can maintain technical reports
 			that no longer have a Group chartered to maintain them.
 			(See <a href="https://github.com/w3c/w3process/pull/860">Pull Request 860</a>)
+
+		<li>
+			Require Chairs to be listed in Charters.
+			(See <a href="https://github.com/w3c/w3process/issues/823">Issue 823</a>)
 	</ul>
 
 
