@@ -2344,7 +2344,7 @@ Council Composition</h5>
 	Each [=W3C Council=] is composed of the following members (excepting any [[#council-participation|renounced or dismissed]]):
 	* the [=CEO=] or their chosen [=Team=] delegate
 	* the members of the [=Advisory Board=]
-	* the members of the [=Technical Architecture Group=] other than Tim Berners-Lee
+	* the elected and appointed members of the [=Technical Architecture Group=]
 
 	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
 
