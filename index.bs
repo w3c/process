@@ -4835,8 +4835,8 @@ Switching Tracks</h3>
 	[=First Public Working Draft=] designates a specific type of [=Working Draft=]
 	and is not a separate maturity stage.
 	A document which switches to the [=Recommendation track=] is only published as a [=First Public Working Draft=]
-	if it was never previously published as such,
-	otherwise it is simply a [=Working Draft=].
+	if it was never previously published as such;
+	otherwise, it is simply a [=Working Draft=].
 
 <h3 id="further-reading">
 Further reading</h3>
