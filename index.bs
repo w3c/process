@@ -2041,9 +2041,6 @@ Consensus</h4>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
-	Note: The CEO has the role of
-	assessing consensus within the Advisory Committee.
-
 	The following terms are used in this document
 	to describe the level of support for a decision among a set of eligible individuals:
 
