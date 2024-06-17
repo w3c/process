@@ -27,17 +27,17 @@
 Title: W3C Process Document
 Group: processcg
 Status: CG-DRAFT
-ED: https://www.w3.org/Consortium/Process/Drafts/
-TR: https://www.w3.org/Consortium/Process/
-Previous Version: https://www.w3.org/2023/Process-20231103/
+ED: https://www.w3.org/policies/process/drafts/
+TR: https://www.w3.org/policies/process/
+Previous Version: https://www.w3.org/policies/process/20231103/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, https://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
-Repository: w3c/w3process
-Shortname: w3process
+Repository: w3c/process
+Shortname: process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
 	by developing common protocols that promote its evolution and ensure its interoperability.
@@ -49,13 +49,13 @@ Abstract:
 	please refer to <a href="https://www.w3.org/about/">About W3C</a>.
 Status Text:
 	This document,
-	which is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>,
+	which is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>,
 	is a work in progress
 	and further changes may occur before completion of this revision cycle.
-	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
+	As detailed in <a href="https://www.w3.org/policies/process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
-Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
+Issue Tracking: Github (preferred) https://github.com/w3c/process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
@@ -115,7 +115,7 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
 	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
-	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
+	The <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	and other policies
 	incorporated by normative reference as a part of the Process Document
 	are equally binding.
@@ -1378,9 +1378,9 @@ Chartered Groups: Working Groups and Interest Groups</h3>
 
 			Working Groups have additional participation requirements
 			described in the W3C Patent Policy [[!PATENT-POLICY]],
-			see particularly the “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Obligations">Licensing Obligations of Working Group Participants</a>”
+			see particularly the “<a href="https://www.w3.org/policies/patent-policy/#sec-Obligations">Licensing Obligations of Working Group Participants</a>”
 			and the patent claim exclusion process
-			in “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">Exclusion From W3C RF Licensing Requirements</a>”.
+			in “<a href="https://www.w3.org/policies/patent-policy/#sec-Exclusion">Exclusion From W3C RF Licensing Requirements</a>”.
 
 
 		<dt>
@@ -3359,7 +3359,7 @@ Maturity Stages on the Recommendation Track</h4>
 					A [=Candidate Recommendation Draft=]
 					<em>does not</em> provide an exclusion opportunity;
 					instead, it is considered a [=Working Draft=]
-					for the purpose of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
+					for the purpose of the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
 
 			A <dfn>Rescinded Candidate Recommendation</dfn>
@@ -5605,13 +5605,13 @@ Changes</h2>
 	<em>This section is non-normative.</em>
 
 <h3 id=changes-2024 class=no-num>
-Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a></h3>
+Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a></h3>
 
-	<p>This document is based on the <a href="https://www.w3.org/2023/Process-20231103/">3 November 2023 Process</a>.
-	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2024%22+is%3Aclosed">list of issues addressed</a>,
+	<p>This document is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>.
+	A <a href="https://github.com/w3c/process/issues?q=milestone%3A%22Process+2024%22+is%3Aclosed">list of issues addressed</a>,
 	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2023 to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/p2023_1...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/process/compare/p2023_1...main">detailed log of all changes since then</a>
 	are available.
 
 	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
@@ -5619,32 +5619,32 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 	<ul>
 		<li>
 			Council dismissal vote counts must be reported.
-			(See <a href="https://github.com/w3c/w3process/issues/748">Issue 748</a>)
+			(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>)
 
 		<li>
 			Exclude TAG/AB from voting on their own decisions/proposals.
-			(See <a href="https://github.com/w3c/w3process/issues/749">Issue 749</a>)
+			(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>)
 
 		<li>
 			Add a requirement to make progress on external issues for update requests
-			(See <a href="https://github.com/w3c/w3process/issues/781">Issue 781</a>)
+			(See <a href="https://github.com/w3c/process/issues/781">Issue 781</a>)
 
 		<li>
 			Enable Team to replace defunct registry custodians when no-one else can.
-			(See <a href="https://github.com/w3c/w3process/issues/699">Issue 699</a>)
+			(See <a href="https://github.com/w3c/process/issues/699">Issue 699</a>)
 
 		<li>
 			Stop citing the superseded TAG charter.
-			(See <a href="https://github.com/w3c/w3process/issues/794">Issue 794</a>)
+			(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>)
 
 		<li>
 			Rename “registry sections” to [=embedded registries=]
 			to avoid confusion over whether they can be split across multiple sections of a [=Recommendation=].
-			(See <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
+			(See <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
 
 		<li>
 			Put constraints on the timing of making Formal Objections public.
-			(See <a href="https://github.com/w3c/w3process/issues/735">Issue 735</a>)
+			(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>)
 
 		<li>
 
@@ -5652,40 +5652,45 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 			and "Draft Registry" into "Registry Draft"
 			to be consistent with other statuses that uses the word "Draft",
 			and to make that word stand out more.
-			(See <a href="https://github.com/w3c/w3process/issues/779">Issue 779</a>)
+			(See <a href="https://github.com/w3c/process/issues/779">Issue 779</a>)
 
 		<li>
-			Clarify the definition of a Registry (see <a href="https://github.com/w3c/w3process/issues/800">Issue 800</a>)
-			and of Recommendation Track Documents (see <a href="https://github.com/w3c/w3process/pull/831">Pull Request 831</a>).
+			Clarify the definition of a Registry (see <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
+			and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
 
 		<li>
 			Clarify how the outcome of certain ballots are determined.
-			(See <a href="https://github.com/w3c/w3process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/w3process/pull/838">Issue 838</a>)
+			(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>)
 
 		<li>
 			Reorganize and rephrase [[#CharterReview]] for readability and ease of understanding.
 			This change, while moderate in size, is purely editorial.
-			(See <a href="https://github.com/w3c/w3process/pull/850">Pull Request 850</a>)
+			(See <a href="https://github.com/w3c/process/pull/850">Pull Request 850</a>)
 
 		<li id="streamlined-update">
-			Retire “<a href="https://www.w3.org/2023/Process-20231103/#streamlined-update">Streamlined Publication Approval</a>”.
+			Retire “<a href="https://www.w3.org/policies/process/20231103/#streamlined-update">Streamlined Publication Approval</a>”.
 			This was meant to enable REC track publication with fewer/faster approval steps
 			when some stricter than usual criteria were fulfilled.
 			However, regular REC track publication have improved enough
 			that this became unnecessary,
 			and nobody was using it.
-			(See <a href="https://github.com/w3c/w3process/issues/856">Issue 856</a>)
+			(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>)
 
 		<li>
 			Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
 			the various parts of the Process
 			that described whether and how the Team can maintain technical reports
 			that no longer have a Group chartered to maintain them.
-			(See <a href="https://github.com/w3c/w3process/pull/860">Pull Request 860</a>)
+			(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
 
 		<li>
 			Require Chairs to be listed in Charters.
-			(See <a href="https://github.com/w3c/w3process/issues/823">Issue 823</a>)
+			(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>)
+
+		<li>
+			The URL of this document was changed
+			from /Consortium/Process/ to /policies/process/
+			for better integration in the W3C website architecture.
 	</ul>
 
 
@@ -5693,7 +5698,7 @@ Changes since the <a href="https://www.w3.org/2023/Process-20231103/">3 November
 Changes since earlier versions</h3>
 
 	Changes since earlier versions of the Process are detailed
-	in the <a href="https://www.w3.org/2023/Process-20231103/#changes">changes section of the previous version</a>
+	in the <a href="https://www.w3.org/policies/process/20231103/#changes">changes section of the previous version</a>
 	of the Process.
 
 <pre class=biblio>
@@ -5784,7 +5789,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"PATENT-POLICY": {
-		"href": "https://www.w3.org/Consortium/Patent-Policy/",
+		"href": "https://www.w3.org/policies/patent-policy/",
 		"title": "The W3C Patent Policy",
 		"publisher": "W3C"
 	},
@@ -5794,7 +5799,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"PATENT-POLICY-2020": {
-		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
+		"href": "https://www.w3.org/policies/patent-policy/20200915/",
 		"title": "The W3C 2020 Patent Policy",
 		"publisher": "W3C"
 	},
