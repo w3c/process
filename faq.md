@@ -2,6 +2,8 @@ This in an FAQ for the [W3C Process document](https://www.w3.org/Consortium/Proc
 
 ## Technical Reports
 
+This section contains clarifications about so-called “Technical Reports”.
+
 ### What is a Technical Report?
 
 Anywhere you see or hear the term _“Technical Report”_, you can substitute the term _“W3C Publication”_. So, for example, you can read the beginning of the section at https://www.w3.org/policies/process/drafts/#Reports as:
@@ -10,7 +12,7 @@ Anywhere you see or hear the term _“Technical Report”_, you can substitute t
 >
 > The W3C Publication development process is the set of steps and requirements followed by W3C Working Groups to standardize Web technology. The W3C Publication development process is designed to…
 
-And you can read the heading the section at https://www.w3.org/policies/process/drafts/#recs-and-notes as:
+And you can read the heading of the section at https://www.w3.org/policies/process/drafts/#recs-and-notes as:
 
 > #### Types of W3C Publications
 
@@ -21,6 +23,29 @@ _“TR”_ is an abbreviation for _“Technical Report”_. In other words, you 
 ### What is TR space?
 
 _“TR space”_ means https://www.w3.org/TR/ — that is, it’s the area of the w3.org website under which W3C standards are published. So any time you see or hear the term _“TR space”_, you can substitute the term _“W3C publications space”_ — or even _“W3C standards space”_.
+
+## Recommendation Track
+
+This section contains clarifications about the so-called “Recommendation Track”.
+
+### What is the Recommendation Track?
+
+Anywhere you see or hear the term _“Recommendation Track”_, you can substitute the term _“Standards Track”_. So, for example, you can read the beginning of the section at https://www.w3.org/policies/process/drafts/#rec-track as:
+
+> #### The W3C Standards Track
+>
+> Working Groups create specifications and guidelines to complete the scope of work envisioned by a Working Group's charter. These W3C Publications undergo cycles of revision and review as they advance towards W3C Recommendation status.
+
+And you can read the beginning of the section at https://www.w3.org/policies/process/drafts/#recs-and-notes as:
+
+> #### Types of W3C Publications
+>
+> This chapter describes the formal requirements for publishing and
+> maintaining a W3C Standard, Note, or Registry Report.
+>
+> #### Standards
+>
+> Working Groups develop W3C Publications on the W3C Standards Track in order to produce normative specifications or guidelines as standards for the Web. The Standards Track process incorporates requirements for wide review, adequate implementation experience, and consensus-building.
 
 ## Living standards
 
