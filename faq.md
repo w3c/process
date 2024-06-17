@@ -56,3 +56,10 @@ This section contains information about publication of so-called “living stand
 Yes. For any of your working-group deliverables which have reached CR, your group has the option to keep that deliverable at CR as a so-called “living standard” or “evergreen standard” — which you can, from then on, continuously update at any time; that is, without any intent to ever advance the document to Recommendation.
 
 In other words, that continuously-updated CR becomes the terminal state of that deliverable in the W3C publication-maturity process for web standards (which, in the Process document itself, is what’s described in the section titled [The W3C Recommendation Track](https://www.w3.org/Consortium/Process/Drafts/#rec-track)).
+
+### Why publish Candidate Recommendations?
+
+### Why not just publish Working Drafts?
+
+If your working group wants to publish your spec as a so-called “living standard”, and you are wondering why you should transition the spec to Candidate Recommendation — rather than just publishing a Working Draft and continuously updating that Working Draft — the reason is: [to come]
+<!-- I don’t actually know the answer to this question… -->
