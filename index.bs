@@ -165,7 +165,7 @@ Introduction</h2>
 	by encouraging <a href="#Consensus">consensus</a>,
 	soliciting reviews (by both Members and public),
 	incorporating implementation and interoperability experience,
-	and requiring Membership-wide approval as part of the <a href="#Reports">technical report development process</a>.
+	and requiring Membership-wide approval as part of the <a href="#publications">W3C Publication development process</a>.
 	[[#group-participation|Participants]] in W3C include
 	<a href="#member-rep">representatives of its Members</a> and the [=Team=],
 	as well as <a href="#invited-expert-wg">Invited Experts</a>
@@ -173,10 +173,10 @@ Introduction</h2>
 	[=Team=] representatives both contribute to the technical work
 	and help ensure each group's proper integration with the rest of W3C.
 
-	W3C’s technical standards, called [=W3C Recommendations=],
+	W3C’s technical standards
 	are developed by its [=Working Groups=];
 	W3C also has other types of publications,
-	all described in [[#Reports]].
+	all described in [[#publications]].
 	W3C has various types of groups;
 	this document describes the formation and policies
 	of its chartered [=Working Groups=] and [=Interest Groups=],
@@ -243,7 +243,7 @@ Members</h3>
 		<li>
 			Representatives of Member organizations participate
 			in <a href="#GAGeneral">Working Groups and Interest Groups</a>,
-			where they author and review <a href="#Reports">technical reports</a>.
+			where they author and review <a href="#publications">W3C Publications</a>.
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
@@ -1370,7 +1370,7 @@ Chartered Groups: Working Groups and Interest Groups</h3>
 			<dfn export id="GroupsWG"><a href="#GroupsWG">Working Groups</a></dfn>.
 		<dd>
 			Working Groups typically produce deliverables
-			(e.g., <a href="#rec-advance">Recommendation Track technical reports</a>,
+			(e.g., <a href="#standards-track">Standards</a>,
 			software,
 			test suites,
 			and reviews of the deliverables of other groups)
@@ -1390,8 +1390,8 @@ Chartered Groups: Working Groups and Interest Groups</h3>
 			is to bring together people who wish to evaluate potential Web technologies and policies.
 			An Interest Group is a forum for the exchange of ideas.
 
-			Interest Groups do not publish <a href="#RecsW3C">Recommendation Track technical reports</a>;
-			but can publish <a href="#WGNote">technical reports on the Note Track</a>.
+			Interest Groups do not publish <a href="#standards-track">Standards</a>;
+			but can publish <a href="#WGNote">Notes</a>.
 	</dl>
 
 <h4 id="ReqsAllGroups">
@@ -1440,8 +1440,8 @@ Requirements for All Chartered Groups</h4>
 	A group <em class="rfc2119">should</em> document the process it uses
 	to create task forces
 	(e.g., each task force might have an informal "charter").
-	Task forces do not publish <a href="#Reports">technical reports</a>;
-	the Working Group <em class="rfc2119">may</em> choose to publish their results as part of a technical report.
+	Task forces do not publish <a href="#publications">W3C Publications</a>;
+	the Working Group <em class="rfc2119">may</em> choose to publish their results as part of a W3C Publication.
 
 <h4 id="group-participation">
 Participation in Chartered Groups</h4>
@@ -1733,7 +1733,7 @@ Content of a Charter</h3>
 			The duration of the group (typically from six months to two years).
 
 		<li>
-			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software).
+			The nature of any deliverables (W3C Publications, reviews of the deliverables of other groups, or software).
 
 		<li>
 			Expected milestone dates where available.
@@ -1787,7 +1787,7 @@ Content of a Charter</h3>
 		<li>
 			The expected time commitment and level of involvement by the Team
 			(e.g., to track developments,
-			write and edit technical reports,
+			write and edit W3C Publications,
 			develop code,
 			or organize pilot experiments).
 
@@ -1804,8 +1804,8 @@ Content of a Charter</h3>
 	See also the charter requirements in “Licensing Goals for W3C Specifications”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-	For every Recommendation Track deliverable
-	that continues work on [=technical report=]
+	For every Standards Track deliverable
+	that continues work on [=W3C Publication=]
 	published under any other Charter (including a predecessor group of the same name),
 	for which there is at least an existing [=First Public Working Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
@@ -2303,9 +2303,9 @@ Registering Formal Objections</h3>
 	if the [=Formal Objection=] is resolved to the satisfaction of the objector
 	before its <a href="#confidentiality-change">confidentiality is changed</a>.
 
-	Note: [=Formal Objections=] against matter in a [=technical report=]
-	<a href="#adv-verif-reqs">are expected to be fully addressed</a> before <a href="#rec-advance">requesting advancement</a>
-	of the [=technical report=].
+	Note: [=Formal Objections=] against matter in a [=W3C Publication=]
+	<a href="#adv-verif-reqs">are expected to be fully addressed</a> before <a href="#standards-track">requesting advancement</a>
+	of the [=W3C Publication=].
 
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
 	is considered registered at the close of the review period.
@@ -2598,7 +2598,7 @@ Advisory Committee Reviews and W3C Decisions</h3>
 
 	The [=Advisory Committee=] formally confers its approval
 	on [=charters=],
-	[=technical reports=],
+	[=W3C Publications=],
 	and other matters
 	through an <dfn export lt="Advisory Committee review | AC Review">Advisory Committee review</dfn>
 	and its resulting [=W3C Decision=].
@@ -2703,7 +2703,7 @@ Determining the W3C Decision</h4>
 
 	<div class="example">
 		For example, to make [=substantive changes=] to a [=Proposed Recommendations=],
-		the [=technical report=] could be returned to [=Candidate Recommendation=].
+		the [=W3C Publication=] could be returned to [=Candidate Recommendation=].
 		Alternatively, the desired changes can be introduced as non-substantive amendments
 		using the process for [[#revising-rec|revising a Recommendation]].
 		However, they cannot be directly integrated between [=PR=] and [=REC=],
@@ -2740,7 +2740,7 @@ Appeal by Advisory Committee Representatives</h3>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
 	an <dfn export lt="Advisory Committee Appeal|AC Appeal| Appeal">Advisory Committee Appeal</dfn>.
 	These [=W3C decisions=] include those related to group creation and modification,
-	and transitions to new maturity stages for Recommendation Track documents
+	and transitions to new maturity stages for Standards Track documents
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
@@ -2749,7 +2749,7 @@ Appeal by Advisory Committee Representatives</h3>
 	These cases are identified in the sections
 	which describe the requirements for the decision
 	and include
-	additional (non-reviewed) maturity stages of Recommendation Track documents,
+	additional (non-reviewed) maturity stages of Standards Track documents,
 	group [=charter extensions=] and closures,
 	and [=technical agreements=].
 
@@ -2797,19 +2797,19 @@ Appeal by Advisory Committee Representatives</h3>
 			after which the applicable decision process is re-initiated.
 	</ol>
 
-<h2 id="Reports">
-W3C Technical Reports</h2>
+<h2 id="publications" oldids="Reports">
+W3C Publications</h2>
 
-	The W3C technical report development process is the set of steps and requirements
+	The W3C Publication development process is the set of steps and requirements
 	followed by W3C [=Working Groups=] to standardize Web technology.
-	The W3C technical report development process is designed to:
+	The W3C Publication development process is designed to:
 
 	<ul>
 		<li>
 			support multiple specification development methodologies
 
 		<li>
-			maximize [=consensus=] about the content of stable technical reports
+			maximize [=consensus=] about the content of stable W3C Publications
 
 		<li>
 			ensure high technical and editorial quality
@@ -2827,26 +2827,26 @@ W3C Technical Reports</h2>
 	See also “licensing goals for W3C Specifications”
 	in the W3C Patent Policy [[PATENT-POLICY]].
 
-<h3 id="recs-and-notes">
-Types of Technical Reports</h3>
+<h3 id="standards-and-notes" oldids="recs-and-notes">
+Types of W3C Publications</h3>
 
 	This chapter describes the formal requirements
-	for [=publishing=] and maintaining a [=W3C Recommendation=],
+	for [=publishing=] and maintaining a <a href="#standards">W3C Standard</a>,
 	[=Note=],
 	or [=Registry Report=].
 
 	<dl>
-		<dt>Recommendations
+		<dt id="standards">Standards
 		<dd>
-			[=Working Groups=] develop technical reports on the [=W3C Recommendation Track=]
+			[=Working Groups=] develop W3C Publications on the [=W3C Standards Track=]
 			in order to produce normative specifications or guidelines
 			as standards for the Web.
-			The [=Recommendation Track=] process incorporates requirements for [=wide review=],
+			The [=Standards Track=] process incorporates requirements for [=wide review=],
 			[=adequate implementation experience=],
 			and [=consensus=]-building,
 			and is subject to the W3C Patent Policy [[PATENT-POLICY]],
 			under which participants commit to Royalty-Free IPR licenses for implementations.
-			See [[#rec-track]] for details.
+			See [[#standards-track]] for details.
 
 		<dt>Notes
 		<dd>
@@ -2862,7 +2862,7 @@ Types of Technical Reports</h3>
 			[=Working Groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
 			A registry can be published either as a distinct [=registry report=],
-			or directly within a [=Recommendation Track=] document
+			or directly within a [=Standards Track=] document
 			as an [=embedded registry=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
@@ -2876,20 +2876,20 @@ Types of Technical Reports</h3>
 	so long as they do not conflict with the requirements in this chapter.
 
 <h3 id="general-requirements">
-General Requirements for Technical Reports</h3>
+General Requirements for W3C Publications</h3>
 
 <h4 id=publication>
-Publication of Technical Reports</h4>
+Publication of W3C Publications</h4>
 
 	<dfn id="publishing" lt="publish">Publishing</dfn> as used in this document
-	refers to producing a version which is listed as a W3C <dfn export>Technical Report</dfn>
-	on its <a href="https://www.w3.org/TR/">Technical Reports index at https://www.w3.org/TR</a> [[TR]].
-	Every document published as part of the technical report development process
+	refers to producing a version which is listed as a <dfn export>W3C Publication</dfn>
+	on its <a href="https://www.w3.org/TR/">W3C Publications index at https://www.w3.org/TR</a> [[TR]].
+	Every document published as part of the W3C Publication development process
 	<em class="rfc2119 old">must</em> be a public document.
 	W3C strives to make archival documents indefinitely available
 	at their original address in their original form.
 
-	Every document published as part of the technical report development process
+	Every document published as part of the W3C Publication development process
 	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-stages">maturity stage</a>,
 	and <em id="DocumentStatus" class="rfc2119">must</em> include information about the status of the document.
 	This status information:
@@ -2919,17 +2919,17 @@ Publication of Technical Reports</h4>
 			an explanation of significant changes from the previous version.
 	</ul>
 
-	Every Technical Report published
-	as part of the Technical Report development process
+	Every W3C Publication published
+	as part of the W3C Publication development process
 	is edited by one or more editors
 	appointed by a Group [=Chair=].
 	It is the responsibility of these editors to ensure that the decisions of the Group are
-	correctly reflected in subsequent drafts of the technical report.
+	correctly reflected in subsequent drafts of the W3C Publication.
 	An editor <em class="rfc2119">must</em> be a participant,
 	per <a href="#group-participation"></a>
 	in the Group responsible for the document(s) they are editing.
 
-	The Team is <em class="rfc2119">not required</em> to publish a [=Technical Report=]
+	The Team is <em class="rfc2119">not required</em> to publish a [=W3C Publication=]
 	that does not conform to the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]]
 	(e.g., for <span id="DocumentName">naming</span>,
 	status information,
@@ -2940,9 +2940,9 @@ Publication of Technical Reports</h4>
 	and the [=Advisory Committee=]
 	of any changes to these rules.
 
-	The primary language for W3C [=Technical Reports=] is English.
-	W3C encourages the translation of its [=Technical Reports=].
-	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
+	The primary language for W3C [=W3C Publications=] is English.
+	W3C encourages the translation of its [=W3C Publications=].
+	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C W3C Publications</a> [[TRANSLATION]]
 	is available at the W3C website.
 
 <h4 id="doc-reviews">
@@ -2952,7 +2952,7 @@ Reviews and Review Responsibilities</h4>
 	from the moment it is first [=published=].
 	Working Groups <em class="rfc2119">should</em> [=formally address=]
 	<em>any</em> substantive review comment
-	about a technical report in a timely manner.
+	about a W3C Publication in a timely manner.
 
 	Reviewers <em class="rfc2119">should</em> send substantive technical reviews as early as possible.
 	[=Working Groups=] are often reluctant to make [=substantive changes=] to a mature document,
@@ -3028,7 +3028,7 @@ Classes of Changes</h4>
 		<dt id=class-2>
 			2. Changes that do not functionally affect interpretation of the document
 		<dd>
-			For [=Recommendation-track=] [=technical reports=] specifically,
+			For [=Recommendation-track=] [=W3C Publications=] specifically,
 			this constitutes changes that do not affect conformance,
 			i.e. changes that reasonable implementers
 			would not interpret as changing architectural
@@ -3087,7 +3087,7 @@ Classes of Changes</h4>
 <h4 id="errata">
 Errata Management</h4>
 
-	Tracking errors is an important part of a [=Working Group=]'s ongoing care of a [=technical report=];
+	Tracking errors is an important part of a [=Working Group=]'s ongoing care of a [=W3C Publication=];
 	for this reason,
 	the scope of a [=Working Group=] charter generally allows time
 	for work after publication of a [=Recommendation=].
@@ -3106,18 +3106,18 @@ Errata Management</h4>
 
 	[=Working Groups=] decide how to document errata.
 	Such documentation <em class="rfc2119">must</em> identify
-	the affected [=technical report=] text
+	the affected [=W3C Publication=] text
 	and describe the error;
 	it <em class="rfc2119">may</em> also describe some possible solution(s).
-	Readers of the [=technical report=] <em class="rfc2119">should</em> be able easily
+	Readers of the [=W3C Publication=] <em class="rfc2119">should</em> be able easily
 	to find and see the errata
-	that apply to that specific [=technical report=] with their associated tests.
+	that apply to that specific [=W3C Publication=] with their associated tests.
 	Errata <em class="rfc2119">may</em> be documented
 	in a separate errata page or tracking system.
 	They <em class="rfc2119">may</em>,
 	in addition or alternatively,
 	be annotated inline
-	alongside the affected [=technical report=] text
+	alongside the affected [=W3C Publication=] text
 	or at the start or end of the most relevant section(s).
 
 <h4 id=candidate-amendments oldids=candidate-changes>
@@ -3147,15 +3147,15 @@ Candidate Amendments</h4>
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
 	In addition to their actual [[#maturity-stages|maturity stage]],
-	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
+	[=published=] [=Standards Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
 	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
 
 <h4 id=no-group-maintenance>
 Maintenance Without a Group</h4>
 
-	For all [[#recs-and-notes|types of technical reports]] and all [[#maturity-stages|maturity stages]],
-	if there is no [=chartered group|group=] chartered to maintain a [=technical report=],
+	For all [[#standards-and-notes|types of W3C Publications]] and all [[#maturity-stages|maturity stages]],
+	if there is no [=chartered group|group=] chartered to maintain a [=W3C Publication=],
 	the [=Team=] <em class="rfc2119">may</em> republish it
 	at the same [[#maturity-stages|maturity stage]],
 	integrating as needed:
@@ -3194,7 +3194,7 @@ License Grants from Non-Participants</h4>
 
 	When a party who is not already obligated under the Patent Policy
 	offers a change in class 3 or 4
-	(as described in [[#correction-classes]]) to a technical report under this process
+	(as described in [[#correction-classes]]) to a W3C Publication under this process
 	the [=Team=] <em class=rfc2119>must</em> request
 	a recorded royalty-free patent commitment;
 	for a change in class 4, the Team <em class=rfc2119>must</em> secure such commitment.
@@ -3206,12 +3206,12 @@ License Grants from Non-Participants</h4>
 	on the terms specified in the “W3C Royalty-Free (RF) Licensing Requirements” section of the W3C Patent Policy [[PATENT-POLICY]].
 
 
-<h3 id=rec-track oldids="rec-advance">
-The W3C Recommendation Track</h3>
+<h3 id=standards-track oldids="rec-advance rec-track">
+The W3C Standards Track</h3>
 
 	[=Working Groups=] create specifications and guidelines
 	to complete the scope of work envisioned by a [=Working Group=]'s [=charter=].
-	These [=technical reports=] undergo cycles of revision and review
+	These [=W3C Publications=] undergo cycles of revision and review
 	as they advance towards [=W3C Recommendation=] status.
 	Once review suggests the Working Group has met their requirements for a new standard,
 	including [=wide review=],
@@ -3219,11 +3219,11 @@ The W3C Recommendation Track</h3>
 	allows the [=Working Group=] to formally collect <a href="#implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
 	At the end of the process,
-	the Advisory Committee reviews the mature technical report,
+	the Advisory Committee reviews the mature W3C Publication,
 	and if there is support from its Membership,
 	W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
 
-	In summary, the <dfn lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track">W3C Recommendation Track</dfn> consists of:
+	In summary, the <dfn lt="W3C Standards Track | Standards Track | REC Track | Recommendation-track">W3C Standards Track</dfn> consists of:
 
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
@@ -3233,22 +3233,22 @@ The W3C Recommendation Track</h3>
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
 
-	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
+	A <dfn export lt="W3C Standards Track document | Standards Track document | REC Track document | Recommendation-track document">W3C Standards Track document</dfn>
 	is any document whose current status is one of the five in the numbered list above.
 
-	<div role="region" aria-label="Basic W3C Recommendation Track">
+	<div role="region" aria-label="Basic W3C Standards Track">
 		<pre class=include-raw>
 			path: basic-rec-track.svg
 		</pre>
 	</div>
 
-	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
+	This Process defines certain [=Standards Track=] publications as <dfn>Patent Review Drafts</dfn>.
 	Under the 2004 Patent Policy (and its 2017 update) [[!PATENT-POLICY-2004]],
 	these correspond to “Last Call Working Draft” in the Patent Policy;
 	Starting from the 2020 Patent Policy [[!PATENT-POLICY-2020]],
 	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY]].
 
-	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
+	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a W3C Publication</a> at any time.
 
 	As described in [[#transition-reqs]],
 	the [=Team=] will decline a request to advance in maturity stage
@@ -3257,14 +3257,14 @@ The W3C Recommendation Track</h3>
 	have not been met.
 
 <h4 id="maturity-stages" oldids="maturity-levels">
-Maturity Stages on the Recommendation Track</h4>
+Maturity Stages on the Standards Track</h4>
 
 	<dl>
 		<dt>
-			<dfn id="RecsWD" export lt="W3C Working Draft | Working Draft | WD">Working Draft</dfn> (<abbr>WD</abbr>)
+			<dfn id="StandardsWD" oldids="RecsWD" export lt="W3C Working Draft | Working Draft | WD">Working Draft</dfn> (<abbr>WD</abbr>)
 		<dd>
 			A Working Draft is a document that W3C has [=published=]
-			on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
+			on the <a href="https://www.w3.org/TR/">W3C's W3C Publications page</a> [[TR]]
 			for review by the community (including W3C Members), the public,
 			and other technical organizations,
 			and for simple historical reference.
@@ -3293,11 +3293,11 @@ Maturity Stages on the Recommendation Track</h4>
 					and does not meet all Working Group requirements.
 			</ul>
 
-			The first Working Draft of a technical report is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>),
+			The first Working Draft of a W3C Publication is called the <dfn export id=fpwd>First Public Working Draft</dfn> (<abbr>FPWD</abbr>),
 			and has patent implications as defined in the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
-			<dfn id="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
+			<dfn id="StandardsCR" oldids="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
 		<dd>
 			A Candidate Recommendation is a document that satisfies the technical
 			requirements of the Working Group that produced it and their dependencies,
@@ -3374,7 +3374,7 @@ Maturity Stages on the Recommendation Track</h4>
 			for implication on patent licensing obligations.
 
 		<dt>
-			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
+			<dfn export id="StandardsPR" oldids="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
 		<dd>
 			A Proposed Recommendation is a document
 			that has been accepted by W3C
@@ -3388,7 +3388,7 @@ Maturity Stages on the Recommendation Track</h4>
 			except by [=publishing=] a new [=Working Draft=] or [=Candidate Recommendation=].
 
 		<dt>
-			<dfn id="RecsW3C" export lt="W3C Recommendation | Recommendation | REC">W3C Recommendation</dfn> (<abbr>REC</abbr>)
+			<dfn id="Recommendations" oldids="RecsW3C" export lt="W3C Recommendation | Recommendation | REC">W3C Recommendation</dfn> (<abbr>REC</abbr>)
 		<dd>
 			A W3C Recommendation is a specification
 			or set of guidelines
@@ -3404,7 +3404,7 @@ Maturity Stages on the Recommendation Track</h4>
 			a [=W3C Recommendation=] may become:
 			<dl>
 				<dt>
-					A <dfn export id="RecsSup">Superseded Recommendation</dfn>
+					A <dfn export id="StandardsSup" oldids="RecsSup">Superseded Recommendation</dfn>
 				<dd>
 					A Superseded Recommendation is a specification
 					that has been replaced by a newer version
@@ -3413,18 +3413,18 @@ Maturity Stages on the Recommendation Track</h4>
 					has the same status as a [=W3C Recommendation=]
 					with regards to W3C Royalty-Free IPR Licenses granted under the Patent Policy.
 
-					Note: When a Technical Report which had previously been published as a [=Recommendation=]
+					Note: When a W3C Publication which had previously been published as a [=Recommendation=]
 					is again published as a [=Recommendation=]
 					after following the necessary steps to <a href="#revising-rec">revise</a> it,
 					the latest version replaces the previous one,
 					without the need to invoke the steps of [[#rec-rescind]]:
 					it is the same document, updated.
 					Explicitly declaring a documented superseded, using the process documented in [[#rec-rescind]],
-					is intended for cases where a [=Recommendation=] is superseded by a separate [=Technical Report=]
+					is intended for cases where a [=Recommendation=] is superseded by a separate [=W3C Publication=]
 					(or by a document managed outside of W3C).
 
 				<dt>
-					An <dfn export id="RecsObs">Obsolete Recommendation</dfn>
+					An <dfn export id="StandardsObs" oldids="RecsObs">Obsolete Recommendation</dfn>
 				<dd>
 					An Obsolete Recommendation is a specification
 					that W3C has determined lacks sufficient market relevance
@@ -3445,7 +3445,7 @@ Maturity Stages on the Recommendation Track</h4>
 		<dt>
 			<dfn id="discontinuedREC" export >Discontinued Draft</dfn>
 		<dd>
-			A [=technical report=] representing the state of a Recommendation-track document
+			A [=W3C Publication=] representing the state of a Recommendation-track document
 			at the point at which work on it was discontinued.
 			See [[#abandon-draft]].
 
@@ -3454,13 +3454,13 @@ Maturity Stages on the Recommendation Track</h4>
 	Only sufficiently technically mature work should be advanced.
 
 	Note: Should faster advancement to meet scheduling considerations be desired,
-	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
-	less stable features to other technical reports.
+	this can be achieved by reducing the scope of the W3C Publication to a subset that is adequately mature and deferring
+	less stable features to other W3C Publications.
 
 	When publishing an updated version of an existing [=Candidate Recommendation=] or [=Recommendation=],
-	technical reports are expected to meet the same maturity criteria as when they are first published under that status.
+	W3C Publications are expected to meet the same maturity criteria as when they are first published under that status.
 	However, in the interest of replacing stale documents with improved ones in a timely manner,
-	if flaws have been discovered in the technical report after its initial publication as a [=CR=] or [=REC=]
+	if flaws have been discovered in the W3C Publication after its initial publication as a [=CR=] or [=REC=]
 	that would have been severe enough to reject that publication had they be known in time,
 	it is also permissible to publish an updated [=CR=] or [=REC=] following the usual process,
 	even if only some of these flaws have been satisfactorily addressed.
@@ -3513,7 +3513,7 @@ Implementation Experience</h4>
 
 
 <h4 id="transition-reqs">
-Advancement on the Recommendation Track</h4>
+Advancement on the Standards Track</h4>
 
 	For <em>all</em> requests to advance a specification
 	to a new maturity stage
@@ -3537,7 +3537,7 @@ Advancement on the Recommendation Track</h4>
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document all new features
-			(<a href="#correction-classes">class 4 changes</a>) to the technical report
+			(<a href="#correction-classes">class 4 changes</a>) to the W3C Publication
 			since the previous publication.
 
 		<li>
@@ -3581,7 +3581,7 @@ Advancement on the Recommendation Track</h4>
 	on an [=Advisory Committee Review=].</p>
 
 <h4 id="update-reqs">
-Updating Mature Publications on the Recommendation Track</h4>
+Updating Mature Publications on the Standards Track</h4>
 
 	Certain requests to re-publish a specification
 	within its current maturity stage
@@ -3622,7 +3622,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document of all new features
-			(<a href="#correction-classes">class 4 changes</a>) to the technical report
+			(<a href="#correction-classes">class 4 changes</a>) to the W3C Publication
 			since the previous publication.
 
 		<li>
@@ -3674,7 +3674,7 @@ Publishing a First Public Working Draft</h4>
 Revising a Working Draft</h4>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] a [=Working Draft=]
-	to the W3C Technical Reports page
+	to the W3C Publications page
 	when there have been significant changes
 	to the previous published document
 	that would benefit from review beyond the Working Group.
@@ -3693,12 +3693,12 @@ Revising a Working Draft</h4>
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation
-			of [=substantive changes=] to the technical report
+			of [=substantive changes=] to the W3C Publication
 			since the previous [=Working Draft=],
 
 		<li>
 			<em class="rfc2119">should</em> provide public documentation
-			of significant [=editorial changes=] to the technical report
+			of significant [=editorial changes=] to the W3C Publication
 			since the previous step,
 
 		<li>
@@ -3774,7 +3774,7 @@ Transitioning to Candidate Recommendation</h4>
 	</ul>
 
 	[=Advisory Committee=] representatives <em class="rfc2119">may</em> initiate an
-	<a href="#ACAppeal">Advisory Committee Appeal</a> of the decision to advance the technical report.
+	<a href="#ACAppeal">Advisory Committee Appeal</a> of the decision to advance the W3C Publication.
 
 <h4 id=revising-cr oldids="revised-cr">
 Revising a Candidate Recommendation</h4>
@@ -3826,7 +3826,7 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 Publishing a [=Candidate Recommendation Draft=]</h5>
 
 	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] an [=Candidate Recommendation Draft|Update Draft=]
-	to the W3C Technical Reports page
+	to the W3C Publications page
 	when there have been significant changes
 	to the previous published document
 	that would benefit from review beyond the Working Group.
@@ -3841,12 +3841,12 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation
-			of [=substantive changes=] to the technical report
+			of [=substantive changes=] to the W3C Publication
 			since the previous [=Candidate Recommendation Snapshot=],
 
 		<li>
 			<em class="rfc2119">should</em> provide public documentation
-			of significant [=editorial changes=] to the technical report
+			of significant [=editorial changes=] to the W3C Publication
 			since the previous [=Candidate Recommendation Snapshot=],
 
 		<li>
@@ -3956,7 +3956,7 @@ Transitioning to Proposed Recommendation</h4>
 	after its initial publication as a [=Recommendation=],
 	as described in [[#revised-rec-features]].
 	Such an allowance cannot be added
-	to a [=technical report=] previously published as a [=Recommendation=]
+	to a [=W3C Publication=] previously published as a [=Recommendation=]
 	that did not allow such changes.
 
 	Possible Next Steps:
@@ -3977,7 +3977,7 @@ Transitioning to Proposed Recommendation</h4>
 	</ul>
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the decision to advance the technical report.
+	of the decision to advance the W3C Publication.
 
 <h4 id="transition-rec" oldids="rec-publication">
 Transitioning to W3C Recommendation</h4>
@@ -4092,8 +4092,8 @@ Revising a Recommendation: New Features</h5>
 
 	To make changes which introduce a new feature
 	to a [=Recommendation=] that does not [=allow new features=],
-	W3C <em class="rfc2119">must</em> create a new [=technical report=],
-	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
+	W3C <em class="rfc2119">must</em> create a new [=W3C Publication=],
+	following the full process of <a href="#standards-track">advancing a W3C Publication to Recommendation</a>
 	beginning with a new [=First Public Working Draft=].
 
 <h5 id=change-review>
@@ -4168,23 +4168,23 @@ Incorporating Candidate Amendments</h5>
 	(Thus if incorporation of a [=proposed amendment=] is postponed,
 	it may need to be included in multiple Last Calls for Review of Proposed Amendments.)
 
-<h4 id=rec-track-regression>
-Regression on the Recommendation Track</h4>
+<h4 id=standards-track-regression oldids="rec-track-regression">
+Regression on the Standards Track</h4>
 
-	A [=Working Group=] may republish a [=Recommendation-track=] [=technical report=] at a lower <a href="#maturity-stages">maturity stage</a>
+	A [=Working Group=] may republish a [=Recommendation-track=] [=W3C Publication=] at a lower <a href="#maturity-stages">maturity stage</a>
 	by fulfilling the requirements to transition to that maturity stage,
 	as described above.
 
 	Additionally,
 	with the approvals (by [=group decision=]) of each of the [=TAG=] and the [=AB=]
 	the [=Team=] <em class="rfc2119">may</em> return
-	the [=technical report=] to a lower <a href="#maturity-stages">maturity stage</a>
+	the [=W3C Publication=] to a lower <a href="#maturity-stages">maturity stage</a>
 	in response to [=wide review=] or a [=formal objection=].
 
 <h4 id="tr-end">
-Retiring Recommendation Track Documents</h4>
+Retiring Standards Track Documents</h4>
 
-	Work on a technical report <em class="rfc2119">may</em> cease at any time.
+	Work on a W3C Publication <em class="rfc2119">may</em> cease at any time.
 	Work <em class="rfc2119 new">should</em> cease
 	if W3C or a [=Working Group=] determines
 	that it cannot productively carry the work any further.
@@ -4192,7 +4192,7 @@ Retiring Recommendation Track Documents</h4>
 	<h5 id=abandon-draft>
 Abandoning an Unfinished Recommendation</h5>
 
-	Any [=Recommendation-track=] [=technical report=] no longer intended
+	Any [=Recommendation-track=] [=W3C Publication=] no longer intended
 	to advance or to be maintained,
 	and that is not being rescinded,
 	<em class="rfc2119">should</em> be [=published=]
@@ -4202,16 +4202,16 @@ Abandoning an Unfinished Recommendation</h5>
 	the [=Working Group=] decided
 	to abandon work on the report,
 	or as the result of an [=AC Review=] requiring the [=Working Group=]
-	to discontinue work on the technical report before completion.
+	to discontinue work on the W3C Publication before completion.
 	If a [=Working Group=] is made to <a href="#GeneralTermination">close</a>,
-	W3C <em class="rfc2119">must</em> re-[=publish=] any unfinished [=technical report=]
-	on the Recommendation track as [=Discontinued Draft=].
+	W3C <em class="rfc2119">must</em> re-[=publish=] any unfinished [=W3C Publication=]
+	on the Standards Track as [=Discontinued Draft=].
 
 	Such a document should include in its status section
 	an explanation of why it was discontinued.
 
 	A [=Working Group=] <em class="rfc2119">may</em> resume work
-	on such a [=technical report=]
+	on such a [=W3C Publication=]
 	within the scope of its charter
 	at any time,
 	by re-[=publishing=] it as a [=Working Draft=].
@@ -4362,10 +4362,10 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	to the explanation of <a href="https://www.w3.org/Guide/process/obsolete-rescinded-supserseded">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
 
 	Once W3C has published a Rescinded Recommendation,
-	future W3C technical reports <em class="rfc2119">must not</em> include normative references
-	to that technical report.
+	future W3C Publications <em class="rfc2119">must not</em> include normative references
+	to that W3C Publication.
 
-	Note: W3C strives to ensure that all Technical Reports
+	Note: W3C strives to ensure that all W3C Publications
 	will continue to be available at their version-specific URL.
 
 
@@ -4420,13 +4420,13 @@ Publishing Notes</h4>
 
 		<li>
 			<em class="rfc2119">should</em> publish documentation
-			of significant changes to the technical report
+			of significant changes to the W3C Publication
 			since any previous publication.
 	</ul>
 
 	Both [=Notes=] and [=Note Drafts=] can be updated by republishing
 	as a [=Note=] or [=Note Draft=].
-	A [=technical report=] <em class="rfc2119">may</em> remain
+	A [=W3C Publication=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
 
 <h4 id=w3c-statement oldids=memo>
@@ -4457,7 +4457,7 @@ Elevating Group Notes to W3C Statement status</h4>
 	if it does,
 	the request to publish as a [=Statement=] <em class=rfc2119>must</em> include rationale
 	for why it should be elevated,
-	and why it is not on the [=Recommendation track=].
+	and why it is not on the [=Standards Track=].
 
 	Once these conditions are fulfilled,
 	the [=Team=] <em class=rfc2119>must</em> then
@@ -4609,7 +4609,7 @@ Registry Definitions</h4>
 Publishing Registries</h4>
 
 	[=Registries=] can be published either
-	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
+	as a stand-alone [=W3C Publication=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
 	or incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
 
 	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
@@ -4630,7 +4630,7 @@ Publishing Registries</h4>
 					Including the entire contents of each [=registry table=],
 					either inline in the report
 					(e.g. formatted as a table, or list, or other appropriate representation),
-					or in a machine-readable file published as part of the [=technical report=],
+					or in a machine-readable file published as part of the [=W3C Publication=],
 					or (preferably) both.
 
 				<li>
@@ -4658,7 +4658,7 @@ Publishing Registries</h4>
 	if satisfaction of those rules can be automatically verified.
 
 	Rules for publication and advancement on the <dfn>Registry Track</dfn>
-	are identical to that of the [=Recommendation Track=]
+	are identical to that of the [=Standards Track=]
 	with the following exceptions:
 
 	<ul>
@@ -4705,13 +4705,13 @@ Updating Registry Tables</h4>
 
 	Changes to the contents of a [=registry table=] that are in accordance with the [=registry definition=],
 	(i.e. [[#correction-classes|Class 5 changes]])
-	can be made by re-publishing the [=technical report=] that contains the affected table,
+	can be made by re-publishing the [=W3C Publication=] that contains the affected table,
 	without needing to satisfy any other requirements for the publication
 	(not even Working Group consensus, unless this is required by the [=registry definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor Exclusion Opportunities,
 	and do not require verification via an [=update request=],
-	even for [=technical reports=] at maturities where this would normally be expected.
+	even for [=W3C Publications=] at maturities where this would normally be expected.
 	Such publications can be made
 	even in the absence of a [=Working Group=] chartered to maintain the registry
 	when the [=custodian=] is another entity.
@@ -4732,10 +4732,10 @@ Updating Registry Tables</h4>
 <h4 id=reg-data-reports>
 Registry Data Reports</h4>
 
-	When the [=registry data=] is published in a separate [=technical report=]
+	When the [=registry data=] is published in a separate [=W3C Publication=]
 	from its [=registry definition=],
-	that [=technical report|report=] is called a <dfn>Registry Data Report</dfn>.
-	This [=technical report=]:
+	that [=W3C Publication|report=] is called a <dfn>Registry Data Report</dfn>.
+	This [=W3C Publication=]:
 	<ul>
 		<li>
 			<em class=rfc2119>Must</em> link to the [=registry definition=]
@@ -4749,7 +4749,7 @@ Registry Data Reports</h4>
 
 	[=Registry Data Reports=] do not have maturity stages in and of themselves;
 	The maturity stage of the [=registry=] whose [=registry data|data=] they record
-	is that of the [=technical report=] holding the [=registry definition=].
+	is that of the [=W3C Publication=] holding the [=registry definition=].
 
 	Anytime a change is made to a [=registry definition=],
 	the Working Group <em class=rfc2119>must</em> update and republish
@@ -4800,50 +4800,50 @@ Registries and Patents</h4>
 	is not subject to the W3C Patent Policy,
 	and <em class=rfc2119>must not</em> define any requirements on implementations.
 	For the purposes of the Patent Policy [[PATENT-POLICY]] (only),
-	any [=embedded registry=] in a [=Recommendation track=] document
+	any [=embedded registry=] in a [=Standards Track=] document
 	is not a normative portion of that specification.
 
 <h3 id="switching-tracks">
 Switching Tracks</h3>
 
 	Given a [=Group decision=] to do so,
-	[=Working Groups=] can republish a [=technical report=]
+	[=Working Groups=] can republish a [=W3C Publication=]
 	on a different track than the one it is on,
 	under the following restrictions:
 
 	<ul>
 		<li>
-			A [=technical report=] that is or was
+			A [=W3C Publication=] that is or was
 			a [=W3C Recommendation=], [=W3C Statement=], or [=Patent Review Draft=]
 			cannot switch tracks.
 
 		<li>
-			A [=technical report=] should not switch away from the [=Recommendation Track=]
+			A [=W3C Publication=] should not switch away from the [=Standards Track=]
 			without due consideration of the Patent Policy implications
 			and approval of W3C’s legal counsel
 			if the [=Working Group=] envisions a likelihood of returning to it later.
 	</ul>
 
-	[=Technical reports=] that switch tracks start at
+	[=W3C Publications=] that switch tracks start at
 	their new track’s initial maturity stage,
 	while retaining any established identity (url, shortname, etc.).
 
-	Note: The initial maturity stage of the [=Recommendation track=] is [=Working Draft=].
+	Note: The initial maturity stage of the [=Standards Track=] is [=Working Draft=].
 	[=First Public Working Draft=] designates a specific type of [=Working Draft=]
 	and is not a separate maturity stage.
-	A document which switches to the [=Recommendation track=] is only published as a [=First Public Working Draft=]
+	A document which switches to the [=Standards Track=] is only published as a [=First Public Working Draft=]
 	if it was never previously published as such;
 	otherwise, it is simply a [=Working Draft=].
 
 <h3 id="further-reading">
 Further reading</h3>
 
-	Refer to <a href="https://www.w3.org/Guide/transitions/">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
+	Refer to <a href="https://www.w3.org/Guide/transitions/">"How to Organize a Standards Track Transition"</a> [[TRANSITION]]
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
-	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
+	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Publications</a> [[REPUBLISHING]].
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
 Dissemination Policies</h2>
@@ -4861,9 +4861,9 @@ Public Communication</h3>
 
 	<ul>
 		<li>
-			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
+			<a href="#publications">W3C Publications</a> whose publication has been approved.
 			Per [[W3C-IPR inline]],
-			W3C technical reports (and software) are available free of charge to the general public.
+			W3C W3C Publications (and software) are available free of charge to the general public.
 
 		<li>
 			A <a href="https://www.w3.org/mission/">mission statement</a> [[MISSION]]
@@ -4959,12 +4959,12 @@ Changing Confidentiality Level</h3>
 	For example, [=Advisory Committee representatives=]
 	can send <a href="#ACReview">reviews</a> to a [=Team-only=] channel.
 	However, for W3C processes with a significant public component,
-	such as the technical report development process,
+	such as the W3C Publication development process,
 	it is also important for information that affects decision-making to be publicly available.
 	The Team <em class="rfc2119">may</em> need to communicate [=Team-only=] information to a Working Group or the public.
 	Similarly, a Working Group whose proceedings are [=Member-only=]
 	<em class="rfc2119">must</em> make public
-	information pertinent to the technical report development process.
+	information pertinent to the W3C Publication development process.
 
 	This document clearly indicates which information <em class="rfc2119">must</em> be available to Members or the public,
 	even though that information was initially communicated on [=Team-only=] or [=Member-only=] channels.
@@ -5157,8 +5157,8 @@ Member Submission Process</h2>
 		<ul>
 			<li>
 				Documents in a [=Member Submission=] are developed outside
-				of the W3C <a href="#Reports">technical report development process</a>
-				(and therefore are not included in the <a href="https://www.w3.org/TR/">index of W3C technical reports</a> [[TR]]).
+				of the W3C <a href="#publications">W3C Publication development process</a>
+				(and therefore are not included in the <a href="https://www.w3.org/TR/">index of W3C Publications</a> [[TR]]).
 
 			<li>
 				The Submission process is <strong>not</strong> a means
@@ -5318,7 +5318,7 @@ Information Required in a Submission Request</h4>
 <h3 id="TeamSubmissionRights">
 Team Rights and Obligations</h3>
 
-	Although they are not technical reports,
+	Although they are not W3C Publications,
 	the documents in a [=Member Submission=]
 	<em class="rfc2119">must</em> fulfill the requirements established by the [=Team=],
 	including the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
@@ -5409,7 +5409,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 <h2 id="GAProcess">
 Process Evolution</h2>
 
-	Revision of the W3C Process and related documents (see below) undergoes similar [=consensus=]-building processes as for [=technical reports=],
+	Revision of the W3C Process and related documents (see below) undergoes similar [=consensus=]-building processes as for [=W3C Publications=],
 	with the [=Advisory Board=]--
 	acting as the sponsoring [=Working Group=].
 	The documents may be developed by the [=AB=] or by another group to whom the [=AB=] has delegated development.
@@ -5656,7 +5656,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 
 		<li>
 			Clarify the definition of a Registry (see <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
-			and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
+			and of Standards Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
 
 		<li>
 			Clarify how the outcome of certain ballots are determined.
@@ -5669,9 +5669,9 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 
 		<li id="streamlined-update">
 			Retire “<a href="https://www.w3.org/policies/process/20231103/#streamlined-update">Streamlined Publication Approval</a>”.
-			This was meant to enable REC track publication with fewer/faster approval steps
+			This was meant to enable Standards Track publication with fewer/faster approval steps
 			when some stricter than usual criteria were fulfilled.
-			However, regular REC track publication have improved enough
+			However, regular Standards Track publication has improved enough
 			that this became unnecessary,
 			and nobody was using it.
 			(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>)
@@ -5679,7 +5679,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 		<li>
 			Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
 			the various parts of the Process
-			that described whether and how the Team can maintain technical reports
+			that described whether and how the Team can maintain W3C Publications
 			that no longer have a Group chartered to maintain them.
 			(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
 
@@ -5730,7 +5730,7 @@ Changes since earlier versions</h3>
 	},
 	"TR": {
 		"href": "https://www.w3.org/TR/",
-		"title": "The W3C technical reports index",
+		"title": "The W3C Publications index",
 		"publisher": "W3C"
 	},
 	"MISSION": {
@@ -5750,7 +5750,7 @@ Changes since earlier versions</h3>
 	},
 	"TRANSLATION": {
 		"href": "https://www.w3.org/Consortium/Translation/",
-		"title": "Translations of W3C technical reports",
+		"title": "Translations of W3C Publications",
 		"publisher": "W3C"
 	},
 	"CONFLICT-POLICY": {
@@ -5805,7 +5805,7 @@ Changes since earlier versions</h3>
 	},
 	"REPUBLISHING": {
 		"href": "https://www.w3.org/2003/01/republishing/",
-		"title": "In-place modification of W3C Technical Reports",
+		"title": "In-place modification of W3C Publications",
 		"publisher": "W3C"
 	},
 	"CALENDAR": {
@@ -5886,7 +5886,7 @@ Changes since earlier versions</h3>
 	},
 	"TRANSITION": {
 		"href": "https://www.w3.org/Guide/transitions/",
-		"title": "Organize a Technical Report Transition",
+		"title": "Organize a W3C Publication Transition",
 		"publisher": "W3C"
 	},
 	"DECISION-APPEAL": {
