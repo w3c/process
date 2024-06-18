@@ -1798,7 +1798,7 @@ Initiating Charter Refinement</h3>
 	and can be appealed only by 5 or more [=Members=],
 	through their [=Advisory Committee representative=],
 	formally objecting to the decision within 8 weeks of the decision being announced.
-	In this case the [=Team=] <em class=rfc2119>must</em> start an [=appeal vote=]
+	In this case the [=Team=] <em class=rfc2119>must</em> start an [=override vote=]
 	on whether to overturn the [=Team Decision=].
 	(No action is required to be taken when fewer than 5 members object.)
 
@@ -2945,7 +2945,7 @@ Advisory Committee Votes</h3>
 
 	The [=Advisory Committee=] votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
 	and in the event of an [=Advisory Committee Appeal=]
-	achieving the required support to trigger an [=appeal vote=].
+	achieving the required support to trigger an [=override vote=].
 	Whenever the [=Advisory Committee=] votes,
 	each Member or group of [=related Members=] has one vote.
 
@@ -2979,24 +2979,49 @@ Appeal by Advisory Committee Representatives</h3>
 
 	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=],
 	and should also share this request with the [=Advisory Committee=].
-	The request should say “I appeal this Decision”
+	The request <em class=rfc2119>should</em> say “I appeal this Decision”
 	and identify the decision,
-	and may also include their rationale for appealing the decision.
+	and <em class=rfc2119>may</em> also include their rationale for the [=appeal=].
 
 	Note: See [[DECISION-APPEAL inline]] for a recommendation
 	on how to communicate an appeal request to the [=Team=] and the [=AC=].
 
-	Within one week the [=Team=] <em class="rfc2119">must</em> announce the appeal process
+	Within one week, the [=Team=] <em class="rfc2119">must</em> initiate the [=appeal=]
+	in the form of an [=Advisory Committee Override=]
+	on the proposal to overturn the decision.
+
+	The conclusion of the [=Advisory Committee Override=] is final;
+	the same decision cannot be appealed more than once.
+
+	If the [=Advisory Committee Override=]
+	approves the proposal to overturn the decision,
+	those who had initiated the proposal <em class=rfc2119>may</em> revise it
+	to address the causes of rejection
+	and follow the ordinary applicable process
+	to submit the revised proposal.
+
+<h3 id="ac-override">
+Advisory Committee Override</h3>
+
+	An <dfn export>Advisory Committee Override</dfn> is an exceptional two-step procedure
+	used to resolve certain matters where neither the usual [=consensus=]
+	process nor its [[#addressing-fo|escalation path]] is sufficient.
+
+	Note: Currently, this only applies to [=AC Appeals=].
+
+	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for an [=Advisory Committee Override=]
 	to the [=Advisory Committee=]
 	and provide a mechanism for [=Advisory Committee representatives=]
-	to respond with a statement of positive support for this appeal.
+	to respond with a statement of positive support for holding a vote.
 	The archive of these statements <em class="rfc2119">must</em> be [=member-only=].
+
 	If, within <span class="time-interval">one week</span> of the Team's announcement,
-	5% or more of the [=Advisory Committee=] support the appeal request,
-	the Team <em class="rfc2119">must</em> organize an <dfn>appeal vote</dfn>
+	5% or more of the [=Advisory Committee=] support holding the vote,
+	the Team <em class="rfc2119">must</em> organize an <dfn>override vote</dfn>
 	asking the [=Advisory Committee=]
-	“Do you approve of the Decision?”
-	together with links to the decision and the appeal support.
+	whether they approve of the Advisory Committee Override proposal,
+	including details of the proposal
+	and links to support for holding the vote.
 
 	The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
@@ -3009,24 +3034,19 @@ Appeal by Advisory Committee Representatives</h3>
 	(including explicit “abstain” ballots) 
 	by [=Advisory Committee Representatives=]:
 	* if fewer than 5% participate,
-		the vote fails.
+		the proposal is rejected.
 	* if at least 5% but no more than 15% participate,
 		and the number of “Approve” ballots exceeds three times (3x) the number of “Reject” ballots,
-		the vote passes.
+		the proposal is approved.
 	* if more than 15% but fewer than 20% participate,
 		and the number of “Approve” ballots exceeds twice (2x) the number of “Reject” ballots,
-		the vote passes.
+		the proposal is approved.
 	* if 20% or more participate,
 		and the number of “Approve” ballots exceeds the number of “Reject” ballots,
-		the vote passes.
+		the proposal is approved.
 
-	If the vote passes,
-	the decision is overturned.
-	Following such rejection,
-	those who had initiated the proposal may revise it
-	to address the causes of rejection
-	and follow the ordinary applicable process
-	to submit the revised proposal.
+	Otherwise,
+	the proposal is rejected.
 
 <h2 id="Reports">
 W3C Technical Reports</h2>
