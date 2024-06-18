@@ -2800,8 +2800,22 @@ Appeal by Advisory Committee Representatives</h3>
 	and “Abstain”,
 	together with Comments.
 
-	If the number of votes to reject
-	exceeds the number of votes to approve,
+	The level of support needed for a [=Advisory Committee Override=] to pass
+	depends on the level of participation by [=Advisory Committee Representatives=],
+	(including those who cast an explicit “abstain” ballot):
+	* if fewer than 5% participate,
+		the vote fails.
+	* if at least 5% but no more than 15% participate,
+		and the number of “Approve” ballots exceeds three times (3x) the number of “Reject” ballots,
+		the vote passes.
+	* if more than 15% but fewer than 20% participate,
+		and the number of “Approve” ballots exceeds twice (2x) the number of “Reject” ballots,
+		the vote passes.
+	* if 20% or more participate,
+		and the number of “Approve” ballots exceeds the number of “Reject” ballots,
+		the vote passes.
+
+	If the vote passes,
 	the decision is overturned.
 	In that case, there are the following possible next steps:
 
