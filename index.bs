@@ -3084,6 +3084,11 @@ Classes of Changes</h4>
 			Changes that add, remove, or alter [=registry entries=] in a [=registry table=].
 	</dl>
 
+        [=substantive changes|Substantive changes=] to a specification, as
+        enumerated in the contents of items #3 and #4 are, in other words,
+        changes that might invalidate anyone’s previous review or implementation
+        of the specification.
+
 <h4 id="errata">
 Errata Management</h4>
 
