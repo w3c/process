@@ -1309,6 +1309,38 @@ Verifiable Random Selection Procedure</h5>
 			The incomplete terms are assigned in result order.
 	</ol>
 
+<h5 id="AB-TAG-recall">
+Recalling AB or TAG members</h5>
+
+	The [=Advisory Committee=] <em class=rfc2119>may</em>
+	<dfn export>recall</dfn> participants of the [=AB=] or [=TAG=]
+	(whether [[#AB-TAG-elections|elected]] or [[#TAG-appointments|appointed]]).
+
+	An [=Advisory Committee representative=] initiates a [=recall=]
+	by sending a request to the Team, and <em class=rfc2119>should</em> also share this request with the Advisory Committee.
+	The request <em class=rfc2119>should</em> say “I call for removal of (an) AB and/or TAG participant(s)”,
+	<em class=rfc2119>must</em> identify the [=AB=] or [=TAG=] [=participant=] or [=participants=] targeted,
+	and <em class=rfc2119>should</em> also include the rationale for the proposed [=recall=].
+
+	Messages sent by [=Advisory Committee representatives=] to the [=Advisory Committee=]
+	with the ostensible intent of garnering support for a recall that has not yet been formally requested
+	<em class=rfc2119>should</em> also be treated by the [=Team=]
+	as a request to initiate the recall.
+
+	Within one week, the [=Team=] <em class=rfc2119>must</em> initiate an [=Advisory Committee Override=]
+	on the recall proposal.
+
+	If the [=Advisory Committee Override=] proposal passes,
+	the seat(s) of the relevant [=AB=] or [=TAG=] participant(s) are vacated immediately.
+
+	The conclusion of the [=Advisory Committee Override=] is final,
+	and cannot be the subject of a [=Formal Objection=] nor of an [=AC Appeal=].
+
+	A single [=Member=] or group of [=related Members=] cannot re-invoke this process
+	sooner than 6-month since their previous invocation,
+	and cannot target the same [=AB=] or [=TAG=] participant
+	multiple times during the same term.
+
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
 
@@ -1317,6 +1349,9 @@ Elected Groups Vacated Seats</h5>
 	<ul>
 		<li>
 			the participant resigns, or
+
+		<li>
+			the participant is [=recalled=], or
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
@@ -2915,7 +2950,8 @@ Advisory Committee Override</h3>
 	used to resolve certain matters where neither the usual [=consensus=]
 	process nor its [[#addressing-fo|escalation path]] is sufficient.
 
-	Note: Currently, this only applies to [=AC Appeals=].
+	Note: Currently, this only applies to [=AC Appeals=]
+	and [=recalls=] of [=AB=] or [=TAG=] participants.
 
 	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for an [=Advisory Committee Override=]
 	to the [=Advisory Committee=]
