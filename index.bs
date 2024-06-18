@@ -1346,6 +1346,29 @@ Removing AB or TAG members</h5>
 
 	Note: Removal from the [=AB=] or [=TAG=] does not imply removal from a convened [=Council=].
 
+<h5 id="AB-TAG-recall">
+AC Recall of AB or TAG</h5>
+
+	The [=Advisory Committee=] <em class=rfc2119>may</em>
+	hold a <dfn export>vote of no confidence</dfn>
+	in the [=Advisory Board=] or the [=Technical Architecture Group=].
+
+	An [=Advisory Committee representative=] initiates a [=vote of no confidence=]
+	by sending a request to the Team, and <em class=rfc2119>should</em> also share this request with the Advisory Committee.
+	The request <em class=rfc2119>must</em> identify whether the [=AB=] or [=TAG=] is targeted,
+	and <em class=rfc2119>should</em> also include the rationale.
+
+	Within one week, the [=Team=] <em class=rfc2119>must</em> initiate an [=Advisory Committee Override=]
+	on the proposal.
+
+	The conclusion of the [=Advisory Committee Override=] is final,
+	and cannot be the subject of a [=Formal Objection=] nor of an [=AC Appeal=]:
+	if the [=Advisory Committee Override=] proposal passes,
+	all [[#AB-TAG-elections|elected]] or [[#TAG-appointments|appointed]] seats on [=AB=] or [=TAG=] are [=vacated=] immediately;
+	if it fails, it cannot be invoked on the same body
+	sooner than six months since the previous invocation.
+	The [=Team=] must announce the conclusion of the [=Advisory Committee Override=] to the [=Advisory Committee=].
+
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
 
@@ -1356,7 +1379,10 @@ Elected Groups Vacated Seats</h5>
 			the participant resigns, or
 
 		<li>
-			the participant is [=removed=], or
+			the participant is [=removed=], oor
+
+		<li>
+			a [=vote of no confidence=] in the body they are part of is successful, or
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
@@ -1386,7 +1412,7 @@ Elected Groups Vacated Seats</h5>
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
 			the seat is filled at the next regularly scheduled election for the group
-			unless the group Chair requests that W3C hold an election before then
+			unless the group Chair requests that W3C hold a [=special election=] before then
 			(for instance, due to the group's workload).
 
 			<ul>
@@ -1400,15 +1426,18 @@ Elected Groups Vacated Seats</h5>
 					including a resignation effective as of a given date in the future.
 			</ul>
 
-			When such an election is held,
-			the minimum number of available seats is such that
-			when added to the number of continuing participants,
-			the minimum total number of elected seats is met
-			(8 for the [=TAG=], 9 for the [=AB=]);
-			and the maximum number corresponds to all unoccupied seats.
-			Except for the number of available seats and the length of the terms,
-			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
+		<li>
+			If vacancies reduce the number of [=AB=] or [=TAG=] participants to 0,
+			the [=Team=] <em class=rfc2119>must</em> organize a [=special election=]
+			unless the next regularly scheduled election is fewer than three months away.
 	</ul>
+
+	When a <dfn>special election</dfn> is held,
+	vacated seats are filled for the remainder of the term of the vacancy,
+	and the (minimum, maximum) number of available seats is
+	the number of seats required to meet
+	the (minimum, maximum) total defined for the group.
+	The <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> otherwise apply.
 
 <h3 id="GAGeneral" oldids="ChapterGroups, WG-and-IG">
 Chartered Groups: Working Groups and Interest Groups</h3>
@@ -3004,7 +3033,8 @@ Advisory Committee Override</h3>
 	used to resolve certain matters where neither the usual [=consensus=]
 	process nor its [[#addressing-fo|escalation path]] is sufficient.
 
-	Note: Currently, this only applies to [=AC Appeals=].
+	Note: Currently, this only applies to [=AC Appeals=]
+	and [=votes of no confidence=] in the [=AB=] or [=TAG=].
 
 	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for an [=Advisory Committee Override=]
 	to the [=Advisory Committee=]
