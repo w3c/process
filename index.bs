@@ -2703,10 +2703,10 @@ Determining the W3C Decision</h4>
 
 	<div class="example">
 		For example, to make [=substantive changes=] to a [=Proposed Recommendations=],
-		the [=technical report=] could be returned to [=Candidate Recommendation=].
+		the [=technical report=] could be returned to [=Working Group Publication=].
 		Alternatively, the desired changes can be introduced as non-substantive amendments
 		using the process for [[#revising-rec|revising a Recommendation]].
-		However, they cannot be directly integrated between [=PR=] and [=REC=],
+		However, they cannot be directly integrated between [=PR=] and [=Recommendation=],
 		because that would fail to trigger a patent exclusion opportunity.
 	</div>
 
@@ -2996,7 +2996,7 @@ Wide Review</h5>
 	and <em class="rfc2119">should</em> announce to other W3C Working Groups
 	as well as the general public,
 	especially those affected by this specification,
-	a proposal to enter [=Candidate Recommendation=]
+	a proposal to enter [=Working Group Publication=]
 	(for example in approximately 28 days).
 	By contrast a generic statement in a document
 	requesting review at any time
@@ -3133,7 +3133,7 @@ Candidate Amendments</h4>
 	and are published accordingly.
 
 	Note: Annotating changes in this way allows more mature documents
-	such as [=Recommendations=] and [=Candidate Recommendations=]
+	such as [=Recommendations=] and [=Working Group Publications=]
 	to be updated quickly with the Working Group's most current thinking,
 	even when the [=candidate amendments=] have not yet received
 	sufficient review or implementation experience
@@ -3180,10 +3180,10 @@ Maintenance Without a Group</h4>
 	a normative portion of the Recommendation,
 	as defined in the Patent Policy [[PATENT-POLICY]]
 	(i.e., they are not covered by the Patent Policy).
-	For [=Candidate Recommendations=],
+	For [=Working Group Publications=],
 	[=Proposed Recommendations=],
 	[=W3C Recommendations=],
-	[=Candidate Registries=],
+	[=Working Group Registries=],
 	[=W3C Registries=],
 	as well as [=W3C Statements=],
 	the [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
@@ -3215,7 +3215,7 @@ The W3C Recommendation Track</h3>
 	as they advance towards [=W3C Recommendation=] status.
 	Once review suggests the Working Group has met their requirements for a new standard,
 	including [=wide review=],
-	a [=Candidate Recommendation=] phase
+	a [=Working Group Publication=] phase
 	allows the [=Working Group=] to formally collect <a href="#implementation-experience">implementation experience</a>
 	to demonstrate that the specification works in practice.
 	At the end of the process,
@@ -3228,7 +3228,7 @@ The W3C Recommendation Track</h3>
 	<ol>
 		<li>Publication of the [=First Public Working Draft=].
 		<li>Publication of zero or more revised [=Working Drafts=].
-		<li>Publication of one or more [=Candidate Recommendations=].
+		<li>Publication of one or more [=Working Group Publications=].
 		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
@@ -3261,14 +3261,14 @@ Maturity Stages on the Recommendation Track</h4>
 
 	<dl>
 		<dt>
-			<dfn id="RecsWD" export lt="W3C Working Draft | Working Draft | WD">Working Draft</dfn> (<abbr>WD</abbr>)
+			<dfn id="RecsWD" export lt="Working Draft | WD ">Working Draft</dfn> (<abbr>WD</abbr>)
 		<dd>
-			A Working Draft is a document that W3C has [=published=]
+			A Working Draft is a document that has been [=published=]
 			on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
 			for review by the community (including W3C Members), the public,
 			and other technical organizations,
 			and for simple historical reference.
-			Some, but not all, Working Drafts are meant to advance to [=Recommendation=];
+			Some, but not all, Working Drafts (Working Drafts) are meant to advance to [=Recommendation=];
 			see the <a href="#DocumentStatus">document status section</a> of a Working Draft
 			for the group's expectations.
 			[=Working Drafts=] do not necessarily represent a [=consensus=] of the [=Working Group=] with respect to their content,
@@ -3297,12 +3297,12 @@ Maturity Stages on the Recommendation Track</h4>
 			and has patent implications as defined in the W3C Patent Policy [[!PATENT-POLICY]].
 
 		<dt>
-			<dfn id="RecsCR" export lt="W3C Candidate Recommendation | Candidate Recommendation | CR">Candidate Recommendation</dfn> (<abbr>CR</abbr>)
+			<dfn id="WP" oldids="RecsCR" export lt="Working Group Publication | WP | WGP">Working Group Publication</dfn> (<abbr>WP</abbr>)
 		<dd>
-			A Candidate Recommendation is a document that satisfies the technical
+			A Working Group Publication is a document that satisfies the technical
 			requirements of the Working Group that produced it and their dependencies,
 			and has already received wide review.
-			W3C publishes a Candidate Recommendation to
+			A Working Group publishes a Working Group Publication to
 
 			<ul>
 				<li>
@@ -3311,12 +3311,12 @@ Maturity Stages on the Recommendation Track</h4>
 					gather <a href="#implementation-experience">implementation experience</a>
 			</ul>
 
-			Note: Advancing to [=Candidate Recommendation=] indicates
+			Note: Advancing to [=Working Group Publication=] indicates
 			that the document is considered complete and fit for purpose,
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
 			however, additional features might be expected in a later revision.
-			A [=Candidate Recommendation=] is expected to be as well-written,
+			A [=Working Group Publication=] is expected to be as well-written,
 			detailed,
 			self-consistent,
 			and technically complete
@@ -3324,51 +3324,46 @@ Maturity Stages on the Recommendation Track</h4>
 			and acceptable as such
 			if and when the requirements for further advancement are met.
 
-			Candidate Recommendation publications take one of two forms:
+			A normal Working Group Publication
+			is published
+			to solicit review of intended changes from the previous [=Working Group Publication Snapshot=].
+			This allows for wider review of the changes
+			and for ease of reference to the integrated specification.
 
-			<dl>
-				<dt>
-					<dfn export lt="Candidate Recommendation Snapshot | CRS">Candidate Recommendation Snapshot</dfn> (<abbr>CRS</abbr>)
-				<dd>
-					A Candidate Recommendation Snapshot
-					corresponds to a [=Patent Review Draft=]
-					as used in the W3C Patent Policy [[!PATENT-POLICY]].
-					Publishing a [=Patent Review Draft=] triggers a Call for Exclusions,
-					per “Exclusion From W3C RF Licensing Requirements”
-					in the W3C Patent Policy.
+			Any changes published directly into a normal [=Working Group Publication=]
+			should be at the same level of quality as a [=Working Group Publication Snapshot=].
+			However, the process requirements are minimized
+			so that the Working Group can easily keep the specification up to date.
 
-					Publication as a [=Candidate Recommendation Snapshot=]
-					requires verification of either a [=Transition Request=]
-					(for the first [=Candidate Recommendation=] publication from another maturity stage)
-					or an [=Update Request=]
-					(for subsequent [=Candidate Recommendation Snapshots=]).
-				<dt>
-					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
-				<dd>
-					A Candidate Recommendation Draft
-					is published
-					to solicit review of intended changes from the previous [=Candidate Recommendation Snapshot=].
-					This allows for wider review of the changes
-					and for ease of reference to the integrated specification.
+			A normal [=Working Group Publication=]
+			<em>does not</em> provide an exclusion opportunity;
+			instead, it is considered a [=Working Draft=]
+			for the purpose of the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[PATENT-POLICY]].
 
-					Any changes published directly into a [=Candidate Recommendation Draft=]
-					should be at the same level of quality as a [=Candidate Recommendation Snapshot=].
-					However, the process requirements are minimized
-					so that the Working Group can easily keep the specification up to date.
+		<dt>
+			<dfn export lt="Working Group Publication Snapshot">Working Group Publication Snapshot</dfn> (<abbr>WGS</abbr> Snapshot)
+		<dd>
+			A Working Group Publication Snapshot
+			is a special type of Working Group Publication which
+			corresponds to a [=Patent Review Draft=]
+			as used in the W3C Patent Policy [[!PATENT-POLICY]].
+			Publishing a [=Patent Review Draft=] triggers a Call for Exclusions,
+			per “Exclusion From W3C RF Licensing Requirements”
+			in the W3C Patent Policy.
 
-					A [=Candidate Recommendation Draft=]
-					<em>does not</em> provide an exclusion opportunity;
-					instead, it is considered a [=Working Draft=]
-					for the purpose of the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[PATENT-POLICY]].
-			</dl>
+			Publication as a [=Working Group Publication Snapshot=]
+			requires verification of either a [=Transition Request=]
+			(for the first [=Working Group Publication=] publication from another maturity stage)
+			or an [=Update Request=]
+			(for subsequent [=Working Group Publication Snapshots=]).
 
-			A <dfn>Rescinded Candidate Recommendation</dfn>
-			is a [=Candidate Recommendation=] in which significant problems have been discovered
+			A <dfn>Rescinded Working Group Publication</dfn>
+			is a [=Working Group Publication=] in which significant problems have been discovered
 			such that W3C cannot endorse it or continue work on it,
 			for example due to burdensome patent claims that affect implementers and cannot be resolved
 			(see the W3C Patent Policy [[PATENT-POLICY]]
 			and in particular “PAG Conclusion”).
-			There is no path to restoration for a [=Rescinded Candidate Recommendation=].
+			There is no path to restoration for a [=Rescinded Working Group Publication=].
 			See “W3C Royalty-Free (RF) Licensing Requirements”
 			in the W3C Patent Policy [[!PATENT-POLICY]]
 			for implication on patent licensing obligations.
@@ -3385,7 +3380,7 @@ Maturity Stages on the Recommendation Track</h4>
 			returned to the [=Working Group=] for further work,
 			or abandoned.
 			[=Substantive changes=] <em class="rfc2119">must not</em> be made to a [=Proposed Recommendation=]
-			except by [=publishing=] a new [=Working Draft=] or [=Candidate Recommendation=].
+			except by [=publishing=] a new [=Working Draft=] or [=Working Group Publication=].
 
 		<dt>
 			<dfn id="RecsW3C" export lt="W3C Recommendation | Recommendation | REC">W3C Recommendation</dfn> (<abbr>REC</abbr>)
@@ -3457,12 +3452,12 @@ Maturity Stages on the Recommendation Track</h4>
 	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
 	less stable features to other technical reports.
 
-	When publishing an updated version of an existing [=Candidate Recommendation=] or [=Recommendation=],
+	When publishing an updated version of an existing [=Working Group Publication=] or [=Recommendation=],
 	technical reports are expected to meet the same maturity criteria as when they are first published under that status.
 	However, in the interest of replacing stale documents with improved ones in a timely manner,
-	if flaws have been discovered in the technical report after its initial publication as a [=CR=] or [=REC=]
+	if flaws have been discovered in the technical report after its initial publication as a [=Working Group Publication=] or [=Recommendation=]
 	that would have been severe enough to reject that publication had they be known in time,
-	it is also permissible to publish an updated [=CR=] or [=REC=] following the usual process,
+	it is also permissible to publish an updated [=Working Group Publication=] or [=Recommendation=] following the usual process,
 	even if only some of these flaws have been satisfactorily addressed.
 
 	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> make available [=Editor's drafts=].
@@ -3570,12 +3565,12 @@ Advancement on the Recommendation Track</h4>
 	so many requirements do not apply,
 	and verification is normally fairly straightforward.
 	For later stages,
-	especially transition to [=Candidate Recommendation|Candidate=] or [=Proposed Recommendation=],
+	especially transition to [=Working Group Publication=] or [=Proposed Recommendation=],
 	there is usually a formal review meeting
 	to verify that the requirements have been met.
 
 	[=Transition Requests=] to [=First Public Working Draft=]
-	or [=Candidate Recommendation=]
+	or [=Working Group Publication=]
 	will not normally be approved
 	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a decision
 	on an [=Advisory Committee Review=].</p>
@@ -3715,14 +3710,14 @@ Revising a Working Draft</h4>
 
 	<ul>
 		<li>Revised <a href="#revising-wd">Working Draft</a>
-		<li><a href="#transition-cr">Candidate Recommendation</a>
+		<li><a href="#transition-wp">Working Group Publication</a>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
-<h4 id="transition-cr" oldids="candidate-rec, last-call">
-Transitioning to Candidate Recommendation</h4>
+<h4 id="transition-wp" oldids="transition-cr candidate-rec, last-call">
+Transitioning to Working Group Publication</h4>
 
-	To publish a [=Candidate Recommendation=],
+	To publish a [=Working Group Publication=],
 	in addition to meeting the <a href="#transition-reqs">requirements for advancement</a>
 	a [=Working Group=]:
 
@@ -3741,7 +3736,7 @@ Transitioning to Candidate Recommendation</h4>
 
 		<li>
 			<em class="rfc2119">must</em> specify the deadline for comments,
-			delineating the <dfn>Candidate Recommendation review period</dfn>,
+			delineating the <dfn>Working Group Publication review period</dfn>,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days after publication,
 			and <em class="rfc2119">should</em> be longer for complex documents,
 
@@ -3752,23 +3747,23 @@ Transitioning to Candidate Recommendation</h4>
 			<em class="rfc2119">may</em> identify features in the document as <dfn export>at risk</dfn>.
 			These features <em class="rfc2119">may</em> be removed
 			before advancement to [=Proposed Recommendation=]
-			without a requirement to publish a new [=Candidate Recommendation=].
+			without a requirement to publish a new [=Working Group Publication=].
 	</ul>
 
-	The first Candidate Recommendation publication
+	The first Working Group Publication
 	after verification of having met the requirements for a [=Transition Request=]
-	is always a [=Candidate Recommendation Snapshot=].
+	is always a [=Working Group Publication Snapshot=].
 	The [=Team=] <em class="rfc2119">must</em> announce
-	the publication of the [=Candidate Recommendation Snapshot=]
+	the publication of the [=Working Group Publication Snapshot=]
 	to other W3C groups
 	and to the public.
 
-	Possible next steps after a [=Candidate Recommendation Snapshot=]:
+	Possible next steps after a [=Working Group Publication Snapshot=]:
 
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
-		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
+		<li>A revised <a href="#publishing-wp-snapshot">Working Group Publication Snapshot</a></li>
+		<li>A revised <a href="#publishing-wp">Working Group Publication</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a></li>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
@@ -3777,13 +3772,13 @@ Transitioning to Candidate Recommendation</h4>
 	<a href="#ACAppeal">Advisory Committee Appeal</a> of the decision to advance the technical report.
 
 <h4 id=revising-cr oldids="revised-cr">
-Revising a Candidate Recommendation</h4>
+Revising a Working Group Publication</h4>
 
-<h5 id="publishing-crrs">
-Publishing a [=Candidate Recommendation Snapshot=]</h5>
+<h5 id="publishing-wp-snapshot" oldids="publishing-crrs">
+Publishing a [=Working Group Publication Snapshot=]</h5>
 
-	If there are any [=substantive changes=] made to a [=Candidate Recommendation=]
-	since the previous [=Candidate Recommendation Snapshot=]
+	If there are any [=substantive changes=] made to a [=Working Group Publication=]
+	since the previous [=Working Group Publication Snapshot=]
 	other than to remove features explicitly identified as [=at risk=],
 	the [=Working Group=] <em class="rfc2119">must</em>
 	meet the requirements of an [=update request=] in order to republish.
@@ -3800,39 +3795,39 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 			<em class="rfc2119">may</em> identify features in the document as [=at risk=].
 			These features <em class="rfc2119">may</em> be removed
 			before advancement to [=Proposed Recommendation=]
-			without a requirement to publish a new [=Candidate Recommendation=].
+			without a requirement to publish a new [=Working Group Publication=].
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> announce
-	the publication of a revised [=Candidate Recommendation Snapshot=]
+	the publication of a revised [=Working Group Publication Snapshot=]
 	to other W3C groups
 	and to the public.
 
 	To provide timely updates and patent protection,
-	a [=Candidate Recommendation Snapshot=]
+	a [=Working Group Publication Snapshot=]
 	<em class=rfc2119>should</em> be published
 	within 24 months of the Working Group accepting
 	any proposal for a substantive change
 	(and preferably sooner).
 	To make scheduling reviews easier,
-	a [=Candidate Recommendation Snapshot=] <em class=rfc2119>should not</em> be published
+	a [=Working Group Publication Snapshot=] <em class=rfc2119>should not</em> be published
 	more often than approximately once every 6 months.
 
 	Note: [=Substantive changes=] trigger a new Exclusion Opportunity
 	per “Exclusion From W3C RF Licensing Requirements”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-<h5 id="publishing-crud">
-Publishing a [=Candidate Recommendation Draft=]</h5>
+<h5 id="publishing-wp" oldids="publishing-crud">
+Publishing a [=Working Group Publication=]</h5>
 
-	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] an [=Candidate Recommendation Draft|Update Draft=]
+	A [=Working Group=] <em class="rfc2119">should</em> [=publish=] an [=Working Group Publication|Update Draft=]
 	to the W3C Technical Reports page
 	when there have been significant changes
 	to the previous published document
 	that would benefit from review beyond the Working Group.
 
 
-	To publish a revision of a [=Candidate Recommendation Draft=],
+	To publish a revision of a [=Working Group Publication=],
 	a Working Group:
 
 	<ul>
@@ -3842,12 +3837,12 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 		<li>
 			<em class="rfc2119">must</em> provide public documentation
 			of [=substantive changes=] to the technical report
-			since the previous [=Candidate Recommendation Snapshot=],
+			since the previous [=Working Group Publication Snapshot=],
 
 		<li>
 			<em class="rfc2119">should</em> provide public documentation
 			of significant [=editorial changes=] to the technical report
-			since the previous [=Candidate Recommendation Snapshot=],
+			since the previous [=Working Group Publication Snapshot=],
 
 		<li>
 			<em class="rfc2119">should</em> document outstanding issues,
@@ -3865,15 +3860,15 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 	</ul>
 
 	Note: A Working Group <em>does not</em> need to
-	meet the requirements of a [=Candidate Recommendation Snapshot=] [=update request=]
-	in order to publish a [=Candidate Recommendation Draft=].
+	meet the requirements of a [=Working Group Publication Snapshot=] [=update request=]
+	in order to publish a normal [=Working Group Publication=].
 
-	Possible next steps after a [=Candidate Recommendation Draft=]:
+	Possible next steps after a [=Working Group Publication=]:
 
 	<ul>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
-		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
-		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
+		<li>A revised <a href="#publishing-wp-snapshot">Working Group Publication Snapshot</a></li>
+		<li>A revised <a href="#publishing-wp">Working Group Publication</a></li>
 		<li><a href="#transition-pr">Proposed Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
@@ -3907,22 +3902,22 @@ Transitioning to Proposed Recommendation</h4>
 
 		<li>
 			<em class="rfc2119">must</em> show that all issues
-			raised during the [=Candidate Recommendation review period=]
+			raised during the [=Working Group Publication review period=]
 			have been [=formally addressed=],
 
 		<li>
 			<em class="rfc2119">must </em>identify any substantive issues
-			raised since the close of the [=Candidate Recommendation review period=],
+			raised since the close of the [=Working Group Publication review period=],
 
 		<li>
 			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
-			since the most recent [=Candidate Recommendation Snapshot=],
+			since the most recent [=Working Group Publication Snapshot=],
 			other than dropping features identified [=at risk=].
 
 		<li>
 			<em class="rfc2119">may</em> have removed features
-			identified in the [=Candidate Recommendation Snapshot=] document as [=at risk=]
-			without republishing the specification as a [=Candidate Recommendation Snapshot=].
+			identified in the [=Working Group Publication Snapshot=] document as [=at risk=]
+			without republishing the specification as a [=Working Group Publication Snapshot=].
 	</ul>
 
 	The [=Team=]:
@@ -3946,7 +3941,7 @@ Transitioning to Proposed Recommendation</h4>
 	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
 	from the [=Proposed Recommendation=] it is based on,
 	to make any [=substantive change=] to a [=Proposed Recommendation=]
-	the [=Working Group=] <em class="rfc2119">must</em> return the specification to [=Candidate Recommendation=]
+	the [=Working Group=] <em class="rfc2119">must</em> return the specification to [=Working Group Publication=]
 	or [=Working Draft=].
 
 	<p id="expandable-rec">
@@ -3966,7 +3961,7 @@ Transitioning to Proposed Recommendation</h4>
 			Return to <a href="#revising-wd">Working Draft</a>
 
 		<li>
-			Return to <a href="#transition-cr">Candidate Recommendation</a>
+			Return to <a href="#transition-wp">Working Group Publication</a>
 
 		<li>
 			<a href="#transition-rec">Recommendation status</a>,
@@ -4024,7 +4019,7 @@ Transitioning to W3C Recommendation</h4>
 			republished as a <a href="#revising-rec">revised Recommendation</a>, or
 
 		<li>
-			republished as a <a href="#transition-cr">Candidate Recommendation</a>
+			republished as a <a href="#transition-wp">Working Group Publication</a>
 			to be developed towards a revised [=Recommendation=], or
 
 		<li>
@@ -4073,7 +4068,7 @@ Revising a Recommendation: Substantive Changes</h5>
 	a [=Working Group=] <em class="rfc2119">may</em> incorporate the changes
 	and <a href="#revising-wd">publish as a Working Draft</a>--
 	or, if the relevant criteria are fulfilled,
-	<a href="#transition-cr">publish as a Candidate Recommendation</a>--
+	<a href="#transition-wp">publish as a Working Group Publication</a>--
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
 
@@ -4217,9 +4212,9 @@ Abandoning an Unfinished Recommendation</h5>
 	by re-[=publishing=] it as a [=Working Draft=].
 
 <h5 id=rescind-cr>
-Rescinding a Candidate Recommendation</h5>
+Rescinding a Working Group Publication</h5>
 
-	The process for rescinding a [=Candidate Recommendation=]
+	The process for rescinding a [=Working Group Publication=]
 	is the same as for rescinding a [=Recommendation=].
 
 <h5 id="rec-rescind">
@@ -4673,15 +4668,15 @@ Publishing Registries</h4>
 		<li>
 			For the same reason,
 			there is no equivalent to [=Rescinded Recommendation=]
-			nor to [=Rescinded Candidate Recommendation=] for [=Registries=].
+			nor to [=Rescinded Working Group Publication=] for [=Registries=].
 
 		<li>
 			The equivalent of [=Working Draft=] is called <dfn oldids="draft-registry" export>Registry Draft</dfn>.
 
 		<li>
-			The equivalent of [=Candidate Recommendation=] is called <dfn export>Candidate Registry</dfn>,
-			with [=Candidate Recommendation Snapshot=] and [=Candidate Recommendation Draft=] corresponding to
-			<dfn export>Candidate Registry Snapshot</dfn> and <dfn export>Candidate Registry Draft</dfn>.
+			The equivalent of [=Working Group Publication=] is called <dfn export>Working Group Registry</dfn>,
+			with [=Working Group Publication Snapshot=] and [=Working Group Publication=] corresponding to
+			<dfn export>Working Group Registry Snapshot</dfn> and (normal) <dfn export>Working Group Registry Draft</dfn>.
 
 		<li>
 			The equivalent of [=W3C Recommendation=] is called <dfn export>W3C Registry</dfn>;
@@ -4692,7 +4687,7 @@ Publishing Registries</h4>
 			There is no equivalent to the Proposed Recommendation phase.
 			Instead,
 			an [=Advisory Committee Review=] is started
-			upon publication of each [=Candidate Registry Snapshot=].
+			upon publication of each [=Working Group Registry Snapshot=].
 
 		<li>
 			Changes that add new features (i.e. [[#correction-classes|class 4 changes]]) are allowed
