@@ -2459,8 +2459,8 @@ Short Circuit</h5>
 	The full Council process <em class=rfc2119>may</em> be short-circuited if
 	the Team recommends a resolution
 	and potential members of a Council who are not renouncing their seat
-	confirm it in the following way:
-	* at least 80% vote affirmatively to adopt this resolution, and
+	confirm it by a vote which results in both of the following:
+	* at least 80% of them vote affirmatively to adopt this resolution
 	* none of them vote against adopting the resolution
 
 	The request for confirmation <em class=rfc2119>must</em> be open for two weeks,
