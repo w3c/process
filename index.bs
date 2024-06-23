@@ -3316,13 +3316,20 @@ Maturity Stages on the Recommendation Track</h4>
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
 			however, additional features might be expected in a later revision.
-			A [=Candidate Recommendation=] is expected to be as well-written,
+			The word <em>Candidate</em> in [=Candidate Recommendation=] signals
+			that the document is <em>eligible</em> for evaluation against the
+			requirements for further advancement — but does not indicate that
+			the Working Group is necessarily <em>intending</em> further advancement,
+			nor that the Working Group necessarily believes the document already meets
+			the requirements for further advancement. But a [=Candidate Recommendation=]
+			is expected to be as well-written,
 			detailed,
 			self-consistent,
 			and technically complete
 			as a [=Recommendation=],
 			and acceptable as such
-			if and when the requirements for further advancement are met.
+			if and when the requirements for further advancement <em>are</em> met.
+
 
 			Candidate Recommendation publications take one of two forms:
 
