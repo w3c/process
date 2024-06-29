@@ -1,4 +1,4 @@
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 30 630 180" width="100%">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 30 457 175" width="100%">
 			<title>Basic W3C Recommendation Track</title>
 			<!-- basic maturity states -->
 			<g role="list">
@@ -56,7 +56,7 @@
 				</g>
 			<!-- CRS -->
 				<g role="listitem">
-					<a href="#pr-1">
+					<a href="#rec-1">
 						<ellipse role="img" id="cr-1" ry="18" rx="38" cy="140" cx="260" stroke="black" fill="#fff">
 						<title>Candidate Recommendation Snapshot (CRS) - Patent Policy exclusion opportunity</title>
 						</ellipse>
@@ -90,11 +90,11 @@
 								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 285,108 286,117" stroke-dasharray="6 2" fill="none"></path>
 							</a>
 						</g>
-					<!-- Advance to PR -->
+					<!-- Advance to REC -->
 						<g role="listitem" fill="#060">
-						<a href="#pr-1">
+						<a href="#rec-1">
 							<g role="img">
-							<title>Advance to Proposed Recommendation</title>
+							<title>Advance to Recommendation</title>
 							</g>
 							<text x="298" y="121" font-size="8">WG Decision +</text>
 							<text x="298" y="129" font-size="8">Team Approval +</text>
@@ -158,38 +158,25 @@
 						</g>
 					</g>
 				</g>
-			<!-- PR -->
+			<!-- REC -->
 				<g role="listitem">
 					<a href="#rec-1">
-						<ellipse role="img" id="pr-1" ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff">
-						<title>Proposed Recommendation (PR) — AC Review</title>
+						<ellipse role="img" id="rec-1" ry="18" rx="28" cy="140" cx="413" stroke="black" fill="#fff" stroke-width="2">
+						<title>Recommendation</title>
 						</ellipse>
 						<text aria-hidden="true" font-size="14" font-weight="bold"
-						      y="144" x="413" text-anchor="middle">PR</text>
-						<text area-hidden="true" font-size="6" y="150" x="413" text-anchor="middle">AC Review</text>
+						      y="144" x="413" text-anchor="middle">REC</text>
 					</a>
 					<g role="list">
-					<!-- Advance to Rec -->
-						<g role="listitem" fill="#060">
-							<a href="#rec-1">
-								<g role="img">
-									<title>Advance to Recommendation</title>
-								</g>
-								<text x="300" y="138" font-size="8">
-									<tspan x="445" y="134">W3C Decision</tspan>
-								</text>
-								<path d="M441,140h100" stroke="#060"></path>
-								<polygon points="534,136 544,140 534,144"></polygon>
-							</a>
-						</g>
 					<!-- Return to CRS -->
 						<g role="listitem" fill="#900">
 							<a href="#cr-1">
 								<g role="img">
 									<title>Return to Candidate Recommendation Snapshot</title>
 								</g>
-								<text font-size="8" text-anchor="end">
-									<tspan x="385" y="160">W3C Decision</tspan>
+								<text font-size="8" text-anchor="start">
+									<tspan x="342" y="157">WG Decision</tspan>
+									<tspan x="342" y="165" font-size="6">(or Team Decision with AB+TAG Approval)</tspan>
 								</text>
 								<path d="M301,147h88" stroke-dasharray="4 4" stroke="#900"></path>
 								<polygon points="301,145 296,147 301,149"></polygon>
@@ -201,22 +188,15 @@
 								<g role="img">
 									<title>Return to Working Draft</title>
 								</g>
-								<text font-size="8" text-anchor="end">
-									<tspan x="410" y="185">W3C Decision</tspan>
+								<text font-size="8" text-anchor="start">
+									<tspan x="342" y="157">WG Decision</tspan>
+									<tspan x="342" y="165" font-size="6">(or Team Decision with AB+TAG Approval)</tspan>
 								</text>
-								<path d="M413,158v32h-316v-26" stroke-dasharray="4 4" stroke="#900" fill="none"></path>
+								<path d="M339,147v41h-242v-26" stroke-dasharray="4 4" stroke="#900" fill="none"></path>
 								<polygon points="95,164 97,159 99,164"></polygon>
 							</a>
 						</g>
 					</g>
-				</g>
-			<!-- Rec -->
-				<g role="listitem">
-					<ellipse role="img" id="rec-1" ry="18" rx="28" cy="140" cx="573" stroke="black" fill="#fff" stroke-width="2">
-						<title>Recommendation (Rec)</title>
-					</ellipse>
-					<text aria-hidden="true" font-size="16" font-weight="bold"
-					      y="144" x="573" text-anchor="middle" stroke-width=".3">REC</text>
 				</g>
 			</g>
 		</svg>
