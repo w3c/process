@@ -2705,9 +2705,9 @@ Determining the W3C Decision</h4>
 		For example, if [=substantive changes=] to a [=technical report=]
 		are requested when assessing the transition from
 		[=Candidate Recommendation=] to [=Recommendation=],
-		the technical report would need to go through a new [=Update Request=],
-		be republished as a new [=Candidate Recommendation=],
-		and that new version would need to fulfill the criteria for advancement.
+		the technical report would need to go through a new [=Update Request=]
+		and be republished as a new [=Candidate Recommendation=];
+		that new version would then need to satisfy the criteria for advancement.
 		Alternatively, the desired changes can be introduced as non-substantive amendments
 		using the process for [[#revising-rec|revising a Recommendation]].
 		However, with the exception of the removal of at-risk features,
