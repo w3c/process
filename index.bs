@@ -3959,8 +3959,8 @@ Transitioning to Recommendation</h4>
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
 	The [=Team=] <em class="rfc2119">must</em> announce the publication of a [=W3C Recommendation=]
-	to <a href="#AC">Advisory Committee</a>,
-	other W3C groups
+	to the <a href="#AC">Advisory Committee</a>,
+	to other W3C groups
 	and to the public.
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to advance the technical report.
