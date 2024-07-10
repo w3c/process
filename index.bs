@@ -2465,7 +2465,7 @@ Short Circuit</h5>
 
 	The request for confirmation <em class=rfc2119>must</em> be open for two weeks,
 	or until every potential member of the Council not renouncing their seat
-	has responded (including explicit votes to abstain),
+	has voted,
 	whichever is shortest.
 
 	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
