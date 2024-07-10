@@ -5661,6 +5661,11 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 			The URL of this document was changed
 			from /Consortium/Process/ to /policies/process/
 			for better integration in the W3C website architecture.
+
+		<li>
+			Shift most of the informative discussion about Workshops to [[GUIDE]],
+			and reorganize the remaining normative requirements.
+			(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
 	</ul>
 
 
