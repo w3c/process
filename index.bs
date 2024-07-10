@@ -2463,7 +2463,7 @@ Short Circuit</h5>
 	* at least 80% of them vote affirmatively to adopt this resolution
 	* none of them vote against adopting the resolution
 
-	The request for confirmation <em class=rfc2119>must</em> be open for two weeks,
+	The request for confirmation <em class=rfc2119>must</em> be open for a period of at least two weeks,
 	or until every potential member of the Council not renouncing their seat
 	has voted,
 	whichever is shortest.
