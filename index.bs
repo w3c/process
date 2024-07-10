@@ -3889,7 +3889,7 @@ Transitioning to Recommendation</h4>
 
 	When a [=Working Group=] estimates
 	that a [=Candidate Recommendation=] has fulfilled all the relevant criteria,
-	it <em class=rfc2119>may</em> request advancement to [=W3C Recommendation=].
+	it <em class=rfc2119>may</em> [=group decision|decide=] to request advancement to [=W3C Recommendation=].
 
 	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 	the Working Group:
