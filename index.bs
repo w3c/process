@@ -5673,6 +5673,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 			Shift most of the informative discussion about Workshops to [[GUIDE]],
 			and reorganize the remaining normative requirements.
 			(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
+
+		<li>
+			Make the Council's short-circuit a little more flexible.
+			(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>)
 	</ul>
 
 
