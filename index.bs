@@ -2463,13 +2463,20 @@ Council Participation, Dismissal, and Renunciation</h5>
 	as they can of anyone else in the W3C community.
 
 <h5 id=council-short-circuit>
-Unanimous Short Circuit</h5>
+Short Circuit</h5>
 
 
 	The full Council process <em class=rfc2119>may</em> be short-circuited if
 	the Team recommends a resolution
-	and every potential member of a Council who is not renouncing their seat
-	votes affirmatively (no abstentions) to adopt this resolution.
+	and potential members of a Council who are not renouncing their seat
+	confirm it by a vote which results in both of the following:
+	* at least 80% of them vote affirmatively to adopt this resolution
+	* none of them vote against adopting the resolution
+
+	The request for confirmation <em class=rfc2119>must</em> be open for a period of at least two weeks,
+	or until every potential member of the Council not renouncing their seat
+	has voted,
+	whichever is shortest.
 
 	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
 	and prior to choosing a [=W3C Council Chair|Chair=].
