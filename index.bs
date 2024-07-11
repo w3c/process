@@ -308,7 +308,7 @@ Rights of Members</h4>
 <h4 id="RelatedAndAssociatedMembers" oldids="RelatedAndConsortiumMembers">
 Member Associations and Related Members</h4>
 
-<h5 id="MemberAssoc" oldids="fdn-member-consortium, MemberConsortia">
+<h5 id="MemberAssoc" oldids="MemberConsortia">
 Membership Associations</h5>
 
 	A “<dfn lt="Member Association | Member Associations">Member Association</dfn>” means a consortium,
@@ -1843,7 +1843,7 @@ Content of a Charter</h3>
 		<li>
 			The stable URL of the Working Group charter
 			under which the Exclusion Draft was published
-			(labeled the “<dfn export id=exclusion-draft-charter oldids="other-charter">Exclusion Draft Charter</dfn>”).
+			(labeled the “<dfn export id=exclusion-draft-charter>Exclusion Draft Charter</dfn>”).
 	</ul>
 
 	All of the above data <em class=rfc2119>must</em> be identified
@@ -3273,7 +3273,7 @@ The W3C Recommendation Track</h3>
 	if it determines that the requirements for advancement
 	have not been met.
 
-<h4 id="maturity-stages" oldids="maturity-levels">
+<h4 id="maturity-stages">
 Maturity Stages on the Recommendation Track</h4>
 
 	<dl>
@@ -3736,7 +3736,7 @@ Revising a Working Draft</h4>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
-<h4 id="transition-cr" oldids="candidate-rec, last-call">
+<h4 id="transition-cr" oldids="candidate-rec">
 Transitioning to Candidate Recommendation</h4>
 
 	To publish a [=Candidate Recommendation=],
@@ -5033,7 +5033,7 @@ Liaisons</h2>
 	[=technical agreements=] with another organization.
 	For purposes of the W3C Process,
 	a <dfn local-lt="agreement">technical agreement</dfn> is a formal contract,
-	or a Memorandum of Understanding (<abbr id=mou>MoU</abbr>),
+	or a Memorandum of Understanding (<abbr>MoU</abbr>),
 	or a similar document,
 	between W3C and another party or parties,
 	that relates to the technical activity of the Consortium
@@ -5425,8 +5425,64 @@ Process Evolution</h2>
 	the [[COC|Code of Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
 	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
-<h2 id="acks" class=non-normative>
-Acknowledgments</h2>
+<h2 id="old-terms" class="non-normative nonum">
+Appendix A: Retired Terminology</h2>
+
+	<em>This section is non-normative.</em>
+
+	Previous version of this process defined and used various concepts and document statuses
+	that have since been removed or renamed.
+	For ease of reference,
+	this appendix lists the more notable ones,
+	and it links to the relevant section
+	of most recent version of the Process that still used them,
+	or gives the more recent equivalent term when there is one.
+
+	Retired concepts:
+	<dl>
+		<dt><dfn noexport id=last-call>Last Call</dfn>
+		<dd><a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">Section 7.4.2 of the 2005 Process</a>
+
+		<dt><dfn noexport id=TeamSubmission>Team Submissions</dfn>
+		<dd><a href="https://www.w3.org/2019/Process-20190301/#TeamSubmission">Section 2.2.1 of the 2019 Process</a>
+
+		<dt><dfn noexport>Edited Recommendation</dfn>
+		<dd><a href="https://www.w3.org/2019/Process-20190301/#maturity-levels">Section 6.1.2 of the 2019 Process</a>
+
+		<dt><dfn noexport id=rec-amended>Amended Recommendation</dfn>
+		<dd><a href="https://www.w3.org/2020/Process-20200915/#rec-amended">Section 6.2.1 of the 2020 Process</a>
+	</dl>
+
+	Renamed concepts:
+	<dl>
+		<dt><dfn noexport id=def-W3CChair>W3C Chair</dfn>
+		<dd>
+			Last used in <a href="https://www.w3.org/2014/Process-20140801/">the 2014 Process</a>,
+			now called [=CEO=].
+
+		<dt><dfn noexport id=fdn-member-consortium>Member Consortium</dfn> (plural: Member Consortia)
+		<dd>
+			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
+			now called [=Member Association=].
+
+		<dt><dfn noexport id=maturity-levels>Maturity level</dfn>
+		<dd>
+			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
+			now called [[#maturity-stages|maturity stage]].
+
+		<dt><dfn noexport id=mou>Memorandum of Understanding</dfn> (plural: Memoranda of Understanding, abbreviation: MoU)
+		<dd>
+			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
+			now called [=technical agreement=].
+
+		<dt><dfn noexport id=other-charter>Other Charter</dfn>
+		<dd>
+			Last used in <a href="https://www.w3.org/2020/Process-20200915/">the 2020 Process</a>,
+			now called [=Exclusion Draft Charter=].
+	</dl>
+
+<h2 id="acks" class="non-normative nonum">
+Appendix B: Acknowledgments</h2>
 
 	<em>This section is non-normative.</em>
 
@@ -5576,8 +5632,8 @@ Acknowledgments</h2>
 	Wendy Seltzer (W3C),
 	Yves Lafon (W3C).
 
-<h2 id="changes" class=non-normative>
-Changes</h2>
+<h2 id="changes" class="non-normative nonum">
+Appendix C: Changes</h2>
 
 	<em>This section is non-normative.</em>
 
