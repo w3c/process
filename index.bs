@@ -4097,11 +4097,11 @@ Revising a Recommendation: Substantive Changes</h5>
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
-	For [=Recommendations=] explicitly identified as  [=allow new features|allowing new features=],
+	For [=Recommendations=] explicitly identified as [=allow new features|allowing new features=],
 	tentative new features (see <a href="#correction-classes">class 4 changes</a>)
 	<em class=rfc2119>may</em> be annotated in as [=candidate additions=],
 	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
-	as for <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
+	in the same fashion as <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
 
 	Note: Limiting the addition of new features to [=Recommendations=] that explicitly allow them
 	enables third parties to depend on a stable feature-set for [=Recommendations=] that do not advertise that ability,
