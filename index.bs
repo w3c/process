@@ -1944,7 +1944,7 @@ New Charters and Major Changes</h4>
 
 	The Call for Review of a new or substantively modified charter
 	<em class="rfc2119">must</em> include a disposition of comments for those received during the [=charter refinement=] process,
-	highlighting any issues that were closed over sustained objections.
+	highlighting any issues that were closed despite sustained objections.
 
 <h4 id="charter-minor-changes">
 Minor Changes to Active Charters</h4>
