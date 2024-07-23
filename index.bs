@@ -5430,7 +5430,7 @@ Appendix A: Retired Terminology</h2>
 
 	<em>This section is non-normative.</em>
 
-	Previous version of this process defined and used various concepts and document statuses
+	Previous versions of this process defined and used various concepts and document statuses
 	that have since been removed or renamed.
 	For ease of reference,
 	this appendix lists the more notable ones,
