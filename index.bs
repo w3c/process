@@ -1708,22 +1708,80 @@ Team Representative in an Interest Group</h5>
 <h2 id=group-lifecyle>
 Lifecycle of Chartered Groups</h2>
 
-<h3 id="WGCharterDevelopment">
-Initiating Charter Development</h3>
+	W3C creates [=charters=] for [=chartered groups=] based on interest from the [=Members=] and [=Team=].
+	[=Charters=] are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
+	Prior to [=AC Review=],
+	<dfn>charter drafts</dfn> go through a public [=charter refinement=] phase
+	during which the [=charter=] receives [=wide review=]
+	and the [=Chartering Facilitator=] attempts to find [=consensus=] on the charter.
+	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
+	when starting development of a new charter prior to the [=charter refinement=] phase.
 
-	W3C creates charters for [=chartered groups=]
-	based on interest from the Members and Team.
-	The Team <em class="rfc2119">must</em> notify the Advisory Committee
-	when a charter for a new Working Group or Interest Group is in development.
-	This is intended to raise awareness,
-	even if no formal proposal is yet available.
-	Advisory Committee representatives <em class="rfc2119">may</em> provide
-	feedback on the <a href="#ACCommunication">Advisory Committee discussion list</a>
-	or via other designated channels.
+<h3 id="charter-initiation">
+Initiating Charter Refinement</h3>
 
-	W3C <em class="rfc2119">may</em> begin work
-	on a Working Group or Interest Group charter
-	at any time.
+	Formal [=charter refinement=] (see below) is initiated
+	by the [=Team=] sending a [=charter review notice=]
+	to the [=Advisory Committee=],
+	to the public,
+	and, in the case of rechartering, to the affected [=Group=].
+
+	This <dfn>charter review notice</dfn> must include:
+	* A short summary of the proposal.
+	* The location of the [=charter draft=], which must be public.
+	* How to participate in the discussion of this [=charter draft=] and where to file issues.
+	* The expected duration of the [=charter refinement=] phase,
+		which must not be less than 28 days,
+		and should not be more than 6 months.
+	* Who the [=Chartering Facilitator=] is.
+
+	The [=Team=] is responsible for initiating [=charter refinement=]
+	at its discretion, in consideration of discussions with the community.
+	An [=Advisory Committee representative=] <em class=rfc2119>may</em> formally request
+	that the [=Team=] initiate [=charter refinement=].
+	The Team <em class=rfc2119>may</em> deny such a request
+	if it thinks the proposal is insufficiently mature or does not align with W3C's scope and mission.
+	This rejection is a [=Team Decision=] which can be <a href="#registering-objections">Formally Objected to</a>.
+
+<h3 id="charter-development" oldids="WGCharterDevelopment">
+Charter Refinement</h3>
+
+	During <dfn>charter refinement</dfn>,
+	the W3C community further develops the [=charter draft=]
+	with the goal of achieving [=consensus=] on the proposal.
+	The <dfn>Chartering Facilitator</dfn>
+	acts as [=Chair=] for the [=charter refinement=] process.
+
+	Note: The [=Chartering Facilitator=] is not necessarily (and often is not) the [=Chair=] of the [=chartered group|group=] being chartered.
+
+	During [=charter refinement=]:
+	* All issues filed against the [=charter draft=] must be [=formally addressed=],
+		and their resolutions tracked in a disposition of comments.
+	* [=Wide review=] of the [=charter draft=] is initiated and completed.
+	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
+		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
+
+	The [=charter refinement=] phase concludes when there is either:
+	* A [=group decision=] to initiate [=AC Review=] of the [=charter draft=].
+	* A [=chair decision=] to abandon the proposal.
+
+	Any [=Formal Objection=] filed during the  [=charter refinement=] phase--
+	other than an objection to the choice of [=Chartering Facilitator=]
+	or to a decision to abandon the proposal--
+	is not considered [[#registering-objections|registered]]
+	until the close of the [=Advisory Committee Review=] of the charter,
+	and is registered against that [=W3C Decision=].
+
+	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together,
+	while allowing [=Formal Objections=] to [=Chartering Facilitator=] misbehavior
+	that the [=Team=] is failing to address
+	to be processed immediately.
+
+	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
+	the [=Chartering Facilitator=] must inform the AC
+	(and, in the case of rechartering, the affected [=Group=])
+	of this delay, of the status of the discussions, and of the revised expected duration of [=Charter Refinement=].
+	This report should be public.
 
 <h3 id="WGCharter">
 Content of a Charter</h3>
@@ -1899,17 +1957,25 @@ New Charters and Major Changes</h4>
 	(e.g., regarding deliverables or resource allocation)
 	and include rationale for the changes.
 
+	The Call for Review of a new or substantively modified charter
+	<em class="rfc2119">must</em> include a disposition of comments for those received during the [=charter refinement=] process,
+	highlighting any issues that were closed despite sustained objections.
+
 <h4 id="charter-minor-changes">
 Minor Changes to Active Charters</h4>
 
 	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
 	that do not affect the way the group functions in any significant way
 	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
-	in which case they do not require an [=Advisory Committee Review=].
+	in which case they do not require [=charter refinement=] nor [=Advisory Committee Review=].
 	The following are examples of such changes:
 	the addition of an in-scope deliverable,
 	a change of [=Team Contact=],
 	or a change of [=Chair=].
+
+	The [=Team=] <em class=rfc2119>may</em> nevertheless choose
+	initial [=charter refinement=] and/or [=Advisory Committee Review=]
+	when it thinks the changes would benefit from more scrutiny or explicit buy-in.
 
 	Though [=Advisory Committee Review=] is not required,
 	such changes <em class=rfc2119>must</em> still be announced
