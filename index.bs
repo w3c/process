@@ -5435,7 +5435,7 @@ Appendix A: Retired Terminology</h2>
 	For ease of reference,
 	this appendix lists the more notable ones,
 	and it links to the the definition or relevant section
-	in most recent version of the Process that still used them,
+	in the most recent version of the Process that used them,
 	and gives the more recent equivalent term when there is one.
 
 	<dl>
