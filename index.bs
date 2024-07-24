@@ -5746,7 +5746,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 
 		<li>
 			Introduce a formal [=Charter Refinement=] phase prior to the [=AC Review=].
-			(See <a href="https://github.com/w3c/process/issues/850">Issue 850</a>)
+			(See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>)
 	</ul>
 
 
