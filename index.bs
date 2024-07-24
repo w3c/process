@@ -5743,6 +5743,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 		<li>
 			Make the Council's short-circuit a little more flexible.
 			(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>)
+
+		<li>
+			Introduce a formal [=Charter Refinement=] phase prior to the [=AC Review=].
+			(See <a href="https://github.com/w3c/process/issues/850">Issue 850</a>)
 	</ul>
 
 
