@@ -5431,54 +5431,72 @@ Appendix A: Retired Terminology</h2>
 	<em>This section is non-normative.</em>
 
 	Previous versions of this process defined and used various concepts and document statuses
-	that have since been removed or renamed.
+	that have since been retired or renamed.
 	For ease of reference,
 	this appendix lists the more notable ones,
-	and it links to the relevant section
-	of most recent version of the Process that still used them,
-	or gives the more recent equivalent term when there is one.
+	and it links to the the definition or relevant section
+	in most recent version of the Process that still used them,
+	and gives the more recent equivalent term when there is one.
 
-	Retired concepts:
 	<dl>
-		<dt><dfn noexport id=last-call>Last Call</dfn>
-		<dd><a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">Section 7.4.2 of the 2005 Process</a>
-
-		<dt><dfn noexport id=TeamSubmission>Team Submissions</dfn>
-		<dd><a href="https://www.w3.org/2019/Process-20190301/#TeamSubmission">Section 2.2.1 of the 2019 Process</a>
-
-		<dt><dfn noexport>Edited Recommendation</dfn>
-		<dd><a href="https://www.w3.org/2019/Process-20190301/#maturity-levels">Section 6.1.2 of the 2019 Process</a>
-
-		<dt><dfn noexport id=rec-amended>Amended Recommendation</dfn>
-		<dd><a href="https://www.w3.org/2020/Process-20200915/#rec-amended">Section 6.2.1 of the 2020 Process</a>
-	</dl>
-
-	Renamed concepts:
-	<dl>
-		<dt><dfn noexport id=def-W3CChair>W3C Chair</dfn>
+		<dt>
+			<dfn noexport id=rec-amended>Amended Recommendation</dfn>
+			(retired term)
 		<dd>
-			Last used in <a href="https://www.w3.org/2014/Process-20140801/">the 2014 Process</a>,
-			now called [=CEO=].
+			Last defined in <a href="https://www.w3.org/2020/Process-20200915/#rec-amended">section 6.2.1 of the 2020 Process</a>.
 
-		<dt><dfn noexport id=fdn-member-consortium>Member Consortium</dfn> (plural: Member Consortia)
+		<dt>
+			<dfn noexport>Edited Recommendation</dfn>
+			(retired term)
 		<dd>
-			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
-			now called [=Member Association=].
+			Last defined in <a href="https://www.w3.org/2019/Process-20190301/#maturity-levels">section 6.1.2 of the 2019 Process</a>.
 
-		<dt><dfn noexport id=maturity-levels>Maturity level</dfn>
+		<dt>
+			<dfn noexport id=last-call>Last Call</dfn>
+			(retired term)
 		<dd>
-			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
+			Last defined in <a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">section 7.4.2 of the 2005 Process</a>.
+
+		<dt>
+			<dfn noexport id=maturity-levels>Maturity level</dfn>
+			(renamed term)
+		<dd>
+			Last defined <a href="https://www.w3.org/2021/Process-20211102/#maturity-levels">in section 6.3.1 of the 2021 Process</a>,
 			now called [[#maturity-stages|maturity stage]].
 
-		<dt><dfn noexport id=mou>Memorandum of Understanding</dfn> (plural: Memoranda of Understanding, abbreviation: MoU)
+		<dt>
+			<dfn noexport id=fdn-member-consortium>Member Consortium</dfn>, plural: Member Consortia
+			(renamed term)
 		<dd>
-			Last used in <a href="https://www.w3.org/2021/Process-20211102/">the 2021 Process</a>,
+			Last defined <a href="https://www.w3.org/2021/Process-20211102/#fdn-member-consortium">in section 2.1.2.1 of the 2021 Process</a>,
+			now called [=Member Association=].
+
+		<dt>
+			<dfn noexport id=mou>Memorandum of Understanding</dfn>, plural: Memoranda of Understanding, abbreviation: MoU
+			(renamed term)
+		<dd>
+			Last defined <a href="https://www.w3.org/2021/Process-20211102/#mou">in section 9 of the 2021 Process</a>,
 			now called [=technical agreement=].
 
-		<dt><dfn noexport id=other-charter>Other Charter</dfn>
+		<dt>
+			<dfn noexport id=other-charter>Other Charter</dfn>
+			(renamed term)
 		<dd>
-			Last used in <a href="https://www.w3.org/2020/Process-20200915/">the 2020 Process</a>,
+			Last used <a href="https://www.w3.org/2020/Process-20200915/#other-charter">in section 5.2.6 of the 2020 Process</a>,
 			now called [=Exclusion Draft Charter=].
+
+		<dt>
+			<dfn noexport id=TeamSubmission>Team Submissions</dfn>
+			(retired term)
+		<dd>
+			Last defined <a href="https://www.w3.org/2019/Process-20190301/#TeamSubmission">in section 2.2.1 of the 2019 Process</a>.
+
+		<dt>
+			<dfn noexport id=def-W3CChair>W3C Chair</dfn>
+			(renamed term)
+		<dd>
+			Last defined <a href="https://www.w3.org/2014/Process-20140801/#def-W3CChair">in section 2.2 of the 2014 Process</a>,
+			now called [=CEO=].
 	</dl>
 
 <h2 id="acks" class="non-normative nonum">
