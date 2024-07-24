@@ -4099,7 +4099,7 @@ Revising a Recommendation: New Features</h5>
 
 	For [=Recommendations=] explicitly identified as [=allow new features|allowing new features=],
 	tentative new features (see <a href="#correction-classes">class 4 changes</a>)
-	<em class=rfc2119>may</em> be annotated in as [=candidate additions=],
+	<em class=rfc2119>may</em> be added as [=candidate additions=] in annotations,
 	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
 	in the same fashion as <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
 
