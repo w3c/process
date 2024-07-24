@@ -5762,6 +5762,12 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 		<li>
 			Introduce a formal [=Charter Refinement=] phase prior to the [=AC Review=].
 			(See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>)
+
+		<li>
+			Adjust AC appeal vote threshold based on participation,
+			aligning with the thresholds and super majority requirements
+			for "Requisite Member Vote" from the W3C Bylaws.
+			(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>)
 	</ul>
 
 
