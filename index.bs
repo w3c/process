@@ -729,8 +729,8 @@ Role of the Advisory Committee</h4>
 		<li>
 			<a href="#ACReview">reviewing formal proposals</a> of W3C:
 			<a href="#CharterReview">Charter Proposals</a>,
-			<a href="#RecsPR">Proposed Recommendations</a>,
-			and <a href="#GAProcess">Proposed Process Documents</a>.
+			<a href="#transition-rec">transitions to Recommendation</a>,
+			and <a href="#GAProcess">proposed Process Documents</a>.
 
 		<li>
 			electing the <a href="#AB">Advisory Board</a> participants other than the Advisory Board Chair.
@@ -2785,11 +2785,16 @@ Determining the W3C Decision</h4>
 	those other conditions must also be re-fulfilled.
 
 	<div class="example">
-		For example, to make [=substantive changes=] to a [=Proposed Recommendations=],
-		the [=technical report=] could be returned to [=Candidate Recommendation=].
+		For example, if [=substantive changes=] to a [=technical report=]
+		are requested when assessing the transition from
+		[=Candidate Recommendation=] to [=Recommendation=],
+		the technical report would need to go through a new [=Update Request=]
+		and be republished as a new [=Candidate Recommendation=];
+		that new version would then need to satisfy the criteria for advancement.
 		Alternatively, the desired changes can be introduced as non-substantive amendments
 		using the process for [[#revising-rec|revising a Recommendation]].
-		However, they cannot be directly integrated between [=PR=] and [=REC=],
+		However, with the exception of the removal of at-risk features,
+		they cannot be directly integrated between [=CRS=] and [=REC=],
 		because that would fail to trigger a patent exclusion opportunity.
 	</div>
 
@@ -3327,12 +3332,11 @@ The W3C Recommendation Track</h3>
 		<li>Publication of the [=First Public Working Draft=].
 		<li>Publication of zero or more revised [=Working Drafts=].
 		<li>Publication of one or more [=Candidate Recommendations=].
-		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
 
 	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
-	is any document whose current status is one of the five in the numbered list above.
+	is any document whose current status is one of the four in the numbered list above.
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
 		<pre class=include-raw>
@@ -3472,20 +3476,6 @@ Maturity Stages on the Recommendation Track</h4>
 			for implication on patent licensing obligations.
 
 		<dt>
-			<dfn export id="RecsPR" lt="W3C Proposed Recommendation | Proposed Recommendation | PR">Proposed Recommendation</dfn> (<abbr>PR</abbr>)
-		<dd>
-			A Proposed Recommendation is a document
-			that has been accepted by W3C
-			as of sufficient quality to become a [=W3C Recommendation=].
-			This phase triggers formal review by the [=Advisory Committee=],
-			who <em class="rfc2119">may</em> recommend
-			that the document be [=published=] as a [=W3C Recommendation=],
-			returned to the [=Working Group=] for further work,
-			or abandoned.
-			[=Substantive changes=] <em class="rfc2119">must not</em> be made to a [=Proposed Recommendation=]
-			except by [=publishing=] a new [=Working Draft=] or [=Candidate Recommendation=].
-
-		<dt>
 			<dfn id="RecsW3C" export lt="W3C Recommendation | Recommendation | REC">W3C Recommendation</dfn> (<abbr>REC</abbr>)
 		<dd>
 			A W3C Recommendation is a specification
@@ -3498,6 +3488,20 @@ Maturity Stages on the Recommendation Track</h4>
 			The W3C Royalty-Free IPR licenses
 			granted under the W3C Patent Policy [[PATENT-POLICY]]
 			apply to [=W3C Recommendations=].
+
+			<p id="expandable-rec">
+			After its initial publication,
+			a [=W3C Recommendation=] <em class=rfc2119>may</em> be [[#revising-rec|revised]]
+			to address [=editorial change|editorial=] or [=substantive change|substantive=] issues
+			that are discovered later.
+			However, <a href=#class-4>new features</a> can only be added
+			if the document already identifies itself
+			as intending to <dfn>allow new features</dfn>.
+			Such an allowance cannot be added
+			to a [=technical report=] previously published as a [=Recommendation=]
+			that did not allow such changes;
+			this requires a new [=technical report=], that could, for example, be similarly named but with an incremented version number.
+
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
 			<dl>
@@ -3668,7 +3672,7 @@ Advancement on the Recommendation Track</h4>
 	so many requirements do not apply,
 	and verification is normally fairly straightforward.
 	For later stages,
-	especially transition to [=Candidate Recommendation|Candidate=] or [=Proposed Recommendation=],
+	especially transitions to [=Candidate Recommendation|Candidate=] or [=Recommendation=],
 	there is usually a formal review meeting
 	to verify that the requirements have been met.
 
@@ -3849,8 +3853,8 @@ Transitioning to Candidate Recommendation</h4>
 		<li>
 			<em class="rfc2119">may</em> identify features in the document as <dfn export>at risk</dfn>.
 			These features <em class="rfc2119">may</em> be removed
-			before advancement to [=Proposed Recommendation=]
-			without a requirement to publish a new [=Candidate Recommendation=].
+			before advancement to [=Recommendation=]
+			without requiring an [=Update Request=].
 	</ul>
 
 	The first Candidate Recommendation publication
@@ -3867,7 +3871,7 @@ Transitioning to Candidate Recommendation</h4>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
 		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
 		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
-		<li><a href="#transition-pr">Proposed Recommendation</a></li>
+		<li><a href="#transition-pr">Recommendation</a></li>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
@@ -3897,8 +3901,8 @@ Publishing a [=Candidate Recommendation Snapshot=]</h5>
 		<li>
 			<em class="rfc2119">may</em> identify features in the document as [=at risk=].
 			These features <em class="rfc2119">may</em> be removed
-			before advancement to [=Proposed Recommendation=]
-			without a requirement to publish a new [=Candidate Recommendation=].
+			before advancement to [=Recommendation=]
+			without requiring an [=Update Request=].
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> announce
@@ -3972,45 +3976,44 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 		<li>Return to <a href="#revising-wd">Working Draft</a></li>
 		<li>A revised <a href="#publishing-crrs">Candidate Recommendation Snapshot</a></li>
 		<li>A revised <a href="#publishing-crud">Candidate Recommendation Draft</a></li>
-		<li><a href="#transition-pr">Proposed Recommendation</a>,
+		<li><a href="#transition-pr">Recommendation</a>,
 		if there are no [=substantive change=] other than dropping [=at risk=] features</li>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
+<h4 id="transition-rec" oldids="rec-publication, rec-pr, transition-pr, RecsPR">
+Transitioning to Recommendation</h4>
 
-<h4 id=transition-pr oldids="rec-pr">
-Transitioning to Proposed Recommendation</h4>
+	When a [=Working Group=] estimates
+	that a [=Candidate Recommendation=] has fulfilled all the relevant criteria,
+	it <em class=rfc2119>may</em> [=group decision|decide=] to request advancement to [=W3C Recommendation=].
 
 	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
-
-	<ul>
-		<li>
-			The status information <em class="rfc2119">must</em> specify the deadline for [=Advisory Committee review=],
-			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days
-			after the publication of the [=Proposed Recommendation=]
-			and <em class="rfc2119">should</em> be at least 10 days
-			after the end of the last Exclusion Opportunity
-			per ”Exclusion From W3C RF Licensing Requirements”
-			in the W3C Patent Policy [[!PATENT-POLICY]].
-	</ul>
-
-	A Working Group:
+	the Working Group:
 
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by a [=Team Decision=],
+			except where an exception is approved by a [=Team Decision=].
+
+			The [=Team=] <em class="rfc2119">may</em> approve a [=Candidate Recommendation=]
+			with minimal <a href="#implementation-experience">implementation experience</a>
+			where there is a compelling reason to do so.
+			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that decision,
+			and that information <em class=rfc2119>must</em> be included in the [=Call for Review=]
+			proposing advancement to [=W3C Recommendation=].
+
 		<li>
-			<em class="rfc2119">must</em> show that the document has received [=wide review=],
+			<em class="rfc2119">must</em> show that the document has received [=wide review=].
 
 		<li>
 			<em class="rfc2119">must</em> show that all issues
 			raised during the [=Candidate Recommendation review period=]
-			have been [=formally addressed=],
+			have been [=formally addressed=].
 
 		<li>
 			<em class="rfc2119">must </em>identify any substantive issues
-			raised since the close of the [=Candidate Recommendation review period=],
+			raised since the close of the [=Candidate Recommendation review period=].
 
 		<li>
 			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
@@ -4021,97 +4024,43 @@ Transitioning to Proposed Recommendation</h4>
 			<em class="rfc2119">may</em> have removed features
 			identified in the [=Candidate Recommendation Snapshot=] document as [=at risk=]
 			without republishing the specification as a [=Candidate Recommendation Snapshot=].
+
+		<li>
+			<em class="rfc2119">must</em> identify, in the document, where errata are tracked.
 	</ul>
 
-	The [=Team=]:
+	Additionally,
+	if the document has previously been published as a [=W3C Recommendation=], the [=Working Group=]
+	<em class=rfc2119>must not</em> include any <a href="#correction-classes">class 4 change</a>
+	to that publication
+	unless it was explicitly marked as [=allowing new features=],
+	and <em class=rfc2119>must not</em> include any such marking
+	if not already present.
 
-	<ul>
-		<li>
-			<em class="rfc2119">must</em> announce the publication of a [=Proposed Recommendation=]
-			to the <a href="#AC">Advisory Committee</a>,
-			and <em class="rfc2119">must</em> begin an [=Advisory Committee Review=]
-			on the question of whether the specification is appropriate to [=publish=] as a [=W3C Recommendation=].
+	If all the criteria above are fulfilled,
+	the [=Team=] <em class="rfc2119">must</em> begin an [=Advisory Committee Review=]
+	on the question of whether the specification is appropriate to [=publish=] as a [=W3C Recommendation=].
+	The deadline for [=Advisory Committee review=]
+	<em class="rfc2119">must</em> allow <strong>at least</strong> 28 days,
+	and <em class="rfc2119">should</em> end at least 10 days
+	after the end of the last Exclusion Opportunity
+	per ”Exclusion From W3C RF Licensing Requirements”
+	in the W3C Patent Policy [[!PATENT-POLICY]].
 
-		<li>
-			<em class="rfc2119">may</em> approve a [=Proposed Recommendation=]
-			with minimal <a href="#implementation-experience">implementation experience</a>
-			where there is a compelling reason to do so.
-			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that decision,
-			and that information <em class=rfc2119>must</em> be included in the [=Call for Review=]
-			proposing advancement to [=W3C Recommendation=].
-	</ul>
-
-	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
-	from the [=Proposed Recommendation=] it is based on,
-	to make any [=substantive change=] to a [=Proposed Recommendation=]
-	the [=Working Group=] <em class="rfc2119">must</em> return the specification to [=Candidate Recommendation=]
-	or [=Working Draft=].
-
-	<p id="expandable-rec">
-	A [=Proposed Recommendation=] may identify itself
-	as intending to <dfn>allow new features</dfn>
-	(<a href="#correction-classes">class 4 changes</a>)
-	after its initial publication as a [=Recommendation=],
-	as described in [[#revised-rec-features]].
-	Such an allowance cannot be added
-	to a [=technical report=] previously published as a [=Recommendation=]
-	that did not allow such changes.
-
-	Possible Next Steps:
-
-	<ul>
-		<li>
-			Return to <a href="#revising-wd">Working Draft</a>
-
-		<li>
-			Return to <a href="#transition-cr">Candidate Recommendation</a>
-
-		<li>
-			<a href="#transition-rec">Recommendation status</a>,
-			(the expected next step).
-
-		<li>
-			<a href="#abandon-draft">Discontinued Draft</a></li>
-	</ul>
-
-	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the decision to advance the technical report.
-
-<h4 id="transition-rec" oldids="rec-publication">
-Transitioning to W3C Recommendation</h4>
+	If there was any [=dissent=] in Advisory Committee reviews,
+	the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+	to W3C and the general public,
+	and <em class="rfc2119">must</em> [=formally address=] the comment
+	at least 14 days before publication as a [=W3C Recommendation=].
 
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
-
-	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
-
-	<ul>
-		<li>
-			A [=Recommendation=] <em class="rfc2119">must</em> identify where errata are tracked, and
-
-		<li>
-			A [=Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
-			from the [=Proposed Recommendation=]
-			on which it is based.
-
-		<li>
-			If there was any [=dissent=] in Advisory Committee reviews,
-			the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
-			to W3C and the general public,
-			and <em class="rfc2119">must</em> [=formally address=] the comment
-			at least 14 days before publication as a [=W3C Recommendation=].
-
-		<li>
-			[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
-			an [=Advisory Committee Appeal=]
-			of the [=W3C decision=]
-
-		<li>
-			The [=Team=] <em class="rfc2119">must</em> announce the publication of a [=W3C Recommendation=]
-			to <a href="#AC">Advisory Committee</a>,
-			other W3C groups
-			and to the public.
-	</ul>
+	The [=Team=] <em class="rfc2119">must</em> announce the publication of a [=W3C Recommendation=]
+	to the <a href="#AC">Advisory Committee</a>,
+	to other W3C groups
+	and to the public.
+	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
+	of the decision to advance the technical report.
 
 	Possible next steps:
 	A [=W3C Recommendation=] normally retains its status indefinitely.
@@ -4123,6 +4072,7 @@ Transitioning to W3C Recommendation</h4>
 
 		<li>
 			republished as a <a href="#transition-cr">Candidate Recommendation</a>
+			or <a href="https://www.w3.org/2023/Process-20231103/#revising-wd">Working Draft</a>
 			to be developed towards a revised [=Recommendation=], or
 
 		<li>
@@ -4787,15 +4737,9 @@ Publishing Registries</h4>
 			<dfn export>Obsolete Registry</dfn> and <dfn export>Superseded Registry</dfn>.
 
 		<li>
-			There is no equivalent to the Proposed Recommendation phase.
-			Instead,
-			an [=Advisory Committee Review=] is started
-			upon publication of each [=Candidate Registry Snapshot=].
-
-		<li>
-			Changes that add new features (i.e. [[#correction-classes|class 4 changes]]) are allowed
+			Changes that add new features (i.e., [[#correction-classes|class 4 changes]]) are allowed
 			in all [=W3C Registries=],
-			without needing the to explicitly indicate that this is allowed.
+			without needing them to explicitly indicate that this is allowed.
 	</ul>
 
 <h4 id=reg-table-update>
