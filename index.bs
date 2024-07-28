@@ -4661,7 +4661,7 @@ Publishing Registries</h4>
 		<li>
 			Changes that add new features (i.e., [[#correction-classes|class 4 changes]]) are allowed
 			in all [=W3C Registries=],
-			without needing the to explicitly indicate that this is allowed.
+			without needing them to explicitly indicate that this is allowed.
 	</ul>
 
 <h4 id=reg-table-update>
