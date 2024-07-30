@@ -2915,8 +2915,8 @@ Advisory Committee Override</h3>
 	5% or more of the [=Advisory Committee=] support holding the vote,
 	the Team <em class="rfc2119">must</em> organize a vote
 	asking the [=Advisory Committee=]
-	“Do you approve of the Advisory Committee Override proposal?”
-	together with details about the proposal
+	whether they approve of the Advisory Committee Override proposal,
+	including details of the proposal
 	and links to support for holding the vote.
 
 	The ballot <em class="rfc2119">must</em> allow for three possible responses:
