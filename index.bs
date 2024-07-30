@@ -2884,7 +2884,7 @@ Appeal by Advisory Committee Representatives</h3>
 	on how to communicate an appeal request to the [=Team=] and the [=AC=].
 
 	Within one week, the [=Team=] <em class="rfc2119">must</em> initiate the [=appeal=]
-	in the form of a [=Advisory Committee Override=]
+	in the form of an [=Advisory Committee Override=]
 	on the proposal to overturn the decision.
 
 	The conclusion of the [=Advisory Committee Override=] is final:
