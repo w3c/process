@@ -2878,7 +2878,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and should also share this request with the [=Advisory Committee=].
 	The request <em class=rfc2119>should</em> say “I appeal this Decision”
 	and identify the decision,
-	and <em class=rfc2119>may</em> also include their rationale for [=appealing=] the decision.
+	and <em class=rfc2119>may</em> also include their rationale for the [=appeal=].
 
 	Note: See [[DECISION-APPEAL inline]] for a recommendation
 	on how to communicate an appeal request to the [=Team=] and the [=AC=].
