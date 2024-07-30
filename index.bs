@@ -2905,7 +2905,7 @@ Advisory Committee Override</h3>
 	Note: Currently, this only applies to [=AC Appeals=]
 	and [=recalls=] of [=AB=] or [=TAG=] participants.
 
-	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for a [=Advisory Committee Override=]
+	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for an [=Advisory Committee Override=]
 	to the [=Advisory Committee=]
 	and provide a mechanism for [=Advisory Committee representatives=]
 	to respond with a statement of positive support for holding a vote.
