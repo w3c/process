@@ -2887,7 +2887,7 @@ Appeal by Advisory Committee Representatives</h3>
 	in the form of an [=Advisory Committee Override=]
 	on the proposal to overturn the decision.
 
-	The conclusion of the [=Advisory Committee Override=] is final:
+	The conclusion of the [=Advisory Committee Override=] is final;
 	the same decision cannot be appealed more than once.
 
 	If the [=Advisory Committee Override=]
