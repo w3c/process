@@ -1016,7 +1016,7 @@ Composition of the Technical Architecture Group</h5>
 	for example if a chair steps down or if a minority of the participants make such a request.
 
 	As <dfn export>Director Emeritus</dfn>,
-	Tim Berners-Lee has a permanent standing invitation
+	Tim Berners-Lee has a ongoing standing invitation
 	to all regular sessions of the Technical Architecture Group,
 	and access to the [=TAG=]'s [[#tag-comm|means of communication]].
 
