@@ -174,7 +174,28 @@ Introduction</h2>
 	and help ensure each group's proper integration with the rest of W3C.
 
 	W3C’s technical standards, called [=W3C Recommendations=],
-	are developed by its [=Working Groups=];
+	are developed by its [=Working Groups=] — and some high-level goals
+	of the W3C Process related to that development include:
+
+	<ul>
+		<li>
+			Enable [=Working Groups=] to [=published|publish=] their [=technical reports|Technical Reports=]
+			(that is, their specifications and guidelines) on the
+			<a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> — while those are in
+			[[#maturity-stages|various stages of development]]. [[TR]]
+
+		<li>
+			Enable [=Working Groups=] to secure Royalty-Free Licensing Commitments
+			(as defined in the W3C Patent Policy) for their specifications. [[!PATENT-POLICY]]
+
+		<li>
+			Enable [=Working Groups=] to earn formal endorsement of their specifications
+			from the W3C and its Members — when their specifications meet the requirements to
+			be [=published=] as [=W3C Recommendations=].
+	</ul>
+
+
+	Along with [=W3C Recommendations=],
 	W3C also has other types of publications,
 	all described in [[#Reports]].
 	W3C has various types of groups;
