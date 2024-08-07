@@ -1,7 +1,7 @@
 # W3C Process Document repository
 
 
-This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/Consortium/Process/).
+This repository is for the editor's draft of the [World Wide Web Consortium Process Document](https://www.w3.org/policies/process/).
 
 The Process document is updated most years by the W3C.
 Discussion happens in the context of the W3C Process Community Group
@@ -10,13 +10,13 @@ Discussion happens in the context of the W3C Process Community Group
 ----
 ## Branches under development
 
-[main](https://github.com/w3c/w3process/tree/main) branch (current draft of the CG):
-[Preview](https://www.w3.org/Consortium/Process/Drafts/)
+[main](https://github.com/w3c/process/tree/main) branch (current draft of the CG):
+[Preview](https://www.w3.org/policies/process/drafts/)
 
 ----
 ## Useful searches
 
-[PRs triaged into P2021](https://github.com/w3c/w3process/issues?q=is%3Aopen+-label%3A%22P2021%3A+Priority%22+milestone%3A%22Process+2021%22+) which are not priorities.
+[PRs triaged into P2021](https://github.com/w3c/process/issues?q=is%3Aopen+-label%3A%22P2021%3A+Priority%22+milestone%3A%22Process+2021%22+) which are not priorities.
 
 
 ----

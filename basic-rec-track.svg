@@ -1,4 +1,4 @@
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 40 630 180" width="100%">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 30 630 180" width="100%">
 			<title>Basic W3C Recommendation Track</title>
 			<!-- basic maturity states -->
 			<g role="list">
@@ -33,8 +33,8 @@
 								<g role="img">
 									<title>Publish a new Working Draft</title>
 								</g>
-								<text font-size="8">
-									<tspan x="70" y="100">WG Decision</tspan>
+								<text font-size="8" text-anchor="middle">
+									<tspan x="97" y="100">WG Decision</tspan>
 								</text>
 								<path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 2"></path>
 								<polygon points="120,114 116,124 114,113"></polygon>
@@ -46,8 +46,8 @@
 								<g role="img">
 									<title>Advance to Candidate Recommendation</title>
 								</g>
-								<text x="138" y="126" font-size="8">WG Decision +</text>
-								<text x="138" y="134" font-size="8">Team Approval</text>
+								<text x="135" y="129" font-size="8">WG Decision +</text>
+								<text x="135" y="137" font-size="8">Team Approval</text>
 								<path stroke="#060" d="M135,140h81"></path>
 								<polygon points="211,136 221,140 211,144"></polygon>
 							</a>
@@ -63,13 +63,6 @@
 						<text aria-hidden="true" font-size="14" font-weight="bold"
 						      y="144" x="260" text-anchor="middle" >CRS</text>
 					</a>
-					<a href="#crd-1">
-						<ellipse role="img" id="crd-1" ry="18" rx="38" cy="80" cx="260" stroke="black" fill="#fff">
-						<title>Candidate Recommendation Draft (CRD)</title>
-						</ellipse>
-						<text aria-hidden="true" font-size="14" font-weight="bold"
-						      y="84" x="260" text-anchor="middle">CRD</text>
-					</a>
 					<g role="list">
 					<!-- CRS to CRD -->
 						<g role="listitem">
@@ -77,21 +70,73 @@
 								<g role="img">
 									<title>Publish revised Candidate Recommendation Draft</title>
 								</g>
-								<text font-size="8">
-									<tspan x="182" y="110">WG Decision</tspan>
+								<text font-size="8" text-anchor="end">
+									<tspan x="232" y="118">WG</tspan><tspan x="232" y="126">Decision</tspan>
 								</text>
 								<path stroke="#000" d="M234,127v-34"></path>
 								<polygon points="234,92 230,102 238,102"></polygon>
 							</a>
 						</g>
+					<!-- Update CRS in place -->
+						<g role="listitem">
+							<a href="#cr-1">
+								<g role="img">
+									<title>Publish revised Candidate Recommendation Snapshot</title>
+								</g>
+								<text font-size="8">
+									<tspan x="290" y="99">WG Decision</tspan>
+									<tspan x="290" y="107">Team Approval</tspan>
+								</text>
+								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 285,108 286,117" stroke-dasharray="6 2" fill="none"></path>
+							</a>
+						</g>
+					<!-- Advance to PR -->
+						<g role="listitem" fill="#060">
+						<a href="#pr-1">
+							<g role="img">
+							<title>Advance to Proposed Recommendation</title>
+							</g>
+							<text x="298" y="121" font-size="8">WG Decision +</text>
+							<text x="298" y="129" font-size="8">Team Approval +</text>
+							<text x="298" y="137" font-size="8">AC Review</text>
+							<path d="M298,140h77" stroke="#060"></path>
+							<polygon points="374,136 384,140 374,144"></polygon>
+						</a>
+						</g>
+					<!-- Return to WD -->
+						<g role="listitem" fill="#900">
+							<a href="#wd-1">
+								<g role="img">
+								<title>Return to Working Draft</title>
+								</g>
+								<text font-size="8" text-anchor="end">
+									<tspan x="228" y="157">WG Decision</tspan>
+									<tspan font-size="6" x="228" y="165">(or Team Decision with AB+TAG Approval)</tspan>
+								</text>
+								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#900"></path>
+								<polygon points="140,145 133,147 140,149"></polygon>
+							</a>
+						</g>
+					</g>
+				</g>
+			<!-- CDR -->
+				<g role="listitem">
+					<a href="#cr-1">
+						<ellipse role="img" id="crd-1" ry="18" rx="38" cy="80" cx="260" stroke="black" fill="#fff">
+						<title>Candidate Recommendation Draft (CRD)</title>
+						</ellipse>
+						<text aria-hidden="true" font-size="14" font-weight="bold"
+						      y="84" x="260" text-anchor="middle">CRD</text>
+					</a>
+					<g role="list">
 					<!-- Update CRD in place -->
 						<g role="listitem">
 							<a href="#crd-1">
 								<g role="img">
 									<title>Publish revised Candidate Recommendation Draft</title>
 								</g>
-								<text font-size="8">
-									<tspan x="282" y="52">WG Decision</tspan>
+								<text font-size="8" text-anchor="middle">
+									<tspan x="259" y="41">WG Decision</tspan>
 								</text>
 								<path stroke="#000" d="M242,64C238,54 244,44 260,44 271,44 277,48 279,54" fill="none" stroke-dasharray="6 2"></path>
 								<polygon points="282,54 277,64 275,53"></polygon>
@@ -104,52 +149,11 @@
 									<title>Publish revised Candidate Recommendation Snapshot</title>
 								</g>
 								<text font-size="8">
-									<tspan x="290" y="102">WG Decision +</tspan>
-									<tspan x="290" y="110">Team Approval</tspan>
+									<tspan x="290" y="99">WG Decision +</tspan>
+									<tspan x="290" y="107">Team Approval</tspan>
 								</text>
 								<path stroke="#000" d="M286,127v-34"></path>
 								<polygon points="286,128 282,118 290,118"></polygon>
-							</a>
-						</g>
-					<!-- Update CRS in place -->
-						<g role="listitem">
-							<a href="#cr-1">
-								<g role="img">
-									<title>Publish revised Candidate Recommendation Snapshot</title>
-								</g>
-								<text font-size="8">
-									<tspan x="290" y="102">WG Decision</tspan>
-									<tspan x="290" y="110">Team Approval</tspan>
-								</text>
-								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="6 10" fill="none"></path>
-								<path stroke="#000" d="M242,124C238,114 244,104 260,104 271,104 277,108 279,114" stroke-dasharray="6 10" stroke-dashoffset="8" fill="none"></path>
-								<polygon points="282,114 277,124 275,113"></polygon>
-							</a>
-						</g>
-					<!-- Advance to PR -->
-						<g role="listitem" fill="#060">
-						<a href="#pr-1">
-							<g role="img">
-							<title>Advance to Proposed Recommendation</title>
-							</g>
-							<text x="300" y="126" font-size="8">WG Decision +</text>
-							<text x="300" y="134" font-size="8">Team Approval</text>
-							<path d="M298,140h77" stroke="#060"></path>
-							<polygon points="374,136 384,140 374,144"></polygon>
-						</a>
-						</g>
-					<!-- Return to WD -->
-						<g role="listitem" fill="#900">
-							<a href="#wd-1">
-								<g role="img">
-								<title>Return to Working Draft</title>
-								</g>
-								<text font-size="8" text-anchor="end">
-									<tspan x="230" y="160">WG Decision</tspan>
-									<tspan x="230" y="168" font-size="6">(or Team Decision with AB+TAG Approval)</tspan>
-								</text>
-								<path d="M140,147h84" stroke-dasharray="4 4" stroke="#900"></path>
-								<polygon points="140,145 133,147 140,149"></polygon>
 							</a>
 						</g>
 					</g>

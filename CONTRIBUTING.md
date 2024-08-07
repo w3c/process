@@ -1,5 +1,5 @@
 # Contributing to the W3C Process Document
-Thank-you for offering to contribute to the [W3C Process Document](https://www.w3.org/Consortium/Process/). Here we provide some details on how you can contribute. 
+Thank-you for offering to contribute to the [W3C Process Document](https://www.w3.org/policies/process/). Here we provide some details on how you can contribute. 
 
 Changes to the process document tend to fall into a few classes, and how the W3C handles these varies. Simple editorial changes may require little review, but more substantial changes will require a more substantial review and discussions by the W3C community. Please read the material below, and get involved as explained. 
 
@@ -11,7 +11,7 @@ For simple editorial changes, please feel free to raise a `pull request` or [rai
 Some changes may appear simple but may actually be more complicated than they appear. Don't worry - please continue to send your `pull request` or [raise an issue](/../../issues) and we can discuss. 
 
 ## The W3C Process Community Group
-The W3C runs a [Process Community Group](https://www.w3.org/community/w3process/), which is an open group created to manage discussions on developing the [W3C Process Document](https://www.w3.org/Consortium/Process/). Some suggestions for changes to the [W3C Process Document](https://www.w3.org/Consortium/Process/) will need to be made within the [Process Community Group](https://www.w3.org/community/w3process/), please see information below as to whether you need to take your suggestions to the group or can just raise a `pull request` or `issue`.
+The W3C runs a [Process Community Group](https://www.w3.org/community/w3process/), which is an open group created to manage discussions on developing the [W3C Process Document](https://www.w3.org/policies/process/). Some suggestions for changes to the [W3C Process Document](https://www.w3.org/policies/process/) will need to be made within the [Process Community Group](https://www.w3.org/community/w3process/), please see information below as to whether you need to take your suggestions to the group or can just raise a `pull request` or `issue`.
 
 ## Changes that Affect the Way the W3C Operates but Do Not Change the Policy
 For changes that affect the way that the W3C operates but do not change policy please do the following:
@@ -23,7 +23,7 @@ The best way to ensure your issue gets added to the [Process Community Group](ht
 
 Another way to ensure the [Process Community Group](https://www.w3.org/community/w3process/) addressed your issue is to check back on the [issues page](/../../issues) page and ask whether it has been addressed. It is more effective to join the group, but you have this option if you need it. 
 
-The [Process Community Group](https://www.w3.org/community/w3process/) will discuss your issue, and decide whether the change can be made or whether the issue needs to be brought to the [Advisory Board](https://www.w3.org/Consortium/Process/#AB) or [Advisory Committee](https://www.w3.org/Consortium/Process/#AC) for discussion; see the next section for more information on this process.
+The [Process Community Group](https://www.w3.org/community/w3process/) will discuss your issue, and decide whether the change can be made or whether the issue needs to be brought to the [Advisory Board](https://www.w3.org/policies/process/#AB) or [Advisory Committee](https://www.w3.org/policies/process/#AC) for discussion; see the next section for more information on this process.
 
 If the [Process Community Group](https://www.w3.org/community/w3process/) agrees the issue does not change the policy and agrees to make the changes detailed in your issue, you may either raise a `pull request` or wait for the Editor to make the required changes. Note: raising a `pull request` **will** be faster. See more details about `pull requests` below.
 
@@ -32,7 +32,7 @@ For changes that represent a change of policy in the W3C, the idea will need to 
 
 You can raise the issue with the [Process Community Group](https://www.w3.org/community/w3process/), and you can suggest (or they will notice) that it needs policy discussion and refer it onwards. But you may prefer to initiate that discussion yourself.
 
-Getting something in front of both the [Advisory Board](https://www.w3.org/Consortium/Process/#AB) or [Advisory Committee](https://www.w3.org/Consortium/Process/#AC) can be tricky. If your organisation is a W3C member please let your Advisory Committee member know; they will then be able to email the Advisory Committee or bring the issue up at an Advisory Committee meeting. To reach the [Advisory Board](https://www.w3.org/2002/ab/) you can [raise an issue](/../../issues) on this repo (at least two AB members monitor this repo) or send an email to ab@w3.org.
+Getting something in front of both the [Advisory Board](https://www.w3.org/policies/process/#AB) or [Advisory Committee](https://www.w3.org/policies/process/#AC) can be tricky. If your organisation is a W3C member please let your Advisory Committee member know; they will then be able to email the Advisory Committee or bring the issue up at an Advisory Committee meeting. To reach the [Advisory Board](https://www.w3.org/2002/ab/) you can [raise an issue](/../../issues) on this repo (at least two AB members monitor this repo) or send an email to ab@w3.org.
 
 Gaining consensus from the [Advisory Board](https://www.w3.org/2002/ab/) or [Advisory Committee](https://www.w3.org/participate/meetings) will take some time. After consensus has been reached you may either raise a `pull request` which include the changes agreed by these committees or wait for the Editor to make the required changes. See more details about `pull requests` below.
 

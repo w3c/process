@@ -13,7 +13,7 @@ if [ $1 ] ; then
 		--md-status-text="<details class=annoying-warning open><summary>This is not the latest Editor’s Draft of the W3C Process.</summary>\
 			<p>This is the “$1” topic branch; make sure this is indeed the one you’re looking for.\
 			If not, the current Editor’s Draft can be found at\
-			<a href='https://www.w3.org/Consortium/Process/Drafts/'>https://www.w3.org/Consortium/Process/Drafts/</a>.<br>\
+			<a href='https://www.w3.org/policies/process/drafts/'>https://www.w3.org/policies/process/drafts/</a>.<br>\
 			(The <a href=#sotd>Status of this document</a> section may have information about the purpose of this branch.)</details>"
 else
 	bikeshed --print=plain -f spec

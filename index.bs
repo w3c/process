@@ -27,22 +27,17 @@
 Title: W3C Process Document
 Group: processcg
 Status: CG-DRAFT
-ED: https://www.w3.org/Consortium/Process/Drafts/
-TR: https://www.w3.org/Consortium/Process/
-Previous Version: https://www.w3.org/2023/Process-20230612/
-Previous Version: https://www.w3.org/2021/Process-20211102/
-Previous Version: https://www.w3.org/2020/Process-20200915/
-Previous Version: https://www.w3.org/2019/Process-20190301/
-Previous Version: https://www.w3.org/2018/Process-20180201/
-Previous Version: https://www.w3.org/2017/Process-20170301/
+ED: https://www.w3.org/policies/process/drafts/
+TR: https://www.w3.org/policies/process/
+Previous Version: https://www.w3.org/policies/process/20231103/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
-Former Editor: Charles McCathie Nevile, Yandex, http://yandex.com
+Former Editor: Charles McCathie Nevile, Yandex, https://yandex.com
 Former Editor: Ian Jacobs, W3C, https://www.w3.org/
 Level: none
-Repository: w3c/w3process
-Shortname: w3process
+Repository: w3c/process
+Shortname: process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
 	by developing common protocols that promote its evolution and ensure its interoperability.
@@ -51,19 +46,20 @@ Abstract:
 	This document does not describe the internal workings of the Team.
 
 	For more information about the W3C mission and the history of W3C,
-	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
+	please refer to <a href="https://www.w3.org/about/">About W3C</a>.
 Status Text:
 	This document,
-	which is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>,
+	which is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>,
 	is a work in progress
 	and further changes may occur before completion of this revision cycle.
-	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
+	As detailed in <a href="https://www.w3.org/policies/process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
-Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
+Issue Tracking: Github (preferred) https://github.com/w3c/process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
+Complain About: accidental-2119 yes
 </pre>
 
 <style>
@@ -79,13 +75,15 @@ table { margin-left: auto; margin-right: auto }
 
 :focus path,
 :focus polygon,
+:focus rect,
 :focus ellipse {
-	stroke-width: 4px;
+	stroke-width: 3px;
 }
 g g:hover path,
 g g:hover polygon,
+g g:hover rect,
 g g:hover ellipse {
-	stroke-width: 4px;
+	stroke-width: 3px;
 }
 :focus text,
 g g:hover text {
@@ -117,14 +115,14 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
 	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
-	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
+	The <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	and other policies
 	incorporated by normative reference as a part of the Process Document
 	are equally binding.
 
-	The Patent Policy and CEPC place additional obligations on Members, Team, and other participants in W3C.
+	The Patent Policy and Code of Conduct place additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
-	The Process Document, Patent Policy, and CEPC have been designed to allow each to evolve independently.
+	The Process Document, Patent Policy, and Code of Conduct have been designed to allow each to evolve independently.
 
 	In the Process Document, the term “participant” refers to an individual, not an organization.
 
@@ -184,7 +182,7 @@ Introduction</h2>
 	of its chartered [=Working Groups=] and [=Interest Groups=],
 	see [[#Policies]] and [[#GAGeneral]].
 	W3C also operates Community and Business Groups,
-	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
+	which are separately described in <a href="https://www.w3.org/community/about/process/">their own process document</a> [[BG-CG]].
 
 	In addition, several groups are formally established by the Consortium:
 	the <a href="#AC">W3C Advisory Committee</a>, which has a representative from each Member,
@@ -249,8 +247,8 @@ Members</h3>
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
-	as described in “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]];
-	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List">current W3C Members</a> [[MEMBER-LIST]]).
+	as described in “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]];
+	(refer to the public list of <a href="https://www.w3.org/membership/list/">current W3C Members</a> [[MEMBER-LIST]]).
 	The <a href="#Team">Team</a> <em class="rfc2119">must</em> ensure
 	that Member participation agreements remain <a href="#Team-only">Team-only</a>
 	and that no Member receives preferential treatment within W3C.
@@ -289,7 +287,13 @@ Rights of Members</h4>
 			In <a href="#GAGeneral">Working Groups and Interest Groups</a>.
 
 		<li>
-			In <a href="#GAEvents">Workshops and Symposia</a>;
+			In [=Workshops=].
+
+			A <dfn id=EventsW>Workshop</dfn> is an event whose goal is usually
+			either to convene experts and other interested parties
+			for an exchange of ideas about a technology or policy,
+			or to address the pressing concerns of W3C Members.
+			(See <a href="https://www.w3.org/Guide/meetings/workshops">Workshops</a> in [[GUIDE]])
 
 		<li>
 			On the Team, as <a href="#fellows">W3C Fellows</a>.
@@ -382,7 +386,7 @@ The W3C Team</h3>
 	unpaid interns,
 	and W3C Fellows.
 	<dfn id="fellows">W3C Fellows</dfn> are Member employees working as part of the Team;
-	see the <a href="https://www.w3.org/Consortium/Recruitment/Fellows">W3C Fellows Program</a> [[FELLOWS]].
+	see the <a href="https://www.w3.org/careers/fellows/">W3C Fellows Program</a> [[FELLOWS]].
 	The Team provides technical leadership about Web technologies,
 	organizes and manages W3C activities to reach goals
 	within practical constraints (such as resources available),
@@ -441,7 +445,7 @@ Expectations and Discipline</h5>
 	are responsible for assessing and attesting to the qualities of those nominees.
 
 	<p>Participants in any W3C activity <em class="rfc2119">must</em> abide
-	by the terms and spirit of the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a> [[!CEPC]]
+	by the terms and spirit of the <a href="https://www.w3.org/policies/code-of-conduct/">W3C Code of Conduct</a> [[!COC]]
 	and the participation requirements described in
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
@@ -452,11 +456,11 @@ Expectations and Discipline</h5>
 	if serious and/or repeated violations,
 	such as failure to meet the requirements on individual behavior of
 	(a) this process
-	and in particular the CEPC, or
+	and in particular the Code of Conduct, or
 	(b) the membership agreement, or
 	(c) applicable laws,
 	occur.
-	Refer to the <a href="https://www.w3.org/Guide/process/banning.html">Guidelines to suspend or remove participants from groups</a>.
+	Refer to the <a href="https://www.w3.org/Guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
 
 <h5 id="coi">
 Conflict of Interest Policy</h5>
@@ -521,10 +525,12 @@ Individuals Representing a Member Organization</h5>
 	the number of individuals representing a W3C Member
 	(or group of <a href="#MemberRelated">related Members</a>).
 
-<h4 id="GeneralMeetings">
+<h4 id="GeneralMeetings" oldids="GAEvents, EventsS">
 Meetings</h4>
 
-	The requirements in this section apply to the official meetings of any [=W3C group=].
+	The requirements in this section apply to the official meetings of any [=W3C group=],
+	as well as to official W3C meetings with open-ended participation from the Membership and/or the public,
+	such as [=Workshops=].
 
 	<p>W3C distinguishes two types of meetings:</p>
 
@@ -591,6 +597,8 @@ Meeting Scheduling and Announcements</h5>
 	about the date and location of a meeting.
 	Shorter notice for a meeting is allowed
 	provided that there are no objections from group participants.
+	In the case of [=Workshops=],
+	shorter notice is not allowed.
 
 <h5 id="meeting-minutes">
 Meeting Minutes</h5>
@@ -749,7 +757,7 @@ Participation in the Advisory Committee</h4>
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	When an organization joins W3C
-	(see “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]]),
+	(see “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]]),
 	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
@@ -837,7 +845,7 @@ Advisory Committee Meetings</h4>
 	The Team <em class="rfc2119">must</em> announce the region of each Advisory Committee meeting
 	at least <span class="time-interval">one year</span> in advance.
 
-	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
+	More information about <a href="https://www.w3.org/events/ac/">Advisory Committee meetings</a> [[AC-MEETING]]
 	is available at the Member website.
 
 <h3 id=elected-groups>
@@ -889,8 +897,9 @@ Composition of the Advisory Board</h5>
 	With the input of the [=AB=],
 	the [=Team=] appoints the Chair,
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
-	The Chair(s) are subject to ratification by secret ballot
-	by two thirds of the AB upon appointment.
+	Upon appointment,
+	the Chair(s) are subject to ratification by secret ballot,
+	requiring approval by two thirds of the elected participants.
 	Chair selection <em class=rfc2119>must</em> be run
 	at least at the start of each regular term,
 	as well as when a majority of the participants request it;
@@ -977,16 +986,12 @@ Role of the Technical Architecture Group</h5>
 	the W3C Advisory Committee,
 	Advisory Board,
 	and Team.
-	Please refer to the <a href="https://www.w3.org/2004/10/27-tag-charter.html">TAG charter</a> [[TAG-CHARTER]]
-	for more information about the background and scope of the TAG,
-	and the expected qualifications of TAG participants.
 
 	When the [=TAG=] votes to resolve an issue,
 	each TAG participant
 	(whether appointed, elected, or the Chair)
 	has one vote;
-	see also the section on <a href="https://www.w3.org/2004/10/27-tag-charter.html#Voting">voting in the TAG charter</a> [[TAG-CHARTER]]
-	and the general section on <a href="#Votes">votes</a> in this Process Document.
+	see also the general section on <a href="#Votes">votes</a> in this Process Document.
 
 	Details about the [=TAG=]
 	(e.g., the list of TAG participants, mailing list information, and summaries of TAG meetings)
@@ -1253,14 +1258,15 @@ Technical Architecture Group Appointments</h5>
 	for more than two <em>consecutive</em> terms.
 	(Partial terms used to fill a vacated seat do not count towards this limit.)
 
-	Note: Individuals who have reached the limit of two consecutive appointed terms
-	<em class=rfc2119>may</em> freely run for election
-	if they wish to continue serving on the [=TAG=].
+	Note: Since there are no limits on elected terms,
+	this limit on appointed terms does not constrain
+	term-limited appointees
+	from running for election at any time.
 
 	The [=Team=]'s choice of appointee(s)
 	is subject to ratification by secret ballot
 	by both the [=AB=] and the [=TAG=],
-	each requiring a two-thirds approval.
+	requiring a two-thirds approval from each.
 	In the case of regularly scheduled elections,
 	the [=TAG=] participants in this ratification are
 	its members for the upcoming term.
@@ -1382,9 +1388,9 @@ Chartered Groups: Working Groups and Interest Groups</h3>
 
 			Working Groups have additional participation requirements
 			described in the W3C Patent Policy [[!PATENT-POLICY]],
-			see particularly the “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Obligations">Licensing Obligations of Working Group Participants</a>”
+			see particularly the “<a href="https://www.w3.org/policies/patent-policy/#sec-Obligations">Licensing Obligations of Working Group Participants</a>”
 			and the patent claim exclusion process
-			in “<a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Exclusion">Exclusion From W3C RF Licensing Requirements</a>”.
+			in “<a href="https://www.w3.org/policies/patent-policy/#sec-Exclusion">Exclusion From W3C RF Licensing Requirements</a>”.
 
 
 		<dt>
@@ -1613,7 +1619,7 @@ Invited Expert in a Working Group</h5>
 
 		<li>
 			agree to the terms of the
-			<a href="https://www.w3.org/Consortium/Legal/collaborators-agreement">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
+			<a href="https://www.w3.org/invited-experts/agreement-2023/">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
 
 		<li>
 			accept the participation terms set forth in the charter,
@@ -1702,22 +1708,80 @@ Team Representative in an Interest Group</h5>
 <h2 id=group-lifecyle>
 Lifecycle of Chartered Groups</h2>
 
-<h3 id="WGCharterDevelopment">
-Initiating Charter Development</h3>
+	W3C creates [=charters=] for [=chartered groups=] based on interest from the [=Members=] and [=Team=].
+	[=Charters=] are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
+	Prior to [=AC Review=],
+	<dfn>charter drafts</dfn> go through a public [=charter refinement=] phase
+	during which the [=charter=] receives [=wide review=]
+	and the [=Chartering Facilitator=] attempts to find [=consensus=] on the charter.
+	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
+	when starting development of a new charter prior to the [=charter refinement=] phase.
 
-	W3C creates charters for [=chartered groups=]
-	based on interest from the Members and Team.
-	The Team <em class="rfc2119">must</em> notify the Advisory Committee
-	when a charter for a new Working Group or Interest Group is in development.
-	This is intended to raise awareness,
-	even if no formal proposal is yet available.
-	Advisory Committee representatives <em class="rfc2119">may</em> provide
-	feedback on the <a href="#ACCommunication">Advisory Committee discussion list</a>
-	or via other designated channels.
+<h3 id="charter-initiation">
+Initiating Charter Refinement</h3>
 
-	W3C <em class="rfc2119">may</em> begin work
-	on a Working Group or Interest Group charter
-	at any time.
+	Formal [=charter refinement=] (see below) is initiated
+	by the [=Team=] sending a [=charter review notice=]
+	to the [=Advisory Committee=],
+	to the public,
+	and, in the case of rechartering, to the affected [=Group=].
+
+	This <dfn>charter review notice</dfn> must include:
+	* A short summary of the proposal.
+	* The location of the [=charter draft=], which must be public.
+	* How to participate in the discussion of this [=charter draft=] and where to file issues.
+	* The expected duration of the [=charter refinement=] phase,
+		which must not be less than 28 days,
+		and should not be more than 6 months.
+	* Who the [=Chartering Facilitator=] is.
+
+	The [=Team=] is responsible for initiating [=charter refinement=]
+	at its discretion, in consideration of discussions with the community.
+	An [=Advisory Committee representative=] <em class=rfc2119>may</em> formally request
+	that the [=Team=] initiate [=charter refinement=].
+	The Team <em class=rfc2119>may</em> deny such a request
+	if it thinks the proposal is insufficiently mature or does not align with W3C's scope and mission.
+	This rejection is a [=Team Decision=] which can be <a href="#registering-objections">Formally Objected to</a>.
+
+<h3 id="charter-development" oldids="WGCharterDevelopment">
+Charter Refinement</h3>
+
+	During <dfn>charter refinement</dfn>,
+	the W3C community further develops the [=charter draft=]
+	with the goal of achieving [=consensus=] on the proposal.
+	The <dfn>Chartering Facilitator</dfn>
+	acts as [=Chair=] for the [=charter refinement=] process.
+
+	Note: The [=Chartering Facilitator=] is not necessarily (and often is not) the [=Chair=] of the [=chartered group|group=] being chartered.
+
+	During [=charter refinement=]:
+	* All issues filed against the [=charter draft=] must be [=formally addressed=],
+		and their resolutions tracked in a disposition of comments.
+	* [=Wide review=] of the [=charter draft=] is initiated and completed.
+	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
+		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
+
+	The [=charter refinement=] phase concludes when there is either:
+	* A [=group decision=] to initiate [=AC Review=] of the [=charter draft=].
+	* A [=chair decision=] to abandon the proposal.
+
+	Any [=Formal Objection=] filed during the  [=charter refinement=] phase--
+	other than an objection to the choice of [=Chartering Facilitator=]
+	or to a decision to abandon the proposal--
+	is not considered [[#registering-objections|registered]]
+	until the close of the [=Advisory Committee Review=] of the charter,
+	and is registered against that [=W3C Decision=].
+
+	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together,
+	while allowing [=Formal Objections=] to [=Chartering Facilitator=] misbehavior
+	that the [=Team=] is failing to address
+	to be processed immediately.
+
+	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
+	the [=Chartering Facilitator=] must inform the AC
+	(and, in the case of rechartering, the affected [=Group=])
+	of this delay, of the status of the discussions, and of the revised expected duration of [=Charter Refinement=].
+	This report should be public.
 
 <h3 id="WGCharter">
 Content of a Charter</h3>
@@ -1742,8 +1806,8 @@ Content of a Charter</h3>
 		<li>
 			Expected milestone dates where available.
 
-			Note: A charter is <em class="rfc2119">not required</em>
-			to include schedules for review of other group's deliverables.
+			Note: A charter does not need to include
+			schedules for review of other group's deliverables.
 
 		<li>
 			The process for the group to approve the release of deliverables
@@ -1762,6 +1826,9 @@ Content of a Charter</h3>
 		<li>
 			The <a href="#confidentiality-levels">level of confidentiality</a>
 			of the group's proceedings and deliverables.
+
+		<li>
+			The name and affiliation of the [=Chair=] or co-Chairs.
 
 		<li>
 			Meeting mechanisms and expected frequency.
@@ -1867,39 +1934,54 @@ Content of a Charter</h3>
 	who represent the same Member organization or group of <a href="#MemberRelated">related Members</a>).
 
 <h3 id="CharterReview">
-Advisory Committee Review of a Charter</h3>
+Charter Review and Approval</h3>
 
-	The [=Team=] <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
-	of every new or substantively modified Working Group or Interest Group charter,
-	except for either:
-	* a charter extension
-	* substantive changes to a charter that do not affect the way the group functions in any significant way.
+<h4 id="charter-major-changes">
+New Charters and Major Changes</h4>
 
-	The review period <em class="rfc2119">must</em> be at least 28 days.
-	The following are examples of substantive changes that would not require an [=Advisory Committee Review=]:
-	the addition of an in-scope deliverable,
-	a change of [=Team Contact=],
-	or a change of [=Chair=].
-	Such changes must nonetheless be announced
-	to the [=Advisory Committee=]
-	and to <a href="#wgparticipant"> participants in the Working</a> or <a href="#igparticipant">in the Interest Group</a>,
-	and a rationale must be provided.
+	Any new [=charter=] (including re-chartering of existing [=chartered groups=])
+	and most substantive changes to an already-approved [=charter=]
+	of a [=Working Group=] or [=Interest Group=]
+	<em class=rfc2119>must</em> be approved by a [=W3C Decision=] following an [=AC Review=] of that [=charter=].
+	(See [[#charter-minor-changes]] for minor changes that can be approved by a [=Team Decision=].)
+
+	The review period <em class=rfc2119>must</em> be at least 28 days.
+	Any [=Advisory Committee representative=] <em class=rfc2119>may</em> request an extended review period
+	in response to the Call for Review;
+	upon receipt of any such request,
+	the [=Team=] <em class=rfc2119>must</em> extend the review period
+	to at least 60 days.
 
 	The Call for Review of a substantively modified charter
-	<em class="rfc2119">must</em> highlight important changes
+	<em class=rfc2119>must</em> highlight important changes
 	(e.g., regarding deliverables or resource allocation)
 	and include rationale for the changes.
 
-	As part of the Advisory Committee review of any new or substantively modified Working Group charter,
-	any Advisory Committee representative <em class="rfc2119">may</em> request an extended review period.
+	The Call for Review of a new or substantively modified charter
+	<em class="rfc2119">must</em> include a disposition of comments for those received during the [=charter refinement=] process,
+	highlighting any issues that were closed despite sustained objections.
 
-	Such a request must be submitted with a Member's comments
-	in response to the Call for Review.
-	Upon receipt of any such request,
-	the [=Team=] <em class="rfc2119">must</em> ensure
-	that the Call for Participation for the Working Group
-	occurs at least 60 days
-	after the Call for Review of the charter.
+<h4 id="charter-minor-changes">
+Minor Changes to Active Charters</h4>
+
+	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
+	that do not affect the way the group functions in any significant way
+	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
+	in which case they do not require [=charter refinement=] nor [=Advisory Committee Review=].
+	The following are examples of such changes:
+	the addition of an in-scope deliverable,
+	a change of [=Team Contact=],
+	or a change of [=Chair=].
+
+	The [=Team=] <em class=rfc2119>may</em> nevertheless choose
+	initial [=charter refinement=] and/or [=Advisory Committee Review=]
+	when it thinks the changes would benefit from more scrutiny or explicit buy-in.
+
+	Though [=Advisory Committee Review=] is not required,
+	such changes <em class=rfc2119>must</em> still be announced
+	to the [=Advisory Committee=],
+	and to participants in the <a href="#wgparticipant">Working</a> or <a href="#igparticipant">Interest</a> Group,
+	and a rationale must be provided.
 
 <h3 id="cfp">
 Call for Participation in a Chartered Group</h3>
@@ -2012,7 +2094,7 @@ Types of Decisions</h3>
 	In contrast,
 	a <dfn id="def-w3c-decision">W3C decision</dfn> is
 	determined by the [=Team=] on behalf of the W3C community
-	by assessing the consensus of the W3C Community after an [=Advisory Committee review=].
+	by <a href="#ACReviewAfter">assessing the consensus of the W3C Community</a> after an <a href="#ACReview">Advisory Committee review</a>.
 
 <h3 id=consensus-building>
 Consensus Building</h3>
@@ -2034,9 +2116,6 @@ Consensus</h4>
 	(<a href="#ftf-meeting">face-to-face</a>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
-
-	Note: The CEO has the role of
-	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
 	to describe the level of support for a decision among a set of eligible individuals:
@@ -2094,10 +2173,10 @@ Consensus</h4>
 	Note: Chairs have substantial flexibility
 	in how they obtain and assess consensus among their groups.
 	Unless otherwise constrained by charter,
-	they may use modes including but not limited to explicit calls for consensus,
+	they can use modes including but not limited to explicit calls for consensus,
 	polls of participants,
 	“lazy consensus” in which lack of objection after sufficient notice is taken as assent;
-	or they may also delegate and empower a document editor
+	they can also delegate and empower a document editor
 	to assess consensus on their behalf,
 	whether in general
 	or for specific pre-determined circumstances
@@ -2288,16 +2367,20 @@ Registering Formal Objections</h3>
 	rationales,
 	and decisions <em class="rfc2119">should</em> also be recorded.
 
-	A record of each [=Formal Objection=] against a decision regarding a publicly-available document
+	No later than when the <a href="#team-fo-mediation">relevant Council is initiated</a>,
+	a record of each [=Formal Objection=] against a decision regarding a publicly-available document
 	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>;
 	likewise, a record of each [=Formal Objection=] against a [=Member-only|Member-visible=] decision
 	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">available to Members</a>.
 	A Call for Review to the Advisory Committee
 	<em class="rfc2119">must</em> identify any [=Formal Objections=]
 	related to that review.
+	This requirement is waived
+	if the [=Formal Objection=] is resolved to the satisfaction of the objector
+	before its <a href="#confidentiality-change">confidentiality is changed</a>.
 
 	Note: [=Formal Objections=] against matter in a [=technical report=]
-	are required to be addressed before <a href="#rec-advance">requesting advancement</a>
+	<a href="#adv-verif-reqs">are expected to be fully addressed</a> before <a href="#rec-advance">requesting advancement</a>
 	of the [=technical report=].
 
 	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
@@ -2411,7 +2494,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	The [=Team=] may report comments verbatim
 	or may paraphrase them while preserving their intent;
 	they may also elide inappropriate comments,
-	such as any that violate applicable laws or the [[CEPC]].
+	such as any that violate applicable laws or the [[COC]].
 
 	Before a Council forms,
 	the [=Team=] presents the entire list of potential members
@@ -2422,11 +2505,11 @@ Council Participation, Dismissal, and Renunciation</h5>
 	would compromise the integrity of the Council decision,
 	and vote whether to dismiss that potential member.
 	No one is allowed to vote on their own dismissal;
-	each dismissal is decided by simple majority of those not abstaining.
+	each dismissal is enacted if there are at least as many ballots for as against.
 
 	Note: Since dismissal is individual,
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
-	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
+	the entire [=TAG=] or [=AB=] is not expected to be dismissed.
 
 	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
@@ -2446,15 +2529,22 @@ Council Participation, Dismissal, and Renunciation</h5>
 	as they can of anyone else in the W3C community.
 
 <h5 id=council-short-circuit>
-Unanimous Short Circuit</h5>
+Short Circuit</h5>
 
 
 	The full Council process <em class=rfc2119>may</em> be short-circuited if
 	the Team recommends a resolution
-	and every potential member of a Council who is not renouncing their seat
-	votes affirmatively (no abstentions) to adopt this resolution.
-	As an exception, Tim Berners-Lee <em class=rfc2119>may</em> abstain
-	without blocking the adoption of the resolution.
+	and potential members of a Council who are not renouncing their seat
+	confirm it by a vote which results in both of the following:
+	* at least 80% of them vote affirmatively to adopt this resolution
+      (in addition, Tim Berners-Lee <em class=rfc2119>may</em> also abstain)
+	* none of them vote against adopting the resolution
+
+	The request for confirmation <em class=rfc2119>must</em> be open for a period of at least two weeks,
+	or until every potential member of the Council not renouncing their seat
+	has voted,
+	whichever is shortest.
+
 
 	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
 	and prior to choosing a [=W3C Council Chair|Chair=].
@@ -2524,8 +2614,9 @@ Council Deliberations</h5>
 	a [=W3C Council=] is unable to reach consensus,
 	the [=W3C Council Chair=] may instead resort to voting.
 	In that case,
-	the decision is made by simple majority,
-	with the [=W3C Council Chair=] breaking any tie.
+	the decision is adopted if there are more ballots for than against;
+	in case of a tie,
+	the [=W3C Council Chair=] determines the outcome.
 	However,
 	if the decision or proposal being objected to
 	originated with the TAG or AB,
@@ -2544,6 +2635,7 @@ Council Deliberations</h5>
 	The deliberations of a [=W3C Council=] are confidential to that [=W3C Council=]
 	and its [=Council Team Contact=].
 
+	<p id=45-day-update>
 	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
 	and of the status of the discussions.
@@ -2587,16 +2679,17 @@ Appealing Council Decisions</h5>
 	of a Council decision issued in a [=Council Report=].
 
 <h3 id="ACReview">
-Advisory Committee Reviews</h3>
+Advisory Committee Reviews and W3C Decisions</h3>
 
-	<dfn export lt="Advisory Committee review | AC Review"> Advisory Committee review</dfn> is the process
-	by which the [=Advisory Committee=] formally confers its approval
+	The [=Advisory Committee=] formally confers its approval
 	on [=charters=],
 	[=technical reports=],
-	and other matters.
+	and other matters
+	through an <dfn export lt="Advisory Committee review | AC Review">Advisory Committee review</dfn>
+	and its resulting [=W3C Decision=].
 
 <h4 id="ACReviewStart">
-Start of a Review Period</h4>
+Initiating an Advisory Committee Review</h4>
 
 	Each [=Advisory Committee review=] period
 	begins with a Call for Review from the [=Team=] to the [=Advisory Committee=].
@@ -2635,7 +2728,7 @@ Start of a Review Period</h4>
 	(e.g., in light of comments from other Members).
 
 <h4 id="ACReviewAfter">
-After the Review Period</h4>
+Determining the W3C Decision</h4>
 
 	After the review period,
 	the [=Team=] determines the appropriate [=W3C Decision=],
@@ -2775,8 +2868,23 @@ Appeal by Advisory Committee Representatives</h3>
 	and “Abstain”,
 	together with Comments.
 
-	If the number of votes to reject
-	exceeds the number of votes to approve,
+	The level of support needed for an [=Advisory Committee Override=] to pass
+	depends on the level of ballot participation 
+	(including explicit “abstain” ballots) 
+	by [=Advisory Committee Representatives=]:
+	* if fewer than 5% participate,
+		the vote fails.
+	* if at least 5% but no more than 15% participate,
+		and the number of “Approve” ballots exceeds three times (3x) the number of “Reject” ballots,
+		the vote passes.
+	* if more than 15% but fewer than 20% participate,
+		and the number of “Approve” ballots exceeds twice (2x) the number of “Reject” ballots,
+		the vote passes.
+	* if 20% or more participate,
+		and the number of “Approve” ballots exceeds the number of “Reject” ballots,
+		the vote passes.
+
+	If the vote passes,
 	the decision is overturned.
 	In that case, there are the following possible next steps:
 
@@ -2853,9 +2961,9 @@ Types of Technical Reports</h3>
 		<dd>
 			[=Working Groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
-			These are typically published in a separate [=registry report=],
-			although they can also be directly embedded in [=Recommendation Track=] documents
-			as a [=registry section=].
+			A registry can be published either as a distinct [=registry report=],
+			or directly within a [=Recommendation Track=] document
+			as an [=embedded registry=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
 			and can even be done without a [=Working Group=].
@@ -2973,7 +3081,7 @@ Wide Review</h5>
 	the record of requests to and responses from reviewers,
 	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
 	and groups identified as dependencies in the charter
-	or identified as <a href="https://www.w3.org/2001/11/StdLiaison.html">liaisons</a> [[LIAISON]],
+	or identified as <a href="https://www.w3.org/liaisons/">liaisons</a> [[LIAISON]],
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
@@ -3135,18 +3243,6 @@ Candidate Amendments</h4>
 	except that it proposes a new feature
 	rather than an error correction.
 
-	If there is no group chartered to maintain a [=technical report=],
-	the [=Team=] <em class="rfc2119">may</em> maintain its [=errata=]
-	and associated [=candidate corrections=].
-	Such corrections <em class=rfc2119>must</em> be marked
-	as <dfn>Team correction</dfn>,
-	and do not constitute
-	a normative portion of the Recommendation,
-	as defined in the Patent Policy [[PATENT-POLICY]]
-	(i.e. they are not covered by the Patent Policy).
-	The [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
-	on [=Team corrections=] that it produces.
-
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
@@ -3154,6 +3250,44 @@ Candidate Amendments</h4>
 	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
 	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
+
+<h4 id=no-group-maintenance>
+Maintenance Without a Group</h4>
+
+	For all [[#recs-and-notes|types of technical reports]] and all [[#maturity-stages|maturity stages]],
+	if there is no [=chartered group|group=] chartered to maintain a [=technical report=],
+	the [=Team=] <em class="rfc2119">may</em> republish it
+	at the same [[#maturity-stages|maturity stage]],
+	integrating as needed:
+	<ol>
+		<li><a href="#correction-classes">class 1 changes</a>;
+		<li>inline [=errata=];
+		<li>[=candidate corrections=],
+			which <em class=rfc2119>must</em> be marked as <dfn>Team correction</dfn>;
+		<li><a href="#correction-classes">class 2 changes</a> other than inline [=errata=] and [=Team corrections=].
+	</ol>
+
+	To avoid any potential doubt or disagreement
+	about whether changes really do fall into <a href="#correction-classes">class 2</a>,
+	the [=Team=] <em class=rfc2119>should</em> be conservative,
+	limiting itself to obvious and limited fixes,
+	and <em class=rfc2119>must</em> avoid substantial rephrasing,
+	even of non-normative examples and notes.
+	If any such change is desired,
+	the [=Team=] <em class=rfc2119>must</em> mark it as a [=Team correction=].
+
+	[=Team corrections=] do not constitute
+	a normative portion of the Recommendation,
+	as defined in the Patent Policy [[PATENT-POLICY]]
+	(i.e., they are not covered by the Patent Policy).
+	For [=Candidate Recommendations=],
+	[=Proposed Recommendations=],
+	[=W3C Recommendations=],
+	[=Candidate Registries=],
+	[=W3C Registries=],
+	as well as [=W3C Statements=],
+	the [=Team=] <em class=rfc2119>must</em> solicit [=wide review=]
+	on [=Team corrections=] that it produces.
 
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
@@ -3198,6 +3332,9 @@ The W3C Recommendation Track</h3>
 		<li>Publication of a [=Proposed Recommendation=].
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
+
+	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
+	is any document whose current status is one of the five in the numbered list above.
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
 		<pre class=include-raw>
@@ -3278,7 +3415,7 @@ Maturity Stages on the Recommendation Track</h4>
 			that the document is considered complete and fit for purpose,
 			and that no further refinement to the text is expected
 			without additional implementation experience and testing;
-			additional features in a later revision may however be expected.
+			however, additional features might be expected in a later revision.
 			A [=Candidate Recommendation=] is expected to be as well-written,
 			detailed,
 			self-consistent,
@@ -3309,10 +3446,8 @@ Maturity Stages on the Recommendation Track</h4>
 					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
 				<dd>
 					A Candidate Recommendation Draft
-					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
-					to integrate changes from the previous [=Candidate Recommendation Snapshot=]
-					that the Working Group intends to include
-					in a subsequent [=Candidate Recommendation Snapshot=].
+					is published
+					to solicit review of intended changes from the previous [=Candidate Recommendation Snapshot=].
 					This allows for wider review of the changes
 					and for ease of reference to the integrated specification.
 
@@ -3324,7 +3459,7 @@ Maturity Stages on the Recommendation Track</h4>
 					A [=Candidate Recommendation Draft=]
 					<em>does not</em> provide an exclusion opportunity;
 					instead, it is considered a [=Working Draft=]
-					for the purpose of the <a href="https://www.w3.org/Consortium/Patent-Policy">W3C Patent Policy</a> [[PATENT-POLICY]].
+					for the purpose of the <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[PATENT-POLICY]].
 			</dl>
 
 			A <dfn>Rescinded Candidate Recommendation</dfn>
@@ -3489,7 +3624,7 @@ Advancement on the Recommendation Track</h4>
 		<li>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
-		<li>
+		<li id=adv-verif-reqs>
 			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
@@ -3562,8 +3697,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Team=] verification,
-			or fulfill the criteria for [[#streamlined-update]].
+			<em class="rfc2119">must </em> obtain [=Team=] verification.
 			[=Team=] verification (a [=Team decision=]):
 			* <em class=rfc2119>should</em> be withheld
 				if any Process requirements are not met,
@@ -3625,88 +3759,6 @@ Updating Mature Publications on the Recommendation Track</h4>
 	The [=Team=] <em class="rfc2119">must</em> announce the publication
 	of the revised specification
 	to other W3C groups and the Public.
-
-
-<h5 id="streamlined-update">
-Streamlined Publication Approval</h5>
-
-	Note: These criteria are intentionally stricter than
-	the general requirements for an [=update request=].
-	This is in order to minimize ambiguities and the need for expert judgment,
-	and to make self-evaluation practical.
-
-	In order to streamline the publication process in non-controversial cases,
-	verification of an [=update request=] is automatically granted without formal review
-	when the following <em>additional</em> criteria are fulfilled:
-
-	<ul>
-		<li>
-			There <em class=rfc2119>must</em> have been no changes to [=Working Group=] requirements about this document.
-
-		<li>
-			For each of the
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]],
-			if the Horizontal Review Group has made available a set criteria
-			under which their review is not necessary,
-			the [=Working Group=] <em class=rfc2119>must</em> document that these criteria have been fulfilled.
-			Otherwise, the [=Working Group=] <em class=rfc2119>must</em> show
-			that review from that group has been solicited and received.
-
-		<li>
-			No [=Formal Objection=] has been registered against the document.
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em>
-			have [=formally addressed=]:
-			* all issues raised against the document that resulted in changes since the previous publication
-			* all issues raised against changes since the previous publication
-			* all issues raised against the document that were closed since the previous publication with no change to the document
-
-			The response to each of these issues <em class=rfc2119>must</em> be to the satisfaction
-			of the person who raised it:
-			their proposal has been accepted,
-			or a compromise has been found,
-			or they accepted the Working Group's rationale for rejecting it.
-
-			Note: This is stricter than the general Transition Request criteria.
-	</ul>
-
-	Additionally, for updates to [=Recommendations=]
-	with <a href="#revised-rec-substantive">substantive changes</a>
-	or <a href="#revised-rec-features">with new features</a>:
-
-	<ul>
-
-		<li>
-			Changes to the document are limited to
-			[=proposed corrections=] that were included in a [=Last Call for Review of Proposed Corrections=]
-			possibly combined with <a href=#correction-classes>class 1 or 2 changes</a>,
-			and/or (in the case of a [=Recommendation=] that [=allow new feature|allows new features=])
-			[=proposed additions=] that were included in a [=Last Call for Review of Proposed Additions=].
-
-		<li>
-			The [=Working Group=] <em class=rfc2119>must</em> show
-			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
-			as evidenced by passing tests of a test suite
-			providing extensive coverage of the changes,
-			or an alternative streamlined verification implementation requirement
-			described in the [=working Group=] charter has been met.
-
-			Note: This is stricter than the general criteria for [=adequate implementation experience=].
-	</ul>
-
-	The [=Working Group=] must provide written evidence for these claims,
-	and the [=Team=] must make these answers publicly and permanently available.
-
-	After publication,
-	if an AC Representative
-	or Team member
-	doubts that the evidence presented supports the claims,
-	they <em class=rfc2119>may</em> request that a formal review meeting be convened post facto.
-	If that review finds that the requirements were not fulfilled,
-	the Team <em class=rfc2119>may</em> revert the changes
-	by updating in place the status section to indicate that it has been reverted,
-	and by republishing the previously approved version of the technical report.
 
 <h4 id="first-wd">
 Publishing a First Public Working Draft</h4>
@@ -4085,21 +4137,7 @@ Transitioning to W3C Recommendation</h4>
 <h4 id=revising-rec oldids="rec-modify, revised-rec">
 Revising a W3C Recommendation</h4>
 
-	This section details the process for making changes to a [=Recommendation=].
-
-<h5 id="revised-rec-markup">
-Revising a Recommendation: Markup Changes</h5>
-
-	A [=Working group=] <em class="rfc2119">may</em> request republication of a [=Recommendation=]
-	to make corrections that do not result
-	in any changes to the text of the specification.
-	(See <a href="#correction-classes">class 1 changes</a>.)
-
-	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
-	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
-	with such changes incorporated.
-
-<h5 id="revised-rec-editorial">
+<h5 id="revised-rec-editorial" oldids="revised-rec-markup">
 Revising a Recommendation: Editorial Changes</h5>
 
 	[=Editorial changes=] to a [=Recommendation=] require no technical review of the intended changes.
@@ -4107,22 +4145,25 @@ Revising a Recommendation: Editorial Changes</h5>
 	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
 	to make this class of change without passing through earlier maturity stages.
-	(See <a href="#correction-classes">class 2 changes</a>.)
-
-	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
-	the [=Team=] <em class="rfc2119">may</em> republish the [=Recommendation=]
-	with such changes incorporated,
-	including [=errata=] and [=Team corrections=].
+	(See <a href="#class-1">class 1</a> and <a href="#class-2">class 2 changes</a>.)
 
 <h5 id="revised-rec-substantive">
 Revising a Recommendation: Substantive Changes</h5>
+
+	Tentative corrections (see <a href="#class-3">class 3 changes</a>)
+	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
+	using [=candidate corrections=].
+
+	Note: [=Candidate corrections=] do not normatively modify the document;
+	they editorially indicate how one might do so.
+	They are therefore published following the provisions of [[#revised-rec-editorial]].
 
 	A [=candidate correction=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
 	including review by the community to ensure
-	the technical and editorial soundness of the [=candidate amendments=].
+	its technical and editorial soundness.
 	To validate this, the [=Working Group=] must request
 	a [=Last Call for Review of Proposed Amendments=],
 	followed by an [=update request=].
@@ -4136,27 +4177,18 @@ Revising a Recommendation: Substantive Changes</h5>
 	and advance the specification from that state.
 	(See <a href="#correction-classes">class 3 changes</a>.)
 
-	Note: If there is no [=Working Group=] chartered to maintain a [=Recommendation=]
-	the [=Team=] cannot make substantive changes and republish the [=Recommendation=].
-	It can, however, informatively highlight problems and desirable changes
-	using [=errata=] and [=candidate corrections=]
-	and republish as described in [[#revised-rec-editorial|the previous section]].
-
 <h5 id="revised-rec-features">
 Revising a Recommendation: New Features</h5>
 
-	New features (see <a href="#correction-classes">class 4 changes</a>)
-	may be incorporated into a [=Recommendation=]
-	explicitly identified as [=allow new features|allowing new features=]
-	using [=candidate additions=].
-	A [=candidate addition=] can be made normative
-	and be folded into the main text of the [=Recommendation=]
-	using the same process as for [=candidate amendments=],
-	as detailed in [[#revised-rec-substantive]].
+	For [=Recommendations=] explicitly identified as [=allow new features|allowing new features=],
+	tentative new features (see <a href="#correction-classes">class 4 changes</a>)
+	<em class=rfc2119>may</em> be added as [=candidate additions=] in annotations,
+	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
+	in the same fashion as <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
 
-	Note: This prohibition against new features unless explicitly allowed
-	enables third parties to depend on Recommendations having a stable feature-set,
-	as they have prior to the 2020 revision of this Process.
+	Note: Limiting the addition of new features to [=Recommendations=] that explicitly allow them
+	enables third parties to depend on a stable feature-set for [=Recommendations=] that do not advertise that ability,
+	as was the case for all [=Recommendations=] prior to the 2020 revision of this Process.
 
 	To make changes which introduce a new feature
 	to a [=Recommendation=] that does not [=allow new features=],
@@ -4184,7 +4216,7 @@ Incorporating Candidate Amendments</h5>
 		<li>
 			Identify the specific [=candidate amendments=] under review
 			as <dfn>proposed amendments</dfn>
-			(<dfn>proposed corrections</dfn>/<dfn oldids="proposed-addition">proposed additions</dfn>).
+			(<dfn export>proposed corrections</dfn>/<dfn oldids="proposed-addition" export>proposed additions</dfn>).
 
 		<li>
 			Specify the deadline for review comments,
@@ -4322,10 +4354,10 @@ Abandoning a W3C Recommendation</h5>
 	W3C follows the process for <a href="#revising-rec">modifying a Recommendation</a>.
 
 
-	Note: For the purposes of the W3C Patent Policy
+	Note: For the purposes of the W3C Patent Policy,
 	[[PATENT-POLICY]]
 	an [=Obsolete Recommendation|Obsolete=] or [=Superseded Recommendation=] has the status of an active [=Recommendation=],
-	although it is not recommended for future implementation;
+	although it is not advised for future implementation;
 	a [=Rescinded Recommendation=] ceases to be in effect
 	and no new licenses are granted under the Patent Policy.
 
@@ -4427,7 +4459,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
 	The Status of this Document section <em class="rfc2119">should</em> link
-	to the explanation of <a href="https://www.w3.org/2016/11/obsoleting-rescinding/">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
+	to the explanation of <a href="https://www.w3.org/Guide/process/obsolete-rescinded-supserseded">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
 
 	Once W3C has published a Rescinded Recommendation,
 	future W3C technical reports <em class="rfc2119">must not</em> include normative references
@@ -4465,26 +4497,26 @@ Group Notes</h4>
 			non-normative guides to good practices
 	</ul>
 
-	Some [=Notes=] are developed through successive <dfn lt="Draft Note">Draft Notes</dfn>
+	Some [=Notes=] are developed through successive <dfn oldids="draft-note" lt="Note Draft">Note Drafts</dfn>
 	before publication as a full [=Notes=],
 	while others are [=published=] directly as a [=Note=].
-	There are few formal requirements to [=publish=] a document as a [=Note=] or [=Draft Note=],
+	There are few formal requirements to [=publish=] a document as a [=Note=] or [=Note Draft=],
 	and they have no standing as a recommendation of W3C
 	but are simply documents preserved for historical reference.
 
 	Note: The W3C Patent Policy [[PATENT-POLICY]]
-	does not apply any licensing requirements or commitments for [=Notes=] or [=Draft Notes=].
+	does not apply any licensing requirements or commitments for [=Notes=] or [=Note Drafts=].
 
 <h4 id="publishing-notes">
 Publishing Notes</h4>
 
-	In order to publish a [=Note=] or [=Draft Note=],
+	In order to publish a [=Note=] or [=Note Draft=],
 	the group:
 
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> record their decision
-			to request publication as a [=Note=] or [=Draft Note=], and
+			to request publication as a [=Note=] or [=Note Draft=], and
 
 		<li>
 			<em class="rfc2119">should</em> publish documentation
@@ -4492,14 +4524,10 @@ Publishing Notes</h4>
 			since any previous publication.
 	</ul>
 
-	Both [=Notes=] and [=Draft Notes=] can be updated by republishing
-	as a [=Note=] or [=Draft Note=].
+	Both [=Notes=] and [=Note Drafts=] can be updated by republishing
+	as a [=Note=] or [=Note Draft=].
 	A [=technical report=] <em class="rfc2119">may</em> remain
 	a [=Note=] indefinitely.
-
-	If a [=Note=] produced by a [=chartered group=] is no longer in scope for any group,
-	the [=Team=] <em class=rfc2119>may</em> republish the [=Note=] with [[#correction-classes|class 1]] changes incorporated,
-	as well as with [=errata=] and [=Team corrections=] annotated.
 
 <h4 id=w3c-statement oldids=memo>
 Elevating Group Notes to W3C Statement status</h4>
@@ -4533,7 +4561,7 @@ Elevating Group Notes to W3C Statement status</h4>
 
 	Once these conditions are fulfilled,
 	the [=Team=] <em class=rfc2119>must</em> then
-	begin an Advisory Committee Review on the question of
+	begin an [=Advisory Committee Review=] on the question of
 	whether the document is appropriate to publish as a [=W3C Statement=].
 	During this review period,
 	the [=Note=] <em class=rfc2119>must not</em> be updated.
@@ -4570,14 +4598,13 @@ Revising W3C Statements</h4>
 The Registry Track</h3>
 
 	A <dfn export>registry</dfn> documents a data set
-	consisting of one or more associated <dfn export lt="registry table">registry tables</dfn>,
+	consisting of one or more <dfn export lt="registry table">registry tables</dfn>,
 	each table representing an updatable collection
 	of logically independent, consistently-structured <dfn export lt="registry entry">registry entries</dfn>.
-	A registry has three associated components:
+	A registry consists of:
 	<ul>
 		<li>the [=registry definition=], defining how the [=registry tables=] are structured and maintained
 		<li>one or more [=registry tables=], holding the data set represented by the [=registry=] (the <dfn>registry data</dfn>)
-		<li>one or more referencing specifications, which make use of the [=registry=]
 	</ul>
 
 	The purposes of maintaining a [=registry=] can include:
@@ -4665,6 +4692,17 @@ Registry Definitions</h4>
 			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
+
+			If the [=custodian=] of a [=registry table=]
+			ceases to exist or to operate as a custodian
+			(e.g., the relevant group is disbanded, or 
+			the custodian is unresponsive to repeated attempts to make contact),
+			and the [=Working Group=] that owns the [=registry definition=] 
+			is itself <a href="#GeneralTermination">closed</a> or 
+			unresponsive,
+			the [=Team=] <em class=rfc2119>should</em> propose replacing the [=custodian=],
+			which <em class=rfc2119>must</em> be confirmed
+			by an [=AC Review=] as a [=W3C Decision=].
 	</ul>
 
 <h4 id=reg-pub>
@@ -4672,20 +4710,12 @@ Publishing Registries</h4>
 
 	[=Registries=] can be published either
 	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
-	or incorporated as part of a [=Recommendation=] as a <dfn>registry section</dfn>.
+	or incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
 
-	A [=registry report=] or [=registry section=]
-	is purely documentational,
-	is not subject to the W3C Patent Policy,
-	and <em class=rfc2119>must not</em> contain any requirements on implementations.
-	For the purposes of the Patent Policy [[PATENT-POLICY]],
-	any [=registry section=] in a [=Recommendation track=] document
-	is not a normative portion of that specification.
-
-	The [=registry report=] or [=registry section=] <em class=rfc2119>must</em>:
+	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
 		<li>
-			Clearly label the [=registry report=]/[=registry section|section=],
+			Clearly label the [=registry report=] or [=embedded registry=],
 			its [=registry tables|tables=],
 			and its [=registry definitions=] as such,
 			including a link to [[#registries]] in this Process.
@@ -4746,7 +4776,7 @@ Publishing Registries</h4>
 			nor to [=Rescinded Candidate Recommendation=] for [=Registries=].
 
 		<li>
-			The equivalent of [=Working Draft=] is called <dfn export>Draft Registry</dfn>.
+			The equivalent of [=Working Draft=] is called <dfn oldids="draft-registry" export>Registry Draft</dfn>.
 
 		<li>
 			The equivalent of [=Candidate Recommendation=] is called <dfn export>Candidate Registry</dfn>,
@@ -4791,7 +4821,7 @@ Updating Registry Tables</h4>
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
-	they must be requested of the responsible Working Group--
+	they need to be requested of the responsible Working Group--
 	or in the absence of a Working Group, of the Team.
 
 	Changes to the [=registry tables=]
@@ -4830,8 +4860,6 @@ Registry Data Reports</h4>
 	the [=Working Group=]
 	<em class=rfc2119>may</em> republish the [=Registry Data Report=] to incorporate
 	[=editorial changes=].
-	If there is no [=Working Group=] chartered to maintain this registry,
-	the [=Team=] <em class=rfc2119>may</em> do so instead.
 
 <h4 id=reg-ref-specifications>
 Specifications that Reference Registries</h4>
@@ -4854,16 +4882,26 @@ Specifications that Reference Registries</h4>
 
 	<div class=example>
 		For example,
-		“All implementations must implement the <code>Basic-Method</code> as defined in the registry”
-		is not acceptable;
+		 <span class=allow-2119>“All implementations must implement the <code>Basic-Method</code> as defined in the registry”</span>
+		is not acceptable because
 		a change to the definition of the <code>Basic-Method</code> in the registry would then affect conformance.
-		Instead, the requirement must be complete in the specification,
+		Instead, the requirement has to be complete in the specification,
 		directly or by reference to another specification.
 		For example
-		“All implementations must recognize the name <code>Basic-Method</code>,
-		and implement it as defined by section yy of IETF RFC xxxx”.
-		(The Registry should nonetheless contain </code>Basic-Method</code> as an entry.)
+		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,
+		and implement it as defined by section yy of IETF RFC xxxx”</span>.
+		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
 	</div>
+
+<h4 id=reg-pat>
+Registries and Patents</h4>
+
+	A [=registry report=] or [=embedded registry=]
+	is not subject to the W3C Patent Policy,
+	and <em class=rfc2119>must not</em> define any requirements on implementations.
+	For the purposes of the Patent Policy [[PATENT-POLICY]] (only),
+	any [=embedded registry=] in a [=Recommendation track=] document
+	is not a normative portion of that specification.
 
 <h3 id="switching-tracks">
 Switching Tracks</h3>
@@ -4890,10 +4928,17 @@ Switching Tracks</h3>
 	their new track’s initial maturity stage,
 	while retaining any established identity (url, shortname, etc.).
 
+	Note: The initial maturity stage of the [=Recommendation track=] is [=Working Draft=].
+	[=First Public Working Draft=] designates a specific type of [=Working Draft=]
+	and is not a separate maturity stage.
+	A document which switches to the [=Recommendation track=] is only published as a [=First Public Working Draft=]
+	if it was never previously published as such;
+	otherwise, it is simply a [=Working Draft=].
+
 <h3 id="further-reading">
 Further reading</h3>
 
-	Refer to <a href="https://www.w3.org/Guide/transitions">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
+	Refer to <a href="https://www.w3.org/Guide/transitions/">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
 	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
@@ -4921,7 +4966,7 @@ Public Communication</h3>
 			W3C technical reports (and software) are available free of charge to the general public.
 
 		<li>
-			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
+			A <a href="https://www.w3.org/mission/">mission statement</a> [[MISSION]]
 			that explains the purpose and mission of W3C,
 			the key benefits for Members,
 			and the organizational structure of W3C.
@@ -4942,7 +4987,7 @@ Public Communication</h3>
 	[=Workshops=],
 	and review deadlines,
 	the Team provides them with a regular (e.g., weekly) news service
-	and maintains a <a href="https://www.w3.org/participate/eventscal">calendar</a> [[CALENDAR]]
+	and maintains a <a href="https://www.w3.org/events/">calendar</a> [[CALENDAR]]
 	of official W3C events.
 	Members are encouraged to send schedule and event information to the Team for inclusion on this calendar.
 
@@ -4977,10 +5022,11 @@ Confidentiality Levels</h3>
 			<em class="rfc2119">must</em> treat the information as confidential within W3C,
 
 		<li>
-			<em class="rfc2119">must</em> use reasonable efforts to maintain the proper level of confidentiality, and
+			<em class="rfc2119">must</em> use reasonable efforts to preserve that confidentiality, and
 
 		<li>
-			<em class="rfc2119">must not</em> release this information to the general public or press.
+			<em class="rfc2119">must not</em> release this information to the general public or press,
+			nor beyond the proper level of access.
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
@@ -5045,46 +5091,6 @@ Changing Confidentiality Level</h3>
 			and without attribution to the original author.
 	</ol>
 
-<h2 id="GAEvents">
-Workshops and Symposia</h2>
-
-	The Team organizes <dfn id="EventsW" export>Workshops</dfn>
-	and <dfn id="EventsS" export lt="Symposium | Symposia">Symposia</dfn>
-	to promote early involvement in the development of W3C activities
-	from Members and the public.
-
-	The goal of a Workshop is usually
-	either to convene experts and other interested parties for an exchange of ideas
-	about a technology or policy,
-	or to address the pressing concerns of W3C Members.
-	Organizers of the first type of Workshop
-	<em class="rfc2119">may</em> solicit position papers for the Workshop program
-	and <em class="rfc2119">may</em> use those papers
-	to choose attendees and/or presenters.
-
-	The goal of a Symposium is usually
-	to educate interested parties about a particular subject.
-
-	The Call for Participation in a Workshop or Symposium
-	<em class="rfc2119">may</em> indicate participation requirements or limits,
-	and expected deliverables
-	(e.g., reports and [=minutes=]).
-	Organization of an event does not guarantee
-	further investment by W3C in a particular topic,
-	but <em class="rfc2119">may</em> lead to proposals for new activities or groups.
-
-	Workshops and Symposia generally last one to three days.
-	If a Workshop is being organized to address the pressing concerns of Members,
-	the Team <em class="rfc2119">must</em> issue the Call for Participation
-	no later than <span class="time-interval">six weeks</span>
-	prior to the Workshop's scheduled start date.
-	For other Workshops and Symposia,
-	the Team <em class="rfc2119">must</em> issue a Call for Participation
-	no later than <span class="time-interval">eight weeks</span>
-	prior to the meeting's scheduled start date.
-	This helps ensure that speakers and authors
-	have adequate time to prepare position papers and talks.
-
 <h2 id="Liaisons">
 Liaisons</h2>
 
@@ -5148,7 +5154,7 @@ Liaisons</h2>
 	unless directed to do so by the [=Board=].
 	A signed [=agreement=] <em class="rfc2119">should</em> be made public.
 
-	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
+	Information about <a href="https://www.w3.org/liaisons/">W3C liaisons with other organizations</a> [[LIAISON]]
 	and the guidelines W3C follows when creating a liaison is available on the Web.
 
 <h2 id="Submission">
@@ -5298,7 +5304,7 @@ Scope of Member Submissions</h4>
 	to build consensus around concrete proposals for new work.
 
 	Members <em class="rfc2119">should not</em> submit materials
-	covering topics well outside the scope of <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
+	covering topics well outside the scope of <a href="https://www.w3.org/mission/">W3C's mission</a> [[MISSION]].
 
 <h4 id="SubmissionReqs">
 Information Required in a Submission Request</h4>
@@ -5307,7 +5313,7 @@ Information Required in a Submission Request</h4>
 	and any other authors of the submitted material
 	<em class="rfc2119">must</em> agree that,
 	if the request is acknowledged,
-	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]]
+	the documents in the Member Submission will be subject to the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]]
 	and will include a reference to it.
 	The [=Submitter=](s) <em class="rfc2119">may</em> hold the copyright for the documents in a Member Submission.
 
@@ -5337,7 +5343,7 @@ Information Required in a Submission Request</h4>
 			[=Submitters=] <em class="rfc2119">may</em> hold the copyright for the material contained in these documents,
 			but when made available by W3C,
 			these documents <em class="rfc2119">must</em> be subject to the provisions
-			of the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[!DOC-LICENSE]].
+			of the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]].
 	</ul>
 
 	The request <em class="rfc2119">must</em> also answer the following questions.
@@ -5433,13 +5439,13 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 			The IPR statement made by the [=Submitter=](s) is inconsistent with W3C's
 			Patent Policy [[!PATENT-POLICY]]
 			and in particular the “Licensing Commitments in W3C Submissions”,
-			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
+			<a href="https://www.w3.org/copyright/document-license-2023/">Document License</a> [[!DOC-LICENSE]],
 			or other IPR policies.
 
 		<li>
 			The ideas expressed in the request are poor,
 			might harm the Web,
-			or run counter to <a href="https://www.w3.org/Consortium/mission">W3C's mission</a> [[MISSION]].
+			or run counter to <a href="https://www.w3.org/mission/">W3C's mission</a> [[MISSION]].
 
 		<li>
 			The ideas expressed in the request lie well outside the scope of W3C's mission.
@@ -5474,7 +5480,7 @@ Process Evolution</h2>
 	The documents covered by this section are:
 	* the W3C Process (this document)
 	* the W3C Patent Policy [[!PATENT-POLICY]]
-	* the W3C Code of Ethics and Professional Conduct [[!CEPC]]
+	* the W3C Code of Conduct [[!COC]]
 	* The W3C Document License [[!DOC-LICENSE]]
 
 	The [=Advisory Board=] initiates review as follows:
@@ -5499,7 +5505,7 @@ Process Evolution</h2>
 
 	Note: As of June 2020,
 	the [[PATENT-POLICY|Patent Policy]] is developed in the <a href="https://www.w3.org/2004/pp/psig/">Patents and Standards Interest Group</a>,
-	the [[CEPC|Code of Ethics and Professional Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
+	the [[COC|Code of Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
 	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
 <h2 id="acks" class=non-normative>
@@ -5658,42 +5664,126 @@ Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2023-1 class=no-num>
-Changes since the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a></h3>
+<h3 id=changes-2024 class=no-num>
+Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a></h3>
 
-	<p>This document is based on the <a href="https://www.w3.org/2023/Process-20230612/">12 June 2023 Process</a>.
-	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2023-1%22+is%3Aclosed">list of issues addressed</a>,
+	<p>This document is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>.
+	A <a href="https://github.com/w3c/process/issues?q=milestone%3A%22Process+2024%22+is%3Aclosed">list of issues addressed</a>,
 	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2023 to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/p2023...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/process/compare/p2023_1...main">detailed log of all changes since then</a>
 	are available.
 
-	<!--
-	In addition to a number of editorial adjustments
-	and minor tweaks,
-	the following is a summary of the main differences:
-	-->
-
-	The only change is:
+	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
 
 	<ul>
 		<li>
-			Expand the TAG from 6 elected and 3 appointed to 8 and 3.
-			See <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-05-24-doc#tag-size">the 2023-05-24 Disposition of Comments</a> for rationale.
+			Council dismissal vote counts must be reported.
+			(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>)
+
+		<li>
+			Exclude TAG/AB from voting on their own decisions/proposals.
+			(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>)
+
+		<li>
+			Add a requirement to make progress on external issues for update requests
+			(See <a href="https://github.com/w3c/process/issues/781">Issue 781</a>)
+
+		<li>
+			Enable Team to replace defunct registry custodians when no-one else can.
+			(See <a href="https://github.com/w3c/process/issues/699">Issue 699</a>)
+
+		<li>
+			Stop citing the superseded TAG charter.
+			(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>)
+
+		<li>
+			Rename “registry sections” to [=embedded registries=]
+			to avoid confusion over whether they can be split across multiple sections of a [=Recommendation=].
+			(See <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
+
+		<li>
+			Put constraints on the timing of making Formal Objections public.
+			(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>)
+
+		<li>
+
+			Rename "Draft Note" into "Note Draft",
+			and "Draft Registry" into "Registry Draft"
+			to be consistent with other statuses that uses the word "Draft",
+			and to make that word stand out more.
+			(See <a href="https://github.com/w3c/process/issues/779">Issue 779</a>)
+
+		<li>
+			Clarify the definition of a Registry (see <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
+			and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
+
+		<li>
+			Clarify how the outcome of certain ballots are determined.
+			(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>)
+
+		<li>
+			Reorganize and rephrase [[#CharterReview]] for readability and ease of understanding.
+			This change, while moderate in size, is purely editorial.
+			(See <a href="https://github.com/w3c/process/pull/850">Pull Request 850</a>)
+
+		<li id="streamlined-update">
+			Retire “<a href="https://www.w3.org/policies/process/20231103/#streamlined-update">Streamlined Publication Approval</a>”.
+			This was meant to enable REC track publication with fewer/faster approval steps
+			when some stricter than usual criteria were fulfilled.
+			However, regular REC track publication have improved enough
+			that this became unnecessary,
+			and nobody was using it.
+			(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>)
+
+		<li>
+			Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
+			the various parts of the Process
+			that described whether and how the Team can maintain technical reports
+			that no longer have a Group chartered to maintain them.
+			(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
+
+		<li>
+			Require Chairs to be listed in Charters.
+			(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>)
+
+		<li>
+			The URL of this document was changed
+			from /Consortium/Process/ to /policies/process/
+			for better integration in the W3C website architecture.
+
+		<li>
+			Shift most of the informative discussion about Workshops to [[GUIDE]],
+			and reorganize the remaining normative requirements.
+			(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
+
+		<li>
+			Make the Council's short-circuit a little more flexible.
+			(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>)
+
+		<li>
+			Introduce a formal [=Charter Refinement=] phase prior to the [=AC Review=].
+			(See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>)
+
+		<li>
+			Adjust AC appeal vote threshold based on participation,
+			aligning with the thresholds and super majority requirements
+			for "Requisite Member Vote" from the W3C Bylaws.
+			(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>)
 	</ul>
 
 
-<h3 id=changes-previous class=no-num oldids="changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
+<h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
 
 	Changes since earlier versions of the Process are detailed
-	in the <a href="https://www.w3.org/2023/Process-20230612/#changes">changes section of the previous version</a>
+	in the <a href="https://www.w3.org/policies/process/20231103/#changes">changes section of the previous version</a>
 	of the Process.
 
 <pre class=biblio>
 {
 	"JOIN": {
-		"href": "https://www.w3.org/Consortium/join",
+		"href": "https://www.w3.org/membership/join/",
 		"title": "How to Join W3C",
 		"publisher": "W3C"
 		},
@@ -5703,7 +5793,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MEMBER-LIST": {
-		"href": "https://www.w3.org/Consortium/Member/List",
+		"href": "https://www.w3.org/membership/list/",
 		"title": "The list of current W3C Members",
 		"publisher": "W3C"
 	},
@@ -5723,17 +5813,17 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MISSION": {
-		"href": "https://www.w3.org/Consortium/mission",
+		"href": "https://www.w3.org/mission/",
 		"title": "The W3C Mission statement",
 		"publisher": "W3C"
 	},
 	"COLLABORATORS-AGREEMENT": {
-		"href": "https://www.w3.org/Consortium/Legal/collaborators-agreement",
+		"href": "https://www.w3.org/invited-experts/agreement-2023/",
 		"title": "Invited expert and collaborators agreement",
 		"publisher": "W3C"
 	},
 	"DOC-LICENSE": {
-		"href": "https://www.w3.org/Consortium/Legal/copyright-documents",
+		"href": "https://www.w3.org/copyright/document-license-2023/",
 		"title": "W3C Document License",
 		"publisher": "W3C"
 	},
@@ -5747,11 +5837,6 @@ Changes since earlier versions</h3>
 		"title": "Conflict of Interest Policy for W3C Team Members Engaged in Outside Professional Activities",
 		"publisher": "W3C"
 	},
-	"TAG-CHARTER": {
-		"href": "https://www.w3.org/2004/10/27-tag-charter.html",
-		"title": "Technical Architecture Group (TAG) Charter",
-		"publisher": "W3C"
-	},
 	"TAG-HP": {
 		"href": "https://www.w3.org/2001/tag/",
 		"title": "The TAG home page",
@@ -5763,7 +5848,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"LIAISON": {
-		"href": "https://www.w3.org/2001/11/StdLiaison",
+		"href": "https://www.w3.org/liaisons/",
 		"title": "W3C liaisons with other organizations",
 		"publisher": "W3C"
 	},
@@ -5778,12 +5863,12 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"FELLOWS": {
-		"href": "https://www.w3.org/Consortium/Recruitment/Fellows",
+		"href": "https://www.w3.org/careers/fellows/",
 		"title": "W3C Fellows Program",
 		"publisher": "W3C"
 	},
 	"PATENT-POLICY": {
-		"href": "https://www.w3.org/Consortium/Patent-Policy/",
+		"href": "https://www.w3.org/policies/patent-policy/",
 		"title": "The W3C Patent Policy",
 		"publisher": "W3C"
 	},
@@ -5793,7 +5878,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"PATENT-POLICY-2020": {
-		"href": " https://www.w3.org/Consortium/Patent-Policy-20200915/",
+		"href": "https://www.w3.org/policies/patent-policy/20200915/",
 		"title": "The W3C 2020 Patent Policy",
 		"publisher": "W3C"
 	},
@@ -5803,7 +5888,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"CALENDAR": {
-		"href": "https://www.w3.org/participate/eventscal",
+		"href": "https://www.w3.org/events/",
 		"title": "Calendar of all scheduled official W3C events",
 		"publisher": "W3C"
 	},
@@ -5812,13 +5897,13 @@ Changes since earlier versions</h3>
 		"title": "The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators",
 		"publisher": "W3C"
 	},
-	"CEPC": {
-		"href": "https://www.w3.org/Consortium/cepc/",
-		"title": "W3C Code of Ethics and Professional Conduct",
+	"COC": {
+		"href": "https://www.w3.org/policies/code-of-conduct/",
+		"title": "W3C Code of Conduct",
 		"publisher": "W3C"
 	},
 	"OBS-RESC": {
-		"href": "https://www.w3.org/2016/11/obsoleting-rescinding/",
+		"href": "https://www.w3.org/Guide/process/obsolete-rescinded-supserseded",
 		"title": "Obsoleting and Rescinding W3C Specifications",
 		"publisher": "W3C"
 	},
@@ -5843,7 +5928,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"AC-MEETING": {
-		"href": "https://www.w3.org/Member/Meeting/",
+		"href": "https://www.w3.org/events/ac/",
 		"title": "Advisory Committee meetings (Member-only access)",
 		"publisher": "W3C"
 	},
@@ -5879,7 +5964,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"TRANSITION": {
-		"href": "https://www.w3.org/Guide/transitions",
+		"href": "https://www.w3.org/Guide/transitions/",
 		"title": "Organize a Technical Report Transition",
 		"publisher": "W3C"
 	},
@@ -5893,7 +5978,7 @@ Changes since earlier versions</h3>
 		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
 	},
 	"W3C-IPR": {
-		"href": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231",
+		"href": "https://www.w3.org/policies/",
 		"title": "W3C IPR Policies"
 	},
 	"COUNCIL-REPORT-INDEX": {
