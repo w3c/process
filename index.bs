@@ -5443,19 +5443,19 @@ Appendix A: Retired Terminology</h2>
 			<dfn noexport id=rec-amended>Amended Recommendation</dfn>
 			(retired term)
 		<dd>
-			Last defined in <a href="https://www.w3.org/2020/Process-20200915/#rec-amended">section 6.2.1 of the 2020 Process</a>.
+			Last defined <a href="https://www.w3.org/2020/Process-20200915/#rec-amended">in section 6.2.1 of the 2020 Process</a>.
 
 		<dt>
 			<dfn noexport>Edited Recommendation</dfn>
 			(retired term)
 		<dd>
-			Last defined in <a href="https://www.w3.org/2019/Process-20190301/#maturity-levels">section 6.1.2 of the 2019 Process</a>.
+			Last defined <a href="https://www.w3.org/2019/Process-20190301/#maturity-levels">in section 6.1.2 of the 2019 Process</a>.
 
 		<dt>
 			<dfn noexport id=last-call>Last Call</dfn>
 			(retired term)
 		<dd>
-			Last defined in <a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">section 7.4.2 of the 2005 Process</a>.
+			Last defined <a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">in section 7.4.2 of the 2005 Process</a>.
 
 		<dt>
 			<dfn noexport id=maturity-levels>Maturity level</dfn>
