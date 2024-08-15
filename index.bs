@@ -3981,7 +3981,7 @@ Publishing a [=Candidate Recommendation Draft=]</h5>
 		<li><a href="#abandon-draft">Discontinued Draft</a></li>
 	</ul>
 
-<h4 id="transition-rec" oldids="rec-publication, rec-pr, transition-pr, RecsPR">
+<h4 id="transition-rec" oldids="rec-publication, rec-pr, transition-pr">
 Transitioning to Recommendation</h4>
 
 	When a [=Working Group=] estimates
@@ -5509,6 +5509,12 @@ Appendix A: Retired Terminology</h2>
 		<dd>
 			Last used <a href="https://www.w3.org/2020/Process-20200915/#other-charter">in section 5.2.6 of the 2020 Process</a>,
 			now called [=Exclusion Draft Charter=].
+
+		<dt>
+			<dfn noexport id=RecsPR>Proposed Recommendation</dfn>
+			(retired term)
+		<dd>
+			Last defined <a href="https://www.w3.org/policies/process/20231103/#RecsPR">in section 6.3.1 of the 2023 Process</a>.
 
 		<dt>
 			<dfn noexport id=TeamSubmission>Team Submissions</dfn>
