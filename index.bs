@@ -5712,6 +5712,15 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 			aligning with the thresholds and super majority requirements
 			for "Requisite Member Vote" from the W3C Bylaws.
 			(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>)
+
+		<li>
+			Retire the Proposed Recommendation phase of the Recommendation track.
+			It was only used as a short-lived transition
+			during which various verifications and votes about CR were done.
+			These can be done on a CR
+			without having to republish it as a separate thing.
+			This simplifies the Process without changing the actual quality or consensus expectations.
+			(See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>)
 	</ul>
 
 
