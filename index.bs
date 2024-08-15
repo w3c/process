@@ -2871,7 +2871,7 @@ Appeal by Advisory Committee Representatives</h3>
 	and “Abstain”,
 	together with Comments.
 
-	The level of support needed for an [=Advisory Committee Override=] to pass
+	The level of support needed for an [=Advisory Committee Appeal=] to pass
 	depends on the level of ballot participation 
 	(including explicit “abstain” ballots) 
 	by [=Advisory Committee Representatives=]:
