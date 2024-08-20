@@ -2816,7 +2816,7 @@ Determining the W3C Decision</h4>
 		because that would fail to trigger a patent exclusion opportunity.
 	</div>
 
-	In the case of [=charters=],
+	For [=charters=],
 	substantive changes from the initial proposal that underwent [=AC Review=]
 	<em class=rfc2119>must not</em> include any increase to the scope.
 	If any such change is desired,
