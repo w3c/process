@@ -711,6 +711,17 @@ Resignation from a Group</h4>
 	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
+<h4 id="emeritus">
+Emeritus status</h4>
+        Emeritus status is granted to
+        elected or appointed participants
+        of the <a href="#AB">Advisory Board</a> and <a href="#TAG">Technical Architecture Group</a>
+        and [=Board=] directors
+        once their term has completed.
+        Individuals with emeritus status <em class="rfc2119">may</em> 
+        join the <a href="#ACCommunication">Advisory Committee Mailing List</a> for discussions
+        and <em class="rfc2119">may</em> participate in discussions.
+
 <h3 id="AC">
 The Advisory Committee (AC)</h3>
 
@@ -786,6 +797,8 @@ Advisory Committee Mailing Lists</h4>
 			Though this list is primarily for Advisory Committee representatives,
 			the [=Team=] <em class="rfc2119">must</em> monitor discussion
 			and <em class="rfc2119">should</em> participate in discussion when appropriate.
+                        Additionally, indivudals with <a href="#emeritus">emeritus status</a>
+                        <em class="rfc2119">may</em> join the list and also participate in discussion.
 			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
 			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
 	</ol>
