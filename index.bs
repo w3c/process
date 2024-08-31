@@ -711,18 +711,6 @@ Resignation from a Group</h4>
 	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
-<h4 id="emeritus-status">
-Emeritus status</h4>
-        <dfn export lt="Emeritus Status|Emeritus">Emeritus status</dfn> is granted to
-        elected or appointed participants
-        of the <a href="#AB">Advisory Board</a> and <a href="#TAG">Technical Architecture Group</a>
-        and [=Board=] directors
-        once their term has completed.
-        Individuals with [=Emeritus Status=]
-        are authorized to access <a href="#Member-only">Member-only</a> information and
-        <em class="rfc2119">may</em> join the <a href="#ACCommunication">Advisory Committee Mailing List</a>
-        to participate in discussions.
-
 <h3 id="AC">
 The Advisory Committee (AC)</h3>
 
@@ -796,10 +784,11 @@ Advisory Committee Mailing Lists</h4>
 		<li>
 			One for discussion among [=Advisory Committee representatives=].
 			Though this list is primarily for Advisory Committee representatives,
-			the [=Team=] <em class="rfc2119">must</em> monitor discussion
-			and <em class="rfc2119">should</em> participate in discussion when appropriate.
-                        Individuals with [=Emeritus Status=]
-                        <em class="rfc2119">may</em> also join the list and participate in discussions.
+			the [=Team=] <em class="rfc2119">must</em> monitor discussion,
+			<em class="rfc2119">must</em> maintain a <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM]] for this list,
+			<em class="rfc2119">should</em> participate in discussion when appropriate,
+                        and <em class="rfc2119">may</em> grant access to this list to relevant individuals or groups, 
+                        which <em class="rfc2119">must</em> be documented in the list's <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM]].
 			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
 			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
 	</ol>
@@ -4963,8 +4952,7 @@ Confidentiality Levels</h3>
 	<a href="#invited-expert-wg">Invited Experts</a>,
 	the Advisory Board,
 	the TAG,
-	the Team,
-        and individuals with [=Emeritus Status=].
+	and the Team.
 	For example,
 	the <a href="#WGCharter">charter</a> of some Working Groups
 	<em class="rfc2119">may</em> specify a [=Member-only=] confidentiality level for group proceedings.
@@ -6030,7 +6018,11 @@ Changes since earlier versions</h3>
 	"COUNCIL-REPORT-INDEX": {
 		"href": "https://www.w3.org/about/council/",
 		"title": "Council Report Index"
-	}
+	},
+        "AC-FORUM": {
+		"href": "https://www.w3.org/2015/10/ac-forum-pol",
+		"title": "Policy for w3c-ac-forum Mailing List"
+        }
 
 }
 </pre>
