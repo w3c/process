@@ -720,7 +720,7 @@ Emeritus status</h4>
         once their term has completed.
         Individuals with [=Emeritus Status=]
         are authorized to access <a href="#Member-only">Member-only</a> information and
-        <em class="rfc2119">may</em> join the <a href="#ACCommunication">Advisory Committee Mailing List</a> for discussions
+        <em class="rfc2119">may</em> join the <a href="#ACCommunication">Advisory Committee Mailing List</a>
         to participate in discussions.
 
 <h3 id="AC">
