@@ -798,8 +798,8 @@ Advisory Committee Mailing Lists</h4>
 			Though this list is primarily for Advisory Committee representatives,
 			the [=Team=] <em class="rfc2119">must</em> monitor discussion
 			and <em class="rfc2119">should</em> participate in discussion when appropriate.
-                        Additionally, individuals with [=Emeritus Status=]
-                        <em class="rfc2119">may</em> join the list and also participate in discussion.
+                        Individuals with [=Emeritus Status=]
+                        <em class="rfc2119">may</em> also join the list and participate in discussions.
 			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
 			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
 	</ol>
