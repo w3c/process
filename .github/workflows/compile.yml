@@ -5,9 +5,9 @@ on: [push, pull_request]
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     name: Build and deploy to gh-pages
-    if: ${{ github.repository == 'w3c/w3process' && github.event_name == 'push' }}
+    if: ${{ github.repository == 'w3c/process' && github.event_name == 'push' }}
     env:
       GITHUB_TOKEN: ${{ secrets.W3CGRUNTBOT_TOKEN }}
       GH_BRANCH: ${{ github.head_ref }}
@@ -15,10 +15,10 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
-      - name: Setup python 3.10
+      - name: Setup python 3.12
         uses: actions/setup-python@v2
         with:
-          python-version: "3.10"
+          python-version: "3.12"
           architecture: x64
       - name: Install bikeshed
         run: |
@@ -29,16 +29,16 @@ jobs:
         run: ./deploy.sh
         shell: bash
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     name: Check that the Process builds cleanly
-    if: ${{ github.repository != 'w3c/w3process' || github.event_name == 'pull_request' }}
+    if: ${{ github.repository != 'w3c/process' || github.event_name == 'pull_request' }}
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
-      - name: Setup python 3.10
+      - name: Setup python 3.12
         uses: actions/setup-python@v2
         with:
-          python-version: "3.10"
+          python-version: "3.12"
           architecture: x64
       - name: Install bikeshed
         run: |
