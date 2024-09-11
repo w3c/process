@@ -2776,8 +2776,8 @@ Determining the W3C Decision</h4>
 	the announcement <em class="rfc2119">must</em> include rationale
 	for the substantive changes.
 
-	[=Substantive changes=] to the proposal <em class=rfc2119>may</em> only be adopted
-	if the revised proposal has [=consensus=]
+	[=Substantive changes=] to the proposal <em class=rfc2119>may</em> be adopted
+	only if the revised proposal has [=consensus=]
 	of the subset of the [=AC=] that voted on the initial proposal
 	(including anyone who explicitly abstained),
 	or if any [=Formal Objections=] against the revised proposal are retracted or [=overruled=]
