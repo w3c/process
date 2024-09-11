@@ -5828,6 +5828,12 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 			without having to republish it as a separate thing.
 			This simplifies the Process without changing the actual quality or consensus expectations.
 			(See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>)
+
+		<li>
+			Fine-tune the rules about
+			how changes can be incorporated into a proposal
+			following an AC Review.
+			(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>)
 	</ul>
 
 
