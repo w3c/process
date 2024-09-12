@@ -2402,6 +2402,10 @@ Investigation and Mediation by the Team</h4>
 	to make sure the problem and the various viewpoints are well understood,
 	and to the extent possible,
 	to arrive at a recommended disposition.
+
+	In parallel, the Team <em class=rfc2119>should</em> start the steps necessary
+	to <a href="#council-convention">convene</a> a Council.
+
 	If the [=Team=] can resolve the issue
 	to the satisfaction of the individual that filed the [=Formal Objection=],
 	the individual withdraws the objection and the disposition process terminates.
@@ -2409,10 +2413,10 @@ Investigation and Mediation by the Team</h4>
 	Otherwise,
 	upon concluding that consensus cannot be found,
 	and no later than 90 days after the [=Formal Objection=] being registered,
-	the [=Team=] <em class=rfc2119>must</em> initiate formation of a [=W3C Council=],
-	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
-	Concurrently, it must prepare a report for the [=Council=]
-	documenting its findings and attempts to find consensus.
+	the [=Team=] <em class=rfc2119>must</em>
+	deliver to the [=Council=] a report
+	documenting its findings and attempts to find consensus,
+	and hand over the matter to the [=W3C Council=].
 
 <h4 id=council>
 W3C Council</h4>
@@ -2572,8 +2576,17 @@ Council Deliberations</h5>
 	the [=W3C Council=] is considered to be convened
 	and can start deliberations.
 
-	Having reviewed the information gathered by the [=Team=],
-	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
+	If a [=W3C Council=] has not yet been convened within 90 days of a Formal Objection
+	being [[#registering-objections|registered]],
+	the [=Chairs=] of the [=TAG=] and [=AB=] <em class=rfc2119>may</em> take independent action to ensure
+	that the [=dismissal=], [=renunciation=],
+	and [[#council-chairing|chair selection]] processes have been run.
+	Past the 90 days limit,
+	the [=Council=] is considered convened
+	as soon as the [=W3C Council Chair=] has been selected,
+	even in the absence of a report from the Team.
+
+	The Council <em class=rfc2119>may</em> conduct additional research or analysis,
 	or request additional information or interviews from anyone,
 	including the Team.
 
