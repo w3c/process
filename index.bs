@@ -785,10 +785,10 @@ Advisory Committee Mailing Lists</h4>
 			One for discussion among [=Advisory Committee representatives=].
 			Though this list is primarily for Advisory Committee representatives,
 			the [=Team=] <em class="rfc2119">must</em> monitor discussion,
-			<em class="rfc2119">must</em> maintain a <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM]] for this list,
+			<em class="rfc2119">must</em> maintain a <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM-POLICY]] for this list,
 			<em class="rfc2119">should</em> participate in discussion when appropriate,
                         and <em class="rfc2119">may</em> grant access to this list to relevant individuals or groups, 
-                        which <em class="rfc2119">must</em> be documented in the list's <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM]].
+                        which <em class="rfc2119">must</em> be documented in the list's <a href="https://www.w3.org/2015/10/ac-forum-pol">policy<a> [[AC-FORUM-POLICY]].
 			Ongoing detailed discussions <em class="rfc2119">should</em> be moved to other appropriate lists
 			(new or existing, such as a mailing list created for a <a href="#GAEvents">Workshop</a>).
 	</ol>
@@ -6019,7 +6019,7 @@ Changes since earlier versions</h3>
 		"href": "https://www.w3.org/about/council/",
 		"title": "Council Report Index"
 	},
-        "AC-FORUM": {
+        "AC-FORUM-POLICY": {
 		"href": "https://www.w3.org/2015/10/ac-forum-pol",
 		"title": "Policy for w3c-ac-forum Mailing List"
         }
