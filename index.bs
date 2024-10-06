@@ -1017,7 +1017,7 @@ Composition of the Technical Architecture Group</h5>
 
 	As <dfn export>Director Emeritus</dfn>,
 	Tim Berners-Lee has an ongoing standing invitation
-	to all regular sessions of the Technical Architecture Group,
+	to participate in all regular sessions and asynchronous discussions of the Technical Architecture Group,
 	and access to the [=TAG=]'s [[#tag-comm|means of communication]].
 
 	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
