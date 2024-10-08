@@ -174,8 +174,8 @@ Introduction</h2>
 	and help ensure each group's proper integration with the rest of W3C.
 
 	W3C’s technical standards, called [=W3C Recommendations=],
-	are developed by its [=Working Groups=] — and some high-level goals
-	of the W3C Process related to that development include:
+	are developed by its [=Working Groups=]. Some high-level goals
+	of the W3C Process related to that development include the following:
 
 	<ul>
 		<li>
