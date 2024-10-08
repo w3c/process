@@ -181,7 +181,7 @@ Introduction</h2>
 		<li>
 			Enable [=Working Groups=] to [=published|publish=] their [=technical reports|Technical Reports=]
 			(that is, their specifications and guidelines) on the
-			<a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> — while those are in
+			<a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> at
 			[[#maturity-stages|various stages of development]]. [[TR]]
 
 		<li>
