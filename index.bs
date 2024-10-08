@@ -2799,7 +2799,8 @@ Determining the W3C Decision</h4>
 
 	For publications which have conditions in addition to [=AC=] approval
 	for introducing [=substantive changes=]
-	(such as [=Group=] consensus or implementation experience),
+	(such as [=Group=] consensus or implementation experience
+	or going through a patent <a spec=w3c-patent-policy>Exclusion Opportunity</a>),
 	those other conditions must also be re-fulfilled.
 
 	<div class="example">
