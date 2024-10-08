@@ -4010,6 +4010,9 @@ Transitioning to Recommendation</h4>
 	that a [=Candidate Recommendation=] has fulfilled all the relevant criteria,
 	it <em class=rfc2119>may</em> [=group decision|decide=] to request advancement to [=W3C Recommendation=].
 
+<h5 id="transition-rec-requirements">
+Requirements for Transition</h5>
+
 	In addition to meeting the <a href="#transition-reqs">requirements for advancement</a>,
 	the Working Group:
 
@@ -4038,16 +4041,6 @@ Transitioning to Recommendation</h4>
 			raised since the close of the [=Candidate Recommendation review period=].
 
 		<li>
-			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
-			since the most recent [=Candidate Recommendation Snapshot=],
-			other than dropping features identified [=at risk=].
-
-		<li>
-			<em class="rfc2119">may</em> have removed features
-			identified in the [=Candidate Recommendation Snapshot=] document as [=at risk=]
-			without republishing the specification as a [=Candidate Recommendation Snapshot=].
-
-		<li>
 			<em class="rfc2119">must</em> identify, in the document, where errata are tracked.
 	</ul>
 
@@ -4059,15 +4052,24 @@ Transitioning to Recommendation</h4>
 	and <em class=rfc2119>must not</em> include any such marking
 	if not already present.
 
+<h5 id="initiating-rec-review">
+Initiating Review</h5>
+
 	If all the criteria above are fulfilled,
 	the [=Team=] <em class="rfc2119">must</em> begin an [=Advisory Committee Review=]
-	on the question of whether the specification is appropriate to [=publish=] as a [=W3C Recommendation=].
+	on the question of whether the identified [=Candidate Recommendation Snapshot=]
+	is appropriate to [=publish=] as a [=W3C Recommendation=].
+	If the document's most recent publication is not a [=Candidate Recommendation Snapshot=],
+	then it <em class=rfc2119>must</em> be republished as such in order to provide a basis for review.
 	The deadline for [=Advisory Committee review=]
 	<em class="rfc2119">must</em> allow <strong>at least</strong> 28 days,
-	and <em class="rfc2119">should</em> end at least 10 days
+	and <em class=rfc2119>must</em> end at least 10 days
 	after the end of the last Exclusion Opportunity
 	per ”Exclusion From W3C RF Licensing Requirements”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
+
+<h5 id="rec-review-resolution">
+Resolution of Review</h5>
 
 	If there was any [=dissent=] in Advisory Committee reviews,
 	the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
@@ -4083,6 +4085,14 @@ Transitioning to Recommendation</h4>
 	and to the public.
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
 	of the decision to advance the technical report.
+
+	The newly published [=Recommendation=]
+	<em class=rfc2119>must not</em> make any [=substantive changes=] to the document
+	compared to the [=Candidate Recommendation Snapshot=] submitted for AC Review,
+	other than dropping features identified [=at risk=].
+
+<h5 id="rec-next-steps">
+Next Steps from W3C Recommendation</h5>
 
 	Possible next steps:
 	A [=W3C Recommendation=] normally retains its status indefinitely.
