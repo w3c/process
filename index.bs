@@ -190,7 +190,7 @@ Introduction</h2>
 
 		<li>
 			Enable [=Working Groups=] to earn formal endorsement of their specifications
-			from the W3C and its Members — when their specifications meet the requirements to
+			from the W3C and its Members when their specifications meet the requirements to
 			be [=published=] as [=W3C Recommendations=].
 	</ul>
 
