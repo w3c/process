@@ -1118,14 +1118,14 @@ Elected Groups Participation Constraints</h5>
 			the <a href="#random">verifiable random selection procedure</a> described below
 			to choose one person for continued participation and declare the other seat(s) vacant.
 		<li>
-			The same individual <em class="rfc2119">must not</em> participate on any two of:
+			The same individual <em class="rfc2119">must not</em> simultaneously serve on any two of
 			the TAG,
 			the AB,
 			or the [=W3C Board of Directors=].
-			An individual who is appointed or selected for AB or TAG,
-			<em class=rfc2119>must</em> either <a href=#resignation>resign</a> from any other position
+			An individual who is appointed or selected for the AB or TAG
+			<em class=rfc2119>must</em> either <a href=#resignation>resign</a> from any position
 			on the other listed bodies or
-			refuse the position.
+			refuse the new position.
 	</ul>
 
 <h5 id="AB-TAG-elections">
