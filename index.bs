@@ -2581,10 +2581,9 @@ Council Deliberations</h5>
 	the [=Chairs=] of the [=TAG=] and [=AB=] <em class=rfc2119>may</em> take independent action to ensure
 	that the [=dismissal=], [=renunciation=],
 	and [[#council-chairing|chair selection]] processes have been run.
-	Past the 90 days limit,
+	If a report from the Team is not delivered within those 90 days,
 	the [=Council=] is considered convened
-	as soon as the [=W3C Council Chair=] has been selected,
-	even in the absence of a report from the Team.
+	upon selection of the [=W3C Council Chair|Council Chair=].
 
 	The Council <em class=rfc2119>may</em> conduct additional research or analysis,
 	or request additional information or interviews from anyone,
