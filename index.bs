@@ -6085,7 +6085,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"BYLAWS": {
-		"href": "https://www.w3.org/2022/10/w3c-bylaws-20221019.pdf",
+		"href": "https://www.w3.org/2024/09/25-w3c-bylaws.pdf",
 		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
 	},
 	"W3C-IPR": {
