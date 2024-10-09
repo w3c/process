@@ -4974,7 +4974,7 @@ Confidentiality Levels</h3>
 	“<dfn export id="Member-only" lt="Member-Only">Member-only</dfn>” information
 	is available to authorized parties only,
 	including representatives of Member organizations,
-	<a href="#invited-expert-wg">Invited Experts</a>,
+	<a href="#invited-expert-wg">Invited Experts</a> (as described in <a href="https://www.w3.org/invited-experts/#memaccess">https://www.w3.org/invited-experts/#memaccess</a>),
 	the Advisory Board,
 	the TAG,
 	and the Team.
