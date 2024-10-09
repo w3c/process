@@ -1119,6 +1119,11 @@ Elected Groups Participation Constraints</h5>
 			to choose one person for continued participation and declare the other seat(s) vacant.
 		<li>
 			An individual <em class="rfc2119">must not</em> participate on both the TAG and the AB.
+		<li>
+			Members of the [=Team=] <em class=rfc2119>must not</em> participate on the AB or TAG,
+			except as defined by this process.
+			In particular, the role of Team Contact is defined for both
+			[[#ABParticipation|AB]] and [[#tag-participation|TAG]].
 	</ul>
 
 <h5 id="AB-TAG-elections">
