@@ -2915,16 +2915,11 @@ Appeal by Advisory Committee Representatives</h3>
 
 	If the vote passes,
 	the decision is overturned.
-	In that case, there are the following possible next steps:
-
-	<ol>
-		<li>
-			The proposal is rejected.
-
-		<li>
-			The proposal is returned for additional work,
-			after which the applicable decision process is re-initiated.
-	</ol>
+	Following such rejection,
+	those who had initiated the proposal may revise it
+	to address the causes of rejection
+	and follow the ordinary applicable process
+	to submit the revised proposal.
 
 <h2 id="Reports">
 W3C Technical Reports</h2>
