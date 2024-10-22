@@ -1763,7 +1763,7 @@ Charter Refinement</h3>
 
 	The [=charter refinement=] phase concludes when there is either:
 	* A [=group decision=] to initiate [=AC Review=] of the [=charter draft=].
-	* A [=chair decision=] to abandon the proposal.
+	* A [=chair decision=] by the [=Chartering Facilitator=] to abandon the proposal.
 
 	Any [=Formal Objection=] filed during the  [=charter refinement=] phase--
 	other than an objection to the choice of [=Chartering Facilitator=]
