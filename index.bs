@@ -5855,6 +5855,18 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 			how changes can be incorporated into a proposal
 			following an AC Review.
 			(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>)
+
+		<li>
+			Let the originator of a proposal decide whether to try again
+			after addressing feedback
+			following an AC Appeal.
+			(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>)
+
+		<li>
+			Adjust the rules guiding initiation of Councils,
+			to make the deadline strict,
+			and to provide a fallback mechanism if they are not met.
+			(See <a href="https://github.com/w3c/process/pull/925">Pull Request 925</a>)
 	</ul>
 
 
