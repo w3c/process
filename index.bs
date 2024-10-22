@@ -2402,6 +2402,10 @@ Investigation and Mediation by the Team</h4>
 	to make sure the problem and the various viewpoints are well understood,
 	and to the extent possible,
 	to arrive at a recommended disposition.
+
+	In parallel, the Team <em class=rfc2119>should</em> start the steps necessary
+	to <a href="#council-convention">convene</a> a Council.
+
 	If the [=Team=] can resolve the issue
 	to the satisfaction of the individual that filed the [=Formal Objection=],
 	the individual withdraws the objection and the disposition process terminates.
@@ -2409,10 +2413,10 @@ Investigation and Mediation by the Team</h4>
 	Otherwise,
 	upon concluding that consensus cannot be found,
 	and no later than 90 days after the [=Formal Objection=] being registered,
-	the [=Team=] <em class=rfc2119>must</em> initiate formation of a [=W3C Council=],
-	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
-	Concurrently, it must prepare a report for the [=Council=]
-	documenting its findings and attempts to find consensus.
+	the [=Team=] <em class=rfc2119>must</em>
+	deliver to the [=Council=] a report
+	documenting its findings and attempts to find consensus,
+	and hand over the matter to the [=W3C Council=].
 
 <h4 id=council>
 W3C Council</h4>
@@ -2563,16 +2567,27 @@ Council Chairing</h5>
 	if requested by the [=Council Team Contact=] or by the [=Chair=]
 	during the Council’s operation.
 
+<h5 id=council-convention>
+Convening the Council</h5>
+
+	Upon appointment of the [=W3C Council Chair=]
+	and delivery of the [=Team=]’s report,
+	the [=W3C Council=] is considered to be <dfn>convened</dfn>
+	and can start [[#council-deliberations|deliberations]].
+
+	If a [=W3C Council=] has not yet been [=convened=] within 90 days of a Formal Objection
+	being [[#registering-objections|registered]],
+	the [=Chairs=] of the [=TAG=] and [=AB=] <em class=rfc2119>may</em> take independent action to ensure
+	that the [=dismissal=], [=renunciation=],
+	and [[#council-chairing|chair selection]] processes have been run.
+	If a report from the Team is not delivered within those 90 days,
+	the [=Council=] is considered [=convened=]
+	upon selection of the [=W3C Council Chair|Council Chair=].
+
 <h5 id=council-deliberations>
 Council Deliberations</h5>
 
-	<p id=council-convention>
-	Upon appointment of the [=W3C Council Chair=]
-	and delivery of the [=Team=]’s report,
-	the [=W3C Council=] is considered to be convened
-	and can start deliberations.
-
-	Having reviewed the information gathered by the [=Team=],
+	Once [=convened=],
 	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
 	or request additional information or interviews from anyone,
 	including the Team.
@@ -2634,7 +2649,7 @@ Council Deliberations</h5>
 	and its [=Council Team Contact=].
 
 	<p id=45-day-update>
-	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
+	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being [=convened=],
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
 	and of the status of the discussions.
 	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
