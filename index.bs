@@ -2567,14 +2567,13 @@ Council Chairing</h5>
 	if requested by the [=Council Team Contact=] or by the [=Chair=]
 	during the Council’s operation.
 
-<h5 id=council-deliberations>
-Council Deliberations</h5>
+<h5 id=council-convention>
+Convening the Council</h5>
 
-	<p id=council-convention>
 	Upon appointment of the [=W3C Council Chair=]
 	and delivery of the [=Team=]’s report,
-	the [=W3C Council=] is considered to be convened
-	and can start deliberations.
+	the [=W3C Council=] is considered to be <dfn>convened</dfn>
+	and can start [[#council-deliberations|deliberations]].
 
 	If a [=W3C Council=] has not yet been convened within 90 days of a Formal Objection
 	being [[#registering-objections|registered]],
@@ -2585,7 +2584,11 @@ Council Deliberations</h5>
 	the [=Council=] is considered convened
 	upon selection of the [=W3C Council Chair|Council Chair=].
 
-	The Council <em class=rfc2119>may</em> conduct additional research or analysis,
+<h5 id=council-deliberations>
+Council Deliberations</h5>
+
+	Once [=convened=],
+	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
 	or request additional information or interviews from anyone,
 	including the Team.
 
