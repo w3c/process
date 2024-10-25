@@ -1015,7 +1015,7 @@ Composition of the Technical Architecture Group</h5>
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
 
-	As <dfn export>Director Emeritus</dfn>,
+	As the <dfn export>Founder of W3C</dfn>,
 	Tim Berners-Lee has an ongoing standing invitation
 	to participate in all regular sessions and asynchronous discussions of the Technical Architecture Group,
 	and access to the [=TAG=]'s [[#tag-comm|means of communication]].
