@@ -1,6 +1,6 @@
 {
-  "group": [ 7756, 50503 ]
-, "contacts":   ["jeffjaffe", "chaals", "dwsinger"]
+  "group": [ "other/ab", "cg/w3process" ]
+, "contacts":   ["plehegar", "fantasai", "frivoal"]
 , "policy": "restricted"
 , "repo-type": "process"
 }
