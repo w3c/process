@@ -766,13 +766,17 @@ Participation in the Advisory Committee</h4>
 	(refer to the [=Member-only=] list
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
-	When an organization joins W3C
-	(see “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]]),
-	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of their Membership Agreement.
+	As defined in the W3C Bylaws,
+	each W3C [=Member=] organization that is not a [=Member Association=] (known as a “<i>Consortium Member</i>” in the Bylaws)
+	has one “<i>Consortium Member Representative</i>” [[!BYLAWS]].
+	For the purposes of the W3C Process,
+	this person also serves as the organization's [=Advisory Committee Representative=].
+	When a [=Member Association=] joins W3C
+	it <em class=rfc2119>must</em> name its [=Advisory Committee representative=].
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
 	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
-	explains how to name a new [=Advisory Committee representative=],
+	explains how to name a new representative,
 	and more.
 	[=Advisory Committee representatives=] <em class="rfc2119">must</em> follow the <a href="#coi">conflict of interest policy</a>
 	by disclosing information according to the mechanisms described in the New Member Orientation.
