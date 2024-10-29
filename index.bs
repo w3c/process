@@ -771,7 +771,7 @@ Participation in the Advisory Committee</h4>
 	has one “<i>Consortium Member Representative</i>” [[!BYLAWS]].
 	For the purposes of the W3C Process,
 	this person also serves as the organization's [=Advisory Committee Representative=].
-	When a [=Member Association=] joins W3C
+	When a [=Member Association=] joins W3C,
 	it <em class=rfc2119>must</em> name its [=Advisory Committee representative=].
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
