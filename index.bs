@@ -1705,7 +1705,7 @@ Team Representative in an Interest Group</h5>
 	When the participation requirements exceed <a href="#ig-mail-only">Interest Group mailing list subscription</a>,
 	an individual is a <dfn export>Team representative in an Interest Group</dfn> when so designated by W3C management.
 
-<h2 id=group-lifecyle>
+<h2 id=group-lifecycle>
 Lifecycle of Chartered Groups</h2>
 
 	W3C creates [=charters=] for [=chartered groups=] based on interest from the [=Members=] and [=Team=].
