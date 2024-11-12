@@ -5152,66 +5152,54 @@ Member Submissions</h2>
 
 	A <dfn id="MemberSubmission">Member Submission</dfn> is a document or set of documents
 	developed outside of W3C,
-	submitted for consideration by the [=Team=]
+	and submitted to W3C
 	by one or more [=Members=] (the <dfn export lt="submitter">Submitter(s)</dfn>)
-	to propose technology
-	or other ideas.
+	to propose technology or other ideas.
 	After review,
 	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C website.
 
 	Making a [=Member Submission=] available at the W3C website
-	does not imply endorsement by W3C,
-	including the W3C Team or Members.
+	does not indicate endorsement, acceptance, or adoption by W3C,
+	its Team, or its Members.
 	The [=acknowledge|acknowledgment=] of a Submission request
 	does not imply that any action will be taken by W3C.
 	It merely records publicly
-	that the Submission request has been made by the Submitter.
+	that the Submission has been made by the Submitter.
 	A Member Submission made available by W3C
-	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
+	is not a W3C [=technical report=] and
+	<em class="rfc2119">must not</em> be referred to as
+	an output or “work in progress” of W3C.
 
 	The [=Member Submission=] process consists of the following steps:
 
 	<dl>
 		<dt>Submission
 		<dd>
-			One of the [=Submitters=] sends a request to the Team to acknowledge the Submission request.
-			The [=Team=] and [=Submitter=](s) communicate to ensure that the [=Member Submission=] is complete,
-
-			When more than one [=Member=] jointly participates in a Submission request,
-			only one [=Member=] formally sends in the request.
-			That [=Member=] <em class=rfc2119>must</em> copy
-			each of the [=Advisory Committee representatives=] of the other participating Members,
-			and each of those [=Advisory Committee representatives=] <em class="rfc2119">must</em> confirm
-			(by email to the Team)
-			their participation in the Submission request.
+			One of the [=Submitters=],
+			copying the [=Advisory Committee representatives=] of the other [=Submitters=] (if any),
+			sends a request to the Team to acknowledge the Submission request.
+			The [=Team=] and [=Submitter=](s) communicate to ensure that the [=Member Submission=] is complete.
 
 		<dt>Review
 		<dd>
 			The [=Team=] reviews the Submission
-			to evaluate whether it would be appropriate
-			and to ensure it complies with expectations:
+			to evaluate its scope, quality, and compliance with the Submission requirements,
+			including licensing requirements:
 
 			<ul>
 				<li>
 					The [=Submitter=](s)
 					and any other authors of the submitted material
-					<em class=rfc2119>must</em> agree that,
-					if the request is [=acknowledged=],
-					the documents in the Member Submission will be subject to the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]]
-					and will include a reference to it.
-					The [=Submitter=](s) <em class=rfc2119>may</em> hold the copyright for the documents in a Member Submission.
+					<em class=rfc2119>must</em> agree
+					to license the Submission under the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]].
 
 				<li>
 					The request <em class=rfc2119>must</em> satisfy the Member Submission licensing commitments
 					in [[PATENT-POLICY#sec-submissions]].
-
-				<li>
-					Detailed procedures and
-					additional requirements imposed by the [=Team=]
-					on Submission requests
-					are be documented in the “<a href="https://www.w3.org/2000/09/submission">Member submissions guidebook</a>” [[MEMBER-SUB]].
 			</ul>
 
+			Detailed procedures and requirements are defined by the [=Team=]
+			and documented in the “<a href="https://www.w3.org/2000/09/submission">Member submissions guidebook</a>” [[MEMBER-SUB]].
 
 		<dt>Decision
 		<dd>
@@ -5222,13 +5210,14 @@ Member Submissions</h2>
 				<li>
 					If <dfn>acknowledged</dfn>,
 					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
-					at the public W3C website.
-					The list of <a href="https://www.w3.org/submissions/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
-					is available at the W3C website.
+					at the public W3C website
+					alongside other <a href="https://www.w3.org/submissions/">acknowledged Member Submissions</a>.
+					[[SUBMISSION-LIST]]
 
-				<li>If <dfn>rejected</dfn>,
+				<li>
+					If <dfn>rejected</dfn>,
 					the [=Team=] <em class=rfc2119>must</em> inform the [=Advisory Committee representative=](s) of the [=Submitter=](s),
-					and <em class=rfc2119>must</em> provide rationale if requested by [=Submitter=](s).
+					and <em class=rfc2119>must</em> provide rationale if requested by the [=Submitter=](s).
 					The [=Submitter=](s) <em class=rfc2119>may</em> initiate a [=Submission Appeal=].
 			</ul>
 	</dl>
