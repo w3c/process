@@ -5164,7 +5164,7 @@ Member Submissions</h2>
 	The [=acknowledge|acknowledgment=] of a Submission request
 	does not imply that any action will be taken by W3C.
 	It merely records publicly
-	that the Submission has been made by the Submitter.
+	that the Submission has been made by the Submitter(s).
 	A Member Submission made available by W3C
 	is not a W3C [=technical report=] and
 	<em class="rfc2119">must not</em> be referred to as
