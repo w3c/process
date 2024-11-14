@@ -5653,6 +5653,14 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					Shift most of the informative discussion about Workshops to [[GUIDE]],
 					and reorganize the remaining normative requirements.
 					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
+
+				<li>
+					The section on Member Submissions was significantly shortened and simplified,
+					reducing the complexity under formal Process authority,
+					and shifting much of the material to /Guide,
+					under Team authority.
+					(See <a href="https://github.com/w3c/process/issues/421">Issue 412</a>
+					and <a href="https://github.com/w3c/process/issues/648">Pull Request 648</a>)
 			</ul>
 
 
