@@ -114,7 +114,7 @@ Relation of Process Document to Patent Policy and Other Policies</h2>
 
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
-	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
+	per their <a href="https://www.w3.org/membership/agreement/">Membership Agreement</a> [[MEMBER-AGREEMENT]].
 	The <a href="https://www.w3.org/policies/patent-policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
 	and other policies
 	incorporated by normative reference as a part of the Process Document
@@ -231,7 +231,7 @@ Members and the Team</h2>
 Members</h3>
 
 	<dfn lt="W3C Member|Member">W3C Members</dfn> are
-	organizations subscribed according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
+	organizations subscribed according to a <a href="https://www.w3.org/membership/agreement/">Membership Agreement</a> [[MEMBER-AGREEMENT]].
 	They are represented in W3C processes as follows:
 
 	<ol>
@@ -279,7 +279,7 @@ Rights of Members</h4>
 			described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 	</ul>
 
-	Furthermore, subject to further restrictions included in the Member Agreement,
+	Furthermore, subject to further restrictions included in their Member Agreement,
 	representatives of Member organizations participate in W3C as follows:
 
 	<ul>
@@ -758,7 +758,7 @@ Participation in the Advisory Committee</h4>
 
 	When an organization joins W3C
 	(see “<a href="https://www.w3.org/membership/join/">How to Join W3C</a>” [[JOIN]]),
-	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of the Membership Agreement.
+	it <em class="rfc2119">must</em> name its Advisory Committee representative as part of their Membership Agreement.
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
 	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
@@ -4963,7 +4963,7 @@ Public Communication</h3>
 
 		<li>
 			Legal documents,
-			including the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]]
+			including <a href="https://www.w3.org/membership/agreement/">Membership Agreements</a> [[MEMBER-AGREEMENT]]
 			and documentation of any legal commitments W3C has with other entities.
 
 		<li>
@@ -5679,7 +5679,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 		},
 	"MEMBER-AGREEMENT": {
-		"href": "https://www.w3.org/Consortium/Agreement/Member-Agreement",
+		"href": "https://www.w3.org/membership/agreement/",
 		"title": "W3C Membership Agreement",
 		"publisher": "W3C"
 	},
