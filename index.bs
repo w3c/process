@@ -1798,7 +1798,7 @@ Content of a Charter</h3>
 			The scope of the group's work and criteria for success.
 
 		<li>
-			The duration of the group (typically from six months to two years).
+			The duration of the proposed charter for the group.
 
 		<li>
 			The nature of any deliverables (technical reports, reviews of the deliverables of other groups, or software).
