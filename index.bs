@@ -377,6 +377,15 @@ Related Members</h5>
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
 	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
+<h4 id=standing>
+Good Standing</h4>
+
+	[=Members=] who have not lost Good Standing as defined in the [[BYLAWS inline]]
+	are considered, for the purposes of this Process,
+	to be in <dfn>Good Standing</dfn>.
+	A group of [=related Members=] is in Good Standing if
+	at least one of them is in Good Standing.
+
 <h3 id="Team" oldids="def-Director">
 The W3C Team</h3>
 
@@ -1214,7 +1223,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	</ul>
 
 	When there is a vote,
-	each Member
+	each Member in [=Good Standing=]
 	(or group of [=related Members=])
 	<em class="rfc2119">may</em> submit one ballot that ranks candidates in the Member's preferred order.
 	Once the deadline for votes has passed,
@@ -2864,6 +2873,8 @@ Appeal by Advisory Committee Representatives</h3>
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> appeal certain decisions,
 	though appeals are only expected to occur in extraordinary circumstances.
+	For the purpose of this section, only [=Advisory Committee representatives=] of
+	[=Members=] in [=Good Standing=] are counted.
 
 	When a [=W3C decision=] is made following an [=Advisory Committee review=],
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
@@ -4388,7 +4399,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 			where the request was not answered within 90 days
 
 		<li>
-			5% of the members of the Advisory Committee
+			5% of [=Advisory Committee representatives=] of [=Members=] in [=Good Standing=]
 	</ul>
 
 	<p id="proposed-rescinded-rec">The [=Team=] <em class="rfc2119">must</em> then
