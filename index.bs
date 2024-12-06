@@ -2454,6 +2454,10 @@ Council Composition</h5>
 	Membership of each [=Council=] instance is fixed at formation,
 	and is not changed by any [=AB=] or [=TAG=] elections
 	occurring before that Council has reached a conclusion.
+	Specifically, the list of potential [=Council=] members evolves
+	as terms start or end
+	so long as [=dismissal=] has not concluded,
+	but is fixed thereafter.
 	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
 	the [=W3C Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
