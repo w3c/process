@@ -3108,7 +3108,6 @@ Wide Review</h5>
 	The objective is to ensure that the entire set of stakeholders of the Web community,
 	including the general public,
 	have had adequate notice of the progress of the [=Working Group=]
-	(for example through notices posted to <a href="https://lists.w3.org/Archives/Public/public-review-announce/">public-review-announce@w3.org</a>)
 	and were able to actually perform reviews of and provide comments on the specification.
 	A second objective is to encourage groups to request reviews
 	early enough that comments and suggested changes
@@ -3124,6 +3123,8 @@ Wide Review</h5>
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
+
+	Note: The Team documents <a href="https://www.w3.org/Guide/documentreview/">best practices for wide review</a> in the Guidebook. [[GUIDE]]
 
 	For example,
 	inviting review of new or significantly revised sections published in Working Drafts,
