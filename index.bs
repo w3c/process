@@ -5824,7 +5824,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MEMBER-SUB": {
-		"href": "https://www.w3.org/2000/09/submission",
+		"href": "https://www.w3.org/submissions/guide/",
 		"title": "Member submissions guidebook",
 		"publisher": "W3C"
 	},
