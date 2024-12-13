@@ -4119,7 +4119,7 @@ Next Steps from W3C Recommendation</h5>
 
 		<li>
 			republished as a <a href="#transition-cr">Candidate Recommendation</a>
-			or <a href="https://www.w3.org/2023/Process-20231103/#revising-wd">Working Draft</a>
+			or <a href="#revising-wd">Working Draft</a>
 			to be developed towards a revised [=Recommendation=], or
 
 		<li>
