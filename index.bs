@@ -504,7 +504,7 @@ Conflict of Interest Policy</h5>
 
 	Individuals seeking assistance on these matters <em class="rfc2119">should</em> contact the [=Team=].
 
-	[=Team=] members are subject to the <a href="https://www.w3.org/2000/09/06-conflictpolicy">W3C Team conflict of interest policy</a> [[!CONFLICT-POLICY]].
+	[=Team=] members are subject to the <a href="https://www.w3.org/policies/conflict-of-interest-policy-for-w3c-team/">Conflict of Interest Policy for the W3C Team</a> [[!CONFLICT-POLICY]].
 
 <h5 id="member-rep">
 Individuals Representing a Member Organization</h5>
@@ -4119,7 +4119,7 @@ Next Steps from W3C Recommendation</h5>
 
 		<li>
 			republished as a <a href="#transition-cr">Candidate Recommendation</a>
-			or <a href="https://www.w3.org/2023/Process-20231103/#revising-wd">Working Draft</a>
+			or <a href="#revising-wd">Working Draft</a>
 			to be developed towards a revised [=Recommendation=], or
 
 		<li>
@@ -5719,8 +5719,8 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"CONFLICT-POLICY": {
-		"href": "https://www.w3.org/2000/09/06-conflictpolicy",
-		"title": "Conflict of Interest Policy for W3C Team Members Engaged in Outside Professional Activities",
+		"href": "https://www.w3.org/policies/conflict-of-interest-policy-for-w3c-team/",
+		"title": "Conflict of Interest Policy for the W3C Team",
 		"publisher": "W3C"
 	},
 	"TAG-HP": {
@@ -5824,7 +5824,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"MEMBER-SUB": {
-		"href": "https://www.w3.org/2000/09/submission",
+		"href": "https://www.w3.org/submissions/guide/",
 		"title": "Member submissions guidebook",
 		"publisher": "W3C"
 	},
