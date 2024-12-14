@@ -5199,7 +5199,7 @@ Member Submissions</h2>
 			</ul>
 
 			Detailed procedures and requirements are defined by the [=Team=]
-			and documented in the “<a href="https://www.w3.org/2000/09/submission">Member submissions guidebook</a>” [[MEMBER-SUB]].
+			and documented in the “<a href="https://www.w3.org/submissions/guide/">Member submissions guidebook</a>” [[MEMBER-SUB]].
 
 		<dt>Decision
 		<dd>
