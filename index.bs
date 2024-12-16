@@ -5199,7 +5199,7 @@ Member Submissions</h2>
 			</ul>
 
 			Detailed procedures and requirements are defined by the [=Team=]
-			and documented in the “<a href="https://www.w3.org/2000/09/submission">Member submissions guidebook</a>” [[MEMBER-SUB]].
+			and documented in the “<a href="https://www.w3.org/submissions/guide/">Member submissions guidebook</a>” [[MEMBER-SUB]].
 
 		<dt>Decision
 		<dd>
@@ -5211,8 +5211,8 @@ Member Submissions</h2>
 					If <dfn>acknowledged</dfn>,
 					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
 					at the public W3C website
-					alongside other <a href="https://www.w3.org/submissions/">acknowledged Member Submissions</a>.
-					[[SUBMISSION-LIST]]
+					alongside other <a href="https://www.w3.org/submissions/">acknowledged Member Submissions</a>
+					[[SUBMISSION-LIST]].
 
 				<li>
 					If <dfn>rejected</dfn>,
