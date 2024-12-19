@@ -1754,7 +1754,7 @@ Initiating Charter Refinement</h3>
 	that the [=Team=] initiate [=charter refinement=].
 	The Team <em class=rfc2119>may</em> deny such a request
 	if it thinks the proposal is insufficiently mature or does not align with W3C's scope and mission.
-	This rejection is a [=Team Decision=] which can be <a href="#registering-objections">Formally Objected to</a>.
+	This rejection is a [=Team Decision=].
 
 <h3 id="charter-development" oldids="WGCharterDevelopment">
 Charter Refinement</h3>
