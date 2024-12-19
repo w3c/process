@@ -2388,6 +2388,9 @@ Registering Formal Objections</h3>
 
 	Registering a [=Formal Objection=] initiates the process of
 	[[#addressing-fo|addressing the Formal Objection]].
+	The resolution of a recorded Formal Objection--
+	whether by a Council decision, adoption of a consensus proposal, retraction of the Formal Objection, etc.--
+	must be recorded and made available at the same level of visibility as the record of the Formal Objection itself.
 
 <h3 id=addressing-fo>
 Addressing Formal Objections</h3>
