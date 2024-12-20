@@ -3320,7 +3320,6 @@ Maintenance Without a Group</h4>
 	as defined in the Patent Policy [[PATENT-POLICY]]
 	(i.e., they are not covered by the Patent Policy).
 	For [=Candidate Recommendations=],
-	[=Proposed Recommendations=],
 	[=W3C Recommendations=],
 	[=Candidate Registries=],
 	[=W3C Registries=],
