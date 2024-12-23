@@ -5691,6 +5691,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 				<li>
 					Require documentation of how Formal Objections get resolved.
 					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>)
+
+				<li>
+					Clarify amount of leeway around incomplete nominations to TAG or AB elections.
+					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>)
 			</ul>
 
 
