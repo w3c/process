@@ -1195,6 +1195,10 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	(Other formal relationships such as other contracts should be disclosed as potential conflicts of interest.)
 	Each nomination <em class="rfc2119">should</em> include
 	a few informative paragraphs about the nominee.
+	If an identified candidate's nomination information is only partially complete
+	as of the deadline for nominations,
+	the [=Team=] <em class=rfc2119>may</em> allow extra time for that candidate's nomination to be completed,
+	so long as it does not delay the election as a whole.
 
 	If, after the deadline for nominations, the number of nominees is:
 
