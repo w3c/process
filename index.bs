@@ -5671,6 +5671,14 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					under Team authority.
 					(See <a href="https://github.com/w3c/process/issues/421">Issue 412</a>
 					and <a href="https://github.com/w3c/process/issues/936">Pull Request 936</a>)
+
+				<li>
+					Reuse the bylaws’ notion of Good Standing,
+					and restrict TAG and AB elections
+					as well as AC Votes where a decision is made based on counting ballots
+					to Members in Good Standing.
+					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a>
+					and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>)
 			</ul>
 
 
