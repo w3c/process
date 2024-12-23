@@ -5682,6 +5682,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					to Members in Good Standing.
 					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a>
 					and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>)
+
+				<li>
+					Require documentation of how Formal Objections get resolved.
+					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>)
 			</ul>
 
 
