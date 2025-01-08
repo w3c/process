@@ -1787,7 +1787,6 @@ Charter Refinement</h3>
 
 	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together,
 	while allowing [=Formal Objections=] to [=Chartering Facilitator=] misbehavior
-	that the [=Team=] is failing to address
 	to be processed immediately.
 
 	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
