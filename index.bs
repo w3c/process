@@ -3015,14 +3015,14 @@ Types of Technical Reports</h3>
 
 		<dt>Registries
 		<dd>
-			[=Working Groups=] can also publish [=registries=]
+			[=Chartered groups|chartered=] and [=elected groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
 			A registry can be published either as a distinct [=registry report=],
 			or directly within a [=Recommendation Track=] document
 			as an [=embedded registry=].
 			[=registry definition|Defining a registry=] requires [=wide review=] and [=consensus=],
 			but once set up, changes to registry entries are lightweight
-			and can even be done without a [=Working Group=].
+			and can even be done without the initiating group's involvement.
 			See [[#registries]] for details.
 	</dl>
 
@@ -4702,7 +4702,7 @@ Registry Definitions</h4>
 			and which is responsible for evaluating whether such requests
 			satisfy the criteria defined in the [=registry definition=].
 
-			The [=custodian=] may be the [=Working Group=], the [=Team=], or a delegated entity.
+			The [=custodian=] may be the initiating [=chartered group|chartered=] or [=elected group=], the [=Team=], or a delegated entity.
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
 
@@ -4710,7 +4710,7 @@ Registry Definitions</h4>
 			ceases to exist or to operate as a custodian
 			(e.g., the relevant group is disbanded, or 
 			the custodian is unresponsive to repeated attempts to make contact),
-			and the [=Working Group=] that owns the [=registry definition=] 
+			and the [=chartered group|chartered=] or [=elected group=] that owns the [=registry definition=]
 			is itself <a href="#GeneralTermination">closed</a> or 
 			unresponsive,
 			the [=Team=] <em class=rfc2119>should</em> propose replacing the [=custodian=],
@@ -4721,9 +4721,9 @@ Registry Definitions</h4>
 <h4 id=reg-pub>
 Publishing Registries</h4>
 
-	[=Registries=] can be published either
+	[=Registries=] can be published by [=chartered group|chartered=] or [=elected groups=] either
 	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
-	or incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
+	or, in the case of [=Working Groups=], incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
 
 	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
@@ -4814,22 +4814,22 @@ Updating Registry Tables</h4>
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=technical report=] that contains the affected table,
 	without needing to satisfy any other requirements for the publication
-	(not even Working Group consensus, unless this is required by the [=registry definition=]).
+	(not even consensus, unless this is required by the [=registry definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor Exclusion Opportunities,
 	and do not require verification via an [=update request=],
 	even for [=technical reports=] at maturities where this would normally be expected.
 	Such publications can be made
-	even in the absence of a [=Working Group=] chartered to maintain the registry
+	even in the absence of a group chartered to maintain the registry
 	when the [=custodian=] is another entity.
 
 	Note: The custodian is only empowered to make [=registry changes=].
-	If the Working Group establishing the registry wishes
+	If the [=chartered group|chartered=] or [=elected group=] establishing the registry wishes
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
-	they need to be requested of the responsible Working Group--
-	or in the absence of a Working Group, of the Team.
+	they need to be requested of the [=chartered group|chartered=] or [=elected group=] responsible for maintaining the [=registry definition=]--
+	or in the absence of such a group, of the Team.
 
 	Changes to the [=registry tables=]
 	made in accordance with [=candidate amendment|candidate=] or [=proposed amendments=] to the [=registry definition=]
@@ -4859,12 +4859,13 @@ Registry Data Reports</h4>
 	is that of the [=technical report=] holding the [=registry definition=].
 
 	Anytime a change is made to a [=registry definition=],
-	the Working Group <em class=rfc2119>must</em> update and republish
+	the [=chartered group|chartered=] or [=elected group=] maintaining the [=registry definition=]
+	<em class=rfc2119>must</em> update and republish
 	any document holding the corresponding [=registry tables=]
 	to make it consistent with these changes.
 
 	Given a recorded [=group decision=] to do so,
-	the [=Working Group=]
+	the [=chartered group|chartered=] or [=elected group=] maintaining the [=registry definition=]
 	<em class=rfc2119>may</em> republish the [=Registry Data Report=] to incorporate
 	[=editorial changes=].
 
