@@ -2451,15 +2451,15 @@ Council Composition</h5>
 	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
 
 	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
-	Membership of each [=Council=] instance is fixed at formation,
+	The list of potential [=Council=] members evolves
+	as [=AB=] and [=TAG=] terms start and end
+	until [=dismissal=] and [=renunciation=] are concluded,
+	at which point all remaining potential [=Council=] members become full members.
+	Thereafter, the membership of the [=Council=] is fixed,
 	and is not changed by any [=AB=] or [=TAG=] elections
-	occurring before that Council has reached a conclusion.
-	Specifically, the list of potential [=Council=] members evolves
-	as terms start or end
-	so long as [=dismissal=] has not concluded,
-	but is fixed thereafter.
-	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
-	the [=W3C Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
+	that occur before that Council has reached a conclusion.
+	However, if the number of active members in a [=Council=] falls so low as to hinder effective and balanced deliberations,
+	the [=Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
 
 	A [=Team=] member is assigned
