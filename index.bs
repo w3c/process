@@ -1986,7 +1986,7 @@ Minor Changes to Active Charters</h4>
 	or a change of [=Chair=].
 
 	The [=Team=] <em class=rfc2119>may</em> nevertheless choose
-	initial [=charter refinement=] and/or [=Advisory Committee Review=]
+	to initiate [=charter refinement=] and/or [=Advisory Committee Review=]
 	when it thinks the changes would benefit from more scrutiny or explicit buy-in.
 
 	Though [=Advisory Committee Review=] is not required,
