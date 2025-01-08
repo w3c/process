@@ -1775,7 +1775,7 @@ Charter Refinement</h3>
 		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
 
 	The [=charter refinement=] phase concludes when there is either:
-	* A [=group decision=] to initiate [=AC Review=] of the [=charter draft=].
+	* A [=group decision=] or [=Team Decision=] to initiate [=AC Review=] of the [=charter draft=].
 	* A [=chair decision=] by the [=Chartering Facilitator=] to abandon the proposal.
 
 	Any [=Formal Objection=] filed during the  [=charter refinement=] phase--
