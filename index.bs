@@ -3015,7 +3015,7 @@ Types of Technical Reports</h3>
 
 		<dt>Registries
 		<dd>
-			[=Chartered groups|chartered=] and [=elected groups=] can also publish [=registries=]
+			[=Chartered groups|Chartered=] and [=elected groups=] can also publish [=registries=]
 			in order to document collections of values or other data.
 			A registry can be published either as a distinct [=registry report=],
 			or directly within a [=Recommendation Track=] document
