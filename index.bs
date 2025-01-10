@@ -4814,7 +4814,7 @@ Updating Registry Tables</h4>
 	(i.e. [[#correction-classes|Class 5 changes]])
 	can be made by re-publishing the [=technical report=] that contains the affected table,
 	without needing to satisfy any other requirements for the publication
-	(not even consensus, unless this is required by the [=registry definition=]).
+	(not even a [=group decision=], unless this is required by the [=registry definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor Exclusion Opportunities,
 	and do not require verification via an [=update request=],
