@@ -1769,9 +1769,9 @@ Charter Refinement</h3>
 	Note: The [=Chartering Facilitator=] is not necessarily (and often is not) the [=Chair=] of the [=chartered group|group=] being chartered.
 
 	During [=charter refinement=]:
+	* [=Wide review=] of the [=charter draft=] is initiated and completed.
 	* All issues filed against the [=charter draft=] must be [=formally addressed=],
 		and their resolutions tracked in a disposition of comments.
-	* [=Wide review=] of the [=charter draft=] is initiated and completed.
 	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
 		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
 
