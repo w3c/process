@@ -2731,6 +2731,8 @@ Initiating an Advisory Committee Review</h4>
 	raises attention to deadlines,
 	estimates when the decision will be available,
 	and includes other practical information.
+	The [=Team=] <em class=rfc2119>may</em> share its perspective on the proposal
+	in the [=Call for Review=].
 	Each Member organization <em class="rfc2119">may</em> send one review,
 	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
 
