@@ -5586,6 +5586,11 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					after addressing feedback
 					following an AC Appeal.
 					(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>)
+
+				<li>
+					Limit the involvement of Tim Berners-Lee to the TAG proper,
+					not including the Council.
+					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>)
 			</ul>
 
 		<dt>Changes to technical reports and their publication
