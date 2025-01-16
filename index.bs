@@ -293,7 +293,7 @@ Rights of Members</h4>
 			either to convene experts and other interested parties
 			for an exchange of ideas about a technology or policy,
 			or to address the pressing concerns of W3C Members.
-			(See <a href="https://www.w3.org/Guide/meetings/workshops">Workshops</a> in [[GUIDE]])
+			(See <a href="https://www.w3.org/guide/meetings/workshops">Workshops</a> in [[GUIDE]])
 
 		<li>
 			On the Team, as <a href="#fellows">W3C Fellows</a>.
@@ -469,7 +469,7 @@ Expectations and Discipline</h5>
 	(b) the membership agreement, or
 	(c) applicable laws,
 	occur.
-	Refer to the <a href="https://www.w3.org/Guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
+	Refer to the <a href="https://www.w3.org/guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
 
 <h5 id="coi">
 Conflict of Interest Policy</h5>
@@ -915,7 +915,7 @@ Composition of the Advisory Board</h5>
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
 
-	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a>,
+	The team also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Team Contact have a standing invitation
 	to all regular Advisory Board sessions.
@@ -1032,7 +1032,7 @@ Composition of the Technical Architecture Group</h5>
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
 
-	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
+	The [=Team=] also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
@@ -1434,16 +1434,16 @@ Requirements for All Chartered Groups</h4>
 	(invited by the [=Team=]).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
 	
-	Note: The <a href="https://www.w3.org/Guide/chair/role.html">role of the Chair</a> [[CHAIR]] is described
-	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+	Note: The <a href="https://www.w3.org/guide/chair/role">role of the Chair</a> [[CHAIR]] is described
+	in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
 
 	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Team Contact</dfn>,
 	who acts as the interface between the [=Chair=],
 	group participants,
 	and the rest of the Team.
 	
-	Note: The <a href="https://www.w3.org/Guide/teamcontact/role.html">role of the Team Contact</a> [[TEAM-CONTACT]] 
-	is described in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]].
+	Note: The <a href="https://www.w3.org/guide/teamcontact/role">role of the Team Contact</a> [[TEAM-CONTACT]] 
+	is described in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
 				
 	The [=Chair=] and the [=Team Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
 
@@ -1835,7 +1835,7 @@ Content of a Charter</h3>
 		<li>
 			Any dependencies of this group on other groups within or outside of W3C.
 			Such dependencies include interactions with
-			<a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]].
+			<a href="https://www.w3.org/guide/process/charter#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]].
 
 		<li>
 			The <a href="#confidentiality-levels">level of confidentiality</a>
@@ -3142,14 +3142,14 @@ Wide Review</h5>
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
-	especially <a href="https://www.w3.org/Guide/process/charter.html#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
+	especially <a href="https://www.w3.org/guide/process/charter#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
 	and groups identified as dependencies in the charter
 	or identified as <a href="https://www.w3.org/liaisons/">liaisons</a> [[LIAISON]],
 	and seek evidence of clear communication to the general public
 	about appropriate times and which content to review
 	and whether such reviews actually occurred.
 
-	Note: The Team documents <a href="https://www.w3.org/Guide/documentreview/">best practices for wide review</a> in the Guidebook. [[GUIDE]]
+	Note: The Team documents <a href="https://www.w3.org/guide/documentreview/">best practices for wide review</a> in the Guidebook. [[GUIDE]]
 
 	For example,
 	inviting review of new or significantly revised sections published in Working Drafts,
@@ -3157,7 +3157,7 @@ Wide Review</h5>
 	and the [=Working Group=]'s responses,
 	is generally a good practice which would often be considered positive evidence of wide review.
 	[=Working Groups=]
-	<em class="rfc2119">should</em> follow the <a href="https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review">W3C Horizontal Groups</a>’ review processes,
+	<em class="rfc2119">should</em> follow the <a href="https://www.w3.org/guide/documentreview/#how-to-get-horizontal-review">W3C Horizontal Groups</a>’ review processes,
 	and <em class="rfc2119">should</em> announce to other W3C Working Groups
 	as well as the general public,
 	especially those affected by this specification,
@@ -4480,7 +4480,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
 	The Status of this Document section <em class="rfc2119">should</em> link
-	to the explanation of <a href="https://www.w3.org/Guide/process/obsolete-rescinded-supserseded">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
+	to the explanation of <a href="https://www.w3.org/guide/process/obsolete-rescinded-supserseded">Obsoleting and Rescinding W3C Specifications</a> [[OBS-RESC]] as appropriate.
 
 	Once W3C has published a Rescinded Recommendation,
 	future W3C technical reports <em class="rfc2119">must not</em> include normative references
@@ -4953,8 +4953,8 @@ Switching Tracks</h3>
 <h3 id="further-reading">
 Further reading</h3>
 
-	Refer to <a href="https://www.w3.org/Guide/transitions/">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
-	in the <a href="https://www.w3.org/Guide/">Art of Consensus</a> [[GUIDE]]
+	Refer to <a href="https://www.w3.org/guide/transitions/">"How to Organize a Recommendation Track Transition"</a> [[TRANSITION]]
+	in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
 	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
@@ -5825,7 +5825,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"GUIDE": {
-		"href": "https://www.w3.org/Guide/",
+		"href": "https://www.w3.org/guide/",
 		"title": "The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators",
 		"publisher": "W3C"
 	},
@@ -5835,7 +5835,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"OBS-RESC": {
-		"href": "https://www.w3.org/Guide/process/obsolete-rescinded-supserseded",
+		"href": "https://www.w3.org/guide/process/obsolete-rescinded-supserseded",
 		"title": "Obsoleting and Rescinding W3C Specifications",
 		"publisher": "W3C"
 	},
@@ -5881,27 +5881,27 @@ Changes since earlier versions</h3>
 		"id": "MEM15"
 	},
 	"TEAM-CONTACT": {
-		"href": "https://www.w3.org/Guide/teamcontact/role.html",
+		"href": "https://www.w3.org/guide/teamcontact/role",
 		"title": "Role of the Team Contact",
 		"publisher": "W3C"
 	},
 	"CHAIR": {
-		"href": "https://www.w3.org/Guide/chair/role.html",
+		"href": "https://www.w3.org/guide/chair/role",
 		"title": "W3C Working/Interest Group Chair",
 		"publisher": "W3C"
 	},
 	"CHARTER": {
-		"href": "https://www.w3.org/Guide/process/charter.html",
+		"href": "https://www.w3.org/guide/process/charter",
 		"title": "How to Create a Working Group or Interest Group",
 		"publisher": "W3C"
 	},
 	"TRANSITION": {
-		"href": "https://www.w3.org/Guide/transitions/",
+		"href": "https://www.w3.org/guide/transitions/",
 		"title": "Organize a Technical Report Transition",
 		"publisher": "W3C"
 	},
 	"DECISION-APPEAL": {
-		"href": "https://www.w3.org/Guide/process/ac-appeal",
+		"href": "https://www.w3.org/guide/process/ac-appeal",
 		"title": "Appealing a W3C Decision",
 		"publisher": "W3C"
 	},
