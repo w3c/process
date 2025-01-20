@@ -4859,7 +4859,7 @@ Registry Data Reports</h4>
 	is that of the [=technical report=] holding the [=registry definition=].
 
 	Anytime a change is made to a [=registry definition=],
-	the [=chartered group|chartered=] or [=elected group=] maintaining the [=registry definition=]
+	the group maintaining the [=registry definition=]
 	<em class=rfc2119>must</em> update and republish
 	any document holding the corresponding [=registry tables=]
 	to make it consistent with these changes.
