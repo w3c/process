@@ -4828,7 +4828,7 @@ Updating Registry Tables</h4>
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
-	they need to be requested of the [=chartered group|chartered=] or [=elected group=] responsible for maintaining the [=registry definition=]--
+	they need to be requested of the group responsible for maintaining the [=registry definition=]--
 	or in the absence of such a group, of the Team.
 
 	Changes to the [=registry tables=]
