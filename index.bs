@@ -4702,7 +4702,7 @@ Registry Definitions</h4>
 			and which is responsible for evaluating whether such requests
 			satisfy the criteria defined in the [=registry definition=].
 
-			The [=custodian=] may be the initiating [=chartered group|chartered=] or [=elected group=], the [=Team=], or a delegated entity.
+			The [=custodian=] may be the initiating group, the [=Team=], or a delegated entity.
 			The [=custodian=] for all [=registry tables=] in a single [=registry=]
 			<em class=rfc2119>should</em> generally be the same entity.
 
