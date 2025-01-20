@@ -1766,7 +1766,7 @@ Charter Refinement</h3>
 	who is chosen (and <em class=rfc2119>may</em> be replaced) by the [=Team=]--
 	acts as [=Chair=] for the [=charter refinement=] process.
 
-	Note: The [=Chartering Facilitator=] is not necessarily (and often is not) the [=Chair=] of the [=chartered group|group=] being chartered.
+	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
 	During [=charter refinement=]:
 	* [=Wide review=] of the [=charter draft=] is initiated and completed.
@@ -1787,9 +1787,7 @@ Charter Refinement</h3>
 	until the close of the [=Advisory Committee Review=] of the charter,
 	and is registered against that [=W3C Decision=].
 
-	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together,
-	while allowing [=Formal Objections=] to [=Chartering Facilitator=] misbehavior
-	to be processed immediately.
+	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together.
 
 	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
 	the [=Chartering Facilitator=] must inform the AC
