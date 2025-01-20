@@ -4824,7 +4824,7 @@ Updating Registry Tables</h4>
 	when the [=custodian=] is another entity.
 
 	Note: The custodian is only empowered to make [=registry changes=].
-	If the [=chartered group|chartered=] or [=elected group=] establishing the registry wishes
+	If the group establishing the registry wishes
 	to empower the custodian to add commentary on individual entries,
 	this needs to be part of the registry table’s definition.
 	If other changes are desired,
