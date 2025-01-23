@@ -5643,6 +5643,11 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					that described whether and how the Team can maintain technical reports
 					that no longer have a Group chartered to maintain them.
 					(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
+
+				<li>
+					Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
+					in addition to Working Groups.
+					(See <a href="https://github.com/w3c/process/issues/902">Issue 902</a>)
 			</ul>
 
 		<dt>Changes to chartering
