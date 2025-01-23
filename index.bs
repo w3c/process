@@ -4721,9 +4721,12 @@ Registry Definitions</h4>
 <h4 id=reg-pub>
 Publishing Registries</h4>
 
-	[=Registries=] can be published by [=chartered group|chartered=] or [=elected groups=] either
-	as a stand-alone [=technical report=] on the [=Registry Track=] called a <dfn>registry report</dfn>,
-	or, in the case of [=Working Groups=], incorporated as part of a [=Recommendation=] as an <dfn oldids="registry-section">embedded registry</dfn>.
+	A [=chartered group|chartered=] or [=elected group=] can publish a [=registry=]
+	as a stand-alone [=technical report=] on the [=Registry Track=],
+	where it is called a <dfn>registry report</dfn>.
+	[=Working Groups=] have the additional option of
+	incorporating a [=registry=] as part of a [=Recommendation=],
+	as an <dfn oldids="registry-section">embedded registry</dfn>.
 
 	The [=registry report=] or [=embedded registry=] <em class=rfc2119>must</em>:
 	<ul>
