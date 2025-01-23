@@ -1504,9 +1504,6 @@ Participation in Chartered Groups</h4>
 	including for <a href="#Votes">votes</a>.
 	For the substitute to vote,
 	the participant <em class="rfc2119">must</em> inform the [=Chair=] in writing in advance.
-	As a courtesy to the group,
-	if the substitute is not well-versed in the group's discussions,
-	the regular participant <em class="rfc2119">should</em> authorize another participant to act as <a href="#proxy">proxy</a> for votes.
 
 	To allow rapid progress,
 	Working Groups are intended to be small
@@ -5705,6 +5702,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 				<li>
 					Clarify amount of leeway around incomplete nominations to TAG or AB elections.
 					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>)
+
+				<li>
+					Simplify provisions regarding subsitute representatives and proxies.
+					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>)
 			</ul>
 
 
