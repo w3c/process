@@ -1352,7 +1352,7 @@ Collective removal</h6>
 	if the [=Advisory Committee Override=] proposal passes,
 	all seats on [=AB=] or [=TAG=] are [=vacated=] immediately;
 	if it fails, it cannot be invoked on the same body
-	sooner than 6-month since their previous invocation.
+	sooner than six months since their previous invocation.
 
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
