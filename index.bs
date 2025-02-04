@@ -1242,7 +1242,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	the <a href="#random">verifiable random selection procedure</a> described below
 	will be used to assign the incomplete term.
 
-	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
+	Refer to <a href="https://www.w3.org/guide/process/election">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
 
 <h5 id="TAG-appointments">
@@ -4956,8 +4956,8 @@ Further reading</h3>
 	in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]]
 	for practical information about preparing for the reviews
 	and announcements of the various steps,
-	and <a href="https://www.w3.org/2002/05/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
-	Please see also the <a href="https://www.w3.org/2003/01/republishing/">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
+	and <a href="https://www.w3.org/guide/standards-track/rec-tips">tips on getting to Recommendation faster</a> [[REC-TIPS]].
+	Please see also the <a href="https://www.w3.org/guide/standards-track/republishing">Requirements for modification of W3C Technical Reports</a> [[REPUBLISHING]].
 
 <h2 id="dissemination"> <span id="chapterDissemination"></span>
 Dissemination Policies</h2>
@@ -5783,7 +5783,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"REC-TIPS": {
-		"href": "https://www.w3.org/2002/05/rec-tips",
+		"href": "https://www.w3.org/guide/standards-track/rec-tips",
 		"title": "Tips for Getting to Recommendation Faster",
 		"publisher": "W3C"
 	},
@@ -5823,7 +5823,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"REPUBLISHING": {
-		"href": "https://www.w3.org/2003/01/republishing/",
+		"href": "https://www.w3.org/guide/standards-track/republishing",
 		"title": "In-place modification of W3C Technical Reports",
 		"publisher": "W3C"
 	},
@@ -5883,7 +5883,7 @@ Changes since earlier versions</h3>
 		"publisher": "W3C"
 	},
 	"ELECTION-HOWTO": {
-		"href": "https://www.w3.org/2002/10/election-howto",
+		"href": "https://www.w3.org/guide/process/election",
 		"title": "How to Organize an Advisory Board or TAG election",
 		"publisher": "W3C",
 		"id": "MEM15"
