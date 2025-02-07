@@ -1341,7 +1341,7 @@ Collective removal</h6>
 
 	An [=Advisory Committee representative=] initiates a [=vote of no confidence=]
 	by sending a request to the Team, and <em class=rfc2119>should</em> also share this request with the Advisory Committee.
-	The request <em class=rfc2119>must</em> identify which of the [=AB=] or [=TAG=] is targeted,
+	The request <em class=rfc2119>must</em> identify whether the [=AB=] or [=TAG=] is targeted,
 	and <em class=rfc2119>should</em> also include the rationale.
 
 	Within one week, the [=Team=] <em class=rfc2119>must</em> initiate an [=Advisory Committee Override=]
