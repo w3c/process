@@ -4106,11 +4106,12 @@ Initiating Review</h5>
 <h5 id="rec-review-resolution">
 Resolution of Review</h5>
 
-	If there was any [=dissent=] in Advisory Committee reviews,
-	the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+	If there was any [=Formal Objection=] during the [=Advisory Committee Review=],
+	the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the [=dissent=]
 	to W3C and the general public,
-	and <em class="rfc2119">must</em> [=formally address=] the comment
-	at least 14 days before publication as a [=W3C Recommendation=].
+	and the [=W3C Recommendation=] <em class="rfc2119">must not</em> be published
+	unless all [=Formal Objections=] to the comment have been retracted or [=overruled=]
+	and at least 14 days have ellapsed since the publication of the corresponding [=Council Report=].
 
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
