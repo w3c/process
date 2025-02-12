@@ -4111,7 +4111,7 @@ Resolution of Review</h5>
 	to W3C and the general public,
 	and the [=W3C Recommendation=] <em class="rfc2119">must not</em> be published
 	unless all [=Formal Objections=] to the document have been retracted or [=overruled=]
-	and at least 14 days have ellapsed since the publication of the corresponding [=Council Report=].
+	and at least 14 days have elapsed since the publication of the corresponding [=Council Report=].
 
 	The decision to advance a document to [=Recommendation=]
 	is a [=W3C Decision=].
