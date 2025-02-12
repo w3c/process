@@ -1322,14 +1322,37 @@ Verifiable Random Selection Procedure</h5>
 			The incomplete terms are assigned in result order.
 	</ol>
 
+<h5 id="AB-TAG-removal">
+Removing AB or TAG members</h5>
+
+	Individual participants of the [=Advisory Board=] or the [=Technical Architecture Group=]
+	can be <dfn export lt="remove|removal">removed</dfn> from those groups
+	if they are found by their peers
+	to be grossly neglecting their duties,
+	or to be acting in a way that seriously hampers the group's ability to function normally.
+
+	A chair of the [=AB=] or [=TAG=] <em class=rfc2119>must</em> hold a hearing
+	on the potential [=removal=] of a participant
+	if requested by at least three of the participants in the group.
+	After giving the individual in question
+	an opportunity to defend themselves,
+	a vote on the proposed [=removal=] is held.
+	If at least three quarters of the participants in the group,
+	excluding the individual who is the subject of such vote,
+	then vote in favor of the proposal,
+	the individual's seat on [=AB=] or [=TAG=] is [=vacated=] immediately.
+
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
 
-	An [=Advisory Board=] or [=TAG=] participant's seat is vacated when:
+	An [=Advisory Board=] or [=TAG=] participant's seat is <dfn lt="vacated|vacant">vacated</dfn> when:
 
 	<ul>
 		<li>
 			the participant resigns, or
+
+		<li>
+			the participant is [=removed=], or
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
