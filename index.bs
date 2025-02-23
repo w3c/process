@@ -928,7 +928,7 @@ Composition of the Advisory Board</h5>
 	either five or six terms expire.
 	If an individual is elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
-	Regular Advisory Board terms begin on 1 July and end on 30 June.</p>
+	Regular Advisory Board terms begin on 1 July and end on 30 June.
 
 <h5 id=ab-comm>
 Communications of the Advisory Board</h5>
@@ -1306,7 +1306,7 @@ Verifiable Random Selection Procedure</h5>
 	(listed in alphabetical order by family name unless otherwise specified)
 	into a “result order”.
 
-	W3C applies this procedure as follows:</p>
+	W3C applies this procedure as follows:
 
 	<ol>
 		<li>
@@ -3255,7 +3255,7 @@ Errata Management</h4>
 	the term “<dfn lt="erratum | errata" export>erratum</dfn>”
 	(plural “errata”) refers to any error
 	that can be resolved by one or more changes in classes 1-3
-	of section [[#correction-classes]]</a>.
+	of section [[#correction-classes]].
 
 	[=Working Groups=] <em class="rfc2119">must</em> keep
 	a public record of errors
@@ -3737,7 +3737,7 @@ Advancement on the Recommendation Track</h4>
 	or [=Candidate Recommendation=]
 	will not normally be approved
 	while a [=Working Group=]'s [=charter=] is undergoing or awaiting a decision
-	on an [=Advisory Committee Review=].</p>
+	on an [=Advisory Committee Review=].
 
 <h4 id="update-reqs">
 Updating Mature Publications on the Recommendation Track</h4>
@@ -4905,7 +4905,7 @@ Specifications that Reference Registries</h4>
 		For example
 		 <span class=allow-2119>“All implementations must recognize the name <code>Basic-Method</code>,
 		and implement it as defined by section yy of IETF RFC xxxx”</span>.
-		(The Registry is nonetheless expected to contain </code>Basic-Method</code> as an entry.)
+		(The Registry is nonetheless expected to contain <code>Basic-Method</code> as an entry.)
 	</div>
 
 <h4 id=reg-pat>
