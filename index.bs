@@ -2264,7 +2264,7 @@ Deciding by Vote</h4>
 
 	If a participant is unable to attend a vote,
 	that individual <em class="rfc2119">may</em> authorize anyone at the meeting
-	to act as a <dfn id="proxy">proxy</dfn>.
+	to act as a proxy.
 	The absent participant <em class="rfc2119">must</em> inform the Chair in writing
 	who is acting as proxy, with written instructions on the use of the proxy.
 	For a Working Group or Interest Group,
