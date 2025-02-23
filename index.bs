@@ -2574,7 +2574,7 @@ Short Circuit</h5>
 <h5 id=council-chairing>
 Council Chairing</h5>
 
-	The <dfn lt="W3C Council Chair">Chair</dfn> of each W3C Council is chosen by its members,
+	The <dfn lt="W3C Council Chair | Council Chair">Chair</dfn> of each W3C Council is chosen by its members,
 	by consensus if possible,
 	falling back to a vote if that fails.
 	The chair must be a member of that [=W3C Council=].
