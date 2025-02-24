@@ -40,8 +40,8 @@ Repository: w3c/process
 Shortname: process
 Abstract:
 	The <a href="https://www.w3.org/mission/">mission of the World Wide Web Consortium (W3C)</a>
-        is to bring together global stakeholders to develop open standards
-        which enable a world wide web that connects and empowers humanity.
+        is making the web work, for everyone. 
+        W3C brings together global stakeholders to develop open standards which enable a world wide web that connects and empowers humanity.
 	The W3C Process Document describes the organizational structure of W3C and processes,
 	responsibilities and functions that enable W3C to accomplish its mission.
 	This document does not describe the internal workings of the Team.
