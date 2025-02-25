@@ -1718,17 +1718,28 @@ Team Representative in an Interest Group</h5>
 <h2 id=group-lifecycle>
 Lifecycle of Chartered Groups</h2>
 
-	W3C creates [=charters=] for [=chartered groups=] based on interest from the [=Members=] and [=Team=].
-	[=Charters=] are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
-	Prior to [=AC Review=],
-	<dfn>charter drafts</dfn> go through a public [=charter refinement=] phase
-	during which the [=charter=] receives [=wide review=]
-	and the [=Chartering Facilitator=] attempts to find [=consensus=] on the charter.
-	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
-	when starting development of a new charter prior to the [=charter refinement=] phase.
+	W3C creates [=charters=] for [=chartered groups=] based on W3C community interest.
+	W3C fosters awareness of [=charters=],
+	improves their quality,
+	and gauges Membership support in two formal phases:
+	* A [=charter refinement|refinement=] phase helps ensure [=charters=] are mission-aligned,
+		reflect community input and [=consensus=],
+		and have been well-socialized
+		and [=wide review|widely reviewed=].
+	* [=Charters=] the are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
 
 <h3 id="charter-initiation">
 Initiating Charter Refinement</h3>
+
+	[=Charters=] can originate in many venues,
+	including existing [=Working Group|Working=] or [=Interest Groups=],
+	Community Groups,
+	and from the [=W3C Members|Membership=].
+	Prior to the formal [=charter refinement|refinement=] phase,
+	the [=Team=] engages with those various parties
+	to help prepare [=charters=] for broader audiences.
+	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
+	when starting development of a new charter prior to the [=charter refinement=] phase.
 
 	Formal [=charter refinement=] (see below) is initiated
 	by the [=Team=] sending a [=charter review notice=]
@@ -1738,7 +1749,7 @@ Initiating Charter Refinement</h3>
 
 	This <dfn>charter review notice</dfn> must include:
 	* A short summary of the proposal.
-	* The location of the [=charter draft=], which must be public.
+	* The location of the <dfn>charter draft</dfn>, which must be public.
 	* How to participate in the discussion of this [=charter draft=] and where to file issues.
 	* The expected duration of the [=charter refinement=] phase,
 		which must not be less than 28 days,
@@ -1763,11 +1774,14 @@ Initiating Charter Refinement</h3>
 Charter Refinement</h3>
 
 	During <dfn>charter refinement</dfn>,
-	the W3C community further develops the [=charter draft=]
+	the W3C community,
+	under the guidance of the [=Team=],
+	further develops the [=charter draft=]
 	with the goal of achieving [=consensus=] on the proposal.
 	The <dfn>Chartering Facilitator</dfn>--
 	who is chosen (and <em class=rfc2119>may</em> be replaced) by the [=Team=]--
-	acts as [=Chair=] for the [=charter refinement=] process.
+	acts as [=Chair=] for the [=charter refinement=] process,
+	and is responsible for seeking community consensus among those participating in the refinement process.
 
 	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
