@@ -1759,6 +1759,7 @@ Initiating Charter Refinement</h3>
 
 	The [=Team=] is responsible for initiating [=charter refinement=]
 	at its discretion, in consideration of discussions with the community.
+
 	An [=Advisory Committee representative=] <em class=rfc2119>may</em> formally request
 	that the [=Team=] initiate [=charter refinement=].
 	The Team <em class=rfc2119>may</em> deny such a request
