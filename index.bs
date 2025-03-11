@@ -1791,8 +1791,9 @@ Charter Refinement</h3>
 	* [=Wide review=] of the [=charter draft=] is initiated and completed.
 	* All issues filed against the [=charter draft=] must be [=formally addressed=],
 		and their resolutions tracked in a disposition of comments.
-	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
-		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
+	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process.
+		If the [=Chartering Facilitator=] determines that consensus cannot be found,
+		in lieu of calling a [[#Votes|Vote]], they may ask the Team to make a [=Team Decision=].
 
 	The [=charter refinement=] phase concludes when there is either of the following:
 	* A [=group decision=] or [=Team Decision=] to initiate [=AC Review=] of the [=charter draft=],
