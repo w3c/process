@@ -1790,7 +1790,8 @@ Charter Refinement</h3>
 	During [=charter refinement=]:
 	* [=Wide review=] of the [=charter draft=] is initiated and completed.
 	* All issues filed against the [=charter draft=] must be [=formally addressed=],
-		and their resolutions tracked in a disposition of comments.
+		and their resolutions tracked in a disposition of comments
+		highlighting any issues not resolved by consensus.
 	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
 		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
 
