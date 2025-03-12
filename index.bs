@@ -1764,7 +1764,7 @@ Initiating Charter Refinement</h3>
 	that the [=Team=] initiate [=charter refinement=].
 	The Team <em class=rfc2119>may</em> deny such a request
 	if it thinks the proposal does not meet the charter assessment criteria
-	described in the Guide,
+	described in the Guide (see [[CHARTER inline]]),
 	and <em class=rfc2119>must</em> reply with its rationale.
 	This rejection is a [=Team Decision=],
 	and can be appealed only by 5 or more [=Members=],
