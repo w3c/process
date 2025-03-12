@@ -1739,8 +1739,6 @@ Initiating Charter Refinement</h3>
 	Prior to the formal [=charter refinement|refinement=] phase,
 	the [=Team=] engages with those various parties
 	to help prepare [=charters=] for broader audiences.
-	The [=Team=] <em class=rfc2119>may</em> send notice to the [=AC=]
-	when starting development of a new charter prior to the [=charter refinement=] phase.
 
 	Formal [=charter refinement=] (see below) is initiated
 	by the [=Team=] sending a [=charter review notice=]
