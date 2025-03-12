@@ -1789,7 +1789,6 @@ Charter Refinement</h3>
 	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
 	During [=charter refinement=]:
-	* [=Wide review=] of the [=charter draft=] is initiated and completed.
 	* All issues filed against the [=charter draft=] must be [=formally addressed=],
 		and their resolutions tracked in a disposition of comments
 		highlighting any issues not resolved by consensus.
