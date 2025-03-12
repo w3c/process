@@ -1783,8 +1783,8 @@ Charter Refinement</h3>
 	with the goal of achieving [=consensus=] on the proposal.
 	The <dfn>Chartering Facilitator</dfn>--
 	who is chosen (and <em class=rfc2119>may</em> be replaced) by the [=Team=]--
-	acts as [=Chair=] for the [=charter refinement=] process,
-	and is responsible for seeking community consensus among those participating in the refinement process.
+	is responsible for seeking community consensus among those participating in the refinement process
+	and making decisions reflecting that consensus.
 
 	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
@@ -1793,8 +1793,6 @@ Charter Refinement</h3>
 	* All issues filed against the [=charter draft=] must be [=formally addressed=],
 		and their resolutions tracked in a disposition of comments
 		highlighting any issues not resolved by consensus.
-	* Decisions are made as [=group decisions=], where the group is made up of all individuals participating in this process,
-		(though only W3C [=Members=] and the [=Team=] can participate in any formal [[#Votes|vote]]).
 
 	The [=charter refinement=] phase concludes when there is either of the following:
 	* A [=group decision=] or [=Team Decision=] to initiate [=AC Review=] of the [=charter draft=],
