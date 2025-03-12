@@ -1783,8 +1783,8 @@ Charter Refinement</h3>
 	with the goal of achieving [=consensus=] on the proposal.
 	The <dfn>Chartering Facilitator</dfn>--
 	who is chosen (and <em class=rfc2119>may</em> be replaced) by the [=Team=]--
-	is responsible for seeking community consensus among those participating in the refinement process
-	and making decisions reflecting that consensus.
+	is responsible for seeking community [=consensus=] among those participating in the refinement process
+	and making decisions reflecting that [=consensus=].
 
 	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
@@ -1794,10 +1794,11 @@ Charter Refinement</h3>
 		and their resolutions tracked in a disposition of comments
 		highlighting any issues not resolved by consensus.
 
-	The [=charter refinement=] phase concludes when there is either of the following:
-	* A [=group decision=] or [=Team Decision=] to initiate [=AC Review=] of the [=charter draft=],
-		subject to [=Team=] verification that the expectations of [=charter refinement=] are fulfilled.
-	* A [=chair decision=] by the [=Chartering Facilitator=], confirmed by a [=Team Decision=], to abandon the proposal.
+	The [=charter refinement=] phase concludes
+	when there is a [=Team Decision=]
+	(informed by the work of the [=Chartering Facilitator=])
+	either to initiate [=AC Review=] of the [=charter draft=],
+	or to abandon the proposal.
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
