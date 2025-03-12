@@ -1768,7 +1768,7 @@ Initiating Charter Refinement</h3>
 	This rejection is a [=Team Decision=],
 	and can be appealed only by 5 or more [=Members=],
 	through their [=Advisory Committee representative=],
-	formally objecting to the decision within X weeks of the decision being announced.
+	formally objecting to the decision within 8 weeks of the decision being announced.
 	In this case the [=Team=] <em class=rfc2119>must</em> start an [=appeal vote=]
 	on whether to overturn the [=Team Decision=].
 	(No action is required to be taken when fewer than 5 members object.)
@@ -1806,7 +1806,7 @@ Charter Refinement</h3>
 	* Objections to the choice of [=Chartering Facilitator=] are processed normally (See [[#addressing-fo]]).
 	* Objections to abandoning the proposal can be appealed only if 5 or more Members,
 		through their [=Advisory Committee representative=],
-		formally object to the decision within X weeks of the decision being announced.
+		formally object to the decision within 8 weeks of the decision being announced.
 		In this case, the [=Team=] must either resume charter refinement
 		or refer the matter to the [=Council=].
 		(No action is required to be taken when fewer than 5 members object.)
