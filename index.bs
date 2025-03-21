@@ -2035,8 +2035,8 @@ Call for Participation in a Chartered Group</h3>
 	the [=Team=] <em class="rfc2119">must</em> issue a Call for Participation to the Advisory Committee.
 	For a new group, this announcement officially creates the group.
 	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
-	the name(s) of the group's [=Chair=](s),
-	and the name(s) of the [=Team Contact=](s).
+	the name(s) of the group's [=Chair(s)=],
+	and the name(s) of the [=Team Contact(s)=].
 
 	After a Call for Participation,
 	any <a href="#member-rep">Member representatives</a>
@@ -2068,7 +2068,7 @@ Charter Extension</h3>
 	a reference to the <a href="#WGCharter">charter</a>,
 	and the Group homepage
 	(which includes at least
-	the name(s) of the group's [=Chair=](s),
+	the name(s) of the group's [=Chair(s)=],
 	the name of the [=Team Contact=],
 	and instructions for joining the group).
 
@@ -2710,7 +2710,7 @@ Council Decision Report</h5>
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
 	* if the [=Formal Objection=] has been upheld, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
-	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
+	* <em class=rfc2119>must</em> include the [=Minority Opinion(s)=], if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
 	* <em class=rfc2119>must</em> report the number of votes for/against dismissing each participant.
@@ -5233,7 +5233,7 @@ Member Submissions</h2>
 			One of the [=Submitters=],
 			copying the [=Advisory Committee representatives=] of the other [=Submitters=] (if any),
 			sends a request to the Team to acknowledge the Submission request.
-			The [=Team=] and [=Submitter=](s) communicate to ensure that the [=Member Submission=] is complete.
+			The [=Team=] and [=Submitter(s)=] communicate to ensure that the [=Member Submission=] is complete.
 
 		<dt>Review
 		<dd>
@@ -5243,7 +5243,7 @@ Member Submissions</h2>
 
 			<ul>
 				<li>
-					The [=Submitter=](s)
+					The [=Submitter(s)=]
 					and any other authors of the submitted material
 					<em class=rfc2119>must</em> agree
 					to license the Submission under the <a href="https://www.w3.org/copyright/document-license-2023/">W3C Document License</a> [[!DOC-LICENSE]].
@@ -5271,13 +5271,13 @@ Member Submissions</h2>
 
 				<li>
 					If <dfn>rejected</dfn>,
-					the [=Team=] <em class=rfc2119>must</em> inform the [=Advisory Committee representative=](s) of the [=Submitter=](s),
-					and <em class=rfc2119>must</em> provide rationale if requested by the [=Submitter=](s).
-					The [=Submitter=](s) <em class=rfc2119>may</em> initiate a [=Submission Appeal=].
+					the [=Team=] <em class=rfc2119>must</em> inform the [=Advisory Committee representative(s)=] of the [=Submitter(s)=],
+					and <em class=rfc2119>must</em> provide rationale if requested by the [=Submitter(s)=].
+					The [=Submitter(s)=] <em class=rfc2119>may</em> initiate a [=Submission Appeal=].
 			</ul>
 	</dl>
 
-	The [=Advisory Committee representative=](s) of the [=Submitters=](s)
+	The [=Advisory Committee representative(s)=] of the [=Submitter(s)=]
 	<em class="rfc2119">may</em> initiate a [=Submission Appeal=].
 	The procedure for handling <dfn>Submission Appeals</dfn> is the same as for [=Formal Objections=],
 	except that an [=AC Appeal=] is not possible
