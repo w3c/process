@@ -5768,8 +5768,12 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>)
 
 				<li>
-					Simplify provisions regarding subsitute representatives and proxies.
+					Simplify provisions regarding substitute representatives and proxies.
 					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>)
+
+				<li>
+					Enable AB/TAG to remove one of their members by 3/4 super majority.
+					(See <a href="https://github.com/w3c/process/pull/986">Pull Request 373</a>)
 			</ul>
 
 
