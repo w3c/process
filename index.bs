@@ -1803,16 +1803,17 @@ Charter Refinement</h3>
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
-	* Objections to the choice of [=Chartering Facilitator=] are processed normally (See [[#addressing-fo]]).
 	* Objections to abandoning the proposal can be appealed only if 5 or more Members,
 		through their [=Advisory Committee representative=],
 		formally object to the decision within 8 weeks of the decision being announced.
 		In this case, the [=Team=] must either resume charter refinement
 		or refer the matter to the [=Council=].
 		(No action is required to be taken when fewer than 5 members object.)
-	* All other objections are considered registered
-		at the close of the [=Advisory Committee Review=] of the charter,
+	* Objections to decisions pertaining to the content of the charter,
+		as well as objections to initiating the [=AC Review=],
+		are considered registered at the close of the [=Advisory Committee Review=] of the charter,
 		and are registered against that [=W3C Decision=].
+	* Any other objections are processed normally (See [[#addressing-fo]]).
 
 	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together.
 
