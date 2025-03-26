@@ -1785,6 +1785,9 @@ Charter Refinement</h3>
 	who is chosen (and <em class=rfc2119>may</em> be replaced) by the [=Team=]--
 	is responsible for seeking community [=consensus=] among those participating in the refinement process
 	and making decisions reflecting that [=consensus=].
+	In cases where [=consensus=] cannot be found,
+	the [=Chartering Facilitator=] <em class=rfc2119>may</em> ask the [=Team=] to make a [=Team Decision=],
+	and <em class=rfc2119>must</em> document the rationale for the decision.
 
 	Note: The [=Chartering Facilitator=] is not necessarily the [=Chair=] of the [=chartered group|group=] being chartered.
 
