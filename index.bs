@@ -1195,7 +1195,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	are changes of affiliation).
 	(Other formal relationships such as other contracts should be disclosed as potential conflicts of interest.)
 	Each nomination <em class="rfc2119">should</em> include
-	a few non-normative paragraphs about the nominee.
+	a few informative paragraphs about the nominee.
 	If an identified candidate's nomination information is only partially complete
 	as of the deadline for nominations,
 	the [=Team=] <em class=rfc2119>may</em> allow extra time for that candidate's nomination to be completed,
@@ -2751,7 +2751,7 @@ Council Decision Report</h5>
 	The [=Council=] <em class=rfc2119>may</em> also issue a <dfn export>Supplemental Confidential Council Report</dfn>
 	with a more restricted <a href="#confidentiality-levels">level of confidentiality</a> than its main report
 	when it believes that additional commentary on confidential aspects of the case
-	would be non-normative.
+	would be informative.
 	However, the main [=Council Report=] <em class=rfc2119>should</em> be self-sufficient
 	and understandable without reference to Supplemental Confidential Council Reports.
 
