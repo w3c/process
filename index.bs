@@ -3337,7 +3337,7 @@ Errata Management</h4>
 <h4 id=candidate-amendments oldids=candidate-changes>
 Candidate Amendments</h4>
 
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an non-normative,
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied by a non-normative,
 	<dfn>candidate correction</dfn> approved by [=group decision=].
 	When annotated inline,
 	errata--
