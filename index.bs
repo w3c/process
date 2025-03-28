@@ -3046,7 +3046,7 @@ Types of Technical Reports</h3>
 	This chapter describes the formal requirements
 	for [=publishing=] and maintaining a [=W3C Recommendation=],
 	[=Note=],
-	or [=Registry Report=].
+	or [=Registry=].
 
 	<dl>
 		<dt>Recommendations
