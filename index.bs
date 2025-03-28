@@ -1195,7 +1195,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	are changes of affiliation).
 	(Other formal relationships such as other contracts should be disclosed as potential conflicts of interest.)
 	Each nomination <em class="rfc2119">should</em> include
-	a few informative paragraphs about the nominee.
+	a few non-normative paragraphs about the nominee.
 	If an identified candidate's nomination information is only partially complete
 	as of the deadline for nominations,
 	the [=Team=] <em class=rfc2119>may</em> allow extra time for that candidate's nomination to be completed,
@@ -2751,7 +2751,7 @@ Council Decision Report</h5>
 	The [=Council=] <em class=rfc2119>may</em> also issue a <dfn export>Supplemental Confidential Council Report</dfn>
 	with a more restricted <a href="#confidentiality-levels">level of confidentiality</a> than its main report
 	when it believes that additional commentary on confidential aspects of the case
-	would be informative.
+	would be non-normative.
 	However, the main [=Council Report=] <em class=rfc2119>should</em> be self-sufficient
 	and understandable without reference to Supplemental Confidential Council Reports.
 
@@ -3255,7 +3255,7 @@ Classes of Changes</h4>
 			Examples of changes in this class include
 			correcting non-normative examples
 			which clearly conflict with normative requirements,
-			clarifying informative use cases or other non-normative text,
+			clarifying non-normative use cases or other non-normative text,
 			fixing typos or grammatical errors
 			where the change does not change requirements.
 		<dd>
@@ -3337,7 +3337,7 @@ Errata Management</h4>
 <h4 id=candidate-amendments oldids=candidate-changes>
 Candidate Amendments</h4>
 
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an non-normative,
 	<dfn>candidate correction</dfn> approved by [=group decision=].
 	When annotated inline,
 	errata--
@@ -4911,7 +4911,7 @@ Registry Data Reports</h4>
 			establishing the [=registry tables=] that it contain.
 
 		<li>
-			<em class=rfc2119>May</em> contain informative introductory text, examples, and notes
+			<em class=rfc2119>May</em> contain non-normative introductory text, examples, and notes
 			about the [=registry tables=] and [=registry entries|entries=] that it contains.
 			(Changes to these parts are deemed to be [=editorial changes=]).
 	</ul>
@@ -5740,7 +5740,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					for better integration in the W3C website architecture.
 
 				<li>
-					Shift most of the informative discussion about Workshops to [[GUIDE]],
+					Shift most of the non-normative discussion about Workshops to [[GUIDE]],
 					and reorganize the remaining normative requirements.
 					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
 
