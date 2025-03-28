@@ -1828,7 +1828,7 @@ Charter Refinement</h3>
 	to extend the charter refinement period
 	by sending an announcement with the same visibility as the initial [=charter refinement notice=].
 	Reaching the end of the announced period (including any announced extension)
-	without a decision to initiate [=AC Review=] nor without an announcement of extension
+	with neither a decision to initiate [=AC Review=] nor an announcement of extension
 	is considered a de-facto [=Team decision=] to abandon the proposal.
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
