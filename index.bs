@@ -1750,7 +1750,7 @@ Lifecycle of Chartered Groups</h2>
 		reflect community input and [=consensus=],
 		and have been well-socialized
 		and [=wide review|widely reviewed=].
-	* [=Charters=] the are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
+	* [=Charters=] then are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
 
 <h3 id="charter-initiation">
 Initiating Charter Refinement</h3>
