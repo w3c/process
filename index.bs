@@ -3611,7 +3611,8 @@ Maturity Stages on the Recommendation Track</h4>
 			Such an allowance cannot be added
 			to a [=technical report=] previously published as a [=Recommendation=]
 			that did not allow such changes;
-			this requires a new [=technical report=], that could, for example, be similarly named but with an incremented version number.
+			this requires a new [=technical report=]
+			(which could, for example, be similarly named but with an incremented version number).
 
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
