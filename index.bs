@@ -1936,7 +1936,7 @@ Content of a Charter</h3>
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	For every Recommendation Track deliverable
-	that continues work on [=technical report=]
+	that continues work on a [=technical report=]
 	published under any other Charter (including a predecessor group of the same name),
 	for which there is at least an existing [=First Public Working Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
