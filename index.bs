@@ -147,7 +147,7 @@ Conformance and specialized terms</h2>
 	to indicate that they are entities with special relevance to the W3C Process.
 	These terms are defined within this document,
 	and readers are reminded that the ordinary English definitions are insufficient
-	for the purpose of understanding this document.
+	to understand this document.
 
 <nav data-fill-with="table-of-contents"></nav>
 <main>
