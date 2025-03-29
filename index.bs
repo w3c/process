@@ -1827,8 +1827,8 @@ Charter Refinement</h3>
 	The [=charter refinement=] phase concludes
 	when there is a [=Team Decision=]
 	(informed by the work of the [=Chartering Facilitator=])
-	either to complete charter refinement by initiating [=AC Review=] of the [=charter draft=],
-	or to abandon the proposal.
+	to either complete charter refinement by initiating [=AC Review=] of the [=charter draft=],
+	or abandon the proposal.
 
 	The [=Team=] <em class=rfc2119>may</em> [=Team Decision|decide=]
 	to extend the charter refinement period
