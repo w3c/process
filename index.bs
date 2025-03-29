@@ -372,7 +372,7 @@ Related Members</h5>
 			The Members have an employment contract or consulting contract that affects W3C participation.
 	</ol>
 
-	A <dfn>subsidiary</dfn> is an organization of which effective control and/or majority ownership rests with another,
+	A <dfn>subsidiary</dfn> is an organization in which effective control and/or majority ownership rests with another,
 	single organization.
 
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
@@ -438,7 +438,7 @@ Individual Participation Criteria</h4>
 <h5 id="discipline">
 Expectations and Discipline</h5>
 
-	There are three qualities an individual is expected to demonstrate in order to participate in W3C:
+	There are three qualities an individual is expected to demonstrate to participate in W3C:
 
 	<ol>
 		<li>
@@ -524,7 +524,7 @@ Individuals Representing a Member Organization</h5>
 	However, an [=Advisory Committee representative=] <em class="rfc2119">may</em> designate a non-employee
 	to represent the Member.
 	Non-employee Member representatives <em class="rfc2119">must</em> disclose
-	relevant affiliations to the Team and to any group in which the individual participates.
+	relevant affiliations to the Team and any group in which the individual participates.
 
 	In exceptional circumstances
 	(e.g., situations that might jeopardize the progress of a group or create a <a href="#coi">conflict of interest</a>),
@@ -639,7 +639,7 @@ Tooling and Archiving for Discussions and Publications</h4>
 	a core operating principle is to allow access across disabilities,
 	across country borders,
 	and across time.
-	Thus in order to allow all would-be participants to effectively participate,
+	Thus to allow all would-be participants to effectively participate,
 	to allow future participants and observers to understand the rationale and origins of current decisions,
 	and to guarantee long-lived access to its publications,
 	W3C requires that:
@@ -830,7 +830,7 @@ Advisory Committee Meetings</h4>
 		<dd>
 			<ul>
 				<li>
-					The allocation of the annual budget, including size of the Team and their approximate deployment.
+					The allocation of the annual budget, including the size of the Team and their approximate deployment.
 
 				<li>
 					A list of all activities (including but not limited to Working and Interest Groups)
@@ -909,12 +909,12 @@ Composition of the Advisory Board</h5>
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
 	Upon appointment,
 	the Chair(s) are subject to ratification by secret ballot,
-	requiring approval by two thirds of the elected participants.
+	requiring approval by two-thirds of the elected participants.
 	Chair selection <em class=rfc2119>must</em> be run
 	at least at the start of each regular term,
 	as well as when a majority of the participants request it;
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
-	for example if a chair steps down or if a minority of the participants make such a request.
+	for example, if a chair steps down or if a minority of the participants make such a request.
 
 	The team also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
@@ -953,8 +953,8 @@ Liaisons between the Advisory Board and the Board of Directors</h5>
 	and access [=Board=] materials
 	as Non-voting Observers. [[BYLAWS]]
 	They do not form part of the [=Board=]'s decision-making body,
-	and may be excluded from such participation
-	in accordance with applicable Board procedures.
+	and may be excluded from such participation 
+	under applicable Board procedures.
 
 	The [=Advisory Board=] <em class=rfc2119>should</em> reevaluate
 	who is assigned to this role
@@ -999,7 +999,7 @@ Role of the Technical Architecture Group</h5>
 
 	When the [=TAG=] votes to resolve an issue,
 	each TAG participant
-	(whether appointed, elected, or the Chair)
+	(whether appointed, elected or the Chair)
 	has one vote;
 	see also the general section on <a href="#Votes">votes</a> in this Process Document.
 
@@ -1031,7 +1031,7 @@ Composition of the Technical Architecture Group</h5>
 	at least at the start of each regular term,
 	as well as when a majority of the participants request it;
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
-	for example if a chair steps down or if a minority of the participants make such a request.
+	for example, if a chair steps down or if a minority of the participants make such a request.
 
 	The [=Team=] also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
@@ -1084,7 +1084,7 @@ Expectations for Elected Groups Participants</h5>
 	Advisory Board and TAG participants are expected to participate regularly and fully.
 	Advisory Board and TAG participants <em class="rfc2119">should</em> attend <a href="#ACMeetings">Advisory Committee meetings</a>.
 
-	Individuals elected or appointed to the Advisory Board or TAG act in their personal capacity,
+	Individuals elected or appointed to the Advisory Board or TAG act in their capacity,
 	to serve the needs of the W3C membership as a whole,
 	and the Web community.
 	Whether they are Member representatives or Invited Experts,
@@ -1093,7 +1093,7 @@ Expectations for Elected Groups Participants</h5>
 	An individual participates on the Advisory Board or TAG
 	from the moment the individual's term begins until the seat is <a href="#AB-TAG-vacated">vacated</a>
 	(e.g. because the term ends).
-	Although Advisory Board and TAG participants do not advocate for the commercial interests of their employers,
+	Although the Advisory Board and TAG participants do not advocate for the commercial interests of their employers,
 	their participation does carry the responsibilities associated with Member representation,
 	Invited Expert status,
 	or Team representation
@@ -1106,14 +1106,14 @@ Expectations for Elected Groups Participants</h5>
 Elected Groups Participation Constraints</h5>
 
 	Given the few seats available on the [=Advisory Board=] and the [=TAG=],
-	and in order to ensure that the diversity of W3C Members is represented:
+	and to ensure that the diversity of W3C Members is represented:
 
 	<ul>
 		<li>
 			Two participants with the same [=primary affiliation=] per <a href="#AB-TAG-elections"></a>
 			must not both occupy elected seats on the TAG
 			except when this is caused by a change of affiliation of an existing participant.
-			At the completion of the next regularly scheduled election for the TAG,
+			After the next regularly scheduled election for the TAG,
 			the organization <em class="rfc2119">must</em> have returned to having at most one seat.
 
 		<li>
@@ -1128,7 +1128,7 @@ Elected Groups Participation Constraints</h5>
 			the <a href="#random">verifiable random selection procedure</a> described below
 			to choose one person for continued participation and declare the other seat(s) vacant.
 		<li>
-			An individual <em class="rfc2119">must not</em> participate on both the TAG and the AB.
+			An individual <em class="rfc2119">must not</em> participate in both the TAG and the AB.
 	</ul>
 
 <h5 id="AB-TAG-elections">
@@ -1163,15 +1163,15 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	Each Member (or group of [=related Members=])
 	<em class="rfc2119">may</em> nominate one individual.
 	A nomination <em class="rfc2119">must</em> be made with the consent of the nominee.
-	In order for an individual to be nominated as a Member representative,
+	For an individual to be nominated as a Member representative,
 	the individual <em class="rfc2119">must</em> qualify for <a href="#member-rep">Member representation</a>
 	and the Member's [=Advisory Committee representative=] <em class="rfc2119">must</em> include in the nomination
 	the (same) <a href="#member-rep-info">information required for a Member representative in a Working Group</a>.
-	In order for an individual to be nominated as an Invited Expert,
+	For an individual to be nominated as an Invited Expert,
 	the individual <em class="rfc2119">must</em> provide
 	the (same) <a href="#inv-expert-info">information required for an Invited Expert in a Working Group</a>
 	and the nominating [=Advisory Committee representative=] <em class="rfc2119">must</em> include that information in the nomination.
-	In order for an individual to be nominated as a [=Team=] representative,
+	For an individual to be nominated as a [=Team=] representative,
 	the nominating [=Advisory Committee representative=]
 	<em class="rfc2119">must</em> first secure approval from [=Team=] management.
 	A nominee is <em class="rfc2119">not required</em> to be an employee of a Member organization,
@@ -1237,9 +1237,9 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	will be used to fill the available seats.
 
 	<p id="short-term">The shortest incomplete term is assigned to the elected candidate ranked lowest by the tabulation of votes,
-	the next shortest term to the next-lowest ranked elected candidate,
+	the next shortest term to the next-lowest-ranked elected candidate,
 	and so on.
-	In the case of a tie among those eligible for a incomplete term,
+	In the case of a tie among those eligible for an incomplete term,
 	the <a href="#random">verifiable random selection procedure</a> described below
 	will be used to assign the incomplete term.
 
@@ -1301,7 +1301,7 @@ Verifiable Random Selection Procedure</h5>
 	When it is necessary to use a verifiable random selection process
 	(e.g., in an [=AB=] or [=TAG=] election,
 	to “draw straws” in case of a tie
-	or to fill a incomplete term),
+	or to fill an incomplete term),
 	W3C uses the random and verifiable procedure defined in <a href="https://www.ietf.org/rfc/rfc3797.txt">RFC 3797</a> [[!RFC3797]].
 	The procedure orders an input list of names
 	(listed in alphabetical order by family name unless otherwise specified)
@@ -1338,7 +1338,7 @@ Removing AB or TAG members</h5>
 	After giving the individual in question
 	an opportunity to defend themselves,
 	a vote on the proposed [=removal=] is held.
-	If at least three quarters of the participants in the group,
+	If at least three-quarters of the participants in the group,
 	excluding the individual who is the subject of such vote,
 	then vote in favor of the proposal,
 	the individual's seat on [=AB=] or [=TAG=] is [=vacated=] immediately.
@@ -1573,8 +1573,8 @@ Member Representative in a Working Group</h5>
 
 		<li>
 			A statement that the individual accepts the participation terms
-			set forth in the charter
-			(with an indication of charter date or version);
+			outlined in the charter
+			(with an indication of the charter date or version);
 
 		<li>
 			A statement that the Member will provide the necessary financial support for participation
@@ -1639,7 +1639,7 @@ Invited Expert in a Working Group</h5>
 
 	To designate an individual as an Invited Expert in a Working Group,
 	the [=Chair=] <em class="rfc2119">must</em> inform the Team Contact
-	and provide rationale for the choice.
+	and provide a rationale for the choice.
 	When the [=Chair=] and the [=Team Contact=] disagree about a designation,
 	the [=CEO=] determines
 	whether the individual will be invited to participate in the Working Group.
@@ -1656,7 +1656,7 @@ Invited Expert in a Working Group</h5>
 			<a href="https://www.w3.org/invited-experts/agreement-2023/">invited expert and collaborators agreement</a> [[!COLLABORATORS-AGREEMENT]],
 
 		<li>
-			accept the participation terms set forth in the charter,
+			accept the participation terms outlined in the charter,
 			including the participation requirements of
 			the W3C Patent Policy [[!PATENT-POLICY]],
 			especially in “Note on Licensing Commitments for Invited Experts”
@@ -1843,7 +1843,7 @@ Charter Refinement</h3>
 	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
 	the [=Chartering Facilitator=] must inform the AC
 	(and, in the case of rechartering, the affected [=Group=])
-	of this delay, of the status of the discussions, and of the revised expected duration of [=Charter Refinement=].
+	of this delay, of the status of the discussions, and the revised expected duration of [=Charter Refinement=].
 	This report should be public.
 
 <h3 id="WGCharter">
@@ -1924,7 +1924,7 @@ Content of a Charter</h3>
 
 		<li>
 			Intellectual property information.
-			What are the intellectual property (including patents and copyright)
+			What are the intellectual property (including patents and copyrights)
 			considerations affecting the success of the Group?
 			In particular, is there any reason to believe
 			that it will be difficult to meet the Royalty-Free licensing goals
@@ -1936,7 +1936,7 @@ Content of a Charter</h3>
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
 	For every Recommendation Track deliverable
-	that continues work on a [=technical report=]
+	that continues to work on a [=technical report=]
 	published under any other Charter (including a predecessor group of the same name),
 	for which there is at least an existing [=First Public Working Draft=]
 	the description of that deliverable in the proposed charter of the adopting Working Group
@@ -1978,13 +1978,13 @@ Content of a Charter</h3>
 	began and ended.
 	As per “Joining an Already Established Working Group”
 	in the W3C Patent Policy [[!PATENT-POLICY]],
-	this potentially means that exclusions can only be made immediately on joining a Working Group.
+	this potentially means that exclusions can only be made immediately upon joining a Working Group.
 
 	<p id="ig-charter-participation">An Interest Group charter
 	<em class="rfc2119">may</em> include provisions regarding participation,
 	including specifying
 	that the <span id="ig-mail-only">only requirement for participation (by anyone) in
-	the Interest Group is subscription to the Interest Group mailing list</span>.
+	the Interest Group is a subscription to the Interest Group mailing list</span>.
 	This type of Interest Group
 	<em class="rfc2119">may</em> have <a href="#public-participant-ig">public participants</a>.
 
@@ -2018,7 +2018,7 @@ New Charters and Major Changes</h4>
 	The Call for Review of a substantively modified charter
 	<em class=rfc2119>must</em> highlight important changes
 	(e.g., regarding deliverables or resource allocation)
-	and include rationale for the changes.
+	and include a rationale for the changes.
 
 	The Call for Review of a new or substantively modified charter
 	<em class="rfc2119">must</em> include a disposition of comments for those received during the [=charter refinement=] process,
@@ -2151,7 +2151,7 @@ Types of Decisions</h3>
 
 	Decisions made by members of the [=Team=]
 	in connection with this Process,
-	based on their own individual or collective judgement,
+	based on their own individual or collective judgment,
 	are called <dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn>.
 
 	In contrast,
@@ -2253,7 +2253,7 @@ Consensus</h4>
 Managing Dissent</h4>
 
 	In some cases, even after careful consideration of all points of view,
-	a group might find itself unable to reach consensus.
+	a group might find itself unable to reach a consensus.
 	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
 	so that the group can make progress
 	(for example, to produce a deliverable in a timely manner).
@@ -2320,7 +2320,7 @@ Deciding by Vote</h4>
 	that individual <em class="rfc2119">may</em> authorize anyone at the meeting
 	to act as a proxy.
 	The absent participant <em class="rfc2119">must</em> inform the Chair in writing
-	who is acting as proxy, with written instructions on the use of the proxy.
+	who is acting as a proxy, with written instructions on the use of the proxy.
 	For a Working Group or Interest Group,
 	see the related requirements regarding an individual
 	who attends a meeting as a <a href="#mtg-substitute">substitute</a> for a participant.
@@ -2331,7 +2331,7 @@ Deciding by Vote</h4>
 
 	A group <em class="rfc2119">may</em> also vote to make a process decision.
 	For example,
-	it is appropriate to decide by simple majority
+	it is appropriate to decide by a simple majority
 	whether to hold a meeting in San Francisco or San Jose
 	(there's not much difference geographically).
 	When simple majority votes are used to decide minor issues,
@@ -2348,7 +2348,7 @@ Formally Addressing an Issue</h3>
 	In the context of this document,
 	a group has <dfn export>formally addressed</dfn> an issue when it has sent a public, substantive response
 	to the reviewer who raised the issue.
-	A substantive response is expected to include rationale for decisions
+	A substantive response is expected to include a rationale for decisions
 	(e.g., a technical explanation, a pointer to charter scope, or a pointer to a requirements document).
 	The adequacy of a response is measured
 	against what a W3C reviewer would generally consider to be technically sound.
@@ -2425,7 +2425,7 @@ Registering Formal Objections</h3>
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
 	[=Formal Objections=] that do not provide substantive arguments
-	or rationale are unlikely to receive serious consideration.
+	or rationale is unlikely to receive serious consideration.
 	Counter-arguments,
 	rationales,
 	and decisions <em class="rfc2119">should</em> also be recorded.
@@ -2508,7 +2508,7 @@ Council Composition</h5>
 	at which point all remaining potential [=Council=] members become full members.
 	Thereafter, the membership of the [=Council=] is fixed,
 	and is not changed by any [=AB=] or [=TAG=] elections
-	that occur before that Council has reached a conclusion.
+	that occur before that Council has concluded.
 	However, if the number of active members in a [=Council=] falls so low as to hinder effective and balanced deliberations,
 	the [=Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
@@ -2562,7 +2562,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	with annotations of possible reasons for dismissal against each one.
 	The W3C community,
 	including members and team, and potential council members,
-	<em class=rfc2119>must</em> be given an opportunity to contribute possible reasons to this list.
+	<em class=rfc2119>must</em> be allowed to contribute possible reasons to this list.
 	Affected members <em class=rfc2119>must</em> be given
 	an opportunity to respond to such comments about themselves.
 	The [=Team=] may report comments verbatim
@@ -2576,8 +2576,8 @@ Council Participation, Dismissal, and Renunciation</h5>
 	to the potential Council members,
 	who then consider for each potential member
 	whether that individual's participation
-	would compromise the integrity of the Council decision,
-	and vote whether to dismiss that potential member.
+	would compromise the integrity of the Council's decision,
+	and vote on whether to dismiss that potential member.
 	No one is allowed to vote on their own dismissal;
 	each dismissal is enacted if there are at least as many ballots for as against.
 
@@ -2585,10 +2585,10 @@ Council Participation, Dismissal, and Renunciation</h5>
 	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
 	the entire [=TAG=] or [=AB=] is not expected to be dismissed.
 
-	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
+	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for a strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
 	their renunciation.
-	Renunciation is disqualification from participation,
+	Renunciation is a disqualification from participation,
 	not abstention,
 	and <em class=rfc2119>should not</em> be used
 	to excuse an absence of participation.
@@ -2611,9 +2611,9 @@ Short Circuit</h5>
 	and potential members of a Council who are not renouncing their seat
 	confirm it by a vote which results in both of the following:
 	* at least 80% of them vote affirmatively to adopt this resolution
-	* none of them vote against adopting the resolution
+	* none of them voted against adopting the resolution
 
-	The request for confirmation <em class=rfc2119>must</em> be open for a period of at least two weeks,
+	The request for confirmation <em class=rfc2119>must</em> be open for at least two weeks,
 	or until every potential member of the Council not renouncing their seat
 	has voted,
 	whichever is shortest.
@@ -2632,7 +2632,7 @@ Council Chairing</h5>
 	by consensus if possible,
 	falling back to a vote if that fails.
 	The chair must be a member of that [=W3C Council=].
-	Chair selection happens during formation of each Council,
+	Chair selection happens during the formation of each Council,
 	and <em class=rfc2119>must</em> be re-run
 	if requested by the [=Council Team Contact=] or by the [=Chair=]
 	during the Council’s operation.
@@ -2665,7 +2665,7 @@ Council Deliberations</h5>
 	<p id=broker-consensus>
 	The Council <em class=rfc2119>may</em>
 	further attempt to broker consensus,
-	which, if successful, disposes the formal objection.
+	which, if successful, disposes of the formal objection.
 
 	Otherwise,
 	after sufficient deliberation,
@@ -2701,13 +2701,13 @@ Council Deliberations</h5>
 	in case of a tie,
 	the [=W3C Council Chair=] determines the outcome.
 	However,
-	if the decision or proposal being objected to
+	if the decision or proposal is objected to
 	originated with the TAG or AB,
 	then members of that group at the time the decision or proposal was made
 	must abstain in such a vote.
 	In case of a vote,
 	if two members of a Council who share the same affiliation cast an identical ballot,
-	then their ballots count as a one vote,
+	then their ballots count as one vote,
 	not two.
 
 	In the case of non-unanimous decisions,
@@ -2909,7 +2909,7 @@ Determining the W3C Decision</h4>
 	<em class=rfc2119>must not</em> include any increase to the scope.
 	If any such change is desired,
 	it <em class=rfc2119>must</em> be returned for additional work
-	and go through a complete new [=AC Review=].
+	and go through a completely new [=AC Review=].
 
 	This document does not specify
 	time intervals between the end of an [=Advisory Committee review=] period
@@ -2950,7 +2950,7 @@ Appeal by Advisory Committee Representatives</h3>
 	for decisions of a [=W3C Council=], and
 	for certain decisions that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
-	which describe the requirements for the decision
+	which describes the requirements for the decision
 	and include
 	additional (non-reviewed) maturity stages of Recommendation Track documents,
 	group [=charter extensions=] and closures,
@@ -3156,7 +3156,7 @@ Publication of Technical Reports</h4>
 	The primary language for W3C [=Technical Reports=] is English.
 	W3C encourages the translation of its [=Technical Reports=].
 	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
-	is available at the W3C website.
+	is available on the W3C website.
 
 <h4 id="doc-reviews">
 Reviews and Review Responsibilities</h4>
@@ -3217,7 +3217,7 @@ Wide Review</h5>
 	is likely not to be considered as sufficient evidence
 	that the group has solicited wide review.
 
-	A [=Working Group=] could present evidence that wide review has been received,
+	A [=Working Group=] could present evidence that a wide review has been received,
 	irrespective of solicitation.
 	But it is important to note that receiving many detailed reviews
 	is not necessarily the same as wide review,
@@ -3245,16 +3245,16 @@ Classes of Changes</h4>
 			For [=Recommendation-track=] [=technical reports=] specifically,
 			this constitutes changes that do not affect conformance,
 			i.e. changes that reasonable implementers
-			would not interpret as changing architectural
+			would not be interpreted as changing architectural
 			or interoperability requirements
 			or their implementation.
-			Changes which resolve ambiguities in the specification
+			Changes that resolve ambiguities in the specification
 			are considered to change (by clarification) the implementation requirements
 			and do not fall into this class.
 		<dd>
 			Examples of changes in this class include
 			correcting non-normative examples
-			which clearly conflict with normative requirements,
+			which clearly conflicts with normative requirements,
 			clarifying informative use cases or other non-normative text,
 			fixing typos or grammatical errors
 			where the change does not change requirements.
@@ -3351,7 +3351,7 @@ Candidate Amendments</h4>
 	to be updated quickly with the Working Group's most current thinking,
 	even when the [=candidate amendments=] have not yet received
 	sufficient review or implementation experience
-	to be normatively incorporated into the specification proper.
+	to be normatively incorporated into the specification properly.
 
 	A <dfn>candidate addition</dfn> is similar to a [=candidate correction=],
 	except that it proposes a new feature
@@ -3464,7 +3464,7 @@ The W3C Recommendation Track</h3>
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
 	As described in [[#transition-reqs]],
-	the [=Team=] will decline a request to advance in maturity stage
+	the [=Team=] will decline a request to advance in the maturity stage
 	and return the specification to a [=Working Group=] for further work
 	if it determines that the requirements for advancement
 	have not been met.
@@ -3514,7 +3514,7 @@ Maturity Stages on the Recommendation Track</h4>
 		<dd>
 			A Candidate Recommendation is a document that satisfies the technical
 			requirements of the Working Group that produced it and their dependencies,
-			and has already received wide review.
+			and has already received a wide review.
 			W3C publishes a Candidate Recommendation to
 
 			<ul>
@@ -3526,7 +3526,7 @@ Maturity Stages on the Recommendation Track</h4>
 
 			Note: Advancing to [=Candidate Recommendation=] indicates
 			that the document is considered complete and fit for purpose,
-			and that no further refinement to the text is expected
+			and that no further refinement of the text is expected
 			without additional implementation experience and testing;
 			however, additional features might be expected in a later revision.
 			A [=Candidate Recommendation=] is expected to be as well-written,
@@ -3560,8 +3560,8 @@ Maturity Stages on the Recommendation Track</h4>
 				<dd>
 					A Candidate Recommendation Draft
 					is published
-					to solicit review of intended changes from the previous [=Candidate Recommendation Snapshot=].
-					This allows for wider review of the changes
+					to solicit a review of intended changes from the previous [=Candidate Recommendation Snapshot=].
+					This allows for a wider review of the changes
 					and for ease of reference to the integrated specification.
 
 					Any changes published directly into a [=Candidate Recommendation Draft=]
