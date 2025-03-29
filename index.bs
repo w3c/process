@@ -3255,7 +3255,7 @@ Classes of Changes</h4>
 			Examples of changes in this class include
 			correcting non-normative examples
 			which clearly conflict with normative requirements,
-			clarifying informative use cases or other non-normative text,
+			clarifying various other non-normative text,
 			fixing typos or grammatical errors
 			where the change does not change requirements.
 		<dd>
@@ -3337,7 +3337,7 @@ Errata Management</h4>
 <h4 id=candidate-amendments oldids=candidate-changes>
 Candidate Amendments</h4>
 
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied by a non-normative,
 	<dfn>candidate correction</dfn> approved by [=group decision=].
 	When annotated inline,
 	errata--
@@ -4911,7 +4911,7 @@ Registry Data Reports</h4>
 			establishing the [=registry tables=] that it contain.
 
 		<li>
-			<em class=rfc2119>May</em> contain informative introductory text, examples, and notes
+			<em class=rfc2119>May</em> contain non-normative introductory text, examples, and notes
 			about the [=registry tables=] and [=registry entries|entries=] that it contains.
 			(Changes to these parts are deemed to be [=editorial changes=]).
 	</ul>
@@ -5740,7 +5740,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					for better integration in the W3C website architecture.
 
 				<li>
-					Shift most of the informative discussion about Workshops to [[GUIDE]],
+					Shift most of the non-normative discussion about Workshops to [[GUIDE]],
 					and reorganize the remaining normative requirements.
 					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
 
