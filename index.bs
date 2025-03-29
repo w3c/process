@@ -164,7 +164,7 @@ Introduction</h2>
 
 	The W3C Process promotes the goals of quality and fairness in technical decisions
 	by encouraging <a href="#Consensus">consensus</a>,
-	soliciting reviews (by both Members and public),
+	soliciting reviews (by both Members and the public),
 	incorporating implementation and interoperability experience,
 	and requiring Membership-wide approval as part of the <a href="#Reports">technical report development process</a>.
 	[[#group-participation|Participants]] in W3C include
