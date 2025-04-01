@@ -2425,7 +2425,7 @@ Registering Formal Objections</h3>
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
 	[=Formal Objections=] that do not provide substantive arguments
-	or rationale is unlikely to receive serious consideration.
+	or rationale are unlikely to receive serious consideration.
 	Counter-arguments,
 	rationales,
 	and decisions <em class="rfc2119">should</em> also be recorded.
