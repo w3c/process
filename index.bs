@@ -1978,7 +1978,7 @@ Content of a Charter</h3>
 	began and ended.
 	As per “Joining an Already Established Working Group”
 	in the W3C Patent Policy [[!PATENT-POLICY]],
-	this potentially means that exclusions can only be made immediately upon joining a Working Group.
+	this might mean that exclusions can only be made immediately upon joining a Working Group.
 
 	<p id="ig-charter-participation">An Interest Group charter
 	<em class="rfc2119">may</em> include provisions regarding participation,
