@@ -999,7 +999,7 @@ Role of the Technical Architecture Group</h5>
 
 	When the [=TAG=] votes to resolve an issue,
 	each TAG participant
-	(whether appointed, elected or the Chair)
+	(whether appointed, elected, or the Chair)
 	has one vote;
 	see also the general section on <a href="#Votes">votes</a> in this Process Document.
 
