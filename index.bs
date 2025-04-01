@@ -1128,7 +1128,7 @@ Elected Groups Participation Constraints</h5>
 			the <a href="#random">verifiable random selection procedure</a> described below
 			to choose one person for continued participation and declare the other seat(s) vacant.
 		<li>
-			An individual <em class="rfc2119">must not</em> participate in both the TAG and the AB.
+			An individual <em class="rfc2119">must not</em> simultaneously participate in both the TAG and the AB.
 	</ul>
 
 <h5 id="AB-TAG-elections">
