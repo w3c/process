@@ -2701,7 +2701,7 @@ Council Deliberations</h5>
 	in case of a tie,
 	the [=W3C Council Chair=] determines the outcome.
 	However,
-	if the decision or proposal is objected to
+	if the decision or proposal being objected to
 	originated with the TAG or AB,
 	then members of that group at the time the decision or proposal was made
 	must abstain in such a vote.
