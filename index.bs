@@ -639,7 +639,7 @@ Tooling and Archiving for Discussions and Publications</h4>
 	a core operating principle is to allow access across disabilities,
 	across country borders,
 	and across time.
-	Thus to allow all would-be participants to effectively participate,
+	Thus, to allow all would-be participants to effectively participate,
 	to allow future participants and observers to understand the rationale and origins of current decisions,
 	and to guarantee long-lived access to its publications,
 	W3C requires that:
