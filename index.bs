@@ -1092,7 +1092,7 @@ Expectations for Elected Groups Participants</h5>
 
 	An individual participates on the Advisory Board or TAG
 	from the moment the individual's term begins until the seat is <a href="#AB-TAG-vacated">vacated</a>
-	(e.g. because the term ends).
+	(e.g., because the term ends).
 	Although the Advisory Board and TAG participants do not advocate for the commercial interests of their employers,
 	their participation does carry the responsibilities associated with Member representation,
 	Invited Expert status,
