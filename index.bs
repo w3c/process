@@ -2253,7 +2253,7 @@ Consensus</h4>
 Managing Dissent</h4>
 
 	In some cases, even after careful consideration of all points of view,
-	a group might find itself unable to reach a consensus.
+	a group might find itself unable to reach consensus.
 	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
 	so that the group can make progress
 	(for example, to produce a deliverable in a timely manner).
