@@ -2591,7 +2591,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	Renunciation is a disqualification from participation,
 	not an abstention,
 	and <em class=rfc2119>should not</em> be used
-	to excuse an absence of participation.
+	to excuse an absence or other lack of participation.
 
 	Any person who has been [=dismissed=]
 	or who [=renounces=] their seat
