@@ -3351,7 +3351,7 @@ Candidate Amendments</h4>
 	to be updated quickly with the Working Group's most current thinking,
 	even when the [=candidate amendments=] have not yet received
 	sufficient review or implementation experience
-	to be normatively incorporated into the specification properly.
+	to be normatively incorporated into the specification proper.
 
 	A <dfn>candidate addition</dfn> is similar to a [=candidate correction=],
 	except that it proposes a new feature
