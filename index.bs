@@ -2589,7 +2589,7 @@ Council Participation, Dismissal, and Renunciation</h5>
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
 	their renunciation.
 	Renunciation is a disqualification from participation,
-	not abstention,
+	not an abstention,
 	and <em class=rfc2119>should not</em> be used
 	to excuse an absence of participation.
 
