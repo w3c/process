@@ -3464,7 +3464,7 @@ The W3C Recommendation Track</h3>
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
 	As described in [[#transition-reqs]],
-	the [=Team=] will decline a request to advance in the maturity stage
+	the [=Team=] will decline a request to advance in maturity stage
 	and return the specification to a [=Working Group=] for further work
 	if it determines that the requirements for advancement
 	have not been met.
