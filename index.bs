@@ -1843,7 +1843,7 @@ Charter Refinement</h3>
 	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
 	the [=Chartering Facilitator=] must inform the AC
 	(and, in the case of rechartering, the affected [=Group=])
-	of this delay, of the status of the discussions, and the revised expected duration of [=Charter Refinement=].
+	of this delay, the status of the discussions, and the revised expected duration of [=Charter Refinement=].
 	This report should be public.
 
 <h3 id="WGCharter">
