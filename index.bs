@@ -3245,7 +3245,7 @@ Classes of Changes</h4>
 			For [=Recommendation-track=] [=technical reports=] specifically,
 			this constitutes changes that do not affect conformance,
 			i.e. changes that reasonable implementers
-			would not be interpreted as changing architectural
+			would not interpret as changing architectural
 			or interoperability requirements
 			or their implementation.
 			Changes that resolve ambiguities in the specification
