@@ -2611,7 +2611,7 @@ Short Circuit</h5>
 	and potential members of a Council who are not renouncing their seat
 	confirm it by a vote which results in both of the following:
 	* at least 80% of them vote affirmatively to adopt this resolution
-	* none of them voted against adopting the resolution
+	* none of them vote against adopting the resolution
 
 	The request for confirmation <em class=rfc2119>must</em> be open for at least two weeks,
 	or until every potential member of the Council not renouncing their seat
