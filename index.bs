@@ -1084,7 +1084,7 @@ Expectations for Elected Groups Participants</h5>
 	Advisory Board and TAG participants are expected to participate regularly and fully.
 	Advisory Board and TAG participants <em class="rfc2119">should</em> attend <a href="#ACMeetings">Advisory Committee meetings</a>.
 
-	Individuals elected or appointed to the Advisory Board or TAG act in their capacity,
+	Individuals elected or appointed to the Advisory Board or TAG act
 	to serve the needs of the W3C membership as a whole,
 	and the Web community.
 	Whether they are Member representatives or Invited Experts,
