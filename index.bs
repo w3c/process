@@ -3254,7 +3254,7 @@ Classes of Changes</h4>
 		<dd>
 			Examples of changes in this class include
 			correcting non-normative examples
-			which clearly conflicts with normative requirements,
+			which clearly conflict with normative requirements,
 			clarifying informative use cases or other non-normative text,
 			fixing typos or grammatical errors
 			where the change does not change requirements.
