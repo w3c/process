@@ -40,9 +40,9 @@ Repository: w3c/process
 Shortname: process
 Abstract:
 	The <a href="https://www.w3.org/mission/">mission of the World Wide Web Consortium (W3C)</a>
-        is making the web work, for everyone. 
-        W3C brings together global stakeholders to develop open standards that enable a World Wide Web that connects and empowers humanity.
-	The W3C Process Document describes the organizational structure of W3C and its processes,
+	is making the web work, for everyone.
+	W3C brings together global stakeholders to develop open standards that enable a World Wide Web that connects and empowers humanity.
+	The W3C Process Document describes the organizational structure of W3C and processes,
 	responsibilities and functions that enable W3C to accomplish its mission.
 	This document does not describe the internal workings of the Team.
 
@@ -1750,7 +1750,7 @@ Lifecycle of Chartered Groups</h2>
 		reflect community input and [=consensus=],
 		and have been well-socialized
 		and [=wide review|widely reviewed=].
-	* [=Charters=] the are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
+	* [=Charters=] then are formally approved through an [=AC Review=] and [=W3C Decision=] (see [[#CharterReview]]).
 
 <h3 id="charter-initiation">
 Initiating Charter Refinement</h3>
