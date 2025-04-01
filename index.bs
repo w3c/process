@@ -2950,7 +2950,7 @@ Appeal by Advisory Committee Representatives</h3>
 	for decisions of a [=W3C Council=], and
 	for certain decisions that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
-	which describes the requirements for the decision
+	which describe the requirements for the decision
 	and include
 	additional (non-reviewed) maturity stages of Recommendation Track documents,
 	group [=charter extensions=] and closures,
