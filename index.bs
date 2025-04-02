@@ -42,8 +42,8 @@ Abstract:
 	The <a href="https://www.w3.org/mission/">mission of the World Wide Web Consortium (W3C)</a>
 	is making the web work, for everyone.
 	W3C brings together global stakeholders to develop open standards that enable a World Wide Web that connects and empowers humanity.
-	The W3C Process Document describes the organizational structure of W3C and processes,
-	responsibilities and functions that enable W3C to accomplish its mission.
+	The W3C Process Document describes the organizational structure of W3C as well as the processes,
+	responsibilities, and functions that enable W3C to accomplish its mission.
 	This document does not describe the internal workings of the Team.
 
 	For more information about the W3C mission and the history of W3C,
