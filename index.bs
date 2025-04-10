@@ -872,27 +872,30 @@ Advisory Board (AB)</h4>
 <h5 id=ab-role>
 Role of the Advisory Board</h5>
 
-	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn> provides ongoing guidance to the Team
+	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn>
+	is elected by the Membership to advance the effectiveness of W3C as a community by:
+
+	<ul>
+	<li>Providing ongoing guidance to the Team
 	on issues of strategy,
 	management,
 	legal matters,
 	process,
+	community engagement,
 	and conflict resolution.
-	The Advisory Board also serves the Members
+	<li>Serving the Members
 	by tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
-	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	As part of a [=W3C Council=],
-	members of the [=Advisory Board=] hear and adjudicate on [=Submission Appeals=]
-	and [=Formal Objections=].
+	<li>Managing the <a href="#GAProcess">evolution of the Process Document</a>.
+	</ul>
 
 	The [=Advisory Board=] is distinct from the [=Board of Directors=]
-	and has no decision-making authority within W3C;
+	and has no decision-making authority over W3C;
 	its role is strictly advisory.
-
-	Note: While the [=AB=] as such does not have decision-making authority,
-	its members do when sitting as part of a [=W3C Council=].
+	However, as part of a [=W3C Council=],
+	members of the [=Advisory Board=] hear and adjudicate on [=Submission Appeals=]
+	and [=Formal Objections=].
 
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
