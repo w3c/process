@@ -1450,11 +1450,11 @@ Requirements for All Chartered Groups</h4>
 	(even if other proceedings of the group are <a href="#Member-only">Member-only</a>).
 
 	Each group <em class="rfc2119">must</em> have a <dfn id="GeneralChairs" export>Chair</dfn> (or co-Chairs)
-	to coordinate the group's tasks.
+	to facilitate effective discussion and coordinate the group's activities.
 	The [=Team=] appoints (and re-appoints) Chairs for all groups.
 	The Chair is a <a href="#member-rep">Member representative</a>,
 	a <a href="#Team">Team representative</a>,
-	or an <a href="#invited-expert-wg">Invited Expert</a>,
+	or an <a href="#invited-expert-wg">Invited Expert</a>
 	(invited by the [=Team=]).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.
 	
