@@ -460,6 +460,16 @@ Expectations and Discipline</h5>
 	“Disclosure”
 	in the W3C Patent Policy [[!PATENT-POLICY]].
 
+	A [=Chair=] <em class="rfc2119">may</em> protect their group
+	by temporarily suspending any individual
+	from any meeting or discussion under their jurisdiction
+	for causing sustained disruption of the group's discussions,
+	threatening the safety of any individual,
+	or blatantly violating other well-established rules.
+	The [=Team=] <em class="rfc2119">should</em> support the [=Chair decision|Chair's decision=],
+	but <em class="rfc2119">may</em> overturn such a suspension
+	if they [=Team decision|decide=] it was not (or is no longer) appropriate.
+
 	The [=CEO=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=])
