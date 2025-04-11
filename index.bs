@@ -3603,7 +3603,7 @@ Maturity Stages on the Recommendation Track</h4>
 			<p id="expandable-rec">
 			After its initial publication,
 			a [=W3C Recommendation=] <em class=rfc2119>may</em> be revised
-			(in accordance with [[#revising-rec|]])
+			(in accordance with [[#revising-rec]])
 			to address [=editorial change|editorial=] or [=substantive change|substantive=] issues
 			that are discovered later.
 			However, <a href=#class-4>new features</a> can only be added
