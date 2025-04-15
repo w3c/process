@@ -1344,6 +1344,8 @@ Removing AB or TAG members</h5>
 	the individual's seat on [=AB=] or [=TAG=] is [=vacated=] immediately.
 	The group must notify the [=AC=] of such a [=removal=] within one week.
 
+	Note: Removal from the [=AB=] or [=TAG=] does not imply removal from a convened [=Council=].
+
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
 
