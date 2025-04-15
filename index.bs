@@ -1332,7 +1332,7 @@ Removing AB or TAG members</h5>
 	to be grossly neglecting their duties,
 	or to be acting in a way that seriously hampers the group's ability to function.
 
-	A chair of the [=AB=] or [=TAG=] <em class=rfc2119>must</em> hold a hearing
+	The [=AB=] or [=TAG=] <em class=rfc2119>must</em> hold a hearing
 	on the potential [=removal=] of a participant
 	if requested by at least three of the participants in the group.
 	After giving the individual in question
