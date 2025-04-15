@@ -1343,6 +1343,8 @@ Removing AB or TAG members</h5>
 	then vote in favor of the proposal,
 	the individual's seat on [=AB=] or [=TAG=] is [=vacated=] immediately.
 
+	Note: Removal from the [=AB=] or [=TAG=] does not imply removal from a convened [=Council=].
+
 <h5 id="AB-TAG-vacated">
 Elected Groups Vacated Seats</h5>
 
