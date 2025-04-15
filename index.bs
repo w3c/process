@@ -4265,11 +4265,15 @@ Revising a Recommendation: New Features</h5>
 	enables third parties to depend on a stable feature-set for [=Recommendations=] that do not advertise that ability,
 	as was the case for all [=Recommendations=] prior to the 2020 revision of this Process.
 
-	To make changes which introduce a new feature
-	to a [=Recommendation=] that does not [=allow new features=],
-	W3C <em class="rfc2119">must</em> create a new [=technical report=],
-	following the full process of <a href="#rec-advance">advancing a technical report to Recommendation</a>
+	Note: When a [=Recommendation=] does not [=allow new features=],
+	new features can be added by creating a new [=technical report=]
+	and following the full process of advancing that [=technical report=] to [=Recommendation=]--
 	beginning with a new [=First Public Working Draft=].
+	Such [=technical reports=] could be written to represent
+	additional modules building on top of the original [=Recommendation=] of the core technology,
+	or an expanded replacement of the original [=Recommendation=] of the core technology
+	(in which case the new [=technical report=] will typically have the same name as the original,
+	with an incremented version number).
 
 <h5 id=change-review>
 Incorporating Candidate Amendments</h5>
