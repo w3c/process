@@ -1350,10 +1350,12 @@ Removing AB or TAG members</h5>
 AC Recall of AB or TAG</h5>
 
 	The [=Advisory Committee=] <em class=rfc2119>may</em>
-	hold a <dfn export>vote of no confidence</dfn>
-	in the [=Advisory Board=] or the [=Technical Architecture Group=].
+	<dfn export>recall</dfn>,
+	as a whole,
+	all [[#AB-TAG-elections|elected]] and [[#TAG-appointments|appointed]] participants
+	from the [=Advisory Board=] or the [=Technical Architecture Group=].
 
-	An [=Advisory Committee representative=] initiates a [=vote of no confidence=]
+	An [=Advisory Committee representative=] initiates a [=recall=]
 	by sending a request to the Team, and <em class=rfc2119>should</em> also share this request with the Advisory Committee.
 	The request <em class=rfc2119>must</em> identify whether the [=AB=] or [=TAG=] is targeted,
 	and <em class=rfc2119>should</em> also include the rationale.
@@ -1379,10 +1381,7 @@ Elected Groups Vacated Seats</h5>
 			the participant resigns, or
 
 		<li>
-			the participant is [=removed=], oor
-
-		<li>
-			a [=vote of no confidence=] in the body they are part of is successful, or
+			the participant is [=removed=] or [=recalled=], oor
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
@@ -3034,7 +3033,7 @@ Advisory Committee Override</h3>
 	process nor its [[#addressing-fo|escalation path]] is sufficient.
 
 	Note: Currently, this only applies to [=AC Appeals=]
-	and [=votes of no confidence=] in the [=AB=] or [=TAG=].
+	and [=recalls=] of the [=AB=] or [=TAG=].
 
 	First, the [=Team=] <em class="rfc2119">must</em> announce the proposal for an [=Advisory Committee Override=]
 	to the [=Advisory Committee=]
