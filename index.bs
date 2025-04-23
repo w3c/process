@@ -1787,7 +1787,10 @@ Initiating Charter Refinement</h3>
 	An [=Advisory Committee representative=] <em class=rfc2119>may</em> formally request
 	that the [=Team=] initiate [=charter refinement=].
 	The Team <em class=rfc2119>may</em> deny such a request
-	if it thinks the proposal is insufficiently mature or does not align with W3C's scope and mission,
+        if it thinks the proposal is insufficiently mature,
+        does not align with W3C's scope and mission,
+	or otherwise does not meet the charter assessment criteria
+	described in the Guide (see [[CHARTER inline]]),
 	and <em class=rfc2119>must</em> reply with its rationale.
 	This rejection is a [=Team Decision=],
 	and can be appealed only by 5 or more [=Members=],
