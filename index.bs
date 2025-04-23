@@ -1830,6 +1830,13 @@ Charter Refinement</h3>
 	either to initiate [=AC Review=] of the [=charter draft=],
 	or to abandon the proposal.
 
+	The [=Team=] <em class=rfc2119>may</em> [=Team Decision|decide=]
+	to extend the charter refinement period
+	by sending an announcement with the same visibility as the initial [=charter refinement notice=].
+	Reaching the end of the announced period (including any announced extension)
+	with neither a decision to initiate [=AC Review=] nor an announcement of extension
+	is considered a de-facto [=Team decision=] to abandon the proposal.
+
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
 	* Objections to abandoning the proposal can be appealed only if 5 or more Members,
@@ -1845,12 +1852,6 @@ Charter Refinement</h3>
 	* Any other objections are processed normally (See [[#addressing-fo]]).
 
 	Note: This enables all [=Formal Objections=] on the same proposed [=charter=] to be handled together.
-
-	If the discussions have not concluded within the time frame announced in the [=charter review notice=],
-	the [=Chartering Facilitator=] must inform the AC
-	(and, in the case of rechartering, the affected [=Group=])
-	of this delay, of the status of the discussions, and of the revised expected duration of [=Charter Refinement=].
-	This report should be public.
 
 <h3 id="WGCharter">
 Content of a Charter</h3>
