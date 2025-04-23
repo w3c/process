@@ -1839,7 +1839,7 @@ Charter Refinement</h3>
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
-	* Objections to abandoning the proposal or to extending the refinment period can be appealed only if 5 or more Members,
+	* Objections to abandoning the proposal or to extending the refinement period can be appealed only if 5 or more Members,
 		through their [=Advisory Committee representative=],
 		formally object to the decision within 8 weeks of the decision.
 		In this case,
