@@ -1843,12 +1843,14 @@ Charter Refinement</h3>
 		through their [=Advisory Committee representative=],
 		formally object to the decision within 8 weeks of the decision.
 		In this case,
-		the [=Team=] <em class=rfc2119>must</em> either
-		abide by their request
-		if all objections agree on the alternative course of action
-		(i.e. whether to abandon, extend, or complete charter refinement),
-		initiate [=AC Review=],
-		or convene a [=Council=] which then decides the course of action.
+		the [=Team=] <em class=rfc2119>must</em> do one of the following:
+		* Abide by the objectors' request, if they all agree on the
+			alternative course of action (e.g., to abandon,
+			extend, or complete charter refinement).
+		* Initiate an [=AC Review=] to formally solicit the input of
+			the community and take a W3C Decision on the subsequent
+			course of action.
+		* Convene a [=Council=] to decide the subsequent course of action.
 		(No action is required to be taken when fewer than 5 members object.)
 	* Objections to decisions pertaining to the content of the charter,
 		as well as objections to initiating the [=AC Review=],
