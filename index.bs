@@ -1851,6 +1851,7 @@ Charter Refinement</h3>
 			the community and take a W3C Decision on the subsequent
 			course of action.
 		* Convene a [=Council=] to decide the subsequent course of action.
+
 		(No action is required to be taken when fewer than 5 members object.)
 	* Objections to decisions pertaining to the content of the charter,
 		as well as objections to initiating the [=AC Review=],
