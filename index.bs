@@ -1832,7 +1832,7 @@ Charter Refinement</h3>
 
 	The [=Team=] <em class=rfc2119>may</em> [=Team Decision|decide=]
 	to extend the charter refinement period
-	by sending an announcement with the same visibility as the initial [=charter refinement notice=].
+	by sending an announcement with the same visibility as the initial [=charter review notice=].
 	Reaching the end of the announced period (including any announced extension)
 	with neither a decision to initiate [=AC Review=] nor an announcement of extension
 	is considered a de-facto [=Team decision=] to abandon the proposal.
