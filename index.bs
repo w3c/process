@@ -1993,10 +1993,10 @@ Charter Review and Approval</h3>
 New Charters and Major Changes</h4>
 
 	Any new [=charter=] (including re-chartering of existing [=chartered groups=])
-	and most substantive changes to an already-approved [=charter=]
+	and any change that is not a [=minor change=] (per [[#charter-minor-changes]]) to an already-approved [=charter=]
 	of a [=Working Group=] or [=Interest Group=]
 	<em class=rfc2119>must</em> be approved by a [=W3C Decision=] following an [=AC Review=] of that [=charter=].
-	(See [[#charter-minor-changes]] for minor changes that can be approved by a [=Team Decision=].)
+	Moditications to a [=charter=] <em class=rfc2119>should</em> have the [=consensus=] of the group.
 
 	The review period <em class=rfc2119>must</em> be at least 28 days.
 	Any [=Advisory Committee representative=] <em class=rfc2119>may</em> request an extended review period
@@ -2005,26 +2005,35 @@ New Charters and Major Changes</h4>
 	the [=Team=] <em class=rfc2119>must</em> extend the review period
 	to at least 60 days.
 
-	The Call for Review of a substantively modified charter
+	The Call for Review of a modified charter
 	<em class=rfc2119>must</em> highlight important changes
-	(e.g., regarding deliverables or resource allocation)
-	and include rationale for the changes.
+	(e.g., regarding changes in scope, deliverables, or resource allocation)
+	and <em class=rfc2119>must</em> include rationale for those changes.
 
-	The Call for Review of a new or substantively modified charter
-	<em class="rfc2119">must</em> include a disposition of comments for those received during the [=charter refinement=] process,
+	The Call for Review of a new or modified charter
+	<em class="rfc2119">must</em> include a disposition of comments received during the [=charter refinement=] process,
 	highlighting any issues that were closed despite sustained objections.
 
 <h4 id="charter-minor-changes">
 Minor Changes to Active Charters</h4>
 
-	Substantive changes to a [=charter=] (including [[#charter-extension|extensions]])
-	that do not affect the way the group functions in any significant way
+	[=Editorial changes=] or [=substantive changes=] to a [=charter=] (including [[#charter-extension|extensions]])
+	that do not affect the scope of the group's work
+	or the way the group functions in any significant way
+	are deemed <dfn>minor changes</dfn> and
 	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
 	in which case they do not require [=charter refinement=] nor [=Advisory Committee Review=].
-	The following are examples of such changes:
-	the addition of an in-scope deliverable,
+	Any expansion of the scope of the [=charter=]
+	or addition of a new [=REC track=] deliverable
+	that does not fall within the scope of an existing deliverable
+	is a major, not [=minor change|minor=], change.
+	The following are examples of [=minor changes=]:
+	the renaming or restructuring (e.g. splitting or combining) of existing in-scope deliverables,
+	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work
 	a change of [=Team Contact=],
 	or a change of [=Chair=].
+	[=Minor changes=], other than a change of [=Team Contact=],
+	<em class=rfc2119>should</em> have the [=consensus=] of the group.
 
 	The [=Team=] <em class=rfc2119>may</em> nevertheless choose
 	to initiate [=charter refinement=] and/or [=Advisory Committee Review=]
