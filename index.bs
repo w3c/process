@@ -1357,7 +1357,7 @@ AC Recall of AB or TAG</h5>
 	all [[#AB-TAG-elections|elected]] and [[#TAG-appointments|appointed]] participants
 	from the [=Advisory Board=] or the [=Technical Architecture Group=].
 
-	An [=Advisory Committee representative=] initiates a [=recall=]
+	An [=Advisory Committee representative=] invokes a [=recall=]
 	by sending a request to the Team, and <em class=rfc2119>should</em> also share this request with the Advisory Committee.
 	The request <em class=rfc2119>must</em> identify whether the [=AB=] or [=TAG=] is targeted,
 	and <em class=rfc2119>should</em> also include the rationale.
@@ -1369,8 +1369,8 @@ AC Recall of AB or TAG</h5>
 	and cannot be the subject of a [=Formal Objection=] nor of an [=AC Appeal=]:
 	if the [=Advisory Committee Override=] proposal passes,
 	all [[#AB-TAG-elections|elected]] or [[#TAG-appointments|appointed]] seats on [=AB=] or [=TAG=] are [=vacated=] immediately;
-	if it fails, it cannot be invoked on the same body
-	sooner than six months since the previous invocation.
+	if it fails, [=recall=] cannot be invoked on the same body
+	sooner than six months since the previous invocatoin.
 	The [=Team=] must announce the conclusion of the [=Advisory Committee Override=] to the [=Advisory Committee=].
 
 <h5 id="AB-TAG-vacated">
