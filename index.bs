@@ -1824,18 +1824,24 @@ Charter Refinement</h3>
 		and their resolutions tracked in a disposition of comments
 		highlighting any issues not resolved by consensus.
 
-	The [=charter refinement=] phase concludes
-	when there is a [=Team Decision=]
+	Before the end of the announced duration
+	for the [=charter refinement=] phase,
+	the [=Team=]
 	(informed by the work of the [=Chartering Facilitator=])
-	to either complete charter refinement by initiating [=AC Review=] of the [=charter draft=],
-	or abandon the proposal.
+	<em class=rfc2119>must</em> [=Team Decision|decide=] whether to:
+	* complete charter refinement by initiating [=AC Review=] of the [=charter draft=], or
+	* abandon the proposal, or
+	* extend the charter refinement period.
 
-	The [=Team=] <em class=rfc2119>may</em> [=Team Decision|decide=]
-	to extend the charter refinement period
-	by sending an announcement with the same visibility as the initial [=charter review notice=].
+	The [=Team=] <em class=rfc2119>must</em> announce its [=Team Decision|decision=]
+	with the same visibility as the initial [=charter review notice=],
+	and <em class=rfc2119>must</em> include a rationale
+	if the decision is not to start the [=AC Review=].
 	Reaching the end of the announced period (including any announced extension)
-	with neither a decision to initiate [=AC Review=] nor an announcement of extension
+	with no announced decision
 	is considered a de-facto [=Team decision=] to abandon the proposal.
+	The [=Team=] <em class=rfc2119>may</em> revise such a decision
+	by announcing an alternative one.
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
