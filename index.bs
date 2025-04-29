@@ -2521,13 +2521,13 @@ Council Composition</h5>
 	The list of potential [=Council=] members evolves
 	as [=AB=] and [=TAG=] terms start and end
 	until [=dismissal=] and [=renunciation=] are concluded,
-	at which point all remaining potential [=Council=] members become full members.
-	Thereafter, the membership of the [=Council=] is fixed,
-	and is not changed by any [=AB=] or [=TAG=] elections
-	that occur before that Council has reached a conclusion.
+	at which point the membership of the [=Council=] is fixed.
 	However, if the number of active members in a [=Council=] falls so low as to hinder effective and balanced deliberations,
 	the [=Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
 	and call for a new one to be convened.
+	
+	Note: TAG and AB elections have no effect on the Council's membership
+	once it is fixed.
 
 	A [=Team=] member is assigned
 	to act as the <dfn export>Council Team Contact</dfn>,
