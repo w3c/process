@@ -1366,7 +1366,7 @@ Elected Groups Vacated Seats</h5>
 			<ul>
 				<li>
 					The group Chair <em class="rfc2119">should not</em> request such an election
-					if the next regularly scheduled election is fewer than three months away.
+					if the next regular Call for Nominations is scheduled within 3 months.
 
 				<li>
 					The group Chair <em class="rfc2119">may</em> request an election,
