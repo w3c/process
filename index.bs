@@ -1841,7 +1841,7 @@ Charter Refinement</h3>
 	with no announced decision
 	is considered a de-facto [=Team decision=] to abandon the proposal.
 	The [=Team=] <em class=rfc2119>may</em> revise such a decision
-	by announcing an alternative one.
+	by announcing an alternative decision.
 
 	[=Formal Objections=] filed during the [=charter refinement=] phase
 	are specially handled:
