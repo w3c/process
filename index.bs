@@ -1428,7 +1428,7 @@ Elected Groups Vacated Seats</h5>
 		<li>
 			If vacancies reduce the number of [=AB=] or [=TAG=] participants to 0,
 			the [=Team=] <em class=rfc2119>must</em> organize a [=special election=]
-			unless the close of the next regularly scheduled election is fewer than three months away.
+			unless a regular Call for Nominations is scheduled within 1 month.
 	</ul>
 
 	When a <dfn>special election</dfn> is held,
