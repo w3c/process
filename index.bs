@@ -1828,10 +1828,10 @@ Charter Refinement</h3>
 	for the [=charter refinement=] phase,
 	the [=Team=]
 	(informed by the work of the [=Chartering Facilitator=])
-	<em class=rfc2119>must</em> [=Team Decision|decide=] whether to:
-	* complete charter refinement by initiating [=AC Review=] of the [=charter draft=], or
-	* abandon the proposal, or
-	* extend the charter refinement period.
+	<em class=rfc2119>must</em> [=Team Decision|decide=] which of the following to do:
+	* Complete charter refinement by initiating [=AC Review=] of the [=charter draft=].
+	* Abandon the proposal.
+	* Extend the charter refinement period.
 
 	The [=Team=] <em class=rfc2119>must</em> announce its [=Team Decision|decision=]
 	with the same visibility as the initial [=charter review notice=],
