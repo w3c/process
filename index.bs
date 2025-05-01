@@ -894,7 +894,7 @@ Role of the Advisory Board</h5>
 	and has no decision-making authority over W3C;
 	its role is strictly advisory.
 	However, as part of a [=W3C Council=],
-	members of the [=Advisory Board=] hear and adjudicate on [=Submission Appeals=]
+	members of the [=Advisory Board=] hear and adjudicate [=Submission Appeals=]
 	and [=Formal Objections=].
 
 	Details about the Advisory Board
