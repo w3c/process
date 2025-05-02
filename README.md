@@ -16,8 +16,9 @@ Discussion happens in the context of the W3C Process Community Group
 ----
 ## Useful searches
 
-[PRs triaged into P2021](https://github.com/w3c/process/issues?q=is%3Aopen+-label%3A%22P2021%3A+Priority%22+milestone%3A%22Process+2021%22+) which are not priorities.
-
+* [Issues and PRs without a milestone](https://github.com/w3c/process/issues?q=is%3Aopen%20no%3Amilestone)
+* [Issues and PR included and targetted for the next release](https://github.com/w3c/process/issues?q=is%3Aopen%20milestone%3A%22Process%202024%2F2025%22%20)
+* [Issues and PR marked as Agenda+](https://github.com/w3c/process/issues?q=%20label%3AAgenda%2B%20)
 
 ----
 ## Bikeshed
