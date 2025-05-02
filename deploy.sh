@@ -21,7 +21,8 @@ TOPIC_BRANCHES=(
 	"section-6-clean-up"
 	"maintenance-2020"
 	"p2021-before-reorg"
-	"p2021")
+	"p2021"
+	"ab-tag-discipline")
 
 containsElement () {
   local e match="$1"

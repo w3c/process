@@ -10,8 +10,9 @@ Discussion happens in the context of the W3C Process Community Group
 ----
 ## Branches under development
 
-[main](https://github.com/w3c/process/tree/main) branch (current draft of the CG):
+* [main](https://github.com/w3c/process/tree/main) branch (current draft of the CG):
 [Preview](https://www.w3.org/policies/process/drafts/)
+* [ab-tag-discipline](https://github.com/w3c/process/tree/ab-tag-discipline) branch, where potential procedures for removal and recall of AB or TAG members are being worked out: [preview](https://www.w3.org/policies/process/drafts/ab-tag-discipline)
 
 ----
 ## Useful searches
