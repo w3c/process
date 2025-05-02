@@ -14,7 +14,8 @@ if [ $1 ] ; then
 			<p>This is the “$1” topic branch; make sure this is indeed the one you’re looking for.\
 			If not, the current Editor’s Draft can be found at\
 			<a href='https://www.w3.org/policies/process/drafts/'>https://www.w3.org/policies/process/drafts/</a>.<br>\
-			(The <a href=#sotd>Status of this document</a> section may have information about the purpose of this branch.)</details>"
+			(The <a href=#sotd>Status of this document</a> section may have information about the purpose of this branch.)</details>" \
+		--md-ED="https://www.w3.org/policies/process/drafts/$1/"
 else
 	bikeshed --print=plain -f spec
 fi
