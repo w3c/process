@@ -1836,7 +1836,7 @@ Charter Refinement</h3>
 	The [=Team=] <em class=rfc2119>must</em> announce its [=Team Decision|decision=]
 	with the same visibility as the initial [=charter review notice=],
 	and <em class=rfc2119>must</em> include a rationale
-	if the decision is not to start the [=AC Review=].
+	if they are not initiating [=AC Review=].
 	Reaching the end of the announced period (including any announced extension)
 	with no announced decision
 	is considered a de-facto [=Team decision=] to abandon the proposal.
