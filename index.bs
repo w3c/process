@@ -2646,7 +2646,7 @@ Council Chairing</h5>
 <h5 id=council-convention>
 Convening the Council</h5>
 
-	Once [=dismissal=], [=renunciation=], and
+	When [=dismissal=], [=renunciation=], and
 	appointment of the [=W3C Council Chair=] have concluded,
 	and the [=Team=]’s report has been delivered,
 	the [=W3C Council=] is considered to be <dfn>convened</dfn>
