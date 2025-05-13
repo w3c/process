@@ -2672,17 +2672,17 @@ Council Deliberations</h5>
 	<p id=broker-consensus>
 	The Council <em class=rfc2119>may</em>
 	further attempt to broker consensus,
-	which, if successful, disposes the formal objection.
+	which, if successful, disposes that formal objection.
 
 	Otherwise,
 	after sufficient deliberation,
 	the [=W3C Council=] decides whether to
-	<dfn lt="uphold | upholds | upheld | upholding">uphold</dfn> or <dfn>overrule</dfn> the objection.
-	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
-	even if it agrees with some of the supportive arguments.
+	<dfn>confirm</dfn> or <dfn>overturn</dfn> the decision being objected to.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=confirm=] the decision
+	even if it agrees with some of the arguments of a [=Formal Objection=].
 
 	<p id=fo-mitigations>
-	When [=upholding=] an objection,
+	When [=overturning=] an decision,
 	it <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	(e.g., if the objection concerns material already in a published document)
@@ -2718,7 +2718,7 @@ Council Deliberations</h5>
 	not two.
 
 	In the case of non-unanimous decisions,
-	members of a [=W3C Council=] who disagree with the decision
+	members of a [=W3C Council=] who disagree with the Council's decision
 	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
 	explaining the reason for their disagreement.
 
@@ -2736,14 +2736,14 @@ Council Decision Report</h5>
 
 	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
 	which:
-	* <em class=rfc2119>must</em> state whether the Council [=upholds=] or [=overrules=] the objection(s).
-	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
+	* <em class=rfc2119>must</em> state whether the Council [=confirms=] or [=overturns=] the decision being objected to.
+	* <em class=rfc2119>must</em> provide a rationale supporting its conclusion,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
-	* if the [=Formal Objection=] has been upheld, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
+	* if the decision has been overturned, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
 	* <em class=rfc2119>must</em> include the [=Minority Opinion(s)=], if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
-	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
+	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final Council decision.
 	* <em class=rfc2119>must</em> report the number of votes for/against dismissing each participant.
 	* <em class=rfc2119>may</em> report vote totals for the Council’s decision, if a formal vote was held.
 	* <em class=rfc2119>must not</em> attribute any position to any individual on the Council.
