@@ -3899,10 +3899,6 @@ Revising a Working Draft</h4>
 	to the previous published document
 	that would benefit from review beyond the Working Group.
 
-	If 6 months elapse without significant changes to a specification,
-	a Working Group <em class="rfc2119">should</em> publish a revised [=Working Draft=],
-	whose status section <em class="rfc2119">should</em> indicate reasons for the lack of change.
-
 	To publish a revision of a Working draft, a Working Group:
 
 	<ul>
