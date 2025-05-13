@@ -1996,7 +1996,7 @@ New Charters and Major Changes</h4>
 	and any change that is not a [=minor change=] (per [[#charter-minor-changes]]) to an already-approved [=charter=]
 	of a [=Working Group=] or [=Interest Group=]
 	<em class=rfc2119>must</em> be approved by a [=W3C Decision=] following an [=AC Review=] of that [=charter=].
-	Moditications to a [=charter=] <em class=rfc2119>should</em> have the [=consensus=] of the group.
+	Modifications to a [=charter=] <em class=rfc2119>should</em> have the [=consensus=] of the group.
 
 	The review period <em class=rfc2119>must</em> be at least 28 days.
 	Any [=Advisory Committee representative=] <em class=rfc2119>may</em> request an extended review period
