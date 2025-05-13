@@ -2630,8 +2630,9 @@ Council Chairing</h5>
 <h5 id=council-convention>
 Convening the Council</h5>
 
-	Upon appointment of the [=W3C Council Chair=]
-	and delivery of the [=Team=]’s report,
+	Once [=dismissal=], [=renunciation=], and
+	appointment of the [=W3C Council Chair=] have concluded,
+	and the [=Team=]’s report has been delivered,
 	the [=W3C Council=] is considered to be <dfn>convened</dfn>
 	and can start [[#council-deliberations|deliberations]].
 
