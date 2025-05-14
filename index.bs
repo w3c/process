@@ -5710,6 +5710,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
 					in addition to Working Groups.
 					(See <a href="https://github.com/w3c/process/issues/902">Issue 902</a>)
+
+				<li>
+					Drop the requirement to publish every 6 months if nothing has changed.
+					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>)
 			</ul>
 
 		<dt>Changes to chartering
@@ -5727,6 +5731,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 				<li>
 					Require Chairs to be listed in Charters.
 					(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>)
+
+				<li>
+					Be more specific about which types of changes to a charter must go through AC Review.
+					(See <a href="https://github.com/w3c/process/pull/1042">Pull Request 1042</a>)
 			</ul>
 
 		<dt>Other changes
