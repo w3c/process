@@ -1136,7 +1136,7 @@ Advisory Board and Technical Architecture Group Elections</h5>
 
 	The [=Advisory Board=] and a portion of the [=Technical Architecture Group=] are elected by the [=Advisory Committee=],
 	using a Single Transferable Vote system.
-	An election begins when the Team sends a Call for Nominations to the Advisory Committee.
+	An election <dfn for="election">begins</dfn> when the Team sends a Call for Nominations to the Advisory Committee.
 	Any Call for Nominations specifies the minimum and maximum number of available seats,
 	the deadline for nominations,
 	details about the specific vote tabulation system selected by the Team for the election,
@@ -1366,7 +1366,7 @@ Elected Groups Vacated Seats</h5>
 			<ul>
 				<li>
 					The group Chair <em class="rfc2119">should not</em> request such an election
-					if the next regular Call for Nominations is scheduled within 3 months.
+					if the next regularly scheduled election is scheduled to [=election/begin=] within 3 months.
 
 				<li>
 					The group Chair <em class="rfc2119">may</em> request an election,
