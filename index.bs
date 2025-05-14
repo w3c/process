@@ -2671,8 +2671,8 @@ Council Deliberations</h5>
 
 	<p id=broker-consensus>
 	The Council <em class=rfc2119>may</em>
-	further attempt to broker consensus,
-	which, if successful, disposes that formal objection.
+	further attempt to broker consensus on one or more of the formal objections,
+	which, if successful, would allow them to be resolved.
 
 	Otherwise,
 	after sufficient deliberation,
