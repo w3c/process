@@ -2665,7 +2665,7 @@ Council Deliberations</h5>
 	even if it agrees with some of the arguments of a [=Formal Objection=].
 
 	<p id=fo-mitigations>
-	When [=overturning=] an decision,
+	When [=overturning=] a decision,
 	it <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	(e.g., if the objection concerns material already in a published document)
