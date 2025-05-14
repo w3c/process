@@ -2023,7 +2023,7 @@ Minor Changes to Active Charters</h4>
 	are deemed <dfn>minor changes</dfn> and
 	<em class=rfc2119>may</em> be approved by a [=Team Decision=],
 	in which case they do not require [=charter refinement=] nor [=Advisory Committee Review=].
-	Any expansion of the scope of the [=charter=]
+	Any change to the scope of the [=charter=]
 	or addition of a new [=REC track=] deliverable
 	that does not fall within the scope of an existing deliverable
 	is a major, not [=minor change|minor=], change.
