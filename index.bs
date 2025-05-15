@@ -5609,10 +5609,6 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 		<dd>
 			<ul>
 				<li>
-					Put constraints on the timing of making Formal Objections public.
-					(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>)
-
-				<li>
 					Adjust the rules guiding initiation of Councils,
 					to make the deadline strict,
 					and to provide a fallback mechanism if they are not met.
@@ -5623,18 +5619,14 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>)
 
 				<li>
-					Exclude TAG/AB from voting on their own decisions/proposals.
-					(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>)
-
-				<li>
-					Council dismissal vote counts must be reported.
-					(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>)
-
-				<li>
 					Adjust AC appeal vote threshold based on participation,
 					aligning with the thresholds and super majority requirements
 					for "Requisite Member Vote" from the W3C Bylaws.
 					(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>)
+
+				<li>
+					Exclude TAG/AB from voting on their own decisions/proposals.
+					(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>)
 
 				<li>
 					Fine-tune the rules about
@@ -5643,15 +5635,27 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>)
 
 				<li>
+					Limit the involvement of Tim Berners-Lee to the TAG proper,
+					not including the Council.
+					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>)
+
+				<li>
+					Council dismissal vote counts must be reported.
+					(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>)
+
+				<li>
+					Require documentation of how Formal Objections get resolved.
+					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>)
+
+				<li>
 					Let the originator of a proposal decide whether to try again
 					after addressing feedback
 					following an AC Appeal.
 					(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>)
 
 				<li>
-					Limit the involvement of Tim Berners-Lee to the TAG proper,
-					not including the Council.
-					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>)
+					Put constraints on the timing of making Formal Objections public.
+					(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>)
 			</ul>
 
 		<dt>Changes to technical reports and their publication
@@ -5676,12 +5680,21 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>)
 
 				<li>
+					Drop the requirement to publish every 6 months if nothing has changed.
+					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>)
+
+				<li>
 					Add a requirement to make progress on external issues for update requests
 					(See <a href="https://github.com/w3c/process/issues/781">Issue 781</a>)
 
 				<li>
 					Enable Team to replace defunct registry custodians when no-one else can.
 					(See <a href="https://github.com/w3c/process/issues/699">Issue 699</a>)
+
+				<li>
+					Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
+					in addition to Working Groups.
+					(See <a href="https://github.com/w3c/process/issues/902">Issue 902</a>)
 
 				<li>
 					Rename “registry sections” to [=embedded registries=]
@@ -5705,15 +5718,6 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					that described whether and how the Team can maintain technical reports
 					that no longer have a Group chartered to maintain them.
 					(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
-
-				<li>
-					Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
-					in addition to Working Groups.
-					(See <a href="https://github.com/w3c/process/issues/902">Issue 902</a>)
-
-				<li>
-					Drop the requirement to publish every 6 months if nothing has changed.
-					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>)
 			</ul>
 
 		<dt>Changes to chartering
@@ -5741,17 +5745,20 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 		<dd>
 			<ul>
 				<li>
+					Reuse the bylaws’ notion of Good Standing,
+					and restrict TAG and AB elections
+					as well as AC Votes where a decision is made based on counting ballots
+					to Members in Good Standing.
+					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a>
+					and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>)
+
+				<li>
 					Clarify how the outcome of certain ballots are determined.
 					(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>)
 
 				<li>
 					Stop citing the superseded TAG charter.
 					(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>)
-
-				<li>
-					The URL of this document was changed
-					from /Consortium/Process/ to /policies/process/
-					for better integration in the W3C website architecture.
 
 				<li>
 					Shift most of the non-normative discussion about Workshops to [[GUIDE]],
@@ -5767,24 +5774,17 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					and <a href="https://github.com/w3c/process/issues/936">Pull Request 936</a>)
 
 				<li>
-					Reuse the bylaws’ notion of Good Standing,
-					and restrict TAG and AB elections
-					as well as AC Votes where a decision is made based on counting ballots
-					to Members in Good Standing.
-					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a>
-					and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>)
-
-				<li>
-					Require documentation of how Formal Objections get resolved.
-					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>)
-
-				<li>
 					Clarify amount of leeway around incomplete nominations to TAG or AB elections.
 					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>)
 
 				<li>
 					Simplify provisions regarding substitute representatives and proxies.
 					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>)
+
+				<li>
+					The URL of this document was changed
+					from /Consortium/Process/ to /policies/process/
+					for better integration in the W3C website architecture.
 			</ul>
 
 
