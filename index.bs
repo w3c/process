@@ -5599,7 +5599,7 @@ Appendix C: Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2024 class=no-num>
+<h3 id=changes-2025 class=no-num>
 Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a></h3>
 
 	<p>This document is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>.
