@@ -5473,6 +5473,15 @@ Appendix B: Acknowledgments</h2>
 	Theresa O'Connor (Apple),
 	Vivien Lacourba (W3C).
 
+	<!--
+		* After publication merge the list above in the one below,
+		  and start it anew
+		* the following command can be helpful to find contributors since a particular version
+		(in this example, starting from the p2023_1 tag):
+
+		git log  p2023_1.. | grep -i author | sed "s/^[^:]*: //" | sed "s/ <.*>//" | sort -u
+	-->
+
 	The editors are sorry for forgetting any names,
 	and grateful to those who have listened patiently to conversations about this document
 	without feeling a need to add more.
