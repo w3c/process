@@ -8,7 +8,7 @@
   <meta content="Bikeshed version b25686b9f, updated Fri Mar 14 14:15:20 2025 -0700" name="generator">
   <link href="https://www.w3.org/policies/process/" rel="canonical">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="1b5d916edd0219d0f479fa4156a121bf1ab135ff" name="revision">
+  <meta content="89f6f58dd67fac11ce022f049f3edac1787472fc" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
@@ -4950,49 +4950,15 @@ on addressing issues raised by individuals external to the Group.</p>
 	a <a href="https://github.com/w3c/process/compare/p2023_1...main">detailed log of all changes since then</a> are available. </p>
     <p>In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:</p>
     <dl>
-     <dt>Changes to formal decision making and escalation 
-     <dd>
-      <ul>
-       <li> Adjust the rules guiding initiation of Councils,
-					to make the deadline strict,
-					and to provide a fallback mechanism if they are not met.
-					(See <a href="https://github.com/w3c/process/pull/925">Pull Request 925</a>) 
-       <li> Make the Council’s short-circuit a little more flexible.
-					(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>) 
-       <li> Adjust AC appeal vote threshold based on participation,
-					aligning with the thresholds and super majority requirements
-					for "Requisite Member Vote" from the W3C Bylaws.
-					(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>) 
-       <li> Exclude TAG/AB from voting on their own decisions/proposals.
-					(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>) 
-       <li> Fine-tune the rules about
-					how changes can be incorporated into a proposal
-					following an AC Review.
-					(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>) 
-       <li> Limit the involvement of Tim Berners-Lee to the TAG proper,
-					not including the Council.
-					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>) 
-       <li> Council dismissal vote counts must be reported.
-					(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>) 
-       <li> Require documentation of how Formal Objections get resolved.
-					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>) 
-       <li> Let the originator of a proposal decide whether to try again
-					after addressing feedback
-					following an AC Appeal.
-					(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>) 
-       <li> Put constraints on the timing of making Formal Objections public.
-					(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>) 
-      </ul>
      <dt>Changes to technical reports and their publication 
      <dd>
       <ul>
-       <li> Retire the Proposed Recommendation phase of the Recommendation track.
+       <li> <strong> Retire the Proposed Recommendation phase of the Recommendation track.
 					It was only used as a short-lived transition
 					during which various verifications and votes about CR were done.
 					These can be done on a CR
 					without having to republish it as a separate thing.
-					This simplifies the Process without changing the actual quality or consensus expectations.
-					(See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>) 
+					This simplifies the Process without changing the actual quality or consensus expectations. </strong> (See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>) 
        <li id="streamlined-update"><a class="self-link" href="#streamlined-update"></a> Retire “<a href="https://www.w3.org/policies/process/20231103/#streamlined-update">Streamlined Publication Approval</a>”.
 					This was meant to enable REC track publication with fewer/faster approval steps
 					when some stricter than usual criteria were fulfilled.
@@ -5000,10 +4966,10 @@ on addressing issues raised by individuals external to the Group.</p>
 					that this became unnecessary,
 					and nobody was using it.
 					(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>) 
-       <li> Drop the requirement to publish every 6 months if nothing has changed.
-					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>) 
        <li> Add a requirement to make progress on external issues for update requests
 					(See <a href="https://github.com/w3c/process/issues/781">Issue 781</a>) 
+       <li> Drop the requirement to publish every 6 months if nothing has changed.
+					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>) 
        <li> Enable Team to replace defunct registry custodians when no-one else can.
 					(See <a href="https://github.com/w3c/process/issues/699">Issue 699</a>) 
        <li> Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
@@ -5026,15 +4992,49 @@ on addressing issues raised by individuals external to the Group.</p>
      <dt>Changes to chartering 
      <dd>
       <ul>
-       <li> Introduce a formal <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement①②">Charter Refinement</a> phase prior to the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③⑥">AC Review</a>.
-					(See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>) 
+       <li> <strong> Introduce a formal <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement①②">Charter Refinement</a> phase prior to the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③⑥">AC Review</a>. </strong> (See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>) 
+       <li> Be more specific about which types of changes to a charter must go through AC Review.
+					(See <a href="https://github.com/w3c/process/pull/1042">Pull Request 1042</a>) 
+       <li> Require Chairs to be listed in Charters.
+					(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>) 
        <li> Reorganize and rephrase <a href="#CharterReview">§ 4.4 Charter Review and Approval</a> for readability and ease of understanding.
 					This change, while moderate in size, is purely editorial.
 					(See <a href="https://github.com/w3c/process/pull/850">Pull Request 850</a>) 
-       <li> Require Chairs to be listed in Charters.
-					(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>) 
-       <li> Be more specific about which types of changes to a charter must go through AC Review.
-					(See <a href="https://github.com/w3c/process/pull/1042">Pull Request 1042</a>) 
+      </ul>
+     <dt>Changes to formal decision making and escalation 
+     <dd>
+      <ul>
+       <li> Adjust the rules guiding initiation of Councils,
+					to make the deadline strict,
+					and to provide a fallback mechanism if they are not met.
+					(See <a href="https://github.com/w3c/process/pull/925">Pull Request 925</a>) 
+       <li> Make the Council’s short-circuit a little more flexible.
+					(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>) 
+       <li> Exclude TAG/AB Members from voting on TAG/AB proposals in Councils.
+					(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>) 
+       <li> Limit the involvement of Tim Berners-Lee to the TAG proper,
+					not including the Council.
+					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>) 
+       <li> Council dismissal vote counts must be reported.
+					(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>) 
+       <li> Require documentation of how Formal Objections get resolved.
+					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>) 
+       <li> Put constraints on the timing of making Formal Objections public.
+					(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>) 
+       <li> Fine-tune the rules about
+					how changes can be incorporated into a proposal
+					following an AC Review.
+					(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>) 
+       <li> Adjust AC appeal vote threshold based on participation,
+					aligning with the thresholds and super majority requirements
+					for "Requisite Member Vote" from the W3C Bylaws.
+					(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>) 
+       <li> Let the originator of a proposal decide whether to try again
+					after addressing feedback
+					following an AC Appeal.
+					(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>) 
+       <li> Simplify provisions regarding substitute representatives and proxies.
+					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>) 
       </ul>
      <dt>Other changes 
      <dd>
@@ -5044,22 +5044,20 @@ on addressing issues raised by individuals external to the Group.</p>
 					as well as AC Votes where a decision is made based on counting ballots
 					to Members in Good Standing.
 					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a> and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>) 
-       <li> Clarify how the outcome of certain ballots are determined.
-					(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>) 
-       <li> Stop citing the superseded TAG charter.
-					(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>) 
-       <li> Shift most of the non-normative discussion about Workshops to <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>,
-					and reorganize the remaining normative requirements.
-					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>) 
        <li> The section on Member Submissions was significantly shortened and simplified,
 					reducing the complexity under formal Process authority,
 					and shifting much of the material to /Guide,
 					under Team authority.
 					(See <a href="https://github.com/w3c/process/issues/421">Issue 412</a> and <a href="https://github.com/w3c/process/issues/936">Pull Request 936</a>) 
+       <li> Clarify how the outcome of certain ballots are determined.
+					(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>) 
+       <li> Stop citing the superseded TAG charter.
+					(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>) 
        <li> Clarify amount of leeway around incomplete nominations to TAG or AB elections.
 					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>) 
-       <li> Simplify provisions regarding substitute representatives and proxies.
-					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>) 
+       <li> Shift most of the non-normative discussion about Workshops to <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>,
+					and reorganize the remaining normative requirements.
+					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>) 
        <li> The URL of this document was changed
 					from /Consortium/Process/ to /policies/process/
 					for better integration in the W3C website architecture. 
