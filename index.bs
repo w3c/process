@@ -5605,7 +5605,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
 
 	<dl>
-		<dt>Changes to technical reports and their publication
+		<dt id=changes-2025-tr>Changes to technical reports and their publication
 		<dd>
 			<ul>
 				<li>
@@ -5613,10 +5613,10 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					Retire the Proposed Recommendation phase of the Recommendation track.
 					It was only used as a short-lived transition
 					during which various verifications and votes about CR were done.
+					</strong>
 					These can be done on a CR
 					without having to republish it as a separate thing.
 					This simplifies the Process without changing the actual quality or consensus expectations.
-					</strong>
 					(See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>)
 
 				<li id="streamlined-update">
@@ -5669,7 +5669,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
 			</ul>
 
-		<dt>Changes to chartering
+		<dt id=changes-2025-charter>Changes to chartering
 		<dd>
 			<ul>
 				<li>
@@ -5692,7 +5692,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/pull/850">Pull Request 850</a>)
 			</ul>
 
-		<dt>Changes to formal decision making and escalation
+		<dt id=changes-2025-decisions>Changes to formal decision making and escalation
 		<dd>
 			<ul>
 				<li>
@@ -5749,7 +5749,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>)
 			</ul>
 
-		<dt>Other changes
+		<dt id=changes-other>Other changes
 		<dd>
 			<ul>
 				<li>
