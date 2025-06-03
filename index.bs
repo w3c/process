@@ -5318,7 +5318,7 @@ Member Submissions</h2>
 Process Evolution</h2>
 
 	Revision of the W3C Process and related documents (see below) undergoes similar [=consensus=]-building processes as for [=technical reports=],
-	with the [=Advisory Board=]--
+	with the [=Advisory Board=]
 	acting as the sponsoring [=Working Group=].
 	The documents may be developed by the [=AB=] or by another group to whom the [=AB=] has delegated development.
 	Review includes
