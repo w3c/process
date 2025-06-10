@@ -2723,6 +2723,13 @@ Council Deliberations</h5>
 	The deliberations of a [=W3C Council=] are confidential to that [=W3C Council=]
 	and its [=Council Team Contact=].
 
+	Note: This confidentiality requirement is put in place so that
+	the Council can receive sensitive information in confidence
+	(for example in disputes involving interpersonal conflicts),
+	and to enable Council members to speak freely in their individual expert capacity
+	without pressure or fear of retaliation
+	by those involved in the dispute, business relations, their employer, etc.
+
 	<p id=45-day-update>
 	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being [=convened=],
 	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
