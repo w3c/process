@@ -2662,7 +2662,7 @@ Council Deliberations</h5>
 	the [=W3C Council=] decides whether to
 	<dfn>confirm</dfn> or <dfn>overturn</dfn> the decision being objected to.
 	The [=W3C Council=] <em class=rfc2119>may</em> [=confirm=] the decision
-	even if it agrees with some of the arguments of a [=Formal Objection=].
+	even if it agrees with some of the arguments made as part of a [=Formal Objection=].
 
 	<p id=fo-mitigations>
 	When [=overturning=] a decision,
