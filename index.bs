@@ -4553,7 +4553,7 @@ The Note Track (Notes and Statements)</h3>
 <h4 id="Note">
 Group Notes</h4>
 
-	A <dfn export id="WGNote" lt="Group Note | Note | W3C Note | Working Group Note | Interest Group Note | AB Note | TAG Note">Group Note</dfn> (<abbr>NOTE</abbr>)
+	A <dfn export id="WGNote" lt="Group Note | Note">Group Note</dfn> (<abbr>NOTE</abbr>)
 	is published
 	to provide a stable reference for a useful document
 	that is not intended to be a formal standard.
@@ -5627,9 +5627,9 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 				<li>
 					<strong>
 					Retire the Proposed Recommendation phase of the Recommendation track.
+					</strong>
 					It was only used as a short-lived transition
 					during which various verifications and votes about CR were done.
-					</strong>
 					These can be done on a CR
 					without having to republish it as a separate thing.
 					This simplifies the Process without changing the actual quality or consensus expectations.
