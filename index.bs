@@ -916,9 +916,9 @@ Composition of the Advisory Board</h5>
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
 
-	The team also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a>,
+	The team also appoints a [=Staff Contact=],
 	as described in <a href="#ReqsAllGroups"></a>.
-	The CEO and Team Contact have a standing invitation
+	The CEO and Staff Contact have a standing invitation
 	to all regular Advisory Board sessions.
 
 	The nine to eleven [=Advisory Board=] participants are elected by the W3C [=Advisory Committee=]
@@ -1033,7 +1033,7 @@ Composition of the Technical Architecture Group</h5>
 	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
 	for example if a chair steps down or if a minority of the participants make such a request.
 
-	The [=Team=] also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
+	The [=Team=] also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
@@ -1438,22 +1438,23 @@ Requirements for All Chartered Groups</h4>
 	Note: The <a href="https://www.w3.org/guide/chair/role">role of the Chair</a> [[CHAIR]] is described
 	in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
 
-	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Team Contact</dfn>,
+	Each group <em class="rfc2119">must</em> have a <dfn id="TeamContact" export>Staff Contact</dfn>
+	(also known as <dfn export>Team Contact</dfn>),
 	who acts as the interface between the [=Chair=],
 	group participants,
 	and the rest of the Team.
 	
-	Note: The <a href="https://www.w3.org/guide/teamcontact/role">role of the Team Contact</a> [[TEAM-CONTACT]] 
+	Note: The <a href="https://www.w3.org/guide/teamcontact/role">role of the Staff Contact</a> [[TEAM-CONTACT]]
 	is described in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
 				
-	The [=Chair=] and the [=Team Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
+	The [=Chair=] and the [=Staff Contact=] of a group <em class="rfc2119">should not</em> be the same individual.
 
 	Each group <em class="rfc2119">must</em> have an archived mailing list
 	for formal group communication
 	(e.g., for meeting announcements and [=minutes=],
 	documentation of decisions,
 	and [=Formal Objections=] to decisions).
-	It is the responsibility of the [=Chair=] and [=Team Contact=]
+	It is the responsibility of the [=Chair=] and [=Staff Contact=]
 	to ensure that new participants are subscribed to all relevant mailing lists.
 	Refer to the list of <a href="https://www.w3.org/groups/">group mailing lists</a> [[GROUP-MAIL]].
 
@@ -1474,7 +1475,7 @@ Participation in Chartered Groups</h4>
 	<a href="#member-rep">Member representatives</a>,
 	<a href="#invited-expert-wg">Invited Experts</a>,
 	and <a href="#Team">Team representatives</a>
-	(including the <a href="#TeamContact">Team Contact</a>).
+	(including the [=Staff Contact=]).
 
 	There are four types of individual <dfn id="igparticipant">participants in an Interest Group</dfn>:
 	the same three types as for Working Groups plus,
@@ -1537,7 +1538,7 @@ Member Representative in a Working Group</h5>
 	</ul>
 
 	To designate an individual as a Member representative in a [=Working Group=],
-	an [=Advisory Committee representative=] <em class="rfc2119">must</em> provide the [=Chair=] and [=Team Contact=]
+	an [=Advisory Committee representative=] <em class="rfc2119">must</em> provide the [=Chair=] and [=Staff Contact=]
 	with all of the following <span id=member-rep-info>information</span>,
 	in addition to any other information required by the <a href="#cfp">Call for Participation</a>
 	and charter
@@ -1607,17 +1608,17 @@ Invited Expert in a Working Group</h5>
 			the Chair has designated the individual as a group participant,
 
 		<li>
-			the Team Contact has agreed with the Chair's choice, and
+			the Staff Contact has agreed with the Chair's choice, and
 
 		<li>
 			the individual has provided the <a href="#inv-expert-info">information required of an Invited Expert</a>
-			to the Chair and Team Contact.
+			to the Chair and Staff Contact.
 	</ul>
 
 	To designate an individual as an Invited Expert in a Working Group,
-	the [=Chair=] <em class="rfc2119">must</em> inform the Team Contact
+	the [=Chair=] <em class="rfc2119">must</em> inform the Staff Contact
 	and provide rationale for the choice.
-	When the [=Chair=] and the [=Team Contact=] disagree about a designation,
+	When the [=Chair=] and the [=Staff Contact=] disagree about a designation,
 	the [=CEO=] determines
 	whether the individual will be invited to participate in the Working Group.
 
@@ -2036,9 +2037,9 @@ Minor Changes to Active Charters</h4>
 	The following are examples of [=minor changes=]:
 	the renaming or restructuring (e.g. splitting or combining) of existing in-scope deliverables,
 	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work
-	a change of [=Team Contact=],
+	a change of [=Staff Contact=],
 	or a change of [=Chair=].
-	[=Minor changes=], other than a change of [=Team Contact=],
+	[=Minor changes=], other than a change of [=Staff Contact=],
 	<em class=rfc2119>should</em> have the [=consensus=] of the group.
 
 	The [=Team=] <em class=rfc2119>may</em> nevertheless choose
@@ -2065,7 +2066,7 @@ Call for Participation in a Chartered Group</h3>
 	For a new group, this announcement officially creates the group.
 	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
 	the name(s) of the group's [=Chair(s)=],
-	and the name(s) of the [=Team Contact(s)=].
+	and the name(s) of the [=Staff Contact(s)=].
 
 	After a Call for Participation,
 	any <a href="#member-rep">Member representatives</a>
@@ -2098,7 +2099,7 @@ Charter Extension</h3>
 	and the Group homepage
 	(which includes at least
 	the name(s) of the group's [=Chair(s)=],
-	the name of the [=Team Contact=],
+	the name of the [=Staff Contact=],
 	and instructions for joining the group).
 
 	After a charter extension,
@@ -2412,8 +2413,8 @@ Registering Formal Objections</h3>
 	(except those having a different appeal process)
 	by registering a <dfn id="FormalObjection">Formal Objection</dfn> with the [=Team=].
 	Group participants <em class="rfc2119">should</em> inform
-	their <a href="#TeamContact">Team Contact</a> as well as the group's Chair(s).
-	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
+	their [=Staff Contact=] as well as the group's Chair(s).
+	The Staff Contact <em class="rfc2119">must</em> inform the [=CEO=]
 	when a group participant has also raised concerns about due process.
 
 	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
@@ -2519,7 +2520,7 @@ Council Composition</h5>
 	once it is fixed.
 
 	A [=Team=] member is assigned
-	to act as the <dfn export>Council Team Contact</dfn>,
+	to act as the <dfn export oldids="council-team-contact">Council Staff Contact</dfn>,
 	to support this Council
 	and to facilitate adherence to this Process.
 
@@ -2639,7 +2640,7 @@ Council Chairing</h5>
 	The chair must be a member of that [=W3C Council=].
 	Chair selection happens during formation of each Council,
 	and <em class=rfc2119>must</em> be re-run
-	if requested by the [=Council Team Contact=] or by the [=Chair=]
+	if requested by the [=Council Staff Contact=] or by the [=Chair=]
 	during the Council’s operation.
 
 <h5 id=council-convention>
@@ -2721,7 +2722,7 @@ Council Deliberations</h5>
 	explaining the reason for their disagreement.
 
 	The deliberations of a [=W3C Council=] are confidential to that [=W3C Council=]
-	and its [=Council Team Contact=].
+	and its [=Council Staff Contact=].
 
 	<p id=45-day-update>
 	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being [=convened=],
