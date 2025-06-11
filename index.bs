@@ -2678,8 +2678,8 @@ Council Deliberations</h5>
 	after sufficient deliberation,
 	and with due consideration of each argument in the applicable [=Formal Objections=],
 	the [=W3C Council=] decides whether to
-	<dfn>confirm</dfn> or <dfn>overturn</dfn> the decision being objected to.
-	The [=W3C Council=] <em class=rfc2119>may</em> [=confirm=] the decision
+	<dfn>uphold</dfn> or <dfn>overturn</dfn> the decision being objected to.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=uphold=] the decision
 	even if it agrees with some of the arguments made as part of a [=Formal Objection=].
 
 	<p id=fo-mitigations>
@@ -2737,7 +2737,7 @@ Council Decision Report</h5>
 
 	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
 	which:
-	* <em class=rfc2119>must</em> state whether the Council [=confirms=] or [=overturns=] the decision being objected to.
+	* <em class=rfc2119>must</em> state whether the Council [=upholds=] or [=overturns=] the decision being objected to.
 	* <em class=rfc2119>must</em> provide a rationale supporting its conclusion,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
