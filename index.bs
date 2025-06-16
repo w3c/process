@@ -3623,6 +3623,7 @@ Maturity Stages on the Recommendation Track</h4>
 			However, <a href=#class-4>new features</a> can only be added
 			if the document already identifies itself
 			as intending to <dfn>allow new features</dfn>.
+			Adding or removing this allowance is a [=substantive change=].
 			Such an allowance cannot be added
 			to a [=technical report=] previously published as a [=Recommendation=]
 			that did not allow such changes;
@@ -4157,7 +4158,7 @@ Requirements for Transition</h5>
 	the [=Team=] <em class=rfc2119>must</em> verify
 	that it contains no changes since the previous [=Candidate Recommendation Snapshot=] other than:
 	* [=editorial changes=],
-		including the addition or removal of a statement as to whether the document will [=allow new features=]
+	* the addition or removal of a statement as to whether the document will [=allow new features=]
 		after its publication as a [=Recommendation=].
 	* dropping [=at risk=] features
 
