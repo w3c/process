@@ -2696,7 +2696,7 @@ Council Deliberations</h5>
 	(e.g., if the objection concerns material already in a published document)
 	the Council <em class=rfc2119>should</em> suggest how these consequences might be mitigated.
 	The [=Team=] is responsible for making sure that adequate mitigations are enacted in a timely fashion;
-	and the [=upheld=] aspects of the [=Formal Objection(s)=] are not considered <dfn>fully addressed</dfn> until then.
+	and the [=upheld=] aspects of the [=Formal Objection(s)=] (as identified in the [=Council Report=]) are not considered <dfn>fully addressed</dfn> until then.
 
 	Note: This does not create new powers for the [=Team=],
 	such as the ability to “unpublish” documents.
