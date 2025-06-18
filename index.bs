@@ -2678,18 +2678,25 @@ Council Deliberations</h5>
 	after sufficient deliberation,
 	and with due consideration of each argument in the applicable [=Formal Objections=],
 	the [=W3C Council=] decides whether to
-	<dfn>uphold</dfn> or <dfn>overturn</dfn> the decision being objected to.
-	The [=W3C Council=] <em class=rfc2119>may</em> [=uphold=] the decision
+	<dfn>affirm</dfn> or <dfn>overturn</dfn> the decision being objected to.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=affirm=] the decision
 	even if it agrees with some of the arguments made as part of a [=Formal Objection=].
+	When a decision is [=affirmed=],
+	all Formal Objections against it are said to be <dfn lt="overrule">overruled</dfn>.
+	Conversely,
+	aspects of Formal Objections that are found by the Council
+	to justify [=overturning=] a decision
+	are said to be <dfn>upheld</dfn>.
 
 	<p id=fo-mitigations>
 	When [=overturning=] a decision,
 	it <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
+	pertaining to [=upheld=] aspects of the Formal Objection(s)
 	(e.g., if the objection concerns material already in a published document)
 	the Council <em class=rfc2119>should</em> suggest how these consequences might be mitigated.
 	The [=Team=] is responsible for making sure that adequate mitigations are enacted in a timely fashion;
-	and the [=Formal Objection=] is not considered <dfn>fully addressed</dfn> until then.
+	and the [=upheld=] aspects of the [=Formal Objection(s)=] (as identified in the [=Council Report=]) are not considered <dfn>fully addressed</dfn> until then.
 
 	Note: This does not create new powers for the [=Team=],
 	such as the ability to “unpublish” documents.
@@ -2743,11 +2750,13 @@ Council Decision Report</h5>
 
 	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
 	which:
-	* <em class=rfc2119>must</em> state whether the Council [=upholds=] or [=overturns=] the decision being objected to.
+	* <em class=rfc2119>must</em> state whether the Council [=affirms=] or [=overturns=] the decision being objected to.
 	* <em class=rfc2119>must</em> provide a rationale supporting its conclusion,
 		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
 	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
-	* if the decision has been overturned, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
+	* if the decision has been [=overturned=],
+		<em class=rfc2119>must</em> identify which aspects of the Formal Objection(s) are being [=upheld=], and
+		<em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
 	* <em class=rfc2119>must</em> include the [=Minority Opinion(s)=], if any.
 	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
 	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final Council decision.
@@ -2853,7 +2862,7 @@ Determining the W3C Decision</h4>
 	</ul>
 
 	If the proposal has [=consensus=],
-	or if any [=Formal Objections=] are retracted or overruled
+	or if all [=Formal Objections=] are retracted or [=overruled=]
 	and the proposal otherwise has sufficient support to achieve [=consensus=],
 	this [=W3C Decision=] <em class=rfc2119>must</em> be one of:
 
@@ -2881,7 +2890,7 @@ Determining the W3C Decision</h4>
 	only if the revised proposal has [=consensus=]
 	of the subset of the [=AC=] that voted on the initial proposal
 	(including anyone who explicitly abstained),
-	or if any [=Formal Objections=] against the revised proposal are retracted or [=overruled=]
+	or if all [=Formal Objections=] against the revised proposal are retracted or [=overruled=]
 	and the revised proposal otherwise has sufficient support to achieve [=consensus=].
 	For clarity,
 	the [=Team=] <em class=rfc2119>should</em> seek a response from this subset of the [=AC=]
@@ -2893,9 +2902,9 @@ Determining the W3C Decision</h4>
 	is handled by the same [=Council=] responsible for [=Formal Objections=] raised against the initial proposal,
 	if any.
 
-	Note: Such a [=Council=] has the ability to
-	clear either the original or the revised proposal for advancement
-	by [=overruling=] all [=Formal Objections=] against the original or revised proposal,
+	Such a [=Council=] has the ability to [=affirm=]
+	either the original or the revised proposal for advancement,
+	thereby [=overruling=] all [=Formal Objections=] against the original or revised proposal,
 	respectively.
 
 	For publications which have conditions in addition to [=AC=] approval
@@ -3758,7 +3767,7 @@ Advancement on the Recommendation Track</h4>
 			[=Team=] verification (a [=Team decision=])
 			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections
-			(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
+			(including any aspect [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
 			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
 			If the [=Team=] rejects a [=Transition Request=]
 			it <em class=rfc2119>must</em> indicate its rationale
@@ -3832,7 +3841,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 				if any Process requirements are not met,
 			* <em class=rfc2119>may</em> be withheld
 				in consideration of unresolved Formal Objections
-				(including any [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
+				(including any aspect [=upheld=] by a [=Council=] but not yet [=fully addressed=]),
 			* <em class=rfc2119>may</em> be withheld
 				if the document does not adequately reflect
 				all relevant decisions of a [=W3C Council=] (or its delegates),
