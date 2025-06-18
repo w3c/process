@@ -2848,7 +2848,7 @@ Determining the W3C Decision</h4>
 	whether there were any [=Formal Objections=],
 	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the [=Formal Objections=].
 
-	If there were [=Formal Objections=], at least some of which were neither retracted nor [=overruled=],
+	If there were [=Formal Objections=], at least some of which were [=upheld=],
 	or if there is not [=consensus=] because of insufficient support,
 	[=W3C Decision=] <em class=rfc2119>must</em> be one of:
 
