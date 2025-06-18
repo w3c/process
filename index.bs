@@ -3632,6 +3632,7 @@ Maturity Stages on the Recommendation Track</h4>
 			However, <a href=#class-4>new features</a> can only be added
 			if the document already identifies itself
 			as intending to <dfn>allow new features</dfn>.
+			Adding or removing this allowance is a [=substantive change=].
 			Such an allowance cannot be added
 			to a [=technical report=] previously published as a [=Recommendation=]
 			that did not allow such changes;
@@ -4162,15 +4163,25 @@ Requirements for Transition</h5>
 	and <em class=rfc2119>must not</em> include any such marking
 	if not already present.
 
+	If the document's most recent publication is a [=Candidate Recommendation Draft=],
+	the [=Team=] <em class=rfc2119>must</em> verify
+	that it contains no changes since the previous [=Candidate Recommendation Snapshot=] other than:
+	* [=editorial changes=],
+	* the addition or removal of a statement as to whether the document will [=allow new features=]
+		after its publication as a [=Recommendation=].
+	* dropping [=at risk=] features
+
+	Otherwise, the [=Working Group=] <em class=rfc2119>must</em> republish it
+	as a [=Candidate Recommendation Snapshot=]
+	prior to initiating the review.
+
 <h5 id="initiating-rec-review">
 Initiating Review</h5>
 
 	If all the criteria above are fulfilled,
 	the [=Team=] <em class="rfc2119">must</em> begin an [=Advisory Committee Review=]
-	on the question of whether the identified [=Candidate Recommendation Snapshot=]
+	on the question of whether the identified [=Candidate Recommendation=]
 	is appropriate to [=publish=] as a [=W3C Recommendation=].
-	If the document's most recent publication is not a [=Candidate Recommendation Snapshot=],
-	then it <em class=rfc2119>must</em> be republished as such in order to provide a basis for review.
 	The deadline for [=Advisory Committee review=]
 	<em class="rfc2119">must</em> allow <strong>at least</strong> 28 days,
 	and <em class=rfc2119>must</em> end at least 10 days
