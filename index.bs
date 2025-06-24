@@ -3086,7 +3086,7 @@ Types of Technical Reports</h3>
 
 		<dt>Notes
 		<dd>
-			Groups can also publish documents as [=W3C Notes=] and [=W3C Statements=],
+			Groups can also publish documents as [=Group Notes=] and [=W3C Statements=],
 			typically either to document information
 			other than technical specifications,
 			such as use cases motivating a specification
