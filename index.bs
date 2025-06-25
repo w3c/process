@@ -467,7 +467,7 @@ Expectations and Discipline</h5>
 	such as failure to meet the requirements on individual behavior of
 	(a) this process
 	and in particular the Code of Conduct, or
-	(b) the membership agreement, or
+	(b) their membership agreement, or
 	(c) applicable laws,
 	occur.
 	Refer to the <a href="https://www.w3.org/guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
