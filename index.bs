@@ -5707,7 +5707,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
 
 				<li>
-					Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
+					Consolidate and harmonize into <a href="#no-group-maintenance">one section</a>
 					the various parts of the Process
 					that described whether and how the Team can maintain technical reports
 					that no longer have a Group chartered to maintain them.
