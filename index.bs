@@ -5647,7 +5647,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 	a <a href="https://github.com/w3c/process/compare/p2023_1...main">detailed log of all changes since then</a>
 	are available.
 
-	In addition to a number of editorial adjustments and minor teaks, the following is a summary of the main differences:
+	In addition to a number of editorial adjustments and minor tweaks, the following is a summary of the main differences:
 
 	<dl>
 		<dt id=changes-2025-tr>Changes to technical reports and their publication
