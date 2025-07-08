@@ -769,7 +769,7 @@ Participation in the Advisory Committee</h4>
 	As defined in the W3C Bylaws,
 	each W3C [=Member=] organization that is not a [=Member Association=] (known as a “<i>Consortium Member</i>” in the Bylaws)
 	has one “<i>Consortium Member Representative</i>” [[!BYLAWS]].
-	For the purposes of the W3C Process,
+	For purposes of the W3C Process,
 	this person also serves as the organization's [=Advisory Committee Representative=].
 	When a [=Member Association=] joins W3C,
 	it <em class=rfc2119>must</em> name its [=Advisory Committee representative=].
