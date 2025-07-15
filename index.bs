@@ -463,13 +463,12 @@ Expectations and Discipline</h5>
 	The [=CEO=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=])
-	if serious and/or repeated violations,
+	if serious and/or repeated violations occur,
 	such as failure to meet the requirements on individual behavior of
 	(a) this process
 	and in particular the Code of Conduct, or
 	(b) their membership agreement, or
-	(c) applicable laws,
-	occur.
+	(c) applicable laws.
 	Refer to the <a href="https://www.w3.org/guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
 
 <h5 id="coi">
