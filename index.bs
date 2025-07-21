@@ -2443,7 +2443,7 @@ Registering Formal Objections</h3>
 	A Call for Review to the Advisory Committee
 	<em class="rfc2119">must</em> identify any [=Formal Objections=]
 	related to that review.
-	This requirement is waived
+	These requirements are waived
 	if the [=Formal Objection=] is resolved to the satisfaction of the objector
 	before its <a href="#confidentiality-change">confidentiality is changed</a>.
 
