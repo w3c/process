@@ -3468,9 +3468,6 @@ The W3C Recommendation Track</h3>
 		<li>Publication as a [=W3C Recommendation=].
 	</ol>
 
-	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
-	is any document whose current status is one of the four in the numbered list above.
-
 	<figure>
 		<pre class=include-raw>
 			path: basic-rec-track.svg
@@ -3478,22 +3475,24 @@ The W3C Recommendation Track</h3>
 		<figcaption>Non-Normative Summary of the [=Recommendation Track=]</figcaption>
 	</figure>
 
-	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
-	Under the 2004 Patent Policy (and its 2017 update) [[!PATENT-POLICY-2004]],
-	these correspond to “Last Call Working Draft” in the Patent Policy;
-	Starting from the 2020 Patent Policy [[!PATENT-POLICY-2020]],
-	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY]].
-
-	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
-
+	Only sufficiently technically mature work should be advanced.
 	As described in [[#transition-reqs]],
 	the [=Team=] will decline a request to advance in maturity stage
 	and return the specification to a [=Working Group=] for further work
 	if it determines that the requirements for advancement
 	have not been met.
 
+	Note: Should faster advancement to meet scheduling considerations be desired,
+	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
+	less stable features to other technical reports.
+
+	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
+
 <h4 id="maturity-stages">
 Maturity Stages on the Recommendation Track</h4>
+
+	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
+	is any document whose current status is one of those described below.
 
 	<dl>
 		<dt>
@@ -3690,11 +3689,16 @@ Maturity Stages on the Recommendation Track</h4>
 
 	</dl>
 
-	Only sufficiently technically mature work should be advanced.
+	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
+	Under the 2004 Patent Policy (and its 2017 update) [[!PATENT-POLICY-2004]],
+	these correspond to “Last Call Working Draft” in the Patent Policy;
+	Starting from the 2020 Patent Policy [[!PATENT-POLICY-2020]],
+	these correspond to “Patent Review Draft” in the Patent Policy [[!PATENT-POLICY]].
 
-	Note: Should faster advancement to meet scheduling considerations be desired,
-	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
-	less stable features to other technical reports.
+	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> make available [=Editor's drafts=].
+	<dfn export lt="Editor's Draft | Editor Draft | ED">Editor's drafts</dfn> (<abbr>ED</abbr>) have no official standing whatsoever,
+	and do not necessarily imply consensus of a [=Working Group=] or [=Interest Group=],
+	nor are their contents endorsed in any way by W3C.
 
 	When publishing an updated version of an existing [=Candidate Recommendation=] or [=Recommendation=],
 	technical reports are expected to meet the same maturity criteria as when they are first published under that status.
@@ -3703,11 +3707,6 @@ Maturity Stages on the Recommendation Track</h4>
 	that would have been severe enough to reject that publication had they be known in time,
 	it is also permissible to publish an updated [=CR=] or [=REC=] following the usual process,
 	even if only some of these flaws have been satisfactorily addressed.
-
-	[=Working Groups=] and [=Interest Groups=] <em class="rfc2119">may</em> make available [=Editor's drafts=].
-	<dfn export lt="Editor's Draft | Editor Draft | ED">Editor's drafts</dfn> (<abbr>ED</abbr>) have no official standing whatsoever,
-	and do not necessarily imply consensus of a [=Working Group=] or [=Interest Group=],
-	nor are their contents endorsed in any way by W3C.
 
 <h4 id="implementation-experience">
 Implementation Experience</h4>
