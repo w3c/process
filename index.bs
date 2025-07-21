@@ -5130,7 +5130,7 @@ Confidentiality Levels</h3>
 
 		<li>
 			<em class="rfc2119">must not</em> release this information to the general public or press,
-			nor beyond the proper level of access.
+			nor beyond the designated level of access.
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
