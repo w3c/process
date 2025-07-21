@@ -1441,7 +1441,7 @@ Requirements for All Chartered Groups</h4>
 	(also known as <dfn export>Team Contact</dfn>),
 	who acts as the interface between the [=Chair=],
 	group participants,
-	and the rest of the Team.
+	and the rest of the [=Team=].
 	
 	Note: The <a href="https://www.w3.org/guide/teamcontact/role">role of the Staff Contact</a> [[TEAM-CONTACT]]
 	is described in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
