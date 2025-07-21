@@ -2035,7 +2035,7 @@ Minor Changes to Active Charters</h4>
 	is a major, not [=minor change|minor=], change.
 	The following are examples of [=minor changes=]:
 	the renaming or restructuring (e.g. splitting or combining) of existing in-scope deliverables,
-	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work
+	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work,
 	a change of [=Staff Contact=],
 	or a change of [=Chair=].
 	[=Minor changes=], other than a change of [=Staff Contact=],
