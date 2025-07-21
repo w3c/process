@@ -2689,7 +2689,7 @@ Council Deliberations</h5>
 
 	<p id=fo-mitigations>
 	When [=overturning=] a decision,
-	it <em class=rfc2199>should</em> recommend a way forward.
+	the [=Council=] <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	pertaining to [=upheld=] aspects of the Formal Objection(s)
 	(e.g., if the objection concerns material already in a published document)
