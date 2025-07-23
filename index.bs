@@ -29,7 +29,7 @@ Group: processcg
 Status: CG-DRAFT
 ED: https://www.w3.org/policies/process/drafts/
 TR: https://www.w3.org/policies/process/
-Previous Version: https://www.w3.org/policies/process/20231103/
+Previous Version: https://www.w3.org/policies/process/20250818/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
@@ -50,7 +50,7 @@ Abstract:
 	please refer to <a href="https://www.w3.org/about/">About W3C</a>.
 Status Text:
 	This document,
-	which is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>,
+	which is based on the <a href="https://www.w3.org/policies/process/20250818/">18 August 2025 Process</a>,
 	is a work in progress
 	and further changes may occur before completion of this revision cycle.
 	As detailed in <a href="https://www.w3.org/policies/process/#GAProcess">Section 11 Process Changes</a>,
@@ -5472,42 +5472,16 @@ Appendix B: Acknowledgments</h2>
 	The editors are grateful to the following people,
 	who as interested individuals and/or with the affiliation(s) listed,
 	have contributed to this proposal for a revised Process:
-	Adam Basha,
-	Anna Weinberg (Apple)
-	Charles McCathie Nevile,
-	Chris Lilley (W3C),
-	Chris Needham (BBC),
-	Chris Wilson (Google),
-	Coralie Mercier (W3C),
-	David W. Singer (Apple),
-	Denis Ah-Kang (W3C),
-	Dominique Hazael-Massieux (W3C),
-	Ian Jacobs (W3C),
-	Jeffrey Yasskin (Google),
-	Jill Schmidt (Apple),
-	Marcos Cáceres (Apple),
-	Mark Nottingham,
-	Martin Thomson (Mozilla),
-	Michael Champion,
-	Michael Sirtori (Intel),
-	Mike Smith (W3C),
-	Nick Doty (Center for Democracy and Technology),
-	Nigel Megitt (BBC),
-	Philippe Le Hégaret (W3C),
-	Sam Sneddon (Apple),
-	Shawn Lawton Henry (W3C),
-	Tantek Çelik (Mozilla),
-	Ted Thibodeau Jr (OpenLink Software),
-	Theresa O'Connor (Apple),
-	Vivien Lacourba (W3C).
+
+	<i>pending…</i>
 
 	<!--
 		* After publication merge the list above in the one below,
 		  and start it anew
 		* the following command can be helpful to find contributors since a particular version
-		(in this example, starting from the p2023_1 tag):
+		(in this example, starting from the p2025 tag):
 
-		git log  p2023_1.. | grep -i author | sed "s/^[^:]*: //" | sed "s/ <.*>//" | sort -u
+		git log  p2025.. | grep -i author | sed "s/^[^:]*: //" | sed "s/ <.*>//" | sort -u
 	-->
 
 	The editors are sorry for forgetting any names,
@@ -5515,10 +5489,12 @@ Appendix B: Acknowledgments</h2>
 	without feeling a need to add more.
 
 	The following individuals contributed to the development of earlier versions of the Process:
+	Adam Basha,
 	Alex Russell (Google),
 	Andreas Tai (Institut fuer Rundfunktechnik),
 	Andrew Betts (Fastly),
 	Ann Bassetti (The Boeing Company),
+	Anna Weinberg (Apple)
 	Anne van Kesteren,
 	Art Barstow (Nokia, unaffiliated),
 	Bede McCall (MITRE),
@@ -5527,7 +5503,7 @@ Appendix B: Acknowledgments</h2>
 	Brian Kardell (JQuery, Igalia),
 	Carine Bournez (W3C),
 	Carl Cargill (Netscape, Sun Microsystems, Adobe),
-	Charles McCathie Nevile (ConsenSys),
+	Charles McCathie Nevile,
 	Chris Lilley (W3C),
 	Chris Needham (BBC),
 	Chris Wilson (Google),
@@ -5540,9 +5516,10 @@ Appendix B: Acknowledgments</h2>
 	Daniel Glazman (Disruptive Innovations),
 	David Baron (Mozilla),
 	David Fallside (IBM),
-	David W. Singer (Apple),
 	David Singer (IBM),
+	David W. Singer (Apple),
 	Delfí Ramírez,
+	Denis Ah-Kang (W3C),
 	Dominique Hazaël-Massieux (W3C),
 	Don Brutzman (Web3D),
 	Don Deutsch (Oracle),
@@ -5566,6 +5543,7 @@ Appendix B: Acknowledgments</h2>
 	Jean-François Abramatic (IBM, ILOG, W3C),
 	Jeff Jaffe (W3C),
 	Jeffrey Yasskin (Google),
+	Jill Schmidt (Apple),
 	Jim Bell (HP),
 	Jim Miller (W3C),
 	Joe Hall (CDT),
@@ -5582,15 +5560,19 @@ Appendix B: Acknowledgments</h2>
 	Lauren Wood (unaffiliated),
 	Léonie Watson (The Paciello Group),
 	Liam Quin (W3C),
-	Marcos Cáceres (Mozilla),
+	Marcos Cáceres,
 	Maria Courtemanche (IBM),
 	Mark Crawford (SAP),
 	Mark Nottingham,
-	Michael Champion (Microsoft),
+	Martin Thomson (Mozilla),
+	Michael Champion,
 	Michael Geldblum (Oracle),
+	Michael Sirtori (Intel),
+	Mike Smith (W3C),
 	Mike West (Google),
 	Mitch Stoltz (EFF),
 	Natasha Rooney (GSMA),
+	Nick Doty (Center for Democracy and Technology),
 	Nigel Megitt (BBC),
 	Olle Olsson (SICS),
 	Ora Lassila (Nokia),
@@ -5612,20 +5594,22 @@ Appendix B: Acknowledgments</h2>
 	Sandro Hawke (W3C),
 	Sangwhan Moon (Odd Concepts),
 	Scott Peterson (Google),
-	Shawn Lawton Henry,
+	Shawn Lawton Henry (W3C),
 	Steve Holbrook (IBM),
 	Steve Zilles (Adobe Systems)
 	Steven Pemberton (CWI),
-	TV Raman (Google),
 	Tantek Çelik (Mozilla),
 	Ted Thibodeau Jr (OpenLink Software),
 	Terence Eden (Her Majesty's Government),
+	Theresa O'Connor (Apple),
 	Thomas Reardon (Microsoft),
 	Tim Berners-Lee (W3C),
 	Tim Krauskopf (Spyglass),
 	Travis Leithead (Microsoft),
+	TV Raman (Google),
 	Virginia Fournier (Apple),
 	Virginie Galindo (Gemalto),
+	Vivien Lacourba (W3C),
 	Wayne Carr (Intel),
 	Wendy Fong (Hewlett-Packard),
 	Wendy Seltzer (W3C),
@@ -5636,211 +5620,25 @@ Appendix C: Changes</h2>
 
 	<em>This section is non-normative.</em>
 
-<h3 id=changes-2025 class=no-num>
-Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a></h3>
+<h3 id=changes-since-2025 class=no-num>
+Changes since the <a href="https://www.w3.org/policies/process/20231103/">18 August 2025 Process</a></h3>
 
-	<p>This document is based on the <a href="https://www.w3.org/policies/process/20231103/">3 November 2023 Process</a>.
-	A <a href="https://github.com/w3c/process/issues?q=milestone%3A%22Process+2024%2F2025%22+is%3Aclosed">list of issues addressed</a>,
-	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2Fpolicies%2Fprocess%2Fdrafts%2F">diff from Process 2023 to this latest version</a>,
+	<p>This document is based on the <a href="https://www.w3.org/policies/process/20250818/">18 August 2025 Process</a>.
+	A <a href="https://github.com/w3c/process/issues?q=milestone%3A%22Process+Next%22+is%3Aclosed">list of issues addressed</a>,
+	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2Fpolicies%2Fprocess%2Fdrafts%2F">diff from that version of the Process to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/process/compare/p2023_1...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/process/compare/p2025...main">detailed log of all changes since then</a>
 	are available.
 
 	In addition to a number of editorial adjustments and minor tweaks, the following is a summary of the main differences:
 
-	<dl>
-		<dt id=changes-2025-tr>Changes to technical reports and their publication
-		<dd>
-			<ul>
-				<li>
-					<strong>
-					Retire the Proposed Recommendation phase of the Recommendation track.
-					</strong>
-					It was only used as a short-lived transition
-					during which various verifications and votes about CR were done.
-					These can be done on a CR
-					without having to republish it as a separate thing.
-					This simplifies the Process without changing the actual quality or consensus expectations.
-					(See <a href="https://github.com/w3c/process/issues/861">Issue 861</a>)
+	<i>None yet</i>
 
-				<li id="streamlined-update">
-					Retire “<a href="https://www.w3.org/policies/process/20231103/#streamlined-update">Streamlined Publication Approval</a>”.
-					This was meant to enable REC track publication with fewer/faster approval steps
-					when some stricter than usual criteria were fulfilled.
-					However, regular REC track publication have improved enough
-					that this became unnecessary,
-					and nobody was using it.
-					(See <a href="https://github.com/w3c/process/issues/856">Issue 856</a>)
-
-				<li>
-					Add a requirement to make progress on external issues for update requests
-					(See <a href="https://github.com/w3c/process/issues/781">Issue 781</a>)
-
-				<li>
-					Drop the requirement to publish every 6 months if nothing has changed.
-					(See <a href="https://github.com/w3c/process/issues/1013">Issue 1013</a>)
-
-				<li>
-					Enable Team to replace defunct registry custodians when no-one else can.
-					(See <a href="https://github.com/w3c/process/issues/699">Issue 699</a>)
-
-				<li>
-					Allow registries to be published by Interest Groups, the Advisory Board, and the TAG,
-					in addition to Working Groups.
-					(See <a href="https://github.com/w3c/process/issues/902">Issue 902</a>)
-
-				<li>
-					Rename “registry sections” to [=embedded registries=]
-					to avoid confusion over whether they can be split across multiple sections of a [=Recommendation=].
-					(See <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
-
-				<li>
-					Rename "Draft Note" into "Note Draft",
-					and "Draft Registry" into "Registry Draft"
-					to be consistent with other statuses that uses the word "Draft",
-					and to make that word stand out more.
-					(See <a href="https://github.com/w3c/process/issues/779">Issue 779</a>)
-
-				<li>
-					Clarify the definition of a Registry (see <a href="https://github.com/w3c/process/issues/800">Issue 800</a>)
-					and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
-
-				<li>
-					Consolidate and harmonize into <a href="#no-group-maintenance">one section</a>
-					the various parts of the Process
-					that described whether and how the Team can maintain technical reports
-					that no longer have a Group chartered to maintain them.
-					(See <a href="https://github.com/w3c/process/pull/860">Pull Request 860</a>)
-			</ul>
-
-		<dt id=changes-2025-charter>Changes to chartering
-		<dd>
-			<ul>
-				<li>
-					<strong>
-					Introduce a formal [=Charter Refinement=] phase prior to the [=AC Review=].
-					</strong>
-					(See <a href="https://github.com/w3c/process/issues/580">Issue 580</a>)
-
-				<li>
-					Be more specific about which types of changes to a charter must go through AC Review.
-					(See <a href="https://github.com/w3c/process/pull/1042">Pull Request 1042</a>)
-
-				<li>
-					Require Chairs to be listed in Charters.
-					(See <a href="https://github.com/w3c/process/issues/823">Issue 823</a>)
-
-				<li>
-					Reorganize and rephrase [[#CharterReview]] for readability and ease of understanding.
-					This change, while moderate in size, is purely editorial.
-					(See <a href="https://github.com/w3c/process/pull/850">Pull Request 850</a>)
-			</ul>
-
-		<dt id=changes-2025-decisions>Changes to formal decision making and escalation
-		<dd>
-			<ul>
-				<li>
-					Adjust the rules guiding initiation of Councils,
-					to make the deadline strict,
-					and to provide a fallback mechanism if they are not met.
-					(See <a href="https://github.com/w3c/process/pull/925">Pull Request 925</a>)
-
-				<li>
-					Make the Council's short-circuit a little more flexible.
-					(See <a href="https://github.com/w3c/process/issues/852">Issue 852</a>)
-
-				<li>
-					Exclude TAG/AB Members from voting on TAG/AB proposals in Councils.
-					(See <a href="https://github.com/w3c/process/issues/749">Issue 749</a>)
-
-				<li>
-					Limit the involvement of Tim Berners-Lee to the TAG proper,
-					not including the Council.
-					(See <a href="https://github.com/w3c/process/pull/792">Pull Request 792</a>)
-
-				<li>
-					Council dismissal vote counts must be reported.
-					(See <a href="https://github.com/w3c/process/issues/748">Issue 748</a>)
-
-				<li>
-					Require documentation of how Formal Objections get resolved.
-					(See <a href="https://github.com/w3c/process/issues/953">Issue 953</a>)
-
-				<li>
-					Put constraints on the timing of making Formal Objections public.
-					(See <a href="https://github.com/w3c/process/issues/735">Issue 735</a>)
-
-				<li>
-					Fine-tune the rules about
-					how changes can be incorporated into a proposal
-					following an AC Review.
-					(See <a href="https://github.com/w3c/process/issues/825">Issue 825</a>)
-
-				<li>
-					Adjust AC appeal vote threshold based on participation,
-					aligning with the thresholds and super majority requirements
-					for "Requisite Member Vote" from the W3C Bylaws.
-					(See <a href="https://github.com/w3c/process/issues/886">Issue 886</a>)
-
-				<li>
-					Let the originator of a proposal decide whether to try again
-					after addressing feedback
-					following an AC Appeal.
-					(See <a href="https://github.com/w3c/process/issues/844">Issue 844</a>)
-
-				<li>
-					Simplify provisions regarding substitute representatives and proxies.
-					(See <a href="https://github.com/w3c/process/issues/373">Issue 373</a>)
-			</ul>
-
-		<dt id=changes-other>Other changes
-		<dd>
-			<ul>
-				<li>
-					Reuse the bylaws’ notion of Good Standing,
-					and restrict TAG and AB elections
-					as well as AC Votes where a decision is made based on counting ballots
-					to Members in Good Standing.
-					(See <a href="https://github.com/w3c/process/issues/935">Issue 935</a>
-					and <a href="https://github.com/w3c/process/issues/954">Pull Request 954</a>)
-
-				<li>
-					The section on Member Submissions was significantly shortened and simplified,
-					reducing the complexity under formal Process authority,
-					and shifting much of the material to /Guide,
-					under Team authority.
-					(See <a href="https://github.com/w3c/process/issues/421">Issue 412</a>
-					and <a href="https://github.com/w3c/process/issues/936">Pull Request 936</a>)
-
-				<li>
-					Clarify how the outcome of certain ballots are determined.
-					(See <a href="https://github.com/w3c/process/issues/836">Issue 836</a>, <a href="https://github.com/w3c/process/pull/838">Issue 838</a>)
-
-				<li>
-					Stop citing the superseded TAG charter.
-					(See <a href="https://github.com/w3c/process/issues/794">Issue 794</a>)
-
-				<li>
-					Clarify amount of leeway around incomplete nominations to TAG or AB elections.
-					(See <a href="https://github.com/w3c/process/issues/464">Issue 464</a>)
-
-				<li>
-					Shift most of the non-normative discussion about Workshops to [[GUIDE]],
-					and reorganize the remaining normative requirements.
-					(See <a href="https://github.com/w3c/process/pull/876">Pull Request 876</a>)
-
-				<li>
-					The URL of this document was changed
-					from /Consortium/Process/ to /policies/process/
-					for better integration in the W3C website architecture.
-			</ul>
-
-
-<h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017">
+<h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017, changes-2025, changes-2025-tr, streamlined-update, changes-2025-charter, changes-2025-decisions, changes-other">
 Changes since earlier versions</h3>
 
 	Changes since earlier versions of the Process are detailed
-	in the <a href="https://www.w3.org/policies/process/20231103/#changes">changes section of the previous version</a>
+	in the <a href="https://www.w3.org/policies/process/20250818/#changes">changes section of the previous version</a>
 	of the Process.
 
 <pre class=biblio>
