@@ -463,13 +463,12 @@ Expectations and Discipline</h5>
 	The [=CEO=] <em class="rfc2119">may</em> take disciplinary action,
 	including suspending or removing for cause
 	a participant in any group (including the [=AB=] and [=TAG=])
-	if serious and/or repeated violations,
+	if serious and/or repeated violations occur,
 	such as failure to meet the requirements on individual behavior of
 	(a) this process
-	and in particular the Code of Conduct, or
-	(b) the membership agreement, or
-	(c) applicable laws,
-	occur.
+	and in particular the Code of Conduct,
+	(b) their membership agreement, or
+	(c) applicable laws.
 	Refer to the <a href="https://www.w3.org/guide/process/suspension">Guidelines to suspend or remove participants from groups</a>.
 
 <h5 id="coi">
@@ -1442,7 +1441,7 @@ Requirements for All Chartered Groups</h4>
 	(also known as <dfn export>Team Contact</dfn>),
 	who acts as the interface between the [=Chair=],
 	group participants,
-	and the rest of the Team.
+	and the rest of the [=Team=].
 	
 	Note: The <a href="https://www.w3.org/guide/teamcontact/role">role of the Staff Contact</a> [[TEAM-CONTACT]]
 	is described in the <a href="https://www.w3.org/guide/">Art of Consensus</a> [[GUIDE]].
@@ -2036,7 +2035,7 @@ Minor Changes to Active Charters</h4>
 	is a major, not [=minor change|minor=], change.
 	The following are examples of [=minor changes=]:
 	the renaming or restructuring (e.g. splitting or combining) of existing in-scope deliverables,
-	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work
+	the addition of new [[#note-track|Note track]] deliverables that help explain the group’s work,
 	a change of [=Staff Contact=],
 	or a change of [=Chair=].
 	[=Minor changes=], other than a change of [=Staff Contact=],
@@ -2444,7 +2443,7 @@ Registering Formal Objections</h3>
 	A Call for Review to the Advisory Committee
 	<em class="rfc2119">must</em> identify any [=Formal Objections=]
 	related to that review.
-	This requirement is waived
+	These requirements are waived
 	if the [=Formal Objection=] is resolved to the satisfaction of the objector
 	before its <a href="#confidentiality-change">confidentiality is changed</a>.
 
@@ -2690,7 +2689,7 @@ Council Deliberations</h5>
 
 	<p id=fo-mitigations>
 	When [=overturning=] a decision,
-	it <em class=rfc2199>should</em> recommend a way forward.
+	the [=Council=] <em class=rfc2199>should</em> recommend a way forward.
 	If the overturned decision has already had consequences
 	pertaining to [=upheld=] aspects of the Formal Objection(s)
 	(e.g., if the objection concerns material already in a published document)
@@ -5131,7 +5130,7 @@ Confidentiality Levels</h3>
 
 		<li>
 			<em class="rfc2119">must not</em> release this information to the general public or press,
-			nor beyond the proper level of access.
+			nor beyond the designated level of access.
 	</ul>
 
 	The [=Team=] <em class="rfc2119">must</em> provide mechanisms
@@ -5707,7 +5706,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">3 Nove
 					and of Recommendation Track Documents (see <a href="https://github.com/w3c/process/pull/831">Pull Request 831</a>).
 
 				<li>
-					Consolidate and harmonize into a <a href="#no-group-maintenance">one section</a>
+					Consolidate and harmonize into <a href="#no-group-maintenance">one section</a>
 					the various parts of the Process
 					that described whether and how the Team can maintain technical reports
 					that no longer have a Group chartered to maintain them.
