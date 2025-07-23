@@ -3492,7 +3492,7 @@ The W3C Recommendation Track</h3>
 Maturity Stages on the Recommendation Track</h4>
 
 	A <dfn export lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document">W3C Recommendation Track document</dfn>
-	is any document whose current status is one of those described below.
+	is any document whose current status is one of those described in this section.
 
 	<dl>
 		<dt>
