@@ -8,7 +8,7 @@
   <meta content="Bikeshed version 7a96e07ec, updated Mon Jul 14 11:12:36 2025 -0700" name="generator">
   <link href="https://www.w3.org/policies/process/" rel="canonical">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="bc8775ebd483cf2b36ac2c078d4994bd15eb7c5f" name="revision">
+  <meta content="d4a28c0142a70117c5d6c01497c582663e33dfcd" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
@@ -4271,7 +4271,7 @@ The W3C Recommendation Track</span><a class="self-link" href="#rec-track"></a></
 	the Advisory Committee reviews the mature technical report,
 	and if there is support from its Membership,
 	W3C publishes it as a <a href="#RecsW3C" id="ref-for-RecsW3C⑦⑥">Recommendation</a>.</p>
-    <p>In summary, the <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track" data-noexport id="w3c-recommendation-track">W3C Recommendation Track</dfn> consists of:</p>
+    <p>In summary, the main steps of <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="W3C Recommendation Track | REC Track | Recommendation Track | Recommendation-track" data-noexport id="w3c-recommendation-track">W3C Recommendation Track</dfn> are:</p>
     <ol>
      <li>Publication of the <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd①">First Public Working Draft</a>.
 		
@@ -4282,8 +4282,6 @@ The W3C Recommendation Track</span><a class="self-link" href="#rec-track"></a></
      <li>Publication as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑨">W3C Recommendation</a>.
 	
     </ol>
-    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document" id="w3c-recommendation-track-document">W3C Recommendation Track document</dfn>
-	is any document whose current status is one of the four in the numbered list above.</p>
     <figure>
      <svg viewBox="-5 30 457 175" width="100%" xmlns="http://www.w3.org/2000/svg">
       <title>Basic W3C Recommendation Track</title>
@@ -4502,19 +4500,20 @@ The W3C Recommendation Track</span><a class="self-link" href="#rec-track"></a></
      </svg>
      <figcaption>Non-Normative Summary of the <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track⑦">Recommendation Track</a></figcaption>
     </figure>
-    <p>This Process defines certain <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track⑧">Recommendation Track</a> publications as <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="patent-review-drafts">Patent Review Drafts</dfn>.
-	Under the 2004 Patent Policy (and its 2017 update) <a data-link-type="biblio" href="#biblio-patent-policy-2004" title="The W3C 2004 Patent Policy, Updated 2017">[PATENT-POLICY-2004]</a>,
-	these correspond to “Last Call Working Draft” in the Patent Policy;
-	Starting from the 2020 Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy-2020" title="The W3C 2020 Patent Policy">[PATENT-POLICY-2020]</a>,
-	these correspond to “Patent Review Draft” in the Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy" title="The W3C Patent Policy">[PATENT-POLICY]</a>.</p>
-    <p>W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.</p>
-    <p>As described in <a href="#transition-reqs">§ 6.3.3 Advancement on the Recommendation Track</a>,
+    <p>Only sufficiently technically mature work should be advanced.
+	As described in <a href="#transition-reqs">§ 6.3.3 Advancement on the Recommendation Track</a>,
 	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨④">Team</a> will decline a request to advance in maturity stage
 	and return the specification to a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③②">Working Group</a> for further work
 	if it determines that the requirements for advancement
 	have not been met.</p>
+    <p class="note" role="note"><span class="marker">Note:</span> Should faster advancement to meet scheduling considerations be desired,
+	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
+	less stable features to other technical reports.</p>
+    <p>W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.</p>
     <h4 class="heading settled" data-level="6.3.1" id="maturity-stages"><span class="secno">6.3.1. </span><span class="content">
 Maturity Stages on the Recommendation Track</span><a class="self-link" href="#maturity-stages"></a></h4>
+    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="W3C Recommendation Track document | REC Track document | Recommendation Track document | Recommendation-track document" id="w3c-recommendation-track-document">W3C Recommendation Track document</dfn>
+	is any document whose current status is one of those described in this section.</p>
     <dl>
      <dt>
 			<dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="W3C Working Draft | Working Draft | WD" id="RecsWD">Working Draft</dfn> (<abbr>WD</abbr>)
@@ -4728,10 +4727,15 @@ Maturity Stages on the Recommendation Track</span><a class="self-link" href="#ma
 
 	
     </dl>
-    <p>Only sufficiently technically mature work should be advanced.</p>
-    <p class="note" role="note"><span class="marker">Note:</span> Should faster advancement to meet scheduling considerations be desired,
-	this can be achieved by reducing the scope of the technical report to a subset that is adequately mature and deferring
-	less stable features to other technical reports.</p>
+    <p>This Process defines certain <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track⑧">Recommendation Track</a> publications as <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="patent-review-drafts">Patent Review Drafts</dfn>.
+	Under the 2004 Patent Policy (and its 2017 update) <a data-link-type="biblio" href="#biblio-patent-policy-2004" title="The W3C 2004 Patent Policy, Updated 2017">[PATENT-POLICY-2004]</a>,
+	these correspond to “Last Call Working Draft” in the Patent Policy;
+	Starting from the 2020 Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy-2020" title="The W3C 2020 Patent Policy">[PATENT-POLICY-2020]</a>,
+	these correspond to “Patent Review Draft” in the Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy" title="The W3C Patent Policy">[PATENT-POLICY]</a>.</p>
+    <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑤">Working Groups</a> and <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①⓪">Interest Groups</a> <em class="rfc2119">may</em> make available <a data-link-type="dfn" href="#editors-draft" id="ref-for-editors-draft">Editor’s drafts</a>.
+	<dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Editor&apos;s Draft | Editor Draft | ED" id="editors-draft">Editor’s drafts</dfn> (<abbr>ED</abbr>) have no official standing whatsoever,
+	and do not necessarily imply consensus of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑥">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①①">Interest Group</a>,
+	nor are their contents endorsed in any way by W3C.</p>
     <p>When publishing an updated version of an existing <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR①①">Candidate Recommendation</a> or <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②②">Recommendation</a>,
 	technical reports are expected to meet the same maturity criteria as when they are first published under that status.
 	However, in the interest of replacing stale documents with improved ones in a timely manner,
@@ -4739,10 +4743,6 @@ Maturity Stages on the Recommendation Track</span><a class="self-link" href="#ma
 	that would have been severe enough to reject that publication had they be known in time,
 	it is also permissible to publish an updated <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR①③">CR</a> or <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②④">REC</a> following the usual process,
 	even if only some of these flaws have been satisfactorily addressed.</p>
-    <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑤">Working Groups</a> and <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①⓪">Interest Groups</a> <em class="rfc2119">may</em> make available <a data-link-type="dfn" href="#editors-draft" id="ref-for-editors-draft">Editor’s drafts</a>.
-	<dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="Editor&apos;s Draft | Editor Draft | ED" id="editors-draft">Editor’s drafts</dfn> (<abbr>ED</abbr>) have no official standing whatsoever,
-	and do not necessarily imply consensus of a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑥">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①①">Interest Group</a>,
-	nor are their contents endorsed in any way by W3C.</p>
     <h4 class="heading settled" data-level="6.3.2" id="implementation-experience"><span class="secno">6.3.2. </span><span class="content">
 Implementation Experience</span><a class="self-link" href="#implementation-experience"></a></h4>
     <p>Implementation experience is required to show that a specification is sufficiently clear,
@@ -7071,7 +7071,7 @@ Changes since earlier versions</span><a class="self-link" href="#changes-previou
    <li><a href="#igparticipant">participants in an Interest Group</a><span>, in § 3.4.2</span>
    <li><a href="#wgparticipant">participants in a Working Group</a><span>, in § 3.4.2</span>
    <li><a href="#inv-expert-info">participate in a Working Group as an Invited Expert</a><span>, in § 3.4.3.3</span>
-   <li><a href="#patent-review-drafts">Patent Review Drafts</a><span>, in § 6.3</span>
+   <li><a href="#patent-review-drafts">Patent Review Drafts</a><span>, in § 6.3.1</span>
    <li><a href="#primary-affiliation">primary affiliation</a><span>, in § 3.3.3.3</span>
    <li><a href="#proposed-additions">proposed additions</a><span>, in § 6.3.10.4</span>
    <li><a href="#proposed-amendments">proposed amendments</a><span>, in § 6.3.10.4</span>
@@ -7083,10 +7083,10 @@ Changes since earlier versions</span><a class="self-link" href="#changes-previou
    <li><a href="#RecsW3C">Recommendation</a><span>, in § 6.3.1</span>
    <li><a href="#w3c-recommendation-track">Recommendation Track</a><span>, in § 6.3</span>
    <li><a href="#w3c-recommendation-track">Recommendation-track</a><span>, in § 6.3</span>
-   <li><a href="#w3c-recommendation-track-document">Recommendation Track document</a><span>, in § 6.3</span>
-   <li><a href="#w3c-recommendation-track-document">Recommendation-track document</a><span>, in § 6.3</span>
+   <li><a href="#w3c-recommendation-track-document">Recommendation Track document</a><span>, in § 6.3.1</span>
+   <li><a href="#w3c-recommendation-track-document">Recommendation-track document</a><span>, in § 6.3.1</span>
    <li><a href="#w3c-recommendation-track">REC Track</a><span>, in § 6.3</span>
-   <li><a href="#w3c-recommendation-track-document">REC Track document</a><span>, in § 6.3</span>
+   <li><a href="#w3c-recommendation-track-document">REC Track document</a><span>, in § 6.3.1</span>
    <li><a href="#registry">registry</a><span>, in § 6.5</span>
    <li><a href="#registry-change">registry change</a><span>, in § 6.2.3</span>
    <li><a href="#registry-data">registry data</a><span>, in § 6.5</span>
@@ -7142,7 +7142,7 @@ Changes since earlier versions</span><a class="self-link" href="#changes-previou
    <li><a href="#w3c-member">W3C Member</a><span>, in § 2.1</span>
    <li><a href="#RecsW3C">W3C Recommendation</a><span>, in § 6.3.1</span>
    <li><a href="#w3c-recommendation-track">W3C Recommendation Track</a><span>, in § 6.3</span>
-   <li><a href="#w3c-recommendation-track-document">W3C Recommendation Track document</a><span>, in § 6.3</span>
+   <li><a href="#w3c-recommendation-track-document">W3C Recommendation Track document</a><span>, in § 6.3.1</span>
    <li><a href="#w3c-registry">W3C Registry</a><span>, in § 6.5.2</span>
    <li><a href="#statement">W3C Statement</a><span>, in § 6.4.3</span>
    <li><a href="#team">W3C Team</a><span>, in § 2.2</span>
@@ -7608,7 +7608,7 @@ let dfnPanelData = {
 "w3c-council-chair": {"dfnID":"w3c-council-chair","dfnText":"Chair","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-council-chair"}],"title":"5.6.2.1. \nCouncil Composition"},{"refs":[{"id":"ref-for-w3c-council-chair\u2460"}],"title":"5.6.2.4. \nShort Circuit"},{"refs":[{"id":"ref-for-w3c-council-chair\u2461"},{"id":"ref-for-w3c-council-chair\u2462"}],"title":"5.6.2.6. \nConvening the Council"},{"refs":[{"id":"ref-for-w3c-council-chair\u2463"},{"id":"ref-for-w3c-council-chair\u2464"},{"id":"ref-for-w3c-council-chair\u2465"},{"id":"ref-for-w3c-council-chair\u2466"}],"title":"5.6.2.7. \nCouncil Deliberations"}],"url":"#w3c-council-chair"},
 "w3c-group": {"dfnID":"w3c-group","dfnText":"W3C Group","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-group"}],"title":"3.1.2. \nMeetings"},{"refs":[{"id":"ref-for-w3c-group\u2460"}],"title":"3.1.3. \nTooling and Archiving for Discussions and Publications"},{"refs":[{"id":"ref-for-w3c-group\u2461"}],"title":"4.1. \nInitiating Charter Refinement"},{"refs":[{"id":"ref-for-w3c-group\u2462"},{"id":"ref-for-w3c-group\u2463"}],"title":"5.7.2. \nDetermining the W3C Decision"}],"url":"#w3c-group"},
 "w3c-member": {"dfnID":"w3c-member","dfnText":"W3C Members","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-member"}],"title":"2.1.3. \nGood Standing"},{"refs":[{"id":"ref-for-w3c-member\u2460"}],"title":"3.2.1. \nRole of the Advisory Committee"},{"refs":[{"id":"ref-for-w3c-member\u2461"},{"id":"ref-for-w3c-member\u2462"}],"title":"4.1. \nInitiating Charter Refinement"},{"refs":[{"id":"ref-for-w3c-member\u2463"}],"title":"5.9. \nAppeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-w3c-member\u2464"}],"title":"6.3.12.4. \nProcess for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-w3c-member\u2465"}],"title":"8. \nLiaisons"},{"refs":[{"id":"ref-for-w3c-member\u2466"}],"title":"9. \nMember Submissions"}],"url":"#w3c-member"},
-"w3c-recommendation-track": {"dfnID":"w3c-recommendation-track","dfnText":"W3C Recommendation Track","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-recommendation-track"}],"title":"4.4.2. \nMinor Changes to Active Charters"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460"},{"id":"ref-for-w3c-recommendation-track\u2461"},{"id":"ref-for-w3c-recommendation-track\u2462"}],"title":"6.1. \nTypes of Technical Reports"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2463"},{"id":"ref-for-w3c-recommendation-track\u2464"}],"title":"6.2.3. \nClasses of Changes"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2465"}],"title":"6.2.5. \nCandidate Amendments"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2466"},{"id":"ref-for-w3c-recommendation-track\u2467"}],"title":"6.3. \nThe W3C Recommendation Track"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2468"}],"title":"6.3.11. \nRegression on the Recommendation Track"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u24ea"}],"title":"6.3.12.1. \nAbandoning an Unfinished Recommendation"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2460"}],"title":"6.4.3. \nElevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2461"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2462"}],"title":"6.5.6. \nRegistries and Patents"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2463"},{"id":"ref-for-w3c-recommendation-track\u2460\u2464"},{"id":"ref-for-w3c-recommendation-track\u2460\u2465"}],"title":"6.6. \nSwitching Tracks"}],"url":"#w3c-recommendation-track"},
+"w3c-recommendation-track": {"dfnID":"w3c-recommendation-track","dfnText":"W3C Recommendation Track","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-recommendation-track"}],"title":"4.4.2. \nMinor Changes to Active Charters"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460"},{"id":"ref-for-w3c-recommendation-track\u2461"},{"id":"ref-for-w3c-recommendation-track\u2462"}],"title":"6.1. \nTypes of Technical Reports"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2463"},{"id":"ref-for-w3c-recommendation-track\u2464"}],"title":"6.2.3. \nClasses of Changes"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2465"}],"title":"6.2.5. \nCandidate Amendments"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2466"}],"title":"6.3. \nThe W3C Recommendation Track"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2467"}],"title":"6.3.1. \nMaturity Stages on the Recommendation Track"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2468"}],"title":"6.3.11. \nRegression on the Recommendation Track"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u24ea"}],"title":"6.3.12.1. \nAbandoning an Unfinished Recommendation"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2460"}],"title":"6.4.3. \nElevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2461"}],"title":"6.5.2. \nPublishing Registries"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2462"}],"title":"6.5.6. \nRegistries and Patents"},{"refs":[{"id":"ref-for-w3c-recommendation-track\u2460\u2463"},{"id":"ref-for-w3c-recommendation-track\u2460\u2464"},{"id":"ref-for-w3c-recommendation-track\u2460\u2465"}],"title":"6.6. \nSwitching Tracks"}],"url":"#w3c-recommendation-track"},
 "w3c-recommendation-track-document": {"dfnID":"w3c-recommendation-track-document","dfnText":"W3C Recommendation Track document","external":false,"refSections":[],"url":"#w3c-recommendation-track-document"},
 "w3c-registry": {"dfnID":"w3c-registry","dfnText":"W3C Registry","external":false,"refSections":[{"refs":[{"id":"ref-for-w3c-registry"}],"title":"6.2.6. \nMaintenance Without a Group"},{"refs":[{"id":"ref-for-w3c-registry\u2460"}],"title":"6.5.2. \nPublishing Registries"}],"url":"#w3c-registry"},
 "wgparticipant": {"dfnID":"wgparticipant","dfnText":"participants in a Working Group","external":false,"refSections":[{"refs":[{"id":"ref-for-wgparticipant"}],"title":"3. \nGroups and Participation"},{"refs":[{"id":"ref-for-wgparticipant"}],"title":"4.4.2. \nMinor Changes to Active Charters"}],"url":"#wgparticipant"},
