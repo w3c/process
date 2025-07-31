@@ -60,6 +60,7 @@ Issue Tracking: Github (preferred) https://github.com/w3c/process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
 Boilerplate: repository-issue-tracking off
+Boilerplate: omit conformance
 Complain About: accidental-2119 yes
 </pre>
 
