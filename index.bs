@@ -873,7 +873,7 @@ Advisory Board (AB)</h4>
 Role of the Advisory Board</h5>
 
 	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn>
-	is elected by the Membership to advance the effectiveness of W3C as a community by:
+	is elected by the Membership to advance the effectiveness of W3C as a standards development organization (<abbr title="standards development organization">SDO</abbr>) by:
 
 	<ul>
 	<li>Providing ongoing guidance to the Team
