@@ -1881,7 +1881,7 @@ Content of a Charter</h3>
 		<li>
 			Any dependencies of this group on other groups within or outside of W3C.
 			Such dependencies include interactions with
-			<a href="https://www.w3.org/guide/process/charter#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]].
+			<a href="https://www.w3.org/guide/process/horizontal-groups">W3C Horizontal Groups</a> [[HR-GROUPS]].
 
 		<li>
 			The <a href="#confidentiality-levels">level of confidentiality</a>
@@ -3214,7 +3214,7 @@ Wide Review</h5>
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
-	especially <a href="https://www.w3.org/guide/process/charter#horizontal-review">W3C Horizontal Groups</a> [[CHARTER]]
+	especially <a href="https://www.w3.org/guide/process/horizontal-groups">W3C Horizontal Groups</a> [[HR-GROUPS]]
 	and groups identified as dependencies in the charter
 	or identified as <a href="https://www.w3.org/liaisons/">liaisons</a> [[LIAISON]],
 	and seek evidence of clear communication to the general public
@@ -5817,6 +5817,11 @@ Changes since earlier versions</h3>
 	"CHARTER": {
 		"href": "https://www.w3.org/guide/process/charter",
 		"title": "How to Create a Working Group or Interest Group",
+		"publisher": "W3C"
+	},
+	"HR-GROUPS": {
+		"href": "https://www.w3.org/guide/process/horizontal-groups",
+		"title": "Horizontal Groups",
 		"publisher": "W3C"
 	},
 	"TRANSITION": {
