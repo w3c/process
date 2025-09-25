@@ -1358,7 +1358,7 @@ Removing AB or TAG members</h5>
 	remove a participant of the [=AB=] or [=TAG=]
 	with the approval of the Board of Directors.
 
-        
+
 <h5 id="AB-TAG-recall">
 AC Recall of AB or TAG</h5>
 
