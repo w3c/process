@@ -1340,8 +1340,12 @@ Removing AB or TAG members</h5>
 	Individual participants of the [=Advisory Board=] or the [=Technical Architecture Group=]
 	can be <dfn export lt="remove|removal">removed</dfn> from those groups
 	if they are found by their peers
-	to be grossly neglecting their duties,
-	or to be acting in a way that seriously hampers the group's ability to function.
+	to be grossly neglecting their duties
+	or acting in a way that seriously hampers the group's ability to function;
+	or if they are materially violating policies or other standards of behavior
+	(such as applicable laws or the <a href="https://www.w3.org/policies/code-of-conduct/#Reporting">Code of Conduct</a>),
+	or acting in a way that significantly impacts the safety or integrity
+	of W3C or its community.
 	Removal <em class=rfc2119>should</em> be a last resort,
 	after reasonable attempts at remediation have failed.
 
