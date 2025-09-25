@@ -1331,9 +1331,9 @@ Removing AB or TAG members</h5>
 	if they are found by their peers
 	to be grossly neglecting their duties
 	or acting in a way that seriously hampers the group's ability to function;
-	or if they are violating policies or other standards of behavior
-	(such as applicable laws or the <a href="https://www.w3.org/policies/code-of-conduct/#Reporting">Code of Conduct</a>)
-	in a way that significantly impacts the safety or integrity
+	or if they are materially violating policies or other standards of behavior
+	(such as applicable laws or the <a href="https://www.w3.org/policies/code-of-conduct/#Reporting">Code of Conduct</a>),
+	or acting in a way that significantly impacts the safety or integrity
 	of W3C or its community.
 
 	The [=AB=] or [=TAG=] <em class=rfc2119>must</em> hold a hearing
