@@ -767,7 +767,7 @@ Participation in the Advisory Committee</h4>
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	As defined in the W3C Bylaws,
-	each W3C [=Member=] organization that is not a [=Member Association=] (known as a “<i>Consortium Member</i>” in the Bylaws)
+	each “<i>Consortium Member</i>” (that is, each W3C [=Member=] organization that is not a [=Member Association=])
 	has one “<i>Consortium Member Representative</i>” [[!BYLAWS]].
 	For purposes of the W3C Process,
 	this person also serves as the organization's [=Advisory Committee Representative=].
