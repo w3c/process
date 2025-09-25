@@ -1381,7 +1381,7 @@ Elected Groups Vacated Seats</h5>
 			the participant resigns, or
 
 		<li>
-			the participant is [=removed=] or [=recalled=], oor
+			the participant is [=removed=] or [=recalled=], or
 
 		<li>
 			an Advisory Board or TAG participant changes affiliations
