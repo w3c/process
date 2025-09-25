@@ -1336,7 +1336,7 @@ Removing AB or TAG members</h5>
 	The [=AB=] or [=TAG=] <em class=rfc2119>must</em> hold a hearing
 	on the potential [=removal=] of a participant
 	if requested by at least three of the participants in the group
-	or if requested by a [=Team decision=]
+	or if requested by the [=Team=]
 	(which must provide rationale for such [[#discipline|disciplinary action]]).
 	After giving the individual in question
 	an opportunity to defend themselves,
