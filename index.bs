@@ -5472,6 +5472,7 @@ Appendix B: Acknowledgments</h2>
 	who as interested individuals and/or with the affiliation(s) listed,
 	have contributed to this proposal for a revised Process:
 
+	Jeffrey Yasskin (Google),
 	Ted Thibodeau Jr (OpenLink Software).
 
 	<!--
@@ -5636,6 +5637,9 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">18 Aug
 			when several people share an affiliation
 			to handle more than 2.
 			(See <a href="https://github.com/w3c/process/issues/1018">Issue 1018</a>)
+
+		<li>Clarify timing of guidance as when to run (or not) an election for vacated seats.
+			(See <a href="https://github.com/w3c/process/pull/1038">Pull Request 1038</a>)
 	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017, changes-2025, changes-2025-tr, streamlined-update, changes-2025-charter, changes-2025-decisions, changes-other">
