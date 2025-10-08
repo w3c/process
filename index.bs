@@ -2721,9 +2721,8 @@ Council Deliberations</h5>
 	then members of that group at the time the decision or proposal was made
 	must abstain in such a vote.
 	In case of a vote,
-	if two members of a Council who share the same affiliation cast an identical ballot,
-	then their ballots count as a one vote,
-	not two.
+	if multiple members of a Council who share the same affiliation cast identical ballots,
+	then these identical ballots count as a single vote.
 
 	In the case of non-unanimous decisions,
 	members of a [=W3C Council=] who disagree with the Council's decision
