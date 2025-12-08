@@ -3427,9 +3427,9 @@ Maintenance Without a Group</h4>
 <h4 id="contributor-license">
 License Grants from Non-Participants</h4>
 
-	When a party who is not already obligated under the Patent Policy
-	offers a change in class 3 or 4
+	When a proposal for a change in class 3 or 4
 	(as described in [[#correction-classes]]) to a technical report under this process
+	originates from or contains substantive contributions by a party not already obligated under the patent Policy,
 	the [=Team=] <em class=rfc2119>must</em> request
 	a recorded royalty-free patent commitment;
 	for a change in class 4, the Team <em class=rfc2119>must</em> <em>secure</em> such commitment.
