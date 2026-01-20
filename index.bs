@@ -873,26 +873,25 @@ Advisory Board (AB)</h4>
 Role of the Advisory Board</h5>
 
 	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn>
-	is elected by the Membership to advance the effectiveness of W3C as a standards development organization (<abbr title="standards development organization">SDO</abbr>) by:
+	is elected by the Membership to advance the effectiveness of W3C as a standards development organization (<abbr title="standards development organization">SDO</abbr>). The Advisory Board:
 
 	<ul>
-	<li>Providing ongoing guidance to the Team
+	<li>Provides ongoing guidance to the Team
 	on issues of strategy,
 	management,
 	legal matters,
 	process,
 	community engagement,
 	and conflict resolution.
-	<li>Serving the Members
+	<li>Serves the Members
 	by tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
-	<li>Managing the <a href="#GAProcess">evolution of the Process Document</a>.
+	<li>Owns the <a href="#GAProcess">Process Document</a>, which includes considering proposals, approving changes, and publishing new versions.
 	</ul>
 
 	The [=Advisory Board=] is distinct from the [=Board of Directors=]
-	and has no decision-making authority over W3C;
-	its role is strictly advisory.
+	and has no decision-making authority over W3C.
 	However, as part of a [=W3C Council=],
 	members of the [=Advisory Board=] hear and adjudicate [=Submission Appeals=]
 	and [=Formal Objections=].
