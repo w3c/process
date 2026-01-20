@@ -767,12 +767,13 @@ Participation in the Advisory Committee</h4>
 	of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
 
 	As defined in the W3C Bylaws,
-	each “<i>Consortium Member</i>” (that is, each W3C [=Member=] organization that is not a [=Member Association=])
+	each “<i>Consortium Member</i>”
 	has one “<i>Consortium Member Representative</i>” [[!BYLAWS]].
 	For purposes of the W3C Process,
 	this person also serves as the organization's [=Advisory Committee Representative=].
-	When a [=Member Association=] joins W3C,
-	it <em class=rfc2119>must</em> name its [=Advisory Committee representative=].
+	When a [=Member=] does not qualify as a “<i>Consortium Member</i>”,
+	it <em class=rfc2119>must</em> name its [=Advisory Committee representative=]
+	upon joining W3C.
 	The <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]]
 	explains how to subscribe or unsubscribe to Advisory Committee mailing lists,
 	provides information about <a href="#ACMeetings">Advisory Committee Meetings</a>,
