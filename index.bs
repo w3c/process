@@ -889,7 +889,8 @@ Role of the Advisory Board</h5>
 	to resolve these issues.
 	<li>Takes part in [=W3C Councils=] to hear and adjudicate
 	[=Submission Appeals=] and [=Formal Objections=].
-	<li>Owns the <a href="#GAProcess">Process Document</a>, which includes considering proposals, approving changes, and publishing new versions.
+	<li>Owns the <a href="#GAProcess">Process Document</a>, which includes
+	considering proposals, approving changes, and publishing new versions.
 	</ul>
 
 
