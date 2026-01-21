@@ -883,12 +883,12 @@ Role of the Advisory Board</h5>
 	<ul>
 	<li>Provides ongoing guidance to the Team and the [=Board of Directors=]
 	on issues of strategy, management, legal matters, process, community
-	engagement, and conflict resolution.
+	engagement, and conflict resolution;
 	<li>Serves the Members by tracking issues raised between Advisory Committee
 	meetings, soliciting Member comments on such issues, and proposing actions
-	to resolve these issues.
+	to resolve these issues;
 	<li>Takes part in [=W3C Councils=] to hear and adjudicate
-	[=Submission Appeals=] and [=Formal Objections=].
+	[=Submission Appeals=] and [=Formal Objections=];
 	<li>Owns the <a href="#GAProcess">Process Document</a>, which includes
 	considering proposals, approving changes, and publishing new versions.
 	</ul>
