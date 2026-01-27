@@ -886,7 +886,7 @@ Role of the Advisory Board</h5>
 	community engagement, 
 	and conflict resolution;
 	<li>Serves the Members by
-	tracking issues raised between Advisory Committee	meetings,
+	tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues;
 	<li>Owns the <a href="#GAProcess">Process Document</a>,
