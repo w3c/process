@@ -875,13 +875,10 @@ Role of the Advisory Board</h5>
 	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn>
 	is elected by the Membership to advance the effectiveness of W3C as a
 	standards development organization (<abbr title="standards development organization">SDO</abbr>).
-	
-	The [=Advisory Board=] is distinct from the [=Board of Directors=] and has
-	a distinct set of responsibilities.
-	The [=Advisory Board=]:
+	The [=Advisory Board=] has the following responsibilities:
 
 	<ul>
-	<li>Provides ongoing guidance to the Team and the [=Board of Directors=]
+	<li>Provides ongoing guidance to the Team
 	on issues of strategy, management, legal matters, process, community
 	engagement, and conflict resolution;
 	<li>Serves the Members by tracking issues raised between Advisory Committee
