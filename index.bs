@@ -884,7 +884,8 @@ Role of the Advisory Board</h5>
 	legal matters, 
 	process, 
 	community engagement, 
-	and conflict resolution;
+	and conflict resolution,
+	that arise during the the work of the W3C community;
 	<li>Serves the Members by
 	tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
