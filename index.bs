@@ -890,9 +890,9 @@ Role of the Advisory Board</h5>
 	tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues;
-	<li>Has responsibility for the <a href="#GAProcess">Process Document</a>,
+	<li>Is responsible for the development of the <a href="#GAProcess">Process Document</a>,
 	including considering proposals,
-	approving changes,
+	identifying changes and areas for improvement,
 	and publishing new versions.
 	</ul>
 
