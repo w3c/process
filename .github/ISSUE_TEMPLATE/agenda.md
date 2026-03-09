@@ -3,7 +3,7 @@ name: Meeting agenda
 about: Agenda discussion for a given Process CG meeting
 title: '[agenda] 2025-0x-xx'
 labels: 'Meeting agenda'
-assignees: 'brentzundel,plehegar'
+assignees: 'brentzundel'
 
 ---
 
