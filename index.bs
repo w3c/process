@@ -3428,7 +3428,7 @@ Maintenance Without a Group</h4>
 License Grants from Non-Participants</h4>
 
 	When a proposal for a change in class 3 or 4
-	(as described in [[#correction-classes]]) to a technical report under this process
+	(as described in [[#correction-classes]]) to a [=technical report=]
 	originates from or contains substantive contributions by a party not already obligated under the patent Policy,
 	the [=Team=] <em class=rfc2119>must</em> request
 	a recorded royalty-free patent commitment;
