@@ -872,28 +872,34 @@ Advisory Board (AB)</h4>
 <h5 id=ab-role>
 Role of the Advisory Board</h5>
 
-	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn> provides ongoing guidance to the Team
-	on issues of strategy,
-	management,
-	legal matters,
-	process,
-	and conflict resolution.
-	The Advisory Board also serves the Members
-	by tracking issues raised between Advisory Committee meetings,
+	The <dfn export lt="Advisory Board|AB">Advisory Board</dfn>
+	is elected by the Membership to advance the effectiveness of W3C as a
+	standards development organization (<abbr title="standards development organization">SDO</abbr>).
+	The [=Advisory Board=]:
+
+	<ul>
+	<li>Provides ongoing guidance to the Team
+	on issues of strategy, 
+	management, 
+	legal matters, 
+	process, 
+	community engagement, 
+	and conflict resolution,
+	that arise during the the work of the W3C community;
+	<li>Serves the Members by
+	tracking issues raised between Advisory Committee meetings,
 	soliciting Member comments on such issues,
-	and proposing actions to resolve these issues.
-	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	As part of a [=W3C Council=],
-	members of the [=Advisory Board=] hear and adjudicate on [=Submission Appeals=]
-	and [=Formal Objections=].
+	and proposing actions to resolve these issues;
+	<li>Is responsible for the development of the <a href="#GAProcess">Process Document</a>,
+	including considering proposals,
+	identifying changes and areas for improvement,
+	and publishing new versions.
+	</ul>
 
-	The [=Advisory Board=] is distinct from the [=Board of Directors=]
-	and has no decision-making authority within W3C;
-	its role is strictly advisory.
-
-	Note: While the [=AB=] as such does not have decision-making authority,
-	its members do when sitting as part of a [=W3C Council=].
-
+    Members of the [=AB=] also take part in [=W3C Councils=]
+    to hear and adjudicate [=Formal Objections=]
+    and [=Submission Appeals=].
+	
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
 	mailing list information, and summaries of Advisory Board meetings)
