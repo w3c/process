@@ -5478,8 +5478,14 @@ Appendix B: Acknowledgments</h2>
 	who as interested individuals and/or with the affiliation(s) listed,
 	have contributed to this proposal for a revised Process:
 
+	Brent Zundel (Yubico),
+	Chris Needham (BBC),
+	Elika J. Etemad <abbr title="also known as">aka</abbr> fantasai,
 	Jeffrey Yasskin (Google),
-	Ted Thibodeau Jr (OpenLink Software).
+	Nigel Megitt (BBC),
+	Tantek Çelik (Mozilla),
+	Ted Thibodeau Jr (OpenLink Software),
+	Theresa O'Connor (Apple).
 
 	<!--
 		* After publication merge the list above in the one below,
@@ -5646,6 +5652,9 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">18 Aug
 
 		<li>Clarify timing of guidance as when to run (or not) an election for vacated seats.
 			(See <a href="https://github.com/w3c/process/pull/1038">Pull Request 1038</a>)
+
+		<li>Give the Advisory Board a mission statement.
+			(See <a href="https://github.com/w3c/process/pull/1021">Pull Requestion 2021</a>)
 	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2023-1, changes-2023, changes-2021, changes-2020, changes-2019, changes-2018, changes-2017, changes-2025, changes-2025-tr, streamlined-update, changes-2025-charter, changes-2025-decisions, changes-other">
