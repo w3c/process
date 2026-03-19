@@ -224,7 +224,7 @@ Introduction</h2>
 <h2 id="Organization">
 Members and the Team</h2>
 
-	W3C's mission is to make the web work—for everyone,
+	W3C's mission is to make the web work — for everyone,
 	by bringing together global stakeholders to develop open standards
 	that enable a World Wide Web that connects and empowers humanity.
 	W3C <a href="#Members">Member</a> organizations provide resources to this end,
