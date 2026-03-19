@@ -224,7 +224,9 @@ Introduction</h2>
 <h2 id="Organization">
 Members and the Team</h2>
 
-	W3C's mission is to lead the Web to its full potential.
+	W3C's mission is to make the web work—for everyone,
+	by bringing together global stakeholders to develop open standards
+	that enable a World Wide Web that connects and empowers humanity.
 	W3C <a href="#Members">Member</a> organizations provide resources to this end,
 	and the W3C <a href="#Team">Team</a> provides the technical leadership
 	and organization to coordinate the effort.
