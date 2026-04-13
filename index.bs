@@ -3434,7 +3434,7 @@ License Grants from Non-Participants</h4>
 	the [=Team=] <em class=rfc2119>must</em> request
 	a recorded royalty-free patent commitment
 	from each of those parties;
-	for a change in class 4, 
+	for a substantial contribution in class 4, 
 	the Team <em class=rfc2119>must</em> <em>secure</em> such commitments 
 	from each and every such party.
 	Such commitment <em class=rfc2119>should</em> cover,
