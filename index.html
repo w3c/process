@@ -5,10 +5,10 @@
   <title>W3C Process Document</title>
   <meta content="CG-DRAFT" name="w3c-status">
   <link href="https://www.w3.org/StyleSheets/TR/2021/cg-draft" rel="stylesheet">
-  <meta content="Bikeshed version 0ef803fdf, updated Tue Jan 6 11:59:39 2026 -0800" name="generator">
+  <meta content="Bikeshed version 0a3d88311, updated Mon May 4 18:07:03 2026 +0000" name="generator">
   <link href="https://www.w3.org/policies/process/" rel="canonical">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="cf19d5eb58a02b50617ad5a20e72916edaf9e44c" name="revision">
+  <meta content="dfd43882f6c2240f4e533f224e1bf9d3b0bf6299" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
@@ -347,7 +347,7 @@ pre .property::before, pre .property::after {
 </style>
 <style>/* Boilerplate: style-counters */
 body {
-    counter-reset: example figure issue;
+    counter-reset: example figure issue table;
 }
 .issue {
     counter-increment: issue;
@@ -372,6 +372,13 @@ figcaption {
 }
 figcaption:not(.no-marker)::before {
     content: "Figure " counter(figure) " ";
+}
+
+figure.table figcaption {
+    counter-increment: table;
+}
+figure.table figcaption:not(.no-marker)::before {
+    content: "Table " counter(table) " ";
 }
 </style>
 <style>/* Boilerplate: style-dfn-panel */
@@ -617,7 +624,7 @@ dfn > a.self-link::before      { content: "#"; }
 </p>
    <h1 class="no-ref p-name" id="title">W3C Process Document</h1>
    <p id="w3c-state"><a href="https://www.w3.org/standards/types/#CG-DRAFT">Draft Community Group Report</a>,
-    <time class="dt-updated" datetime="2026-03-11">11 March 2026</time></p>
+    <time class="dt-updated" datetime="2026-05-13">13 May 2026</time></p>
    <details open>
     <summary>More details about this document</summary>
     <div data-fill-with="spec-metadata">
@@ -669,7 +676,7 @@ please refer to <a href="https://www.w3.org/about/">About W3C</a>.</p>
 	This document is developed by the Advisory Board’s Process Task Force
 	working within the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>
 	(which anyone can join).
-	This is the 11 March 2026 Draft Community Group Report for the proposed next version of the W3C Process Document.
+	This is the 13 May 2026 Draft Community Group Report for the proposed next version of the W3C Process Document.
 
 	
 </p>
@@ -1103,7 +1110,7 @@ Changes since earlier versions</span></a>
      <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
      <ol class="toc">
       <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
-      <li><a href="#informative"><span class="secno"></span> <span class="content">Informative References</span></a>
+      <li><a href="#informative"><span class="secno"></span> <span class="content">Non-Normative References</span></a>
      </ol>
    </ol>
   </nav>
@@ -1205,7 +1212,9 @@ Introduction</span><a class="self-link" href="#Intro"></a></h2>
 	and formal decisions and appeals (<a href="#decisions">§ 5 Decisions</a>).</p>
     <h2 class="heading settled" data-level="2" id="Organization"><span class="secno">2. </span><span class="content">
 Members and the Team</span><a class="self-link" href="#Organization"></a></h2>
-    <p>W3C’s mission is to lead the Web to its full potential.
+    <p>W3C’s mission is to make the web work — for everyone,
+	by bringing together global stakeholders to develop open standards
+	that enable a World Wide Web that connects and empowers humanity.
 	W3C <a href="#Members">Member</a> organizations provide resources to this end,
 	and the W3C <a href="#Team">Team</a> provides the technical leadership
 	and organization to coordinate the effort.</p>
@@ -6947,7 +6956,7 @@ Changes since earlier versions</span><a class="self-link" href="#changes-previou
    <dt id="biblio-w3c-patent-policy">[W3C-PATENT-POLICY]
    <dd>Wendy Seltzer. <a href="https://www.w3.org/policies/patent-policy/"><cite>W3C Patent Policy</cite></a>. 15 September 2020. URL: <a href="https://www.w3.org/policies/patent-policy/">https://www.w3.org/policies/patent-policy/</a>
   </dl>
-  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
+  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-ab-hp">[AB-HP]
    <dd><a href="https://www.w3.org/2002/ab/"><cite>The Advisory Board home page</cite></a>. URL: <a href="https://www.w3.org/2002/ab/">https://www.w3.org/2002/ab/</a>
