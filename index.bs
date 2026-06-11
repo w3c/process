@@ -3635,15 +3635,6 @@ Maturity Stages on the Recommendation Track</h4>
 			(in accordance with [[#revising-rec]])
 			to address [=editorial change|editorial=] or [=substantive change|substantive=] issues
 			that are discovered later.
-			However, <a href=#class-4>new features</a> can only be added
-			if the document already identifies itself
-			as intending to <dfn>allow new features</dfn>.
-			Adding or removing this allowance is a [=substantive change=].
-			Such an allowance cannot be added
-			to a [=technical report=] previously published as a [=Recommendation=]
-			that did not allow such changes;
-			this requires a new [=technical report=]
-			(which could, for example, be similarly named but with an incremented version number).
 
 			As technology evolves,
 			a [=W3C Recommendation=] may become:
@@ -4161,20 +4152,10 @@ Requirements for Transition</h5>
 			<em class="rfc2119">must</em> identify, in the document, where errata are tracked.
 	</ul>
 
-	Additionally,
-	if the document has previously been published as a [=W3C Recommendation=], the [=Working Group=]
-	<em class=rfc2119>must not</em> include any <a href="#correction-classes">class 4 change</a>
-	to that publication
-	unless it was explicitly marked as [=allowing new features=],
-	and <em class=rfc2119>must not</em> include any such marking
-	if not already present.
-
 	If the document's most recent publication is a [=Candidate Recommendation Draft=],
 	the [=Team=] <em class=rfc2119>must</em> verify
 	that it contains no changes since the previous [=Candidate Recommendation Snapshot=] other than:
 	* [=editorial changes=],
-	* the addition or removal of a statement as to whether the document will [=allow new features=]
-		after its publication as a [=Recommendation=].
 	* dropping [=at risk=] features
 
 	Otherwise, the [=Working Group=] <em class=rfc2119>must</em> republish it
@@ -4255,18 +4236,19 @@ Revising a Recommendation: Editorial Changes</h5>
 	to make this class of change without passing through earlier maturity stages.
 	(See <a href="#class-1">class 1</a> and <a href="#class-2">class 2 changes</a>.)
 
-<h5 id="revised-rec-substantive">
+<h5 id="revised-rec-substantive" oldids="revised-rec-features">
 Revising a Recommendation: Substantive Changes</h5>
 
-	Tentative corrections (see <a href="#class-3">class 3 changes</a>)
+	Tentative [=substantive changes=]
+	(see <a href="#class-3">class 3</a> and <a href="#class-4">class 4 changes</a>.)
 	<em class=rfc2119>may</em> be annotated into a [=Recommendation=]
-	using [=candidate corrections=].
+	using [=candidate amendments=].
 
-	Note: [=Candidate corrections=] do not normatively modify the document;
+	Note: [=Candidate amendments=] do not normatively modify the document;
 	they editorially indicate how one might do so.
 	They are therefore published following the provisions of [[#revised-rec-editorial]].
 
-	A [=candidate correction=] can be made normative
+	A [=candidate amendment=] can be made normative
 	and be folded into the main text of the [=Recommendation=],
 	once it has satisfied all the same criteria
 	as the rest of the [=Recommendation=],
@@ -4283,30 +4265,19 @@ Revising a Recommendation: Substantive Changes</h5>
 	or, if the relevant criteria are fulfilled,
 	<a href="#transition-cr">publish as a Candidate Recommendation</a>--
 	and advance the specification from that state.
-	(See <a href="#correction-classes">class 3 changes</a>.)
 
-<h5 id="revised-rec-features">
-Revising a Recommendation: New Features</h5>
-
-	For [=Recommendations=] explicitly identified as [=allow new features|allowing new features=],
-	tentative new features (see <a href="#correction-classes">class 4 changes</a>)
-	<em class=rfc2119>may</em> be added as [=candidate additions=] in annotations,
-	and <a href="#correction-classes">class 4 changes</a> may be normatively incorporated
-	in the same fashion as <a href="#correction-classes">class 3 changes</a> in [[#revised-rec-substantive]].
-
-	Note: Limiting the addition of new features to [=Recommendations=] that explicitly allow them
-	enables third parties to depend on a stable feature-set for [=Recommendations=] that do not advertise that ability,
-	as was the case for all [=Recommendations=] prior to the 2020 revision of this Process.
-
-	Note: When a [=Recommendation=] does not [=allow new features=],
-	new features can be added by creating a new [=technical report=]
-	and following the full process of advancing that [=technical report=] to [=Recommendation=]--
-	beginning with a new [=First Public Working Draft=].
-	Such [=technical reports=] could be written to represent
-	additional modules building on top of the original [=Recommendation=] of the core technology,
-	or an expanded replacement of the original [=Recommendation=] of the core technology
-	(in which case the new [=technical report=] will typically have the same name as the original,
-	with an incremented version number).
+	<div id=allow-features-note class=note>
+		<span class=marker>Note:</span>
+		In earlier version of the Process,
+		new features (<a href="#class-4">class 4 changes</a>) could only be added to [=Recommendations=]
+		that had explicitly opted into this ability
+		prior to their first publication as [=Recommendation=].
+		Otherwise,
+		new features could only be added by creating a new [=technical report=]
+		and following the full process of advancing that [=technical report=] to [=Recommendation=]--
+		beginning with a new [=First Public Working Draft=].
+		For simplicity, this restriction has been lifted.
+	</div>
 
 <h5 id=change-review>
 Incorporating Candidate Amendments</h5>
@@ -4344,10 +4315,6 @@ Incorporating Candidate Amendments</h5>
 	for the purposes of the Patent Policy [[PATENT-POLICY]].
 	Also, the review initiated by the [=Last Call for Review of Proposed Amendments=]
 	is an [=Advisory Committee Review=].
-
-	Note: [=Last Call for Review of Proposed Additions=] and
-	[=Last Call for Review of Proposed Corrections and Additions=]
-	can only be issued for [=Recommendations=] that [=allow new features=].
 
 	A [=Working Group=] <em class="rfc2119">may</em> batch
 	multiple [=proposed amendments=] into a single <a>Last Call for Review of Proposed Amendments</a>.
@@ -5469,6 +5436,13 @@ Appendix A: Retired Terminology</h2>
 		<dd>
 			Last defined <a href="https://www.w3.org/2014/Process-20140801/#def-W3CChair">in section 2.2 of the 2014 Process</a>,
 			now called [=CEO=].
+
+		<dt>
+			<dfn noexport>Allow new features</dfn>
+			(retired term)
+		<dd>
+			Last defined <a href="https://www.w3.org/policies/process/20250818/#allow-new-features">in section 6.3.1 of the 2025 Process</a>.
+			See also <a href="#allow-features-note">the note</a> at the end of [[#revised-rec-substantive]].
 	</dl>
 
 <h2 id="acks" class="non-normative nonum">
