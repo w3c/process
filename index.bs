@@ -3363,17 +3363,21 @@ Errata Management</h4>
 	be annotated inline
 	alongside the affected [=technical report=] text
 	or at the start or end of the most relevant section(s).
+	Inline errata are treated as <a href="#class-2">class 2 changes</a>,
+	and are published accordingly.
+
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied [=candidate amendment=]
+	proposing a solution to the issue.
 
 <h4 id=candidate-amendments oldids=candidate-changes>
 Candidate Amendments</h4>
 
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied by a non-normative,
-	<dfn>candidate correction</dfn> approved by [=group decision=].
-	When annotated inline,
-	errata--
-	including their [=candidate corrections=]--
-	must be marked as such,
-	are treated as <a href="#correction-classes">class 2 changes</a>,
+	A <dfn>candidate amendment</dfn> is a non-normative annotation,
+	marked as such,
+	included into a [=technical report=] by [=group decision=]
+	to indicate a potential [=substantive change=]
+	that has not yet been formally adopted.
+	They are treated as <a href="#class-2">class 2 changes</a>,
 	and are published accordingly.
 
 	Note: Annotating changes in this way allows more mature documents
@@ -3382,13 +3386,6 @@ Candidate Amendments</h4>
 	even when the [=candidate amendments=] have not yet received
 	sufficient review or implementation experience
 	to be normatively incorporated into the specification proper.
-
-	A <dfn>candidate addition</dfn> is similar to a [=candidate correction=],
-	except that it proposes a new feature
-	rather than an error correction.
-
-	[=Candidate corrections=] and [=candidate additions=] are collectively known as
-	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
 	In addition to their actual [[#maturity-stages|maturity stage]],
 	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
@@ -3406,7 +3403,7 @@ Maintenance Without a Group</h4>
 	<ol>
 		<li><a href="#class-1">class 1 changes</a>;
 		<li>inline [=errata=];
-		<li>[=candidate corrections=],
+		<li>[=candidate amendments=] not including <a href="#class-4">class 4 changes</a>,
 			which <em class=rfc2119>must</em> be marked as <dfn>Team correction</dfn>;
 		<li><a href="#class-2">class 2 changes</a> other than inline [=errata=] and [=Team corrections=].
 	</ol>
@@ -4292,8 +4289,7 @@ Incorporating Candidate Amendments</h5>
 	<ul>
 		<li>
 			Identify the specific [=candidate amendments=] under review
-			as <dfn>proposed amendments</dfn>
-			(<dfn export>proposed corrections</dfn>/<dfn oldids="proposed-addition" export>proposed additions</dfn>).
+			as <dfn>proposed amendments</dfn>.
 
 		<li>
 			Specify the deadline for review comments,
@@ -5437,6 +5433,20 @@ Appendix A: Retired Terminology</h2>
 		<dd>
 			Last defined <a href="https://www.w3.org/policies/process/20250818/#allow-new-features">in section 6.3.1 of the 2025 Process</a>.
 			See also <a href="#allow-features-note">the note</a> at the end of [[#revised-rec-substantive]].
+
+		<dt>
+			<dfn noexport>Candidate correction</dfn> and <dfn noexport>candidate addition</dfn>
+			(retired terms)
+		<dd>
+			Last defined in <a href="https://www.w3.org/policies/process/20250818/#candidate-amendments">section 6.2.5 of the 2025 Process</a>.
+			Both were subtypes of [=candidate amendment=] and are no longer formally distinguished.
+
+		<dt>
+			<dfn noexport>Proposed corrections</dfn> and <dfn oldids="proposed-addition" export>proposed additions</dfn>
+			(retired terms)
+		<dd>
+			Last defined in <a href="https://www.w3.org/policies/process/20250818/#change-review">section 6.3.10.4 of the 2025 Process</a>.
+			Both were subtypes of [=proposed amendment=] and are no longer formally distinguished.
 
 		<dt>
 			<dfn noexport>Last Call for Review of Proposed Corrections</dfn>,
