@@ -3374,7 +3374,7 @@ Candidate Amendments</h4>
 
 	A <dfn>candidate amendment</dfn> is a non-normative annotation,
 	marked as such,
-	included into a [=technical report=] by [=group decision=]
+	integrated into a [=technical report=] by [=group decision=]
 	to indicate a potential [=substantive change=]
 	that has not yet been formally adopted.
 	They are treated as <a href="#class-2">class 2 changes</a>,
