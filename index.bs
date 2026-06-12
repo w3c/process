@@ -3366,8 +3366,8 @@ Errata Management</h4>
 	Inline errata are treated as <a href="#class-2">class 2 changes</a>,
 	and are published accordingly.
 
-	An [=erratum=] <em class="rfc2119">may</em> be accompanied [=candidate amendment=]
-	proposing a solution to the issue.
+	An [=erratum=] <em class="rfc2119">may</em> be accompanied by a 
+	[=candidate amendment=] proposing a solution to the issue.
 
 <h4 id=candidate-amendments oldids=candidate-changes>
 Candidate Amendments</h4>
