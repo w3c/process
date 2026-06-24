@@ -8,7 +8,7 @@
   <meta content="Bikeshed version d113b2e81, updated Tue Jun 9 14:57:55 2026 -0700" name="generator">
   <link href="https://www.w3.org/policies/process/" rel="canonical">
   <link href="https://www.w3.org/2008/site/images/favicon.ico" rel="icon">
-  <meta content="77185c09a04e2d77e1cb21032d21756ea41fd653" name="revision">
+  <meta content="b1708101fc71d18be87634713c8a7430ac4a8f7f" name="revision">
   <meta content="dark light" name="color-scheme">
   <link href="https://www.w3.org/StyleSheets/TR/2021/dark.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css">
 <style>
@@ -2039,24 +2039,16 @@ Elected Groups Participation Constraints</span><a class="self-link" href="#AB-TA
 	and in order to ensure that the diversity of W3C Members is represented:</p>
     <ul>
      <li>
-			Two participants with the same <a data-link-type="dfn" href="#primary-affiliation" id="ref-for-primary-affiliation">primary affiliation</a> per <a href="#AB-TAG-elections">§ 3.3.3.3 Advisory Board and Technical Architecture Group Elections</a>
-			must not both occupy elected seats on the TAG
+			Two (or more) participants with the same <a data-link-type="dfn" href="#primary-affiliation" id="ref-for-primary-affiliation">primary affiliation</a> per <a href="#AB-TAG-elections">§ 3.3.3.3 Advisory Board and Technical Architecture Group Elections</a>
+			must not occupy elected seats on the same <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group">Elected Group</a>,
 			except when this is caused by a change of affiliation of an existing participant.
-			At the completion of the next regularly scheduled election for the TAG,
+			At the completion of the next regularly scheduled election for that group,
 			the organization <em class="rfc2119">must</em> have returned to having at most one seat.
-
-		
-     <li>
-			Two participants with the same <a data-link-type="dfn" href="#primary-affiliation" id="ref-for-primary-affiliation①">primary affiliation</a> per <a href="#AB-TAG-elections">§ 3.3.3.3 Advisory Board and Technical Architecture Group Elections</a>
-			must not both occupy elected seats on the AB.
-			If, for whatever reason, these constraints are not satisfied
-			(e.g., because an <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①③">AB</a> participant changes jobs),
-			one participant <em class="rfc2119">must</em> cease <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①④">AB</a> participation
-			until the situation has been resolved.
-			If after <span class="time-interval">30 days</span> the situation has not been resolved,
-			the Chair will apply
+			Otherwise, the <a data-link-type="dfn" href="#team" id="ref-for-team②④">Team</a> will apply
 			the <a href="#random">verifiable random selection procedure</a> described below
-			to choose one person for continued participation and declare the other seat(s) vacant.
+			to choose one person for continued participation and declare the other seat(s) vacant
+			as of that election.
+
 		
      <li>
 			An individual <em class="rfc2119">must not</em> participate on both the TAG and the AB.
@@ -2064,16 +2056,16 @@ Elected Groups Participation Constraints</span><a class="self-link" href="#AB-TA
     </ul>
     <h5 class="heading settled" data-level="3.3.3.3" id="AB-TAG-elections"><span class="secno">3.3.3.3. </span><span class="content">
 Advisory Board and Technical Architecture Group Elections</span><a class="self-link" href="#AB-TAG-elections"></a></h5>
-    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑤">Advisory Board</a> and a portion of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①④">Technical Architecture Group</a> are elected by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑧">Advisory Committee</a>,
+    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①③">Advisory Board</a> and a portion of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①④">Technical Architecture Group</a> are elected by the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑧">Advisory Committee</a>,
 	using a Single Transferable Vote system.
 	An election <dfn class="dfn-paneled" data-dfn-for="election" data-dfn-type="dfn" data-noexport id="election-begins">begins</dfn> when the Team sends a Call for Nominations to the Advisory Committee.
 	Any Call for Nominations specifies the minimum and maximum number of available seats,
 	the deadline for nominations,
 	details about the specific vote tabulation system selected by the Team for the election,
 	and operational information such as how to nominate a candidate.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team②④">Team</a> <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
+	The <a data-link-type="dfn" href="#team" id="ref-for-team②⑤">Team</a> <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team②⑤">Team</a> announces appointments
+	The <a data-link-type="dfn" href="#team" id="ref-for-team②⑥">Team</a> announces appointments
 	after the results of the election are known,
 	and before the start of the term,
 	as described in <a href="#TAG-appointments">§ 3.3.3.4 Technical Architecture Group Appointments</a>.</p>
@@ -2081,7 +2073,7 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 	the minimum and maximum number of available seats are the same:
 	the 4 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats.</p>
-    <p>In the case of regularly scheduled elections of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑥">AB</a>,
+    <p>In the case of regularly scheduled elections of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①④">AB</a>,
 	the minimum and maximum number of available seats differ:
 	The maximum number is the 5 or 6 seats of the terms expiring that year,
 	plus the number of other seats that are vacant or will be vacant by the time the newly elected members take their seats;
@@ -2098,12 +2090,12 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 	the individual <em class="rfc2119">must</em> provide
 	the (same) <a href="#inv-expert-info" id="ref-for-inv-expert-info">information required for an Invited Expert in a Working Group</a>
 	and the nominating <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative⑨">Advisory Committee representative</a> <em class="rfc2119">must</em> include that information in the nomination.
-	In order for an individual to be nominated as a <a data-link-type="dfn" href="#team" id="ref-for-team②⑥">Team</a> representative,
+	In order for an individual to be nominated as a <a data-link-type="dfn" href="#team" id="ref-for-team②⑦">Team</a> representative,
 	the nominating <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⓪">Advisory Committee representative</a>
-	<em class="rfc2119">must</em> first secure approval from <a data-link-type="dfn" href="#team" id="ref-for-team②⑦">Team</a> management.
+	<em class="rfc2119">must</em> first secure approval from <a data-link-type="dfn" href="#team" id="ref-for-team②⑧">Team</a> management.
 	A nominee is <em class="rfc2119">not required</em> to be an employee of a Member organization,
 	and <em class="rfc2119">may</em> be a <a href="#fellows" id="ref-for-fellows①">W3C Fellow</a>.
-	The nomination form <em class="rfc2119">must</em> ask for the nominee’s <a data-link-type="dfn" href="#primary-affiliation" id="ref-for-primary-affiliation②">primary affiliation</a>,
+	The nomination form <em class="rfc2119">must</em> ask for the nominee’s <a data-link-type="dfn" href="#primary-affiliation" id="ref-for-primary-affiliation①">primary affiliation</a>,
 	and this will be reported on the ballot.
 	For most nominees,
 	the <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="primary-affiliation">primary affiliation</dfn> is their employer and will match their affiliation in the W3C database.
@@ -2125,7 +2117,7 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 	a few informative paragraphs about the nominee.
 	If an identified candidate’s nomination information is only partially complete
 	as of the deadline for nominations,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team②⑧">Team</a> <em class="rfc2119">may</em> allow extra time for that candidate’s nomination to be completed,
+	the <a data-link-type="dfn" href="#team" id="ref-for-team②⑨">Team</a> <em class="rfc2119">may</em> allow extra time for that candidate’s nomination to be completed,
 	so long as it does not delay the election as a whole.</p>
     <p>If, after the deadline for nominations, the number of nominees is:</p>
     <ul>
@@ -2146,7 +2138,7 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 		
      <li>
 			Greater than the maximum number of available seats,
-			the <a data-link-type="dfn" href="#team" id="ref-for-team②⑨">Team</a> issues a Call for Votes
+			the <a data-link-type="dfn" href="#team" id="ref-for-team③⓪">Team</a> issues a Call for Votes
 			that includes the names of all candidates,
 			the (maximum) number of available seats,
 			the deadline for votes,
@@ -2159,7 +2151,7 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 	(or group of <a data-link-type="dfn" href="#related-member" id="ref-for-related-member③">related Members</a>)
 	<em class="rfc2119">may</em> submit one ballot that ranks candidates in the Member’s preferred order.
 	Once the deadline for votes has passed,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team③⓪">Team</a> announces the results to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑨">Advisory Committee</a>.
+	the <a data-link-type="dfn" href="#team" id="ref-for-team③①">Team</a> announces the results to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee⑨">Advisory Committee</a>.
 	In case of a tie the <a href="#random">verifiable random selection procedure</a> described below
 	will be used to fill the available seats.</p>
     <p id="short-term">The shortest incomplete term is assigned to the elected candidate ranked lowest by the tabulation of votes,
@@ -2174,13 +2166,13 @@ Advisory Board and Technical Architecture Group Elections</span><a class="self-l
 	for more details.</p>
     <h5 class="heading settled" data-level="3.3.3.4" id="TAG-appointments"><span class="secno">3.3.3.4. </span><span class="content">
 Technical Architecture Group Appointments</span><a class="self-link" href="#TAG-appointments"></a></h5>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③①">Team</a> is responsible for appointing
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③②">Team</a> is responsible for appointing
 	3 of the participants to the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑥">Technical Architecture Group</a>.
 	This mechanism complements the election process.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team③②">Team</a> <em class="rfc2119">should</em> use its appointments to support
+	The <a data-link-type="dfn" href="#team" id="ref-for-team③③">Team</a> <em class="rfc2119">should</em> use its appointments to support
 	a diverse and well-balanced <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group①⑦">TAG</a>,
 	including diversity of technical background, knowledge, and skill sets.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③③">Team</a> <em class="rfc2119">should</em> actively seek
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③④">Team</a> <em class="rfc2119">should</em> actively seek
 	candidates for appointment to the TAG,
 	and <em class="rfc2119">must</em> make available to
 	the W3C community at large
@@ -2198,26 +2190,26 @@ Technical Architecture Group Appointments</span><a class="self-link" href="#TAG-
 	this limit on appointed terms does not constrain
 	term-limited appointees
 	from running for election at any time.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③④">Team</a>’s choice of appointee(s)
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team③⑤">Team</a>’s choice of appointee(s)
 	is subject to ratification by secret ballot
-	by both the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑦">AB</a> and the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⓪">TAG</a>,
+	by both the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑤">AB</a> and the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⓪">TAG</a>,
 	requiring a two-thirds approval from each.
 	In the case of regularly scheduled elections,
 	the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②①">TAG</a> participants in this ratification are
 	its members for the upcoming term.</p>
     <p>For regularly scheduled elections,
 	selection begins once the results of the elections are known,
-	and the <a data-link-type="dfn" href="#team" id="ref-for-team③⑤">Team</a> <em class="rfc2119">should</em> announce the ratified appointment(s)
+	and the <a data-link-type="dfn" href="#team" id="ref-for-team③⑥">Team</a> <em class="rfc2119">should</em> announce the ratified appointment(s)
 	no later than the start of the regularly scheduled term.
 	When an appointed seat is vacated outside of a regularly scheduled election,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team③⑥">Team</a> <em class="rfc2119">should</em> seek to appoint a replacement
+	the <a data-link-type="dfn" href="#team" id="ref-for-team③⑦">Team</a> <em class="rfc2119">should</em> seek to appoint a replacement
 	unless a regular Call for Nominations is scheduled within 2 months,
 	and it <em class="rfc2119">must</em> announce the ratified appointment
 	no later than the Call for Nominations of the next scheduled election.</p>
     <h5 class="heading settled" data-level="3.3.3.5" id="random"><span class="secno">3.3.3.5. </span><span class="content">
 Verifiable Random Selection Procedure</span><a class="self-link" href="#random"></a></h5>
     <p>When it is necessary to use a verifiable random selection process
-	(e.g., in an <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑧">AB</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②②">TAG</a> election,
+	(e.g., in an <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑥">AB</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②②">TAG</a> election,
 	to “draw straws” in case of a tie
 	or to fill a incomplete term),
 	W3C uses the random and verifiable procedure defined in <a href="https://www.ietf.org/rfc/rfc3797.txt">RFC 3797</a> <a data-link-type="biblio" href="#biblio-rfc3797" title="Publicly Verifiable Nominations Committee (NomCom) Random Selection">[RFC3797]</a>.
@@ -2242,7 +2234,7 @@ Verifiable Random Selection Procedure</span><a class="self-link" href="#random">
     </ol>
     <h5 class="heading settled" data-level="3.3.3.6" id="AB-TAG-vacated"><span class="secno">3.3.3.6. </span><span class="content">
 Elected Groups Vacated Seats</span><a class="self-link" href="#AB-TAG-vacated"></a></h5>
-    <p>An <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">Advisory Board</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②③">TAG</a> participant’s seat is vacated when:</p>
+    <p>An <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑦">Advisory Board</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②③">TAG</a> participant’s seat is vacated when:</p>
     <ul>
      <li>
 			the participant resigns, or
@@ -2271,12 +2263,12 @@ Elected Groups Vacated Seats</span><a class="self-link" href="#AB-TAG-vacated"><
     <ul>
      <li>
 			When an appointed <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②④">TAG</a> seat is vacated,
-			the <a data-link-type="dfn" href="#team" id="ref-for-team③⑦">Team</a> <a href="#TAG-appointments">appoints</a> a replacement.
+			the <a data-link-type="dfn" href="#team" id="ref-for-team③⑧">Team</a> <a href="#TAG-appointments">appoints</a> a replacement.
 
 		
      <li>
       
-			When an elected seat on either the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⓪">AB</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑤">TAG</a> is vacated,
+			When an elected seat on either the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑧">AB</a> or <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑤">TAG</a> is vacated,
 			the seat is filled at the next regularly scheduled election for the group
 			unless the group Chair requests that W3C hold an election before then
 			(for instance, due to the group’s workload).
@@ -2298,7 +2290,7 @@ Elected Groups Vacated Seats</span><a class="self-link" href="#AB-TAG-vacated"><
 			the minimum number of available seats is such that
 			when added to the number of continuing participants,
 			the minimum total number of elected seats is met
-			(8 for the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑥">TAG</a>, 9 for the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②①">AB</a>);
+			(8 for the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑥">TAG</a>, 9 for the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board①⑨">AB</a>);
 			and the maximum number corresponds to all unoccupied seats.
 			Except for the number of available seats and the length of the terms,
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.</p>
@@ -2348,11 +2340,11 @@ Requirements for All Chartered Groups</span><a class="self-link" href="#ReqsAllG
 	(even if other proceedings of the group are <a href="#Member-only" id="ref-for-Member-only①⑤">Member-only</a>).</p>
     <p>Each group <em class="rfc2119">must</em> have a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="GeneralChairs">Chair</dfn> (or co-Chairs)
 	to facilitate effective discussion and coordinate the group’s activities.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team③⑧">Team</a> appoints (and re-appoints) Chairs for all groups.
+	The <a data-link-type="dfn" href="#team" id="ref-for-team③⑨">Team</a> appoints (and re-appoints) Chairs for all groups.
 	The Chair is a <a href="#member-rep">Member representative</a>,
 	a <a href="#Team">Team representative</a>,
 	or an <a href="#invited-expert-wg">Invited Expert</a>
-	(invited by the <a data-link-type="dfn" href="#team" id="ref-for-team③⑨">Team</a>).
+	(invited by the <a data-link-type="dfn" href="#team" id="ref-for-team④⓪">Team</a>).
 	The requirements of this document that apply to those types of participants apply to Chairs as well.</p>
     <p class="note" role="note"><span class="marker">Note:</span> The <a href="https://www.w3.org/guide/chair/role">role of the Chair</a> <a data-link-type="biblio" href="#biblio-chair" title="W3C Working/Interest Group Chair">[CHAIR]</a> is described
 	in the <a href="https://www.w3.org/guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>.</p>
@@ -2360,7 +2352,7 @@ Requirements for All Chartered Groups</span><a class="self-link" href="#ReqsAllG
 	(also known as <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="team-contact">Team Contact</dfn>),
 	who acts as the interface between the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs③">Chair</a>,
 	group participants,
-	and the rest of the <a data-link-type="dfn" href="#team" id="ref-for-team④⓪">Team</a>.</p>
+	and the rest of the <a data-link-type="dfn" href="#team" id="ref-for-team④①">Team</a>.</p>
     <p class="note" role="note"><span class="marker">Note:</span> The <a href="https://www.w3.org/guide/teamcontact/role">role of the Staff Contact</a> <a data-link-type="biblio" href="#biblio-team-contact" title="Role of the Team Contact">[TEAM-CONTACT]</a>
 	is described in the <a href="https://www.w3.org/guide/">Art of Consensus</a> <a data-link-type="biblio" href="#biblio-guide" title="The Art of Consensus, a guidebook for W3C Working Group Chairs and other collaborators">[GUIDE]</a>.</p>
     <p>The <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs④">Chair</a> and the <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact①">Staff Contact</a> of a group <em class="rfc2119">should not</em> be the same individual.</p>
@@ -2637,10 +2629,10 @@ Initiating Charter Refinement</span><a class="self-link" href="#charter-initiati
 	Community Groups,
 	and from the <a data-link-type="dfn" href="#w3c-member" id="ref-for-w3c-member②">Membership</a>.
 	Prior to the formal <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement①">refinement</a> phase,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team④①">Team</a> engages with those various parties
+	the <a data-link-type="dfn" href="#team" id="ref-for-team④②">Team</a> engages with those various parties
 	to help prepare <a data-link-type="dfn" href="#charter" id="ref-for-charter⑥">charters</a> for broader audiences.</p>
     <p>Formal <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement②">charter refinement</a> (see below) is initiated
-	by the <a data-link-type="dfn" href="#team" id="ref-for-team④②">Team</a> sending a <a data-link-type="dfn" href="#charter-review-notice" id="ref-for-charter-review-notice">charter review notice</a>
+	by the <a data-link-type="dfn" href="#team" id="ref-for-team④③">Team</a> sending a <a data-link-type="dfn" href="#charter-review-notice" id="ref-for-charter-review-notice">charter review notice</a>
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①①">Advisory Committee</a>,
 	to the public,
 	and, in the case of rechartering, to the affected <a data-link-type="dfn" href="#w3c-group" id="ref-for-w3c-group②">Group</a>.</p>
@@ -2659,10 +2651,10 @@ and should not be more than 6 months.</p>
      <li data-md>
       <p>Who the <a data-link-type="dfn" href="#chartering-facilitator" id="ref-for-chartering-facilitator">Chartering Facilitator</a> is.</p>
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④③">Team</a> is responsible for initiating <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement④">charter refinement</a>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team④④">Team</a> is responsible for initiating <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement④">charter refinement</a>
 	at its discretion, in consideration of discussions with the community.</p>
     <p>An <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①③">Advisory Committee representative</a> <em class="rfc2119">may</em> formally request
-	that the <a data-link-type="dfn" href="#team" id="ref-for-team④④">Team</a> initiate <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement⑤">charter refinement</a>.
+	that the <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> initiate <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement⑤">charter refinement</a>.
 	The Team <em class="rfc2119">may</em> deny such a request
 	if it thinks the proposal is insufficiently mature,
 	does not align with W3C’s scope and mission,
@@ -2673,20 +2665,20 @@ and should not be more than 6 months.</p>
 	and can be appealed only by 5 or more <a data-link-type="dfn" href="#w3c-member" id="ref-for-w3c-member③">Members</a>,
 	through their <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①④">Advisory Committee representative</a>,
 	formally objecting to the decision within 8 weeks of the decision being announced.
-	In this case the <a data-link-type="dfn" href="#team" id="ref-for-team④⑤">Team</a> <em class="rfc2119">must</em> start an <a data-link-type="dfn" href="#appeal-vote" id="ref-for-appeal-vote">appeal vote</a>
+	In this case the <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a> <em class="rfc2119">must</em> start an <a data-link-type="dfn" href="#appeal-vote" id="ref-for-appeal-vote">appeal vote</a>
 	on whether to overturn the <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision②">Team Decision</a>.
 	(No action is required to be taken when fewer than 5 members object.)</p>
     <h3 class="heading settled" data-level="4.2" id="charter-development"><span class="secno">4.2. </span><span class="bs-old-id" id="WGCharterDevelopment"></span><span class="content">
 Charter Refinement</span><a class="self-link" href="#charter-development"></a></h3>
     <p>During <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="charter-refinement">charter refinement</dfn>,
 	the W3C community,
-	under the guidance of the <a data-link-type="dfn" href="#team" id="ref-for-team④⑥">Team</a>,
+	under the guidance of the <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a>,
 	further develops the <a data-link-type="dfn" href="#charter-draft" id="ref-for-charter-draft①">charter draft</a>
 	with the goal of achieving <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①">consensus</a> on the proposal.
-	The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="chartering-facilitator">Chartering Facilitator</dfn>—​who is chosen (and <em class="rfc2119">may</em> be replaced) by the <a data-link-type="dfn" href="#team" id="ref-for-team④⑦">Team</a>—​is responsible for seeking community <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus②">consensus</a> among those participating in the refinement process
+	The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="chartering-facilitator">Chartering Facilitator</dfn>—​who is chosen (and <em class="rfc2119">may</em> be replaced) by the <a data-link-type="dfn" href="#team" id="ref-for-team④⑧">Team</a>—​is responsible for seeking community <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus②">consensus</a> among those participating in the refinement process
 	and making decisions reflecting that <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus③">consensus</a>.
 	In cases where <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus④">consensus</a> cannot be found,
-	the <a data-link-type="dfn" href="#chartering-facilitator" id="ref-for-chartering-facilitator①">Chartering Facilitator</a> <em class="rfc2119">may</em> ask the <a data-link-type="dfn" href="#team" id="ref-for-team④⑧">Team</a> to make a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision③">Team Decision</a>,
+	the <a data-link-type="dfn" href="#chartering-facilitator" id="ref-for-chartering-facilitator①">Chartering Facilitator</a> <em class="rfc2119">may</em> ask the <a data-link-type="dfn" href="#team" id="ref-for-team④⑨">Team</a> to make a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision③">Team Decision</a>,
 	and <em class="rfc2119">must</em> document the rationale for the decision.</p>
     <p class="note" role="note"><span class="marker">Note:</span> The <a data-link-type="dfn" href="#chartering-facilitator" id="ref-for-chartering-facilitator②">Chartering Facilitator</a> is not necessarily the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①④">Chair</a> of the <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group①">group</a> being chartered.</p>
     <p>During <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement⑥">charter refinement</a>:</p>
@@ -2700,7 +2692,7 @@ highlighting any issues not resolved by consensus.</p>
     </ul>
     <p>Before the end of the announced duration
 	for the <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement⑦">charter refinement</a> phase,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team④⑨">Team</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a>
 	(informed by the work of the <a data-link-type="dfn" href="#chartering-facilitator" id="ref-for-chartering-facilitator③">Chartering Facilitator</a>)
 	<em class="rfc2119">must</em> <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision④">decide</a> which of the following to do:</p>
     <ul>
@@ -2711,14 +2703,14 @@ highlighting any issues not resolved by consensus.</p>
      <li data-md>
       <p>Extend the charter refinement period.</p>
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⓪">Team</a> <em class="rfc2119">must</em> announce its <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑤">decision</a>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤①">Team</a> <em class="rfc2119">must</em> announce its <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑤">decision</a>
 	with the same visibility as the initial <a data-link-type="dfn" href="#charter-review-notice" id="ref-for-charter-review-notice①">charter review notice</a>,
 	and <em class="rfc2119">must</em> include a rationale
 	if they are not initiating <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②">AC Review</a>.
 	Reaching the end of the announced period (including any announced extension)
 	with no announced decision
 	is considered a de-facto <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑥">Team decision</a> to abandon the proposal.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤①">Team</a> <em class="rfc2119">may</em> revise such a decision
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤②">Team</a> <em class="rfc2119">may</em> revise such a decision
 	by announcing an alternative decision.</p>
     <p><a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection③">Formal Objections</a> filed during the <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement⑧">charter refinement</a> phase
 	are specially handled:</p>
@@ -2734,7 +2726,7 @@ and are registered against that <a data-link-type="dfn" href="#def-w3c-decision"
 through their <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑤">Advisory Committee representative</a>,
 formally object to the decision within 8 weeks of the decision.
 In this case,
-the <a data-link-type="dfn" href="#team" id="ref-for-team⑤②">Team</a> <em class="rfc2119">must</em> do one of the following:</p>
+the <a data-link-type="dfn" href="#team" id="ref-for-team⑤③">Team</a> <em class="rfc2119">must</em> do one of the following:</p>
       <ul>
        <li data-md>
         <p>Abide by the objectors' request, if they all agree on the
@@ -2925,7 +2917,7 @@ New Charters and Major Changes</span><a class="self-link" href="#charter-major-c
 	Any <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑥">Advisory Committee representative</a> <em class="rfc2119">may</em> request an extended review period
 	in response to the Call for Review;
 	upon receipt of any such request,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤③">Team</a> <em class="rfc2119">must</em> extend the review period
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤④">Team</a> <em class="rfc2119">must</em> extend the review period
 	to at least 60 days.</p>
     <p>The Call for Review of a modified charter
 	<em class="rfc2119">must</em> highlight important changes
@@ -2953,7 +2945,7 @@ Minor Changes to Active Charters</span><a class="self-link" href="#charter-minor
 	or a change of <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①⑥">Chair</a>.
 	<a data-link-type="dfn" href="#minor-changes" id="ref-for-minor-changes③">Minor changes</a>, other than a change of <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact⑦">Staff Contact</a>,
 	<em class="rfc2119">should</em> have the <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus⑥">consensus</a> of the group.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤④">Team</a> <em class="rfc2119">may</em> nevertheless choose
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑤">Team</a> <em class="rfc2119">may</em> nevertheless choose
 	to initiate <a data-link-type="dfn" href="#charter-refinement" id="ref-for-charter-refinement①①">charter refinement</a> and/or <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑧">Advisory Committee Review</a>
 	when it thinks the changes would benefit from more scrutiny or explicit buy-in.</p>
     <p>Though <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review⑨">Advisory Committee Review</a> is not required,
@@ -2969,7 +2961,7 @@ Call for Participation in a Chartered Group</span><a class="self-link" href="#cf
 	per <a href="#ACReviewAfter">§ 5.7.2 Determining the W3C Decision</a>
 	before the Call for Participation.</p>
     <p>If the decision is to charter the group,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑤">Team</a> <em class="rfc2119">must</em> issue a Call for Participation to the Advisory Committee.
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑥">Team</a> <em class="rfc2119">must</em> issue a Call for Participation to the Advisory Committee.
 	For a new group, this announcement officially creates the group.
 	The announcement <em class="rfc2119">must</em> include a reference to the <a href="#WGCharter">charter</a>,
 	the name(s) of the group’s <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs①⑦">Chair(s)</a>,
@@ -2990,10 +2982,10 @@ Call for Participation in a Chartered Group</span><a class="self-link" href="#cf
 	a Working Group or Interest Group charter.</p>
     <h3 class="heading settled" data-level="4.6" id="charter-extension"><span class="secno">4.6. </span><span class="content">
 Charter Extension</span><a class="self-link" href="#charter-extension"></a></h3>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑥">Team</a> <em class="rfc2119">may</em> decide
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑦">Team</a> <em class="rfc2119">may</em> decide
 	to extend a Working Group or Interest Group charter
 	with no other substantive modifications.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑦">Team</a> <em class="rfc2119">must</em> announce
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑧">Team</a> <em class="rfc2119">must</em> announce
 	such <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="charter extension" id="dfn-charter-extension">extensions</dfn>
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①③">Advisory Committee</a>.
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
@@ -3014,7 +3006,7 @@ Charter Extension</span><a class="self-link" href="#charter-extension"></a></h3>
     <h3 class="heading settled" data-level="4.7" id="GeneralTermination"><span class="secno">4.7. </span><span class="content">
 Chartered Group Closure</span><a class="self-link" href="#GeneralTermination"></a></h3>
     <p>A <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG①②">Working Group</a> or <a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG⑥">Interest Group</a> charter specifies a duration for the group.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑧">Team</a>, the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑦">TAG</a>, or the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②②">AB</a> <em class="rfc2119">may</em> propose to close a group
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑨">Team</a>, the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑦">TAG</a>, or the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⓪">AB</a> <em class="rfc2119">may</em> propose to close a group
 	prior to the date specified in the charter in any of the following circumstances:</p>
     <ul>
      <li data-md>
@@ -3025,7 +3017,7 @@ according to priorities established within W3C.</p>
       <p>A <a data-link-type="dfn" href="https://www.w3.org/policies/patent-policy/#patent-advisory-group" id="ref-for-patent-advisory-group">Patent Advisory Group</a> concluded that the work
 <em class="rfc2119">should</em> be terminated.</p>
      <li data-md>
-      <p>The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑧">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②③">AB</a> determined that continuing operation of the chartered group or its work
+      <p>The <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑧">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②①">AB</a> determined that continuing operation of the chartered group or its work
 would be detrimental to W3C or its mission.</p>
      <li data-md>
       <p>The group produced all chartered deliverables ahead of schedule.</p>
@@ -3050,13 +3042,13 @@ Types of Decisions</span><a class="self-link" href="#decision-types"></a></h3>
 	or following a vote (see <a href="#Votes">§ 5.2.3 Deciding by Vote</a>)
 	are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="group decision | resolution" id="group-decision">group decisions</dfn>
 	(also known as group “resolutions”).</p>
-    <p>Decisions made by members of the <a data-link-type="dfn" href="#team" id="ref-for-team⑤⑨">Team</a>
+    <p>Decisions made by members of the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⓪">Team</a>
 	in connection with this Process,
 	based on their own individual or collective judgement,
 	are called <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="Team Decision | Team&apos;s Decision" data-noexport id="team-decision">Team Decisions</dfn>.</p>
     <p>In contrast,
 	a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="def-w3c-decision">W3C decision</dfn> is
-	determined by the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⓪">Team</a> on behalf of the W3C community
+	determined by the <a data-link-type="dfn" href="#team" id="ref-for-team⑥①">Team</a> on behalf of the W3C community
 	by <a href="#ACReviewAfter">assessing the consensus of the W3C Community</a> after an <a href="#ACReview">Advisory Committee review</a>.</p>
     <h3 class="heading settled" data-level="5.2" id="consensus-building"><span class="secno">5.2. </span><span class="content">
 Consensus Building</span><a class="self-link" href="#consensus-building"></a></h3>
@@ -3289,7 +3281,7 @@ Registering Formal Objections</span><a class="self-link" href="#registering-obje
 	(regardless of whether they are associated with a Member)
 	<em class="rfc2119">may</em> appeal any decision made in connection with this Process
 	(except those having a different appeal process)
-	by registering a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="FormalObjection">Formal Objection</dfn> with the <a data-link-type="dfn" href="#team" id="ref-for-team⑥①">Team</a>.
+	by registering a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="FormalObjection">Formal Objection</dfn> with the <a data-link-type="dfn" href="#team" id="ref-for-team⑥②">Team</a>.
 	Group participants <em class="rfc2119">should</em> inform
 	their <a data-link-type="dfn" href="#TeamContact" id="ref-for-TeamContact①⓪">Staff Contact</a> as well as the group’s Chair(s).
 	The Staff Contact <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#ceo" id="ref-for-ceo⑦">CEO</a>
@@ -3334,7 +3326,7 @@ Registering Formal Objections</span><a class="self-link" href="#registering-obje
 Addressing Formal Objections</span><a class="self-link" href="#addressing-fo"></a></h3>
     <h4 class="heading settled" data-level="5.6.1" id="team-fo-mediation"><span class="secno">5.6.1. </span><span class="content">
 Investigation and Mediation by the Team</span><a class="self-link" href="#team-fo-mediation"></a></h4>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑥②">Team</a> considers the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection①⑨">Formal objection</a>,
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑥③">Team</a> considers the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection①⑨">Formal objection</a>,
 	researches the question,
 	interviews parties,
 	and so on,
@@ -3343,36 +3335,36 @@ Investigation and Mediation by the Team</span><a class="self-link" href="#team-f
 	to arrive at a recommended disposition.</p>
     <p>In parallel, the Team <em class="rfc2119">should</em> start the steps necessary
 	to <a href="#council-convention">convene</a> a Council.</p>
-    <p>If the <a data-link-type="dfn" href="#team" id="ref-for-team⑥③">Team</a> can resolve the issue
+    <p>If the <a data-link-type="dfn" href="#team" id="ref-for-team⑥④">Team</a> can resolve the issue
 	to the satisfaction of the individual that filed the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⓪">Formal Objection</a>,
 	the individual withdraws the objection and the disposition process terminates.</p>
     <p>Otherwise,
 	upon concluding that consensus cannot be found,
 	and no later than 90 days after the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②①">Formal Objection</a> being registered,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑥④">Team</a> <em class="rfc2119">must</em>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑤">Team</a> <em class="rfc2119">must</em>
 	deliver to the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③">Council</a> a report
 	documenting its findings and attempts to find consensus,
 	and hand over the matter to the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council④">W3C Council</a>.</p>
     <h4 class="heading settled" data-level="5.6.2" id="council"><span class="secno">5.6.2. </span><span class="content">
 W3C Council</span><a class="self-link" href="#council"></a></h4>
     <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-local-lt="Council" id="w3c-council">W3C Council</dfn> is the body convened to resolve <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②②">Formal Objections</a>
-	by combining the capabilities and perspectives of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②④">AB</a>, the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑨">TAG</a>, and the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑤">Team</a>,
+	by combining the capabilities and perspectives of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②②">AB</a>, the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group②⑨">TAG</a>, and the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑥">Team</a>,
 	and is tasked with doing so in the best interests of the Web and W3C.</p>
     <h5 class="heading settled" data-level="5.6.2.1" id="council-composition"><span class="secno">5.6.2.1. </span><span class="content">
 Council Composition</span><a class="self-link" href="#council-composition"></a></h5>
     <p>Each <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑤">W3C Council</a> is composed of the following members (excepting any <a href="#council-participation">renounced or dismissed</a>):</p>
     <ul>
      <li data-md>
-      <p>the <a data-link-type="dfn" href="#ceo" id="ref-for-ceo⑧">CEO</a> or their chosen <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑥">Team</a> delegate</p>
+      <p>the <a data-link-type="dfn" href="#ceo" id="ref-for-ceo⑧">CEO</a> or their chosen <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑦">Team</a> delegate</p>
      <li data-md>
-      <p>the members of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑤">Advisory Board</a></p>
+      <p>the members of the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②③">Advisory Board</a></p>
      <li data-md>
       <p>the elected and appointed members of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⓪">Technical Architecture Group</a></p>
     </ul>
     <p>Participation in a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑥">W3C Council</a> <em class="rfc2119">must not</em> require attendance of <a data-link-type="dfn" href="#ftf-meeting" id="ref-for-ftf-meeting③">face-to-face meetings</a>.</p>
     <p>A distinct instance of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑦">W3C Council</a> is convened for each decision being appealed or objected to.
 	The list of potential <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑧">Council</a> members evolves
-	as <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑥">AB</a> and <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③①">TAG</a> terms start and end
+	as <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②④">AB</a> and <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③①">TAG</a> terms start and end
 	until <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed">dismissal</a> and <a data-link-type="dfn" href="#renounce" id="ref-for-renounce">renunciation</a> are concluded,
 	at which point the membership of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council⑨">Council</a> is fixed.
 	However, if the number of active members in a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⓪">Council</a> falls so low as to hinder effective and balanced deliberations,
@@ -3380,7 +3372,7 @@ Council Composition</span><a class="self-link" href="#council-composition"></a><
 	and call for a new one to be convened.</p>
     <p class="note" role="note"><span class="marker">Note:</span> TAG and AB elections have no effect on the Council’s membership
 	once it is fixed.</p>
-    <p>A <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑦">Team</a> member is assigned
+    <p>A <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑧">Team</a> member is assigned
 	to act as the <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="council-staff-contact"><span class="bs-old-id" id="council-team-contact"></span>Council Staff Contact</dfn>,
 	to support this Council
 	and to facilitate adherence to this Process.</p>
@@ -3388,19 +3380,19 @@ Council Composition</span><a class="self-link" href="#council-composition"></a><
 Extraordinary Delegation</span><a class="self-link" href="#council-delegation"></a></h5>
     <p>In extraordinary cases,
 	if they feel a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①②">Council</a> would not be the appropriate deciding body,
-	a member of the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑧">Team</a> (particularly the Legal Counsel) or
+	a member of the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑨">Team</a> (particularly the Legal Counsel) or
 	any potential Council member
 	may suggest that the decision for that specific Formal Objection be delegated
 	to the W3C Board of Directors,
 	to an officer of its corporation (such as the Legal Counsel),
-	or to one or more specific individuals from the <a data-link-type="dfn" href="#team" id="ref-for-team⑥⑨">Team</a>.
+	or to one or more specific individuals from the <a data-link-type="dfn" href="#team" id="ref-for-team⑦⓪">Team</a>.
 	The potential Council members then <em class="rfc2119">may</em> confidentially discuss
 	and <em class="rfc2119">must</em> vote
 	whether to delegate the decision for that specific <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②③">Formal Objection</a>.
 	A decision to delegate <em class="rfc2119">must</em> be supported by a two-thirds supermajority vote
 	(i.e., at least twice as many votes in favor as against).
 	Delegation in such cases cannot be later revoked.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⓪">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦①">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①④">Advisory Committee</a>
 	when a <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②④">Formal Objection</a> has been delegated,
 	and to whom it has been delegated.</p>
     <h5 class="heading settled" data-level="5.6.2.3" id="council-participation"><span class="secno">5.6.2.3. </span><span class="content">
@@ -3417,19 +3409,19 @@ Council Participation, Dismissal, and Renunciation</span><a class="self-link" hr
     <p class="note" role="note"><span class="marker">Note:</span> A W3C Council is a deliberative body whose purpose is
 	to find the best way forward for the Web and for W3C.
 	It is not a judicial body tasked with determining right or wrong.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦①">Team</a> <em class="rfc2119">must</em> draft a list of potential <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①③">Council</a> members,
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦②">Team</a> <em class="rfc2119">must</em> draft a list of potential <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①③">Council</a> members,
 	with annotations of possible reasons for dismissal against each one.
 	The W3C community,
 	including members and team, and potential council members,
 	<em class="rfc2119">must</em> be given an opportunity to contribute possible reasons to this list.
 	Affected members <em class="rfc2119">must</em> be given
 	an opportunity to respond to such comments about themselves.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦②">Team</a> may report comments verbatim
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦③">Team</a> may report comments verbatim
 	or may paraphrase them while preserving their intent;
 	they may also elide inappropriate comments,
 	such as any that violate applicable laws or the <a data-link-type="biblio" href="#biblio-coc" title="W3C Code of Conduct">[COC]</a>.</p>
     <p>Before a Council forms,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑦③">Team</a> presents the entire list of potential members
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑦④">Team</a> presents the entire list of potential members
 	and collected reasons and responses
 	to the potential Council members,
 	who then consider for each potential member
@@ -3439,8 +3431,8 @@ Council Participation, Dismissal, and Renunciation</span><a class="self-link" hr
 	No one is allowed to vote on their own dismissal;
 	each dismissal is enacted if there are at least as many ballots for as against.</p>
     <p class="note" role="note"><span class="marker">Note:</span> Since dismissal is individual,
-	when the decision being objected to was made by the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③②">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑦">AB</a> acting as a body,
-	the entire <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③③">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑧">AB</a> is not expected to be dismissed.</p>
+	when the decision being objected to was made by the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③②">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑤">AB</a> acting as a body,
+	the entire <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③③">TAG</a> or <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑥">AB</a> is not expected to be dismissed.</p>
     <p>An individual <em class="rfc2119">may</em> also <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="renounce | renunciation" data-noexport id="renounce">renounce</dfn> their seat on a Council, for strong reason,
 	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
 	their renunciation.
@@ -3491,12 +3483,12 @@ Council Chairing</span><a class="self-link" href="#council-chairing"></a></h5>
 Convening the Council</span><a class="self-link" href="#council-convention"></a></h5>
     <p>When <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed④">dismissal</a>, <a data-link-type="dfn" href="#renounce" id="ref-for-renounce②">renunciation</a>, and
 	appointment of the <a data-link-type="dfn" href="#w3c-council-chair" id="ref-for-w3c-council-chair②">W3C Council Chair</a> have concluded,
-	and the <a data-link-type="dfn" href="#team" id="ref-for-team⑦④">Team</a>’s report has been delivered,
+	and the <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑤">Team</a>’s report has been delivered,
 	the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⑦">W3C Council</a> is considered to be <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="convened">convened</dfn>
 	and can start <a href="#council-deliberations">deliberations</a>.</p>
     <p>If a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council①⑧">W3C Council</a> has not yet been <a data-link-type="dfn" href="#convened" id="ref-for-convened">convened</a> within 90 days of a Formal Objection
 	being <a href="#registering-objections">registered</a>,
-	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⑨">Chairs</a> of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③④">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑨">AB</a> <em class="rfc2119">may</em> take independent action to ensure
+	the <a data-link-type="dfn" href="#GeneralChairs" id="ref-for-GeneralChairs②⑨">Chairs</a> of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③④">TAG</a> and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑦">AB</a> <em class="rfc2119">may</em> take independent action to ensure
 	that the <a data-link-type="dfn" href="#dismissed" id="ref-for-dismissed⑤">dismissal</a>, <a data-link-type="dfn" href="#renounce" id="ref-for-renounce③">renunciation</a>,
 	and <a href="#council-chairing">chair selection</a> processes have been run.
 	If a report from the Team is not delivered within those 90 days,
@@ -3534,13 +3526,13 @@ Council Deliberations</span><a class="self-link" href="#council-deliberations"><
 	pertaining to <a data-link-type="dfn" href="#upheld" id="ref-for-upheld">upheld</a> aspects of the Formal Objection(s)
 	(e.g., if the objection concerns material already in a published document)
 	the Council <em class="rfc2119">should</em> suggest how these consequences might be mitigated.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑤">Team</a> is responsible for making sure that adequate mitigations are enacted in a timely fashion;
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑥">Team</a> is responsible for making sure that adequate mitigations are enacted in a timely fashion;
 	and the <a data-link-type="dfn" href="#upheld" id="ref-for-upheld①">upheld</a> aspects of the <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection②⑦">Formal Objection(s)</a> (as identified in the <a data-link-type="dfn" href="#council-report" id="ref-for-council-report">Council Report</a>) are not considered <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="fully-addressed">fully addressed</dfn> until then.
 
 </p>
-    <p class="note" role="note"><span class="marker">Note:</span> This does not create new powers for the <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑥">Team</a>,
+    <p class="note" role="note"><span class="marker">Note:</span> This does not create new powers for the <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑦">Team</a>,
 	such as the ability to “unpublish” documents.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑦">Team</a>’s role is to ensure the responsible parties enact adequate mitigations,
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑧">Team</a>’s role is to ensure the responsible parties enact adequate mitigations,
 	by whatever means they already have at their disposal.</p>
     <p>A Council <em class="rfc2119">may</em> form sub-groups for deliberation,
 	who may return with a recommendation,
@@ -3609,7 +3601,7 @@ which <em class="rfc2119">should</em> address each argument raised in the Formal
      <li data-md>
       <p><em class="rfc2119">must not</em> attribute any position to any individual on the Council.</p>
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑧">Team</a> <em class="rfc2119">must</em> maintain a <a data-biblio-display="inline" data-link-type="biblio" href="https://www.w3.org/about/council/">public page on the W3C website</a>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑨">Team</a> <em class="rfc2119">must</em> maintain a <a data-biblio-display="inline" data-link-type="biblio" href="https://www.w3.org/about/council/">public page on the W3C website</a>
 	indexing all completed <a data-link-type="dfn" href="#council-report" id="ref-for-council-report①">Council Reports</a>.
 	If a Council decision is later overturned by an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal">AC Appeal</a>,
 	this <em class="rfc2119">must</em> also be mentioned.
@@ -3636,12 +3628,12 @@ Advisory Committee Reviews and W3C Decisions</span><a class="self-link" href="#A
     <h4 class="heading settled" data-level="5.7.1" id="ACReviewStart"><span class="secno">5.7.1. </span><span class="content">
 Initiating an Advisory Committee Review</span><a class="self-link" href="#ACReviewStart"></a></h4>
     <p>Each <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①③">Advisory Committee review</a> period
-	begins with a Call for Review from the <a data-link-type="dfn" href="#team" id="ref-for-team⑦⑨">Team</a> to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑦">Advisory Committee</a>.
+	begins with a Call for Review from the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⓪">Team</a> to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑦">Advisory Committee</a>.
 	The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="reviewform">Call for Review</dfn> describes the proposal,
 	raises attention to deadlines,
 	estimates when the decision will be available,
 	and includes other practical information.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team⑧⓪">Team</a> <em class="rfc2119">may</em> share its perspective on the proposal
+	The <a data-link-type="dfn" href="#team" id="ref-for-team⑧①">Team</a> <em class="rfc2119">may</em> share its perspective on the proposal
 	in the <a data-link-type="dfn" href="#reviewform" id="ref-for-reviewform">Call for Review</a>.
 	Each Member organization <em class="rfc2119">may</em> send one review,
 	which <em class="rfc2119">must</em> be returned by its <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative①⑧">Advisory Committee representative</a>.</p>
@@ -3671,7 +3663,7 @@ Initiating an Advisory Committee Review</span><a class="self-link" href="#ACRevi
     <h4 class="heading settled" data-level="5.7.2" id="ACReviewAfter"><span class="secno">5.7.2. </span><span class="content">
 Determining the W3C Decision</span><a class="self-link" href="#ACReviewAfter"></a></h4>
     <p>After the review period,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧①">Team</a> determines the appropriate <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑦">W3C Decision</a>,
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧②">Team</a> determines the appropriate <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision⑦">W3C Decision</a>,
 	which they <em class="rfc2119">must</em> announce to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee①⑧">Advisory Committee</a>.
 	The announcement <em class="rfc2119">must</em> indicate
 	the level of support for the proposal
@@ -3723,7 +3715,7 @@ Determining the W3C Decision</span><a class="self-link" href="#ACReviewAfter"></
 	or if all <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection③③">Formal Objections</a> against the revised proposal are retracted or <a data-link-type="dfn" href="#overrule" id="ref-for-overrule①">overruled</a>
 	and the revised proposal otherwise has sufficient support to achieve <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus①⑤">consensus</a>.
 	For clarity,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧②">Team</a> <em class="rfc2119">should</em> seek a response from this subset of the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②②">AC</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧③">Team</a> <em class="rfc2119">should</em> seek a response from this subset of the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②②">AC</a>
 	using the same tooling and degree of formality as it did for the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑤">AC Review</a>;
 	and as is the case during <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑥">AC Reviews</a>,
 	<a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent④">dissent</a> in this context <em class="rfc2119">must</em> be expressed as a <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection③④">Formal Objection</a>.</p>
@@ -3761,13 +3753,13 @@ Determining the W3C Decision</span><a class="self-link" href="#ACReviewAfter"></
     <p>This document does not specify
 	time intervals between the end of an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review①⑨">Advisory Committee review</a> period
 	and the <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①⓪">W3C decision</a>.
-	This is to ensure that the Members and <a data-link-type="dfn" href="#team" id="ref-for-team⑧③">Team</a>
+	This is to ensure that the Members and <a data-link-type="dfn" href="#team" id="ref-for-team⑧④">Team</a>
 	have sufficient time to consider comments
 	gathered during the review.
 	The <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②④">Advisory Committee</a> <em class="rfc2119">should not</em> expect an announcement
 	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
 	If, after <span class="time-interval">three weeks</span>, the outcome has not been announced,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧④">Team</a> <em class="rfc2119">should</em> provide the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑤">Advisory Committee</a> with an update.</p>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑤">Team</a> <em class="rfc2119">should</em> provide the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑤">Advisory Committee</a> with an update.</p>
     <h3 class="heading settled" data-level="5.8" id="ACVotes"><span class="secno">5.8. </span><span class="content">
 Advisory Committee Votes</span><a class="self-link" href="#ACVotes"></a></h3>
     <p>The <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑥">Advisory Committee</a> votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
@@ -3798,14 +3790,14 @@ Appeal by Advisory Committee Representatives</span><a class="self-link" href="#A
 	and <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement">technical agreements</a>.</p>
     <p>In all cases,
 	an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal③">appeal</a> <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.</p>
-    <p>An <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②③">Advisory Committee representative</a> initiates an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal④">appeal</a> by sending a request to the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑤">Team</a>,
+    <p>An <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②③">Advisory Committee representative</a> initiates an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal④">appeal</a> by sending a request to the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑥">Team</a>,
 	and should also share this request with the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑧">Advisory Committee</a>.
 	The request should say “I appeal this Decision”
 	and identify the decision,
 	and may also include their rationale for appealing the decision.</p>
     <p class="note" role="note"><span class="marker">Note:</span> See <a data-biblio-display="inline" data-link-type="biblio" href="https://www.w3.org/guide/process/ac-appeal"><cite>Appealing a W3C Decision</cite></a> for a recommendation
-	on how to communicate an appeal request to the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑥">Team</a> and the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑨">AC</a>.</p>
-    <p>Within one week the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑦">Team</a> <em class="rfc2119">must</em> announce the appeal process
+	on how to communicate an appeal request to the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑦">Team</a> and the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee②⑨">AC</a>.</p>
+    <p>Within one week the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑧">Team</a> <em class="rfc2119">must</em> announce the appeal process
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee③⓪">Advisory Committee</a>
 	and provide a mechanism for <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②④">Advisory Committee representatives</a>
 	to respond with a statement of positive support for this appeal.
@@ -3916,7 +3908,7 @@ Types of Technical Reports</span><a class="self-link" href="#recs-and-notes"></a
      <dt>Registries
 		
      <dd>
-			<a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group③">Chartered</a> and <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group">elected groups</a> can also publish <a data-link-type="dfn" href="#registry" id="ref-for-registry①">registries</a>
+			<a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group③">Chartered</a> and <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group①">elected groups</a> can also publish <a data-link-type="dfn" href="#registry" id="ref-for-registry①">registries</a>
 			in order to document collections of values or other data.
 			A registry can be published either as a distinct <a data-link-type="dfn" href="#registry-report" id="ref-for-registry-report">registry report</a>,
 			or directly within a <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track③">Recommendation Track</a> document
@@ -4024,7 +4016,7 @@ Wide Review</span><a class="self-link" href="#wide-review"></a></h5>
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑧">Team</a> will consider who has been explicitly offered
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑨">Team</a> will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -4221,7 +4213,7 @@ Candidate Amendments</span><a class="self-link" href="#candidate-amendments"></a
 Maintenance Without a Group</span><a class="self-link" href="#no-group-maintenance"></a></h4>
     <p>For all <a href="#recs-and-notes">types of technical reports</a> and all <a href="#maturity-stages">maturity stages</a>,
 	if there is no <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group④">group</a> chartered to maintain a <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report①④">technical report</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑧⑨">Team</a> <em class="rfc2119">may</em> republish it
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⓪">Team</a> <em class="rfc2119">may</em> republish it
 	at the same <a href="#maturity-stages">maturity stage</a>,
 	integrating as needed:</p>
     <ol>
@@ -4237,12 +4229,12 @@ Maintenance Without a Group</span><a class="self-link" href="#no-group-maintenan
     </ol>
     <p>To avoid any potential doubt or disagreement
 	about whether changes really do fall into <a href="#correction-classes">class 2</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⓪">Team</a> <em class="rfc2119">should</em> be conservative,
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨①">Team</a> <em class="rfc2119">should</em> be conservative,
 	limiting itself to obvious and limited fixes,
 	and <em class="rfc2119">must</em> avoid substantial rephrasing,
 	even of non-normative examples and notes.
 	If any such change is desired,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨①">Team</a> <em class="rfc2119">must</em> mark it as a <a data-link-type="dfn" href="#team-correction" id="ref-for-team-correction①">Team correction</a>.</p>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨②">Team</a> <em class="rfc2119">must</em> mark it as a <a data-link-type="dfn" href="#team-correction" id="ref-for-team-correction①">Team correction</a>.</p>
     <p><a data-link-type="dfn" href="#team-correction" id="ref-for-team-correction②">Team corrections</a> do not constitute
 	a normative portion of the Recommendation,
 	as defined in the Patent Policy <a data-link-type="biblio" href="#biblio-patent-policy" title="The W3C Patent Policy">[PATENT-POLICY]</a>
@@ -4252,14 +4244,14 @@ Maintenance Without a Group</span><a class="self-link" href="#no-group-maintenan
 	<a data-link-type="dfn" href="#candidate-registry" id="ref-for-candidate-registry">Candidate Registries</a>,
 	<a data-link-type="dfn" href="#w3c-registry" id="ref-for-w3c-registry">W3C Registries</a>,
 	as well as <a data-link-type="dfn" href="#statement" id="ref-for-statement①">W3C Statements</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨②">Team</a> <em class="rfc2119">must</em> solicit <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review④">wide review</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨③">Team</a> <em class="rfc2119">must</em> solicit <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review④">wide review</a>
 	on <a data-link-type="dfn" href="#team-correction" id="ref-for-team-correction③">Team corrections</a> that it produces.</p>
     <h4 class="heading settled" data-level="6.2.7" id="contributor-license"><span class="secno">6.2.7. </span><span class="content">
 License Grants from Non-Participants</span><a class="self-link" href="#contributor-license"></a></h4>
     <p>When a party who is not already obligated under the Patent Policy
 	offers a change in class 3 or 4
 	(as described in <a href="#correction-classes">§ 6.2.3 Classes of Changes</a>) to a technical report under this process
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨③">Team</a> <em class="rfc2119">must</em> request
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨④">Team</a> <em class="rfc2119">must</em> request
 	a recorded royalty-free patent commitment;
 	for a change in class 4, the Team <em class="rfc2119">must</em> <em>secure</em> such commitment.
 	Such commitment <em class="rfc2119">should</em> cover,
@@ -4521,7 +4513,7 @@ The W3C Recommendation Track</span><a class="self-link" href="#rec-track"></a></
     </figure>
     <p>Only sufficiently technically mature work should be advanced.
 	As described in <a href="#transition-reqs">§ 6.3.3 Advancement on the Recommendation Track</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨④">Team</a> will decline a request to advance in maturity stage
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑤">Team</a> will decline a request to advance in maturity stage
 	and return the specification to a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③②">Working Group</a> for further work
 	if it determines that the requirements for advancement
 	have not been met.</p>
@@ -4771,7 +4763,7 @@ Implementation Experience</span><a class="self-link" href="#implementation-exper
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
 	when assessing that there is <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="adequate-implementation">adequate implementation experience</dfn>
-	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑤">Team</a> will consider (though not be limited to):</p>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑥">Team</a> will consider (though not be limited to):</p>
     <ul>
      <li>
 			is each feature of the current specification implemented,
@@ -4817,13 +4809,13 @@ Advancement on the Recommendation Track</span><a class="self-link" href="#transi
 
 		
      <li id="adv-verif-reqs"><a class="self-link" href="#adv-verif-reqs"></a>
-			<em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑥">Team</a> verification.
-			<a data-link-type="dfn" href="#team" id="ref-for-team⑨⑦">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑨">Team decision</a>)
+			<em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑦">Team</a> verification.
+			<a data-link-type="dfn" href="#team" id="ref-for-team⑨⑧">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision⑨">Team decision</a>)
 			<em class="rfc2119">must</em> be withheld if any Process requirements are not met
 			or if there remain any unresolved Formal Objections
 			(including any aspect <a data-link-type="dfn" href="#upheld" id="ref-for-upheld④">upheld</a> by a <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③⑤">Council</a> but not yet <a data-link-type="dfn" href="#fully-addressed" id="ref-for-fully-addressed">fully addressed</a>),
 			or if the document does not adequately reflect all relevant decisions of the <a data-link-type="dfn" href="#w3c-council" id="ref-for-w3c-council③⑥">W3C Council</a> (or its delegates).
-			If the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑧">Team</a> rejects a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req①">Transition Request</a>
+			If the <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑨">Team</a> rejects a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req①">Transition Request</a>
 			it <em class="rfc2119">must</em> indicate its rationale
 			to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee③④">Advisory Committee</a> and the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG③⑦">Working Group</a>.
 
@@ -4896,8 +4888,8 @@ Updating Mature Publications on the Recommendation Track</span><a class="self-li
 		
      <li>
       
-			<em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team⑨⑨">Team</a> verification.
-			<a data-link-type="dfn" href="#team" id="ref-for-team①⓪⓪">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision①⓪">Team decision</a>):
+			<em class="rfc2119">must </em> obtain <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⓪">Team</a> verification.
+			<a data-link-type="dfn" href="#team" id="ref-for-team①⓪①">Team</a> verification (a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision①⓪">Team decision</a>):
 
       <ul>
        <li data-md>
@@ -4916,7 +4908,7 @@ all relevant decisions of a <a data-link-type="dfn" href="#w3c-council" id="ref-
 if the Team believes the Group is not making reasonable progress
 on addressing issues raised by individuals external to the Group.</p>
       </ul>
-      <p>If the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪①">Team</a> rejects an <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests③">Update Request</a>,
+      <p>If the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪②">Team</a> rejects an <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests③">Update Request</a>,
 			it must indicate its rationale to the <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④①">Working Group</a>.
 			If it waives any Process requirements,
 			it must indicate its rationale to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee③⑤">AC</a>.</p>
@@ -4964,14 +4956,14 @@ on addressing issues raised by individuals external to the Group.</p>
 	to verify that the requirements have been met.</p>
     <p class="note" role="note"><span class="marker">Note:</span> <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests④">Update request</a> verification is expected to be fairly simple
 	compared to verification of a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req③">transition request</a>.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪②">Team</a> <em class="rfc2119">must</em> announce the publication
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪③">Team</a> <em class="rfc2119">must</em> announce the publication
 	of the revised specification
 	to other W3C groups and the Public.</p>
     <h4 class="heading settled" data-level="6.3.5" id="first-wd"><span class="secno">6.3.5. </span><span class="content">
 Publishing a First Public Working Draft</span><a class="self-link" href="#first-wd"></a></h4>
     <p>To publish the <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd④">First Public Working Draft</a> of a document,
 	a <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG④⑤">Working Group</a> <em class="rfc2119">must</em> meet the applicable <a href="#transition-reqs">requirements for advancement</a>.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪③">Team</a> <em class="rfc2119">must</em> announce
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪④">Team</a> <em class="rfc2119">must</em> announce
 	the publication of a <a data-link-type="dfn" href="#fpwd" id="ref-for-fpwd⑤">First Public Working Draft</a>
 	to other W3C groups and to the public.</p>
     <h4 class="heading settled" data-level="6.3.6" id="revising-wd"><span class="secno">6.3.6. </span><span class="bs-old-id" id="revised-wd"></span><span class="content">
@@ -5062,7 +5054,7 @@ Transitioning to Candidate Recommendation</span><a class="self-link" href="#tran
     <p>The first Candidate Recommendation publication
 	after verification of having met the requirements for a <a data-link-type="dfn" href="#trans-req" id="ref-for-trans-req④">Transition Request</a>
 	is always a <a data-link-type="dfn" href="#candidate-recommendation-snapshot" id="ref-for-candidate-recommendation-snapshot⑤">Candidate Recommendation Snapshot</a>.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪④">Team</a> <em class="rfc2119">must</em> announce
+	The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑤">Team</a> <em class="rfc2119">must</em> announce
 	the publication of the <a data-link-type="dfn" href="#candidate-recommendation-snapshot" id="ref-for-candidate-recommendation-snapshot⑥">Candidate Recommendation Snapshot</a>
 	to other W3C groups
 	and to the public.</p>
@@ -5100,7 +5092,7 @@ Publishing a <a data-link-type="dfn" href="#candidate-recommendation-snapshot" i
 			without requiring an <a data-link-type="dfn" href="#update-requests" id="ref-for-update-requests⑦">Update Request</a>.
 	
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑤">Team</a> <em class="rfc2119">must</em> announce
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑥">Team</a> <em class="rfc2119">must</em> announce
 	the publication of a revised <a data-link-type="dfn" href="#candidate-recommendation-snapshot" id="ref-for-candidate-recommendation-snapshot①⓪">Candidate Recommendation Snapshot</a>
 	to other W3C groups
 	and to the public.</p>
@@ -5187,10 +5179,10 @@ Requirements for Transition</span><a class="self-link" href="#transition-rec-req
 			except where an exception is approved by a <a data-link-type="dfn" href="#team-decision" id="ref-for-team-decision①①">Team Decision</a>.
 
 
-      <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑥">Team</a> <em class="rfc2119">may</em> approve a <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR①⑨">Candidate Recommendation</a>
+      <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑦">Team</a> <em class="rfc2119">may</em> approve a <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR①⑨">Candidate Recommendation</a>
 			with minimal <a href="#implementation-experience">implementation experience</a>
 			where there is a compelling reason to do so.
-			In such a case, the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑦">Team</a> <em class="rfc2119">must</em> explain the reasons for that decision,
+			In such a case, the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑧">Team</a> <em class="rfc2119">must</em> explain the reasons for that decision,
 			and that information <em class="rfc2119">must</em> be included in the <a data-link-type="dfn" href="#reviewform" id="ref-for-reviewform②">Call for Review</a>
 			proposing advancement to <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C②⑨">W3C Recommendation</a>.</p>
      <li>
@@ -5220,7 +5212,7 @@ Requirements for Transition</span><a class="self-link" href="#transition-rec-req
 	and <em class="rfc2119">must not</em> include any such marking
 	if not already present.</p>
     <p>If the document’s most recent publication is a <a data-link-type="dfn" href="#candidate-recommendation-draft" id="ref-for-candidate-recommendation-draft⑦">Candidate Recommendation Draft</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑧">Team</a> <em class="rfc2119">must</em> verify
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑨">Team</a> <em class="rfc2119">must</em> verify
 	that it contains no changes since the previous <a data-link-type="dfn" href="#candidate-recommendation-snapshot" id="ref-for-candidate-recommendation-snapshot①⑥">Candidate Recommendation Snapshot</a> other than:</p>
     <ul>
      <li data-md>
@@ -5237,7 +5229,7 @@ after its publication as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-R
     <h5 class="heading settled" data-level="6.3.9.2" id="initiating-rec-review"><span class="secno">6.3.9.2. </span><span class="content">
 Initiating Review</span><a class="self-link" href="#initiating-rec-review"></a></h5>
     <p>If all the criteria above are fulfilled,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①⓪⑨">Team</a> <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②③">Advisory Committee Review</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⓪">Team</a> <em class="rfc2119">must</em> begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②③">Advisory Committee Review</a>
 	on the question of whether the identified <a data-link-type="dfn" href="#RecsCR" id="ref-for-RecsCR②⓪">Candidate Recommendation</a>
 	is appropriate to <a data-link-type="dfn" href="#publishing" id="ref-for-publishing⑦">publish</a> as a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③②">W3C Recommendation</a>.
 	The deadline for <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②④">Advisory Committee review</a>
@@ -5249,14 +5241,14 @@ Initiating Review</span><a class="self-link" href="#initiating-rec-review"></a><
     <h5 class="heading settled" data-level="6.3.9.3" id="rec-review-resolution"><span class="secno">6.3.9.3. </span><span class="content">
 Resolution of Review</span><a class="self-link" href="#rec-review-resolution"></a></h5>
     <p>If there was any <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection④⓪">Formal Objection</a> during the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②⑤">Advisory Committee Review</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⓪">Team</a> <em class="rfc2119">must</em> publish the substantive content of the <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①①①">Team</a> <em class="rfc2119">must</em> publish the substantive content of the <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑤">dissent</a>
 	to W3C and the general public,
 	and the <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③③">W3C Recommendation</a> <em class="rfc2119">must not</em> be published
 	unless all <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection④①">Formal Objections</a> to the document have been retracted or <a data-link-type="dfn" href="#overrule" id="ref-for-overrule③">overruled</a>
 	and at least 14 days have elapsed since the publication of the corresponding <a data-link-type="dfn" href="#council-report" id="ref-for-council-report⑤">Council Report</a>.</p>
     <p>The decision to advance a document to <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③④">Recommendation</a>
 	is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①③">W3C Decision</a>.
-	The <a data-link-type="dfn" href="#team" id="ref-for-team①①①">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑤">W3C Recommendation</a>
+	The <a data-link-type="dfn" href="#team" id="ref-for-team①①②">Team</a> <em class="rfc2119">must</em> announce the publication of a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C③⑤">W3C Recommendation</a>
 	to the <a href="#AC">Advisory Committee</a>,
 	to other W3C groups
 	and to the public.
@@ -5414,8 +5406,8 @@ Regression on the Recommendation Track</span><a class="self-link" href="#rec-tra
 	by fulfilling the requirements to transition to that maturity stage,
 	as described above.</p>
     <p>Additionally,
-	with the approvals (by <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑤">group decision</a>) of each of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑤">TAG</a> and the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⓪">AB</a>
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①①②">Team</a> <em class="rfc2119">may</em> return
+	with the approvals (by <a data-link-type="dfn" href="#group-decision" id="ref-for-group-decision⑤">group decision</a>) of each of the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑤">TAG</a> and the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑧">AB</a>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①①③">Team</a> <em class="rfc2119">may</em> return
 	the <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report②⑤">technical report</a> to a lower <a href="#maturity-stages">maturity stage</a>
 	in response to <a data-link-type="dfn" href="#dfn-wide-review" id="ref-for-dfn-wide-review①⓪">wide review</a> or a <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection④②">formal objection</a>.</p>
     <h4 class="heading settled" data-level="6.3.12" id="tr-end"><span class="secno">6.3.12. </span><span class="content">
@@ -5562,7 +5554,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</spa
 	superseding,
 	or restoring
 	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥④">Recommendation</a> can be initiated
-	either by a request from the <a data-link-type="dfn" href="#team" id="ref-for-team①①③">Team</a>
+	either by a request from the <a data-link-type="dfn" href="#team" id="ref-for-team①①④">Team</a>
 	or via a request from any of the following:</p>
     <ul>
      <li>
@@ -5585,14 +5577,14 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</spa
 			5% of <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑦">Advisory Committee representatives</a> of <a data-link-type="dfn" href="#w3c-member" id="ref-for-w3c-member⑤">Members</a> in <a data-link-type="dfn" href="#good-standing" id="ref-for-good-standing②">Good Standing</a>
 	
     </ul>
-    <p id="proposed-rescinded-rec">The <a data-link-type="dfn" href="#team" id="ref-for-team①①④">Team</a> <em class="rfc2119">must</em> then
+    <p id="proposed-rescinded-rec">The <a data-link-type="dfn" href="#team" id="ref-for-team①①⑤">Team</a> <em class="rfc2119">must</em> then
 	submit the request to the <a href="#AC">Advisory Committee</a> for review.
 	For any <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review②⑨">Advisory Committee review</a> of a proposal to
 	rescind,
 	obsolete,
 	supersede,
 	or restore
-	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑦">Recommendation</a> the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑤">Team</a> <em class="rfc2119">must</em>:
+	a <a data-link-type="dfn" href="#RecsW3C" id="ref-for-RecsW3C⑥⑦">Recommendation</a> the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑥">Team</a> <em class="rfc2119">must</em>:
 
 	</p>
     <ul>
@@ -5641,14 +5633,14 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</spa
 	
     </ul>
     <p>If there was any <a data-link-type="dfn" href="#def-Dissent" id="ref-for-def-Dissent⑥">dissent</a> in the <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③⓪">Advisory Committee review</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑥">Team</a> <em class="rfc2119">must</em> publish
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑦">Team</a> <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C
 	<strong>and the public</strong>,
 	and <em class="rfc2119">must</em> <a data-link-type="dfn" href="#formally-addressed" id="ref-for-formally-addressed⑥">formally address</a> the dissent
 	at least 14 days
 	before publication as an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs③">Obsolete</a> or <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec②">Rescinded Recommendation</a>.</p>
     <p>The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑦">Advisory Committee Appeal</a>
-	of the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑦">Team</a>’s decision.</p>
+	of the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑧">Team</a>’s decision.</p>
     <p>W3C <em class="rfc2119">must</em> publish an <a data-link-type="dfn" href="#RecsObs" id="ref-for-RecsObs④">Obsolete</a> or <a data-link-type="dfn" href="#RescindedRec" id="ref-for-RescindedRec③">Rescinded Recommendation</a>
 	with up to date status.
 	The updated version <em class="rfc2119">may</em> remove the main body of the document.
@@ -5670,7 +5662,7 @@ Group Notes</span><a class="self-link" href="#Note"></a></h4>
     <p><a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦②">Working Groups</a>,
 	<a data-link-type="dfn" href="#GroupsIG" id="ref-for-GroupsIG①②">Interest Groups</a>,
 	the <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑧">TAG</a>
-	and the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③①">AB</a>
+	and the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board②⑨">AB</a>
 	<em class="rfc2119">may</em> publish work as <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote②">Notes</a>.
 	Examples include:</p>
     <ul>
@@ -5743,14 +5735,14 @@ Elevating Group Notes to W3C Statement status</span><a class="self-link" href="#
 	for why it should be elevated,
 	and why it is not on the <a data-link-type="dfn" href="#w3c-recommendation-track" id="ref-for-w3c-recommendation-track①①">Recommendation track</a>.</p>
     <p>Once these conditions are fulfilled,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑧">Team</a> <em class="rfc2119">must</em> then
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①①⑨">Team</a> <em class="rfc2119">must</em> then
 	begin an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③①">Advisory Committee Review</a> on the question of
 	whether the document is appropriate to publish as a <a data-link-type="dfn" href="#statement" id="ref-for-statement⑥">W3C Statement</a>.
 	During this review period,
 	the <a data-link-type="dfn" href="#WGNote" id="ref-for-WGNote①⑦">Note</a> <em class="rfc2119">must not</em> be updated.</p>
     <p>The decision to advance a document to <a data-link-type="dfn" href="#statement" id="ref-for-statement⑦">W3C Statement</a> is a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①⑤">W3C Decision</a>.
 	<a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative②⑧">Advisory Committee representatives</a> may initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal⑧">Advisory Committee Appeal</a> of the decision.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①①⑨">Team</a> must announce the publication of a <a data-link-type="dfn" href="#statement" id="ref-for-statement⑧">W3C Statement</a>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②⓪">Team</a> must announce the publication of a <a data-link-type="dfn" href="#statement" id="ref-for-statement⑧">W3C Statement</a>
 	to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee③⑨">Advisory Committee</a>, other W3C groups, and the public.</p>
     <h4 class="heading settled" data-level="6.4.4" id="revising-memo"><span class="secno">6.4.4. </span><span class="content">
 Revising W3C Statements</span><a class="self-link" href="#revising-memo"></a></h4>
@@ -5876,23 +5868,23 @@ Registry Definitions</span><a class="self-link" href="#reg-def"></a></h4>
 			satisfy the criteria defined in the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition②">registry definition</a>.
 
 
-      <p>The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian①">custodian</a> may be the initiating group, the <a data-link-type="dfn" href="#team" id="ref-for-team①②⓪">Team</a>, or a delegated entity.
+      <p>The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian①">custodian</a> may be the initiating group, the <a data-link-type="dfn" href="#team" id="ref-for-team①②①">Team</a>, or a delegated entity.
 			The <a data-link-type="dfn" href="#custodian" id="ref-for-custodian②">custodian</a> for all <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table⑨">registry tables</a> in a single <a data-link-type="dfn" href="#registry" id="ref-for-registry⑤">registry</a>
 			<em class="rfc2119">should</em> generally be the same entity.</p>
       <p>If the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian③">custodian</a> of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⓪">registry table</a>
 			ceases to exist or to operate as a custodian
 			(e.g., the relevant group is disbanded, or 
 			the custodian is unresponsive to repeated attempts to make contact),
-			and the <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group⑤">chartered</a> or <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group①">elected group</a> that owns the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition③">registry definition</a>
+			and the <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group⑤">chartered</a> or <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group②">elected group</a> that owns the <a data-link-type="dfn" href="#registry-definition" id="ref-for-registry-definition③">registry definition</a>
 			is itself <a href="#GeneralTermination">closed</a> or 
 			unresponsive,
-			the <a data-link-type="dfn" href="#team" id="ref-for-team①②①">Team</a> <em class="rfc2119">should</em> propose replacing the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian④">custodian</a>,
+			the <a data-link-type="dfn" href="#team" id="ref-for-team①②②">Team</a> <em class="rfc2119">should</em> propose replacing the <a data-link-type="dfn" href="#custodian" id="ref-for-custodian④">custodian</a>,
 			which <em class="rfc2119">must</em> be confirmed
 			by an <a data-link-type="dfn" href="#advisory-committee-review" id="ref-for-advisory-committee-review③③">AC Review</a> as a <a data-link-type="dfn" href="#def-w3c-decision" id="ref-for-def-w3c-decision①⑦">W3C Decision</a>.</p>
     </ul>
     <h4 class="heading settled" data-level="6.5.2" id="reg-pub"><span class="secno">6.5.2. </span><span class="content">
 Publishing Registries</span><a class="self-link" href="#reg-pub"></a></h4>
-    <p>A <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group⑥">chartered</a> or <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group②">elected group</a> can publish a <a data-link-type="dfn" href="#registry" id="ref-for-registry⑥">registry</a>
+    <p>A <a data-link-type="dfn" href="#chartered-group" id="ref-for-chartered-group⑥">chartered</a> or <a data-link-type="dfn" href="#elected-group" id="ref-for-elected-group③">elected group</a> can publish a <a data-link-type="dfn" href="#registry" id="ref-for-registry⑥">registry</a>
 	as a stand-alone <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report③⓪">technical report</a> on the <a data-link-type="dfn" href="#registry-track" id="ref-for-registry-track">Registry Track</a>,
 	where it is called a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="registry-report">registry report</dfn>.
 	<a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦③">Working Groups</a> have the additional option of
@@ -5936,7 +5928,7 @@ Publishing Registries</span><a class="self-link" href="#reg-pub"></a></h4>
 			a definition of the format of that file.
 	
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②②">Team</a> <em class="rfc2119">must</em> make available
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②③">Team</a> <em class="rfc2119">must</em> make available
 	a means for interested parties to be notified of any updates to a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑥">registry table</a>.</p>
     <p class="note" role="note"><span class="marker">Note:</span> Since the Process does not impose requirements
 	on changes to the contents of a <a data-link-type="dfn" href="#registry-table" id="ref-for-registry-table①⑦">registry table</a>
@@ -6118,12 +6110,12 @@ Further reading</span><a class="self-link" href="#further-reading"></a></h3>
 Dissemination Policies</span><a class="self-link" href="#dissemination"></a></h2>
     <h3 class="heading settled" data-level="7.1" id="pub-com"><span class="secno">7.1. </span><span class="content">
 Public Communication</span><a class="self-link" href="#pub-com"></a></h3>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②③">Team</a> is responsible for managing communication within W3C
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②④">Team</a> is responsible for managing communication within W3C
 	and with the general public
 	(e.g., news services, press releases, managing the website and access privileges, and managing calendars).
 	Members <em class="rfc2119">should</em> solicit review by the Team
 	prior to issuing press releases about their work within W3C.</p>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②④">Team</a> makes every effort to ensure the persistence and availability of the following public information:</p>
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑤">Team</a> makes every effort to ensure the persistence and availability of the following public information:</p>
     <ul>
      <li>
 			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
@@ -6194,7 +6186,7 @@ Confidentiality Levels</span><a class="self-link" href="#confidentiality-levels"
 			nor beyond the designated level of access.
 	
     </ul>
-    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑤">Team</a> <em class="rfc2119">must</em> provide mechanisms
+    <p>The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑥">Team</a> <em class="rfc2119">must</em> provide mechanisms
 	to protect the confidentiality of <a data-link-type="dfn" href="#Member-only" id="ref-for-Member-only⑥">Member-only</a> information
 	and ensure that authorized parties have proper access to this information.
 	Documents <em class="rfc2119">should</em> clearly indicate
@@ -6229,24 +6221,24 @@ Changing Confidentiality Level</span><a class="self-link" href="#confidentiality
 	information pertinent to the technical report development process.</p>
     <p>This document clearly indicates which information <em class="rfc2119">must</em> be available to Members or the public,
 	even though that information was initially communicated on <a data-link-type="dfn" href="#Team-only" id="ref-for-Team-only⑤">Team-only</a> or <a data-link-type="dfn" href="#Member-only" id="ref-for-Member-only①①">Member-only</a> channels.
-	Only the <a data-link-type="dfn" href="#team" id="ref-for-team①②⑥">Team</a> and parties authorized by the Team
+	Only the <a data-link-type="dfn" href="#team" id="ref-for-team①②⑦">Team</a> and parties authorized by the Team
 	may change the level of confidentiality of this information.
 	When doing so:</p>
     <ol>
      <li>
-			The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑦">Team</a> <em class="rfc2119">must</em> use a version of the information
+			The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑧">Team</a> <em class="rfc2119">must</em> use a version of the information
 			that was expressly provided by the author for the new confidentiality level.
 			In Calls for Review and other similar messages,
 			the Team <em class="rfc2119">should</em> remind recipients to provide such alternatives.
 
 		
      <li>
-			The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑧">Team</a> <em class="rfc2119">must not</em> attribute the version
+			The <a data-link-type="dfn" href="#team" id="ref-for-team①②⑨">Team</a> <em class="rfc2119">must not</em> attribute the version
 			for the new confidentiality level to the author without the author’s consent.
 
 		
      <li>
-			If the author has not conveyed to the <a data-link-type="dfn" href="#team" id="ref-for-team①②⑨">Team</a> a version
+			If the author has not conveyed to the <a data-link-type="dfn" href="#team" id="ref-for-team①③⓪">Team</a> a version
 			that is suitable for another confidentiality level,
 			the Team <em class="rfc2119">may</em> make available a version that reasonably communicates what is required,
 			while respecting the original level of confidentiality,
@@ -6264,7 +6256,7 @@ Liaisons</span><a class="self-link" href="#Liaisons"></a></h2>
 	to mutual membership,
 	to even more formal agreements.
 	Liaisons are not meant to substitute for W3C membership.</p>
-    <p>All liaisons <em class="rfc2119">must</em> be coordinated by the <a data-link-type="dfn" href="#team" id="ref-for-team①③⓪">Team</a>
+    <p>All liaisons <em class="rfc2119">must</em> be coordinated by the <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a>
 	due to requirements for public communication;
 	patent,
 	copyright,
@@ -6307,7 +6299,7 @@ Liaisons</span><a class="self-link" href="#Liaisons"></a></h2>
 	<a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③③">Advisory Committee representatives</a> <em class="rfc2119">may</em> initiate an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal①⓪">Advisory Committee Appeal</a>
 	of the decision to sign the <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement⑦">agreement</a>.
 	If the proposal is rejected on <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal①①">appeal</a>,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①③①">Team</a> <em class="rfc2119">must not</em> sign the <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement⑧">agreement</a> on behalf of W3C
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①③②">Team</a> <em class="rfc2119">must not</em> sign the <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement⑧">agreement</a> on behalf of W3C
 	unless directed to do so by the <a data-link-type="dfn" href="#bod" id="ref-for-bod⑦">Board</a>.
 	A signed <a data-link-type="dfn" href="#technical-agreement" id="ref-for-technical-agreement⑨">agreement</a> <em class="rfc2119">should</em> be made public.</p>
     <p>Information about <a href="https://www.w3.org/liaisons/">W3C liaisons with other organizations</a> <a data-link-type="biblio" href="#biblio-liaison" title="W3C liaisons with other organizations">[LIAISON]</a>
@@ -6320,7 +6312,7 @@ Member Submissions</span><a class="self-link" href="#Submission"></a></h2>
 	by one or more <a data-link-type="dfn" href="#w3c-member" id="ref-for-w3c-member⑦">Members</a> (the <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="submitter" id="submitter">Submitter(s)</dfn>)
 	to propose technology or other ideas.
 	After review,
-	the <a data-link-type="dfn" href="#team" id="ref-for-team①③②">Team</a> <em class="rfc2119">may</em> make the material available at the W3C website.</p>
+	the <a data-link-type="dfn" href="#team" id="ref-for-team①③③">Team</a> <em class="rfc2119">may</em> make the material available at the W3C website.</p>
     <p>Making a <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission">Member Submission</a> available at the W3C website
 	does not indicate endorsement, acceptance, or adoption by W3C,
 	its Team, or its Members.
@@ -6340,14 +6332,14 @@ Member Submissions</span><a class="self-link" href="#Submission"></a></h2>
 			One of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter">Submitters</a>,
 			copying the <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③④">Advisory Committee representatives</a> of the other <a data-link-type="dfn" href="#submitter" id="ref-for-submitter①">Submitters</a> (if any),
 			sends a request to the Team to acknowledge the Submission request.
-			The <a data-link-type="dfn" href="#team" id="ref-for-team①③③">Team</a> and <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②">Submitter(s)</a> communicate to ensure that the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission②">Member Submission</a> is complete.
+			The <a data-link-type="dfn" href="#team" id="ref-for-team①③④">Team</a> and <a data-link-type="dfn" href="#submitter" id="ref-for-submitter②">Submitter(s)</a> communicate to ensure that the <a data-link-type="dfn" href="#MemberSubmission" id="ref-for-MemberSubmission②">Member Submission</a> is complete.
 
 		
      <dt>Review
 		
      <dd>
       
-			The <a data-link-type="dfn" href="#team" id="ref-for-team①③④">Team</a> reviews the Submission
+			The <a data-link-type="dfn" href="#team" id="ref-for-team①③⑤">Team</a> reviews the Submission
 			to evaluate its scope, quality, and compliance with the Submission requirements,
 			including licensing requirements:
 
@@ -6365,13 +6357,13 @@ Member Submissions</span><a class="self-link" href="#Submission"></a></h2>
 					in <a href="https://www.w3.org/policies/patent-policy/#sec-submissions">The W3C Patent Policy § sec-submissions</a>.
 			
       </ul>
-      <p>Detailed procedures and requirements are defined by the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑤">Team</a>
+      <p>Detailed procedures and requirements are defined by the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑥">Team</a>
 			and documented in the “<a href="https://www.w3.org/submissions/guide/">Member submissions guidebook</a>” <a data-link-type="biblio" href="#biblio-member-sub" title="Member submissions guidebook">[MEMBER-SUB]</a>.</p>
      <dt>Decision
 		
      <dd>
       
-			After review, the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑥">Team</a> <em class="rfc2119">must</em> either
+			After review, the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑦">Team</a> <em class="rfc2119">must</em> either
 			<a data-link-type="dfn" href="#acknowledged" id="ref-for-acknowledged①">acknowledge</a> or <a data-link-type="dfn" href="#rejected" id="ref-for-rejected">reject</a> the Submission request.
 
 			
@@ -6386,7 +6378,7 @@ Member Submissions</span><a class="self-link" href="#Submission"></a></h2>
 				
        <li>
 					If <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="rejected">rejected</dfn>,
-					the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑦">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③⑤">Advisory Committee representative(s)</a> of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter④">Submitter(s)</a>,
+					the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑧">Team</a> <em class="rfc2119">must</em> inform the <a data-link-type="dfn" href="#advisory-committee-representative" id="ref-for-advisory-committee-representative③⑤">Advisory Committee representative(s)</a> of the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter④">Submitter(s)</a>,
 					and <em class="rfc2119">must</em> provide rationale if requested by the <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑤">Submitter(s)</a>.
 					The <a data-link-type="dfn" href="#submitter" id="ref-for-submitter⑥">Submitter(s)</a> <em class="rfc2119">may</em> initiate a <a data-link-type="dfn" href="#submission-appeals" id="ref-for-submission-appeals③">Submission Appeal</a>.
 			
@@ -6396,13 +6388,13 @@ Member Submissions</span><a class="self-link" href="#Submission"></a></h2>
 	<em class="rfc2119">may</em> initiate a <a data-link-type="dfn" href="#submission-appeals" id="ref-for-submission-appeals④">Submission Appeal</a>.
 	The procedure for handling <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="submission-appeals">Submission Appeals</dfn> is the same as for <a data-link-type="dfn" href="#FormalObjection" id="ref-for-FormalObjection④④">Formal Objections</a>,
 	except that an <a data-link-type="dfn" href="#advisory-committee-appeal" id="ref-for-advisory-committee-appeal①②">AC Appeal</a> is not possible
-	and both the Formal Objection and the <a data-link-type="dfn" href="#council-report" id="ref-for-council-report⑥">Council Report</a> are confidential to the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑧">Team</a>, <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑨">TAG</a>, and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③②">AB</a>.</p>
+	and both the Formal Objection and the <a data-link-type="dfn" href="#council-report" id="ref-for-council-report⑥">Council Report</a> are confidential to the <a data-link-type="dfn" href="#team" id="ref-for-team①③⑨">Team</a>, <a data-link-type="dfn" href="#technical-architecture-group" id="ref-for-technical-architecture-group③⑨">TAG</a>, and <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⓪">AB</a>.</p>
     <h2 class="heading settled" data-level="10" id="GAProcess"><span class="secno">10. </span><span class="content">
 Process Evolution</span><a class="self-link" href="#GAProcess"></a></h2>
     <p>Revision of the W3C Process and related documents (see below) undergoes similar <a data-link-type="dfn" href="#def-Consensus" id="ref-for-def-Consensus②②">consensus</a>-building processes as for <a data-link-type="dfn" href="#technical-report" id="ref-for-technical-report④③">technical reports</a>,
-	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③③">Advisory Board</a>
+	with the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③①">Advisory Board</a>
 	acting as the sponsoring <a data-link-type="dfn" href="#GroupsWG" id="ref-for-GroupsWG⑦⑥">Working Group</a>.
-	The documents may be developed by the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③④">AB</a> or by another group to whom the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑤">AB</a> has delegated development.
+	The documents may be developed by the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③②">AB</a> or by another group to whom the <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③③">AB</a> has delegated development.
 	Review includes
 	soliciting input from the W3C community,
 	and in particular the Team.</p>
@@ -6417,10 +6409,10 @@ Process Evolution</span><a class="self-link" href="#GAProcess"></a></h2>
      <li data-md>
       <p>The W3C Document License <a data-link-type="biblio" href="#biblio-doc-license" title="W3C Document License">[DOC-LICENSE]</a></p>
     </ul>
-    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③⑥">Advisory Board</a> initiates review as follows:</p>
+    <p>The <a data-link-type="dfn" href="#advisory-board" id="ref-for-advisory-board③④">Advisory Board</a> initiates review as follows:</p>
     <ol>
      <li>
-			The <a data-link-type="dfn" href="#team" id="ref-for-team①③⑨">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee④②">Advisory Committee</a> and other W3C groups.
+			The <a data-link-type="dfn" href="#team" id="ref-for-team①④⓪">Team</a> sends a Call for Review to the <a data-link-type="dfn" href="#advisory-committee" id="ref-for-advisory-committee④②">Advisory Committee</a> and other W3C groups.
 
 		
      <li>
@@ -7248,7 +7240,7 @@ let dfnPanelData = {
 "acknowledged": {"dfnID":"acknowledged","dfnText":"acknowledged","external":false,"refSections":[{"refs":[{"id":"ref-for-acknowledged"},{"id":"ref-for-acknowledged\u2460"}],"title":"9. Member Submissions"}],"url":"#acknowledged"},
 "adequate-implementation": {"dfnID":"adequate-implementation","dfnText":"adequate implementation experience","external":false,"refSections":[{"refs":[{"id":"ref-for-adequate-implementation"}],"title":"6.1. Types of Technical Reports"},{"refs":[{"id":"ref-for-adequate-implementation\u2460"}],"title":"6.3.7. Transitioning to Candidate Recommendation"},{"refs":[{"id":"ref-for-adequate-implementation\u2461"}],"title":"6.3.9.1. Requirements for Transition"},{"refs":[{"id":"ref-for-adequate-implementation\u2462"}],"title":"6.3.10.4. Incorporating Candidate Amendments"}],"url":"#adequate-implementation"},
 "adopted-draft": {"dfnID":"adopted-draft","dfnText":"Adopted Draft","external":false,"refSections":[{"refs":[{"id":"ref-for-adopted-draft"}],"title":"4.3. Content of a Charter"}],"url":"#adopted-draft"},
-"advisory-board": {"dfnID":"advisory-board","dfnText":"Advisory Board","external":false,"refSections":[{"refs":[{"id":"ref-for-advisory-board"}],"title":"3.1.1.1. Expectations and Discipline"},{"refs":[{"id":"ref-for-advisory-board\u2460"}],"title":"3.3. Elected Groups: The AB and the TAG"},{"refs":[{"id":"ref-for-advisory-board\u2461"},{"id":"ref-for-advisory-board\u2462"}],"title":"3.3.1.1. Role of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2463"},{"id":"ref-for-advisory-board\u2464"},{"id":"ref-for-advisory-board\u2465"}],"title":"3.3.1.2. Composition of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2466"}],"title":"3.3.1.3. Communications of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2467"},{"id":"ref-for-advisory-board\u2468"},{"id":"ref-for-advisory-board\u2460\u24ea"}],"title":"3.3.1.4. Liaisons between the Advisory Board and the Board of Directors"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2460"}],"title":"3.3.3.1. Expectations for Elected Groups Participants"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2461"},{"id":"ref-for-advisory-board\u2460\u2462"},{"id":"ref-for-advisory-board\u2460\u2463"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2464"},{"id":"ref-for-advisory-board\u2460\u2465"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2466"}],"title":"3.3.3.4. Technical Architecture Group Appointments"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2467"}],"title":"3.3.3.5. Verifiable Random Selection Procedure"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2468"},{"id":"ref-for-advisory-board\u2461\u24ea"},{"id":"ref-for-advisory-board\u2461\u2460"}],"title":"3.3.3.6. Elected Groups Vacated Seats"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2461"},{"id":"ref-for-advisory-board\u2461\u2462"}],"title":"4.7. Chartered Group Closure"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2463"}],"title":"5.6.2. W3C Council"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2464"},{"id":"ref-for-advisory-board\u2461\u2465"}],"title":"5.6.2.1. Council Composition"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2466"},{"id":"ref-for-advisory-board\u2461\u2467"}],"title":"5.6.2.3. Council Participation, Dismissal, and Renunciation"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2468"}],"title":"5.6.2.6. Convening the Council"},{"refs":[{"id":"ref-for-advisory-board\u2462\u24ea"}],"title":"6.3.11. Regression on the Recommendation Track"},{"refs":[{"id":"ref-for-advisory-board\u2462\u2460"}],"title":"6.4.1. Group Notes"},{"refs":[{"id":"ref-for-advisory-board\u2462\u2461"}],"title":"9. Member Submissions"},{"refs":[{"id":"ref-for-advisory-board\u2462\u2462"},{"id":"ref-for-advisory-board\u2462\u2463"},{"id":"ref-for-advisory-board\u2462\u2464"},{"id":"ref-for-advisory-board\u2462\u2465"}],"title":"10. Process Evolution"}],"url":"#advisory-board"},
+"advisory-board": {"dfnID":"advisory-board","dfnText":"Advisory Board","external":false,"refSections":[{"refs":[{"id":"ref-for-advisory-board"}],"title":"3.1.1.1. Expectations and Discipline"},{"refs":[{"id":"ref-for-advisory-board\u2460"}],"title":"3.3. Elected Groups: The AB and the TAG"},{"refs":[{"id":"ref-for-advisory-board\u2461"},{"id":"ref-for-advisory-board\u2462"}],"title":"3.3.1.1. Role of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2463"},{"id":"ref-for-advisory-board\u2464"},{"id":"ref-for-advisory-board\u2465"}],"title":"3.3.1.2. Composition of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2466"}],"title":"3.3.1.3. Communications of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-board\u2467"},{"id":"ref-for-advisory-board\u2468"},{"id":"ref-for-advisory-board\u2460\u24ea"}],"title":"3.3.1.4. Liaisons between the Advisory Board and the Board of Directors"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2460"}],"title":"3.3.3.1. Expectations for Elected Groups Participants"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2461"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2462"},{"id":"ref-for-advisory-board\u2460\u2463"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2464"}],"title":"3.3.3.4. Technical Architecture Group Appointments"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2465"}],"title":"3.3.3.5. Verifiable Random Selection Procedure"},{"refs":[{"id":"ref-for-advisory-board\u2460\u2466"},{"id":"ref-for-advisory-board\u2460\u2467"},{"id":"ref-for-advisory-board\u2460\u2468"}],"title":"3.3.3.6. Elected Groups Vacated Seats"},{"refs":[{"id":"ref-for-advisory-board\u2461\u24ea"},{"id":"ref-for-advisory-board\u2461\u2460"}],"title":"4.7. Chartered Group Closure"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2461"}],"title":"5.6.2. W3C Council"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2462"},{"id":"ref-for-advisory-board\u2461\u2463"}],"title":"5.6.2.1. Council Composition"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2464"},{"id":"ref-for-advisory-board\u2461\u2465"}],"title":"5.6.2.3. Council Participation, Dismissal, and Renunciation"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2466"}],"title":"5.6.2.6. Convening the Council"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2467"}],"title":"6.3.11. Regression on the Recommendation Track"},{"refs":[{"id":"ref-for-advisory-board\u2461\u2468"}],"title":"6.4.1. Group Notes"},{"refs":[{"id":"ref-for-advisory-board\u2462\u24ea"}],"title":"9. Member Submissions"},{"refs":[{"id":"ref-for-advisory-board\u2462\u2460"},{"id":"ref-for-advisory-board\u2462\u2461"},{"id":"ref-for-advisory-board\u2462\u2462"},{"id":"ref-for-advisory-board\u2462\u2463"}],"title":"10. Process Evolution"}],"url":"#advisory-board"},
 "advisory-committee": {"dfnID":"advisory-committee","dfnText":"Advisory Committee","external":false,"refSections":[{"refs":[{"id":"ref-for-advisory-committee"}],"title":"2.1. Members"},{"refs":[{"id":"ref-for-advisory-committee\u2460"}],"title":"3.2.2. Participation in the Advisory Committee"},{"refs":[{"id":"ref-for-advisory-committee\u2461"},{"id":"ref-for-advisory-committee\u2462"}],"title":"3.2.3. Advisory Committee Mailing Lists"},{"refs":[{"id":"ref-for-advisory-committee\u2463"}],"title":"3.2.4. Advisory Committee Meetings"},{"refs":[{"id":"ref-for-advisory-committee\u2464"}],"title":"3.3. Elected Groups: The AB and the TAG"},{"refs":[{"id":"ref-for-advisory-committee\u2465"}],"title":"3.3.1.2. Composition of the Advisory Board"},{"refs":[{"id":"ref-for-advisory-committee\u2466"}],"title":"3.3.2.2. Composition of the Technical Architecture Group"},{"refs":[{"id":"ref-for-advisory-committee\u2467"},{"id":"ref-for-advisory-committee\u2468"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u24ea"}],"title":"3.3.3.4. Technical Architecture Group Appointments"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2460"}],"title":"4.1. Initiating Charter Refinement"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2461"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2462"}],"title":"4.6. Charter Extension"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2463"}],"title":"5.6.2.2. Extraordinary Delegation"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2464"}],"title":"5.6.2.7. Council Deliberations"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2465"}],"title":"5.7. Advisory Committee Reviews and W3C Decisions"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2466"}],"title":"5.7.1. Initiating an Advisory Committee Review"},{"refs":[{"id":"ref-for-advisory-committee\u2460\u2467"},{"id":"ref-for-advisory-committee\u2460\u2468"},{"id":"ref-for-advisory-committee\u2461\u24ea"},{"id":"ref-for-advisory-committee\u2461\u2460"},{"id":"ref-for-advisory-committee\u2461\u2461"},{"id":"ref-for-advisory-committee\u2461\u2462"},{"id":"ref-for-advisory-committee\u2461\u2463"},{"id":"ref-for-advisory-committee\u2461\u2464"}],"title":"5.7.2. Determining the W3C Decision"},{"refs":[{"id":"ref-for-advisory-committee\u2461\u2465"},{"id":"ref-for-advisory-committee\u2461\u2466"}],"title":"5.8. Advisory Committee Votes"},{"refs":[{"id":"ref-for-advisory-committee\u2461\u2467"},{"id":"ref-for-advisory-committee\u2461\u2468"},{"id":"ref-for-advisory-committee\u2462\u24ea"},{"id":"ref-for-advisory-committee\u2462\u2460"},{"id":"ref-for-advisory-committee\u2462\u2461"}],"title":"5.9. Appeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2462"}],"title":"6.2.1. Publication of Technical Reports"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2463"}],"title":"6.3.3. Advancement on the Recommendation Track"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2464"}],"title":"6.3.4. Updating Mature Publications on the Recommendation Track"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2465"}],"title":"6.3.7. Transitioning to Candidate Recommendation"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2466"}],"title":"6.3.10.4. Incorporating Candidate Amendments"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2467"}],"title":"6.3.12.4. Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-advisory-committee\u2462\u2468"}],"title":"6.4.3. Elevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-advisory-committee\u2463\u24ea"},{"id":"ref-for-advisory-committee\u2463\u2460"}],"title":"8. Liaisons"},{"refs":[{"id":"ref-for-advisory-committee\u2463\u2461"},{"id":"ref-for-advisory-committee\u2463\u2462"}],"title":"10. Process Evolution"}],"url":"#advisory-committee"},
 "advisory-committee-appeal": {"dfnID":"advisory-committee-appeal","dfnText":"Advisory Committee Appeal","external":false,"refSections":[{"refs":[{"id":"ref-for-advisory-committee-appeal"}],"title":"5.6.2.8. Council Decision Report"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2460"}],"title":"5.6.2.9. Appealing Council Decisions"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2461"}],"title":"5.8. Advisory Committee Votes"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2462"},{"id":"ref-for-advisory-committee-appeal\u2463"},{"id":"ref-for-advisory-committee-appeal\u2464"}],"title":"5.9. Appeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2465"}],"title":"6.3.9.3. Resolution of Review"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2466"}],"title":"6.3.12.4. Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2467"}],"title":"6.4.3. Elevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2468"}],"title":"6.4.4. Revising W3C Statements"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2460\u24ea"},{"id":"ref-for-advisory-committee-appeal\u2460\u2460"}],"title":"8. Liaisons"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2460\u2461"}],"title":"9. Member Submissions"},{"refs":[{"id":"ref-for-advisory-committee-appeal\u2460\u2462"}],"title":"10. Process Evolution"}],"url":"#advisory-committee-appeal"},
 "advisory-committee-representative": {"dfnID":"advisory-committee-representative","dfnText":"representative","external":false,"refSections":[{"refs":[{"id":"ref-for-advisory-committee-representative"}],"title":"3.1.1.1. Expectations and Discipline"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460"}],"title":"3.1.1.3. Individuals Representing a Member Organization"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2461"},{"id":"ref-for-advisory-committee-representative\u2462"}],"title":"3.2.1. Role of the Advisory Committee"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2463"},{"id":"ref-for-advisory-committee-representative\u2464"}],"title":"3.2.2. Participation in the Advisory Committee"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2465"},{"id":"ref-for-advisory-committee-representative\u2466"}],"title":"3.2.3. Advisory Committee Mailing Lists"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2467"},{"id":"ref-for-advisory-committee-representative\u2468"},{"id":"ref-for-advisory-committee-representative\u2460\u24ea"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2460"}],"title":"3.4.3.1. Member Representative in a Working Group"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2461"}],"title":"3.4.3.2. Member Representative in an Interest Group"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2462"},{"id":"ref-for-advisory-committee-representative\u2460\u2463"}],"title":"4.1. Initiating Charter Refinement"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2464"}],"title":"4.2. Charter Refinement"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2465"}],"title":"4.4.1. New Charters and Major Changes"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2466"}],"title":"5.6.2.9. Appealing Council Decisions"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2467"}],"title":"5.7.1. Initiating an Advisory Committee Review"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2460\u2468"},{"id":"ref-for-advisory-committee-representative\u2461\u24ea"},{"id":"ref-for-advisory-committee-representative\u2461\u2460"},{"id":"ref-for-advisory-committee-representative\u2461\u2461"},{"id":"ref-for-advisory-committee-representative\u2461\u2462"},{"id":"ref-for-advisory-committee-representative\u2461\u2463"},{"id":"ref-for-advisory-committee-representative\u2461\u2464"}],"title":"5.9. Appeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2461\u2465"}],"title":"6.3.9.3. Resolution of Review"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2461\u2466"}],"title":"6.3.12.4. Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2461\u2467"}],"title":"6.4.3. Elevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2461\u2468"}],"title":"6.4.4. Revising W3C Statements"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2462\u24ea"},{"id":"ref-for-advisory-committee-representative\u2462\u2460"}],"title":"7.2. Confidentiality Levels"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2462\u2461"}],"title":"7.3. Changing Confidentiality Level"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2462\u2462"}],"title":"8. Liaisons"},{"refs":[{"id":"ref-for-advisory-committee-representative\u2462\u2463"},{"id":"ref-for-advisory-committee-representative\u2462\u2464"},{"id":"ref-for-advisory-committee-representative\u2462\u2465"}],"title":"9. Member Submissions"}],"url":"#advisory-committee-representative"},
@@ -7293,7 +7285,7 @@ let dfnPanelData = {
 "edited-recommendation": {"dfnID":"edited-recommendation","dfnText":"Edited Recommendation","external":false,"refSections":[],"url":"#edited-recommendation"},
 "editorial-change": {"dfnID":"editorial-change","dfnText":"editorial changes","external":false,"refSections":[{"refs":[{"id":"ref-for-editorial-change"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-editorial-change\u2460"}],"title":"6.3.1. Maturity Stages on the Recommendation Track"},{"refs":[{"id":"ref-for-editorial-change\u2461"}],"title":"6.3.3. Advancement on the Recommendation Track"},{"refs":[{"id":"ref-for-editorial-change\u2462"}],"title":"6.3.4. Updating Mature Publications on the Recommendation Track"},{"refs":[{"id":"ref-for-editorial-change\u2463"}],"title":"6.3.6. Revising a Working Draft"},{"refs":[{"id":"ref-for-editorial-change\u2464"}],"title":"6.3.8.2. Publishing a Candidate Recommendation Draft"},{"refs":[{"id":"ref-for-editorial-change\u2465"}],"title":"6.3.9.1. Requirements for Transition"},{"refs":[{"id":"ref-for-editorial-change\u2466"}],"title":"6.3.10.1. Revising a Recommendation: Editorial Changes"},{"refs":[{"id":"ref-for-editorial-change\u2467"}],"title":"6.4.4. Revising W3C Statements"},{"refs":[{"id":"ref-for-editorial-change\u2468"},{"id":"ref-for-editorial-change\u2460\u24ea"}],"title":"6.5.4. Registry Data Reports"}],"url":"#editorial-change"},
 "editors-draft": {"dfnID":"editors-draft","dfnText":"Editor\u2019s drafts","external":false,"refSections":[{"refs":[{"id":"ref-for-editors-draft"}],"title":"6.3.1. Maturity Stages on the Recommendation Track"}],"url":"#editors-draft"},
-"elected-group": {"dfnID":"elected-group","dfnText":"elected groups","external":false,"refSections":[{"refs":[{"id":"ref-for-elected-group"}],"title":"6.1. Types of Technical Reports"},{"refs":[{"id":"ref-for-elected-group\u2460"}],"title":"6.5.1. Registry Definitions"},{"refs":[{"id":"ref-for-elected-group\u2461"}],"title":"6.5.2. Publishing Registries"}],"url":"#elected-group"},
+"elected-group": {"dfnID":"elected-group","dfnText":"elected groups","external":false,"refSections":[{"refs":[{"id":"ref-for-elected-group"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-elected-group\u2460"}],"title":"6.1. Types of Technical Reports"},{"refs":[{"id":"ref-for-elected-group\u2461"}],"title":"6.5.1. Registry Definitions"},{"refs":[{"id":"ref-for-elected-group\u2462"}],"title":"6.5.2. Publishing Registries"}],"url":"#elected-group"},
 "election-begins": {"dfnID":"election-begins","dfnText":"begins","external":false,"refSections":[{"refs":[{"id":"ref-for-election-begins"}],"title":"3.3.3.6. Elected Groups Vacated Seats"}],"url":"#election-begins"},
 "embedded-registry": {"dfnID":"embedded-registry","dfnText":"embedded registry","external":false,"refSections":[{"refs":[{"id":"ref-for-embedded-registry"}],"title":"6.1. Types of Technical Reports"},{"refs":[{"id":"ref-for-embedded-registry\u2460"},{"id":"ref-for-embedded-registry\u2461"}],"title":"6.5.2. Publishing Registries"},{"refs":[{"id":"ref-for-embedded-registry\u2462"},{"id":"ref-for-embedded-registry\u2463"}],"title":"6.5.6. Registries and Patents"}],"url":"#embedded-registry"},
 "erratum": {"dfnID":"erratum","dfnText":"erratum","external":false,"refSections":[{"refs":[{"id":"ref-for-erratum"}],"title":"6.2.5. Candidate Amendments"},{"refs":[{"id":"ref-for-erratum\u2460"},{"id":"ref-for-erratum\u2461"}],"title":"6.2.6. Maintenance Without a Group"}],"url":"#erratum"},
@@ -7334,7 +7326,7 @@ let dfnPanelData = {
 "overturn": {"dfnID":"overturn","dfnText":"overturn","external":false,"refSections":[{"refs":[{"id":"ref-for-overturn"},{"id":"ref-for-overturn\u2460"}],"title":"5.6.2.7. Council Deliberations"},{"refs":[{"id":"ref-for-overturn\u2461"},{"id":"ref-for-overturn\u2462"}],"title":"5.6.2.8. Council Decision Report"}],"url":"#overturn"},
 "participant": {"dfnID":"participant","dfnText":"participant","external":false,"refSections":[{"refs":[{"id":"ref-for-participant"}],"title":"3.1.2. Meetings"},{"refs":[{"id":"ref-for-participant\u2460"}],"title":"5.2.3. Deciding by Vote"}],"url":"#participant"},
 "patent-review-drafts": {"dfnID":"patent-review-drafts","dfnText":"Patent Review Drafts","external":false,"refSections":[{"refs":[{"id":"ref-for-patent-review-drafts"},{"id":"ref-for-patent-review-drafts\u2460"}],"title":"6.3.1. Maturity Stages on the Recommendation Track"},{"refs":[{"id":"ref-for-patent-review-drafts\u2461"}],"title":"6.3.10.4. Incorporating Candidate Amendments"},{"refs":[{"id":"ref-for-patent-review-drafts\u2462"}],"title":"6.5.2. Publishing Registries"},{"refs":[{"id":"ref-for-patent-review-drafts\u2463"}],"title":"6.6. Switching Tracks"}],"url":"#patent-review-drafts"},
-"primary-affiliation": {"dfnID":"primary-affiliation","dfnText":"primary affiliation","external":false,"refSections":[{"refs":[{"id":"ref-for-primary-affiliation"},{"id":"ref-for-primary-affiliation\u2460"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-primary-affiliation\u2461"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"}],"url":"#primary-affiliation"},
+"primary-affiliation": {"dfnID":"primary-affiliation","dfnText":"primary affiliation","external":false,"refSections":[{"refs":[{"id":"ref-for-primary-affiliation"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-primary-affiliation\u2460"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"}],"url":"#primary-affiliation"},
 "proposed-additions": {"dfnID":"proposed-additions","dfnText":"proposed additions","external":false,"refSections":[],"url":"#proposed-additions"},
 "proposed-amendments": {"dfnID":"proposed-amendments","dfnText":"proposed amendments","external":false,"refSections":[{"refs":[{"id":"ref-for-proposed-amendments"},{"id":"ref-for-proposed-amendments\u2460"},{"id":"ref-for-proposed-amendments\u2461"},{"id":"ref-for-proposed-amendments\u2462"},{"id":"ref-for-proposed-amendments\u2463"},{"id":"ref-for-proposed-amendments\u2464"},{"id":"ref-for-proposed-amendments\u2465"},{"id":"ref-for-proposed-amendments\u2466"},{"id":"ref-for-proposed-amendments\u2467"},{"id":"ref-for-proposed-amendments\u2468"}],"title":"6.3.10.4. Incorporating Candidate Amendments"},{"refs":[{"id":"ref-for-proposed-amendments\u2460\u24ea"},{"id":"ref-for-proposed-amendments\u2460\u2460"}],"title":"6.4.4. Revising W3C Statements"},{"refs":[{"id":"ref-for-proposed-amendments\u2460\u2461"}],"title":"6.5.3. Updating Registry Tables"}],"url":"#proposed-amendments"},
 "proposed-corrections": {"dfnID":"proposed-corrections","dfnText":"proposed corrections","external":false,"refSections":[],"url":"#proposed-corrections"},
@@ -7363,7 +7355,7 @@ let dfnPanelData = {
 "substantive-change": {"dfnID":"substantive-change","dfnText":"substantive changes","external":false,"refSections":[{"refs":[{"id":"ref-for-substantive-change"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-substantive-change\u2460"},{"id":"ref-for-substantive-change\u2461"},{"id":"ref-for-substantive-change\u2462"},{"id":"ref-for-substantive-change\u2463"}],"title":"5.7.2. Determining the W3C Decision"},{"refs":[{"id":"ref-for-substantive-change\u2464"}],"title":"6.2.2. Reviews and Review Responsibilities"},{"refs":[{"id":"ref-for-substantive-change\u2465"},{"id":"ref-for-substantive-change\u2466"}],"title":"6.3.1. Maturity Stages on the Recommendation Track"},{"refs":[{"id":"ref-for-substantive-change\u2467"}],"title":"6.3.6. Revising a Working Draft"},{"refs":[{"id":"ref-for-substantive-change\u2468"},{"id":"ref-for-substantive-change\u2460\u24ea"}],"title":"6.3.8.1. Publishing a Candidate Recommendation Snapshot"},{"refs":[{"id":"ref-for-substantive-change\u2460\u2460"},{"id":"ref-for-substantive-change\u2460\u2461"}],"title":"6.3.8.2. Publishing a Candidate Recommendation Draft"},{"refs":[{"id":"ref-for-substantive-change\u2460\u2462"}],"title":"6.3.9.3. Resolution of Review"},{"refs":[{"id":"ref-for-substantive-change\u2460\u2463"}],"title":"6.3.12.1. Abandoning an Unfinished Recommendation"}],"url":"#substantive-change"},
 "superseded-registry": {"dfnID":"superseded-registry","dfnText":"Superseded Registry","external":false,"refSections":[],"url":"#superseded-registry"},
 "supplemental-confidential-council-report": {"dfnID":"supplemental-confidential-council-report","dfnText":"Supplemental Confidential Council Report","external":false,"refSections":[],"url":"#supplemental-confidential-council-report"},
-"team": {"dfnID":"team","dfnText":"Team","external":false,"refSections":[{"refs":[{"id":"ref-for-team"},{"id":"ref-for-team\u2460"},{"id":"ref-for-team\u2461"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-team\u2462"},{"id":"ref-for-team\u2463"}],"title":"2.2. The W3C Team"},{"refs":[{"id":"ref-for-team\u2464"},{"id":"ref-for-team\u2465"},{"id":"ref-for-team\u2466"}],"title":"3.1.1.2. Conflict of Interest Policy"},{"refs":[{"id":"ref-for-team\u2467"}],"title":"3.1.3. Tooling and Archiving for Discussions and Publications"},{"refs":[{"id":"ref-for-team\u2468"},{"id":"ref-for-team\u2460\u24ea"}],"title":"3.1.4. Resignation from a Group"},{"refs":[{"id":"ref-for-team\u2460\u2460"}],"title":"3.2.1. Role of the Advisory Committee"},{"refs":[{"id":"ref-for-team\u2460\u2461"},{"id":"ref-for-team\u2460\u2462"},{"id":"ref-for-team\u2460\u2463"}],"title":"3.2.3. Advisory Committee Mailing Lists"},{"refs":[{"id":"ref-for-team\u2460\u2464"},{"id":"ref-for-team\u2460\u2465"},{"id":"ref-for-team\u2460\u2466"}],"title":"3.2.4. Advisory Committee Meetings"},{"refs":[{"id":"ref-for-team\u2460\u2467"}],"title":"3.3.1.2. Composition of the Advisory Board"},{"refs":[{"id":"ref-for-team\u2460\u2468"}],"title":"3.3.1.3. Communications of the Advisory Board"},{"refs":[{"id":"ref-for-team\u2461\u24ea"},{"id":"ref-for-team\u2461\u2460"}],"title":"3.3.2.2. Composition of the Technical Architecture Group"},{"refs":[{"id":"ref-for-team\u2461\u2461"}],"title":"3.3.2.3. Communications of the Technical Architecture Group"},{"refs":[{"id":"ref-for-team\u2461\u2462"}],"title":"3.3.3.1. Expectations for Elected Groups Participants"},{"refs":[{"id":"ref-for-team\u2461\u2463"},{"id":"ref-for-team\u2461\u2464"},{"id":"ref-for-team\u2461\u2465"},{"id":"ref-for-team\u2461\u2466"},{"id":"ref-for-team\u2461\u2467"},{"id":"ref-for-team\u2461\u2468"},{"id":"ref-for-team\u2462\u24ea"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-team\u2462\u2460"},{"id":"ref-for-team\u2462\u2461"},{"id":"ref-for-team\u2462\u2462"},{"id":"ref-for-team\u2462\u2463"},{"id":"ref-for-team\u2462\u2464"},{"id":"ref-for-team\u2462\u2465"}],"title":"3.3.3.4. Technical Architecture Group Appointments"},{"refs":[{"id":"ref-for-team\u2462\u2466"}],"title":"3.3.3.6. Elected Groups Vacated Seats"},{"refs":[{"id":"ref-for-team\u2462\u2467"},{"id":"ref-for-team\u2462\u2468"},{"id":"ref-for-team\u2463\u24ea"}],"title":"3.4.1. Requirements for All Chartered Groups"},{"refs":[{"id":"ref-for-team\u2463\u2460"},{"id":"ref-for-team\u2463\u2461"},{"id":"ref-for-team\u2463\u2462"},{"id":"ref-for-team\u2463\u2463"},{"id":"ref-for-team\u2463\u2464"}],"title":"4.1. Initiating Charter Refinement"},{"refs":[{"id":"ref-for-team\u2463\u2465"},{"id":"ref-for-team\u2463\u2466"},{"id":"ref-for-team\u2463\u2467"},{"id":"ref-for-team\u2463\u2468"},{"id":"ref-for-team\u2464\u24ea"},{"id":"ref-for-team\u2464\u2460"},{"id":"ref-for-team\u2464\u2461"}],"title":"4.2. Charter Refinement"},{"refs":[{"id":"ref-for-team\u2464\u2462"}],"title":"4.4.1. New Charters and Major Changes"},{"refs":[{"id":"ref-for-team\u2464\u2463"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-team\u2464\u2464"}],"title":"4.5. Call for Participation in a Chartered Group"},{"refs":[{"id":"ref-for-team\u2464\u2465"},{"id":"ref-for-team\u2464\u2466"}],"title":"4.6. Charter Extension"},{"refs":[{"id":"ref-for-team\u2464\u2467"}],"title":"4.7. Chartered Group Closure"},{"refs":[{"id":"ref-for-team\u2464\u2468"},{"id":"ref-for-team\u2465\u24ea"}],"title":"5.1. Types of Decisions"},{"refs":[{"id":"ref-for-team\u2465\u2460"}],"title":"5.5. Registering Formal Objections"},{"refs":[{"id":"ref-for-team\u2465\u2461"},{"id":"ref-for-team\u2465\u2462"},{"id":"ref-for-team\u2465\u2463"}],"title":"5.6.1. Investigation and Mediation by the Team"},{"refs":[{"id":"ref-for-team\u2465\u2464"}],"title":"5.6.2. W3C Council"},{"refs":[{"id":"ref-for-team\u2465\u2465"},{"id":"ref-for-team\u2465\u2466"}],"title":"5.6.2.1. Council Composition"},{"refs":[{"id":"ref-for-team\u2465\u2467"},{"id":"ref-for-team\u2465\u2468"},{"id":"ref-for-team\u2466\u24ea"}],"title":"5.6.2.2. Extraordinary Delegation"},{"refs":[{"id":"ref-for-team\u2466\u2460"},{"id":"ref-for-team\u2466\u2461"},{"id":"ref-for-team\u2466\u2462"}],"title":"5.6.2.3. Council Participation, Dismissal, and Renunciation"},{"refs":[{"id":"ref-for-team\u2466\u2463"}],"title":"5.6.2.6. Convening the Council"},{"refs":[{"id":"ref-for-team\u2466\u2464"},{"id":"ref-for-team\u2466\u2465"},{"id":"ref-for-team\u2466\u2466"}],"title":"5.6.2.7. Council Deliberations"},{"refs":[{"id":"ref-for-team\u2466\u2467"}],"title":"5.6.2.8. Council Decision Report"},{"refs":[{"id":"ref-for-team\u2466\u2468"},{"id":"ref-for-team\u2467\u24ea"}],"title":"5.7.1. Initiating an Advisory Committee Review"},{"refs":[{"id":"ref-for-team\u2467\u2460"},{"id":"ref-for-team\u2467\u2461"},{"id":"ref-for-team\u2467\u2462"},{"id":"ref-for-team\u2467\u2463"}],"title":"5.7.2. Determining the W3C Decision"},{"refs":[{"id":"ref-for-team\u2467\u2464"},{"id":"ref-for-team\u2467\u2465"},{"id":"ref-for-team\u2467\u2466"}],"title":"5.9. Appeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-team\u2467\u2467"}],"title":"6.2.2.1. Wide Review"},{"refs":[{"id":"ref-for-team\u2467\u2468"},{"id":"ref-for-team\u2468\u24ea"},{"id":"ref-for-team\u2468\u2460"},{"id":"ref-for-team\u2468\u2461"}],"title":"6.2.6. Maintenance Without a Group"},{"refs":[{"id":"ref-for-team\u2468\u2462"}],"title":"6.2.7. License Grants from Non-Participants"},{"refs":[{"id":"ref-for-team\u2468\u2463"}],"title":"6.3. The W3C Recommendation Track"},{"refs":[{"id":"ref-for-team\u2468\u2464"}],"title":"6.3.2. Implementation Experience"},{"refs":[{"id":"ref-for-team\u2468\u2465"},{"id":"ref-for-team\u2468\u2466"},{"id":"ref-for-team\u2468\u2467"}],"title":"6.3.3. Advancement on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2468\u2468"},{"id":"ref-for-team\u2460\u24ea\u24ea"},{"id":"ref-for-team\u2460\u24ea\u2460"},{"id":"ref-for-team\u2460\u24ea\u2461"}],"title":"6.3.4. Updating Mature Publications on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2462"}],"title":"6.3.5. Publishing a First Public Working Draft"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2463"}],"title":"6.3.7. Transitioning to Candidate Recommendation"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2464"}],"title":"6.3.8.1. Publishing a Candidate Recommendation Snapshot"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2465"},{"id":"ref-for-team\u2460\u24ea\u2466"},{"id":"ref-for-team\u2460\u24ea\u2467"}],"title":"6.3.9.1. Requirements for Transition"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2468"}],"title":"6.3.9.2. Initiating Review"},{"refs":[{"id":"ref-for-team\u2460\u2460\u24ea"},{"id":"ref-for-team\u2460\u2460\u2460"}],"title":"6.3.9.3. Resolution of Review"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2461"}],"title":"6.3.11. Regression on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2462"},{"id":"ref-for-team\u2460\u2460\u2463"},{"id":"ref-for-team\u2460\u2460\u2464"},{"id":"ref-for-team\u2460\u2460\u2465"},{"id":"ref-for-team\u2460\u2460\u2466"}],"title":"6.3.12.4. Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2467"},{"id":"ref-for-team\u2460\u2460\u2468"}],"title":"6.4.3. Elevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-team\u2460\u2461\u24ea"},{"id":"ref-for-team\u2460\u2461\u2460"}],"title":"6.5.1. Registry Definitions"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2461"}],"title":"6.5.2. Publishing Registries"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2462"},{"id":"ref-for-team\u2460\u2461\u2463"}],"title":"7.1. Public Communication"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2464"}],"title":"7.2. Confidentiality Levels"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2465"},{"id":"ref-for-team\u2460\u2461\u2466"},{"id":"ref-for-team\u2460\u2461\u2467"},{"id":"ref-for-team\u2460\u2461\u2468"}],"title":"7.3. Changing Confidentiality Level"},{"refs":[{"id":"ref-for-team\u2460\u2462\u24ea"},{"id":"ref-for-team\u2460\u2462\u2460"}],"title":"8. Liaisons"},{"refs":[{"id":"ref-for-team\u2460\u2462\u2461"},{"id":"ref-for-team\u2460\u2462\u2462"},{"id":"ref-for-team\u2460\u2462\u2463"},{"id":"ref-for-team\u2460\u2462\u2464"},{"id":"ref-for-team\u2460\u2462\u2465"},{"id":"ref-for-team\u2460\u2462\u2466"},{"id":"ref-for-team\u2460\u2462\u2467"}],"title":"9. Member Submissions"},{"refs":[{"id":"ref-for-team\u2460\u2462\u2468"}],"title":"10. Process Evolution"}],"url":"#team"},
+"team": {"dfnID":"team","dfnText":"Team","external":false,"refSections":[{"refs":[{"id":"ref-for-team"},{"id":"ref-for-team\u2460"},{"id":"ref-for-team\u2461"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-team\u2462"},{"id":"ref-for-team\u2463"}],"title":"2.2. The W3C Team"},{"refs":[{"id":"ref-for-team\u2464"},{"id":"ref-for-team\u2465"},{"id":"ref-for-team\u2466"}],"title":"3.1.1.2. Conflict of Interest Policy"},{"refs":[{"id":"ref-for-team\u2467"}],"title":"3.1.3. Tooling and Archiving for Discussions and Publications"},{"refs":[{"id":"ref-for-team\u2468"},{"id":"ref-for-team\u2460\u24ea"}],"title":"3.1.4. Resignation from a Group"},{"refs":[{"id":"ref-for-team\u2460\u2460"}],"title":"3.2.1. Role of the Advisory Committee"},{"refs":[{"id":"ref-for-team\u2460\u2461"},{"id":"ref-for-team\u2460\u2462"},{"id":"ref-for-team\u2460\u2463"}],"title":"3.2.3. Advisory Committee Mailing Lists"},{"refs":[{"id":"ref-for-team\u2460\u2464"},{"id":"ref-for-team\u2460\u2465"},{"id":"ref-for-team\u2460\u2466"}],"title":"3.2.4. Advisory Committee Meetings"},{"refs":[{"id":"ref-for-team\u2460\u2467"}],"title":"3.3.1.2. Composition of the Advisory Board"},{"refs":[{"id":"ref-for-team\u2460\u2468"}],"title":"3.3.1.3. Communications of the Advisory Board"},{"refs":[{"id":"ref-for-team\u2461\u24ea"},{"id":"ref-for-team\u2461\u2460"}],"title":"3.3.2.2. Composition of the Technical Architecture Group"},{"refs":[{"id":"ref-for-team\u2461\u2461"}],"title":"3.3.2.3. Communications of the Technical Architecture Group"},{"refs":[{"id":"ref-for-team\u2461\u2462"}],"title":"3.3.3.1. Expectations for Elected Groups Participants"},{"refs":[{"id":"ref-for-team\u2461\u2463"}],"title":"3.3.3.2. Elected Groups Participation Constraints"},{"refs":[{"id":"ref-for-team\u2461\u2464"},{"id":"ref-for-team\u2461\u2465"},{"id":"ref-for-team\u2461\u2466"},{"id":"ref-for-team\u2461\u2467"},{"id":"ref-for-team\u2461\u2468"},{"id":"ref-for-team\u2462\u24ea"},{"id":"ref-for-team\u2462\u2460"}],"title":"3.3.3.3. Advisory Board and Technical Architecture Group Elections"},{"refs":[{"id":"ref-for-team\u2462\u2461"},{"id":"ref-for-team\u2462\u2462"},{"id":"ref-for-team\u2462\u2463"},{"id":"ref-for-team\u2462\u2464"},{"id":"ref-for-team\u2462\u2465"},{"id":"ref-for-team\u2462\u2466"}],"title":"3.3.3.4. Technical Architecture Group Appointments"},{"refs":[{"id":"ref-for-team\u2462\u2467"}],"title":"3.3.3.6. Elected Groups Vacated Seats"},{"refs":[{"id":"ref-for-team\u2462\u2468"},{"id":"ref-for-team\u2463\u24ea"},{"id":"ref-for-team\u2463\u2460"}],"title":"3.4.1. Requirements for All Chartered Groups"},{"refs":[{"id":"ref-for-team\u2463\u2461"},{"id":"ref-for-team\u2463\u2462"},{"id":"ref-for-team\u2463\u2463"},{"id":"ref-for-team\u2463\u2464"},{"id":"ref-for-team\u2463\u2465"}],"title":"4.1. Initiating Charter Refinement"},{"refs":[{"id":"ref-for-team\u2463\u2466"},{"id":"ref-for-team\u2463\u2467"},{"id":"ref-for-team\u2463\u2468"},{"id":"ref-for-team\u2464\u24ea"},{"id":"ref-for-team\u2464\u2460"},{"id":"ref-for-team\u2464\u2461"},{"id":"ref-for-team\u2464\u2462"}],"title":"4.2. Charter Refinement"},{"refs":[{"id":"ref-for-team\u2464\u2463"}],"title":"4.4.1. New Charters and Major Changes"},{"refs":[{"id":"ref-for-team\u2464\u2464"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-team\u2464\u2465"}],"title":"4.5. Call for Participation in a Chartered Group"},{"refs":[{"id":"ref-for-team\u2464\u2466"},{"id":"ref-for-team\u2464\u2467"}],"title":"4.6. Charter Extension"},{"refs":[{"id":"ref-for-team\u2464\u2468"}],"title":"4.7. Chartered Group Closure"},{"refs":[{"id":"ref-for-team\u2465\u24ea"},{"id":"ref-for-team\u2465\u2460"}],"title":"5.1. Types of Decisions"},{"refs":[{"id":"ref-for-team\u2465\u2461"}],"title":"5.5. Registering Formal Objections"},{"refs":[{"id":"ref-for-team\u2465\u2462"},{"id":"ref-for-team\u2465\u2463"},{"id":"ref-for-team\u2465\u2464"}],"title":"5.6.1. Investigation and Mediation by the Team"},{"refs":[{"id":"ref-for-team\u2465\u2465"}],"title":"5.6.2. W3C Council"},{"refs":[{"id":"ref-for-team\u2465\u2466"},{"id":"ref-for-team\u2465\u2467"}],"title":"5.6.2.1. Council Composition"},{"refs":[{"id":"ref-for-team\u2465\u2468"},{"id":"ref-for-team\u2466\u24ea"},{"id":"ref-for-team\u2466\u2460"}],"title":"5.6.2.2. Extraordinary Delegation"},{"refs":[{"id":"ref-for-team\u2466\u2461"},{"id":"ref-for-team\u2466\u2462"},{"id":"ref-for-team\u2466\u2463"}],"title":"5.6.2.3. Council Participation, Dismissal, and Renunciation"},{"refs":[{"id":"ref-for-team\u2466\u2464"}],"title":"5.6.2.6. Convening the Council"},{"refs":[{"id":"ref-for-team\u2466\u2465"},{"id":"ref-for-team\u2466\u2466"},{"id":"ref-for-team\u2466\u2467"}],"title":"5.6.2.7. Council Deliberations"},{"refs":[{"id":"ref-for-team\u2466\u2468"}],"title":"5.6.2.8. Council Decision Report"},{"refs":[{"id":"ref-for-team\u2467\u24ea"},{"id":"ref-for-team\u2467\u2460"}],"title":"5.7.1. Initiating an Advisory Committee Review"},{"refs":[{"id":"ref-for-team\u2467\u2461"},{"id":"ref-for-team\u2467\u2462"},{"id":"ref-for-team\u2467\u2463"},{"id":"ref-for-team\u2467\u2464"}],"title":"5.7.2. Determining the W3C Decision"},{"refs":[{"id":"ref-for-team\u2467\u2465"},{"id":"ref-for-team\u2467\u2466"},{"id":"ref-for-team\u2467\u2467"}],"title":"5.9. Appeal by Advisory Committee Representatives"},{"refs":[{"id":"ref-for-team\u2467\u2468"}],"title":"6.2.2.1. Wide Review"},{"refs":[{"id":"ref-for-team\u2468\u24ea"},{"id":"ref-for-team\u2468\u2460"},{"id":"ref-for-team\u2468\u2461"},{"id":"ref-for-team\u2468\u2462"}],"title":"6.2.6. Maintenance Without a Group"},{"refs":[{"id":"ref-for-team\u2468\u2463"}],"title":"6.2.7. License Grants from Non-Participants"},{"refs":[{"id":"ref-for-team\u2468\u2464"}],"title":"6.3. The W3C Recommendation Track"},{"refs":[{"id":"ref-for-team\u2468\u2465"}],"title":"6.3.2. Implementation Experience"},{"refs":[{"id":"ref-for-team\u2468\u2466"},{"id":"ref-for-team\u2468\u2467"},{"id":"ref-for-team\u2468\u2468"}],"title":"6.3.3. Advancement on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u24ea"},{"id":"ref-for-team\u2460\u24ea\u2460"},{"id":"ref-for-team\u2460\u24ea\u2461"},{"id":"ref-for-team\u2460\u24ea\u2462"}],"title":"6.3.4. Updating Mature Publications on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2463"}],"title":"6.3.5. Publishing a First Public Working Draft"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2464"}],"title":"6.3.7. Transitioning to Candidate Recommendation"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2465"}],"title":"6.3.8.1. Publishing a Candidate Recommendation Snapshot"},{"refs":[{"id":"ref-for-team\u2460\u24ea\u2466"},{"id":"ref-for-team\u2460\u24ea\u2467"},{"id":"ref-for-team\u2460\u24ea\u2468"}],"title":"6.3.9.1. Requirements for Transition"},{"refs":[{"id":"ref-for-team\u2460\u2460\u24ea"}],"title":"6.3.9.2. Initiating Review"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2460"},{"id":"ref-for-team\u2460\u2460\u2461"}],"title":"6.3.9.3. Resolution of Review"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2462"}],"title":"6.3.11. Regression on the Recommendation Track"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2463"},{"id":"ref-for-team\u2460\u2460\u2464"},{"id":"ref-for-team\u2460\u2460\u2465"},{"id":"ref-for-team\u2460\u2460\u2466"},{"id":"ref-for-team\u2460\u2460\u2467"}],"title":"6.3.12.4. Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation"},{"refs":[{"id":"ref-for-team\u2460\u2460\u2468"},{"id":"ref-for-team\u2460\u2461\u24ea"}],"title":"6.4.3. Elevating Group Notes to W3C Statement status"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2460"},{"id":"ref-for-team\u2460\u2461\u2461"}],"title":"6.5.1. Registry Definitions"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2462"}],"title":"6.5.2. Publishing Registries"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2463"},{"id":"ref-for-team\u2460\u2461\u2464"}],"title":"7.1. Public Communication"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2465"}],"title":"7.2. Confidentiality Levels"},{"refs":[{"id":"ref-for-team\u2460\u2461\u2466"},{"id":"ref-for-team\u2460\u2461\u2467"},{"id":"ref-for-team\u2460\u2461\u2468"},{"id":"ref-for-team\u2460\u2462\u24ea"}],"title":"7.3. Changing Confidentiality Level"},{"refs":[{"id":"ref-for-team\u2460\u2462\u2460"},{"id":"ref-for-team\u2460\u2462\u2461"}],"title":"8. Liaisons"},{"refs":[{"id":"ref-for-team\u2460\u2462\u2462"},{"id":"ref-for-team\u2460\u2462\u2463"},{"id":"ref-for-team\u2460\u2462\u2464"},{"id":"ref-for-team\u2460\u2462\u2465"},{"id":"ref-for-team\u2460\u2462\u2466"},{"id":"ref-for-team\u2460\u2462\u2467"},{"id":"ref-for-team\u2460\u2462\u2468"}],"title":"9. Member Submissions"},{"refs":[{"id":"ref-for-team\u2460\u2463\u24ea"}],"title":"10. Process Evolution"}],"url":"#team"},
 "team-contact": {"dfnID":"team-contact","dfnText":"Team Contact","external":false,"refSections":[],"url":"#team-contact"},
 "team-correction": {"dfnID":"team-correction","dfnText":"Team correction","external":false,"refSections":[{"refs":[{"id":"ref-for-team-correction"},{"id":"ref-for-team-correction\u2460"},{"id":"ref-for-team-correction\u2461"},{"id":"ref-for-team-correction\u2462"}],"title":"6.2.6. Maintenance Without a Group"}],"url":"#team-correction"},
 "team-decision": {"dfnID":"team-decision","dfnText":"Team Decisions","external":false,"refSections":[{"refs":[{"id":"ref-for-team-decision"}],"title":"2.2. The W3C Team"},{"refs":[{"id":"ref-for-team-decision\u2460"},{"id":"ref-for-team-decision\u2461"}],"title":"4.1. Initiating Charter Refinement"},{"refs":[{"id":"ref-for-team-decision\u2462"},{"id":"ref-for-team-decision\u2463"},{"id":"ref-for-team-decision\u2464"},{"id":"ref-for-team-decision\u2465"}],"title":"4.2. Charter Refinement"},{"refs":[{"id":"ref-for-team-decision\u2466"}],"title":"4.4.2. Minor Changes to Active Charters"},{"refs":[{"id":"ref-for-team-decision\u2467"}],"title":"4.6. Charter Extension"},{"refs":[{"id":"ref-for-team-decision\u2468"}],"title":"6.3.3. Advancement on the Recommendation Track"},{"refs":[{"id":"ref-for-team-decision\u2460\u24ea"}],"title":"6.3.4. Updating Mature Publications on the Recommendation Track"},{"refs":[{"id":"ref-for-team-decision\u2460\u2460"}],"title":"6.3.9.1. Requirements for Transition"},{"refs":[{"id":"ref-for-team-decision\u2460\u2461"}],"title":"8. Liaisons"}],"url":"#team-decision"},
