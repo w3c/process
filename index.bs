@@ -855,11 +855,10 @@ Advisory Committee Meetings</h4>
 		</dd>
 	</dl>
 
-	Each Member organization <em class="rfc2119">should</em> send one <a href="#member-rep">representative</a>
+	Each Member organization <em class="rfc2119">should</em> send their [=AC representative=]
 	to each Advisory Committee Meeting.
-	In exceptional circumstances
-	(e.g., during a period of transition between representatives from an organization),
-	the meeting Chair <em class="rfc2119">may</em> allow a Member organization to send two representatives to a meeting.
+	Member organizations that have appointed an [=alternate AC representative=]
+	<em class=rfc2119>may</em> send them in addition or instead.
 
 	The [=Team=] <em class="rfc2119">must</em> announce the date and location of each Advisory Committee meeting
 	no later than at the end of the previous meeting;
