@@ -858,7 +858,7 @@ Advisory Committee Meetings</h4>
 	Each Member organization <em class="rfc2119">should</em> send their [=AC representative=]
 	to each Advisory Committee Meeting.
 	Member organizations that have appointed an [=alternate AC representative=]
-	<em class=rfc2119>may</em> send them in addition or instead.
+	<em class=rfc2119>may</em> send them in addition to or instead of their [=AC Representative=].
 
 	The [=Team=] <em class="rfc2119">must</em> announce the date and location of each Advisory Committee meeting
 	no later than at the end of the previous meeting;
