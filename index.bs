@@ -1290,8 +1290,8 @@ Technical Architecture Group Appointments</h5>
 
 	The [=Team=]'s choice of appointee(s)
 	is subject to ratification by secret ballot
-	by both the [=AB=] and the [=TAG=],
-	requiring a two-thirds approval from each.
+	by the [=TAG=],
+	requiring a two-thirds approval.
 	In the case of regularly scheduled elections,
 	the [=TAG=] participants in this ratification are
 	its members for the upcoming term.
