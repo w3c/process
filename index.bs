@@ -961,25 +961,6 @@ Communications of the Advisory Board</h5>
 	The Advisory Board <em class="rfc2119">should</em> also report on its activities
 	at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
-<h5 id=ab-bod-liaison>
-Liaisons between the Advisory Board and the Board of Directors</h5>
-
-	To ensure good communication between the [=AB=] and the [=Board of Directors=]
-	and facilitate operational and management consistency,
-	the [=AB=] <em class=rfc2119>may</em> appoint up to two of its participants as liaisons to the [=Board=].
-	Such appointees are expected to attend and participate in [=Board=] meetings
-	and access [=Board=] materials
-	as Non-voting Observers. [[BYLAWS]]
-	They do not form part of the [=Board=]'s decision-making body,
-	and may be excluded from such participation
-	in accordance with applicable Board procedures.
-
-	The [=Advisory Board=] <em class=rfc2119>should</em> reevaluate
-	who is assigned to this role
-	at least at the beginning of each term,
-	and <em class=rfc2119>may</em> swap its appointees more frequently
-	as they deem appropriate.
-
 <h4 id="TAG">
 Technical Architecture Group (TAG)</h4>
 
