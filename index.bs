@@ -5407,6 +5407,12 @@ Appendix A: Retired Terminology</h2>
 		<dd>
 			Last defined <a href="https://www.w3.org/2005/10/Process-20051014/tr.html#last-call">in section 7.4.2 of the 2005 Process</a>.
 
+		<dt>Liaisons between the Advisory Board and the Board of Directors,
+			also known as <i id="ab-bod-liaison">AB Liaisons</i>
+			(retired concept)
+		<dd>
+			Last covered <a href="https://www.w3.org/policies/process/20250818/#ab-bod-liaison">in section 3.3.1.4 of the 2025 Process</a>.
+
 		<dt>
 			<dfn noexport id=maturity-levels>Maturity level</dfn>
 			(renamed term)
