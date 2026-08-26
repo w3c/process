@@ -745,7 +745,7 @@ Role of the Advisory Committee</h4>
 			and <a href="#GAProcess">proposed Process Documents</a>.
 
 		<li>
-			electing the <a href="#AB">Advisory Board</a> participants other than the Advisory Board Chair.
+			electing the <a href="#AB">Advisory Board</a> participants.
 
 		<li>
 			electing a majority (6) of the participants on the <a href="#TAG">Technical Architecture Group</a>.
@@ -919,21 +919,9 @@ Role of the Advisory Board</h5>
 <h5 id="ABParticipation">
 Composition of the Advisory Board</h5>
 
-	The [=Advisory Board=] consists of nine to eleven elected participants and one Chair
-	(who <em class=rfc2119>may</em> be one of the elected participants).
-	With the input of the [=AB=],
-	the [=Team=] appoints the Chair,
-	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
-	Upon appointment,
-	the Chair(s) are subject to ratification by secret ballot,
-	requiring approval by two thirds of the elected participants.
-	Chair selection <em class=rfc2119>must</em> be run
-	at least at the start of each regular term,
-	as well as when a majority of the participants request it;
-	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
-	for example if a chair steps down or if a minority of the participants make such a request.
-
-	The team also appoints a [=Staff Contact=],
+	The [=Advisory Board=] consists of nine to eleven elected participants.
+	
+	The team appoints a [=Staff Contact=],
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Staff Contact have a standing invitation
 	to all regular Advisory Board sessions.
@@ -1022,16 +1010,7 @@ Composition of the Technical Architecture Group</h5>
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
-	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
-	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
-	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
-	Chair selection <em class=rfc2119>must</em> be run
-	at least at the start of each regular term,
-	as well as when a majority of the participants request it;
-	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
-	for example if a chair steps down or if a minority of the participants make such a request.
-
-	The [=Team=] also appoints a <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]] for the TAG,
+	The [=Team=] appoints a <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
@@ -1374,6 +1353,18 @@ Elected Groups Vacated Seats</h5>
 			Except for the number of available seats and the length of the terms,
 			the <a href="#AB-TAG-elections">usual rules for Advisory Board and Technical Architecture Group Elections</a> apply.
 	</ul>
+
+<h5 id="AB-TAG-chairs">
+Elected Groups Chair Selection</h5>
+
+	Participants in the [=AB=] and [=TAG=] choose by consensus their Chair or co-Chairs;
+	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the group.
+	At least one of the Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the group.
+	Chair selection <em class=rfc2119>must</em> be run
+	at least at the start of each regular term,
+	as well as when a majority of the participants request it;
+	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
+	for example if a chair steps down or if a minority of the participants make such a request.
 
 <h3 id="GAGeneral" oldids="ChapterGroups, WG-and-IG">
 Chartered Groups: Working Groups and Interest Groups</h3>
