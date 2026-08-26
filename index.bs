@@ -1360,7 +1360,7 @@ Elected Groups Chair Selection</h5>
 
 	Participants in the [=AB=] and [=TAG=] choose by consensus their Chair or co-Chairs;
 	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the group.
-	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the group.
+	At least one of the Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the group.
 	Chair selection <em class=rfc2119>must</em> be run
 	at least at the start of each regular term,
 	as well as when a majority of the participants request it;
