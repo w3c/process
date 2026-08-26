@@ -919,7 +919,7 @@ Role of the Advisory Board</h5>
 <h5 id="ABParticipation">
 Composition of the Advisory Board</h5>
 
-The [=Advisory Board=] consists of nine to eleven elected participants.
+	The [=Advisory Board=] consists of nine to eleven elected participants.
 	
 	The team appoints a [=Staff Contact=],
 	as described in <a href="#ReqsAllGroups"></a>.
