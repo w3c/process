@@ -5356,7 +5356,7 @@ and include the language that temporarily replaces those provisions.</li>
 Authorized Process Experiments must not:
 
 <ul>
-<li>Alter the rules that give it the Advisory Board the authority to conduct experiments or permanently change a policy.</li>
+<li>Alter the rules that give the Advisory Board the authority to conduct experiments or permanently change a policy.</li>
 <li>Affect the W3C Member Agreement or incorporation documents (bylaws, certificate of incorporation).</li>
 <li>Alter patent policy commitments.</li>
 <li>Have retroactive effect.</li>
