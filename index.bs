@@ -5322,6 +5322,79 @@ Process Evolution</h2>
 	the [[COC|Code of Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
 	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
+<h2 id="process-experimentation">Process Experimentation</h2>
+
+The Advisory Board may authorize Process Experiments.  
+An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
+one or more provisions of an operative policy for the authorized duration and scope of the experiment.
+
+Authorized Process Experiments may be conducted over the Process Document, 
+Patent Policy (in partnership with the PSIG), 
+and Code of Conduct (in partnership with the Positive Work Environment CG), 
+subject to the scope limitations defined below.
+
+<h3>Notification</h3>
+
+The Advisory Boards must notify the Membership and public of its decision to authorize a Process Experiment 
+no less than three weeks before the planned start of the experiment. 
+Provided the experiment remains within <a href="#experiment-scope">scope limitations</a>, 
+the authorization itself is not subject to the usual Formal Objection mechanisms, but it is subject to Advisory Committee Appeal.
+The usual Process safeguards (objections, appeals) remain in place for decisions made during the course of an experiment.
+
+Notification of a Process Experiment Authorization must:
+
+<ul>
+<li>Describe what problem(s) the experiment seeks to address.</li>
+<li>Include hypotheses for how the experiment will address these problems and what success would look like.</li>
+<li>Identify the policy provisions that are temporarily suspended during the experiment, 
+and include the language that temporarily replaces those provisions.</li>
+<li>Specify an end date that may not be more than 1 year after the start date of the experiment.</li>
+</ul>
+
+<h3 id="experiment-scope">Scope limitations</h3>
+
+Authorized Process Experiments must not:
+
+<ul>
+<li>Alter the rules that give it the Advisory Board the authority to conduct experiments or permanently change a policy.</li>
+<li>Affect the W3C Member Agreement or incorporation documents (bylaws, certificate of incorporation).</li>
+<li>Alter patent policy commitments.</li>
+<li>Have retroactive effect.</li>
+</ul>
+
+<h3>Extensions</h3>
+
+An Authorized Process Experiment expires automatically on its specified end date but may be extended at most one time for up to one year. 
+If the Advisory Board wishes to extend an experiment:
+
+<ul>
+<li>the Advisory Board must issue a <a href="#process-experiment-report">Process Experiment Report</a></li>
+<li>the extension must be approved by majority vote of the Advisory Committee by a ballot open for 10 business days at a minimum.</li>
+</ul>
+
+<h3>Process Experiment Reports</h3>
+
+Upon conclusion or termination of a Process Experiment and prior to any extension, 
+the Advisory Board must share a <dfn id="process-experiment-report">Process Experiment Report</dfn> with the Membership and public.
+
+A Process Experiment Report must:
+
+<ul>
+<li>Describe at a high level what happened, what was learned, and what evidence was gathered.</li>
+<li>Indicate whether the hypotheses in the Process Experiment Authorization were supported, 
+and what unexpected events occurred.</li>
+<li>Advise whether the experiment be extended, modified, or proposed for permanent adoption, 
+or should no further action be taken.</li>
+</ul>
+
+<h3>Experiment outcomes</h3>
+
+Not all experiments will be deemed successful or lead to permanent changes to the Process Document. 
+The validity of actions or decisions taken as part of an authorized Process Experiment does not depend on the outcome of the experiment.
+
+An Authorized Process Experiment does not amend the operational policy permanently; 
+making any change permanent requires the usual approval process.
+
 <h2 id="old-terms" class="non-normative nonum">
 Appendix A: Retired Terminology</h2>
 
