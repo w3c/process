@@ -5328,10 +5328,8 @@ The Advisory Board may authorize Process Experiments.
 An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
 one or more provisions of an operative policy for the authorized duration and scope of the experiment.
 
-Authorized Process Experiments may be conducted over the Process Document, 
-Patent Policy (in partnership with the PSIG), 
-and Code of Conduct (in partnership with the Positive Work Environment CG), 
-subject to the scope limitations defined below.
+Authorized Process Experiments may be conducted over the Process Document
+subject to the scope limitations defined below. 
 
 <h3>Notification</h3>
 
@@ -5356,6 +5354,7 @@ and include the language that temporarily replaces those provisions.</li>
 Authorized Process Experiments must not:
 
 <ul>
+<li>Extend to policies included by reference in the Process Document.
 <li>Alter the rules that give the Advisory Board the authority to conduct experiments or permanently change a policy.</li>
 <li>Affect the W3C Member Agreement or incorporation documents (bylaws, certificate of incorporation).</li>
 <li>Alter patent policy commitments.</li>
