@@ -5360,7 +5360,7 @@ Authorized Process Experiments must not:
 <li>Have retroactive effect.</li>
 </ul>
 
-<h3>Extensions</h3>
+<h3 id="experiment-extensions">Extensions</h3>
 
 An Authorized Process Experiment expires automatically on its specified end date but may be extended at most one time for up to one year. 
 If the Advisory Board wishes to extend an experiment:
