@@ -5354,7 +5354,7 @@ and include the language that temporarily replaces those provisions.</li>
 Authorized Process Experiments must not:
 
 <ul>
-<li>Extend to policies included by reference in the Process Document.
+<li>Extend to policies included by reference in the Process Document.</li>
 <li>Alter the rules that give the Advisory Board the authority to conduct experiments or permanently change a policy.</li>
 <li>Alter patent policy commitments.</li>
 <li>Have retroactive effect.</li>
