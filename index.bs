@@ -5370,7 +5370,7 @@ If the Advisory Board wishes to extend an experiment:
 <li>the extension must be approved by majority vote of the Advisory Committee by a ballot open for two weeks at a minimum.</li>
 </ul>
 
-<h3>Process Experiment Reports</h3>
+<h3 id="experiment-reports">Process Experiment Reports</h3>
 
 Upon conclusion or termination of a Process Experiment and prior to any extension, 
 the Advisory Board must share a <dfn id="process-experiment-report">Process Experiment Report</dfn> with the Membership and public.
