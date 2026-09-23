@@ -5352,6 +5352,14 @@ Notification</h3>
 		and what success would look like.
 	* Identify the policy provisions that are temporarily suspended during the experiment,
 		and include the language that temporarily replaces those provisions.
+	* Identify explicitly the parties affected by the experiment.
+	        When an experiment is designed to affect a limited audience
+		(e.g., one Working Group),
+	        the Advisory Board must socialize the experiment with them
+	        before issuing the the formal notification.
+	        When an experiment affects a large audience
+		(e.g., all Working Groups),
+	        the Advisory Board must provide rationale for the more expansive scope.
 	* Specify an end date that may not be more than 1 year after the start date of the experiment.
 
 <h3 id="experiment-scope">
