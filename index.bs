@@ -5396,11 +5396,12 @@ Process Experiment Reports</h3>
 
 <h3 id="experiment-outcomes">Experiment outcomes</h3>
 
-Not all experiments will be deemed successful or lead to permanent changes to the Process Document. 
-The validity of actions or decisions taken as part of an authorized Process Experiment does not depend on the outcome of the experiment.
+	Not all experiments will be deemed successful or lead to permanent changes to the Process Document. 
+	The validity of actions or decisions taken as part of an authorized Process Experiment
+	does not depend on the outcome of the experiment.
 
-An Authorized Process Experiment does not amend the operational policy permanently; 
-making any change permanent requires the usual approval process.
+	An Authorized Process Experiment does not amend the operational policy permanently; 
+	making any change permanent requires the usual approval process.
 
 <h2 id="old-terms" class="non-normative nonum">
 Appendix A: Retired Terminology</h2>
