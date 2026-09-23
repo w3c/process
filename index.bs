@@ -5325,12 +5325,12 @@ Process Evolution</h2>
 <h2 id="process-experimentation">
 Process Experimentation</h2>
 
-The Advisory Board may authorize Process Experiments.  
-An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
-one or more provisions of an operative policy for the authorized duration and scope of the experiment.
+	The Advisory Board may authorize Process Experiments.  
+	An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
+	one or more provisions of an operative policy for the authorized duration and scope of the experiment.
 
-Authorized Process Experiments may be conducted over the Process Document
-subject to the scope limitations defined below. 
+	Authorized Process Experiments may be conducted over the Process Document
+	subject to the scope limitations defined below. 
 
 <h3 id="experiment-notification">Notification</h3>
 
