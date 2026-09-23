@@ -5335,10 +5335,12 @@ Process Experimentation</h2>
 <h3 id="experiment-notification">
 Notification</h3>
 
-The Advisory Boards must notify the Membership and public of its decision to authorize a Process Experiment 
-no less than three weeks before the planned start of the experiment. 
-Provided the experiment remains within <a href="#experiment-scope">scope limitations</a>, 
-the authorization itself is not subject to the usual Formal Objection mechanisms, but it is subject to Advisory Committee Appeal.
+	The Advisory Boards must notify the Membership and public
+	of its decision to authorize a Process Experiment 
+	no less than three weeks before the planned start of the experiment. 
+	Provided the experiment remains within <a href="#experiment-scope">scope limitations</a>, 
+	the authorization itself is not subject to the usual Formal Objection mechanisms,
+	but it is subject to Advisory Committee Appeal.
 The usual Process safeguards (objections, appeals), to the extent they are not themselves modified by the experiment, remain in place for decisions made during the course of an experiment.
 
 Notification of a Process Experiment Authorization must:
