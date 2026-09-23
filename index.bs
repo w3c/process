@@ -5326,7 +5326,7 @@ Process Evolution</h2>
 Process Experimentation</h2>
 
 	The Advisory Board may authorize Process Experiments.  
-	An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
+	An <dfn id="authorized-process-experiment" export>Authorized Process Experiment</dfn> modifies or replaces
 	one or more provisions of an operative policy for the authorized duration and scope of the experiment.
 
 	Authorized Process Experiments may be conducted over the Process Document
@@ -5347,26 +5347,23 @@ Notification</h3>
 
 	Notification of a Process Experiment Authorization must:
 
-	<ul>
-		<li>Describe what problem(s) the experiment seeks to address.
-		<li>Include hypotheses for how the experiment will address these problems and what success would look like.
-		<li>Identify the policy provisions that are temporarily suspended during the experiment, 
-			and include the language that temporarily replaces those provisions.
-		<li>Specify an end date that may not be more than 1 year after the start date of the experiment.
-	</ul>
+	* Describe what problem(s) the experiment seeks to address.
+	* Include hypotheses for how the experiment will address these problems
+		and what success would look like.
+	* Identify the policy provisions that are temporarily suspended during the experiment,
+		and include the language that temporarily replaces those provisions.
+	* Specify an end date that may not be more than 1 year after the start date of the experiment.
 
 <h3 id="experiment-scope">
 Scope limitations</h3>
 
 	Authorized Process Experiments must not:
 
-	<ul>
-		<li>Extend to policies included by reference in the Process Document.
-		<li>Alter the rules that give the Advisory Board the authority to conduct experiments
-			or permanently change a policy.
-	<li>Alter patent policy commitments.
-		<li>Have retroactive effect.
-	</ul>
+	* Extend to policies included by reference in the Process Document.
+	* Alter the rules that give the Advisory Board the authority to conduct experiments
+		or permanently change a policy.
+	* Alter patent policy commitments.
+	* Have retroactive effect.
 
 <h3 id="experiment-extensions">
 Extensions</h3>
@@ -5375,27 +5372,24 @@ Extensions</h3>
 	but may be extended at most one time for up to one year. 
 	If the Advisory Board wishes to extend an experiment:
 
-	<ul>
-		<li>the Advisory Board must issue a [=Process Experiment Report=]
-		<li>the extension must be approved by majority vote of the Advisory Committee
-			by a ballot open for two weeks at a minimum.
-	</ul>
+	* the Advisory Board must issue a [=Process Experiment Report=]
+	* the extension must be approved by majority vote of the Advisory Committee
+		by a ballot open for two weeks at a minimum.
 
 <h3 id="experiment-reports">
 Process Experiment Reports</h3>
 
 	Upon conclusion or termination of a Process Experiment and prior to any extension, 
-	the Advisory Board must share a <dfn id="process-experiment-report">Process Experiment Report</dfn> with the Membership and public.
+	the Advisory Board must share a <dfn id="process-experiment-report">Process Experiment Report</dfn>
+	with the Membership and public.
 
 	A Process Experiment Report must:
 
-	<ul>
-		<li>Describe at a high level what happened, what was learned, and what evidence was gathered.
-		<li>Indicate whether the hypotheses in the Process Experiment Authorization were supported, 
-			and what unexpected events occurred.
-		<li>Advise whether the experiment be extended, modified, or proposed for permanent adoption, 
-			or should no further action be taken.
-	</ul>
+	* Describe at a high level what happened, what was learned, and what evidence was gathered.
+	* Indicate whether the hypotheses in the Process Experiment Authorization were supported,
+		and what unexpected events occurred.
+	* Advise whether the experiment be extended, modified, or proposed for permanent adoption,
+		or should no further action be taken.
 
 <h3 id="experiment-outcomes">
 Experiment outcomes</h3>
