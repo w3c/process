@@ -5322,7 +5322,8 @@ Process Evolution</h2>
 	the [[COC|Code of Conduct]] in the <a href="https://www.w3.org/community/pwe/">Positive Work Environment Community Group</a>,
 	and the Process in the <a href="https://www.w3.org/community/w3process/">W3C Process Community Group</a>.
 
-<h2 id="process-experimentation">Process Experimentation</h2>
+<h2 id="process-experimentation">
+Process Experimentation</h2>
 
 The Advisory Board may authorize Process Experiments.  
 An <dfn id="authorized-process-experiment">Authorized Process Experiment</dfn> modifies or replaces 
