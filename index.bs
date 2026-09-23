@@ -5373,12 +5373,13 @@ Extensions</h3>
 
 	An Authorized Process Experiment expires automatically on its specified end date
 	but may be extended at most one time for up to one year. 
-If the Advisory Board wishes to extend an experiment:
+	If the Advisory Board wishes to extend an experiment:
 
-<ul>
-<li>the Advisory Board must issue a <a href="#process-experiment-report">Process Experiment Report</a></li>
-<li>the extension must be approved by majority vote of the Advisory Committee by a ballot open for two weeks at a minimum.</li>
-</ul>
+	<ul>
+		<li>the Advisory Board must issue a [=Process Experiment Report=]
+		<li>the extension must be approved by majority vote of the Advisory Committee
+			by a ballot open for two weeks at a minimum.
+	</ul>
 
 <h3 id="experiment-reports">
 Process Experiment Reports</h3>
