@@ -5355,7 +5355,8 @@ Notification</h3>
 		<li>Specify an end date that may not be more than 1 year after the start date of the experiment.
 	</ul>
 
-<h3 id="experiment-scope">Scope limitations</h3>
+<h3 id="experiment-scope">
+Scope limitations</h3>
 
 Authorized Process Experiments must not:
 
