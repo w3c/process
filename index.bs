@@ -5384,15 +5384,15 @@ Process Experiment Reports</h3>
 	Upon conclusion or termination of a Process Experiment and prior to any extension, 
 	the Advisory Board must share a <dfn id="process-experiment-report">Process Experiment Report</dfn> with the Membership and public.
 
-A Process Experiment Report must:
+	A Process Experiment Report must:
 
-<ul>
-<li>Describe at a high level what happened, what was learned, and what evidence was gathered.</li>
-<li>Indicate whether the hypotheses in the Process Experiment Authorization were supported, 
-and what unexpected events occurred.</li>
-<li>Advise whether the experiment be extended, modified, or proposed for permanent adoption, 
-or should no further action be taken.</li>
-</ul>
+	<ul>
+		<li>Describe at a high level what happened, what was learned, and what evidence was gathered.
+		<li>Indicate whether the hypotheses in the Process Experiment Authorization were supported, 
+			and what unexpected events occurred.
+		<li>Advise whether the experiment be extended, modified, or proposed for permanent adoption, 
+			or should no further action be taken.
+	</ul>
 
 <h3 id="experiment-outcomes">Experiment outcomes</h3>
 
