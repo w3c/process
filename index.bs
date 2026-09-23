@@ -5341,9 +5341,11 @@ Notification</h3>
 	Provided the experiment remains within <a href="#experiment-scope">scope limitations</a>, 
 	the authorization itself is not subject to the usual Formal Objection mechanisms,
 	but it is subject to Advisory Committee Appeal.
-The usual Process safeguards (objections, appeals), to the extent they are not themselves modified by the experiment, remain in place for decisions made during the course of an experiment.
+	The usual Process safeguards (objections, appeals),
+	to the extent they are not themselves modified by the experiment,
+	remain in place for decisions made during the course of an experiment.
 
-Notification of a Process Experiment Authorization must:
+	Notification of a Process Experiment Authorization must:
 
 <ul>
 <li>Describe what problem(s) the experiment seeks to address.</li>
