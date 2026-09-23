@@ -5365,8 +5365,8 @@ Scope limitations</h3>
 		<li>Alter the rules that give the Advisory Board the authority to conduct experiments
 			or permanently change a policy.
 	<li>Alter patent policy commitments.
-<li>Have retroactive effect.</li>
-</ul>
+		<li>Have retroactive effect.
+	</ul>
 
 <h3 id="experiment-extensions">Extensions</h3>
 
