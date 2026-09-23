@@ -5332,7 +5332,8 @@ Process Experimentation</h2>
 	Authorized Process Experiments may be conducted over the Process Document
 	subject to the scope limitations defined below. 
 
-<h3 id="experiment-notification">Notification</h3>
+<h3 id="experiment-notification">
+Notification</h3>
 
 The Advisory Boards must notify the Membership and public of its decision to authorize a Process Experiment 
 no less than three weeks before the planned start of the experiment. 
