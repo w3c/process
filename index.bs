@@ -821,7 +821,7 @@ Advisory Committee Mailing Lists</h4>
 <h4 id="ACMeetings">
 Advisory Committee Meetings</h4>
 
-	The [=Team=] organizes a <a href="#ftf-meeting">face-to-face meeting</a> for the [=Advisory Committee=]
+	The [=Team=] organizes a <a href="#GeneralMeetings">meeting</a> for the [=Advisory Committee=]
 	<span class="time-interval">twice a year</span>.
 	The [=Team=] appoints the Chair of these meetings (generally the CEO).
 	At each Advisory Committee meeting,
