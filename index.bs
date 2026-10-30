@@ -5360,7 +5360,7 @@ Notification</h3>
 	        When an experiment affects a large audience
 		(e.g., all Working Groups),
 	        the Advisory Board must provide rationale for the more expansive scope.
-	* Specify an end date that may not be more than 1 year after the start date of the experiment.
+	* Specify an end date that must not be more than 1 year after the start date of the experiment.
 
 <h3 id="experiment-scope">
 Scope limitations</h3>
