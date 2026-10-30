@@ -151,7 +151,6 @@ Conformance and specialized terms</h2>
 	for the purpose of understanding this document.
 
 <nav data-fill-with="table-of-contents"></nav>
-<main>
 
 <h2 id="Intro">
 Introduction</h2>
@@ -5868,4 +5867,3 @@ Changes since earlier versions</h3>
 
 }
 </pre>
-</main>
