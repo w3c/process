@@ -5759,6 +5759,9 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">18 Aug
 
 				<li>Remove AB Liaisons to the Board, as the Board has terminated the AB Liaison program.
 					(See <a href="https://github.com/w3c/process/pull/1179">Pull Request 1179</a>)
+
+				<li>Clarify that the Staff Contact and Chairs are member of the TAG and AB
+					(See <a href="https://github.com/w3c/process/issues/1186">Issue 1186</a>)
 			</ul>
 
 		<dt>Changes to Formal Objection handling
