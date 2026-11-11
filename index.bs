@@ -5537,8 +5537,11 @@ Appendix B: Acknowledgments</h2>
 
 	Brent Zundel (Yubico),
 	Chris Needham (BBC),
+	Dan Appelquist (Samsung),
 	Daniel Montalvo (W3C),
 	Elika J. Etemad <abbr title="also known as">aka</abbr> fantasai,
+	François Daoust (W3C),
+	Ian Jacobs (W3C),
 	Jeffrey Yasskin (Google),
 	Nigel Megitt (BBC),
 	Philippe Le Hegaret (W3C),
