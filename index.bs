@@ -31,6 +31,7 @@ ED: https://www.w3.org/policies/process/drafts/
 TR: https://www.w3.org/policies/process/
 Previous Version: https://www.w3.org/policies/process/20250818/
 Editor: Elika J. Etemad / fantasai, Apple, https://fantasai.inkedblade.net/contact
+Editor: Max Gendler, News Corp
 Editor: Florian Rivoal, Invited Expert, https://florian.rivoal.net/
 Former Editor: Natasha Rooney, Invited Expert
 Former Editor: Charles McCathie Nevile, Yandex, https://yandex.com
