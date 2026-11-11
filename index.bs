@@ -3413,7 +3413,7 @@ License Grants from Non-Participants</h4>
 	<em class=rfc2119>must</em> disclose the identity of those parties not already obligated under the Patent Policy.
 	The [=Team=] <em class=rfc2119>must</em> request a recorded royalty-free patent commitment from each identified party.
 	For a substantial contribution in class 4,
-	the [=Team=] <em class=rfc2119>must</a> request and <em>secure</em> a recorded royalty-free patent commitment
+	the [=Team=] <em class=rfc2119>must</em> request and <em>secure</em> a recorded royalty-free patent commitment
 	from each identified party.
 	Such commitment <em class=rfc2119>should</em> cover,
 	at a minimum,
