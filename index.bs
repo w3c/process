@@ -929,8 +929,8 @@ Composition of the Advisory Board</h5>
 			One <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]]
 			chosen by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
 		<li>
-			Up to one Chair
-			appointed by the [=Team=] as described in <a href="#AB-TAG-chairs"></a>.
+			Any Chair of the AB who is not also an elected participant to the group.
+			(See described in [[#AB-TAG-chairs]].)
 	</ul>
 	
 	The CEO has a standing invitation
