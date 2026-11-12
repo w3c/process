@@ -930,7 +930,7 @@ Composition of the Advisory Board</h5>
 			chosen by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
 		<li>
 			Any Chair of the AB who is not also an elected participant to the group.
-			(See described in [[#AB-TAG-chairs]].)
+			(See [[#AB-TAG-chairs]].)
 	</ul>
 	
 	The CEO has a standing invitation
