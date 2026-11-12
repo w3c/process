@@ -1017,7 +1017,7 @@ Composition of the Technical Architecture Group</h5>
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 		<li>
 			One <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]]
-			appointed by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
+			chosen by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
 	</ul>
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
