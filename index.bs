@@ -927,7 +927,7 @@ Composition of the Advisory Board</h5>
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 		<li>
 			One <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]]
-			appointed by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
+			chosen by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
 		<li>
 			Up to one Chair
 			appointed by the [=Team=] as described in <a href="#AB-TAG-chairs"></a>.
