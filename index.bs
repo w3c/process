@@ -5384,7 +5384,7 @@ Extensions</h3>
 	If the Advisory Board wishes to extend an experiment:
 
 	* the Advisory Board <em class=rfc2119>must</em> issue a [=Process Experiment Report=]
-	* the extension <em class=rfc2119>must</em> be approved by majority vote of the Advisory Committee
+	* the extension <em class=rfc2119>must</em> be approved by majority vote of the [=Advisory Committee=]
 		by a ballot open for two weeks at a minimum.
 
 <h3 id="experiment-reports">
