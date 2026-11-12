@@ -2930,6 +2930,7 @@ Determining the W3C Decision</h4>
 Advisory Committee Votes</h3>
 
 	The [=Advisory Committee=] votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
+	on proposed [[#experiment-extensions|extensions]] to [=Authorized Process Experiments=],
 	and in the event of an [=Advisory Committee Appeal=]
 	achieving the required support to trigger an [=appeal vote=].
 	Whenever the [=Advisory Committee=] votes,
@@ -5385,6 +5386,8 @@ Extensions</h3>
 
 	* the Advisory Board <em class=rfc2119>must</em> issue a [=Process Experiment Report=]
 	* the extension <em class=rfc2119>must</em> be approved by majority vote of the [=Advisory Committee=]
+		(i.e., more votes in favor than against),
+		limited to [=Members=] in [=Good Standing=],
 		by a ballot open for two weeks at a minimum.
 
 <h3 id="experiment-reports">
