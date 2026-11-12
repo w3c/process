@@ -5718,7 +5718,7 @@ Changes since the <a href="https://www.w3.org/policies/process/20231103/">18 Aug
 					(See <a href="https://github.com/w3c/process/issues/1187">Issue 1187</a>)
 			</ul>
 
-		<dt>Changes contributing to and publishing Recommendation track documents
+		<dt>Changes to contributing to and publishing Recommendation track documents
 		<dd>
 			<ul>
 				<li>Stop distinguishing between Recommendations that allow new features and those that cannot,
