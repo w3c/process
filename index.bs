@@ -1019,6 +1019,10 @@ Composition of the Technical Architecture Group</h5>
 		<li>
 			One <a href="https://www.w3.org/guide/teamcontact/role">Staff Contact</a> [[TEAM-CONTACT]]
 			chosen by the [=Team=] as described in <a href="#ReqsAllGroups"></a>.
+
+		<li>
+			Any Chair of the TAG who is not also an elected participant to the group.
+			(See described in [[#AB-TAG-chairs]].)
 	</ul>
 
 	The terms of TAG participants last for <span class="time-interval">two years</span>.
