@@ -5386,6 +5386,8 @@ Extensions</h3>
 	* the Advisory Board <em class=rfc2119>must</em> issue a [=Process Experiment Report=]
 	* the extension <em class=rfc2119>must</em> be approved by majority vote of the [=Advisory Committee=]
 		by a ballot open for two weeks at a minimum.
+		A minimum participation of 5% of [=Members=] in [=Good Standing=] is needed
+		for the vote to be effective.
 
 <h3 id="experiment-reports">
 Process Experiment Reports</h3>
