@@ -2930,10 +2930,49 @@ Determining the W3C Decision</h4>
 Advisory Committee Votes</h3>
 
 	The [=Advisory Committee=] votes in <a href="#AB-TAG-elections">elections for seats on the TAG or Advisory Board</a>,
-	and in the event of an [=Advisory Committee Appeal=]
-	achieving the required support to trigger an [=appeal vote=].
+	and [=Qualified Majority Votes=].
 	Whenever the [=Advisory Committee=] votes,
 	each Member or group of [=related Members=] has one vote.
+
+	A <dfn export>Qualified Majority Vote</dfn> of the [=Advisory Committee=]
+	is a vote on a binary question,
+	run under the following rules:
+
+	<ul>
+		<li>
+			Only [=Members=] in [=Good Standing=] can participate.
+
+		<li>
+			Each Member or group of [=related Members=] has one vote.
+
+		<li>
+			Ballots <em class=rfc2119>may</em> be cast by the [=Member=]'s [=Advisory Committee Representative=]
+			or their [=alt AC rep|alternate=].
+
+		<li>
+			The ballot <em class="rfc2119">must</em> allow for three possible responses:
+			“Approve”,
+			“Reject”,
+			and “Abstain”,
+			together with comments.
+
+		<li>
+			The level of support needed for an [=Qualified Majority Vote=] to pass
+			depends on the level of ballot participation
+			(including explicit “Abstain” ballots)
+			among [=Members=] in [=Good Standing=]:
+			* if fewer than 5% participate,
+				the vote fails.
+			* if at least 5% but no more than 15% participate,
+				and the number of “Approve” ballots exceeds three times (3x) the number of “Reject” ballots,
+				the vote passes.
+			* if more than 15% but fewer than 20% participate,
+				and the number of “Approve” ballots exceeds twice (2x) the number of “Reject” ballots,
+				the vote passes.
+			* if 20% or more participate,
+				and the number of “Approve” ballots exceeds the number of “Reject” ballots,
+				the vote passes.
+	</ul>
 
 <h3 id="ACAppeal">
 Appeal by Advisory Committee Representatives</h3>
@@ -2983,28 +3022,7 @@ Appeal by Advisory Committee Representatives</h3>
 	asking the [=Advisory Committee=]
 	“Do you approve of the Decision?”
 	together with links to the decision and the appeal support.
-
-	The ballot <em class="rfc2119">must</em> allow for three possible responses:
-	“Approve”,
-	“Reject”,
-	and “Abstain”,
-	together with Comments.
-
-	The level of support needed for an [=Advisory Committee Appeal=] to pass
-	depends on the level of ballot participation 
-	(including explicit “abstain” ballots) 
-	by [=Advisory Committee Representatives=]:
-	* if fewer than 5% participate,
-		the vote fails.
-	* if at least 5% but no more than 15% participate,
-		and the number of “Approve” ballots exceeds three times (3x) the number of “Reject” ballots,
-		the vote passes.
-	* if more than 15% but fewer than 20% participate,
-		and the number of “Approve” ballots exceeds twice (2x) the number of “Reject” ballots,
-		the vote passes.
-	* if 20% or more participate,
-		and the number of “Approve” ballots exceeds the number of “Reject” ballots,
-		the vote passes.
+	This vote is run as a [=Qualified Majority Vote=].
 
 	If the vote passes,
 	the decision is overturned.
