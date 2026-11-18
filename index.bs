@@ -5331,6 +5331,7 @@ Process Experimentation</h2>
 	The Advisory Board <em class=rfc2119>may</em> authorize Process Experiments.
 	An <dfn id="authorized-process-experiment" export>Authorized Process Experiment</dfn> modifies or replaces
 	one or more provisions of an operative policy for the authorized duration and scope of the experiment.
+	The [=AB=] <em class=rfc211>may</em> terminate an experiment early.
 
 	[=Authorized Process Experiments=] <em class=rfc2119>may</em> be conducted over the Process Document
 	subject to the scope limitations defined below. 
@@ -5342,7 +5343,7 @@ Notification</h3>
 	of its decision to authorize a Process Experiment 
 	no less than three weeks before the planned start of the experiment. 
 	Provided the experiment remains within <a href="#experiment-scope">scope limitations</a>, 
-	the authorization itself is not subject to the usual [=Formal Objection=] mechanisms,
+	the authorization (or termination) itself is not subject to the usual [=Formal Objection=] mechanisms,
 	but it is subject to [=Advisory Committee Appeal=].
 	The usual Process safeguards (objections, appeals),
 	to the extent they are not themselves modified by the experiment,
