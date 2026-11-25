@@ -2957,7 +2957,7 @@ Advisory Committee Votes</h3>
 			together with comments.
 
 		<li>
-			The level of support needed for an [=Qualified Majority Vote=] to pass
+			The level of support needed for a [=Qualified Majority Vote=] to pass
 			depends on the level of ballot participation
 			(including explicit “Abstain” ballots)
 			among [=Members=] in [=Good Standing=]:
