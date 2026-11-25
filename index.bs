@@ -1895,13 +1895,6 @@ Content of a Charter</h3>
 			An estimate of the expected time commitment from participants.
 
 		<li>
-			The expected time commitment and level of involvement by the Team
-			(e.g., to track developments,
-			write and edit technical reports,
-			develop code,
-			or organize pilot experiments).
-
-		<li>
 			Intellectual property information.
 			What are the intellectual property (including patents and copyright)
 			considerations affecting the success of the Group?
